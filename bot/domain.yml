@@ -93,6 +93,7 @@ actions:
   - utter_mask_selfmade
   - utter_mask_wash
   - utter_mask_which
+  - utter_myth_uv_lamp
   - utter_myth_alcohol
   - utter_myth_hold_breath
   - utter_myth_hot_bath
@@ -2340,7 +2341,7 @@ responses:
                 value: Covid-19 und Knoblauch
               - label: Covid-19 und Kochsalzlösung
                 value: Covid-19 und Kochsalzlösung
-  utter_DE_myth_uv_lamp:
+  utter_myth_uv_lamp:
     - custom:
         answers:
           - type: ssml   
