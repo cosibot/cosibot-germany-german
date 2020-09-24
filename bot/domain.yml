@@ -27,7 +27,7 @@ actions:
   - utter_corona_app_obligatory
   - utter_corona_app_why
   - utter_coronavirus_info
-  - utter_covid_aftereffects_immunity
+  - utter_covid_disease_aftereffects_immunity
   - utter_covid_babys_children
   - utter_covid_current_situation
   - utter_covid_current_statistics
@@ -54,7 +54,7 @@ actions:
   - utter_covid_unknown_cases
   - utter_covid_vaccine
   - utter_covid_worry
-  - utter_current_situation
+  # - utter_current_situation
   - utter_economy_consequences
   - utter_germany_consequences
   - utter_germany_current_situation
@@ -81,9 +81,7 @@ actions:
   - utter_gradual_opening_sports
   - utter_gradual_opening_universities
   - utter_gradual_opening_visit_family_friends
-  - utter_greeting_goodbye
 #  - utter_greeting_hello
-  - utter_greeting_how_are_you
   - utter_mask_children
   - utter_mask_control
   - utter_mask_differences
@@ -474,9 +472,7 @@ intents:
   - comment_smart
   - features_date
   - features_time
-  - greeting_goodbye
   - greeting_hello
-  - greeting_how_are_you
 
 responses:
   utter_:
@@ -650,7 +646,7 @@ responses:
               - label: Quarantäne
                 value: Quarantäne
 
-  utter_DE_germany_current_situation:
+  utter_germany_current_situation:
     - custom:
         answers:
           - type: ssml   

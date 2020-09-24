@@ -204,29 +204,29 @@
 - Wo finde ich aktuelle Statistiken?
 - Wo finde ich aktuelle Zahlen?
 - Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
-- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "country_states"}
-- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "country_states"}
-- Infizierte in [Berlin]{"entity": "country_district", "value": "country_states"}
-- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "country_district"}
-- Fälle in [Frankfurt]{"entity": "country_district", "value": "country_district"}
-- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "country_district"} infiziert
-- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "country_district"} gestorben
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "country_district"}
-- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "country_district"}
-- Infizierte in [Bremen]{"entity": "country_district", "value": "country_district"}
+- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "Baden-Württemberg"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "Sachsen"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "Saarland"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "Niedersachsen"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "Hessen"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
+- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "Bayern"}
+- Infizierte in [Berlin]{"entity": "country_district", "value": "Berlin"}
+- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
+- Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
+- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
+- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
+- Infizierte in [Bremen]{"entity": "country_district", "value": "Bremen"}
 - Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
 - Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
 - Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
@@ -251,7 +251,7 @@
 - Wie viele Fälle gibt es in Deutschland
 - Fälle in Berlin
 - Infektionen in Berlin
-- Infektionen in Hamburg
+- Infektionen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Wie viele sind erkrankt
 - gibt es irgendwelche pauschalen zahlen
 - Wieviele Fälle gibt es momentan
@@ -284,7 +284,7 @@
 - Fälle in [Bremen]{"entity": "country_district", "value": "Bremen"}
 - Todesfälle in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
-- Fälle in [England]{"entity": "country_code", "value": "EN"}
+- Fälle in [England]{"entity": "country_code", "value": "GB"}
 - Krankheitsfälle in [Hessen]{"entity": "country_district", "value": "Hessen"}
 - Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
 - Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}?
@@ -1895,7 +1895,7 @@
 - Wie viele Infizierte sind in [Neuseeland]{"entity": "country_code", "value": "NZ"} enthalten?
 - Aktive Fälle in [Kolumbien]{"entity": "country_code", "value": "CO"}.
 - Wie viele Menschen sind in [Frankreich]{"entity": "country_code", "value": "FR"} bis zu diesem Datum infiziert?
-- Wie viele aktive Fälle sind in [England]{"entity": "country_code", "value": "EN"} enthalten?
+- Wie viele aktive Fälle sind in [England]{"entity": "country_code", "value": "GB"} enthalten?
 - Wie viele infizierte Personen sind in [Mexiko]{"entity": "country_code", "value": "MX"}?
 - Wie viele Menschen sind in [Bolivien]{"entity": "country_code", "value": "BO"} infiziert?
 - Wie viele aktive Fälle von Covid sind in [Marokko]{"entity": "country_code", "value": "MA"}?
@@ -1903,15 +1903,15 @@
 
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
-- Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "EN"}?
+- Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "GB"}?
 - Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
 - Kritische Fälle in [Jordanien]{"entity": "country_code", "value": "JO"}.
 - Wie viele kritische Fälle in [Tschechien]{"entity": "country_code", "value": "CZ"}?
-- Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "EN"}?
+- Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "GB"}?
 - Wie viele Personen befinden sich in [Kanada]{"entity": "country_code", "value": "CA"} in einem kritischen Zustand?
 - Wie viele kritische Fälle sind in [Peru]{"entity": "country_code", "value": "PE"} enthalten?
-- Wie viele Personen in kritischem Zustand sind in [England]{"entity": "country_code", "value": "EN"}?
-- Kritischer Zustand in [England]{"entity": "country_code", "value": "EN"}.
+- Wie viele Personen in kritischem Zustand sind in [England]{"entity": "country_code", "value": "GB"}?
+- Kritischer Zustand in [England]{"entity": "country_code", "value": "GB"}.
 - Wieviele Personen in [Spanien]{"entity": "country_code", "value": "ES"} sind im kritischen Zustand?
 - Personen in kritischem Zustand in [Großbritannien]{"entity": "country_code", "value": "GB"}.
 - Infizierte in kritischem Zustand in [Griechenland]{"entity": "country_code", "value": "GR"}.
@@ -2205,7 +2205,7 @@
 - Ich mache mir sehr sorgen
 - Angst vor Kowit 19
 
-## intent:current_situation
+## intent:covid_current_situation
 - Situation in anderen Ländern
 - Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
 - Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
@@ -2330,7 +2330,7 @@
 - cookit 19 Deutschland
 - Corona in Brandenburg
 - Corona in Bremen
-- Corona in Hamburg
+- Corona in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Derzeitige Situation Deutschlands
 - Corona in Mecklenburg-Vorpommern
 - Corona in Mecklenburg Vorpommern
@@ -2391,7 +2391,7 @@
 - Coronavirus in Nordrhein-Westfalen
 - Coronavirus in Rheinland-Pfalz
 - Coronavirus in Mecklenburg-Vorpommern
-- Coronavirus in Hamburg
+- Coronavirus in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Coronavirus in Bremen
 - Coronavirus in Brandenburg
 - Coronavirus in Berlin
@@ -2820,7 +2820,7 @@
 - Welche Maßnahmen gibt es jetzt in Hessen
 - Darf man jetzt in Hessen noch rausgehen?
 - Gibt es Kontaktverbot in [Magyarország]{"entity": "country_code", "value": "HU"}
-- Kontaktverbot in [England]{"entity": "country_code", "value": "EN"}
+- Kontaktverbot in [England]{"entity": "country_code", "value": "GB"}
 - Gibt es Kontakt Verbot in Hessen
 - Gibt es Sperre in Hessen
 - Gibt es Ausgangs Sperre in Hessen
@@ -2837,15 +2837,15 @@
 - Gibt es Sperre in Baden-Württemberg
 - Gibt es Ausgangs Sperre in Baden-Württemberg
 - Gibt es jetzt Ausgangssperre in Berlin?
-- In Berlin ist eine Ausgeheinschränkung
+- In [Berlin]{"entity": "country_district", "value": "Berlin"} ist eine Ausgeheinschränkung
 - Ausgngssperre in Berlin
 - Ausgangssperre in Berlin
 - Was sind die Maßnahmen in Berlin
 - Was sind die Vorbereitungen in Berlin
 - Welche Maßnahmen gibt es jetzt in Berlin
-- Darf man jetzt in [England]{"entity": "country_code", "value": "EN"} noch rausgehen?
-- Kontaktbeschränkung in [England]{"entity": "country_code", "value": "EN"}
-- Maßnahmen in [England]{"entity": "country_code", "value": "EN"}
+- Darf man jetzt in [England]{"entity": "country_code", "value": "GB"} noch rausgehen?
+- Kontaktbeschränkung in [England]{"entity": "country_code", "value": "GB"}
+- Maßnahmen in [England]{"entity": "country_code", "value": "GB"}
 - Gibt es Kontakt Verbot in [Lībiyā]{"entity": "country_code", "value": "LY"}
 - Gibt es Sperre in Berlin
 - Gibt es Ausgangs Sperre in Berlin
@@ -2854,9 +2854,9 @@
 - Ausgngssperre in Brandenburg
 - Ausgangssperre in Brandenburg
 - Lockerung der Maßnahmen in [Al-Baḥrayn]{"entity": "country_code", "value": "BH"}
-- Schrittweise Öffnung von in [England]{"entity": "country_code", "value": "EN"}
+- Schrittweise Öffnung von in [England]{"entity": "country_code", "value": "GB"}
 - Schrittweise Lockerung von in [Bolivien]{"entity": "country_code", "value": "BO"}
-- Schrittweise Öffnung der Gastronomie in [England]{"entity": "country_code", "value": "EN"}
+- Schrittweise Öffnung der Gastronomie in [England]{"entity": "country_code", "value": "GB"}
 - Was sind die Maßnahmen in Brandenburg
 - Was sind die Vorbereitungen in Brandenburg
 - Welche Maßnahmen gibt es jetzt in Brandenburg
@@ -2877,18 +2877,18 @@
 - Gibt es Kontakt Verbot in Bremen
 - Gibt es Sperre in Bremen
 - Gibt es Ausgangs Sperre in Bremen
-- Gibt es jetzt Ausgangssperre in Hamburg?
-- In Hamburg ist eine Ausgeheinschränkung
-- Ausgngssperre in Hamburg
-- Ausgangssperre in Hamburg
-- Was sind die Maßnahmen in Hamburg
-- Was sind die Vorbereitungen in Hamburg
-- Welche Maßnahmen gibt es jetzt in Hamburg
-- Darf man jetzt in Hamburg noch rausgehen?
-- Gibt es Kontaktverbot in Hamburg
-- Gibt es Kontakt Verbot in Hamburg
-- Gibt es Sperre in Hamburg
-- Gibt es Ausgangs Sperre in Hamburg
+- Gibt es jetzt Ausgangssperre in [Hamburg]{"entity": "country_district", "value": "Hamburg"}?
+- In [Hamburg]{"entity": "country_district", "value": "Hamburg"} ist eine Ausgeheinschränkung
+- Ausgngssperre in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Ausgangssperre in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Was sind die Maßnahmen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Was sind die Vorbereitungen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Welche Maßnahmen gibt es jetzt in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Darf man jetzt in [Hamburg]{"entity": "country_district", "value": "Hamburg"} noch rausgehen?
+- Gibt es Kontaktverbot in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Gibt es Kontakt Verbot in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Gibt es Sperre in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Gibt es Ausgangs Sperre in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Corona-Regelungen in den Bundesländern
 - Kontaktbeschränkung in Bayern
 - Gibt es jetzt Ausgangssperre in Mecklenburg Vorpommern?
@@ -5650,11 +5650,11 @@
 - darf ich reisen?
 - Darf man noch ins Ausland reisen?
 - Dürfen Bundesbürger noch ins Ausland reisen?
-- Ich will in [England]{"entity": "country_code", "value": "EN"} Urlaub machen.
-- Ich habe eine Pauschalreise nach [England]{"entity": "country_code", "value": "EN"} geplant.
+- Ich will in [England]{"entity": "country_code", "value": "GB"} Urlaub machen.
+- Ich habe eine Pauschalreise nach [England]{"entity": "country_code", "value": "GB"} geplant.
 - Dürfen Bundesbürger ins Ausland reisen?
-- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "EN"} machen?
-- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "EN"} beachten?
+- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "GB"} machen?
+- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "GB"} beachten?
 - Reisevorbereitung.
 - Kann ich ungehindert einreisen?
 - Reise und Sicherheitshinweise
@@ -5662,9 +5662,9 @@
 - Kann ich verreisen?
 - Reisen Sie vorher.
 - Vorher reisen.
-- Ich will nach [England]{"entity": "country_code", "value": "EN"} reisen.
+- Ich will nach [England]{"entity": "country_code", "value": "GB"} reisen.
 - Darf ich Urlaub machen?
-- Kann ich jetzt noch nach [England]{"entity": "country_code", "value": "EN"} reisen?
+- Kann ich jetzt noch nach [England]{"entity": "country_code", "value": "GB"} reisen?
 - Kann ich in den Urlaub?
 - Kann ich reisen?
 - Ich plane in meinem Urlaub zu reisen.
@@ -5678,10 +5678,10 @@
 - Ich habe vor zu reisen.
 - Ich plane eine Reise.
 - Ich werde reisen.
-- Kann ich noch nach [England]{"entity": "country_code", "value": "EN"}?
-- Darf ich nach [England]{"entity": "country_code", "value": "EN"} reisen?
-- Ich habe einen Urlaub in [England]{"entity": "country_code", "value": "EN"} geplant.
-- Reise nach [England]{"entity": "country_code", "value": "EN"}
+- Kann ich noch nach [England]{"entity": "country_code", "value": "GB"}?
+- Darf ich nach [England]{"entity": "country_code", "value": "GB"} reisen?
+- Ich habe einen Urlaub in [England]{"entity": "country_code", "value": "GB"} geplant.
+- Reise nach [England]{"entity": "country_code", "value": "GB"}
 - Darf ich nach fliegen?
 - Ukraine Einreise
 - Was soll ich vor meiner Reise beachten?
@@ -5796,7 +5796,7 @@
 - Ist ein Test zwingend notwendig wenn ich gerade aus [Österreich]{"entity": "country_code", "value": "AT"} zurückgekommen bin?
 - Ist es nötig mich testen zu lassen wenn ich gerade aus [Kuba]{"entity": "country_code", "value": "CU"} komme?
 - Muss ich mich testen wenn ich gerade aus [Kanada]{"entity": "country_code", "value": "CA"} zurückgekommen bin?
-- Ich komme gerade aus [England]{"entity": "country_code", "value": "EN"}, muss ich einen Test machen?
+- Ich komme gerade aus [England]{"entity": "country_code", "value": "GB"}, muss ich einen Test machen?
 - Ist ein Test nötig wenn ich gerade in [Jordanien]{"entity": "country_code", "value": "JO"} war?
 - Ich habe gerade eine Reise durch [Italien]{"entity": "country_code", "value": "IT"} gemacht, ist ein Test nötig?
 - Sollen Personen, die gerade in [Israel]{"entity": "country_code", "value": "IL"} waren, einen Test machen?
@@ -7619,7 +7619,7 @@
 - Kennst du Fun Facts?
 	
 ## intent:cc_geography
-- Erzähl mir was über [England]{"entity": "country_code", "value": "EN"}
+- Erzähl mir was über [England]{"entity": "country_code", "value": "GB"}
 - Sag mir was über [Frankreich]{"entity": "country_code", "value": "FR"}
 - Ich hätte gern etwas über [Spanien]{"entity": "country_code", "value": "ES"} gewusst.
 - Erzähle mir etwas über [Italien]{"entity": "country_code", "value": "IT"}
@@ -11790,7 +11790,7 @@
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asia]{"entity": "world_region", "value": "Asia"}
 - [Africa]{"entity": "world_region", "value": "Africa"}
-- [Amerika]{"entity": "world_region", "value": "America"}
+- [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
 
@@ -11801,59 +11801,6 @@
 - Saṅghīya Lokatāntrik Gaṇatantra Nepāl
 - República Democrática Federal do Nepal
 
-## synonym:sex
-- sex
-- sexual
-- virginity
-- virgin
-- pornography
-- blow job
-- bonk
-- buggery
-- anal
-- carnal
-- climax
-- orgasm
-- coitus
-- cottaging
-- cybersex
-- ejaculation
-- ejaculating
-- ejaculate
-- fuck
-- gang bang
-- hanky-panky
-- intercourse
-- ménage à trois
-- nookie
-- one-night stand
-- oral sex
-- penetration
-- sodomy
-- threesome
-- tits
-- penis
-- wang
-- weenie
-- whang
-- vagina
-
-## synonym:website
-- page
-- web sites
-- web site
-- web pages
-- web page
-- links
-- link
-- webpages
-- homepage
-- webpage
-- websites
-- sites
-- site
-- website
-
 ## synonym:IT
 - Italy
 - Italia
@@ -11861,13 +11808,6 @@
 - Repubblica Italiana
 - Itália
 - República Italiana
-
-## synonym:uv lamp
-- uv lamps
-- ultraviolet disinfection lamp
-- ultraviolet disinfection lamps
-- ultraviolet lamp
-- ultraviolet lamps
 
 ## synonym:GG
 - Guernsey
@@ -11937,27 +11877,6 @@
 - Nihon-koku
 - Japão
 - Estado do Japão
-
-## synonym:joke
-- humorist
-- comical
-- humourous
-- comedic
-- comedian
-- entertaining
-- humorous
-- amusing
-- comedy
-- humor
-- prank
-- humour
-- pranks
-- jokes
-- joking
-- joke
-- medy
-- prank
-- pranks
 
 ## synonym:CO
 - Colombia

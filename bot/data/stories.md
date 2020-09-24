@@ -1,4 +1,4 @@
-## start
+<!-- ## start
 * start
   - utter_start
 
@@ -8,7 +8,7 @@
 
 ## start-dialogue
 * start-dialogue
-  - utter_start-dialogue
+  - utter_start-dialogue -->
 
 ## corona_app_developers
 * corona_app_developers
@@ -138,10 +138,6 @@
 * covid_worry
   - utter_covid_worry
 
-## current_situation
-* current_situation
-  - utter_current_situation
-
 ## economy_consequences
 * economy_consequences
   - utter_economy_consequences
@@ -198,10 +194,6 @@
 * germany_spread_water
   - utter_germany_spread_water
 
-## germany_train
-* germany_train
-  - utter_germany_train
-
 ## gradual_opening_barbecue
 * gradual_opening_barbecue
   - utter_gradual_opening_barbecue
@@ -209,14 +201,6 @@
 ## gradual_opening_cinema_concert_theatre
 * gradual_opening_cinema_concert_theatre
   - utter_gradual_opening_cinema_concert_theatre
-
-## gradual_opening_football_league
-* gradual_opening_football_league
-  - utter_gradual_opening_football_league
-
-## gradual_opening_hairdressers
-* gradual_opening_hairdressers
-  - utter_gradual_opening_hairdressers
 
 ## gradual_opening_museum
 * gradual_opening_museum
@@ -402,10 +386,6 @@
 * sources
   - utter_sources
 
-## spread_air
-* spread_air
-  - utter_spread_air
-
 ## spread_animals
 * spread_animals
   - utter_spread_animals
@@ -489,10 +469,6 @@
 ## travel_within_germany
 * travel_within_germany
   - utter_travel_within_germany
-
-## company_about
-* company_about
-  - utter_company_about
 
 ## bot_achievement
 * bot_achievement
@@ -898,18 +874,6 @@
 * comment_smart
   - utter_comment_smart
 
-## contacts_address
-* contacts_address
-  - utter_contacts_address
-
-## contacts_email
-* contacts_email
-  - utter_contacts_email
-
-## contacts_generic
-* contacts_generic
-  - utter_contacts_generic
-
 ## features_date
 * features_date
   - utter_features_date
@@ -918,15 +882,4 @@
 * features_time
   - utter_features_time
 
-## greeting_goodbye
-* greeting_goodbye
-  - utter_greeting_goodbye
-
-## greeting_hello
-* greeting_hello
-  - utter_greeting_hello
-
-## greeting_how_are_you
-* greeting_how_are_you
-  - utter_greeting_how_are_you
 
