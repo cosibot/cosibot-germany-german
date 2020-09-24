@@ -222,10 +222,8 @@ actions:
   - utter_contacts_generic
   - utter_features_date
   - utter_features_time
-  - utter_greeting_goodbye
   - utter_greeting_hello_introduced_false
   - utter_greeting_hello_introduced_true
-  - utter_greeting_how_are_you
   - utter_user_angry
   - utter_user_dont_know
   - utter_user_dont_understand
@@ -487,9 +485,6 @@ intents:
   - contacts_generic
   - features_date
   - features_time
-  - greeting_goodbye
-  - greeting_hello
-  - greeting_how_are_you
 
 responses:
 
