@@ -4,7 +4,7 @@ slots:
     initial_value: false
   bot_name:
     type: unfeaturized
-    initial_value: Apurina
+    initial_value: Helena
   bot_version:
     type: unfeaturized
     initial_value: 0-0-3
@@ -14,8 +14,8 @@ slots:
     type: text
 
 entities:
-  - geography
-  - product_type
+  - country_code
+  - country_district
 
 actions:
   - action_check_Bot_Introduced

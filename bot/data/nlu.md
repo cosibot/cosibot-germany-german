@@ -203,34 +203,34 @@
 - Aktuelle Nummern
 - Wo finde ich aktuelle Statistiken?
 - Wo finde ich aktuelle Zahlen?
-- Wie viele Menschen sind in [Thüringen]{"entity": "geography", "value": "Thüringen"} gestorben
-- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Sachsen]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Saarland]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Hessen]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Bremen]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "geography", "value": "country_states"}
-- Wie viele Infizierte gibt es in [Berlin]{"entity": "geography", "value": "country_states"}
-- Wie viele Fälle hat [Bayern]{"entity": "geography", "value": "country_states"}
-- Infizierte in [Berlin]{"entity": "geography", "value": "country_states"}
-- Todesfälle in [Darmstadt]{"entity": "geography", "value": "country_district"}
-- Fälle in [Frankfurt]{"entity": "geography", "value": "country_district"}
-- Wie viele Menschen sind in [München]{"entity": "geography", "value": "country_district"} infiziert
-- Wie viele Menschen sind in [Köln]{"entity": "geography", "value": "country_district"} gestorben
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "geography", "value": "country_district"}
-- Wie viele Fälle hat [Düsseldorf]{"entity": "geography", "value": "country_district"}
-- Infizierte in [Bremen]{"entity": "geography", "value": "country_district"}
-- Wie viele Menschen sind in [Indien]{"entity": "geography", "value": "country"} gestorben
-- Wie viele Infizierte gibt es in [Frankreich]{"entity": "geography", "value": "country"}
-- Wie viele Fälle hat [Ecuador]{"entity": "geography", "value": "country"}
-- Infizierte in [Dänemark]{"entity": "geography", "value": "country"}
+- Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
+- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "country_states"}
+- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "country_states"}
+- Infizierte in [Berlin]{"entity": "country_district", "value": "country_states"}
+- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "country_district"}
+- Fälle in [Frankfurt]{"entity": "country_district", "value": "country_district"}
+- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "country_district"} infiziert
+- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "country_district"} gestorben
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "country_district"}
+- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "country_district"}
+- Infizierte in [Bremen]{"entity": "country_district", "value": "country_district"}
+- Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
+- Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
+- Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
+- Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
 - Wieviele Menschen sind am Coronavirus erkrankt?
 - wie viele Menschen sind in Deutschland krank
 - wie viele Menschen sind in Deutschland betroffen
@@ -280,23 +280,23 @@
 - Statistiken pro Bundesland
 - Zahl der Infizierten im Landkreis
 - Wie viele Opfer
-- Wie viele Menschen sind in [Brandenburg]{"entity": "geography", "value": "country_states"} infiziert
-- Fälle in [Bremen]{"entity": "geography", "value": "country_states"}
-- Todesfälle in [Hamburg]{"entity": "geography", "value": "country_states"}
-- Wie viele Menschen sind in [Spanien]{"entity": "geography", "value": "country"} infiziert
-- Fälle in [England]{"entity": "geography", "value": "country"}
-- Krankheitsfälle in [Hessen]{"entity": "geography", "value": "country_states"}
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "geography", "value": "country_states"}?
-- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "geography", "value": "country_states"}?
-- Todesfälle in [Schweden]{"entity": "geography", "value": "country"}
-- Krankheitsfälle in [Norwegen]{"entity": "geography", "value": "country"}
+- Wie viele Menschen sind in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"} infiziert
+- Fälle in [Bremen]{"entity": "country_district", "value": "Bremen"}
+- Todesfälle in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
+- Fälle in [England]{"entity": "country_code", "value": "EN"}
+- Krankheitsfälle in [Hessen]{"entity": "country_district", "value": "Hessen"}
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}?
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}?
+- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_district", "value": "Saarland"}?
+- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_district", "value": "Sachsen"}?
+- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}?
+- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}?
+- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_district", "value": "Thüringen"}?
+- Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
+- Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
 - Wie viel infiziert
 - Wie viele Infizierte gibt es
 - Wie viele Infizierte
@@ -328,7 +328,7 @@
 - cupid 19 aktuelle Zahlen
 - qubeat 19 aktuelle Statistiken
 - wie schauen die zahlen in deutschland aus
-- wie schauen die zahlen in [Frankreich]{"entity": "geography", "value": "country"} aus
+- wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
 - Anzahl Tote
 - Fälle im Landkreis
 - Kurve von Corona in
@@ -1892,29 +1892,29 @@
 - Wird die Aktivität von SARS-CoV-2 saisonal beeinflusst?
 
 ## intent:covid_situation_infected
-- Wie viele Infizierte sind in [England]{"entity": "geography", "value": "country_code"} enthalten?
-- Aktive Fälle in [England]{"entity": "geography", "value": "country_code"}.
-- Wie viele Menschen sind in [England]{"entity": "geography", "value": "country_code"} bis zu diesem Datum infiziert?
-- Wie viele aktive Fälle sind in [England]{"entity": "geography", "value": "country_code"} enthalten?
-- Wie viele infizierte Personen sind in [England]{"entity": "geography", "value": "country_code"}?
-- Wie viele Menschen sind in [England]{"entity": "geography", "value": "country_code"} infiziert?
-- Wie viele aktive Fälle von Covid sind in [England]{"entity": "geography", "value": "country_code"}?
-- Wie viele aktive Fälle sind in [England]{"entity": "geography", "value": "country_code"}?
+- Wie viele Infizierte sind in [Neuseeland]{"entity": "country_code", "value": "NZ"} enthalten?
+- Aktive Fälle in [Kolumbien]{"entity": "country_code", "value": "CO"}.
+- Wie viele Menschen sind in [Frankreich]{"entity": "country_code", "value": "FR"} bis zu diesem Datum infiziert?
+- Wie viele aktive Fälle sind in [England]{"entity": "country_code", "value": "EN"} enthalten?
+- Wie viele infizierte Personen sind in [Mexiko]{"entity": "country_code", "value": "MX"}?
+- Wie viele Menschen sind in [Bolivien]{"entity": "country_code", "value": "BO"} infiziert?
+- Wie viele aktive Fälle von Covid sind in [Marokko]{"entity": "country_code", "value": "MA"}?
+- Wie viele aktive Fälle sind in [Portugal]{"entity": "country_code", "value": "PT"}?
 
 ## intent:covid_situation_infected_critical
-- Personen in einem kritischen Fall in [England]{"entity": "geography", "value": "country_code"}.
-- Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "geography", "value": "country_code"}?
-- Wie viele Menschen befinden sich in [England]{"entity": "geography", "value": "country_code"} in kritischem Zustand
-- Kritische Fälle in [England]{"entity": "geography", "value": "country_code"}.
-- Wie viele kritische Fälle in [England]{"entity": "geography", "value": "country_code"}?
-- Wie viele Personen in kritischem Zustand in [England]{"entity": "geography", "value": "country_code"}?
-- Wie viele Personen befinden sich in [England]{"entity": "geography", "value": "country_code"} in einem kritischen Zustand?
-- Wie viele kritische Fälle sind in [England]{"entity": "geography", "value": "country_code"} enthalten?
-- Wie viele Personen in kritischem Zustand sind in [England]{"entity": "geography", "value": "country_code"}?
-- Kritischer Zustand in [England]{"entity": "geography", "value": "country_code"}.
-- Wieviele Personen in [England]{"entity": "geography", "value": "country_code"} sind im kritischen Zustand?
-- Personen in kritischem Zustand in [England]{"entity": "geography", "value": "country_code"}.
-- Infizierte in kritischem Zustand in [England]{"entity": "geography", "value": "country_code"}.
+- Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "EN"}?
+- Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
+- Kritische Fälle in [Jordanien]{"entity": "country_code", "value": "JO"}.
+- Wie viele kritische Fälle in [Tschechien]{"entity": "country_code", "value": "CZ"}?
+- Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "EN"}?
+- Wie viele Personen befinden sich in [Kanada]{"entity": "country_code", "value": "CA"} in einem kritischen Zustand?
+- Wie viele kritische Fälle sind in [Peru]{"entity": "country_code", "value": "PE"} enthalten?
+- Wie viele Personen in kritischem Zustand sind in [England]{"entity": "country_code", "value": "EN"}?
+- Kritischer Zustand in [England]{"entity": "country_code", "value": "EN"}.
+- Wieviele Personen in [Spanien]{"entity": "country_code", "value": "ES"} sind im kritischen Zustand?
+- Personen in kritischem Zustand in [Großbritannien]{"entity": "country_code", "value": "GB"}.
+- Infizierte in kritischem Zustand in [Griechenland]{"entity": "country_code", "value": "GR"}.
 
 ## intent:covid_surfaces
 - Wie lange überlebt der Virus auf Oberflächen?
@@ -2207,23 +2207,23 @@
 
 ## intent:current_situation
 - Situation in anderen Ländern
-- Ich fliege über [Türkei]{"entity": "geography", "value": "country"}, werde ich Probleme bekommen?
-- Und wie ist es in [Frankreich]{"entity": "geography", "value": "country"}?
-- Wie sieht die Situation in [Russland]{"entity": "geography", "value": "country"} aus?
-- Welche Maßnahmen werden in [Polen]{"entity": "geography", "value": "country"} getroffen?
-- Wie ist die Lage in [Brasilien]{"entity": "geography", "value": "country"}?
-- Die derzeitige Situation in [Amerika]{"entity": "geography", "value": "country"}
-- Wie sieht es mit [Peru]{"entity": "geography", "value": "country"} aus?
-- Was ist mit [Bolivien]{"entity": "geography", "value": "country"}?
-- Momentane Lage in [Indien]{"entity": "geography", "value": "country"}
-- Wie sieht's in [Südafrika]{"entity": "geography", "value": "country"} aus
-- Wie ist es jetzt in [Neuseeland]{"entity": "geography", "value": "country"}
+- Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
+- Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
+- Wie sieht die Situation in [Russland]{"entity": "country_code", "value": "RU"} aus?
+- Welche Maßnahmen werden in [Polen]{"entity": "country_code", "value": "PL"} getroffen?
+- Wie ist die Lage in [Brasilien]{"entity": "country_code", "value": "BR"}?
+- Die derzeitige Situation in [Amerika]{"entity": "country_code", "value": "US"}
+- Wie sieht es mit [Peru]{"entity": "country_code", "value": "PE"} aus?
+- Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
+- Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
+- Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
+- Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
 - Lage in anderen Ländern
-- Wie ist der Zustand in [Australien]{"entity": "geography", "value": "country"}
-- Ich habe Zwischenstopp in [Mexiko]{"entity": "geography", "value": "country"}
+- Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
+- Ich habe Zwischenstopp in [Mexiko]{"entity": "country_code", "value": "MX"}
 - Wie ist die Situation weltweit
-- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "geography", "value": "country"} aus?
-- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "geography", "value": "country"}?
+- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
+- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
 
 ## intent:economy_consequences
 - Welche wirtschaftlichen Konsequenzen wird das haben
@@ -2819,8 +2819,8 @@
 - Was sind die Vorbereitungen in Hessen
 - Welche Maßnahmen gibt es jetzt in Hessen
 - Darf man jetzt in Hessen noch rausgehen?
-- Gibt es Kontaktverbot in [England]{"entity": "geography", "value": "country_states"}
-- Kontaktverbot in [England]{"entity": "geography", "value": "country_states"}
+- Gibt es Kontaktverbot in [Magyarország]{"entity": "country_code", "value": "HU"}
+- Kontaktverbot in [England]{"entity": "country_code", "value": "EN"}
 - Gibt es Kontakt Verbot in Hessen
 - Gibt es Sperre in Hessen
 - Gibt es Ausgangs Sperre in Hessen
@@ -2843,20 +2843,20 @@
 - Was sind die Maßnahmen in Berlin
 - Was sind die Vorbereitungen in Berlin
 - Welche Maßnahmen gibt es jetzt in Berlin
-- Darf man jetzt in [England]{"entity": "geography", "value": "country_states"} noch rausgehen?
-- Kontaktbeschränkung in [England]{"entity": "geography", "value": "country_states"}
-- Maßnahmen in [England]{"entity": "geography", "value": "country_states"}
-- Gibt es Kontakt Verbot in [England]{"entity": "geography", "value": "country_states"}
+- Darf man jetzt in [England]{"entity": "country_code", "value": "EN"} noch rausgehen?
+- Kontaktbeschränkung in [England]{"entity": "country_code", "value": "EN"}
+- Maßnahmen in [England]{"entity": "country_code", "value": "EN"}
+- Gibt es Kontakt Verbot in [Lībiyā]{"entity": "country_code", "value": "LY"}
 - Gibt es Sperre in Berlin
 - Gibt es Ausgangs Sperre in Berlin
 - Gibt es jetzt Ausgangssperre in Brandenburg?
 - In Brandenburg ist eine Ausgeheinschränkung
 - Ausgngssperre in Brandenburg
 - Ausgangssperre in Brandenburg
-- Lockerung der Maßnahmen in [England]{"entity": "geography", "value": "country_states"}
-- Schrittweise Öffnung von in [England]{"entity": "geography", "value": "country_states"}
-- Schrittweise Lockerung von in [England]{"entity": "geography", "value": "country_states"}
-- Schrittweise Öffnung der Gastronomie in [England]{"entity": "geography", "value": "country_states"}
+- Lockerung der Maßnahmen in [Al-Baḥrayn]{"entity": "country_code", "value": "BH"}
+- Schrittweise Öffnung von in [England]{"entity": "country_code", "value": "EN"}
+- Schrittweise Lockerung von in [Bolivien]{"entity": "country_code", "value": "BO"}
+- Schrittweise Öffnung der Gastronomie in [England]{"entity": "country_code", "value": "EN"}
 - Was sind die Maßnahmen in Brandenburg
 - Was sind die Vorbereitungen in Brandenburg
 - Welche Maßnahmen gibt es jetzt in Brandenburg
@@ -5650,11 +5650,11 @@
 - darf ich reisen?
 - Darf man noch ins Ausland reisen?
 - Dürfen Bundesbürger noch ins Ausland reisen?
-- Ich will in [England]{"entity": "geography", "value": "country"} Urlaub machen.
-- Ich habe eine Pauschalreise nach [England]{"entity": "geography", "value": "country"} geplant.
+- Ich will in [England]{"entity": "country_code", "value": "EN"} Urlaub machen.
+- Ich habe eine Pauschalreise nach [England]{"entity": "country_code", "value": "EN"} geplant.
 - Dürfen Bundesbürger ins Ausland reisen?
-- Was muss ich vor meiner Reise nach [England]{"entity": "geography", "value": "country"} machen?
-- Was muss ich vor meiner Reise nach [England]{"entity": "geography", "value": "country"} beachten?
+- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "EN"} machen?
+- Was muss ich vor meiner Reise nach [England]{"entity": "country_code", "value": "EN"} beachten?
 - Reisevorbereitung.
 - Kann ich ungehindert einreisen?
 - Reise und Sicherheitshinweise
@@ -5662,9 +5662,9 @@
 - Kann ich verreisen?
 - Reisen Sie vorher.
 - Vorher reisen.
-- Ich will nach [England]{"entity": "geography", "value": "country"} reisen.
+- Ich will nach [England]{"entity": "country_code", "value": "EN"} reisen.
 - Darf ich Urlaub machen?
-- Kann ich jetzt noch nach [England]{"entity": "geography", "value": "country"} reisen?
+- Kann ich jetzt noch nach [England]{"entity": "country_code", "value": "EN"} reisen?
 - Kann ich in den Urlaub?
 - Kann ich reisen?
 - Ich plane in meinem Urlaub zu reisen.
@@ -5678,10 +5678,10 @@
 - Ich habe vor zu reisen.
 - Ich plane eine Reise.
 - Ich werde reisen.
-- Kann ich noch nach [England]{"entity": "geography", "value": "country"}?
-- Darf ich nach [England]{"entity": "geography", "value": "country"} reisen?
-- Ich habe einen Urlaub in [England]{"entity": "geography", "value": "country"} geplant.
-- Reise nach [England]{"entity": "geography", "value": "country"}
+- Kann ich noch nach [England]{"entity": "country_code", "value": "EN"}?
+- Darf ich nach [England]{"entity": "country_code", "value": "EN"} reisen?
+- Ich habe einen Urlaub in [England]{"entity": "country_code", "value": "EN"} geplant.
+- Reise nach [England]{"entity": "country_code", "value": "EN"}
 - Darf ich nach fliegen?
 - Ukraine Einreise
 - Was soll ich vor meiner Reise beachten?
@@ -5779,34 +5779,34 @@
 ## intent:travel_return
 - Vorgehensweise bei der Rückkehr von der Reise.
 - Wie geht es nach der Reise weiter?
-- Test nach [Marokko]{"entity": "geography", "value": "country"} aufenthalt
-- Ich war gerade in [Türkei]{"entity": "geography", "value": "country"} und habe jetzt Husten
+- Test nach [Marokko]{"entity": "country_code", "value": "MA"} aufenthalt
+- Ich war gerade in [Türkei]{"entity": "country_code", "value": "TR"} und habe jetzt Husten
 - Wie geht man nach der Reise vor?
-- Ich war in [Spanien]{"entity": "geography", "value": "country"}, muss ich mich testen lassen?
+- Ich war in [Spanien]{"entity": "country_code", "value": "ES"}, muss ich mich testen lassen?
 - Einreise nach Deutschland
 - Was gilt für Einreisende nach Deutschland?
 - Bin in einem Risikogebiete darf ich nach Deutschland einreisen
-- Testen nach Aufenthalt in [Frankreich]{"entity": "geography", "value": "country"}
+- Testen nach Aufenthalt in [Frankreich]{"entity": "country_code", "value": "FR"}
 - Ich bin gerade aus dem Urlaub zurückgekehrt
-- Was muss ich machen wenn ich gerade in [Mallorca]{"entity": "geography", "value": "country"} war und Symptome habe?
-- Was muss ich beachten, wenn ich gerade in [Portugal]{"entity": "geography", "value": "country"} war?
-- Was soll ich machen wenn ich gerade aus [Ägypten]{"entity": "geography", "value": "country"} zurückgekommen bin
+- Was muss ich machen wenn ich gerade in [Mallorca]{"entity": "country_code", "value": "ES"} war und Symptome habe?
+- Was muss ich beachten, wenn ich gerade in [Portugal]{"entity": "country_code", "value": "PT"} war?
+- Was soll ich machen wenn ich gerade aus [Ägypten]{"entity": "country_code", "value": "EG"} zurückgekommen bin
 - Ich komme gerade aus meinem Urlaub zurück.
-- Ist es verpflichtend einen Test durchführen zu lassen wenn ich gerade in [Tschechien]{"entity": "geography", "value": "country"} war?
-- Ist ein Test zwingend notwendig wenn ich gerade aus [Österreich]{"entity": "geography", "value": "country"} zurückgekommen bin?
-- Ist es nötig mich testen zu lassen wenn ich gerade aus [Kuba]{"entity": "geography", "value": "country"} komme?
-- Muss ich mich testen wenn ich gerade aus [Kanada]{"entity": "geography", "value": "country"} zurückgekommen bin?
-- Ich komme gerade aus [England]{"entity": "geography", "value": "country"}, muss ich einen Test machen?
-- Ist ein Test nötig wenn ich gerade in [Jordanien]{"entity": "geography", "value": "country"} war?
-- Ich habe gerade eine Reise durch [Italien]{"entity": "geography", "value": "country"} gemacht, ist ein Test nötig?
-- Sollen Personen, die gerade in [Israel]{"entity": "geography", "value": "country"} waren, einen Test machen?
-- Ich habe Symptome und war gerade in [Island]{"entity": "geography", "value": "country"}
-- Ich war in [Hong Kong]{"entity": "geography", "value": "country"}. Muss ich mich testen lassen?
-- Muss ich mich testen lassen, wenn ich gerade in [Irland]{"entity": "geography", "value": "country"} war?
-- Ich bin gerade aus [Indien]{"entity": "geography", "value": "country"} zurückgekommen
-- Ich komme gerade aus [Guatemala]{"entity": "geography", "value": "country"}
-- Ich war im Urlaub in [Großbritannien]{"entity": "geography", "value": "country"}
-- Ich habe gerade Urlaub in [Griechenland]{"entity": "geography", "value": "country"} gemacht. Muss ich mich testen lassen?
+- Ist es verpflichtend einen Test durchführen zu lassen wenn ich gerade in [Tschechien]{"entity": "country_code", "value": "CZ"} war?
+- Ist ein Test zwingend notwendig wenn ich gerade aus [Österreich]{"entity": "country_code", "value": "AT"} zurückgekommen bin?
+- Ist es nötig mich testen zu lassen wenn ich gerade aus [Kuba]{"entity": "country_code", "value": "CU"} komme?
+- Muss ich mich testen wenn ich gerade aus [Kanada]{"entity": "country_code", "value": "CA"} zurückgekommen bin?
+- Ich komme gerade aus [England]{"entity": "country_code", "value": "EN"}, muss ich einen Test machen?
+- Ist ein Test nötig wenn ich gerade in [Jordanien]{"entity": "country_code", "value": "JO"} war?
+- Ich habe gerade eine Reise durch [Italien]{"entity": "country_code", "value": "IT"} gemacht, ist ein Test nötig?
+- Sollen Personen, die gerade in [Israel]{"entity": "country_code", "value": "IL"} waren, einen Test machen?
+- Ich habe Symptome und war gerade in [Island]{"entity": "country_code", "value": "country"}
+- Ich war in [Hong Kong]{"entity": "country_code", "value": "HK"}. Muss ich mich testen lassen?
+- Muss ich mich testen lassen, wenn ich gerade in [Irland]{"entity": "country_code", "value": "IE"} war?
+- Ich bin gerade aus [Indien]{"entity": "country_code", "value": "IN"} zurückgekommen
+- Ich komme gerade aus [Guatemala]{"entity": "country_code", "value": "GT"}
+- Ich war im Urlaub in [Großbritannien]{"entity": "country_code", "value": "GB"}
+- Ich habe gerade Urlaub in [Griechenland]{"entity": "country_code", "value": "GR"} gemacht. Muss ich mich testen lassen?
 - Was muss ich beachten, wenn ich zurückkomme?
 - Ich kam mit Husten von der Reise zurück.
 - Ich bin gerade von der Reise zurückgekommen.
@@ -7619,28 +7619,28 @@
 - Kennst du Fun Facts?
 	
 ## intent:cc_geography
-- Erzähl mir was über [England]{"entity": "geography", "value": "country"}
-- Sag mir was über [Frankreich]{"entity": "geography", "value": "country"}
-- Ich hätte gern etwas über [Spanien]{"entity": "geography", "value": "country"} gewusst.
-- Erzähle mir etwas über [Italien]{"entity": "geography", "value": "country"}
-- Warst du schonmal in [Peru]{"entity": "geography", "value": "country"}?
-- Wo befindet sich [USA]{"entity": "geography", "value": "country"}?
-- Was können Sie mir über [Amerika]{"entity": "geography", "value": "country"} sagen?
-- Wo ist [China]{"entity": "geography", "value": "country"}?
-- Was Weißt du über [Russland]{"entity": "geography", "value": "country"}?
-- [Indien]{"entity": "geography", "value": "country"} ist schön
-- Warst du schonmal in [Australien]{"entity": "geography", "value": "country"}
-- Was kannst du mir über [die Türkei]{"entity": "geography", "value": "country"} sagen?
-- Kennen Sie [Neuseeland]{"entity": "geography", "value": "country"}y?
+- Erzähl mir was über [England]{"entity": "country_code", "value": "EN"}
+- Sag mir was über [Frankreich]{"entity": "country_code", "value": "FR"}
+- Ich hätte gern etwas über [Spanien]{"entity": "country_code", "value": "ES"} gewusst.
+- Erzähle mir etwas über [Italien]{"entity": "country_code", "value": "IT"}
+- Warst du schonmal in [Peru]{"entity": "country_code", "value": "PE"}?
+- Wo befindet sich [USA]{"entity": "country_code", "value": "US"}?
+- Was können Sie mir über [Amerika]{"entity": "country_code", "value": "US"} sagen?
+- Wo ist [China]{"entity": "country_code", "value": "CN"}?
+- Was Weißt du über [Russland]{"entity": "country_code", "value": "RU"}?
+- [Indien]{"entity": "country_code", "value": "IN"} ist schön
+- Warst du schonmal in [Australien]{"entity": "country_code", "value": "AU"}
+- Was kannst du mir über die [Türkei]{"entity": "country_code", "value": "TR"} sagen?
+- Kennen Sie [Neuseeland]{"entity": "country_code", "value": "NZ"}y?
 - Magst du Erdkunde?
-- Magst du [Argentinien]{"entity": "geography", "value": "country"}?
-- Wo finde ich [Chile]{"entity": "geography", "value": "country"}?
-- Kennst du [Bolivien]{"entity": "geography", "value": "country"}?
-- [Afrika]{"entity": "geography", "value": "country"} ist super.
-- [Südafrika]{"entity": "geography", "value": "country"}
-- Was wissen Sie über [Kanada]{"entity": "geography", "value": "country"}?
-- Wo liegt [Portugal]{"entity": "geography", "value": "country"}?
-- Infos über [Schweden]{"entity": "geography", "value": "country"}
+- Magst du [Argentinien]{"entity": "country_code", "value": "AR"}?
+- Wo finde ich [Chile]{"entity": "country_code", "value": "CL"}?
+- Kennst du [Bolivien]{"entity": "country_code", "value": "BO"}?
+- [Afrika]{"entity": "country_code", "value": "ZA"} ist super.
+- [Südafrika]{"entity": "country_code", "value": "ZA"}
+- Was wissen Sie über [Kanada]{"entity": "country_code", "value": "CA"}?
+- Wo liegt [Portugal]{"entity": "country_code", "value": "PT"}?
+- Infos über [Schweden]{"entity": "country_code", "value": "SE"}
 	
 ## intent:cc_hitchhiker
 - Was ist die Antwort auf die Frage nach dem Leben, dem Universum und allen Dingen?
@@ -11036,3 +11036,3253 @@
 - Das habe ich gerne gemacht.
 - Bitte, gerne doch!
 - Bitte, nichts zu danken!
+
+## intent:country
+- in [Portugal]{"entity": "country_code", "value": "PT"}
+- [Spain]{"entity": "country_code", "value": "ES"}
+- in [Greece]{"entity": "country_code", "value": "GR"}
+- in [Switzerland]{"entity": "country_code", "value": "CH"}
+- in [Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [nepal]{"entity": "country_code", "value": "NP"}
+- [Nepal]{"entity": "country_code", "value": "NP"}
+- [Federal Democratic Republic of Nepal]{"entity": "country_code", "value": "NP"}
+- [italy]{"entity": "country_code", "value": "IT"}
+- [Italy]{"entity": "country_code", "value": "IT"}
+- [Italia]{"entity": "country_code", "value": "IT"}
+- [guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernési]{"entity": "country_code", "value": "GG"}
+- [montserrat]{"entity": "country_code", "value": "MS"}
+- [Montserrat]{"entity": "country_code", "value": "MS"}
+- [Monserrate]{"entity": "country_code", "value": "MS"}
+- [seychelles]{"entity": "country_code", "value": "SC"}
+- [Seychelles]{"entity": "country_code", "value": "SC"}
+- [Republic of Seychelles]{"entity": "country_code", "value": "SC"}
+- [aland islands]{"entity": "country_code", "value": "AX"}
+- [Åland Islands]{"entity": "country_code", "value": "AX"}
+- [Åland]{"entity": "country_code", "value": "AX"}
+- [federated states of micronesia]{"entity": "country_code", "value": "FM"}
+- [Federated States of Micronesia]{"entity": "country_code", "value": "FM"}
+- [FSM]{"entity": "country_code", "value": "FM"}
+- [guam]{"entity": "country_code", "value": "GU"}
+- [Guam]{"entity": "country_code", "value": "GU"}
+- [Guåhån]{"entity": "country_code", "value": "GU"}
+- [portugal]{"entity": "country_code", "value": "PT"}
+- [Portugal]{"entity": "country_code", "value": "PT"}
+- [Portuguese Republic]{"entity": "country_code", "value": "PT"}
+- [japan]{"entity": "country_code", "value": "JP"}
+- [Japan]{"entity": "country_code", "value": "JP"}
+- [Nippon]{"entity": "country_code", "value": "JP"}
+- [colombia]{"entity": "country_code", "value": "CO"}
+- [Colombia]{"entity": "country_code", "value": "CO"}
+- [Republic of Colombia]{"entity": "country_code", "value": "CO"}
+- [malta]{"entity": "country_code", "value": "MT"}
+- [Malta]{"entity": "country_code", "value": "MT"}
+- [Republic of Malta]{"entity": "country_code", "value": "MT"}
+- [cuba]{"entity": "country_code", "value": "CU"}
+- [Cuba]{"entity": "country_code", "value": "CU"}
+- [Republic of Cuba]{"entity": "country_code", "value": "CU"}
+- [myanmar]{"entity": "country_code", "value": "MM"}
+- [Myanmar]{"entity": "country_code", "value": "MM"}
+- [Burma]{"entity": "country_code", "value": "MM"}
+- [guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Gwadloup]{"entity": "country_code", "value": "GP"}
+- [argentina]{"entity": "country_code", "value": "AR"}
+- [Argentina]{"entity": "country_code", "value": "AR"}
+- [Argentine Republic]{"entity": "country_code", "value": "AR"}
+- [british virgin islands]{"entity": "country_code", "value": "VG"}
+- [British Virgin Islands]{"entity": "country_code", "value": "VG"}
+- [BVI]{"entity": "country_code", "value": "VG"}
+- [luxembourg]{"entity": "country_code", "value": "LU"}
+- [Luxembourg]{"entity": "country_code", "value": "LU"}
+- [Lëtzebuerg]{"entity": "country_code", "value": "LU"}
+- [gabon]{"entity": "country_code", "value": "GA"}
+- [Gabon]{"entity": "country_code", "value": "GA"}
+- [Gabonese Republic]{"entity": "country_code", "value": "GA"}
+- [uganda]{"entity": "country_code", "value": "UG"}
+- [Uganda]{"entity": "country_code", "value": "UG"}
+- [Republic of Uganda]{"entity": "country_code", "value": "UG"}
+- [tunisia]{"entity": "country_code", "value": "TN"}
+- [Tunisia]{"entity": "country_code", "value": "TN"}
+- [Republic of Tunisia]{"entity": "country_code", "value": "TN"}
+- [puerto rico]{"entity": "country_code", "value": "PR"}
+- [Puerto Rico]{"entity": "country_code", "value": "PR"}
+- [Borinquen]{"entity": "country_code", "value": "PR"}
+- [uruguay]{"entity": "country_code", "value": "UY"}
+- [Uruguay]{"entity": "country_code", "value": "UY"}
+- [Oriental Republic of Uruguay]{"entity": "country_code", "value": "UY"}
+- [sierra leone]{"entity": "country_code", "value": "SL"}
+- [Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [Republic of Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [palau]{"entity": "country_code", "value": "PW"}
+- [Palau]{"entity": "country_code", "value": "PW"}
+- [Belau]{"entity": "country_code", "value": "PW"}
+- [morocco]{"entity": "country_code", "value": "MA"}
+- [Morocco]{"entity": "country_code", "value": "MA"}
+- [al-maġhrib]{"entity": "country_code", "value": "MA"}
+- [tuvalu]{"entity": "country_code", "value": "TV"}
+- [Tuvalu]{"entity": "country_code", "value": "TV"}
+- [Ellice Islands]{"entity": "country_code", "value": "TV"}
+- [qatar]{"entity": "country_code", "value": "QA"}
+- [Qatar]{"entity": "country_code", "value": "QA"}
+- [State of Qatar]{"entity": "country_code", "value": "QA"}
+- [saint pierre and miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint Pierre and Miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint-Pierre-et-Miquelon]{"entity": "country_code", "value": "PM"}
+- [iraq]{"entity": "country_code", "value": "IQ"}
+- [Iraq]{"entity": "country_code", "value": "IQ"}
+- [Êraq]{"entity": "country_code", "value": "IQ"}
+- [sri lanka]{"entity": "country_code", "value": "LK"}
+- [Sri Lanka]{"entity": "country_code", "value": "LK"}
+- [Srī Lankā prajātāntrika samājavādī janarajaya]{"entity": "country_code", "value": "LK"}
+- [american samoa]{"entity": "country_code", "value": "AS"}
+- [American Samoa]{"entity": "country_code", "value": "AS"}
+- [Samoa Americana]{"entity": "country_code", "value": "AS"}
+- [state of palestine]{"entity": "country_code", "value": "PS"}
+- [State of Palestine]{"entity": "country_code", "value": "PS"}
+- [Dawlat Filasṭīn]{"entity": "country_code", "value": "PS"}
+- [togo]{"entity": "country_code", "value": "TG"}
+- [Togo]{"entity": "country_code", "value": "TG"}
+- [Togolese Republic]{"entity": "country_code", "value": "TG"}
+- [oman]{"entity": "country_code", "value": "OM"}
+- [Oman]{"entity": "country_code", "value": "OM"}
+- [Salṭanat ʻUmān]{"entity": "country_code", "value": "OM"}
+- [réunion]{"entity": "country_code", "value": "RE"}
+- [Réunion]{"entity": "country_code", "value": "RE"}
+- [La Réunion]{"entity": "country_code", "value": "RE"}
+- [kuwait]{"entity": "country_code", "value": "KW"}
+- [Kuwait]{"entity": "country_code", "value": "KW"}
+- [al-Kuwait]{"entity": "country_code", "value": "KW"}
+- [paraguay]{"entity": "country_code", "value": "PY"}
+- [Paraguay]{"entity": "country_code", "value": "PY"}
+- [Republic of Paraguay]{"entity": "country_code", "value": "PY"}
+- [french polynesia]{"entity": "country_code", "value": "PF"}
+- [French Polynesia]{"entity": "country_code", "value": "PF"}
+- [Polynésie française]{"entity": "country_code", "value": "PF"}
+- [svalbard and jan mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard and Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard og Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [congo]{"entity": "country_code", "value": "CG"}
+- [Congo]{"entity": "country_code", "value": "CG"}
+- [République du Congo]{"entity": "country_code", "value": "CG"}
+- [thailand]{"entity": "country_code", "value": "TH"}
+- [Thailand]{"entity": "country_code", "value": "TH"}
+- [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
+- [heard island and mcdonald islands]{"entity": "country_code", "value": "HM"}
+- [Heard Island and McDonald Islands]{"entity": "country_code", "value": "HM"}
+- [HIMI]{"entity": "country_code", "value": "HM"}
+- [yemen]{"entity": "country_code", "value": "YE"}
+- [Yemen]{"entity": "country_code", "value": "YE"}
+- [al-Jumhūrīyah al-Yamanīyah]{"entity": "country_code", "value": "YE"}
+- [solomon islands]{"entity": "country_code", "value": "SB"}
+- [Solomon Islands]{"entity": "country_code", "value": "SB"}
+- [Islas Salomón]{"entity": "country_code", "value": "SB"}
+- [norway]{"entity": "country_code", "value": "NO"}
+- [Norway]{"entity": "country_code", "value": "NO"}
+- [Kingdom of Norway]{"entity": "country_code", "value": "NO"}
+- [singapore]{"entity": "country_code", "value": "SG"}
+- [Singapore]{"entity": "country_code", "value": "SG"}
+- [Republic of Singapore]{"entity": "country_code", "value": "SG"}
+- [pakistan]{"entity": "country_code", "value": "PK"}
+- [Pakistan]{"entity": "country_code", "value": "PK"}
+- [Islamic Republic of Pakistan]{"entity": "country_code", "value": "PK"}
+- [malvinas]{"entity": "country_code", "value": "FK"}
+- [Malvinas]{"entity": "country_code", "value": "FK"}
+- [Falkland]{"entity": "country_code", "value": "FK"}
+- [nauru]{"entity": "country_code", "value": "NR"}
+- [Nauru]{"entity": "country_code", "value": "NR"}
+- [Republic of Nauru]{"entity": "country_code", "value": "NR"}
+- [brazil]{"entity": "country_code", "value": "BR"}
+- [Brazil]{"entity": "country_code", "value": "BR"}
+- [Brasil]{"entity": "country_code", "value": "BR"}
+- [turkey]{"entity": "country_code", "value": "TR"}
+- [Turkey]{"entity": "country_code", "value": "TR"}
+- [Türkiye]{"entity": "country_code", "value": "TR"}
+- [marshall islands]{"entity": "country_code", "value": "MH"}
+- [Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [Republic of the Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [estonia]{"entity": "country_code", "value": "EE"}
+- [Estonia]{"entity": "country_code", "value": "EE"}
+- [Eesti]{"entity": "country_code", "value": "EE"}
+- [sao tome and principe]{"entity": "country_code", "value": "ST"}
+- [Sao Tome and Principe]{"entity": "country_code", "value": "ST"}
+- [Saint Thomas and Prince]{"entity": "country_code", "value": "ST"}
+- [china]{"entity": "country_code", "value": "CN"}
+- [China]{"entity": "country_code", "value": "CN"}
+- [People's Republic of China]{"entity": "country_code", "value": "CN"}
+- [philippines]{"entity": "country_code", "value": "PH"}
+- [Philippines]{"entity": "country_code", "value": "PH"}
+- [Pilipinas]{"entity": "country_code", "value": "PH"}
+- [swaziland]{"entity": "country_code", "value": "SZ"}
+- [Swaziland]{"entity": "country_code", "value": "SZ"}
+- [Eswatini]{"entity": "country_code", "value": "SZ"}
+- [croatia]{"entity": "country_code", "value": "HR"}
+- [Croatia]{"entity": "country_code", "value": "HR"}
+- [Hrvatska]{"entity": "country_code", "value": "HR"}
+- [madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagasikara]{"entity": "country_code", "value": "MG"}
+- [zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Republic of Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Oʻzbekiston]{"entity": "country_code", "value": "UZ"}
+- [pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn Islands]{"entity": "country_code", "value": "PN"}
+- [netherlands]{"entity": "country_code", "value": "NL"}
+- [Netherlands]{"entity": "country_code", "value": "NL"}
+- [Nederland]{"entity": "country_code", "value": "NL"}
+- [israel]{"entity": "country_code", "value": "IL"}
+- [Israel]{"entity": "country_code", "value": "IL"}
+- [State of Israel]{"entity": "country_code", "value": "IL"}
+- [ethiopia]{"entity": "country_code", "value": "ET"}
+- [Ethiopia]{"entity": "country_code", "value": "ET"}
+- [Itiyoophiyaa]{"entity": "country_code", "value": "ET"}
+- [timor-leste]{"entity": "country_code", "value": "TL"}
+- [Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [República Democrática de Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [u.s. virgin islands]{"entity": "country_code", "value": "VI"}
+- [U.S. Virgin Islands]{"entity": "country_code", "value": "VI"}
+- [Ilhas Virgens Americanas]{"entity": "country_code", "value": "VI"}
+- [azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Republic of Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [lesotho]{"entity": "country_code", "value": "LS"}
+- [Lesotho]{"entity": "country_code", "value": "LS"}
+- [Kingdom of Lesotho]{"entity": "country_code", "value": "LS"}
+- [cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroun]{"entity": "country_code", "value": "CM"}
+- [united states minor outlying islands]{"entity": "country_code", "value": "UM"}
+- [United States Minor Outlying Islands]{"entity": "country_code", "value": "UM"}
+- [Baker Island]{"entity": "country_code", "value": "UM"}
+- [zambia]{"entity": "country_code", "value": "ZM"}
+- [Zambia]{"entity": "country_code", "value": "ZM"}
+- [Republic of Zambia]{"entity": "country_code", "value": "ZM"}
+- [indonesia]{"entity": "country_code", "value": "ID"}
+- [Indonesia]{"entity": "country_code", "value": "ID"}
+- [Republic of Indonesia]{"entity": "country_code", "value": "ID"}
+- [dominican republic]{"entity": "country_code", "value": "DO"}
+- [Dominican Republic]{"entity": "country_code", "value": "DO"}
+- [República Dominicana]{"entity": "country_code", "value": "DO"}
+- [senegal]{"entity": "country_code", "value": "SN"}
+- [Senegal]{"entity": "country_code", "value": "SN"}
+- [Sénégal]{"entity": "country_code", "value": "SN"}
+- [antigua and barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua and Barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua]{"entity": "country_code", "value": "AG"}
+- [belgium]{"entity": "country_code", "value": "BE"}
+- [Belgium]{"entity": "country_code", "value": "BE"}
+- [Kingdom of Belgium]{"entity": "country_code", "value": "BE"}
+- [jamaica]{"entity": "country_code", "value": "JM"}
+- [Jamaica]{"entity": "country_code", "value": "JM"}
+- [Jumieka]{"entity": "country_code", "value": "JM"}
+- [spain]{"entity": "country_code", "value": "ES"}
+- [Spain]{"entity": "country_code", "value": "ES"}
+- [España]{"entity": "country_code", "value": "ES"}
+- [benin]{"entity": "country_code", "value": "BJ"}
+- [Benin]{"entity": "country_code", "value": "BJ"}
+- [Republic of Benin]{"entity": "country_code", "value": "BJ"}
+- [bermuda]{"entity": "country_code", "value": "BM"}
+- [Bermuda]{"entity": "country_code", "value": "BM"}
+- [Islands of Bermuda]{"entity": "country_code", "value": "BM"}
+- [sudan]{"entity": "country_code", "value": "SD"}
+- [Sudan]{"entity": "country_code", "value": "SD"}
+- [Republic of the Sudan]{"entity": "country_code", "value": "SD"}
+- [albania]{"entity": "country_code", "value": "AL"}
+- [Albania]{"entity": "country_code", "value": "AL"}
+- [Republic of Albania]{"entity": "country_code", "value": "AL"}
+- [suriname]{"entity": "country_code", "value": "SR"}
+- [Suriname]{"entity": "country_code", "value": "SR"}
+- [Surinam]{"entity": "country_code", "value": "SR"}
+- [india]{"entity": "country_code", "value": "IN"}
+- [India]{"entity": "country_code", "value": "IN"}
+- [Bhārat]{"entity": "country_code", "value": "IN"}
+- [bangladesh]{"entity": "country_code", "value": "BD"}
+- [Bangladesh]{"entity": "country_code", "value": "BD"}
+- [country of Bengal]{"entity": "country_code", "value": "BD"}
+- [ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukrayina]{"entity": "country_code", "value": "UA"}
+- [cayman islands]{"entity": "country_code", "value": "KY"}
+- [Cayman Islands]{"entity": "country_code", "value": "KY"}
+- [Ilhas Caimã]{"entity": "country_code", "value": "KY"}
+- [montenegro]{"entity": "country_code", "value": "ME"}
+- [Montenegro]{"entity": "country_code", "value": "ME"}
+- [Crna Gora]{"entity": "country_code", "value": "ME"}
+- [equatorial guinea]{"entity": "country_code", "value": "GQ"}
+- [Equatorial Guinea]{"entity": "country_code", "value": "GQ"}
+- [Guinea Ecuatorial]{"entity": "country_code", "value": "GQ"}
+- [united states]{"entity": "country_code", "value": "US"}
+- [United States]{"entity": "country_code", "value": "US"}
+- [United States of America]{"entity": "country_code", "value": "US"}
+- [islamic republic of iran]{"entity": "country_code", "value": "IR"}
+- [Islamic Republic of Iran]{"entity": "country_code", "value": "IR"}
+- [Persia]{"entity": "country_code", "value": "IR"}
+- [slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovensko]{"entity": "country_code", "value": "SK"}
+- [bhutan]{"entity": "country_code", "value": "BT"}
+- [Bhutan]{"entity": "country_code", "value": "BT"}
+- [Kingdom of Bhutan]{"entity": "country_code", "value": "BT"}
+- [austria]{"entity": "country_code", "value": "AT"}
+- [Austria]{"entity": "country_code", "value": "AT"}
+- [Republic of Austria]{"entity": "country_code", "value": "AT"}
+- [south korea]{"entity": "country_code", "value": "KR"}
+- [South Korea]{"entity": "country_code", "value": "KR"}
+- [Republic of Korea]{"entity": "country_code", "value": "KR"}
+- [saint helena, ascension and tristan da cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena, Ascension and Tristan da Cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena]{"entity": "country_code", "value": "SH"}
+- [laos]{"entity": "country_code", "value": "LA"}
+- [Laos]{"entity": "country_code", "value": "LA"}
+- [Lao People's Democratic Republic]{"entity": "country_code", "value": "LA"}
+- [somalia]{"entity": "country_code", "value": "SO"}
+- [Somalia]{"entity": "country_code", "value": "SO"}
+- [Soomaaliya]{"entity": "country_code", "value": "SO"}
+- [romania]{"entity": "country_code", "value": "RO"}
+- [Romania]{"entity": "country_code", "value": "RO"}
+- [România]{"entity": "country_code", "value": "RO"}
+- [guyana]{"entity": "country_code", "value": "GY"}
+- [Guyana]{"entity": "country_code", "value": "GY"}
+- [Co-operative Republic of Guyana]{"entity": "country_code", "value": "GY"}
+- [Frankreich]{"entity": "country_code", "value": "FR"}
+- [France]{"entity": "country_code", "value": "FR"}
+- [French Republic]{"entity": "country_code", "value": "FR"}
+- [liberia]{"entity": "country_code", "value": "LR"}
+- [Liberia]{"entity": "country_code", "value": "LR"}
+- [Republic of Liberia]{"entity": "country_code", "value": "LR"}
+- [russia]{"entity": "country_code", "value": "RU"}
+- [Russia]{"entity": "country_code", "value": "RU"}
+- [Russian Federation]{"entity": "country_code", "value": "RU"}
+- [tanzania]{"entity": "country_code", "value": "TZ"}
+- [Tanzania]{"entity": "country_code", "value": "TZ"}
+- [United Republic of Tanzania]{"entity": "country_code", "value": "TZ"}
+- [united arab emirates]{"entity": "country_code", "value": "AE"}
+- [United Arab Emirates]{"entity": "country_code", "value": "AE"}
+- [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "country_code", "value": "AE"}
+- [antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antártida]{"entity": "country_code", "value": "AQ"}
+- [cocos islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Keeling Islands]{"entity": "country_code", "value": "CC"}
+- [brunei darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei Darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei]{"entity": "country_code", "value": "BN"}
+- [saint kitts and nevis]{"entity": "country_code", "value": "KN"}
+- [Saint Kitts and Nevis]{"entity": "country_code", "value": "KN"}
+- [Federation of Saint Christopher and Nevis]{"entity": "country_code", "value": "KN"}
+- [burkina faso]{"entity": "country_code", "value": "BF"}
+- [Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [Republic of Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [cyprus]{"entity": "country_code", "value": "CY"}
+- [Cyprus]{"entity": "country_code", "value": "CY"}
+- [Κύπρος]{"entity": "country_code", "value": "CY"}
+- [afghanistan]{"entity": "country_code", "value": "AF"}
+- [Afghanistan]{"entity": "country_code", "value": "AF"}
+- [Islamic Republic of Afghanistan]{"entity": "country_code", "value": "AF"}
+- [kiribati]{"entity": "country_code", "value": "KI"}
+- [Kiribati]{"entity": "country_code", "value": "KI"}
+- [Republic of Kiribati]{"entity": "country_code", "value": "KI"}
+- [grenada]{"entity": "country_code", "value": "GD"}
+- [Grenada]{"entity": "country_code", "value": "GD"}
+- [Gwenad]{"entity": "country_code", "value": "GD"}
+- [costa rica]{"entity": "country_code", "value": "CR"}
+- [Costa Rica]{"entity": "country_code", "value": "CR"}
+- [Republic of Costa Rica]{"entity": "country_code", "value": "CR"}
+- [french guiana]{"entity": "country_code", "value": "GF"}
+- [French Guiana]{"entity": "country_code", "value": "GF"}
+- [Guyane]{"entity": "country_code", "value": "GF"}
+- [curaçao]{"entity": "country_code", "value": "CW"}
+- [Curaçao]{"entity": "country_code", "value": "CW"}
+- [Kòrsou]{"entity": "country_code", "value": "CW"}
+- [georgia]{"entity": "country_code", "value": "GE"}
+- [Georgia]{"entity": "country_code", "value": "GE"}
+- [Republic of Georgia]{"entity": "country_code", "value": "GE"}
+- [kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Republic of Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [turks and caicos islands]{"entity": "country_code", "value": "TC"}
+- [Turks and Caicos Islands]{"entity": "country_code", "value": "TC"}
+- [TCI]{"entity": "country_code", "value": "TC"}
+- [kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyz Republic]{"entity": "country_code", "value": "KG"}
+- [mali]{"entity": "country_code", "value": "ML"}
+- [Mali]{"entity": "country_code", "value": "ML"}
+- [Republic of Mali]{"entity": "country_code", "value": "ML"}
+- [fiji]{"entity": "country_code", "value": "FJ"}
+- [Fiji]{"entity": "country_code", "value": "FJ"}
+- [Republic of Fiji]{"entity": "country_code", "value": "FJ"}
+- [uk]{"entity": "country_code", "value": "GB"}
+- [united kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom of Great Britain and Northern Ireland]{"entity": "country_code", "value": "GB"}
+- [dominica]{"entity": "country_code", "value": "DM"}
+- [Dominica]{"entity": "country_code", "value": "DM"}
+- [Dominique]{"entity": "country_code", "value": "DM"}
+- [comoros]{"entity": "country_code", "value": "KM"}
+- [Comoros]{"entity": "country_code", "value": "KM"}
+- [Union of the Comoros]{"entity": "country_code", "value": "KM"}
+- [mauritius]{"entity": "country_code", "value": "MU"}
+- [Mauritius]{"entity": "country_code", "value": "MU"}
+- [Maurice]{"entity": "country_code", "value": "MU"}
+- [guinea]{"entity": "country_code", "value": "GN"}
+- [Guinea]{"entity": "country_code", "value": "GN"}
+- [Republic of Guinea]{"entity": "country_code", "value": "GN"}
+- [trinidad and tobago]{"entity": "country_code", "value": "TT"}
+- [Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [Republic of Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [serbia]{"entity": "country_code", "value": "RS"}
+- [Serbia]{"entity": "country_code", "value": "RS"}
+- [Србија]{"entity": "country_code", "value": "RS"}
+- [greenland]{"entity": "country_code", "value": "GL"}
+- [Greenland]{"entity": "country_code", "value": "GL"}
+- [Kalaallit Nunaat]{"entity": "country_code", "value": "GL"}
+- [poland]{"entity": "country_code", "value": "PL"}
+- [Poland]{"entity": "country_code", "value": "PL"}
+- [Polska]{"entity": "country_code", "value": "PL"}
+- [tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Republic of Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [cambodia]{"entity": "country_code", "value": "KH"}
+- [Cambodia]{"entity": "country_code", "value": "KH"}
+- [Kampuchea]{"entity": "country_code", "value": "KH"}
+- [botswana]{"entity": "country_code", "value": "BW"}
+- [Botswana]{"entity": "country_code", "value": "BW"}
+- [Republic of Botswana]{"entity": "country_code", "value": "BW"}
+- [wallis and futuna]{"entity": "country_code", "value": "WF"}
+- [Wallis and Futuna]{"entity": "country_code", "value": "WF"}
+- [Territory of the Wallis and Futuna Islands]{"entity": "country_code", "value": "WF"}
+- [latvia]{"entity": "country_code", "value": "LV"}
+- [Latvia]{"entity": "country_code", "value": "LV"}
+- [Latvija]{"entity": "country_code", "value": "LV"}
+- [kenya]{"entity": "country_code", "value": "KE"}
+- [Kenya]{"entity": "country_code", "value": "KE"}
+- [Republic of Kenya]{"entity": "country_code", "value": "KE"}
+- [saint lucia]{"entity": "country_code", "value": "LC"}
+- [Saint Lucia]{"entity": "country_code", "value": "LC"}
+- [Sainte-Lucie]{"entity": "country_code", "value": "LC"}
+- [el salvador]{"entity": "country_code", "value": "SV"}
+- [El Salvador]{"entity": "country_code", "value": "SV"}
+- [Republic of El Salvador]{"entity": "country_code", "value": "SV"}
+- [taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan, Province of China]{"entity": "country_code", "value": "TW"}
+- [ecuador]{"entity": "country_code", "value": "EC"}
+- [Ecuador]{"entity": "country_code", "value": "EC"}
+- [Ikwayur]{"entity": "country_code", "value": "EC"}
+- [angola]{"entity": "country_code", "value": "AO"}
+- [Angola]{"entity": "country_code", "value": "AO"}
+- [Republic of Angola]{"entity": "country_code", "value": "AO"}
+- [belize]{"entity": "country_code", "value": "BZ"}
+- [Belize]{"entity": "country_code", "value": "BZ"}
+- [syria]{"entity": "country_code", "value": "SY"}
+- [Syria]{"entity": "country_code", "value": "SY"}
+- [Syrian Arab Republic]{"entity": "country_code", "value": "SY"}
+- [jordan]{"entity": "country_code", "value": "JO"}
+- [Jordan]{"entity": "country_code", "value": "JO"}
+- [Hashemite Kingdom of Jordan]{"entity": "country_code", "value": "JO"}
+- [haiti]{"entity": "country_code", "value": "HT"}
+- [Haiti]{"entity": "country_code", "value": "HT"}
+- [Haïti]{"entity": "country_code", "value": "HT"}
+- [chad]{"entity": "country_code", "value": "TD"}
+- [Chad]{"entity": "country_code", "value": "TD"}
+- [Tshād]{"entity": "country_code", "value": "TD"}
+- [jersey]{"entity": "country_code", "value": "JE"}
+- [Jersey]{"entity": "country_code", "value": "JE"}
+- [Bailiwick of Jersey]{"entity": "country_code", "value": "JE"}
+- [vanuatu]{"entity": "country_code", "value": "VU"}
+- [Vanuatu]{"entity": "country_code", "value": "VU"}
+- [Republic of Vanuatu]{"entity": "country_code", "value": "VU"}
+- [central african republic]{"entity": "country_code", "value": "CF"}
+- [Central African Republic]{"entity": "country_code", "value": "CF"}
+- [République centrafricaine]{"entity": "country_code", "value": "CF"}
+- [faroe islands]{"entity": "country_code", "value": "FO"}
+- [Faroe Islands]{"entity": "country_code", "value": "FO"}
+- [Føroyar]{"entity": "country_code", "value": "FO"}
+- [egypt]{"entity": "country_code", "value": "EG"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [Arab Republic of Egypt]{"entity": "country_code", "value": "EG"}
+- [martinique]{"entity": "country_code", "value": "MQ"}
+- [Martinique]{"entity": "country_code", "value": "MQ"}
+- [Matnik]{"entity": "country_code", "value": "MQ"}
+- [czech republic]{"entity": "country_code", "value": "CZ"}
+- [Czech Republic]{"entity": "country_code", "value": "CZ"}
+- [Česká republika]{"entity": "country_code", "value": "CZ"}
+- [rwanda]{"entity": "country_code", "value": "RW"}
+- [Rwanda]{"entity": "country_code", "value": "RW"}
+- [Republic of Rwanda]{"entity": "country_code", "value": "RW"}
+- [armenia]{"entity": "country_code", "value": "AM"}
+- [Armenia]{"entity": "country_code", "value": "AM"}
+- [Republic of Armenia]{"entity": "country_code", "value": "AM"}
+- [rd congo]{"entity": "country_code", "value": "CD"}
+- [RD Congo]{"entity": "country_code", "value": "CD"}
+- [Democratic Republic of the Congo]{"entity": "country_code", "value": "CD"}
+- [christmas island]{"entity": "country_code", "value": "CX"}
+- [Christmas Island]{"entity": "country_code", "value": "CX"}
+- [Territory of Christmas Island]{"entity": "country_code", "value": "CX"}
+- [namibia]{"entity": "country_code", "value": "NA"}
+- [Namibia]{"entity": "country_code", "value": "NA"}
+- [Republic of Namibia]{"entity": "country_code", "value": "NA"}
+- [turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Türkmenistan]{"entity": "country_code", "value": "TM"}
+- [saint barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint Barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint-Barthélemy]{"entity": "country_code", "value": "BL"}
+- [guinea-bissau]{"entity": "country_code", "value": "GW"}
+- [Guinea-Bissau]{"entity": "country_code", "value": "GW"}
+- [Guiné-Bissau]{"entity": "country_code", "value": "GW"}
+- [niue]{"entity": "country_code", "value": "NU"}
+- [Niue]{"entity": "country_code", "value": "NU"}
+- [Niuē]{"entity": "country_code", "value": "NU"}
+- [hong kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong Special Administrative Region]{"entity": "country_code", "value": "HK"}
+- [algeria]{"entity": "country_code", "value": "DZ"}
+- [Algeria]{"entity": "country_code", "value": "DZ"}
+- [Democratic Republic of Algeria]{"entity": "country_code", "value": "DZ"}
+- [slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenija]{"entity": "country_code", "value": "SI"}
+- [new zealand]{"entity": "country_code", "value": "NZ"}
+- [Neusseland]{"entity": "country_code", "value": "NZ"}
+- [Aotearoa]{"entity": "country_code", "value": "NZ"}
+- [maldives]{"entity": "country_code", "value": "MV"}
+- [Maldives]{"entity": "country_code", "value": "MV"}
+- [Republic of Maldives]{"entity": "country_code", "value": "MV"}
+- [hagere ertra]{"entity": "country_code", "value": "ER"}
+- [Hagere Ertra]{"entity": "country_code", "value": "ER"}
+- [Dawlat Iritriyá]{"entity": "country_code", "value": "ER"}
+- [finland]{"entity": "country_code", "value": "FI"}
+- [Finland]{"entity": "country_code", "value": "FI"}
+- [Suomi]{"entity": "country_code", "value": "FI"}
+- [ireland]{"entity": "country_code", "value": "IE"}
+- [Ireland]{"entity": "country_code", "value": "IE"}
+- [Éire]{"entity": "country_code", "value": "IE"}
+- [sint maarten dutch part]{"entity": "country_code", "value": "SX"}
+- [Sint Maarten Dutch part]{"entity": "country_code", "value": "SX"}
+- [São Martinho paises baixos]{"entity": "country_code", "value": "SX"}
+- [south georgia and the south sandwich islands]{"entity": "country_code", "value": "GS"}
+- [South Georgia and the South Sandwich Islands]{"entity": "country_code", "value": "GS"}
+- [SGSSI]{"entity": "country_code", "value": "GS"}
+- [aruba]{"entity": "country_code", "value": "AW"}
+- [Aruba]{"entity": "country_code", "value": "AW"}
+- [niger]{"entity": "country_code", "value": "NE"}
+- [Niger]{"entity": "country_code", "value": "NE"}
+- [the Niger]{"entity": "country_code", "value": "NE"}
+- [anguilla]{"entity": "country_code", "value": "AI"}
+- [Anguilla]{"entity": "country_code", "value": "AI"}
+- [Island of Anguilla]{"entity": "country_code", "value": "AI"}
+- [cook islands]{"entity": "country_code", "value": "CK"}
+- [Cook Islands]{"entity": "country_code", "value": "CK"}
+- [Kūki 'Āirani]{"entity": "country_code", "value": "CK"}
+- [south sudan]{"entity": "country_code", "value": "SS"}
+- [South Sudan]{"entity": "country_code", "value": "SS"}
+- [Republic of South Sudan]{"entity": "country_code", "value": "SS"}
+- [vietnam]{"entity": "country_code", "value": "VN"}
+- [Vietnam]{"entity": "country_code", "value": "VN"}
+- [Viet Nam]{"entity": "country_code", "value": "VN"}
+- [moldova]{"entity": "country_code", "value": "MD"}
+- [Moldova]{"entity": "country_code", "value": "MD"}
+- [Republic of Moldova]{"entity": "country_code", "value": "MD"}
+- [lithuania]{"entity": "country_code", "value": "LT"}
+- [Lithuania]{"entity": "country_code", "value": "LT"}
+- [Lietuva]{"entity": "country_code", "value": "LT"}
+- [tokelau]{"entity": "country_code", "value": "TK"}
+- [Tokelau]{"entity": "country_code", "value": "TK"}
+- [Union Islands]{"entity": "country_code", "value": "TK"}
+- [british indian ocean territory]{"entity": "country_code", "value": "IO"}
+- [British Indian Ocean Territory]{"entity": "country_code", "value": "IO"}
+- [BIOT]{"entity": "country_code", "value": "IO"}
+- [bulgaria]{"entity": "country_code", "value": "BG"}
+- [Bulgaria]{"entity": "country_code", "value": "BG"}
+- [Balgariya]{"entity": "country_code", "value": "BG"}
+- [nigeria]{"entity": "country_code", "value": "NG"}
+- [Nigeria]{"entity": "country_code", "value": "NG"}
+- [Federal Republic of Nigeria]{"entity": "country_code", "value": "NG"}
+- [honduras]{"entity": "country_code", "value": "HN"}
+- [Honduras]{"entity": "country_code", "value": "HN"}
+- [Republic of Honduras]{"entity": "country_code", "value": "HN"}
+- [andorra]{"entity": "country_code", "value": "AD"}
+- [Andorra]{"entity": "country_code", "value": "AD"}
+- [Principality of Andorra]{"entity": "country_code", "value": "AD"}
+- [greece]{"entity": "country_code", "value": "GR"}
+- [Greece]{"entity": "country_code", "value": "GR"}
+- [Hellenic Republic]{"entity": "country_code", "value": "GR"}
+- [belarus]{"entity": "country_code", "value": "BY"}
+- [Belarus]{"entity": "country_code", "value": "BY"}
+- [Republic of Belarus]{"entity": "country_code", "value": "BY"}
+- [saint vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
+- [sweden]{"entity": "country_code", "value": "SE"}
+- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Sverige]{"entity": "country_code", "value": "SE"}
+- [guatemala]{"entity": "country_code", "value": "GT"}
+- [Guatemala]{"entity": "country_code", "value": "GT"}
+- [Republic of Guatemala]{"entity": "country_code", "value": "GT"}
+- [san marino]{"entity": "country_code", "value": "SM"}
+- [San Marino]{"entity": "country_code", "value": "SM"}
+- [Republic of San Marino]{"entity": "country_code", "value": "SM"}
+- [macao]{"entity": "country_code", "value": "MO"}
+- [Macao]{"entity": "country_code", "value": "MO"}
+- [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
+- [mozambique]{"entity": "country_code", "value": "MZ"}
+- [Mozambique]{"entity": "country_code", "value": "MZ"}
+- [Republic of Mozambique]{"entity": "country_code", "value": "MZ"}
+- [lebanon]{"entity": "country_code", "value": "LB"}
+- [Lebanon]{"entity": "country_code", "value": "LB"}
+- [Lubnān]{"entity": "country_code", "value": "LB"}
+- [bahamas]{"entity": "country_code", "value": "BS"}
+- [Bahamas]{"entity": "country_code", "value": "BS"}
+- [Commonwealth of The Bahamas]{"entity": "country_code", "value": "BS"}
+- [saudi arabia]{"entity": "country_code", "value": "SA"}
+- [Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [Kingdom of Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [barbados]{"entity": "country_code", "value": "BB"}
+- [Barbados]{"entity": "country_code", "value": "BB"}
+- [macedonia]{"entity": "country_code", "value": "MK"}
+- [Macedonia]{"entity": "country_code", "value": "MK"}
+- [North Macedonia]{"entity": "country_code", "value": "MK"}
+- [samoa]{"entity": "country_code", "value": "WS"}
+- [Samoa]{"entity": "country_code", "value": "WS"}
+- [Independent State of Samoa]{"entity": "country_code", "value": "WS"}
+- [chile]{"entity": "country_code", "value": "CL"}
+- [Chile]{"entity": "country_code", "value": "CL"}
+- [Republic of Chile]{"entity": "country_code", "value": "CL"}
+- [iceland]{"entity": "country_code", "value": "IS"}
+- [Iceland]{"entity": "country_code", "value": "IS"}
+- [Ísland]{"entity": "country_code", "value": "IS"}
+- [gambia]{"entity": "country_code", "value": "GM"}
+- [Gambia]{"entity": "country_code", "value": "GM"}
+- [Kambiya]{"entity": "country_code", "value": "GM"}
+- [liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Principality of Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [south africa]{"entity": "country_code", "value": "ZA"}
+- [South Africa]{"entity": "country_code", "value": "ZA"}
+- [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
+- [saint martin french part]{"entity": "country_code", "value": "MF"}
+- [Saint Martin French part]{"entity": "country_code", "value": "MF"}
+- [Saint-Martin]{"entity": "country_code", "value": "MF"}
+- [mayotte]{"entity": "country_code", "value": "YT"}
+- [Mayotte]{"entity": "country_code", "value": "YT"}
+- [Maore]{"entity": "country_code", "value": "YT"}
+- [bonaire, sint eustatius and saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire, Sint Eustatius and Saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire]{"entity": "country_code", "value": "BQ"}
+- [isle of man]{"entity": "country_code", "value": "IM"}
+- [Isle of Man]{"entity": "country_code", "value": "IM"}
+- [Mann]{"entity": "country_code", "value": "IM"}
+- [mexico]{"entity": "country_code", "value": "MX"}
+- [Mexico]{"entity": "country_code", "value": "MX"}
+- [México]{"entity": "country_code", "value": "MX"}
+- [plurinational state of bolivia]{"entity": "country_code", "value": "BO"}
+- [Plurinational State of Bolivia]{"entity": "country_code", "value": "BO"}
+- [Bolivia]{"entity": "country_code", "value": "BO"}
+- [australia]{"entity": "country_code", "value": "AU"}
+- [Australia]{"entity": "country_code", "value": "AU"}
+- [Commonwealth of Australia]{"entity": "country_code", "value": "AU"}
+- [nyasaland]{"entity": "country_code", "value": "MW"}
+- [Nyasaland]{"entity": "country_code", "value": "MW"}
+- [Maláui]{"entity": "country_code", "value": "MW"}
+- [côte d'ivoire]{"entity": "country_code", "value": "CI"}
+- [Côte d'Ivoire]{"entity": "country_code", "value": "CI"}
+- [Ivory Coast]{"entity": "country_code", "value": "CI"}
+- [western sahara]{"entity": "country_code", "value": "EH"}
+- [Western Sahara]{"entity": "country_code", "value": "EH"}
+- [Taneẓroft Tutrimt]{"entity": "country_code", "value": "EH"}
+- [norfolk island]{"entity": "country_code", "value": "NF"}
+- [Norfolk Island]{"entity": "country_code", "value": "NF"}
+- [Norf'k Ailen]{"entity": "country_code", "value": "NF"}
+- [switzerland]{"entity": "country_code", "value": "CH"}
+- [Switzerland]{"entity": "country_code", "value": "CH"}
+- [Swiss Confederation]{"entity": "country_code", "value": "CH"}
+- [bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet Island]{"entity": "country_code", "value": "BV"}
+- [canada]{"entity": "country_code", "value": "CA"}
+- [Canada]{"entity": "country_code", "value": "CA"}
+- [Canadá]{"entity": "country_code", "value": "CA"}
+- [papua new guinea]{"entity": "country_code", "value": "PG"}
+- [Papua New Guinea]{"entity": "country_code", "value": "PG"}
+- [PNG]{"entity": "country_code", "value": "PG"}
+- [venezuela]{"entity": "country_code", "value": "VE"}
+- [Venezuela]{"entity": "country_code", "value": "VE"}
+- [Bolivarian Republic of Venezuela]{"entity": "country_code", "value": "VE"}
+- [ghana]{"entity": "country_code", "value": "GH"}
+- [Ghana]{"entity": "country_code", "value": "GH"}
+- [Republic of Ghana]{"entity": "country_code", "value": "GH"}
+- [panama]{"entity": "country_code", "value": "PA"}
+- [Panama]{"entity": "country_code", "value": "PA"}
+- [Panamá]{"entity": "country_code", "value": "PA"}
+- [territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [Territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [TOM]{"entity": "country_code", "value": "TF"}
+- [mongolia]{"entity": "country_code", "value": "MN"}
+- [Mongolia]{"entity": "country_code", "value": "MN"}
+- [nação mongol]{"entity": "country_code", "value": "MN"}
+- [democratic people's republic of korea]{"entity": "country_code", "value": "KP"}
+- [Democratic People's Republic of Korea]{"entity": "country_code", "value": "KP"}
+- [North Korea]{"entity": "country_code", "value": "KP"}
+- [hungary]{"entity": "country_code", "value": "HU"}
+- [Hungary]{"entity": "country_code", "value": "HU"}
+- [Magyarország]{"entity": "country_code", "value": "HU"}
+- [denmark]{"entity": "country_code", "value": "DK"}
+- [Denmark]{"entity": "country_code", "value": "DK"}
+- [Danmark]{"entity": "country_code", "value": "DK"}
+- [bahrain]{"entity": "country_code", "value": "BH"}
+- [Bahrain]{"entity": "country_code", "value": "BH"}
+- [Al-Baḥrayn]{"entity": "country_code", "value": "BH"}
+- [gibraltar]{"entity": "country_code", "value": "GI"}
+- [Gibraltar]{"entity": "country_code", "value": "GI"}
+- [germany]{"entity": "country_code", "value": "DE"}
+- [Germany]{"entity": "country_code", "value": "DE"}
+- [Deutschland]{"entity": "country_code", "value": "DE"}
+- [bosnia and herzegovina]{"entity": "country_code", "value": "BA"}
+- [Bosnia and Herzegovina]{"entity": "country_code", "value": "BA"}
+- [BiH]{"entity": "country_code", "value": "BA"}
+- [libya]{"entity": "country_code", "value": "LY"}
+- [Libya]{"entity": "country_code", "value": "LY"}
+- [Lībiyā]{"entity": "country_code", "value": "LY"}
+- [malaysia]{"entity": "country_code", "value": "MY"}
+- [Malaysia]{"entity": "country_code", "value": "MY"}
+- [Malásia]{"entity": "country_code", "value": "MY"}
+- [monaco]{"entity": "country_code", "value": "MC"}
+- [Monaco]{"entity": "country_code", "value": "MC"}
+- [Principality of Monaco]{"entity": "country_code", "value": "MC"}
+- [new caledonia]{"entity": "country_code", "value": "NC"}
+- [New Caledonia]{"entity": "country_code", "value": "NC"}
+- [Nouvelle-Calédonie]{"entity": "country_code", "value": "NC"}
+- [cape verde]{"entity": "country_code", "value": "CV"}
+- [Cape Verde]{"entity": "country_code", "value": "CV"}
+- [Cabo Verde]{"entity": "country_code", "value": "CV"}
+- [tonga]{"entity": "country_code", "value": "TO"}
+- [Tonga]{"entity": "country_code", "value": "TO"}
+- [Kingdom of Tonga]{"entity": "country_code", "value": "TO"}
+- [vatican city]{"entity": "country_code", "value": "VA"}
+- [Holy See]{"entity": "country_code", "value": "VA"}
+- [Vatican City State]{"entity": "country_code", "value": "VA"}
+- [Sancta Sedes]{"entity": "country_code", "value": "VA"}
+- [nicaragua]{"entity": "country_code", "value": "NI"}
+- [Nicaragua]{"entity": "country_code", "value": "NI"}
+- [Republic of Nicaragua]{"entity": "country_code", "value": "NI"}
+- [djibouti]{"entity": "country_code", "value": "DJ"}
+- [Djibouti]{"entity": "country_code", "value": "DJ"}
+- [Yibuuti]{"entity": "country_code", "value": "DJ"}
+- [peru]{"entity": "country_code", "value": "PE"}
+- [Peru]{"entity": "country_code", "value": "PE"}
+- [Perú]{"entity": "country_code", "value": "PE"}
+- [northern mariana islands]{"entity": "country_code", "value": "MP"}
+- [Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [Commonwealth of the Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [burundi]{"entity": "country_code", "value": "BI"}
+- [Burundi]{"entity": "country_code", "value": "BI"}
+- [Republic of Burundi]{"entity": "country_code", "value": "BI"}
+- [European continet]{"entity": "world_region", "value": "Europe"}
+- [Europe]{"entity": "world_region", "value": "Europe"}
+- [Asia]{"entity": "world_region", "value": "Asia"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
+- [Amerika]{"entity": "world_region", "value": "America"}
+- [Oceania]{"entity": "world_region", "value": "Oceania"}
+- [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
+
+
+## synonym:NP
+- Nepal
+- Federal Democratic Republic of Nepal
+- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- República Democrática Federal do Nepal
+
+## synonym:sex
+- sex
+- sexual
+- virginity
+- virgin
+- pornography
+- blow job
+- bonk
+- buggery
+- anal
+- carnal
+- climax
+- orgasm
+- coitus
+- cottaging
+- cybersex
+- ejaculation
+- ejaculating
+- ejaculate
+- fuck
+- gang bang
+- hanky-panky
+- intercourse
+- ménage à trois
+- nookie
+- one-night stand
+- oral sex
+- penetration
+- sodomy
+- threesome
+- tits
+- penis
+- wang
+- weenie
+- whang
+- vagina
+
+## synonym:website
+- page
+- web sites
+- web site
+- web pages
+- web page
+- links
+- link
+- webpages
+- homepage
+- webpage
+- websites
+- sites
+- site
+- website
+
+## synonym:IT
+- Italy
+- Italia
+- Italian Republic
+- Repubblica Italiana
+- Itália
+- República Italiana
+
+## synonym:uv lamp
+- uv lamps
+- ultraviolet disinfection lamp
+- ultraviolet disinfection lamps
+- ultraviolet lamp
+- ultraviolet lamps
+
+## synonym:GG
+- Guernsey
+- Guernési
+- Guernesey
+- Guérnesei
+- Guernesei
+- Bailiado de Guernsey
+- Bailiwick of Guernsey
+- Bailliage de Guernesey
+
+## synonym:MS
+- Montserrat
+- Monserrate
+- Ilha Esmeralda das Caraíbas
+- The Emerald Isle of the Caribbean
+- Emerald Isle of the Caribbean
+
+## synonym:SC
+- Seychelles
+- Republic of Seychelles
+- République des Seychelles
+- La Repiblik Sesel
+- Sesel
+- Seicheles
+- República das Seicheles ou Seychelles
+- República das Seychelles
+
+## synonym:AX
+- Åland Islands
+- Åland
+- Fasta Åland
+- Ilhas Åland
+- Ilhas de Aland
+- Alanda
+- Ahvenanmaa
+- Arquipélago da Åland
+- Arquipélago da Aland
+- Alandia
+
+## synonym:FM
+- Federated States of Micronesia
+- FSM
+- Micronesia
+- Estados Federados da Micronésia
+- EFM
+- Micronésia
+
+## synonym:GU
+- Guam
+- Guåhån
+- Guão
+- Guame
+
+## synonym:PT
+
+- Portugal
+- Portuguese Republic
+- República Portuguesa
+- portugal
+
+## synonym:JP
+- Japan
+- Nippon
+- Nihon
+- Nippon-koku
+- Nihon-koku
+- Japão
+- Estado do Japão
+
+## synonym:joke
+- humorist
+- comical
+- humourous
+- comedic
+- comedian
+- entertaining
+- humorous
+- amusing
+- comedy
+- humor
+- prank
+- humour
+- pranks
+- jokes
+- joking
+- joke
+- medy
+- prank
+- pranks
+
+## synonym:CO
+- Colombia
+- Republic of Colombia
+- República de Colombia
+- Colômbia
+- República da Colômbia
+
+## synonym:MT
+- Malta
+- Republic of Malta
+- Repubblika ta' Malta
+- República de Malta
+
+## synonym:number
+- number
+- quantity
+
+## synonym:CU
+- Cuba
+- Republic of Cuba
+- República de Cuba
+
+## synonym:MM
+- Myanmar
+- Burma
+- Republic of the Union of Myanmar
+- Pyidaunzu Thanmăda Myăma
+- Nainngandaw
+- Birmânia
+- República da União de Myanmar
+
+## synonym:GP
+- Guadeloupe
+- Gwadloup
+- Guadalupe
+
+## synonym:AR
+- Argentina
+- Argentine Republic
+- República Argentina
+- República da Argentina
+- Republic of Argentina
+
+## synonym:VG
+- British Virgin Islands
+- BVI
+- Ilhas Virgens Britânicas
+
+## synonym:LU
+- Luxembourg
+- Lëtzebuerg
+- Luxemburg
+- Grand Duchy of Luxembourg
+- Groussherzogtum Lëtzebuerg
+- Grand-Duché de Luxembourg​
+- Großherzogtum Luxemburg
+- Luxemburgo
+- Grão-Ducado do Luxemburgo
+- Grão-Ducado de Luxemburgo
+
+## synonym:GA
+- Gabon
+- Gabonese Republic
+- République gabonaise
+- Gabão
+- República Gabonesa
+
+## synonym:UG
+- Uganda
+- Republic of Uganda
+- Jamhuri ya Uganda
+- Eggwanga Yuganda
+- República de Uganda
+- República do Uganda
+
+## synonym:TN
+- Tunisia
+- Republic of Tunisia
+- al-Jumhūrīyah at-Tūnisīyah
+- République tunisienne
+- Tunísia
+- Tūnis
+- Tunisie
+- República Tunisina
+
+## synonym:PR
+- Puerto Rico
+- Borinquen
+- Porto Rico
+- Commonwealth of Puerto Rico
+- Estado Libre Asociado de Puerto Rico
+- Free Associated State of Puerto Rico
+- Estado Livre Associado de Porto Rico
+
+## synonym:UY
+- Uruguay
+- Oriental Republic of Uruguay
+- República Oriental del Uruguay
+- República Oriental do Uruguai
+- Uruguai
+
+## synonym:SL
+- Sierra Leone
+- Republic of Sierra Leone
+- Salone
+- Serra Leoa
+- República da Serra Leoa
+
+## synonym:PW
+- Palau
+- Belau
+- Palaos
+- Pelew
+- Republic of Palau
+- Beluu er a Belau
+- República de Palau
+
+## synonym:MA
+- Morocco
+- al-maġhrib
+- Maroc
+- Kingdom of Morocco
+- al-mamlakah al-maghribiyah
+- The Western Kingdom
+- Royaume du Maroc
+- tageldit n lmaɣrib
+- Marrocos
+- Amerruk
+- Murakuc
+- Reino de Marrocos
+
+## synonym:TV
+- Tuvalu
+- Ellice Islands
+- Ilhas Ellice
+
+## synonym:QA
+- Qatar
+- State of Qatar
+- Dawlat Qaṭar
+- Qaṭar
+- Catar
+- Estado do Catar
+- Estado do Qatar
+
+## synonym:PM
+- Saint Pierre and Miquelon
+- Saint-Pierre-et-Miquelon
+- Overseas Collectivity of Saint Pierre and Miquelon
+- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
+- São Pedro e Miquelão
+- São Pedro e Miquelon
+- Saint-Pierre e Miquelon
+- Coletividade de Ultramar de São Pedro e Miquelão
+
+## synonym:IQ
+- Iraq
+- Êraq
+- Republic of Iraq
+- Komarî Êraq
+- Iraque
+- República do Iraque
+- Al-Jumhuriyah Al-Iraqiyah
+
+## synonym:LK
+- Sri Lanka
+- Srī Lankā prajātāntrika samājavādī janarajaya
+- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
+- Democratic Socialist Republic of Sri Lanka
+- Śrī Laṃkā
+- Ilaṅkai
+- Sri Lanca
+- Seri Lanca
+- República Democrática Socialista do Sri Lanka
+- Ceilão
+- Taprobana
+
+## synonym:AS
+- American Samoa
+- Samoa Americana
+- Amerika Sāmoa
+- Amelika Sāmoa
+- Sāmoa Amelika
+- Tutuila
+
+## synonym:PS
+- State of Palestine
+- Dawlat Filasṭīn
+- Palestine
+- Filasṭīn
+- Estado da Palestina
+
+## synonym:TG
+- Togo
+- Togolese Republic
+- République togolaise
+- República Togolesa
+
+## synonym:OM
+- Oman
+- Salṭanat ʻUmān
+- Sultanate of Oman
+- Omã
+- Omão
+- Sultanato de Omã
+- Saltānat 'Umān
+
+## synonym:RE
+- Réunion
+- La Réunion
+- Île Bourbon
+- Reunião
+
+## synonym:KW
+- Kuwait
+- al-Kuwait
+- State of Kuwait
+- Dawlat al-Kuwait
+- Estado do Kuwait
+
+## synonym:PY
+- Paraguay
+- Republic of Paraguay
+- República del Paraguay
+- Tetã Paraguái
+- Paraguái
+- Paraguai
+
+## synonym:PF
+- French Polynesia
+- Polynésie française
+- Pōrīnetia Farāni
+- Polinésia Francesa
+
+## synonym:SJ
+- Svalbard and Jan Mayen
+- Svalbard og Jan Mayen
+- Svalbard and Jan Mayen Islands
+- Svalbard e Jan Mayen
+- Svalbard
+- Jan Mayen
+
+## synonym:CG
+- Congo
+- République du Congo
+- Repubilika ya Kôngo
+- Republíki ya Kongó
+- Congo-Brazzaville
+- Congo Brazzaville
+- Congo Republic
+- RotC
+
+## synonym:TH
+- Thailand
+- Kingdom of Thailand
+- Siam
+- Ratcha-anachak Thai
+- Tailândia
+- Reino da Tailândia
+- Sião
+
+## synonym:HM
+- Heard Island and McDonald Islands
+- HIMI
+- Ilha Heard e as Ilhas McDonald
+- Território das Ilhas Heard e McDonald
+- Ilhas Heard
+- Ilhas McDonald
+
+## synonym:YE
+- Yemen
+- al-Jumhūrīyah al-Yamanīyah
+- Yaman
+- Republic of Yemen
+- al-Yama
+- Iémen
+- Iêmen
+- República do Iémen
+- República do Iêmen
+
+## synonym:SB
+- Solomon Islands
+- Islas Salomón
+- Ilhas Salomão
+
+## synonym:NO
+- Norway
+- Kingdom of Norway
+- Kongeriket Norge
+- Kongeriket Noreg
+- Norgga gonagasriika
+- Vuona gånågisrijkka
+- Nöörjen gånkarijhke
+- Norge
+- Noreg
+- Norga
+- Vuodna
+- Nöörje
+- Noruega
+- Reino da Noruega
+
+## synonym:SG
+- Singapore
+- Republic of Singapore
+- Singapura
+- Cingapura
+- Xīnjiāpō
+- Chiṅkappūr
+- República de Singapura
+- Republik Singapura
+
+## synonym:PK
+- Pakistan
+- Islamic Republic of Pakistan
+- Islāmī Jumhūriyah Pākistān
+- Paquistão
+- Pākistān
+- Islami Jamahuriat Pakistan
+- República Islâmica do Paquistão
+
+## synonym:FK
+- Falkland Islands (Malvinas)
+- Malvinas
+- Falkland
+- Ilhas Malvinas
+- Islas Malvinas
+- Ilhas Falkland
+- Falklands
+
+## synonym:NR
+- Nauru
+- Republic of Nauru
+- Repubrikin Naoero
+- Pleasant Island
+- República de Nauru
+- Naoero
+- Ilha Aprazível
+
+## synonym:BR
+- Brazil
+- Brasil
+- Federative Republic of Brazil
+- República Federativa do Brasil
+- República Federal do Brasil
+
+## synonym:TR
+- Turkey
+- Türkiye
+- Republic of Turkey
+- Türkiye Cumhuriyeti
+- Turquia
+- República da Turquia
+
+## synonym:MH
+- Marshall Islands
+- Republic of the Marshall Islands
+- Aolepān Aorōkin Ṃajeḷ
+- Ilhas Marshall
+- República das Ilhas Marshall
+
+## synonym:EE
+- Estonia
+- Eesti
+- Republic of Estonia
+- Eesti Vabariik
+- Estónia
+- Estônia
+- República da Estónia
+- República da Estônia
+
+## synonym:ST
+- Sao Tome and Principe
+- Saint Thomas and Prince
+- Democratic Republic of São Tomé and Príncipe
+- República Democrática de São Tomé e Príncipe
+- São Tomé e Príncipe
+
+## synonym:CN
+- China
+- People's Republic of China
+- PRC
+- Zhōnghuá Rénmín Gònghéguó
+- República Popular da China
+- RPC
+
+## synonym:PH
+- Philippines
+- Pilipinas
+- Filipinas
+- Republic of the Philippines
+- Republika ng Pilipinas
+- República das Filipinas
+- Repúbliká ng̃ Pilipinas
+
+## synonym:SZ
+- Swaziland
+- Eswatini
+- Kingdom of Eswatini
+- Umbuso weSwatini
+- Essuatíni
+- Reino de Essuatíni
+
+## synonym:MR
+- Mauritania
+- Mūrītānyā
+- Mauritanie
+- Agawej
+- Cengit
+- Moritani
+- Gànnaar
+- Murutaane
+- Islamic Republic of Mauritania
+- République islamique de Mauritanie
+- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- Mauritânia
+- República Islâmica da Mauritânia
+
+## synonym:HR
+- Croatia
+- Hrvatska
+- Republic of Croatia
+- Republika Hrvatska
+- Croácia
+- República da Croácia
+
+## synonym:MG
+- Madagascar
+- Madagasikara
+- Republic of Madagascar
+- Repoblikan'i Madagasikara
+- République de Madagascar
+- Malagasy Republic
+- Madagáscar
+- República de Madagáscar
+- República de Madagascar
+- República Malgaxe
+
+## synonym:ZW
+- Zimbabwe
+- Republic of Zimbabwe
+- Rhodesia
+- Nyika yeZimbabwe
+- Ilizwe leZimbabwe
+- Dziko la Zimbabwe
+- Hango yeZimbabwe
+- Zimbabwe Nù
+- Inyika yeZimbabwe
+- Tiko ra Zimbabwe
+- Naha ya Zimbabwe
+- Cisi ca Zimbabwe
+- Shango ḽa Zimbabwe
+- Zimbábue
+- Zimbabué
+- Zimbaué
+- República do Zimbabwe
+
+## synonym:UZ
+- Uzbekistan
+- Oʻzbekiston
+- Republic of Uzbekistan
+- Oʻzbekiston Respublikasi
+- Uzbequistão
+- Usbequistão
+- República do Uzbequistão
+
+## synonym:PN
+- Pitcairn
+- Pitcairn Islands
+- Pitkern Ailen
+- Pitcairn, Henderson, Ducie and Oeno Islands
+- Ilhas Pitcairn
+- Ilhas Picárnia
+- Ilhas Pitcairn, Henderson, Ducie e Oeno
+- Grupo de Ilhas Pitcairn
+
+## synonym:NL
+- Netherlands
+- Nederland
+- Kingdom of the Netherlands
+- Países Baixos
+- Holanda
+- Reino dos Países Baixos
+
+## synonym:IL
+- Israel
+- State of Israel
+- Estado de Israel
+- Medīnat Yisrā'el
+- Dawlat Isrā'īl
+
+## synonym:ET
+- Ethiopia
+- Itiyoophiyaa
+- Itoophiyaa
+- Itoobiya
+- Federal Democratic Republic of Ethiopia
+- ityoppiah federalih demokrasih ummuno
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- Etiópia
+- República Democrática Federal da Etiópia
+
+## synonym:TL
+- Timor-Leste
+- República Democrática de Timor-Leste
+- Timor Leste
+- Timor Lorosa'e
+- Repúblika Demokrátika Timór-Leste
+- Democratic Republic of Timor-Leste
+- East Timor
+
+## synonym:VI
+- U.S. Virgin Islands
+- Ilhas Virgens Americanas
+- Ilhas Virgens dos Estados Unidos
+- United States Virgin Islands
+- USVI
+- American Virgin Islands
+- Virgin Islands of the United States
+
+## synonym:AZ
+- Azerbaijan
+- Republic of Azerbaijan
+- Azerbaijão
+- República do Azerbaijão
+
+## synonym:LS
+- Lesotho
+- Kingdom of Lesotho
+- Muso oa Lesotho
+- Lesoto
+- Lessoto
+- Reino do Lesoto
+- Reino do Lessoto
+- Bassutolândia
+
+## synonym:CM
+- Cameroon
+- Cameroun
+- Republic of Cameroon
+- République du Cameroun
+- Renndaandi Kamerun
+- Camarões
+- República dos Camarões
+- República do Cameroun
+
+## synonym:UM
+- United States Minor Outlying Islands
+- Baker Island
+- Howland Island
+- Jarvis Island
+- Johnston Atoll
+- Kingman Reef
+- Midway Atoll
+- Palmyra Atoll
+- Wake Island
+- Navassa Island
+- Ilha Baker
+- Ilha Howland
+- Ilha Jarvis
+- Atol Johnston
+- Recife Kingman
+- Atol Midway
+- Ilha Navassa
+- Atol Palmyra
+- Ilha Wake
+- Ilhas Menores Distantes dos Estados Unidos
+- Ilhas Menores Afastadas dos Estados Unidos
+
+## synonym:ZM
+- Zambia
+- Republic of Zambia
+- Dziko la Zambia
+- Cisi ca Zambia
+- Zâmbia
+- República da Zâmbia
+
+## synonym:ID
+- Indonesia
+- Republic of Indonesia
+- Republik Indonesia
+- Indonésia
+- República da Indonésia
+
+## synonym:DO
+- Dominican Republic
+- República Dominicana
+
+## synonym:SN
+- Senegal
+- Sénégal
+- Republic of Senegal
+- République du Sénégal
+- Réewum Senegaal
+- Renndaandi Senegal
+- República do Senegal
+
+## synonym:AG
+- Antigua and Barbuda
+- Antigua
+- Barbuda
+- Antígua e Barbuda
+- Antiga e Barbuda
+- Antígua
+
+## synonym:BE
+- Belgium
+- Kingdom of Belgium
+- Königreich Belgien
+- Royaume de Belgique
+- Koninkrijk België
+- Reino da Bélgica
+- Bélgica
+- België
+- Belgique
+- Belgien
+
+## synonym:JM
+- Jamaica
+- Jumieka
+
+## synonym:ES
+- Spain
+- España
+- Kingdom of Spain
+- Reino de España
+- Regne d'Espanya
+- Espainiako Erresuma
+- Reiaume d'Espanha
+- Espanha
+- Reino da Espanha
+- Reino de Espanha
+
+## synonym:BJ
+- Benin
+- Republic of Benin
+- République du Bénin
+- Bénin
+- Benim
+- República do Benim
+
+## synonym:BM
+- Bermuda
+- Islands of Bermuda
+- Ilhas Bermudas
+- Bermudas
+
+## synonym:SD
+- Sudan
+- Republic of the Sudan
+- as-Sūdān
+- Jumhūriyyat as-Sūdān
+- Sudão
+- República do Sudão
+
+## synonym:AL
+- Albania
+- Republic of Albania
+- Albânia
+- Republica da Albânia
+
+## synonym:SR
+- Suriname
+- Surinam
+- Republic of Suriname
+- Republiek Suriname
+- República do Suriname
+
+## synonym:IN
+- India
+- Bhārat
+- Republic of India
+- Bhārat Gaṇarājya
+- Índia
+- República da Índia
+
+## synonym:BD
+- Bangladesh
+- country of Bengal
+- People's Republic of Bangladesh
+- Bangladexe
+- Bangladeche
+- Nação Bengali
+- República Popular do Bangladesh
+
+## synonym:UA
+- Ukraine
+- Ukrayina
+- Ucrânia
+
+## synonym:KY
+- Cayman Islands
+- Ilhas Caimã
+- Ilhas Cayman
+- Ilhas Caimão
+
+## synonym:ME
+- Montenegro
+- Crna Gora
+- Црна Гора
+
+## synonym:GQ
+- Equatorial Guinea
+- Guinea Ecuatorial
+- Guinée équatoriale
+- Guiné Equatorial
+- Republic of Equatorial Guinea
+- República de Guinea Ecuatorial
+- République de Guinée équatoriale
+- República da Guiné Equatorial
+
+## synonym:US
+- United States
+- United States of America
+- USA
+- usa
+- U.S.
+- US
+- America
+- Estados Unidos da América
+- Estados Unidos
+- EUA
+- eua
+
+## synonym:IR
+- Islamic Republic of Iran
+- Persia
+- Jomhuri-ye Eslāmi-ye Irān
+- Irão
+- Irã
+- República Islâmica do Irã
+- República Islâmica do Irão
+- Pérsia
+
+## synonym:SK
+- Slovakia
+- Slovensko
+- Slovak Republic
+- Slovenská republika
+- Eslováquia
+- República Eslovaca
+
+## synonym:BT
+- Bhutan
+- Kingdom of Bhutan
+- Druk Gyal Khap
+- Butão
+- Reino do Butão
+
+## synonym:AT
+- Austria
+- Republic of Austria
+- Österreich
+- Republik Österreich
+- Áustria
+- República da Áustria
+
+## synonym:KR
+- Republic of Korea
+- South Korea
+- south korea
+- Hanguk
+- Namhan
+- Daehan Minguk
+- Coreia do Sul
+- República da Coreia
+
+## synonym:SH
+- Saint Helena, Ascension and Tristan da Cunha
+- Saint Helena
+- Ascension Island
+- Tristan da Cunha
+- Santa Helena, Ascensão e Tristão da Cunha
+- Santa Helena
+- Ascensão
+- Tristão da Cunha
+
+## synonym:LA
+- Lao People's Democratic Republic
+- Laos
+- Lāo
+- Saþalanalat Paxaþipatai Paxaxōn Lao
+- République démocratique populaire lao
+
+## synonym:SO
+- Somalia
+- Soomaaliya
+- aṣ-Ṣūmāl
+- Federal Republic of Somalia
+- Jamhuuriyadda Federaalka Soomaaliya
+- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Somália
+- República Federal da Somália
+
+## synonym:RO
+- Romania
+- România
+- Romênia
+- Roménia
+
+## synonym:GY
+- Guyana
+- Co-operative Republic of Guyana
+- Guiana
+- República Cooperativa da Guiana
+
+## synonym:FR
+- France
+- French Republic
+- République française
+- França
+- República Francesa
+
+## synonym:LR
+- Liberia
+- Republic of Liberia
+- Libéria
+- República da Libéria
+
+## synonym:RU
+- Russian Federation
+- Russia
+- Росси́я
+- Rossiya
+- Российская Федерация
+- Rossiyskaya Federatsiya
+- Rússia
+- Federação Russa
+
+## synonym:TZ
+- United Republic of Tanzania
+- Tanzania
+- Jamhuri ya Muungano wa Tanzania
+- Tanzânia
+- República Unida da Tanzânia
+
+## synonym:AE
+- United Arab Emirates
+- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- Emirates
+- UAE
+- Emirados Árabes Unidos
+- EAU
+- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+
+## synonym:AQ
+- Antarctica
+- Antártida
+- Antártica
+
+## synonym:CC
+- Cocos (Keeling) Islands
+- Cocos Keeling Islands
+- Territory of Cocos (Keeling) Islands
+- Territory of Cocos Keeling Islands
+- Pulu Kokos (Keeling)
+- Wilayah Kepulauan Cocos (Keeling)
+- Keeling Islands
+- Ilhas Keeling
+- Ilhas Cocos (Keeling)
+- Ilhas Cocos Keeling
+- Pulu Kokos Keeling
+
+## synonym:BN
+- Brunei Darussalam
+- Brunei
+- Nation of Brunei
+- Negara Brunei Darussalam
+- Nation of Brunei, the Abode of Peace
+
+## synonym:KN
+- Saint Kitts and Nevis
+- Federation of Saint Christopher and Nevis
+- São Cristóvão e Névis
+- São Cristóvão e Neves
+- Federação de São Cristóvão e Neves
+- Federação de São Cristóvão e Névis
+- Saint Kitts
+- Nevis
+
+## synonym:BF
+- Burkina Faso
+- Republic of Burkina Faso
+- Burquina Faso
+- Burquina Fasso
+- Burquina
+
+## synonym:CY
+- Cyprus
+- Κύπρος
+- Kıbrıs
+- Republic of Cyprus
+- Κυπριακή Δημοκρατία
+- Cypriot Republic
+- Kıbrıs Cumhuriyeti
+- Chipre
+- Kýpros
+- República de Chipre
+- Kypriakí Dimokratía
+
+## synonym:AF
+- Afghanistan
+- Islamic Republic of Afghanistan
+- Republic of Afghanistan
+- República Islâmica do Afeganistão
+- Afeganistão
+- Republica do Afeganistão
+
+## synonym:KI
+- Kiribati
+- Republic of Kiribati
+- Ribaberiki Kiribati
+- Quiribáti
+- Quiribati
+- República de Kiribati
+- República de Quiribati
+- República de Quiribáti
+
+## synonym:GD
+- Grenada
+- Gwenad
+- Granada
+- La Grenade
+- Ilha das Especiarias
+- Island of Spice
+
+## synonym:CR
+- Costa Rica
+- Republic of Costa Rica
+- República de Costa Rica
+- República da Costa Rica
+
+## synonym:GF
+- French Guiana
+- Guyane
+- Department of French Guiana
+- Guiana Francesa
+- Guyane française
+
+## synonym:CW
+- Curaçao
+- Kòrsou
+- Land Curaçao
+- Pais Kòrsou
+- Island Territory of Curaçao
+- Eilandgebied Curaçao
+- Teritorio Insular di Kòrsou
+- Country of Curaçao
+- Curaçau
+
+## synonym:GE
+- República da Geórgia
+- Georgia
+- Sakartvelo
+- Republic of Georgia
+- sakartvelos resp'ublik'a
+- Geórgia
+
+## synonym:KZ
+- Kazakhstan
+- Republic of Kazakhstan
+- Қазақстан Республикасы
+- Qazaqstan Respýblıkasy
+- Республика Казахстан
+- Respublika Kazakhstan
+- Cazaquistão
+- Qazaqstan
+- República do Cazaquistão
+
+## synonym:TC
+- Turks and Caicos Islands
+- TCI
+- Caicos Islands
+- Turks Islands
+- Turks
+- Caicos
+- Turks and Caicos
+- Ilhas Turcas e Caicos
+- Turcas e Caicos
+- Turcas
+
+## synonym:KG
+- Kyrgyzstan
+- Kyrgyz Republic
+- Кыргыз Республикасы
+- Kırğız Respublikası
+- Кыргызская Республика
+- Kyrgyzskaya Respublika
+- Kirghizia
+- Киргизия
+- Quirguistão
+- Quirguizistão
+- Quirguízia
+- República Quirguiz
+- República do Quirguistão
+- República do Quirguizistão
+
+## synonym:ML
+- Mali
+- Republic of Mali
+- République du Mali
+- Mali ka Fasojamana
+- Renndaandi Maali
+- Máli
+- República do Mali
+
+## synonym:FJ
+- Fiji
+- Republic of Fiji
+- Matanitu Tugalala o Viti
+- República das Fíji
+- República das Fiji
+- Fíji
+- República das Fidji
+- Fidji
+- República das Ilhas Fiji
+
+## synonym:GB
+- Inglaterra
+- United Kingdom
+- United Kingdom of Great Britain and Northern Ireland
+- UK
+- uk
+- U.K.
+- Britain
+- Great Britain
+- Northern Ireland
+- Reino Unido
+- Reino Unido da Grã-Bretanha e Irlanda do Norte
+- Grã-Bretanha
+- Irlanda do Norte
+- England
+
+## synonym:DM
+- Dominica
+- Dominique
+- Commonwealth of Dominica
+- Domínica
+- Comunidade da Dominica
+
+## synonym:KM
+- Comoros
+- Union of the Comoros
+- Udzima wa Komori
+- Union des Comores
+- Umoja wa Komori
+- al-Ittiḥād al-Qumurī
+- al-Ittiḥād al-Qamarī
+- Comores
+- União das Comores
+- União de Comores
+
+## synonym:MU
+- Mauritius
+- Maurice
+- Moris
+- Republic of Mauritius
+- Repiblik Moris
+- Maurícia
+- Maurício
+- República da Maurícia
+- República de Maurício
+- République de Maurice
+
+## synonym:GN
+- Guinea
+- Republic of Guinea
+- République de Guinée
+- Guinée française
+- French Guinea
+- Guinea-Conakry
+- Renndaandi Ginea
+
+## synonym:TT
+- Trinidad and Tobago
+- Republic of Trinidad and Tobago
+- Trinidad
+- Tobago
+- Trindade e Tobago
+- Trinidade e Tobago
+- Trinidad e Tobago
+- República de Trindade e Tobago
+- Trinidade
+
+## synonym:RS
+- Serbia
+- Србија
+- Srbija
+- Republic of Serbia
+- Република Србија
+- Republika Srbija
+- Sérvia
+- República da Sérvia
+
+## synonym:GL
+- Greenland
+- Kalaallit Nunaat
+- Grønland
+- Groenlândia
+- Groelândia
+- Gronelândia
+
+## synonym:PL
+- Poland
+- Polska
+- Republic of Poland
+- Rzeczpospolita Polska
+- Polônia
+- Polónia
+- República da Polónia
+
+## synonym:TJ
+- Tajikistan
+- Republic of Tajikistan
+- Jumhurii Tojikiston
+- Tajiquistão
+- Tadjiquistão
+- Tojikiston
+- República do Tajiquistão
+
+## synonym:KH
+- Cambodia
+- Kampuchea
+- Cambodge
+- Kingdom of Cambodia
+- Royaume du Cambodge
+- Camboja
+- Cambodja
+- Reino do Camboja
+
+## synonym:BW
+- Botswana
+- Republic of Botswana
+- Lefatshe la Botswana
+- Botsuana
+- República do Botswana
+- República do Botsuana
+
+## synonym:WF
+- Wallis and Futuna
+- Territory of the Wallis and Futuna Islands
+- Wallis-et-Futuna
+- Territoire des îles Wallis-et-Futuna
+- Uvea mo Futuna
+- Wallis e Futuna
+- Território das Ilhas Wallis e Futuna
+
+## synonym:LV
+- Latvia
+- Latvija
+- Lețmō
+- Republic of Latvia
+- Latvijas Republika
+- Lețmō Vabāmō
+- Letónia
+- Letônia
+- República da Letônia
+
+## synonym:KE
+- Kenya
+- Republic of Kenya
+- Jamhuri ya Kenya
+- Quénia
+- Quênia
+- República do Quénia
+- República do Quênia
+
+## synonym:LC
+- Saint Lucia
+- Sainte-Lucie
+- Iyonola
+- Santa Lúcia
+
+## synonym:SV
+- El Salvador
+- Republic of El Salvador
+- República de El Salvador
+- Salvador
+- República do Salvador
+
+## synonym:TW
+- Taiwan, Province of China
+- Taiwan Province
+- Taiwan Region
+- Taiwan Area
+- Taiwan
+- Taiwan, China
+- Província de Taiwan
+- Táiwān shěng
+
+## synonym:EC
+- Ecuador
+- Ikwayur
+- Ekuatur
+- Republic of Ecuador
+- República del Ecuador
+- Republic of the Equator
+- Ikwadur Ripuwlika
+- Ekuatur Nunka
+- Ikwayur Runaq Imayka
+- Equador
+- República do Equador
+
+## synonym:AO
+- Angola
+- Republic of Angola
+- República de Angola
+
+## synonym:Asia
+- continente asiático
+- Ásia
+
+## synonym:BZ
+- Belize
+
+## synonym:SY
+- Syrian Arab Republic
+- Syria
+- Sūriyā
+- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
+- Síria
+- República Árabe Síria
+
+## synonym:JO
+- Jordan
+- Hashemite Kingdom of Jordan
+- Kingdom of Jordan
+- Al-ʾUrdunn
+- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
+- Jordânia
+- Reino Haxemita da Jordânia
+- Reino da Jordânia
+
+## synonym:HT
+- Haiti
+- Haïti
+- Ayiti
+- Republic of Haiti
+- République d'Haïti
+- Repiblik D Ayiti
+- Hayti
+- República do Haiti
+
+## synonym:TD
+- Chad
+- Tshād
+- Republic of Chad
+- République du Tchad
+- Jumhūriyyat Tshād
+- Chade
+- Tchade
+- Tchad
+- República do Chade
+
+## synonym:JE
+- Jersey
+- Bailiwick of Jersey
+- Bailliage de Jersey
+- Bailliage dé Jèrri
+- Jérsei
+- Jérsia
+- Bailiado de Jersey
+
+## synonym:VU
+- Vanuatu
+- Republic of Vanuatu
+- Ripablik blong Vanuatu
+- République de Vanuatu
+- Gloriosa República de Vanuatu
+- República de Vanuatu
+
+## synonym:CF
+- Central African Republic
+- République centrafricaine
+- Ködörösêse tî Bêafrîka
+- CAR
+- República Centro-Africana
+- República da África-Central
+- República da África Central
+- República Centro Africana
+
+## synonym:FO
+- Faroe Islands
+- Føroyar
+- Færøerne
+- Ilhas Feroe
+- Ilhas Féroe
+- Ilhas Faroé
+- Ilhas Faroés
+- Færeyjar
+
+## synonym:EG
+- Egypt
+- Arab Republic of Egypt
+- Egito
+- Egipto
+- República Árabe do Egito
+- República Árabe do Egipto
+
+## synonym:MQ
+- Martinique
+- Matnik
+- Matinik
+- Martinica
+
+## synonym:CZ
+- Czech Republic
+- Česká republika
+- Czechia
+- Česko
+- Chéquia
+- Tchéquia
+- República Checa
+- República Tcheca
+
+## synonym:RW
+- Rwanda
+- Republic of Rwanda
+- Repubulika y'u Rwanda
+- République du Rwanda
+- Jamhuri ya Rwanda
+- u Rwanda
+- Ruanda
+- República de Ruanda
+- República do Ruanda
+
+## synonym:AM
+- Armenia
+- Republic of Armenia
+- Arménia
+- Armênia
+- República da Arménia
+
+## synonym:CD
+- The Democratic Republic of the Congo
+- Democratic Republic of the Congo
+- République démocratique du Congo
+- DR Congo
+- DRC
+- DROC
+- Congo-Kinshasa
+- Repubilika ya Kôngo ya Dimokalasi
+- Republíki ya Kongó Demokratíki
+- Jamhuri ya Kidemokrasia ya Kongo
+- Ditunga dia Kongu wa Mungalaata
+- República Democrática do Congo
+- RDC
+- RD Congo
+- Congo R.D.
+- Congo-Quinxassa
+
+## synonym:CX
+- Christmas Island
+- Territory of Christmas Island
+- Ilha Christmas
+- Ilha do Natal
+- Ilha Natal
+- Território da Ilha Christmas
+- Território da Ilha do Natal
+- Território da Ilha Natal
+
+## synonym:NA
+- Namibia
+- Republic of Namibia
+- Republiek van Namibië
+- Republik Namibia
+- Namibiab Republiki dib
+- Orepublika yaNamibia
+- Republika zaNamibia
+- Rephaboliki ya Namibia
+- Namibia ye Lukuluhile
+- República da Namíbia
+
+## synonym:TM
+- Turkmenistan
+- Türkmenistan
+- Republic of Turkmenistan
+- Türkmenistan Respublikasy
+- Turquemenistão
+- Turcomenistão
+- Turcomênia
+- República do Turcomenistão
+
+## synonym:BL
+- Saint Barthélemy
+- Saint-Barthélemy
+- Collectivité territoriale de Saint-Barthélemy
+- St-Barth
+- St. Barths
+- St. Barts
+- São Bartolomeu
+- Coletividade de São Bartolomeu
+
+## synonym:GW
+- Guinea-Bissau
+- Guiné-Bissau
+- Republic of Guinea-Bissau
+- República da Guiné-Bissau
+- Guinea Bissau
+- Guiné Bissau
+
+## synonym:NU
+- Niue
+- Niuē
+- Niuê
+
+## synonym:HK
+- Hong Kong
+- Hong Kong Special Administrative Region
+- HKSAR
+- Xiānggǎng
+- Hēunggóng
+
+## synonym:DZ
+- Algeria
+- Democratic Republic of Algeria
+- Republic of Algeria
+- Argélia
+- Republica da Argélia
+- Republica Democrática da Argélia
+
+## synonym:SI
+- Slovenia
+- Slovenija
+- Republic of Slovenia
+- Republika Slovenija
+- Eslovénia
+- Eslovênia
+- República da Eslovénia
+- República da Eslovênia
+
+## synonym:Africa
+- continente Africano
+- África
+
+## synonym:firstname
+- given name
+- christian name
+- forename
+- first-name
+- first name
+- firstname
+- name
+
+## synonym:NZ
+- New Zealand
+- Aotearoa
+- Nova Zelândia
+
+## synonym:MV
+- Maldives
+- Republic of Maldives
+- Dhivehi Raajjeyge Jumhooriyyaa
+- Dhivehi Raajje
+- Maldivas
+- República das Maldivas
+
+## synonym:ER
+- Hagere Ertra
+- Dawlat Iritriyá
+- Eritrea
+- State of Eritrea
+- Eritreia
+- Ertrā
+- Estado da Eritreia
+
+## synonym:FI
+- Finland
+- Suomi
+- Republic of Finland
+- Suomen tasavalta
+- Republiken Finland
+- Finlândia
+- República da Finlândia
+
+## synonym:IE
+- Ireland
+- Éire
+- Airlann
+- Ilha da Irlanda
+- Irlanda
+- Ilha Esmeralda
+- Emerald Isle
+
+## synonym:SX
+- Sint Maarten (Dutch part)
+- São Martinho paises baixos
+
+## synonym:GS
+- South Georgia and the South Sandwich Islands
+- SGSSI
+- South Sandwich Islands
+- South Georgia
+- Ilhas Geórgia do Sul e Sandwich do Sul
+- Ilhas Geórgia do Sul e Sanduíche do Sul
+- Ilhas Geórgias do Sul e Sandwich do Sul
+- Ilhas Sandwich do Sul
+- Sandwich do Sul
+- Geórgia do Sul
+
+## synonym:AW
+- Aruba
+
+## synonym:NE
+- Niger
+- the Niger
+- République du Niger
+- Republic of the Niger
+- República do Níger
+- Níger
+
+## synonym:AI
+- Anguilla
+- Island of Anguilla
+- Anguila
+
+## synonym:CK
+- Cook Islands
+- Kūki 'Āirani
+- Ilhas Cook
+
+## synonym:SS
+- South Sudan
+- Republic of South Sudan
+- Paguot Thudä
+- Sudão do Sul
+- Sudão Meridional
+- República do Sudão do Sul
+
+## synonym:VN
+- Viet Nam
+- Vietnam
+- Socialist Republic of Vietnam
+- Vietname
+- Vietnã
+- República Socialista do Vietnã
+- República Socialista do Vietname
+
+## synonym:MD
+- Republic of Moldova
+- Moldova
+- Republica Moldova
+- Moldávia
+- República da Moldávia
+- República da Moldova
+
+## synonym:no
+- no
+- dont't follow
+- negative
+
+## synonym:LT
+- Lithuania
+- Lietuva
+- Republic of Lithuania
+- Lietuvos Respublika
+- Lituânia
+- República da Lituânia
+
+## synonym:TK
+- Tokelau
+- Union Islands
+- Tokelau Islands
+- Toquelau
+
+## synonym:IO
+- British Indian Ocean Territory
+- BIOT
+- TBOI
+- Território Britânico do Oceano Índico
+- British Indian Ocean
+- British Indian Territory
+- Território Britânico do Índico
+- Território Britânico do Oceano
+
+## synonym:BG
+- Bulgaria
+- Balgariya
+- Republic of Bulgaria
+- Republika Balgariya
+- Bulgária
+- República da Bulgária
+- Republika Bǎlgarija
+
+## synonym:NG
+- Nigeria
+- Federal Republic of Nigeria
+- Jamhuriyar Taraiyar Najeriya
+- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
+- República Federal da Nigéria
+- Nigéria
+
+## synonym:HN
+- Honduras
+- Republic of Honduras
+- República de Honduras
+- República das Honduras
+
+## synonym:AD
+- Andorra
+- Principality of Andorra
+- Principat d'Andorra
+- Principality of the Valleys of Andorra
+- Principat de les Valls d'Andorra
+- Principado de Andorra
+- Principado dos Vales de Andorra
+
+## synonym:GR
+- Greece
+- Hellenic Republic
+- Hellas
+- Ellinikí Dimokratía
+- Grécia
+- Elláda
+- República Helênica
+- República Helénica
+- Hélade
+
+## synonym:BY
+- Belarus
+- Republic of Belarus
+- Belorussia
+- Byelorussia
+- Bielorrússia
+- República da Belarus
+- República da Bielorrússia
+
+## synonym:VC
+- Saint Vincent and the Grenadines
+- Saint Vincent
+- São Vicente e Granadinas
+- São Vicente
+
+
+## synonym:SE
+- Sweden
+- Sverige
+- Kingdom of Sweden
+- Konungariket Sverige
+- Suécia
+- Reino da Suécia
+
+## synonym:GT
+- Guatemala
+- Republic of Guatemala
+- República de Guatemala
+- República da Guatemala
+
+
+## synonym:SM
+- San Marino
+- Republic of San Marino
+- Repubblica di San Marino
+- Most Serene Republic of San Marino
+- Serenissima Repubblica di San Marino
+- República de San Marino
+- Sereníssima República de San Marino
+- São Marinho
+- São Marino
+
+## synonym:MO
+- Região Administrativa de Macau
+- Macao
+- Macau
+- Macao Special Administrative Region
+- Jūng'wàh Yàhnmàhn
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+- Região Administrativa Especial de Macau
+
+## synonym:MZ
+- Mozambique
+- Republic of Mozambique
+- Moçambique
+- República de Moçambique
+- Mozambiki
+- Msumbiji
+- Muzambhiki
+
+## synonym:LB
+- Lebanon
+- Lubnān
+- Lebanese Republic
+- al-Jumhūrīyah al-Lubnānīyah
+- République libanaise
+- Líbano
+- Liban
+- República do Líbano
+
+## synonym:BS
+- Bahamas
+- Commonwealth of The Bahamas
+- Baamas
+- Comunidade das Bahamas
+
+## synonym:SA
+- Saudi Arabia
+- Kingdom of Saudi Arabia
+- Arábia Saudita
+- as-Su’ūdiyya
+- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
+- Reino da Arábia Saudita
+
+## synonym:BB
+- Barbados
+
+## synonym:MK
+- the Former Yugoslav Republic of Macedonia
+- North Macedonia
+- Macedonia
+- Republic of North Macedonia
+- Република Северна Македонија
+- Republika e Maqedonisë së Veriut
+- Macedônia do Norte
+- Macedónia do Norte
+- Severna Makedonija
+- República da Macedônia do Norte
+- República da Macedónia do Norte
+- Macedônia
+- Macedónia
+
+## synonym:WS
+- Samoa
+- Independent State of Samoa
+- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Sāmoa
+- Western Samoa
+- Estado Independente de Samoa
+- Estado Independente da Samoa
+- Samoa Ocidental
+
+## synonym:CL
+- Chile
+- Republic of Chile
+- República de Chile
+- Chile Wüdalmapu
+- Chili Suyu
+- Chili Ripuwlika
+- Repūvirika o Tire
+
+## synonym:IS
+- Iceland
+- Ísland
+- Islândia
+
+## synonym:GM
+- Gambia
+- Kambiya
+- Gámbi
+- Republic of The Gambia
+- Gâmbia
+- República da Gâmbia
+
+## synonym:LI
+- Liechtenstein
+- Principality of Liechtenstein
+- Fürstentum Liechtenstein
+- Listenstaine
+- Principado do Liechtenstein
+- Principado de Liechtenstein
+
+## synonym:ZA
+- South Africa
+- Republic of South Africa
+- RSA
+- Republiek van Suid-Afrika
+- iRiphabhuliki yaseNingizimu Afrika
+- iRiphabliki yomZantsi Afrika
+- Repabliki ya Afrika-Borwa
+- Rephaboliki ya Aforika Borwa
+- Rephaboliki ya Afrika Borwa
+- Riphabliki ya Afrika Dzonga
+- iRiphabhulikhi yeNingizimu Afrika
+- Riphabuḽiki ya Afurika Tshipembe
+- iRiphabliki yeSewula Afrika
+- África do Sul
+- República da África do Sul
+
+## synonym:MF
+- Saint Martin (French part)
+- Saint-Martin
+- Sint Maarten
+- São Martinho parte francesa
+- São Martim
+
+## synonym:YT
+- Mayotte
+- Maore
+- Mahori
+- Department of Mayotte
+- Département de Mayotte
+- Maiote
+- Departamento de Maiote
+
+## synonym:BQ
+- Bonaire, Sint Eustatius and Saba
+- Bonaire
+- Sint Eustatius
+- Saba
+- Caribbean Netherlands
+- Caribisch Nederland
+- BES Islands
+- Países Baixos Caribenhos
+- Caraíbas Neerlandesas
+- Santo Eustáquio
+
+## synonym:IM
+- Isle of Man
+- Mann
+- Mannin
+- Ellan Vannin
+- Ilha de Man
+
+## synonym:MX
+- Mexico
+- México
+- Mēxihco
+- United Mexican States
+- Estados Unidos Mexicanos
+- EUM
+- Mexican United States
+
+## synonym:BO
+- Plurinational State of Bolivia
+- Bolivia
+- Estado Plurinacional de Bolivia
+- Bolívia
+
+## synonym:AU
+- Australia
+- Commonwealth of Australia
+- Austrália
+- Comunidade da Austrália
+
+## synonym:MW
+- Nyasaland
+- Maláui
+- Malaui
+- Malaŵi
+- República do Malawi
+- Malawi
+- Republic of Malawi
+- Dziko la Malaŵi
+- Charu cha Malaŵi
+
+## synonym:CI
+- Côte d'Ivoire
+- Ivory Coast
+- The Ivory Coast
+- Republic of Côte d'Ivoire
+- République de Côte d'Ivoire
+- Costa do Marfim
+- República da Costa do Marfim
+
+## synonym:EH
+- Western Sahara
+- Taneẓroft Tutrimt
+- Sahara Occidental
+- Saara Ocidental
+- Sara Ocidental
+- Sáara Ocidental
+- Aṣ-Ṣaḥrā’ al-Gharbīyah
+
+## synonym:NF
+- Norfolk Island
+- Norf'k Ailen
+- Territory of Norfolk Island
+- Teratri a' Norf'k Ailen
+- ilha Norfolk
+- ilha Norfolque
+- Território da Ilha Norfolk
+- Território da Ilha Norfolque
+
+## synonym:CH
+- Switzerland
+- Swiss Confederation
+- Schweizerische Eidgenossenschaft
+- Confédération suisse
+- Confederazione Svizzera
+- Confederaziun svizra
+- Confoederatio Helvetica
+- Suíça
+- Schweiz
+- Schwyz
+- Schwiiz
+- Suisse
+- Svizzera
+- Svizra
+- Confederação Suíça
+
+## synonym:BV
+- Bouvet Island
+- Bouvetøya
+- Bouvet-øya
+- Ilha Bouvet
+
+## synonym:CA
+- Canada
+- Canadá
+
+## synonym:PG
+- Papua New Guinea
+- PNG
+- Independent State of Papua New Guinea
+- Independen Stet bilong Papua Niugini
+- Independen Stet bilong Papua Niu Gini
+- Papua-Nova Guiné
+- Papua Nova Guiné
+- Papua Niugini
+- Papua Niu Gini
+
+## synonym:VE
+- Bolivarian Republic of Venezuela
+- Venezuela
+- República Bolivariana de Venezuela
+- República Bolivariana da Venezuela
+  
+## synonym:GH
+- Ghana
+- Republic of Ghana
+- Gana
+- República do Gana
+
+## synonym:PA
+- Panama
+- Panamá
+- Republic of Panama
+- República de Panamá
+- República do Panamá
+- República del Panamá
+
+## synonym:TF
+- Territoire d'outre-mer
+- TOM
+- French Southern Lands
+- Terres australes françaises
+- French Southern Territories
+- French Southern and Antarctic Lands
+- Terres australes et antarctiques françaises
+- TAAF
+
+## synonym:MN
+- Mongolia
+- nação mongol
+- mongol nation
+- Mongol Uls
+- Mongolian Nation
+
+## synonym:KP
+- Democratic People's Republic of Korea
+- North Korea
+- north korea
+- DPRK
+- DPR Korea
+- Chosŏn Minjujuŭi Inmin Konghwaguk
+- Chosŏn
+- Pukchosŏn
+- Coreia do Norte
+- República Popular Democrática da Coreia
+
+## synonym:HU
+- Hungary
+- Magyarország
+- Hungria
+
+## synonym:DK
+- Denmark
+- Danmark
+- Kingdom of Denmark
+- Kongeriget Danmark
+- Dinamarca
+- Reino da Dinamarca
+
+## synonym:BH
+- Bahrain
+- Al-Baḥrayn
+- Kingdom of Bahrain
+- Bahrein
+- Barém
+- Barein
+- Bareine
+- Reino do Bahrein
+- Reino do Bahrain
+- Reino do Barém
+- Reino do Barein
+- Reino do Bareine
+
+## synonym:GI
+- Gibraltar
+
+## synonym:DE
+- Germany
+- Deutschland
+- Federal Republic of Germany
+- Bundesrepublik Deutschland
+- Alemanha
+- República Federal da Alemanha
+- República Federal da Alemã
+
+## synonym:BA
+- Bosnia and Herzegovina
+- BiH
+- B&H
+- Bosnia–Herzegovina
+- Bosnia
+- Bosna i Hercegovina
+- Bósnia e Herzegovina
+- Bósnia
+
+## synonym:LY
+- Libya
+- Lībiyā
+- State of Libya
+- Dawlat Lībiyā
+- Líbia
+- Estado da Líbia
+
+## synonym:MY
+- Malaysia
+- Malásia
+
+## synonym:MC
+- Monaco
+- Principality of Monaco
+- Principauté de Monaco
+- Principato di Monaco
+- Principat de Mónegue
+- Principatu de Mùnegu
+- Mónaco
+- Principado do Mónaco
+- Principado de Mônaco
+
+## synonym:NC
+- New Caledonia
+- Nouvelle-Calédonie
+- Nova Caledónia
+- Nova Caledônia
+
+## synonym:CV
+- Cape Verde
+- Cabo Verde
+- Republic of Cabo Verde
+- República de Cabo Verde
+- Repúblika di Kabu Verdi
+
+## synonym:TO
+- Tonga
+- Kingdom of Tonga
+- Puleʻanga Fakatuʻi ʻo Tonga
+- Reino de Tonga
+
+## synonym:VA
+- Holy See (Vatican City State)
+- Sancta Sedes
+- Santa Sede
+- See of Rome
+- Santa Sé
+- Santa Sé Apostólica
+- Sé Apostólica
+- Cidade-Estado do Vaticano
+- Vaticano
+- Cidade do Vaticano
+- Estado da Cidade do Vaticano
+- Stato della Città del Vaticano
+- Civitas Vaticana
+- Status Civitatis Vaticanæ
+
+## synonym:NI
+- Nicaragua
+- Republic of Nicaragua
+- República de Nicaragua
+- Nicarágua
+- República da Nicarágua
+
+## synonym:DJ
+- Djibouti
+- Yibuuti
+- Jībūtī
+- Jabuuti
+- Republic of Djibouti
+- République de Djibouti
+- Jamhuuriyadda Jabuuti
+- Gabuutih Ummuuno
+- Djibuti
+- Jibuti
+- República do Djibuti
+
+## synonym:PE
+- Peru
+- Perú
+- Piruw Republika
+- Republic of Peru
+- República del Perú
+- Piruw Suyu
+
+## synonym:MP
+- Northern Mariana Islands
+- Commonwealth of the Northern Mariana Islands
+- CNMI
+- Sankattan Siha Na Islas Mariånas
+- Commonwealth Téél Falúw kka Efáng llól Marianas
+- Islas Marianas del Norte
+- Nördliche Marianen
+- Ilhas Marianas Setentrionais
+- Ilhas Marianas do Norte
+- Comunidade das Ilhas Marianas do Norte
+
+## synonym:BI
+- Burundi
+- Republic of Burundi
+- Republika y'Uburundi
+- République du Burundi
+- Burúndi
+- República do Burúndi
+
+## synonym:COVID
+- COVID
+- COVID-19
+- SARS-CoV-2
+- novel coronavirus
+- new coronavirus
+- 2019-nCoV
+- the virus
+- the disease
+- covid19
+- 2019ncov
+- covid2019
+- covid-2019
+- 19-ncov
+- 19ncov
+- SARSCoV2
+- SARS-CoV2
+- SARSCoV-2
+
+
+## synonym:positive_emoticon
+- (_ \_ _
+- )
+- (@ \_ @
+- :b
+- :->
+- :-\*
+- :-]
+- ^. ^
+- ^\_^
+- :>
+- x)
+- x-D
+- xD
+- | ;-)
+- |-)
+- :-)))
+- :-))
+- (# ^. ^ #)
+- (_ ^ \_ ^ _)
+- (_ ^. ^ _)
+- (_ \_ _)
+- (_ \_ _;
+- (+ \_ +)
+- (@ \_ @)
+- (@ \_ @;)
+- (O)
+- :)))
+- :))
+- :)
+- : c)
+- : b
+- : ^)
+- : P
+- : D
+- : -}
+- : -b
+- : -]
+- : ->
+- : -,
+- : '-)
+- : ')
+- 8D
+- 8-D
+- 8-)
+- 8)
+- 0^)
+- 0; ^)
+- (^ \_ ^) /
+- (^ \_ ^.)
+- (^ o ^)
+- (^ · ^)
+- (^ Â· ^)
+- (^.^)
+- (^^)
+- (^^) /
+- (^\_^)
+- - -)
+- \*)
+- 0 :)
+- 0 :-)
+- 0: -3
+- (^ - ^)
+- (^ <^) (^. ^)
+- (^ O ^) /
+- (^ J ^)
+- (^ ^)
+- :3
+- :-P
+- ::-)
+- :-D
+- :-3
+- :--)
+- :D
+- :O)
+- :]
+- :v
+- :}
+- ; -]
+- ; ^)
+- ;)
+- ;-)
+- ;]
+- <3
+- <^! ^>
+- > ^ \_ ^ <
+- > : P
+- B ^ D
+- LOL
+- O:)
+- O:-)
+- X-P
+- XP
+- ^ / ^
+- ^ \_ ^
+- :-)
+
+
+## synonym:negative_emoticon
+- (
+- %)
+- % -)
+- ;(
+- :-((
+- :(((
+- :((
+- :(
+- : |
+- : {
+- : c
+- : \
+- (-\_-)
+- : [
+- : X
+- : S
+- : L
+- : @
+- : <
+- : /
+- : -c
+- : -X
+- :-(
+- -\_-
+- :-[
+- :-?
+- : -.
+- : - ||
+- : - |
+- : - [
+- : - <
+- : - /
+- : - &
+- : - #
+- : (
+- : &
+- : \$
+- (.\_.)
+- (= \_ =)
+- (> \_ <)
+- (> \_ <)>
+- (? \_?)
+- : "- (
+- (\_ \_) !!
+- (~ \_ ~)
+- 3:)
+- : "(
+- : #
+- ',: - |
+- (- "-)
+- (-.-)
+- <: - |
+- > :(
+- > :)
+- > : /
+- > : [
+- > : \
+- > ;)
+- D =
+- D-:
+- D8
+- D:
+- D: <
+- D;
+- DX
+- | -O
+- } :)
+- ',: - l
+
+## synonym:lotr
+- Sméagol
+- Meriadoc
+- Pregrin
+- Shelob
+- Faramir
+- Boromir
+- Éowyn
+- Balrog
+- Saruman
+- Sanwise
+- Bilbo
+- Baggins
+- Frodo
+- Elrond
+- Nazgûl
+- Arwen
+- Gandalf
+- Gimli
+- Legolas
+- Aragorn
+- Galadriel
+- Sauron
+- Gollum
