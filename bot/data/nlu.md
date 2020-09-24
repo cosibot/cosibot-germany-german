@@ -203,8 +203,21 @@
 - Aktuelle Nummern
 - Wo finde ich aktuelle Statistiken?
 - Wo finde ich aktuelle Zahlen?
-- Wie viele Menschen sind in [England]{"entity": "geography", "value": "country_states"} gestorben
+- Wie viele Menschen sind in [Thüringen]{"entity": "geography", "value": "Thüringen"} gestorben
 - Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "geography", "value": "country_states"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "geography", "value": "country_states"}
 - Wie viele Fälle hat [Bayern]{"entity": "geography", "value": "country_states"}
 - Infizierte in [Berlin]{"entity": "geography", "value": "country_states"}
 - Todesfälle in [Darmstadt]{"entity": "geography", "value": "country_district"}
@@ -3126,6 +3139,7 @@
 - Verbreitung über das Trinkwasser
 - Coronavirus und Leitungswasser
 
+<!--
 ## intent:germany_train
 - Wie sicher ist das Reisen per Bahn?
 - Coronavirus und Reisen per Bahn
@@ -3208,6 +3222,7 @@
 - Wird mir die Reise nach Italien per Bahn jetzt rückerstattet?
 - Kostenlose Fahrkarten Stornierung möglich, wenn eine Veranstaltung wegen Coronavirus abgesagt wurde?
 - Habe ich Anrecht auf eine Rückerstattung der Fahrkarte?
+-->
 
 ## intent:gradual_opening_barbecue
 - Grill Parties
@@ -3249,6 +3264,7 @@
 - Wann machen die Theater wieder auf?
 - Wann machen die Kinos wieder auf?
 
+<!--
 ## intent:gradual_opening_football_league
 - Wird die Fußball-Bundesliga fortgesetzt?
 - erste und zweite Liga Fußball
@@ -3284,6 +3300,7 @@
 - Kann ich noch ins Nagelstudio gehen
 - Darf ich noch zum Friseur?
 - Ich habe einen Friseur Termin
+-->
 
 ## intent:gradual_opening_museum
 - Öffnung von Museen und Ausstellungen
@@ -4682,71 +4699,6 @@
 - Welche Quellen hast du verwendet
 - Sag mir deine Quellen
 
-## intent:spread_air
-- Verbreitet sich das Virus, das Kowit 19 verursacht, über die Luft?
-- Wird das Virus, das Kowit 19 verursacht, über die Luft übertragen?
-- Ist es möglich, dass sich Q19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich das Virus auf dem Luftweg verbreitet?
-- Ist es möglich, auf dem Luftweg übertragen zu werden?
-- Verbreitung des Coronavirus Sars-Co-2 über die Luft
-- Übertragung auf dem Luftweg.
-- Wird das Virus durch Luft verbreitet?
-- Verbreitet sich das Virus über die Luft?
-- Wird das Virus, das COVID-19 verursacht, durch die Luft verbreitet?
-- Verbreitet sich das Virus, das COVID-19 verursacht, über die Luft?
-- Ausbreitung auf dem Luftweg.
-- Wird das Virus über die Luft übertragen?
-- Wird das Virus, das COVID-19 verursacht, über die Luft übertragen?
-- Kann sich das Virus, das COVID-19 verursacht, über die Luft verbreiten?
-- Kann COVID-19 in der Luft verbreitet werden?
-- qubeat 19 Übertragung in der Luft
-- cupid 19 Übertragung in der Luft
-- Kann das Virus über die Luft übertragen werden?
-- Kann SARS auf dem Luftweg übertragen werden?
-- Kann sich der Coronavirus auf dem Luftweg ausbreiten?
-- Kann der Virus sich auf dem Luftweg ausbreiten?
-- Ist es möglich, dass das Virus auf dem Luftweg übertragen wird?
-- Ist es möglich, dass sich Covid 19 auf dem Luftweg verbreitet?
-- Hobbit 19 Übertragung in der Luft
-- cookit 19 Übertragung in der Luft
-- Kuhweg 19 Übertragung in der Luft
-- COBIT 19 Übertragung in der Luft
-- Kovit 19 Übertragung in der Luft
-- Kann sich das Virus auf dem Luftweg verbreiten?
-- Ist es möglich, dass sich qubeat 19 auf dem Luftweg verbreitet?
-- Kann sich das Virus in der Luft verbreiten?
-- Kann sich das Virus durch die Luft verbreiten?
-- Ist es möglich, dass sich cookit 19 auf dem Luftweg verbreitet?
-- Kann der Virus über die Luft übertragen werden?
-- Kann der Coronavirus auf dem Luftweg verbreitet werden?
-- Corvette 19 Übertragung in der Luft
-- Kubik 19 Übertragung in der Luft
-- Covid 19 Übertragung in der Luft
-- Kann das Virus auf dem Luftweg übertragen werden?
-- Kann man sich auf dem Luftweg ausbreiten?
-- Kann man sich auf dem Luftweg verbreiten?
-- Kann das Virus auf dem Luftweg verbreitet werden?
-- Übertragung über die Luft
-- Covid Übertragung in der Luft
-- Ovid 19 Übertragung in der Luft
-- Ist es möglich, dass sich kovit 19 auf dem Luftweg verbreitet?
-- Movit 19 Übertragung in der Luft
-- Luft übertragung.
-- Reine Übertragung über die Luft
-- Ausbreitung des Virus in der Luft
-- Ist es möglich, dass sich Kubik 19 auf dem Luftweg verbreitet?
-- Kann COVID-19 über die Luft übertragen werden?
-- Ist es möglich, dass sich movit 19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich COBIT 19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich huvit 19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich Hobbit 19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich kuhweg 19 auf dem Luftweg verbreitet?
-- Ist es möglich, dass sich cupid 19 auf dem Luftweg verbreitet?
-- Kann sich das Virus, das Kowit 19 verursacht, über die Luft verbreiten?
-- Kann Kowit 19 in der Luft verbreitet werden?
-- Kann Kowit 19 über die Luft übertragen werden?
-- Wird das Virus, das Kowit 19 verursacht, durch die Luft verbreitet?
-
 ## intent:spread_animals
 - Kann ich mich durch Tiere anstecken?
 - Ansteckung über Haustiere
@@ -5069,6 +5021,69 @@
 - Kann das Virus von jemandem ohne Symptome abgefangen werden?
 
 ## intent:spread_surfaces_food_objects
+- Verbreitet sich das Virus, das Kowit 19 verursacht, über die Luft?
+- Wird das Virus, das Kowit 19 verursacht, über die Luft übertragen?
+- Ist es möglich, dass sich Q19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich das Virus auf dem Luftweg verbreitet?
+- Ist es möglich, auf dem Luftweg übertragen zu werden?
+- Verbreitung des Coronavirus Sars-Co-2 über die Luft
+- Übertragung auf dem Luftweg.
+- Wird das Virus durch Luft verbreitet?
+- Verbreitet sich das Virus über die Luft?
+- Wird das Virus, das COVID-19 verursacht, durch die Luft verbreitet?
+- Verbreitet sich das Virus, das COVID-19 verursacht, über die Luft?
+- Ausbreitung auf dem Luftweg.
+- Wird das Virus über die Luft übertragen?
+- Wird das Virus, das COVID-19 verursacht, über die Luft übertragen?
+- Kann sich das Virus, das COVID-19 verursacht, über die Luft verbreiten?
+- Kann COVID-19 in der Luft verbreitet werden?
+- qubeat 19 Übertragung in der Luft
+- cupid 19 Übertragung in der Luft
+- Kann das Virus über die Luft übertragen werden?
+- Kann SARS auf dem Luftweg übertragen werden?
+- Kann sich der Coronavirus auf dem Luftweg ausbreiten?
+- Kann der Virus sich auf dem Luftweg ausbreiten?
+- Ist es möglich, dass das Virus auf dem Luftweg übertragen wird?
+- Ist es möglich, dass sich Covid 19 auf dem Luftweg verbreitet?
+- Hobbit 19 Übertragung in der Luft
+- cookit 19 Übertragung in der Luft
+- Kuhweg 19 Übertragung in der Luft
+- COBIT 19 Übertragung in der Luft
+- Kovit 19 Übertragung in der Luft
+- Kann sich das Virus auf dem Luftweg verbreiten?
+- Ist es möglich, dass sich qubeat 19 auf dem Luftweg verbreitet?
+- Kann sich das Virus in der Luft verbreiten?
+- Kann sich das Virus durch die Luft verbreiten?
+- Ist es möglich, dass sich cookit 19 auf dem Luftweg verbreitet?
+- Kann der Virus über die Luft übertragen werden?
+- Kann der Coronavirus auf dem Luftweg verbreitet werden?
+- Corvette 19 Übertragung in der Luft
+- Kubik 19 Übertragung in der Luft
+- Covid 19 Übertragung in der Luft
+- Kann das Virus auf dem Luftweg übertragen werden?
+- Kann man sich auf dem Luftweg ausbreiten?
+- Kann man sich auf dem Luftweg verbreiten?
+- Kann das Virus auf dem Luftweg verbreitet werden?
+- Übertragung über die Luft
+- Covid Übertragung in der Luft
+- Ovid 19 Übertragung in der Luft
+- Ist es möglich, dass sich kovit 19 auf dem Luftweg verbreitet?
+- Movit 19 Übertragung in der Luft
+- Luft übertragung.
+- Reine Übertragung über die Luft
+- Ausbreitung des Virus in der Luft
+- Ist es möglich, dass sich Kubik 19 auf dem Luftweg verbreitet?
+- Kann COVID-19 über die Luft übertragen werden?
+- Ist es möglich, dass sich movit 19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich COBIT 19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich huvit 19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich Hobbit 19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich kuhweg 19 auf dem Luftweg verbreitet?
+- Ist es möglich, dass sich cupid 19 auf dem Luftweg verbreitet?
+- Kann sich das Virus, das Kowit 19 verursacht, über die Luft verbreiten?
+- Kann Kowit 19 in der Luft verbreitet werden?
+- Kann Kowit 19 über die Luft übertragen werden?
+- Wird das Virus, das Kowit 19 verursacht, durch die Luft verbreitet?
 - Ist der Virus durch Lebensmittel übertragbar?
 - Besteht die Gefahr, sich über importierte Lebensmittel, Oberflächen oder Gegenstände mit dem neuartigen Coronavirus (SARS-CoV-2) anzustecken?
 - Kann ich mich über Essen anstecken?
@@ -5969,6 +5984,7 @@
 - Bitte teilen Sie mir Ihre Anschrift mit.
 - Wie finde ich eure Anschrift
 
+<!--
 ## intent:contacts_email
 - Gibt es auch eine E Mail Adresse
 - Gibt es auch eine E mail
@@ -6097,46 +6113,7 @@
 - Ich möchte Ihnen eine Nachricht senden.
 - Ich hätte gerne Ihre Kontaktdaten.
 - Ich würde gerne Kontakt aufnehmen.
-	
-## intent:company_about
-- Ich möchte mehr über Apurina erfahren.
-- Informationen über das Apurina
-- Informationen über Apurina
-- Ich möchte mehr über Apurina erfahren.
-- Was können Sie mir über Apurina sagen
-- Informationen zu Apurina.
-- Infos über Apurina.
-- Informationen über Apurina.
-- Mehr über Apurina.
-- Mehr Infos über Apurina.
-- Sag mir was über Apurina.
-- Mehr Informationen über Apurina.
-- Erzähle mir etwas über Apurina.
-- Erfahren Sie mehr über Apurina.
-- Erzählen Sie mir von der Firma.
-- Mehr Informationen über twoImpuls.
-- Informationen über das Unternehmen
-- Was können Sie mir über Apurina erzählen
-- Was kannst du mir über eure Firma erzählen
-- Was ist mit Apurina
-- Informationen aus Apurina.
-- Apurina
-- Apurina-Informationen.
-- Ich hätte gern mehr über die Firma gewusst.
-- Nenne mir ein paar Firmendaten
-- Erzählen Sie mir mehr über Apurina
-- Informationen über twoImpuls
-- Sage mir etwas über die Firma
-- Was sind Apurina
-- Wer ist das Unternehmen
-- Wer ist die sich entwickelnde Firma
-- Wer ist Apurina
-- Wer ist twoimpulse
-- Was kannst du mir über das Unternehmen erzählen
-- Ich möchte mehr über Apurina wissen.
-- Über uns
-- Über euch
-
+-->
 ## intent:vocative_sorry
 - Tut mir leid!
 - Verzeihen Sie mir!

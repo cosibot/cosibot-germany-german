@@ -69,11 +69,10 @@ actions:
   - utter_germany_risk
   - utter_germany_second_wave
   - utter_germany_spread_water
-  - utter_germany_train
   - utter_gradual_opening_barbecue
   - utter_gradual_opening_cinema_concert_theatre
-  - utter_gradual_opening_football_league
-  - utter_gradual_opening_hairdressers
+#  - utter_gradual_opening_football_league
+#  - utter_gradual_opening_hairdressers
   - utter_gradual_opening_museum
   - utter_gradual_opening_playgrounds_zoos
   - utter_gradual_opening_religious
@@ -83,7 +82,7 @@ actions:
   - utter_gradual_opening_universities
   - utter_gradual_opening_visit_family_friends
   - utter_greeting_goodbye
-  - utter_greeting_hello
+#  - utter_greeting_hello
   - utter_greeting_how_are_you
   - utter_mask_children
   - utter_mask_control
@@ -120,7 +119,6 @@ actions:
   - utter_quarantine_toiletpaper
   - utter_quarantine_when_who_howlong
   - utter_sources
-  - utter_spread_air
   - utter_spread_animals
   - utter_spread_feces
   - utter_spread_general
@@ -142,7 +140,6 @@ actions:
   - utter_travel_risk_countries
   - utter_travel_while
   - utter_travel_within_germany
-  - utter_company_about
   - utter_bot_achievement
   - utter_bot_actor
   - utter_bot_age
@@ -217,13 +214,12 @@ actions:
   - utter_cc_senselife
   - utter_cc_skyblue
   - utter_cc_story
-  - utter_contacts_address
-  - utter_contacts_email
-  - utter_contacts_generic
   - utter_features_date
   - utter_features_time
+  - utter_greeting_goodbye
   - utter_greeting_hello_introduced_false
   - utter_greeting_hello_introduced_true
+  - utter_greeting_how_are_you
   - utter_user_angry
   - utter_user_dont_know
   - utter_user_dont_understand
@@ -290,7 +286,7 @@ intents:
   - covid_unknown_cases
   - covid_vaccine
   - covid_worry
-  - current_situation
+# - current_situation
   - economy_consequences
   - germany_consequences
   - germany_current_situation
@@ -305,11 +301,10 @@ intents:
   - germany_risk
   - germany_second_wave
   - germany_spread_water
-  - germany_train
   - gradual_opening_barbecue
   - gradual_opening_cinema_concert_theatre
-  - gradual_opening_football_league
-  - gradual_opening_hairdressers
+#  - gradual_opening_football_league
+#  - gradual_opening_hairdressers
   - gradual_opening_museum
   - gradual_opening_playgrounds_zoos
   - gradual_opening_religious
@@ -319,7 +314,6 @@ intents:
   - gradual_opening_universities
   - gradual_opening_visit_family_friends
   - greeting_goodbye
-  - greeting_hello
   - greeting_how_are_you
   - mask_children
   - mask_control
@@ -356,7 +350,6 @@ intents:
   - quarantine_toiletpaper
   - quarantine_when_who_howlong
   - sources
-  - spread_air
   - spread_animals
   - spread_feces
   - spread_general
@@ -378,7 +371,6 @@ intents:
   - travel_risk_countries
   - travel_while
   - travel_within_germany
-  - company_about
   - bot_achievement
   - bot_actor
   - bot_age
@@ -480,13 +472,44 @@ intents:
   - comment_positive
   - comment_racist
   - comment_smart
-  - contacts_address
-  - contacts_email
-  - contacts_generic
   - features_date
   - features_time
+  - greeting_goodbye
+  - greeting_hello
+  - greeting_how_are_you
 
 responses:
+  utter_:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: "<speak>Grundsätzlich gehen Forscher aber davon aus, dass man nach einer Infektion mit dem Coronavirus erst einmal immun ist – etwa dadurch, dass der Körper spezifische Antikörper bildet, die das Coronavirus erkennen und bekämpfen. Wie lange diese Immunität tatsächlich andauert und welche Immunzellen zu welcher Zeit die wichtigste Rolle spielen, das ist in vielen Punkten noch unklar. Viele Patientinnen und Patienten scheinen eine Immunantwort auszubilden, insbesondere diejenigen, die einen schweren Verlauf hatten. Gleichzeitig wird deutlich: Das Immunsystem reagiert nicht bei jedem gleich, bei milden Verläufen reagiert das Immunsystem anders. Es könnte sein, dass das Immunsystem den Körper nur teil- oder zeitweise schützt. Die typischen Antikörper scheinen nicht die alleinige Rolle bei der Immunantwort zu spielen.</speak>"
+          - type: text
+            text: "<p>Grundsätzlich gehen Forscher aber davon aus, dass man nach einer Infektion mit dem Coronavirus erst einmal immun ist – etwa dadurch, dass der Körper spezifische Antikörper bildet, die das Coronavirus erkennen und bekämpfen. Wie lange diese Immunität tatsächlich andauert und welche Immunzellen zu welcher Zeit die wichtigste Rolle spielen, das ist in vielen Punkten noch unklar. Viele Patientinnen und Patienten scheinen eine Immunantwort auszubilden, insbesondere diejenigen, die einen schweren Verlauf hatten. Gleichzeitig wird deutlich: Das Immunsystem reagiert nicht bei jedem gleich, bei milden Verläufen reagiert das Immunsystem anders. Es könnte sein, dass das Immunsystem den Körper nur teil- oder zeitweise schützt. Die typischen Antikörper scheinen nicht die alleinige Rolle bei der Immunantwort zu spielen.<a href='https://www.quarks.de/gesundheit/medizin/corona-sind-wir-nach-einer-infektion-immun/' target='_blank'>(1)</a></p>"
+          - type: hints
+            options:
+              - label: Behandlung
+                value: Behandlung
+              - label: Statistiken
+                value: Statistiken
+              - label: Risikogruppen
+                value: Risikogruppen
+
+  utter_quarantine_when_who_howlong:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: <speak>Eine zweiwöchige Quarantäne wird dann behördlich angeordnet, wenn ein hohes Risiko besteht, dass man sich angesteckt hat. Dies ist der Fall, wenn man innerhalb der letzten zwei Wochen engen Kontakt zu einem Erkrankten mit einer laborbestätigten Kowitt 19 Diagnose hatte. Ein enger Kontakt bedeutet entweder, dass man mindestens 15 Minuten mit dem Erkrankten gesprochen hat bzw. angehustet oder angeniest worden ist, während dieser ansteckend gewesen ist. Die Entscheidung wird stehts vom Gesundheitsamt getroffen. Wenn man in den letzten zwei Wochen nur im gleichen Raum mit einem Kowitt 19 Erkrankten war und keinen engen Kontakt hatte, wird keine Quarantäne angeordnet, da dann ein geringeres Ansteckungsrisiko besteht. Wer Kontakt zu einer Person in der Familie, im Freundes- oder Bekanntenkreis hatte, die wiederum Kontakt zu einem im Labor bestätigten Kowitt 19 Patienten hatte, aber völlig gesund ist, muss ebenfalls nicht in Quarantäne.</speak>
+          - type: text
+            text: "<p>Eine zweiwöchige Quarantäne wird dann behördlich angeordnet, wenn ein hohes Risiko besteht, dass man sich angesteckt hat. Dies ist der Fall, wenn man innerhalb der letzten zwei Wochen engen Kontakt zu einem Erkrankten mit einer laborbestätigten COVID-19-Diagnose hatte. Ein enger Kontakt bedeutet entweder, dass man mindestens 15 Minuten mit dem Erkrankten gesprochen hat bzw. angehustet oder angeniest worden ist, während dieser ansteckend gewesen ist. Die Entscheidung wird stehts vom Gesundheitsamt getroffen.<br>Wenn man in den letzten zwei Wochen nur im gleichen Raum mit einem COVID-19-Erkrankten war und keinen engen Kontakt hatte, wird keine Quarantäne angeordnet, da dann ein geringeres Ansteckungsrisiko besteht.<br>Wer Kontakt zu einer Person in der Familie, im Freundes- oder Bekanntenkreis hatte, die wiederum Kontakt zu einem im Labor bestätigten COVID-19-Patienten hatte, aber völlig gesund ist, muss ebenfalls nicht in Quarantäne. <a href='https://www.rki.de/SharedDocs/FAQ/NCOV2019/FAQ_Liste.html' target='_blank'>(1)</a></p></p>"
+          - type: hints
+            options:
+              - label: "Quarantäne: Was ist erlaubt, was nicht?"
+                value: "Quarantäne: Was ist erlaubt, was nicht?"
+              - label: Pneumokokken-Impfung
+                value: Pneumokokken-Impfung
+              - label: Kontaktverbot
+                value: Kontaktverbot
 
   utter_germany_risk:
     - custom:
@@ -503,7 +526,6 @@ responses:
             links:
               - title: Tagesschau Karte zur Coronavirus-Ausbreitung in Deutschland
                 url: https://www.tagesschau.de/inland/coronavirus-karte-deutschland-101.html
-                
           - type: hints
             options:
               - label: Schnelltest
@@ -719,7 +741,7 @@ responses:
               - label: Pandemie-Ausruf in Deutschland
                 value: Pandemie-Ausruf in Deutschland 
 
-  utter_DE_germany_second_wave:
+  utter_germany_second_wave:
     - custom:
         answers:
           - type: ssml   
@@ -2513,20 +2535,6 @@ responses:
           - type: html
             text: "<p>Unsere Informationen stammen aus Seiten wie z.B. des Bundesgesundheitsministeriums, des Robert Koch Instituts, der Bundesregierung, des Deutschen Zentrums für Infektionsforschung, der Bundeszentrale für gesundheitliche Aufklärung, der Deutschen Welle, der Tagesschau, oder des Auswärtigen Amtes.</p>"
 
-  utter_company_about:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Wir, die Apuro GmbH mit Sitz in Bestwig im schönen Hochsauerland, bieten Ihnen neuartige, innovative, reinigende, desinfizierende und geruchsneutralisierende Produkte auf Wasserbasis zum Einsatz in unterschiedlichsten Segmenten u.a. Gesundheitswesen, Wellness, Fitness, Sport, Industrie, Automobil, öffentliche und landwirtschaftliche Einrichtungen und private Haushalte. Bei der Planung, Entwicklung und Produktion unserer Produkte stehen SICHERHEIT, MENSCH, TIER & UMWELT immer im Vordergrund. Daher arbeiten wir ohne Tierversuche, Zusatzstoffe, Alkohol und ohne Aldehyde. Kein Gefahrstoff, kein Gefahrgut. Um nachhaltig hochwirksame Produkte entwickeln und produzieren zu können, haben wir internationale strategische Partnerschaften geschlossen. Unser Unternehmen wird in rechtlichen und regulatorischen Fragen von einem ausgewiesenen Experten im deutschen und europäischen Stoff- und Biozidrecht beraten.</speak>
-          - type: text
-            text: Wir, die APURO GmbH mit Sitz in Bestwig im schönen Hochsauerland, bieten Ihnen neuartige, innovative, reinigende, desinfizierende und geruchsneutralisierende Produkte auf Wasserbasis zum Einsatz in unterschiedlichsten Segmenten u.a. Gesundheitswesen, Wellness/Fitness/Sport, Industrie, Automobil, öffentliche und landwirtschaftliche Einrichtungen und private Haushalte. Bei der Planung, Entwicklung und Produktion unserer Produkte stehen SICHERHEIT, MENSCH, TIER & UMWELT immer im Vordergrund. Daher arbeiten wir ohne Tierversuche, Zusatzstoffe, Alkohol und ohne Aldehyde. Kein Gefahrstoff, kein Gefahrgut. Um nachhaltig hochwirksame Produkte entwickeln und produzieren zu können, haben wir internationale strategische Partnerschaften geschlossen. Unser Unternehmen wird in rechtlichen und regulatorischen Fragen von einem ausgewiesenen Experten im deutschen und europäischen Stoff- und Biozidrecht beraten.
-          - type: multichoice
-            options:
-              - label: In welchen Größen ist APUROFOOD lieferbar?
-                value: In welchen Größen ist APUROFOOD lieferbar?
-              - label: Wie wird APUROFOOD angewendet?
-                value: Wie wird APUROFOOD angewendet?
-
   utter_bot_actor:
     - custom:
         answers:
@@ -3618,35 +3626,6 @@ responses:
             ssml: <speak>Danke! Es freut mich, dass Sie zufrieden sind.</speak>       
           - type: text
             text: Danke! Es freut mich, dass Sie zufrieden sind.
-
-  utter_contacts_address:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Unsere Adresse lautet. Apuro GmbH. Am Alten Güterbahnhof 2. 5 9 9 0 9 Bestwig</speak>       
-          - type: text
-          - type: html
-            text: "<p>Unsere Adresse lautet:<br><br>APURO GmbH<br>Am Alten Güterbahnhof 2<br>59909 Bestwig</p>"
-
-  utter_contacts_email:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Schreiben Sie uns gern eine E-Mail! Hier ist unsere E-Mail-Adresse.</speak>       
-          - type: text
-            text: Schreiben Sie uns gern eine E-Mail! Hier ist unsere E-Mail-Adresse.
-          - type: links
-            links:
-              - title: office\@apuro.eu
-                url: mailto:office@apuro.eu
-
-  utter_contacts_generic:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Sie können uns auf verschiedenen Wegen erreichen. Unsere Adresse lautet. Apuro GmbH. Am Alten Güterbahnhof 2. 5 9 9 0 9 Bestwig. Oder per Mail an. office ät apuro punkt E U. Oder rufen Sie uns an unter der 0 2 9 0 4 7 1 2 3 3 7 0.</speak>       
-          - type: html
-            text: "<p>Sie können uns auf verschiedenen Wegen erreichen. Unsere Adresse lautet:<br><br>Apuro GmbH<br>Am Alten Güterbahnhof 2<br>59909 Bestwig<br><br>Oder per Mail an: office@apuro.eu<br><br>Oder rufen Sie uns an unter der: +49 (0) 2904 7123370</p>"
 
   utter_features_date:
     - custom:
