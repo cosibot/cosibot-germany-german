@@ -5,7 +5,11 @@
 - /start-dialogue
 - /start_dialogue
 
+<<<<<<< HEAD
+## intent:corona_app_developers
+=======
 ## intent:de_corona_app_developers
+>>>>>>> origin/develop
 - Von wem wurde die Corona Warn App entwickelt?
 - Corona Warn App - wer dahinter steckt
 - Corona-Warn-App - wer dahinter steckt
@@ -23,7 +27,11 @@
 - Corona-Warn-App wer hat das zu verantworten?
 - Wer hat die Corona-Warn-App entwickelt?
 
+<<<<<<< HEAD
+## intent:corona_app_general
+=======
 ## intent:de_corona_app_general
+>>>>>>> origin/develop
 - Corona-Warn-App was ist das
 - Was ist die Corona Warn App
 - Wozu dient die Corona Warn App
@@ -41,7 +49,11 @@
 - Sag mir wozu die Corona Warn App dient
 - Corona Warn App
 
+<<<<<<< HEAD
+## intent:corona_app_obligatory
+=======
 ## intent:de_corona_app_obligatory
+>>>>>>> origin/develop
 - Corona-Warn-App - freiwillig
 - Muss ich jetzt die Corona Warn App nutzen?
 - Kann ich die Corona Warn App jederzeit löschen?
@@ -61,7 +73,11 @@
 - Bin ich verpflichtet, die Corona-Warn-App zu nutzen?
 - Corona Warn App - freiwillig
 
+<<<<<<< HEAD
+## intent:corona_app_why
+=======
 ## intent:de_corona_app_why
+>>>>>>> origin/develop
 - Warum sollen wir die Corona-Warn-App verwenden
 - Warum Corona-Warn-App
 - Warum ist es wichtig, die Corona-Warn-App zu nutzen
@@ -79,7 +95,11 @@
 - Warum brauchen wir die Corona-Warn-App
 - Warum sollte ich die Corona-Warn-App benutzen
 
+<<<<<<< HEAD
+## intent:coronavirus_info
+=======
 ## intent:de_coronavirus_info
+>>>>>>> origin/develop
 - Kroner
 - Was ist das Corona
 - Was ist das Corona-Virus
@@ -121,7 +141,11 @@
 - Sag mir was Kroner ist
 - Was ist Kroner
 
+<<<<<<< HEAD
+## intent:covid_aftereffects_immunity
+=======
 ## intent:de_covid_aftereffects_immunity
+>>>>>>> origin/develop
 - Corona-Spätfolgen auf die Gesundheit
 - Ist man nach einer Infektion mit dem Coronavirus immun?
 - Ist eine mehrmalige Infektion mit Covid-19 möglich?
@@ -150,7 +174,11 @@
 - Ist man nach einer Infizierung mit dem Coronavirus immun?
 - Kann man sich nach einer Infizierung erneut anstecken?
 
+<<<<<<< HEAD
+## intent:covid_babys_children
+=======
 ## intent:de_covid_babys_children
+>>>>>>> origin/develop
 - Können sich Babys infizieren
 - Können sich Kinder anstecken?
 - Ansteckung bei Kindern
@@ -180,7 +208,11 @@
 - Zahlen
 - Wie viele Menschen sind infiziert
 
+<<<<<<< HEAD
+## intent:covid_current_statistics
+=======
 ## intent:de_covid_current_statistics
+>>>>>>> origin/develop
 - Wo finde ich aktualisierte Statistiken
 - Gibt es Statistiken
 - Wie viele sind am Virus erkrankt?
@@ -337,7 +369,11 @@
 - Wie viele Infizierte gibt es derzeit in Deutschland?
 - Wie viele Opfer gibt es
 
+<<<<<<< HEAD
+## intent:covid_dangerous
+=======
 ## intent:de_covid_dangerous
+>>>>>>> origin/develop
 - Ist das Virus gefährlich?
 - Ist der Virus gefährlich?
 - Wie gefährlich ist die Infektion?
@@ -389,7 +425,11 @@
 - ist der virus böse?
 - Ist die Infektion gefährlich?
 
+<<<<<<< HEAD
+## intent:covid_difference_influenza
+=======
 ## intent:de_covid_difference_influenza
+>>>>>>> origin/develop
 - Wie kann man Cobit von einer normalen Grippe unterscheiden?
 - Habe ich eine normale Grippe oder Corvette
 - Habe ich eine normale Grippe oder qubeat
@@ -538,7 +578,11 @@
 - symptome bei influenza und corona
 - Habe ich eine normale Grippe oder Obit
 
+<<<<<<< HEAD
+## intent:covid_disease_process
+=======
 ## intent:de_covid_disease_process
+>>>>>>> origin/develop
 - Was ist der Krankheitsverlauf
 - Krankheitsverläufe
 - Wie verläuft Corona
@@ -556,7 +600,11 @@
 - Krankheitsverlauf
 - Wie läuft die Krankheit ab
 
+<<<<<<< HEAD
+## intent:covid_duration
+=======
 ## intent:de_covid_duration
+>>>>>>> origin/develop
 - Wie viele Wochen dauert die Krankheit
 - Wie lange geht die Krankheit
 - Wie lange dauert die Krankheit an
@@ -576,7 +624,11 @@
 - Wie lange dauert es bis man wieder genest
 - Wie lange dauert es bis man wieder gesund ist
 
+<<<<<<< HEAD
+## intent:covid_ibuprofen
+=======
 ## intent:de_covid_ibuprofen
+>>>>>>> origin/develop
 - Ibuprofen und Corona
 - Coronavirus und Ibuprofen
 - Führt Ibuprofen zu schwereren Verläufen der Krankheit?
@@ -610,7 +662,11 @@
 - Ibuprofen bei Covid 19
 - Ibuprofen bei CoVid-19
 
+<<<<<<< HEAD
+## intent:covid_incubation
+=======
 ## intent:de_covid_incubation
+>>>>>>> origin/develop
 - Kroner und Ibuprofen
 - Wann bricht die Krankheit aus nachdem man sich angesteckt hat?
 - Wie viele Tage nach der Infizierung dauert es bis die Krankheit ausbricht?
@@ -643,7 +699,11 @@
 - Wie viele Tage nach der Infizierung vergehen bis zum Ausbruch der Symptomatik?
 - wie lange dauert die ansteckungszeit
 
+<<<<<<< HEAD
+## intent:covid_info
+=======
 ## intent:de_covid_info
+>>>>>>> origin/develop
 - Über 2019-nCoV
 - Covid19
 - Was ist Covid19?
@@ -1311,7 +1371,11 @@
 - Hobbit
 - Erzähl mir mehr über Kowit 19
 
+<<<<<<< HEAD
+## intent:covid_meaning
+=======
 ## intent:de_covid_meaning
+>>>>>>> origin/develop
 - Wofür steht die Abkürzung Kubik 19?
 - Was heißt Q19
 - Wofür steht die Abkürzung Q19?
@@ -1424,7 +1488,11 @@
 - Was heißt kovit 19?
 - Was bedeutet SARS Cov-2 und kuhweg 19?
 
+<<<<<<< HEAD
+## intent:covid_mortality_rate
+=======
 ## intent:de_covid_mortality_rate
+>>>>>>> origin/develop
 - sterblichkeit
 - Wie wahrscheinlich ist es, dass ich an cupid 19 sterbe?
 - Stirbt man auch an corona wen man keine vorerkrankungen hat?
@@ -1476,7 +1544,11 @@
 - Ist die Wahrscheinlichkeit daran zu sterben hoch?
 - Wie hoch ist die Wahrscheinlichkeit, dass man daran stirbt?
 
+<<<<<<< HEAD
+## intent:covid_origins
+=======
 ## intent:de_covid_origins
+>>>>>>> origin/develop
 - Woher stammt Sars-CoV-2
 - Woher kommt der Coronavirus
 - Seit wann gibt es corona
@@ -1503,7 +1575,11 @@
 - Wie kam es überhaupt zur Coronavirus-Epidemie?
 - Warum gibt es Corona
 
+<<<<<<< HEAD
+## intent:covid_preexisting_illness
+=======
 ## intent:de_covid_preexisting_illness
+>>>>>>> origin/develop
 - Coronavirus und Bluthochdruck
 - Welche Vorerkrankungen führen zu schwereren Verläufen?
 - Welche Vorerkrankungen können relevant sein?
@@ -1560,7 +1636,11 @@
 - Corona-Virus und Bluthochdruck
 - Können Medikamente gegen Bluthochdruck das Risiko einer Ansteckung mit dem Coronavirus erhöhen?
 
+<<<<<<< HEAD
+## intent:covid_pregnancy
+=======
 ## intent:de_covid_pregnancy
+>>>>>>> origin/develop
 - Ich bin schwanger und habe Corona
 - Schwanger mit Coronavirus
 - Schwanger in der Corona Krise
@@ -1623,7 +1703,11 @@
 - Meine Freundin hat cupid 19, was passiert jetzt?
 - Meine Freundin hat kuhweg 19, was passiert jetzt?
 
+<<<<<<< HEAD
+## intent:covid_sars
+=======
 ## intent:de_covid_sars
+>>>>>>> origin/develop
 - unterschied zwischen influenza und covid
 - Das Virus, das SARS verursacht, ist dasselbe wie das, das Kubik 19 verursacht.
 - Ist SARS das gleiche wie Kubik 19?
@@ -1864,7 +1948,11 @@
 - Das Virus, das Kubik 19 verursacht, ist dasselbe wie das Virus, das ein schweres akutes respiratorisches Syndrom verursacht.
 - Das Virus, das SARS verursacht, und das Virus, das Kubik 19 verursacht, sind dieselben?
 
+<<<<<<< HEAD
+## intent:covid_season
+=======
 ## intent:de_covid_season
+>>>>>>> origin/develop
 - Wird die Aktivität von Covid saisonal beeinflusst?
 - Hat die Saison Einfluss auf die Ansteckung?
 - Hat die Saison Einfluss auf den Coronavirus?
@@ -1880,7 +1968,11 @@
 - Steigen die Zahlen im Sommer?
 - Wird die Aktivität von SARS-CoV-2 saisonal beeinflusst?
 
+<<<<<<< HEAD
+## intent:covid_situation_infected
+=======
 ## intent:de_covid_situation_infected
+>>>>>>> origin/develop
 - Wie viele Infizierte sind in [England]{"entity": "geography", "value": "country_code"} enthalten?
 - Aktive Fälle in [England]{"entity": "geography", "value": "country_code"}.
 - Wie viele Menschen sind in [England]{"entity": "geography", "value": "country_code"} bis zu diesem Datum infiziert?
@@ -1890,7 +1982,11 @@
 - Wie viele aktive Fälle von Covid sind in [England]{"entity": "geography", "value": "country_code"}?
 - Wie viele aktive Fälle sind in [England]{"entity": "geography", "value": "country_code"}?
 
+<<<<<<< HEAD
+## intent:covid_situation_infected_critical
+=======
 ## intent:de_covid_situation_infected_critical
+>>>>>>> origin/develop
 - Personen in einem kritischen Fall in [England]{"entity": "geography", "value": "country_code"}.
 - Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "geography", "value": "country_code"}?
 - Wie viele Menschen befinden sich in [England]{"entity": "geography", "value": "country_code"} in kritischem Zustand
@@ -1905,7 +2001,11 @@
 - Personen in kritischem Zustand in [England]{"entity": "geography", "value": "country_code"}.
 - Infizierte in kritischem Zustand in [England]{"entity": "geography", "value": "country_code"}.
 
+<<<<<<< HEAD
+## intent:covid_surfaces
+=======
 ## intent:de_covid_surfaces
+>>>>>>> origin/develop
 - Wie lange überlebt der Virus auf Oberflächen?
 - Was steigert die Lebensdauer von Coronaviren?
 - Was ist die Lebensdauer der Coronaviren?
@@ -1931,7 +2031,11 @@
 - Wie lange überleben die Viren auf Türklinken?
 - Wie ist die Lebensdauer vom Corona Virus?
 
+<<<<<<< HEAD
+## intent:covid_symptoms
+=======
 ## intent:de_covid_symptoms
+>>>>>>> origin/develop
 - Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
 - Bin ich inviziert durch verschleimungserscheinungen in den Nasennebenhöhlen und der Lunge?
 - kopfweh
@@ -2020,7 +2124,11 @@
 - Mein Kopf tut mir weh
 - Ich kann nichts mehr riechen
 
+<<<<<<< HEAD
+## intent:covid_treatment
+=======
 ## intent:de_covid_treatment
+>>>>>>> origin/develop
 - Wie wird man behandelt wenn man positiv ist
 - Wie wird man behandelt
 - Gibt es bereits Medikamente, die gegen das Coronavirus wirken könnten?
@@ -2111,7 +2219,11 @@
 - Dunkelziffern
 - Die Rolle der Dunkelziffer bei Covid-19
 
+<<<<<<< HEAD
+## intent:covid_vaccine
+=======
 ## intent:de_covid_vaccine
+>>>>>>> origin/develop
 - Wann gibt es endlich eine Impfung?
 - Wann kommt endlich der Imptsftoff auf den Markt?
 - Wie lange muss man noch auf eine Impfung warten.
@@ -2151,7 +2263,11 @@
 - Wie lange wird es dauern, bis ein Impfstoff entwickelt wird?
 - Wann kommt Impfstoff?
 
+<<<<<<< HEAD
+## intent:covid_worry
+=======
 ## intent:de_covid_worry
+>>>>>>> origin/develop
 - Muss man jetzt Angst haben vor Kowit 19?
 - Muss ich mir wegen Kowit 19 Sorgen machen?
 - Wie berechtigt ist die Angst vor Covid-19?
@@ -2194,7 +2310,11 @@
 - Ich mache mir sehr sorgen
 - Angst vor Kowit 19
 
+<<<<<<< HEAD
+## intent:current_situation
+=======
 ## intent:de_current_situation
+>>>>>>> origin/develop
 - Situation in anderen Ländern
 - Ich fliege über [Türkei]{"entity": "geography", "value": "country"}, werde ich Probleme bekommen?
 - Und wie ist es in [Frankreich]{"entity": "geography", "value": "country"}?
@@ -2214,7 +2334,11 @@
 - Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "geography", "value": "country"} aus?
 - Wie sind die Einreisebestimmungen in [Marokko]{"entity": "geography", "value": "country"}?
 
+<<<<<<< HEAD
+## intent:economy_consequences
+=======
 ## intent:de_economy_consequences
+>>>>>>> origin/develop
 - Welche wirtschaftlichen Konsequenzen wird das haben
 - Was sind die wirtschaftlichen Folgen
 - Welche Auswirkungen spürt die deutsche Wirtschaft?
@@ -2256,7 +2380,11 @@
 - Wie wirkt sich das Coronavirus auf die Weltwirtschaft aus?
 - coronavirus wirtschaft
 
+<<<<<<< HEAD
+## intent:germany_consequences
+=======
 ## intent:de_germany_consequences
+>>>>>>> origin/develop
 - Wie viele Tote wird es in Deutschland geben
 - welche auswirkungen hat das auf deutschland
 - Auswirkungen für Deutschland
@@ -2276,7 +2404,11 @@
 - Wie viele Menschen werden sich infizieren
 - Was bedeutet das für Deutschland
 
+<<<<<<< HEAD
+## intent:germany_current_situation
+=======
 ## intent:de_germany_current_situation
+>>>>>>> origin/develop
 - Wie schätzt du die Lage Deutschlands im Zusammenhang mit Corona ein?
 - Deutschland Situation
 - Deutschland Lage
@@ -2398,7 +2530,11 @@
 - Aktuelle Informationen in Deutschland
 - Wie ist die Situation Deutschlands einzuschätzen?
 
+<<<<<<< HEAD
+## intent:germany_food_buy
+=======
 ## intent:de_germany_food_buy
+>>>>>>> origin/develop
 - Was soll ich für 14 Tage Quarantäne einkaufen
 - Was soll ich für 2 Wochen Quarantäne einkaufen
 - Was muss man für 2 Wochen alles einkaufen?
@@ -2416,7 +2552,11 @@
 - Was braucht man für die Versorgung einer Person für zehn Tage
 - Was soll ich für 10 Tage Quarantäne kaufen
 
+<<<<<<< HEAD
+## intent:germany_food_shortages
+=======
 ## intent:de_germany_food_shortages
+>>>>>>> origin/develop
 - Werden die Supermärkte leer sein?
 - Wird es Engpässe mit Lebensmitteln geben?
 - Sollte man jetzt Lebensmittel auf Vorrat kaufen?
@@ -2453,7 +2593,11 @@
 - Wird es noch genug Lebensmittel in Deutschland geben
 - Ist es jetzt ratsam, Hamsterkäufe zu machen?
 
+<<<<<<< HEAD
+## intent:germany_hotline
+=======
 ## intent:de_germany_hotline
+>>>>>>> origin/develop
 - Wie ist die Nummer des Bundesgesundheitsministeriums?
 - Coronavirus Hotline
 - Telefon Nummer
@@ -2505,7 +2649,11 @@
 - Gibt es eine Hotline?
 - Gibt es eine Rufnummer für allgemeine Erstinformation?
 
+<<<<<<< HEAD
+## intent:germany_lockdown_crisis_howlong
+=======
 ## intent:de_germany_lockdown_crisis_howlong
+>>>>>>> origin/develop
 - Bis wann gelten diese Maßnahmen
 - Ausgangssperre in Deutschland wie lange noch
 - Lockdown in Deutschland wie lange
@@ -2575,7 +2723,11 @@
 - Dauer der Corona Krise
 - Wie lange wird die Krise dauern?
 
+<<<<<<< HEAD
+## intent:germany_neighbors_close_borders
+=======
 ## intent:de_germany_neighbors_close_borders
+>>>>>>> origin/develop
 - Werden die Grenzen in die Nachbarländer geschlossen?
 - Grenzen Nachbarstaaten
 - Werden jetzt die Grenzen zu gemacht?
@@ -2609,7 +2761,11 @@
 - Was ist mit reisen in die Nachbar Staaten?
 - Kann ich noch in Nachbarländer verreisen?
 
+<<<<<<< HEAD
+## intent:germany_nomoney
+=======
 ## intent:de_germany_nomoney
+>>>>>>> origin/develop
 - Ich kann meine Rechnungen nicht mehr bezahlen wegen Corona
 - Das Geld wird knapp
 - Ich habe kein Geld mehr
@@ -2629,7 +2785,11 @@
 - Ich kann bald meine Miete nicht mehr zahlen
 - Ich bin bald pleite
 
+<<<<<<< HEAD
+## intent:germany_pandemic
+=======
 ## intent:de_germany_pandemic
+>>>>>>> origin/develop
 - Pandemieausruf
 - Was hat es zu bedeuten, dass die WHO eine Pandemie ausgerufen hat?
 - Notstand in Deutschland durch Pandemie?
@@ -2644,7 +2804,11 @@
 - Pandemie Ausruf
 - WHO hat den weltweiten Pandemie-Fall ausgerufen, was heißt das für Deutschland?
 
+<<<<<<< HEAD
+## intent:germany_preparation
+=======
 ## intent:de_germany_preparation
+>>>>>>> origin/develop
 - Gibt es jetzt Ausgangssperre in Rheinland-Pfalz?
 - wie ist deutschland vorbereite
 - welche ausgangsbeschränkungen gelten derzeit in
@@ -3060,7 +3224,11 @@
 - Gibt es Ausgangs Sperre in Saarland
 - Gibt es jetzt Ausgangssperre in Sachsen-Anhalt?
 
+<<<<<<< HEAD
+## intent:germany_risk
+=======
 ## intent:de_germany_risk
+>>>>>>> origin/develop
 - Risikobewertung Deutschland
 - Risiko
 - Risiko bewertung Deutschland
@@ -3080,7 +3248,11 @@
 - Risiko für Deutschland
 - Ausbreitungsrisiko von Covid in Deutschland.
 
+<<<<<<< HEAD
+## intent:germany_second_wave
+=======
 ## intent:de_germany_second_wave
+>>>>>>> origin/develop
 - Wird es wieder Neuinfektionen geben?
 - Wird es nochmal zu einem Anstieg von Infizierten in Deutschland kommen?
 - Wird es eine zweite Welle geben?
@@ -3102,7 +3274,11 @@
 - Wird die Kurve wieder ansteigen?
 - Lässt sich vorhersagen, ob es eine zweite Welle in Deutschland geben wird?
 
+<<<<<<< HEAD
+## intent:germany_spread_water
+=======
 ## intent:de_germany_spread_water
+>>>>>>> origin/develop
 - Kann das Coronavirus über das Trinkwasser übertragen werden?
 - Trinkwasser
 - Leitungswasser
@@ -3128,7 +3304,11 @@
 - Verbreitung über das Trinkwasser
 - Coronavirus und Leitungswasser
 
+<<<<<<< HEAD
+## intent:germany_train
+=======
 ## intent:de_germany_train
+>>>>>>> origin/develop
 - Wie sicher ist das Reisen per Bahn?
 - Coronavirus und Reisen per Bahn
 - Zugfahren und Coronavirus
@@ -3211,7 +3391,11 @@
 - Kostenlose Fahrkarten Stornierung möglich, wenn eine Veranstaltung wegen Coronavirus abgesagt wurde?
 - Habe ich Anrecht auf eine Rückerstattung der Fahrkarte?
 
+<<<<<<< HEAD
+## intent:gradual_opening_barbecue
+=======
 ## intent:de_gradual_opening_barbecue
+>>>>>>> origin/develop
 - Grill Parties
 - Grillpartys
 - Grill Partys
@@ -3230,7 +3414,11 @@
 - Grillplätze
 - Grillparties
 
+<<<<<<< HEAD
+## intent:gradual_opening_cinema_concert_theatre
+=======
 ## intent:de_gradual_opening_cinema_concert_theatre
+>>>>>>> origin/develop
 - Wann machen die Konzerte wieder auf?
 - schrittweise Öffnung von Opern
 - schrittweise Öffnung von Theatern
@@ -3251,7 +3439,11 @@
 - Wann machen die Theater wieder auf?
 - Wann machen die Kinos wieder auf?
 
+<<<<<<< HEAD
+## intent:gradual_opening_football_league
+=======
 ## intent:de_gradual_opening_football_league
+>>>>>>> origin/develop
 - Wird die Fußball-Bundesliga fortgesetzt?
 - erste und zweite Liga Fußball
 - Wann spielt die Bundesliga wieder?
@@ -3262,7 +3454,11 @@
 - Wann kann ich wieder Fußball spielen?
 - Fortsetzung der Fußball-Bundesliga
 
+<<<<<<< HEAD
+## intent:gradual_opening_hairdressers
+=======
 ## intent:de_gradual_opening_hairdressers
+>>>>>>> origin/develop
 - Kann ich noch zum Frisör gehen
 - Frisöse
 - Friseuse
@@ -3287,7 +3483,11 @@
 - Darf ich noch zum Friseur?
 - Ich habe einen Friseur Termin
 
+<<<<<<< HEAD
+## intent:gradual_opening_museum
+=======
 ## intent:de_gradual_opening_museum
+>>>>>>> origin/develop
 - Öffnung von Museen und Ausstellungen
 - Schrittweise Öffnung des Kulturlebens
 - Wie sieht's mit den Museen aus?
@@ -3301,7 +3501,11 @@
 - Was ist mit Gedenkstätten?
 - Was ist mit den Ausstellungen?
 
+<<<<<<< HEAD
+## intent:gradual_opening_playgrounds_zoos
+=======
 ## intent:de_gradual_opening_playgrounds_zoos
+>>>>>>> origin/develop
 - Darf mein Kind auf den Spielplatz? Was gilt für den Besuch im Zoo oder im Tierpark?
 - Was ist mit Spielplätzen?
 - Darf mein Kind wieder auf den Spielplatz?
@@ -3319,7 +3523,11 @@
 - Können wir wieder in den Zoo gehen?
 - Was ist mit Zoos?
 
+<<<<<<< HEAD
+## intent:gradual_opening_religious
+=======
 ## intent:de_gradual_opening_religious
+>>>>>>> origin/develop
 - Was ist mit Moscheen
 - Was ist mit Synagogen
 - Was ist mit religiösen Einrichtungen?
@@ -3360,7 +3568,11 @@
 - Kann ich wieder zum Gottesdienst?
 - Was ist mit Kirchen
 
+<<<<<<< HEAD
+## intent:gradual_opening_restaurants
+=======
 ## intent:de_gradual_opening_restaurants
+>>>>>>> origin/develop
 - Was ist mit der Gastronomie
 - Öffnung der Gastronomiebertriebe
 - Wann kann ich mich weider in eine Bar setzen?
@@ -3392,7 +3604,11 @@
 - Kann ich ein Restaurant besuchen?
 - Ist die Gastronomie noch auf
 
+<<<<<<< HEAD
+## intent:gradual_opening_schools
+=======
 ## intent:de_gradual_opening_schools
+>>>>>>> origin/develop
 - Öffnung der Schulen
 - Wann machen Schulen auf
 - Schulen machen auf
@@ -3410,7 +3626,11 @@
 - Wie ist die Öffnung der Schulen geregelt?
 - wann kann ich in die schule
 
+<<<<<<< HEAD
+## intent:gradual_opening_sports
+=======
 ## intent:de_gradual_opening_sports
+>>>>>>> origin/develop
 - Darf ich joggen?
 - Was ist mit Leistungssport?
 - Sport machen
@@ -3440,7 +3660,11 @@
 - Wann machen die Fitnessstudios auf
 - Darf ich wieder joggen gehen?
 
+<<<<<<< HEAD
+## intent:gradual_opening_universities
+=======
 ## intent:de_gradual_opening_universities
+>>>>>>> origin/develop
 - Wann gibt es wieder Unterricht in den Universitäten?
 - Präsenzbetrieb in den Hochschulen
 - Präsenzbetrieb in den Universitäten
@@ -3485,7 +3709,11 @@
 - Machen die Universitäten wieder auf?
 - Wie ist die Öffnung der Universitäten geregelt?
 
+<<<<<<< HEAD
+## intent:gradual_opening_visit_family_friends
+=======
 ## intent:de_gradual_opening_visit_family_friends
+>>>>>>> origin/develop
 - Ich will meine Freunde treffen
 - Mit wie vielen Leuten darf ich mich treffen?
 - Kann ich mich mit Freunden treffen?
@@ -3517,7 +3745,11 @@
 - Freundin treffen
 - Mit wie vielen Personen darf ich mich derzeit treffen?
 
+<<<<<<< HEAD
+## intent:mask_children
+=======
 ## intent:de_mask_children
+>>>>>>> origin/develop
 - Kinder und Mund-Nasen-Schutz
 - Kinder und Masken
 - Sollen Kinder auch Masken tragen?
@@ -3535,7 +3767,11 @@
 - Kinder und Mund Nasen Schutz
 - Kinder und Mundschutz
 
+<<<<<<< HEAD
+## intent:mask_control
+=======
 ## intent:de_mask_control
+>>>>>>> origin/develop
 - Kontrolle Maskenpflicht
 - Kontrolle der Maskenpflicht
 - Wird die Maskenpflicht kontrolliert?
@@ -3548,7 +3784,11 @@
 - Wer kontrolliert die Einhaltung der Maskenpflicht?
 - Wer kontrolliert, ob ich mich an die Maskenpflicht halte?
 
+<<<<<<< HEAD
+## intent:mask_differences
+=======
 ## intent:de_mask_differences
+>>>>>>> origin/develop
 - welche Maske
 - Was sind die verschiedenen Masken
 - Welche Arten von Schutzmasken gibt es
@@ -3570,7 +3810,11 @@
 - Ich weiß nicht welche Masken es gibt
 - Welche unterschiedlichen Masken gibt es?
 
+<<<<<<< HEAD
+## intent:mask_ffp3
+=======
 ## intent:de_mask_ffp3
+>>>>>>> origin/develop
 - Wie oft können FFP2 FFP3 Masken von ein und derselben Person benutzt werden?
 - Wie oft können FFP2 Masken von ein und derselben Person benutzt werden?
 - Wie oft können FFP3 Masken von ein und derselben Person benutzt werden?
@@ -3587,7 +3831,11 @@
 - Helfen FFP3 Masken gegen das Coronavirus
 - Wie oft können FFP2 oder FFP3-Masken von ein und derselben Person benutzt werden?
 
+<<<<<<< HEAD
+## intent:mask_obligatory
+=======
 ## intent:de_mask_obligatory
+>>>>>>> origin/develop
 - Wer sollte einen Mund-Nasen-Schutz tragen?
 - Wo gilt Maskenpflicht?
 - Gilt Maskenpflicht?
@@ -3632,7 +3880,11 @@
 - Ist es jetzt verpflichtend, eine Maske zu tragen?
 - Wird das Maskentragen nur empfohlen oder ist es ein Muss?
 
+<<<<<<< HEAD
+## intent:mask_protection
+=======
 ## intent:de_mask_protection
+>>>>>>> origin/develop
 - Warum kaufen eigentliche alle Masken?
 - Ist das Maskentragen verpflichtend?
 - Ist es sinnvoll, einen Mundschutz zu tragen?
@@ -3690,7 +3942,11 @@
 - Mundschutzmasken
 - Mundschutz Maske
 
+<<<<<<< HEAD
+## intent:mask_put
+=======
 ## intent:de_mask_put
+>>>>>>> origin/develop
 - Was sollte ich bei der Maske beachten?
 - Wie setze ich die Maske richtig auf?
 - Wie benutzt man den Mund Nasen Schutz richtig?
@@ -3705,7 +3961,11 @@
 - Wie sollte man eine Maske benutzen
 - Wie trägt man den Mundschutz richtig?
 
+<<<<<<< HEAD
+## intent:mask_reuse
+=======
 ## intent:de_mask_reuse
+>>>>>>> origin/develop
 - Kann ich die Maske nochmal benutzen?
 - Kann ich Einwegmasken mehrmals benutzen?
 - Masken wiederverwenden
@@ -3723,7 +3983,11 @@
 - Masken nochmal aufsetzen
 - Kann man Masken wiederverwenden?
 
+<<<<<<< HEAD
+## intent:mask_selfmade
+=======
 ## intent:de_mask_selfmade
+>>>>>>> origin/develop
 - Welches Material eignet sich am besten zum Masken machen?
 - Anleitung zum Masken selber Herstellen
 - Masken selber herstellen
@@ -3755,7 +4019,11 @@
 - Welchen Stoff soll ich für die Maske verwenden
 - Anleitung selbst gebastelte Masken
 
+<<<<<<< HEAD
+## intent:mask_wash
+=======
 ## intent:de_mask_wash
+>>>>>>> origin/develop
 - Wie oft sollte ich die Maske waschen?
 - Soll ich meine Masken reinigen?
 - Wie soll ich die Masken reinigen
@@ -3775,7 +4043,11 @@
 - Wie wäscht man den Mundnasenschutz?
 - Wie oft sollten Stoffmasken gereinigt werden?
 
+<<<<<<< HEAD
+## intent:mask_which
+=======
 ## intent:de_mask_which
+>>>>>>> origin/develop
 - Welche Maske wählen
 - Schützt mich ein Schal ebenfalls?
 - Reicht auch eine selbst genähte Maske?
@@ -3802,7 +4074,11 @@
 - Nützen auch Tücher?
 - Schützen Schals ebenfalls?
 
+<<<<<<< HEAD
+## intent:myth_alcohol
+=======
 ## intent:de_myth_alcohol
+>>>>>>> origin/develop
 - Einsprühen des menschlichen Körpers mit Alkohol
 - Hilft es, den Körper mit Alkohol oder Chlor einzusprühen?
 - Covid-19 und Alkohol
@@ -3813,7 +4089,11 @@
 - Mit Alkohol auf dem Körper Viren abtöten
 - Ganzen Körper mit Alkohol einreiben
 
+<<<<<<< HEAD
+## intent:myth_hold_breath
+=======
 ## intent:de_myth_hold_breath
+>>>>>>> origin/develop
 - Ich habe gelesen dass wenn man 10 Sekunden die Luft anhalten kann, dass man dann nicht infiziert ist
 - Funktioniert Luftanhalten als Schnelltest für das Coronavirus?
 - Für zehn Sekunden die Luft anhalten
@@ -3842,6 +4122,27 @@
 - Was ist mit Atem anhalten
 - Atem anhalten
 - Kann man testen, ob man an Corona erkrankt ist, indem man den Atem eine bestimmte Zeit lang anhält?
+<<<<<<< HEAD
+
+## intent:myth_hot_bath
+- Covid 19 und heißes Bad
+- Kroner und heißes Bad
+- Corona und heißes Bad
+- Covid-19 und heißes Bad
+- Heißes Bad gegen Viren
+- Tötet ein heißes Bad die Viren ab?
+- Tötet ein heißes Bad das Virus ab?
+- Tötet es die Viren ab, wenn ich mich heiß bade?
+- Hilft es sich ein heißes Bad einzulassen
+- Tötet es die Viren ab wenn ich mich heiß dusche?
+- Heiß abdusche
+- Heiße Dusche
+- Heißes Bad
+- Tötet ein heißes Bad die Coronaviren ab?
+- Hilft ein heißes Bad gegen Coronavirus?
+
+## intent:myth_mosquito
+=======
 
 ## intent:de_myth_hot_bath
 - Covid 19 und heißes Bad
@@ -3861,6 +4162,7 @@
 - Hilft ein heißes Bad gegen Coronavirus?
 
 ## intent:de_myth_mosquito
+>>>>>>> origin/develop
 - Infektion durch Mücken
 - Kann man sich über Mücken anstecken?
 - Ansteckung durch Mücken
@@ -3903,7 +4205,11 @@
 - Stechmücken und Kroner
 - Moskitostiche Kroner
 
+<<<<<<< HEAD
+## intent:myth_pneumonia_vaccine
+=======
 ## intent:de_myth_pneumonia_vaccine
+>>>>>>> origin/develop
 - Schützt die Impfung gegen Pneumokokken gegen Corona?
 - Hilft Pneumokokken-Impfung gegen das Corona?
 - Was bringen die Pneumokokken-Impfungen gegen Coronavirus
@@ -3921,7 +4227,11 @@
 - Gegen Pneumokokken impfen
 - Impfung gegen Pneumokokken um sich gegen Corona zu schützen
 
+<<<<<<< HEAD
+## intent:myths_chinese_laboratory
+=======
 ## intent:de_myths_chinese_laboratory
+>>>>>>> origin/develop
 - Kommt das Virus aus dem Labor?
 - Kommt der Virus aus dem Labor?
 - Wurde der Coronavirus in einem chinesischen Labor hergestellt?
@@ -3946,7 +4256,11 @@
 - Der Virus wurde im Labor hergestellt
 - Virus-Forschungslabor
 
+<<<<<<< HEAD
+## intent:myths_conspiracy_fakenews
+=======
 ## intent:de_myths_conspiracy_fakenews
+>>>>>>> origin/develop
 - Die USA sind an allem Schuld
 - China steckt dahinter
 - Das Virus wurde absichtlich freigesetzt
@@ -3998,7 +4312,11 @@
 - Die USA stecken dahinter
 - Das wurde alles geplant
 
+<<<<<<< HEAD
+## intent:myths_vitamins_plants_minerals_homeopathy
+=======
 ## intent:de_myths_vitamins_plants_minerals_homeopathy
+>>>>>>> origin/develop
 - Schützt Vitamin C?
 - Soll ich Nahrungsergänzungsmittel gegen das Virus nehmen?
 - Helfen Vitamine gegen eine Ansteckung?
@@ -4047,7 +4365,11 @@
 - Helfen Globuli gegen eine Pandemie?
 - Soll ich Globuli nehmen?
 
+<<<<<<< HEAD
+## intent:prevention_clean_hands
+=======
 ## intent:de_prevention_clean_hands
+>>>>>>> origin/develop
 - Kann ich durch Hände waschen eine Ansteckung verhindern?
 - Kann man durch häufiges Händewaschen die Krankheit verhindern?
 - Warum saubere Hände?
@@ -4092,7 +4414,11 @@
 - Korrekte Handhygiene
 - Was bedeutet korrekte Handhygiene?
 
+<<<<<<< HEAD
+## intent:prevention_desinfection
+=======
 ## intent:de_prevention_desinfection
+>>>>>>> origin/develop
 - Desinfizieren
 - Desinfektinosmittel
 - Welche Mittel sind geeignet bei Desinfektionsmaßnahmen im Zusammenhang mit dem neuartigen Coronavirus
@@ -4115,7 +4441,11 @@
 - hilft desinfektion?
 - Was nützt desinfizieren
 
+<<<<<<< HEAD
+## intent:prevention_distance
+=======
 ## intent:de_prevention_distance
+>>>>>>> origin/develop
 - Abstand halten von Menschen, die niesen.
 - Abstand halten von Menschen, die husten oder niesen.
 - Abstand zu Mitmenschen
@@ -4152,7 +4482,11 @@
 - Abstand halten von Menschen.
 - Abstand halten von Menschen, die husten.
 
+<<<<<<< HEAD
+## intent:prevention_general
+=======
 ## intent:de_prevention_general
+>>>>>>> origin/develop
 - Wie können sich Bürgerinnen und Bürger vor dem Coronavirus schützen?
 - Wie kann das Infektionsrisiko verringert werden?
 - Vorsichtsmaßnahmen.
@@ -4199,7 +4533,11 @@
 - Was kann ich TUN, um mich zu schützen
 - Vorbeugung
 
+<<<<<<< HEAD
+## intent:prevention_home
+=======
 ## intent:de_prevention_home
+>>>>>>> origin/develop
 - Ich habe leichte Krankheitssymptome. Soll ich zuhause bleiben?
 - Ich habe leichte Krankheitssymptome. Soll ich zu Hause bleiben?
 - Ich fühle mich ein bisschen krank, soll ich daheim bleiben?
@@ -4249,7 +4587,11 @@
 - Ich habe nur leichte Symptome.
 - Ich habe nur leichte Symptome, sollte ich zu Hause bleiben?
 
+<<<<<<< HEAD
+## intent:prevention_informed
+=======
 ## intent:de_prevention_informed
+>>>>>>> origin/develop
 - Sollte man sich ständig die Nachrichten ansehen?
 - Warum sollte ich den Nachrichten zum Kowit 19 folgen?
 - Sollte ich über die neuesten Informationen zum Kowit 19-Ausbruch auf dem Laufenden bleiben?
@@ -4289,7 +4631,11 @@
 - Soll ich die Nachrichten regelmäßig verfolgen?
 - Warum sollte ich über die neuesten Informationen zum COVID-19-Ausbruch auf dem Laufenden bleiben?
 
+<<<<<<< HEAD
+## intent:prevention_medical_attention
+=======
 ## intent:de_prevention_medical_attention
+>>>>>>> origin/develop
 - Ich fühle mich total müde.
 - Verdacht auf Corona
 - Was tun bei Symptomen?
@@ -4373,7 +4719,11 @@
 - Wie kann ich wissen, ob ich den Virus habe?
 - Warum sollte ich meine Augen nicht berühren?
 
+<<<<<<< HEAD
+## intent:prevention_touch
+=======
 ## intent:de_prevention_touch
+>>>>>>> origin/develop
 - Sollte ich Handschuhe tragen
 - Corona Übertragung durch ins Gesicht anfassen
 - Gesicht anfassen infizierung
@@ -4400,7 +4750,11 @@
 - Bringen Handschuhe etwas?
 - Warum sollte ich mein Gesicht nicht berühren?
 
+<<<<<<< HEAD
+## intent:quarantine_control
+=======
 ## intent:de_quarantine_control
+>>>>>>> origin/develop
 - Wie wird die Quarantäne überhaupt kontrolliert?
 - Wer kontrolliert, ob ich in Quarantäne bin?
 - Wer kontrolliert die häusliche Quarantäne?
@@ -4435,7 +4789,11 @@
 - Wer überwacht, ob ich auch wirklich zuhause bleibe?
 - Wie wird Heimquarantäne kontrolliert?
 
+<<<<<<< HEAD
+## intent:quarantine_dogwalking
+=======
 ## intent:de_quarantine_dogwalking
+>>>>>>> origin/develop
 - Gassigehen trotz Quarantäne
 - Häusliche Quarantäne: Wer geht mit dem Hund Gassi
 - Corona-Quarantäne Darf ich mit dem Hund raus?
@@ -4463,7 +4821,11 @@
 - Gassigehen
 - Gassi gehen trotz Quarantäne
 
+<<<<<<< HEAD
+## intent:quarantine_dos_and_donts
+=======
 ## intent:de_quarantine_dos_and_donts
+>>>>>>> origin/develop
 - Was sind die Quarantäne Regeln?
 - Was darf ich noch wenn ich in Quarantäne bin?
 - Kann ich noch raus wenn ich in Quarantäne bin?
@@ -4496,7 +4858,11 @@
 - Quarantäne was geht und was nicht
 - Dürfen die Menschen zum Beispiel einkaufen gehen wenn ich in Quarantäne bin?
 
+<<<<<<< HEAD
+## intent:quarantine_general
+=======
 ## intent:de_quarantine_general
+>>>>>>> origin/develop
 - Quarantäne
 - Heim Quarantäne
 - Allgemeines zur Quarantäne
@@ -4583,7 +4949,11 @@
 - Wie verhalte ich mich in häuslicher Quarantäne?
 - Was ist bei Ausgangssperre zu beachten?
 
+<<<<<<< HEAD
+## intent:quarantine_toiletpaper
+=======
 ## intent:de_quarantine_toiletpaper
+>>>>>>> origin/develop
 - Warum kaufen jetzt so viele Klopapier
 - Warum kaufen die Leute gerade so viel Toilettenpapier?
 - Was hat es mit der Toilettenpapier Hysterie auf sich?
@@ -4618,7 +4988,11 @@
 - Klopapier Krise
 - Klopapier-Krise
 
+<<<<<<< HEAD
+## intent:quarantine_when_who_howlong
+=======
 ## intent:de_quarantine_when_who_howlong
+>>>>>>> origin/develop
 - Wann muss ich zuhause bleiben
 - Muss ich definitiv zu Hause bleiben, wenn ich in Österreich oder Italien war?
 - Muss ich in Quarantäne?
@@ -4666,7 +5040,11 @@
 - Ende von Quarantäne?
 - Wer ordnet die Quarantäne an
 
+<<<<<<< HEAD
+## intent:sources
+=======
 ## intent:de_sources
+>>>>>>> origin/develop
 - Woher sind deine Informationen?
 - Deine Quellen
 - Quellen
@@ -4688,7 +5066,11 @@
 - Welche Quellen hast du verwendet
 - Sag mir deine Quellen
 
+<<<<<<< HEAD
+## intent:spread_air
+=======
 ## intent:de_spread_air
+>>>>>>> origin/develop
 - Verbreitet sich das Virus, das Kowit 19 verursacht, über die Luft?
 - Wird das Virus, das Kowit 19 verursacht, über die Luft übertragen?
 - Ist es möglich, dass sich Q19 auf dem Luftweg verbreitet?
@@ -4753,7 +5135,11 @@
 - Kann Kowit 19 über die Luft übertragen werden?
 - Wird das Virus, das Kowit 19 verursacht, durch die Luft verbreitet?
 
+<<<<<<< HEAD
+## intent:spread_animals
+=======
 ## intent:de_spread_animals
+>>>>>>> origin/develop
 - Kann ich mich durch Tiere anstecken?
 - Ansteckung über Haustiere
 - Kann mein Hund das COVID-19 bekommen?
@@ -4842,7 +5228,11 @@
 - Überträgt sich Hobbit 19 auch von Mensch zu Tier?
 - Kann ich huvit 19 auch von meinem Haustier bekommen?
 
+<<<<<<< HEAD
+## intent:spread_feces
+=======
 ## intent:de_spread_feces
+>>>>>>> origin/develop
 - Können Viren über Stuhlgang übertragen werden
 - Kann das Virus auch über den Stuhlgang bzw. Toilettengang in den Wasserkreislauf übertragen werden?
 - Risiko, Kowit 19 aus den Exkrementen einer erkrankten Person zu fangen.
@@ -4897,7 +5287,11 @@
 - Fangen Sie den Virus durch Exkremente.
 - Kann ich COVID-19 aus der Kacke einer infizierten Person fangen?
 
+<<<<<<< HEAD
+## intent:spread_general
+=======
 ## intent:de_spread_general
+>>>>>>> origin/develop
 - Wie kann ich mich anstecken?
 - Wie ist SARS CoV 2 übertragbar?
 - Ist der Virus von Mensch zu Mensch übertragbar?
@@ -4993,7 +5387,11 @@
 - Durch was kann man den Virus übertragen?
 - Wie wird Covid 19 übertragen?
 
+<<<<<<< HEAD
+## intent:spread_heat_cold
+=======
 ## intent:de_spread_heat_cold
+>>>>>>> origin/develop
 - Breitet sich das Virus bei Hitze weniger schnell aus?
 - Wird das neue Coronavirus bei wärmeren Temperaturen schwächer und ist deshalb mit einem Abebben der Epidemie im Frühjahr zu rechnen?
 - Breitet sich das Virus weniger schnell aus, wenn es heiß ist?
@@ -5018,7 +5416,11 @@
 - Stimmt es, dass das Virus bei hohen Temperaturen stirbt?
 - Stimmt es, dass das Virus bei einer Temperatur von 27 Grad stirbt?
 
+<<<<<<< HEAD
+## intent:spread_no_symptoms
+=======
 ## intent:de_spread_no_symptoms
+>>>>>>> origin/develop
 - Kann das Virus von jemandem gefangen werden, der keine Symptome hat?
 - kann ich auch andere anstecken wenn ich selbst keine Symptome habe
 - Kann ich den COVID-19 von Personen ohne Symptome abfangen?
@@ -5074,7 +5476,11 @@
 - Menschen ohne Symptome können COVID-19 übertragen?
 - Kann das Virus von jemandem ohne Symptome abgefangen werden?
 
+<<<<<<< HEAD
+## intent:spread_surfaces_food_objects
+=======
 ## intent:de_spread_surfaces_food_objects
+>>>>>>> origin/develop
 - Ist der Virus durch Lebensmittel übertragbar?
 - Besteht die Gefahr, sich über importierte Lebensmittel, Oberflächen oder Gegenstände mit dem neuartigen Coronavirus (SARS-CoV-2) anzustecken?
 - Kann ich mich über Essen anstecken?
@@ -5127,8 +5533,13 @@
 - Kann ich mich über Essen oder Oberflächen anstecken?
 - Kann ich mich über Gegenstände anstecken?
 - Kann ich mich anstecken, wenn ich aus der gleichen Wasserflasche trinke?
+<<<<<<< HEAD
+<!---
+## intent:stayhomeinfo_authorities
+=======
 
 ## intent:de_stayhomeinfo_authorities
+>>>>>>> origin/develop
 - Was passiert mit Amtserledigungen?
 - Was ist mit Behördengängen
 - Ich bin arbeitslos geworden, kann ich jetzt noch zum Amt?
@@ -5153,7 +5564,11 @@
 - Kann ich noch zum Jobcenter gehen?
 - Kann ich jetzt noch zum Amt gehen?
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_doctor
+=======
 ## intent:de_stayhomeinfo_doctor
+>>>>>>> origin/develop
 - Darf ich überhaupt noch zum Frauenarzt gehen?
 - Darf ich überhaupt noch zum Zahnarzt gehen?
 - Darf ich das Haus noch verlassen, um zum Arzt zu gehen?
@@ -5167,7 +5582,11 @@
 - Darf man jetzt überhaupt noch zum Arzt?
 - Zuhause bleiben – Arztbesuche
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_drive_other_city
+=======
 ## intent:de_stayhomeinfo_drive_other_city
+>>>>>>> origin/develop
 - Darf ich noch zu meinem Zweitwohnsitz in [England]{"entity": "geography", "value": "cities"} fahren?
 - Kann ich mit dem Auto noch in die Stadt?
 - Kann ich mit dem Auto noch in den Nachbarort?
@@ -5199,7 +5618,11 @@
 - Ich will in eine andere Stadt fahren
 - Darf ich noch in eine andere Stadt fahren?
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_network_congestion
+=======
 ## intent:de_stayhomeinfo_network_congestion
+>>>>>>> origin/develop
 - Wird es zu Überlastungen im W-LAN kommen?
 - Wird es zu Überlastungen im digitalen Netz kommen?
 - Könnte das WLAN überlastet sein?
@@ -5254,7 +5677,11 @@
 - Was ist mit den Sparkassen?
 - Haben die Banken noch geöffnet?
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_supermarket
+=======
 ## intent:de_stayhomeinfo_supermarket
+>>>>>>> origin/develop
 - Darf man noch Essen kaufen gehen?
 - Kann ich noch Lebensmittel kaufen gehen?
 - Unter welchen Bedingungen darf man einkaufen gehen?
@@ -5305,7 +5732,11 @@
 - Was bleibt geöffnet?
 - Was ist mit Freizeitparks?
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_visit60
+=======
 ## intent:de_stayhomeinfo_visit60
+>>>>>>> origin/develop
 - Darf ich noch zu meiner Großmutter gehen, wenn sie alleine wohnt?
 - Kann ich zu meiner Oma und meinem Opa gehen?
 - Kann ich zu meiner Oma gehen
@@ -5328,7 +5759,11 @@
 - Kann ich noch zu meinen Großeltern?
 - Kann ich noch zu meiner Oma gehen?
 
+<<<<<<< HEAD
+## intent:stayhomeinfo_visit_parents_children
+=======
 ## intent:de_stayhomeinfo_visit_parents_children
+>>>>>>> origin/develop
 - Darf ich noch meine Mama besuchen?
 - Darf ich noch meine Mutter besuchen?
 - Darf sich mein Kind in der Wohnung des getrenntlebenden Elternteils aufhalten?
@@ -5347,8 +5782,13 @@
 - Kann ich noch meine Eltern im Nachbarnort besuchen?
 - Osterbesuch bei Eltern möglich?
 - Meine Eltern wohnen im Nachbarort – wir dürfen uns doch wenigstens noch besuchen?
+<<<<<<< HEAD
+-->
+## intent:test_per_day
+=======
 
 ## intent:de_test_per_day
+>>>>>>> origin/develop
 - Was wird genau bei dem Test gemacht
 - Wie läuft der Test ab?
 - Corona Test Wie funktioniert der Test
@@ -5374,7 +5814,11 @@
 - Wie läuft ein Test auf das Coronavirus eigentlich ab?
 - Wie wird der Test durchgeführt?
 
+<<<<<<< HEAD
+## intent:test_payment
+=======
 ## intent:de_test_payment
+>>>>>>> origin/develop
 - Kann meine Krankenkasse für die Kosten des Tests aufkommen?
 - Kostenübernahme seitens der Krankenkasse
 - Kostenübernahme Test
@@ -5414,7 +5858,11 @@
 - Muss ich selber für die Kosten des Tests aufkommen?
 - Muss ich den Test zahlen oder wird das von den Kassen übernommen?
 
+<<<<<<< HEAD
+## intent:test_per_day
+=======
 ## intent:de_test_per_day
+>>>>>>> origin/develop
 - Testkapazitäten
 - Test Kapazitäten
 - Wie viele Tests kann man am Tag durchführen?
@@ -5444,7 +5892,11 @@
 - Wie viele Tests können täglich durchgeführt werden?
 - Wie viele Coronavirus Tests können pro Tag durchgeführt werden
 
+<<<<<<< HEAD
+## intent:test_quick_test
+=======
 ## intent:de_test_quick_test
+>>>>>>> origin/develop
 - Schnelltest qubeat 19
 - Gibt es einen Schnelltest für qubeat 19?
 - cupid 19 Schnelltest
@@ -5509,7 +5961,11 @@
 - Schnell Test bitte
 - Schnelltest Kowit 19
 
+<<<<<<< HEAD
+## intent:test_results_reliability
+=======
 ## intent:de_test_results_reliability
+>>>>>>> origin/develop
 - Sind die Testergebnisse valide?
 - Wie zuverlässig ist der Corona Test
 - Wie zuverlässig ist der Corona-Test?
@@ -5527,7 +5983,11 @@
 - Wie zuverlässig sind die Testergebnisse
 - Und wie zuverlässig sind die Ergebnisse?
 
+<<<<<<< HEAD
+## intent:test_virus
+=======
 ## intent:de_test_virus
+>>>>>>> origin/develop
 - Gibt es einen Test für Hobbit 19?
 - Wo kann ich mich testen lassen?
 - Gibt es einen Corona Test ?
@@ -5608,7 +6068,11 @@
 - Kann ich mir in der Apotheke einen Test auf huvit 19 kaufen?
 - Gibt es einen Test für huvit 19?
 
+<<<<<<< HEAD
+## intent:test_who
+=======
 ## intent:de_test_who
+>>>>>>> origin/develop
 - Test Personen
 - Testgruppe
 - Wie lasse ich mich testen?
@@ -5625,7 +6089,11 @@
 - Wer kann sich testen lassen
 - Kann ich mich testen lassen?
 
+<<<<<<< HEAD
+## intent:travel_before
+=======
 ## intent:de_travel_before
+>>>>>>> origin/develop
 - Worauf muss ich vor meiner Reise achten?
 - Sollten Reisende vor Reiseantritt prüfen, ob es Reisebeschränkungen wegen des Coronavirus gibt?
 - Ich plane eine Reise Was muss ich beachten?
@@ -5696,7 +6164,11 @@
 - Gibt es Reiseeinschränkungen
 - Gibt es Reise Einschränkungen
 
+<<<<<<< HEAD
+## intent:travel_cancel
+=======
 ## intent:de_travel_cancel
+>>>>>>> origin/develop
 - Reise Abbruch
 - Urlaub absagen
 - Kann man eine Reise aus Angst vor Covid-19 stornieren?
@@ -5731,7 +6203,11 @@
 - Ich habe Angst vor einer Quarantäne im Zielland: Kann ich meine Reise stornieren?
 - Kann ich eine Reisekostenerstattung bekommen?
 
+<<<<<<< HEAD
+## intent:travel_general
+=======
 ## intent:de_travel_general
+>>>>>>> origin/develop
 - Hobbit Reiseangelegenheiten
 - COBIT Reiseangelegenheiten
 - Coronavirus und reisen
@@ -5767,7 +6243,11 @@
 - kovit Reiseangelegenheiten
 - huvit Reiseangelegenheiten
 
+<<<<<<< HEAD
+## intent:travel_return
+=======
 ## intent:de_travel_return
+>>>>>>> origin/develop
 - Vorgehensweise bei der Rückkehr von der Reise.
 - Wie geht es nach der Reise weiter?
 - Test nach [Marokko]{"entity": "geography", "value": "country"} aufenthalt
@@ -5818,7 +6298,11 @@
 - Nach dem Reisevorgang.
 - Was passiert nach meiner Reise
 
+<<<<<<< HEAD
+## intent:travel_returnprogram
+=======
 ## intent:de_travel_returnprogram
+>>>>>>> origin/develop
 - Rückholaktion für gestrandete Deutsche
 - Rückholungen
 - Rückholung
@@ -5855,7 +6339,11 @@
 - Wir kommen nicht mehr zurück
 - Wir sitzen im Ausland fest
 
+<<<<<<< HEAD
+## intent:travel_risk_countries
+=======
 ## intent:de_travel_risk_countries
+>>>>>>> origin/develop
 - Bei welchen Ländern sollte man jetzt vorsichtig sein
 - Einreise in welche Länder besser nicht?
 - Riskante Ferienorte
@@ -5875,7 +6363,11 @@
 - Welche Orte sind riskant um reisen?
 - Welche Länder sollte ich vermeiden?
 
+<<<<<<< HEAD
+## intent:travel_within_germany
+=======
 ## intent:de_travel_within_germany
+>>>>>>> origin/develop
 - Ist der Urlaub in Deutschland trotz Corona möglich?
 - Urlaub in Deutschland trotz Corona möglich?
 - Urlaub in Deutschland
@@ -5900,7 +6392,11 @@
 - Darf ich zu meiner eigenen Ferienwohnun fahren?
 - Darf ich zu meiner eigenen Ferienwohnung oder Zweitwohnung fahren?
 
+<<<<<<< HEAD
+## intent:travel_while
+=======
 ## intent:de_travel_while
+>>>>>>> origin/develop
 - Wie kann man sich vor Ansteckung auf Reisen schützen?
 - Verfahren auf Reisen.
 - Was sind die Empfehlungen für Reisende in Gebiete, in denen es zu Übertragungen kommt?
