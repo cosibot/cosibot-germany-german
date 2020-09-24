@@ -12,6 +12,12 @@ slots:
     type: text
   bot_date:
     type: text
+  country:
+    type: text
+  active_cases:
+    type: unfeaturized
+  total_infected_critical:
+    type: unfeaturized
 
 entities:
   - country_code
@@ -1285,6 +1291,22 @@ responses:
                 value: Was bedeutet Covid-19
               - label: Sterblichkeitsrate
                 value: Sterblichkeitsrate
+
+  utter_covid_situation_infected:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.</speak>
+          - type: text 
+            text: Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.
+
+  utter_covid_situation_infected_critical:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
+          - type: text 
+            text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.
 
   utter_covid_current_statistics:
     - custom:
