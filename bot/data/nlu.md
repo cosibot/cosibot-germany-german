@@ -11811,7 +11811,7 @@
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asien]{"entity": "world_region", "value": "Asia"}
 - [Afrika]{"entity": "world_region", "value": "Africa"}
-- [Amerika]{"entity": "world_region", "value": "America"}
+- [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
 
