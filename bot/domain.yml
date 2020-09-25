@@ -1609,6 +1609,28 @@ responses:
                 value: Dauer der Krankheit
               - label: Krankheitsverlauf
                 value: Krankheitsverlauf 
+  
+  utter_covid_surfaces:
+    - custom:
+        answers:
+          - type: ssml
+            ssml:
+              <speak>Studien deuten darauf hin, dass Koronaviren auf Oberflächen für einige Stunden oder bis zu mehreren Tagen persistieren können. Dies kann unter verschiedenen Bedingungen, z.B. Art der Oberfläche, Temperatur oder Feuchtigkeit der Umgebung, variieren.</speak>
+          - type: html
+            text:
+              <p>Studien deuten darauf hin, dass Koronaviren auf Oberflächen für einige Stunden oder bis zu mehreren Tagen persistieren können. Dies kann unter verschiedenen Bedingungen, z.B. Art der Oberfläche, Temperatur oder Feuchtigkeit der Umgebung, variieren.<a
+              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Über COVID-19
+                value: Über COVID-19
+              - label: Präventive Maßnahmen
+                value: Präventive Maßnahmen
+              - label: Übertragung
+                value: Übertragung
+              - label: Symptome
+                value: Symptome
 
   utter_spread_general:
     - custom:
@@ -2288,7 +2310,7 @@ responses:
               - label: Rückholprogramm
                 value: Rückholprogramm 
 
-  utter_travel_returnpogram:
+  utter_travel_returnprogram:
     - custom:
         answers:
           - type: ssml   
