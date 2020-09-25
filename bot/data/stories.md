@@ -114,10 +114,6 @@
 * covid_situation_infected_critical
   - utter_covid_situation_infected_critical
 
-## covid_surfaces
-* covid_surfaces
-  - utter_covid_surfaces
-
 ## covid_symptoms
 * covid_symptoms
   - utter_covid_symptoms

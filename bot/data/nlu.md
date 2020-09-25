@@ -1916,7 +1916,7 @@
 - Personen in kritischem Zustand in [Großbritannien]{"entity": "country_code", "value": "GB"}.
 - Infizierte in kritischem Zustand in [Griechenland]{"entity": "country_code", "value": "GR"}.
 
-## intent:covid_surfaces
+<!-- ## intent:covid_surfaces
 - Wie lange überlebt der Virus auf Oberflächen?
 - Was steigert die Lebensdauer von Coronaviren?
 - Was ist die Lebensdauer der Coronaviren?
@@ -1940,7 +1940,7 @@
 - Wie lange kann der Virusauf Oberflächen infektiös bleiben?
 - Wie viele Tage bleiben die Coronaviren auf Oberflächen infektös?
 - Wie lange überleben die Viren auf Türklinken?
-- Wie ist die Lebensdauer vom Corona Virus?
+- Wie ist die Lebensdauer vom Corona Virus? -->
 
 ## intent:covid_symptoms
 - Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
