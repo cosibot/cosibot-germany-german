@@ -7631,15 +7631,15 @@
 - [Indien]{"entity": "country_code", "value": "IN"} ist schön
 - Warst du schonmal in [Australien]{"entity": "country_code", "value": "AU"}
 - Was kannst du mir über die [Türkei]{"entity": "country_code", "value": "TR"} sagen?
-- Kennen Sie [Neuseeland]{"entity": "country_code", "value": "NZ"}y?
+- Kennen Sie [Neuseeland]{"entity": "country_code", "value": "NZ"} ?
 - Magst du Erdkunde?
-- Magst du [Argentinien]{"entity": "country_code", "value": "AR"}?
-- Wo finde ich [Chile]{"entity": "country_code", "value": "CL"}?
-- Kennst du [Bolivien]{"entity": "country_code", "value": "BO"}?
+- Magst du [Argentinien]{"entity": "country_code", "value": "AR"} ?
+- Wo finde ich [Chile]{"entity": "country_code", "value": "CL"} ?
+- Kennst du [Bolivien]{"entity": "country_code", "value": "BO"} ?
 - [Afrika]{"entity": "country_code", "value": "ZA"} ist super.
 - [Südafrika]{"entity": "country_code", "value": "ZA"}
-- Was wissen Sie über [Kanada]{"entity": "country_code", "value": "CA"}?
-- Wo liegt [Portugal]{"entity": "country_code", "value": "PT"}?
+- Was wissen Sie über [Kanada]{"entity": "country_code", "value": "CA"} ?
+- Wo liegt [Portugal]{"entity": "country_code", "value": "PT"} ?
 - Infos über [Schweden]{"entity": "country_code", "value": "SE"}
 	
 ## intent:cc_hitchhiker

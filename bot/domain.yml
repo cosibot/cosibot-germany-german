@@ -18,6 +18,13 @@ slots:
     type: unfeaturized
   total_infected_critical:
     type: unfeaturized
+  search_successful:
+    type: categorical
+    values:
+      - ok
+      - inexistent-country
+      - wrong-country
+      - not-ok
 
 entities:
   - country_code
@@ -28,6 +35,7 @@ actions:
   - action_default_fallback
   - action_get_date
   - action_get_time
+  - action_search_stats
   - corona_app_developers
   - utter_corona_app_general
   - utter_corona_app_obligatory
@@ -54,6 +62,9 @@ actions:
   - utter_covid_season
   - utter_covid_situation_infected
   - utter_covid_situation_infected_critical
+  - utter_want_to_add_country
+  - utter_ask_which_country
+  - utter_covid_no_country_current_statistics
   - utter_covid_surfaces
   - utter_covid_symptoms
   - utter_covid_treatment
@@ -285,6 +296,7 @@ intents:
   - covid_season
   - covid_situation_infected
   - covid_situation_infected_critical
+  - country
   - covid_surfaces
   - covid_symptoms
   - covid_treatment
@@ -1307,6 +1319,44 @@ responses:
             ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
           - type: text 
             text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.
+
+  utter_want_to_add_country:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Wünschen Sie Informationen über ein bestimmtes Land?</speak>
+          - type: text 
+            text: Wünschen Sie Informationen über ein bestimmtes Land?
+
+  utter_ask_which_country:
+    - custom:
+        answers:
+        - type: text
+          text: Bitte nennen Sie mir das Land, über das Sie gern Näheres erfahren möchten.
+        - type: ssml
+          ssml: <speak>Bitte nennen Sie mir das Land, über das Sie gern Näheres erfahren möchten.</speak>
+
+  utter_covid_no_country_current_statistics:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Um über die neuesten Fortschritte in der Welt auf dem Laufenden zu bleiben, besuchen Sie bitte den unten angegebenen Link.</speak>
+          - type: html
+            text: Um über die neuesten Fortschritte in der Welt auf dem Laufenden zu bleiben, besuchen Sie bitte den unten angegebenen Link.
+          - type: links
+            links:
+              - title: COVID-19 Weltlage
+                url: https://who.sprinklr.com/
+          - type: hints
+            options:
+              - label: Über COVID-19
+                value: Über COVID-19
+              - label: Vorbeugende Maßnahmen
+                value: Vorbeugende Maßnahmen
+              - label: Übertragung
+                value: Übertragung
+              - label: Symptomatik 
+                value: Symptomatik 
 
   utter_covid_current_statistics:
     - custom:

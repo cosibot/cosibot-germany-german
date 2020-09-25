@@ -30,9 +30,9 @@
 * coronavirus_info
   - utter_coronavirus_info
 
-## covid_aftereffects_immunity
+<!-- ## covid_aftereffects_immunity
 * covid_aftereffects_immunity
-  - utter_covid_aftereffects_immunity
+  - utter_covid_aftereffects_immunity -->
 
 ## covid_babys_children
 * covid_babys_children
@@ -237,10 +237,6 @@
 ## greeting_goodbye
 * greeting_goodbye
   - utter_greeting_goodbye
-
-## greeting_hello
-* greeting_hello
-  - utter_greeting_hello
 
 ## greeting_how_are_you
 * greeting_how_are_you
@@ -883,3 +879,136 @@
   - utter_features_time
 
 
+<!-- Counters
+Generic requests -->
+
+## covid_situation_without_country
+* covid_situation_infected_critical OR covid_situation_infected
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "FR"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Frankreich"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_situation_without_country2
+* covid_situation_infected_critical OR covid_situation_infected
+  - utter_want_to_add_country
+* vocative_no
+  - utter_further_questions
+
+## covid_situation_without_country3
+* covid_situation_infected_critical OR covid_situation_infected
+  - utter_want_to_add_country
+* country{"country_code" : "IT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Italy"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+
+## covid_situation_infected_happy 
+* covid_situation_infected{"country_code" : "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_situation_infected_unhappy
+* covid_situation_infected{"country_code": "AG"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_covid_current_statistics
+
+## covid_situation_infected_unhappy_with_country
+* covid_situation_infected{"country_code" : "EG"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "PT"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Portugal"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_situation_unhappy_inexistent_country
+* covid_situation_infected{"country_code" : "EC"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "EC"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_covid_no_country_current_statistics
+
+## covid_situation_unhappy_with_dashboard
+* covid_situation_infected{"country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "False"}
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
+
+## covid_situation_infected_critical_happy
+* covid_situation_infected_critical{"country_code":"ES"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Spain"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected_critical
+
+## covid_situation_infected_critical_unhappy
+* covid_situation_infected_critical{"country_code": "India"}
+  - action_search_stats
+  - slot{"search_successful": "not-ok"}
+  - utter_covid_current_statistics
+
+## covid_situation_infected_critical_unhappy_with_country
+* covid_situation_infected_critical{"country_code":"Spanien"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Espanha"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Espanha"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected_critical
+
+## covid_situation_infected_critical_unhappy_inexistent_country
+* covid_situation_infected_critical{"country_code" : "PT"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
+  - action_search_stats
+  - slot{"search_successful": "inexistent-country"}
+  - utter_covid_no_country_current_statistics
+
+## covid_situation_infected_critical_unhappy_with_dashboard
+* covid_situation_infected_critical{"country_code" : "IT"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
