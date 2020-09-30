@@ -1,14 +1,38 @@
-<!-- ## start
-* start
-  - utter_start
+## start_1
+* start{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": true}
+  - utter_greeting_hello_introduced_false
 
-## start_dialogue
-* start_dialogue
-  - utter_start_dialogue
+## start1_1
+* start_dialogue{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_greeting_hello_introduced_false
 
-## start-dialogue
-* start-dialogue
-  - utter_start-dialogue -->
+## start1_3
+* start-dialogue{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_greeting_hello_introduced_false
+
+## start_12
+* start{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
+
+## start1_12
+* start_dialogue{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
+
+## start1_32
+* start-dialogue{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
+
+## start1_12_1
+* greeting_hello
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": true}
+  - utter_greeting_hello_introduced_true
 
 ## corona_app_developers
 * corona_app_developers
@@ -868,11 +892,13 @@
 
 ## features_date
 * features_date
-  - utter_features_date
+  - action_get_date
+  - slot{"bot_date": "20/05/2020"}
 
 ## features_time
 * features_time
-  - utter_features_time
+  - action_get_time
+  - slot{"bot_time": "17:17:54"}
 
 
 <!-- Counters
