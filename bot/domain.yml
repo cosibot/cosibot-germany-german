@@ -1,17 +1,22 @@
 slots:
+# action_check_bot_introduced
   bot_introduced:
     type: bool
     initial_value: false
+# general slots
   bot_name:
     type: unfeaturized
     initial_value: Helena
   bot_version:
     type: unfeaturized
     initial_value: 0-0-3
+# action_get_time
   bot_time:
     type: text
+# action_get_date
   bot_date:
     type: text
+# action_search_stats
   country:
     type: text
   active_cases:
@@ -25,13 +30,28 @@ slots:
       - inexistent-country
       - wrong-country
       - not-ok
+# action_search_stats_region
+  region_search_succesful:
+    type: categorical
+    values: 
+      - ok 
+      - empty 
+      - not-ok 
+  region:
+    type: text 
+  region_confirmed_accum:
+    type: unfeaturized
+# action_default_fallback
+  total_nr_tries:
+    type: float
 
 entities:
   - country_code
   - country_district
+  - country_state
 
 actions:
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - action_default_fallback
   - action_get_date
   - action_get_time
@@ -43,8 +63,10 @@ actions:
   - utter_coronavirus_info
   - utter_covid_disease_aftereffects_immunity
   - utter_covid_babys_children
-  - utter_covid_current_situation
+  # - utter_covid_current_situation # becomes utter_news_request_hasdata
   - utter_covid_current_statistics
+  - utter_covid_current_statistics_region
+  - utter_region_nodata
   - utter_covid_dangerous
   - utter_covid_difference_influenza
   - utter_covid_disease_process
@@ -257,13 +279,18 @@ actions:
   - utter_vocative_you_welcome
   - utter_cc_weather
   - utter_further_questions
-  - utter_default
+  - utter_fallback_first
+  - utter_fallback_request_hasdata
+  - utter_fallback_request_emptyanswer
+  - utter_fallback_request_error
   - utter_comment_hot
   - utter_comment_negative
   - utter_comment_offense
   - utter_comment_positive
   - utter_comment_racist
   - utter_comment_smart
+  - utter_news_request_hasdata
+  - utter_news_request_emptyanswer
 
 intents:
   - start
@@ -1354,7 +1381,29 @@ responses:
               - label: Übertragung
                 value: Übertragung
               - label: Symptomatik 
-                value: Symptomatik 
+                value: Symptomatik
+  
+  utter_covid_current_statistics_region:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Die aktuellen Daten zeigen, dass es in {region} insgesamt {region_confirmed_accum} derzeit Fälle gibt.</speak>
+          - type: text
+            text: Die aktuellen Daten zeigen, dass es in {region} insgesamt {region_confirmed_accum} derzeit Fälle gibt.
+
+  utter_region_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Mir liegen diese Informationen in Bezug auf Ihre Anfrage nicht vor. Aber ich werde versuchen, Daten über Deutschland zu bekommen.</speak>
+          - type: text
+            text: Mir liegen diese Informationen in Bezug auf Ihre Anfrage nicht vor. Aber ich werde versuchen, Daten über Deutschland zu bekommen.
+          - type: multichoice
+            options:
+              - label: Ja
+                value: Ja
+              - label: Nein
+                value: Nein
 
   utter_covid_current_statistics:
     - custom:
@@ -4080,7 +4129,29 @@ responses:
           - type: text
             text: Haben Sie noch weitere Fragen?
 
-  utter_default:
+  utter_news_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ich habe gerade auf den Seiten der Deutsche Welle und der Tagesschau nachgesehen und ein paar Links gefunden, unter denen Sie mehr darüber erfahren können. Diese finden Sie eingeblendet.</speak>
+          - type: text 
+            text: Ich habe gerade auf den Seiten der Deutsche Welle und der Tagesschau nachgesehen und ein paar Links gefunden, unter denen Sie mehr darüber erfahren können. Diese finden Sie eingeblendet.
+  
+  utter_news_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ich kann die Informationen, die Sie suchen, nicht finden. Ich empfehle Ihnen, die Tagesschau und die DW-Website für weitere Nachrichten zu besuchen.</speak> 
+          - type: text
+            text: Ich kann die Informationen, die Sie suchen, nicht finden. Ich empfehle Ihnen, die Tagesschau und die DW-Website für weitere Nachrichten zu besuchen.
+          - type: links
+            links:
+              - title: Tagesschau
+                url: https://www.tagesschau.de/suche2.html?query=covid-19
+              - title: DW
+                url: https://www.dw.com/de/themen/coronavirus/s-42108563
+
+  utter_fallback_first:
     - custom:
         answers:
           - type: ssml
@@ -4093,7 +4164,41 @@ responses:
             ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit Robo äi ai beantworten.</speak>
           - type: text
             text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit ROBO.AI beantworten.
-            
+  
+  utter_fallback_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Als ich die Seiten des BGM und der Robert Koch Instituts durchsuchte, fand ich die folgenden Links:</speak>"
+          - type: text
+            text: "Als ich die Seiten des BGM und der Robert Koch Instituts durchsuchte, fand ich die folgenden Links:"
+  
+  utter_fallback_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Sie können sich über die neuesten Nachrichten in den angebotenen Optionen informieren:</speak>"
+          - type: text 
+            text: "Sie können sich über die neuesten Nachrichten in den angebotenen Optionen informieren:"
+          - type: hints
+            options:
+              - label: Über COVID-19
+                value: Über COVID-19
+              - label: Präventive Maßnahmen
+                value: Präventive Maßnahmen
+              - label: Übertragung
+                value: Übertragung
+              - label: Symptome
+                value: Symptome
+
+  utter_fallback_request_error:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Leider habe ich nicht ausfindig machen können, wonach Sie suchen. Schauen Sie am besten auf den Seiten des BGM oder des Robert Koch Instituts nach, um weitere Informationen darüber zu erhalten.</speak> 
+          - type: text 
+            text:  Leider habe ich nicht ausfindig machen können, wonach Sie suchen. Schauen Sie am besten auf den Seiten des BGM oder des Robert Koch Instituts nach, um weitere Informationen darüber zu erhalten.
+  
   utter_cc_weather:
     - custom:
         answers:
@@ -4101,6 +4206,12 @@ responses:
             ssml: <speak>Um Ihnen das genaue Wetter mitzuteilen, müssen Sie mich für einige Minuten nach draußen bringen. Nein! halt! Das war nur ein Scherz.</speak>
           - type: text
             text: Um Ihnen das genaue Wetter mitzuteilen, müssen Sie mich für einige Minuten nach draußen bringen. Nein, halt! Das war nur ein Scherz. :P
+          - type: links
+            links:
+              - title: Bundesministerium für Gesundheit
+                url: https://www.bundesgesundheitsministerium.de/coronavirus.html
+              - title: Robert Koch Institut
+                url: https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV.html
 
   # utter_features_handover:
   #   - custom:

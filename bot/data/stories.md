@@ -1,36 +1,36 @@
 ## start_1
 * start{"bot_introduced": "False"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - slot{"bot_introduced": true}
   - utter_greeting_hello_introduced_false
 
 ## start1_1
 * start_dialogue{"bot_introduced": "False"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - slot{"bot_introduced": "True"}
   - utter_greeting_hello_introduced_false
 
 ## start1_3
 * start-dialogue{"bot_introduced": "False"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - slot{"bot_introduced": "True"}
   - utter_greeting_hello_introduced_false
 
 ## start_12
 * start{"bot_introduced": "True"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
 
 ## start1_12
 * start_dialogue{"bot_introduced": "True"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
 
 ## start1_32
 * start-dialogue{"bot_introduced": "True"}
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
 
 ## start1_12_1
 * greeting_hello
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - slot{"bot_introduced": true}
   - utter_greeting_hello_introduced_true
 
@@ -62,9 +62,9 @@
 * covid_babys_children
   - utter_covid_babys_children
 
-## covid_current_situation
+<!-- ## covid_current_situation
 * covid_current_situation
-  - utter_covid_current_situation
+  - utter_covid_current_situation -->
 
 ## covid_current_statistics
 * covid_current_statistics

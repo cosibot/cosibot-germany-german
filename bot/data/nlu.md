@@ -203,30 +203,30 @@
 - Aktuelle Nummern
 - Wo finde ich aktuelle Statistiken?
 - Wo finde ich aktuelle Zahlen?
-- Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
-- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "Baden-Württemberg"}
-- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}
-- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}
-- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "Sachsen"}
-- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "Saarland"}
-- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}
-- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
-- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "Niedersachsen"}
-- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}
-- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"}
-- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "Bayern"}
-- Infizierte in [Berlin]{"entity": "country_district", "value": "Berlin"}
+- Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
+- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_state", "value": "Baden-Württemberg"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_state", "value": "Saarland"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_state", "value": "Niedersachsen"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Wie viele Fälle hat [Bayern]{"entity": "country_state", "value": "Bayern"}
+- Infizierte in [Berlin]{"entity": "country_state", "value": "Berlin"}
 - Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
 - Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
 - Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
 - Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
-- Infizierte in [Bremen]{"entity": "country_district", "value": "Bremen"}
+- Infizierte in [Bremen]{"entity": "country_state", "value": "Bremen"}
 - Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
 - Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
 - Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
@@ -251,7 +251,7 @@
 - Wie viele Fälle gibt es in Deutschland
 - Fälle in Berlin
 - Infektionen in Berlin
-- Infektionen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Infektionen in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Wie viele sind erkrankt
 - gibt es irgendwelche pauschalen zahlen
 - Wieviele Fälle gibt es momentan
@@ -280,21 +280,21 @@
 - Statistiken pro Bundesland
 - Zahl der Infizierten im Landkreis
 - Wie viele Opfer
-- Wie viele Menschen sind in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"} infiziert
-- Fälle in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Todesfälle in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Wie viele Menschen sind in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"} infiziert
+- Fälle in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Todesfälle in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
 - Fälle in [England]{"entity": "country_code", "value": "GB"}
-- Krankheitsfälle in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}?
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}?
-- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_district", "value": "Saarland"}?
-- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_district", "value": "Sachsen"}?
-- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}?
-- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}?
-- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_district", "value": "Thüringen"}?
+- Krankheitsfälle in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}?
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}?
+- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_state", "value": "Saarland"}?
+- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_state", "value": "Sachsen"}?
+- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}?
+- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}?
+- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_state", "value": "Thüringen"}?
 - Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
 - Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
 - Wie viel infiziert
@@ -11810,7 +11810,7 @@
 - [European continet]{"entity": "world_region", "value": "Europe"}
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asien]{"entity": "world_region", "value": "Asia"}
-- [Afrika]{"entity": "world_region", "value": "Africa"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
 - [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
