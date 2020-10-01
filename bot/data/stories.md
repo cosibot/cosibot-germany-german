@@ -34,6 +34,71 @@
   - slot{"bot_introduced": true}
   - utter_greeting_hello_introduced_true
 
+## covid_current_statistics_happy_path_state
+* covid_current_statistics{"country_state": "Berlin"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "ok"}
+  - slot{"region": "Berlin"}
+  - slot{"region_confimed_accum": 130}
+  - utter_covid_current_statistics_region
+
+## covid_current_statistics_unhappy_path_state_no
+* covid_current_statistics{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_current_statistics
+
+## covid_current_statistics_unhappy_path_state_yes
+* covid_current_statistics{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_happy_path_district
+* covid_current_statistics{"country_district": "München"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "ok"}
+  - slot{"region": "München"}
+  - slot{"region_confirmed_accum": "130"}
+  - utter_covid_current_statistics_region
+
+## covid_current_statistics_unhappy_path_district_yes
+* covid_current_statistics{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_covid_current_statistics_no_data
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+
+## covid_current_statistics_unhappy_path_district_no
+* covid_current_statistics{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_covid_current_statistics_no_data
+* vocative_no
+  - utter_covid_current_statistics
+
 ## corona_app_developers
 * corona_app_developers
   - utter_corona_app_developers
