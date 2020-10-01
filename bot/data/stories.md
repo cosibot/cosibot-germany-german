@@ -34,6 +34,10 @@
   - slot{"bot_introduced": true}
   - utter_greeting_hello_introduced_true
 
+## covid_current_situation_get_news
+* covid_current_situation
+ - action_get_news_request
+
 ## covid_current_statistics_happy_path_state
 * covid_current_statistics{"country_state": "Berlin"}
   - action_search_stats_region
