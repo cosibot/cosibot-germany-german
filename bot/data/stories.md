@@ -36,17 +36,17 @@
 
 ## covid_current_situation_get_news
 * covid_current_situation
- - action_get_news_request
+  - action_get_news_request
 
 ## covid_current_statistics_happy_path_state
 * covid_current_statistics{"country_state": "Berlin"}
   - action_search_stats_region
   - slot{"region_search_successful": "ok"}
   - slot{"region": "Berlin"}
-  - slot{"region_confimed_accum": 130}
+  - slot{"region_confirmed_accum": 130}
   - utter_covid_current_statistics_region
 
-## covid_current_statistics_unhappy_path_state_no
+## covid_current_statistics_unhappy_empty_path_state_no
 * covid_current_statistics{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
@@ -56,10 +56,35 @@
 * vocative_no
   - utter_covid_current_statistics
 
-## covid_current_statistics_unhappy_path_state_yes
+## covid_current_statistics_unhappy_not_ok_path_state_no
+* covid_current_statistics{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_current_statistics
+
+## covid_current_statistics_unhappy_empty_path_state_yes
 * covid_current_statistics{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_unhappy_not_ok_path_state_yes
+* covid_current_statistics{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Bremen"}
   - slot{"country_code": "DE"}
   - utter_region_nodata
@@ -79,27 +104,53 @@
   - slot{"region_confirmed_accum": "130"}
   - utter_covid_current_statistics_region
 
-## covid_current_statistics_unhappy_path_district_yes
+## covid_current_statistics_unhappy_empty_path_district_yes
 * covid_current_statistics{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
   - slot{"country_code": "DE"}
-  - utter_covid_current_statistics_no_data
+  - utter_region_nodata
 * vocative_yes
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
   - slot{"country": "Deutschland"}
   - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
 
-## covid_current_statistics_unhappy_path_district_no
+## covid_current_statistics_unhappy_not_ok_path_district_yes
+* covid_current_statistics{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_unhappy_path_empty_district_no
 * covid_current_statistics{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
   - slot{"country_code": "DE"}
-  - utter_covid_current_statistics_no_data
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_current_statistics
+
+## covid_current_statistics_unhappy_path_not_ok_district_no
+* covid_current_statistics{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
 * vocative_no
   - utter_covid_current_statistics
 

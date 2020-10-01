@@ -2858,7 +2858,7 @@
 - Gibt es Sperre in Baden-Württemberg
 - Gibt es Ausgangs Sperre in Baden-Württemberg
 - Gibt es jetzt Ausgangssperre in Berlin?
-- In [Berlin]{"entity": "country_district", "value": "Berlin"} ist eine Ausgeheinschränkung
+- In [Berlin]{"entity": "cuntry_state", "value": "Berlin"} ist eine Ausgeheinschränkung
 - Ausgngssperre in Berlin
 - Ausgangssperre in Berlin
 - Was sind die Maßnahmen in Berlin

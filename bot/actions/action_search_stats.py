@@ -69,17 +69,24 @@ class ActionSearchStats(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        try:
-            country_code = next(tracker.get_latest_entity_values("country_code"), None)
-        except Exception:
-            country_code = tracker.get_slot("country_code")
+
+        country_code = next(tracker.get_latest_entity_values("country_code"), None)
+
+        if country_code is None and tracker.get_slot("country_code") == "DE":
+            country_code = "DE"
+
+        # country_code = tracker.get_slot("pt_country_code")
         print("country code is {}".format(country_code))
 
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(country_code)
 
+        # tracker_current_state = tracker.current_state()
+        # dispatcher.utter_message(text=str(tracker_current_state))
+
         if country_code is not None:
+
             if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:
                 print('inexistent-country')
                 """In this case we're assuming the user did not miss the country's name but instead it really does not exist at the source."""
@@ -90,24 +97,29 @@ class ActionSearchStats(Action):
                 return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_want_to_add_country")]
             elif stats['code'] != 200 and not stats['has_data']:
                 print('not-ok')
+                """ """
                 return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_covid_current_statistics")]
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
-
-                entity = next((e for e in tracker.latest_message["entities"] if
-                               e['entity'] == 'country_code'), None)
-                print(entity)
-                input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                try:
+                    entity = next((e for e in tracker.latest_message["entities"] if
+                                   e['entity'] == 'country_code'), None)
+                    print(entity)
+                    input_country = tracker.latest_message['text'][entity['start']:entity['end']]
+                except Exception:
+                    if country_code == "DE" and tracker.get_slot("country_code") == "DE":
+                        input_country = "Deutschland"
 
                 return [SlotSet('search_successful', 'ok'), SlotSet('country', input_country),
                         SlotSet('active_cases', int(stats.get('active_cases', None))),
-                        # SlotSet('new_cases', int(stats.get('new_cases', None))),
+                        SlotSet('country', input_country),
                         # SlotSet('total_cases', int(stats.get('total_cases', None))),
                         # SlotSet('total_recovered', int(stats.get('total_recovered', None))),
                         # SlotSet('total_deaths', int(stats.get('total_deaths', None))),
                         # SlotSet('total_tests', int(stats.get('total_tests', None))),
                         # SlotSet('new_deaths', int(stats.get('new_deaths', None))),
                         SlotSet('total_infected_critical', int(stats.get('critical', None))), ]
+
         elif country_code is None:
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""
             print('wrong-country')

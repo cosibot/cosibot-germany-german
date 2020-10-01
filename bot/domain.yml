@@ -31,7 +31,7 @@ slots:
       - wrong-country
       - not-ok
 # action_search_stats_region
-  region_search_succesful:
+  region_search_successful:
     type: categorical
     values: 
       - ok 
@@ -41,6 +41,8 @@ slots:
     type: text 
   region_confirmed_accum:
     type: unfeaturized
+  country_code:
+    type: text
 # action_default_fallback
   total_nr_tries:
     type: float
@@ -56,6 +58,8 @@ actions:
   - action_get_date
   - action_get_time
   - action_search_stats
+  - action_search_stats_region
+  - action_get_news_request
   - corona_app_developers
   - utter_corona_app_general
   - utter_corona_app_obligatory

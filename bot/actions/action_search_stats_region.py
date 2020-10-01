@@ -67,6 +67,7 @@ class DecsisAPI:
                     stats['had_data'] = True
                     return stats
         except Exception:
+            print("Decsis region exception")
             return {}
 
 
@@ -86,13 +87,17 @@ class ActionSearchStatsRegion(Action):
         else:
             description = "district"
         region = entity['value']
-        print("region is {}".format(region))
+        print("{} is {}".format(description, region))
 
         # date = tracker.get_slot("date")
         decsis_api = DecsisAPI()
         stats = decsis_api.search(description, region)
 
-        if stats['code'] == 200 and not stats['has_data']:
+        if stats is None:
+            print("3 None")
+            return [SlotSet('region_search_successful', 'not-ok'),
+                    SlotSet('country_code', 'DE'), ]
+        elif stats['code'] == 200 and not stats['has_data']:
             print("1", stats['has_data'])
             return [SlotSet('region_search_successful', 'empty'),
                     SlotSet('region', region),
@@ -102,6 +107,3 @@ class ActionSearchStatsRegion(Action):
             return [SlotSet('region_search_successful', 'ok'),
                     SlotSet('region', region),
                     SlotSet('region_confirmed_accum', int(stats.get('confirmed_accum', None))), ]
-        else:
-            return [SlotSet('region_search_successful', 'not-ok'),
-                    SlotSet('country_code', 'DE'), ]
