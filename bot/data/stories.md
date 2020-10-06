@@ -39,7 +39,7 @@
   - action_get_news_request
 
 ## covid_current_statistics_happy_path_state
-* covid_current_statistics{"country_state": "Berlin"}
+* covid_situation_infected{"country_state": "Berlin"}
   - action_search_stats_region
   - slot{"region_search_successful": "ok"}
   - slot{"region": "Berlin"}
@@ -47,27 +47,27 @@
   - utter_covid_current_statistics_region
 
 ## covid_current_statistics_unhappy_empty_path_state_no
-* covid_current_statistics{"country_state": "Bremen"}
+* covid_situation_infected{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Bremen"}
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_state_no
-* covid_current_statistics{"country_state": "Bremen"}
+* covid_situation_infected{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Bremen"}
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_empty_path_state_yes
-* covid_current_statistics{"country_state": "Bremen"}
+* covid_situation_infected{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Bremen"}
@@ -82,7 +82,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_state_yes
-* covid_current_statistics{"country_state": "Bremen"}
+* covid_situation_infected{"country_state": "Bremen"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Bremen"}
@@ -97,7 +97,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_happy_path_district
-* covid_current_statistics{"country_district": "München"}
+* covid_situation_infected{"country_district": "München"}
   - action_search_stats_region
   - slot{"region_search_successful": "ok"}
   - slot{"region": "München"}
@@ -105,7 +105,7 @@
   - utter_covid_current_statistics_region
 
 ## covid_current_statistics_unhappy_empty_path_district_yes
-* covid_current_statistics{"country_district": "Frankfurt"}
+* covid_situation_infected{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
@@ -120,7 +120,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_district_yes
-* covid_current_statistics{"country_district": "Frankfurt"}
+* covid_situation_infected{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Frankfurt"}
@@ -135,24 +135,24 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_path_empty_district_no
-* covid_current_statistics{"country_district": "Frankfurt"}
+* covid_situation_infected{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_path_not_ok_district_no
-* covid_current_statistics{"country_district": "Frankfurt"}
+* covid_situation_infected{"country_district": "Frankfurt"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Frankfurt"}
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## corona_app_developers
 * corona_app_developers
@@ -186,9 +186,10 @@
 * covid_current_situation
   - utter_covid_current_situation -->
 
-## covid_current_statistics
+
+<!-- ## covid_current_statistics
 * covid_current_statistics
-  - utter_covid_current_statistics
+  - utter_covid_current_statistics -->
 
 ## covid_dangerous
 * covid_dangerous
@@ -1068,7 +1069,7 @@ Generic requests -->
 * covid_situation_infected{"country_code": "AG"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_situation_infected_unhappy_with_country
 * covid_situation_infected{"country_code" : "EG"}
@@ -1103,7 +1104,7 @@ Generic requests -->
   - slot{"search_successful": "False"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_situation_infected_critical_happy
 * covid_situation_infected_critical{"country_code":"ES"}
@@ -1118,7 +1119,7 @@ Generic requests -->
 * covid_situation_infected_critical{"country_code": "India"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected
 
 ## covid_situation_infected_critical_unhappy_with_country
 * covid_situation_infected_critical{"country_code":"Spanien"}
@@ -1153,4 +1154,4 @@ Generic requests -->
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_situation_infected

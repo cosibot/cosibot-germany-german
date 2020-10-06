@@ -68,7 +68,7 @@ actions:
   - utter_covid_disease_aftereffects_immunity
   - utter_covid_babys_children
   # - utter_covid_current_situation # becomes utter_news_request_hasdata
-  - utter_covid_current_statistics
+  # - utter_covid_current_statistics
   - utter_covid_current_statistics_region
   - utter_region_nodata
   - utter_covid_dangerous
@@ -308,7 +308,7 @@ intents:
   - covid_aftereffects_immunity
   - covid_babys_children
   - covid_current_situation
-  - covid_current_statistics
+  #- covid_current_statistics
   - covid_dangerous
   - covid_difference_influenza
   - covid_disease_process
@@ -1386,7 +1386,7 @@ responses:
                 value: Übertragung
               - label: Symptomatik 
                 value: Symptomatik
-  
+
   utter_covid_current_statistics_region:
     - custom:
         answers:
@@ -1409,27 +1409,27 @@ responses:
               - label: Nein
                 value: Nein
 
-  utter_covid_current_statistics:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das Kowitt 19 Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren.</speak>
-          - type: text
-            text: Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das COVID-19-Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren. Die Links dazu finden Sie eingeblendet. 
-          - type: links
-            links:
-              - title: "Robert Koch-Institut: COVID-19-Dashboard"
-                url: https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4
-              - title: Global Cases by the Center for Systems Science and Engineering
-                url: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-          - type: hints
-            options:
-              - label: Dauer der Krankheit
-                value: Dauer der Krankheit
-              - label: Vorgehensweise Infektion
-                value: Vorgehensweise Infektion
-              - label: Risikogruppen
-                value: Risikogruppen  
+  # utter_covid_current_statistics:
+  #   - custom:
+  #       answers:
+  #         - type: ssml   
+  #           ssml: <speak>Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das Kowitt 19 Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren.</speak>
+  #         - type: text
+  #           text: Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das COVID-19-Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren. Die Links dazu finden Sie eingeblendet. 
+  #         - type: links
+  #           links:
+  #             - title: "Robert Koch-Institut: COVID-19-Dashboard"
+  #               url: https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4
+  #             - title: Global Cases by the Center for Systems Science and Engineering
+  #               url: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+  #         - type: hints
+  #           options:
+  #             - label: Dauer der Krankheit
+  #               value: Dauer der Krankheit
+  #             - label: Vorgehensweise Infektion
+  #               value: Vorgehensweise Infektion
+  #             - label: Risikogruppen
+  #               value: Risikogruppen  
 
   utter_covid_mortality_rate:
     - custom:
@@ -4224,8 +4224,6 @@ responses:
   #           ssml: <speak>Diese Funktion habe ich derzeit leider nicht zur Verfügung.</speak>
   #         - type: text
   #           text: Diese Funktion habe ich derzeit leider nicht zur Verfügung.
-
-
 
 session_config:
   session_expiration_time: 60
