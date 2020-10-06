@@ -1888,7 +1888,7 @@
 - wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
 - Anzahl Tote
 - Fälle im Landkreis
-- Kurve von Corona in
+- Kurve von Corona in [Portugal]{"entity": "country_code", "value": "PT"} aus
 - Wie viele Menschen sind am Virus gestorben
 - Wie viele Tote
 - Wie hoch ist die Zahl der Toten in Deutschland
@@ -1906,6 +1906,9 @@
 - Welches Land hat die niedrigste Todesrate?
 - Wie viele Infizierte gibt es derzeit in Deutschland?
 - Wie viele Opfer gibt es
+- Tote in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Argentinien]{"entity": "country_code", "value": "AR"}
+- Anzahl der Toten in [Brasilien]{"entity": "country_code", "value": "BR"}
 
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
