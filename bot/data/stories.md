@@ -1,5 +1,5 @@
 ## start_1
-* start{"bot_introduced": "False"}
+* start-dialogue{"bot_introduced": "False"}
   - action_check_bot_introduced
   - slot{"bot_introduced": true}
   - utter_greeting_hello_introduced_false
@@ -36,6 +36,10 @@
 
 ## covid_current_situation_get_news
 * covid_current_situation
+  - action_get_news_request
+
+## covid_current_situation_get_news_entity_country
+* covid_current_situation{"country_code": "Schweden"}
   - action_get_news_request
 
 ## covid_current_statistics_happy_path_state
@@ -181,15 +185,6 @@
 ## covid_babys_children
 * covid_babys_children
   - utter_covid_babys_children
-
-<!-- ## covid_current_situation
-* covid_current_situation
-  - utter_covid_current_situation -->
-
-
-<!-- ## covid_current_statistics
-* covid_current_statistics
-  - utter_covid_current_statistics -->
 
 ## covid_dangerous
 * covid_dangerous

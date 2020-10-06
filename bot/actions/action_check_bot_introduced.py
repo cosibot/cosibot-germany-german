@@ -16,6 +16,6 @@ class ActionCheckBotIntroduced(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         if not tracker.get_slot("bot_introduced"):
-            return [SlotSet("bot_introduced", True), FollowupAction("utter_welcome")]
+            return [SlotSet("bot_introduced", True), FollowupAction("utter_greeting_hello_introduced_false")]
         else:
-            return [FollowupAction("utter_greeting_hello")]
+            return [FollowupAction("utter_greeting_hello_introduced_true")]

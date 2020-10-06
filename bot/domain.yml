@@ -46,6 +46,7 @@ slots:
 # action_default_fallback
   total_nr_tries:
     type: float
+    initial_value: 0.0
 
 entities:
   - country_code
@@ -3787,17 +3788,27 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Willkommen bei Apurina! Ich bin eine virtuelle Assistentin und bin in der Lage, Ihnen Auskunft zu unseren Produkten zu geben. Welche Produktsparte interessiert Sie?</speak>       
+            ssml: <speak>Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?</speak>       
           - type: text
-            text: Willkommen bei Apurina! Ich bin eine virtuelle Assistentin und bin in der Lage, Ihnen Auskunft zu unseren Produkten zu geben. Welche Produktsparte interessiert Sie?
-          - type: multichoice
+            text: Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?
+          - type: hints
             options:
-              - label: Desinfektion
-                value: Desinfektion
-              - label: Geruchsneutralisierung
-                value: Geruchsneutralisierung
-              - label: Reinigung
-                value: Reinigung
+              - label: Kontaktverbot
+                value: Kontaktverbot
+              - label: Schutzmaßnahmen
+                value: Schutzmaßnahmen
+              - label: Zuhause bleiben
+                value: Zuhause bleiben
+              - label: Übertragung
+                value: Übertragung
+              - label: Behandlung
+                value: Behandlung
+              - label: Statistiken
+                value: Statistiken
+              - label: Arbeitsrecht
+                value: Arbeitsrecht
+              - label: Reiserückholprogramm
+                value: Reiserückholprogramm
 
   utter_greeting_hello_introduced_true:
     - custom:

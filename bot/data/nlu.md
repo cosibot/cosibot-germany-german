@@ -2243,7 +2243,7 @@
 - Wie ist die Situation weltweit
 - Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
 - Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
-- Wie ist die Lage in [England]{"entity": "country_code", "value": "EN"}
+- Wie ist die Lage in [England]{"entity": "country_code", "value": "GB"}
 - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
 - Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
 - Situation in [Spanien]{"entity": "country_code", "value": "ES"}
@@ -2861,7 +2861,7 @@
 - Gibt es Sperre in Baden-Württemberg
 - Gibt es Ausgangs Sperre in Baden-Württemberg
 - Gibt es jetzt Ausgangssperre in Berlin?
-- In [Berlin]{"entity": "cuntry_state", "value": "Berlin"} ist eine Ausgeheinschränkung
+- In [Berlin]{"entity": "country_state", "value": "Berlin"} ist eine Ausgeheinschränkung
 - Ausgngssperre in Berlin
 - Ausgangssperre in Berlin
 - Was sind die Maßnahmen in Berlin
