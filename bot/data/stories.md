@@ -265,6 +265,7 @@
 * covid_treatment
   - utter_covid_treatment
 
+
 ## covid_unknown_cases
 * covid_unknown_cases
   - utter_covid_unknown_cases
@@ -652,6 +653,10 @@
 ## bot_costs
 * bot_costs
   - utter_bot_costs
+
+## bot_developers
+* bot_developers
+  - utter_bot_developers
 
 ## bot_differences
 * bot_differences

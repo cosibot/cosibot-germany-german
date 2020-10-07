@@ -1721,6 +1721,186 @@
 - Steigen die Zahlen im Sommer?
 - Wird die Aktivität von SARS-CoV-2 saisonal beeinflusst?
 
+## intent:covid_procedure_after_infection
+- Was passiert bei einem Verdachtsfall auf den Virus?
+- Was passiert bei einem positiven Resultat?
+- Was passiert wenn ich positiv auf die Infektion getestet wurde?
+- Was passiert, wenn ich infiziert bin?
+- was passiert wenn ich positiv auf coronavirus getestet bin
+- Meine Freundin hat Hobbit 19, was passiert jetzt?
+- Meine Freundin hat Kubik 19, was passiert jetzt?
+- Wie wird bei einem Verdachtsfall vorgegangen?
+- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
+- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
+- Meine Freundin hat Q19, was passiert jetzt?
+- Meine Freundin hat cookit 19, was passiert jetzt?
+- Meine Freundin hat qubeat 19, was passiert jetzt?
+- Meine Freundin hat cupid 19, was passiert jetzt?
+- Meine Freundin hat kuhweg 19, was passiert jetzt?
+- Was passiert bei einem positiven Test auf den Coronavirus?
+- Was passiert, wenn ich positiv auf den Virus getestet wurde?
+- Meine Freundin hat Covid 19, was passiert jetzt?
+- Was passiert wenn die Resultate positiv sind?
+- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
+- Was passiert bei einem Verdachtsfall auf den Coronavirus?
+- Meine Freundin hat kovit 19, was passiert jetzt?
+- Meine Freundin hat movit 19, was passiert jetzt?
+- Meine Freundin hat COBIT 19, was passiert jetzt?
+- Meine Freundin hat huvit 19, was passiert jetzt?
+- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
+- Vorgehensweise Infektion
+- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
+- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
+- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
+- Was geschieht wenn der Test positiv ist?
+- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
+- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
+- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
+- Ich bin infiziert, was passiert jetzt?
+
+## intent:covid_unknown_cases
+- Die Rolle der Dunkelziffer bei Covid-19
+- Dunkelziffern
+- Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Erkrankten-Dunkelziffer
+- Was kannst du mir zur Dunkelziffer sagen
+- Was sagt die Dunkelziffer
+- Dunkelziffer Coronavirus
+- Schätzung der Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Wie hoch ist die Dunkelziffer
+
+## intent:mask_protection
+- Warum sollen wir jetzt Mundschutz tragen?
+- Warum Masken tragen?
+- Warum soll ich eine Maske tragen?
+- Was nützt es, Masken zu tragen?
+- Helfen Atemschutzmasken gegen qubeat 19?
+- Helfen Atemschutzmasken gegen cupid 19?
+- Helfen Atemschutzmasken gegen kuhweg 19?
+- Helfen Atemschutzmasken gegen Hobbit 19?
+- Helfen Atemschutzmasken gegen huvit 19?
+- Helfen Atemschutzmasken gegen COBIT 19?
+- Mundschutz Maske
+- Mundschutzmasken
+- Mundschutz
+- Macht eine Atemschutz Maske Sinn?
+- Helfen Atemschutzmasken gegen movit 19?
+- Helfen Atemschutzmasken gegen kovit 19?
+- Helfen Atemschutzmasken gegen Kubik 19?
+- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
+- Ist es sinnvoll, einen Mundschutz zu tragen?
+- Mundschutzmaske
+- Mundschutz Masken
+- Verhindert ein Mundschutz eine Ansteckung?
+- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
+- Macht es Sinn, den Mund Nasen Schutz zu tragen?
+- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
+- Verhindert der Mundschutz, dass ich mich anstecke?
+- Helfen Atemschutzmasken gegen Sars-CoV-2?
+- Helfen Atemschutz Masken gegen eine Ansteckung?
+- Helfen Atemschutzmasken gegen Covid 19?
+- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
+- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
+- Mundschutzmaske gegen Coronavirus-Epidemie?
+- Schützen Atemschutzmasken vor Sars-CoV-2?
+- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
+- Was bringt ein Mundschutz?
+- Mundschutz Maske gegen Coronavirus
+- Mundschutz-Masken: Was hilft gegen Viren?
+- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
+- Sollte ich eine Maske tragen, um mich selbst zu schützen?
+- Hilft der Maskenschutz gegen eine Ansteckung?
+- Schützt mich die Maske vor einer Ansteckung?
+- Verhindern die Masken eine Ansteckung?
+- Helfen Atemschutzmasken gegen Q19?
+- Helfen Atemschutzmasken gegen cookit 19?
+- Schützt mich eine Stoffmaske?
+- Kann ich mit Schutzmasken andere schützen?
+- Kann ich mich mit einer Maske vor Ansteckung schützen?
+- Kann ich mich mit Masken schützen?
+- Was bringt die Maske?
+- Was ist der Nutzen der Mund Bedeckung
+- Warum Mund Bedeckung tragen
+- Warum sollen wir Mund Nasen Schutz tragen?
+- Warum Mund Nasen Schutz tragen?
+- Was hilft es, einen Mundschutz zu tragen?
+
+## intent:quarantine_how_it_works
+- Wie soll ich mich unter Quarantäne verhalten?
+- Was ist Heimquarantäne und wie funktioniert sie?
+- Wie läuft eine Heimquarantäne ab?
+- Was muss ich beachten, wenn ich in Quarantäne bin?
+- Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?
+- Regeln der Ausgangssperre
+- Was muss ich beachten, wenn ich zuhause bleibe?
+- Tipps bei häuslicher Quarantäne
+- Wie läuft das in der Quarantäne ab?
+- Was ist mit Körperkontakt in Quarantäne?
+- Geht noch Sex in der Quarantäne?
+- Geht noch küssen in Quarantäne?
+- Welche Regeln muss man bei der Quarantäne beachten
+- Wie funktioniert die Quarantäne
+- Was darf man in Quarantäne und was nicht
+- Was ist bei einer Ausgangssperre zu beachten
+- Wie funktioniert die Ausgangssperre
+- Was ist bei einer Ausgangssperre zu tun?
+- Was ist bei häuslicher Quarantäne zu beachten?
+- Was gibt es bei der Quarantäne alles zu beachten?
+- Was tun, wenn man zuhause bleiben muss?
+- Wie läuft die Quarantäne ab?
+- Wie funktioniert die Heimquarantäne?
+- Quarantäne - Verhaltensregeln
+- Verhaltensregeln in Heimquarantäne
+- Ablauf häusliche Quarantäne
+- Wie soll ich mich bei einer Quarantäne verhalten?
+- Was soll ich bei einer Quarantäne beachten?
+- Wie sieht die Quarantäne aus?
+- Wie funkioniert eine Quarantäne?
+- Corona wie funktioniert die Quarantäne?
+- Worauf muss ich bei der Ausgangs Sperre achten?
+- Was ist bei Ausgangssperre zu beachten?
+- Und wie soll man denn zuhause behandelt werden?
+- Was passiert bei häuslicher Quarantäne?
+- Erkläre mir, wie so eine Quarantäne abläuft.
+- Wie funktioniert das mit der Quarantäne?
+- Was muss ich beachten wenn ich in Quarantäne geschickt wurde?
+- Was muss ich beachten wenn ich zuhause bleiben muss?
+- Was muss ich machen wenn ich in Quarantäne bin?
+- Wie verhält man sich unter Quarantäne?
+- Wie funktioniert die häusliche Quarantäne beim Coronavirus?
+- Wie funktioniert die häusliche Quarantäne?
+- Wie geht das mit der Quarantäne?
+- Wie verhalte ich mich in häuslicher Quarantäne?
+- Ablauf und Dauer der häuslichen Quarantäne
+ 
+## intent:test_how
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Corona Test
+- Wann bekommt man Ergebnisse bei dem Test
+- Wann sind die Ergebnisse des Tests da
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert ein Corona-Test?
+- Wie wird der Test durchgeführt?
+- Wie läuft der Test ab
+- Wie lange dauert die Testzeit
+- Testzeit
+- Wie lange dauert der Test
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie funktioniert der Coronavirus Test
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert der Test auf Sars-CoV-2
+- Corona Test Wie funktioniert der Test
+
 ## intent:covid_situation_infected
 - Wie viele Infizierte gibt es in [Neuseeland]{"entity": "country_code", "value": "NZ"}?
 - Aktive Fälle in [Kolumbien]{"entity": "country_code", "value": "CO"}.

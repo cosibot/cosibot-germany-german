@@ -196,6 +196,7 @@ actions:
   - utter_bot_children
   - utter_bot_color
   - utter_bot_costs
+  - utter_bot_developers
   - utter_bot_differences
   - utter_bot_dislike
   - utter_bot_eyes
@@ -432,6 +433,7 @@ intents:
   - bot_children
   - bot_color
   - bot_costs
+  - bot_developers
   - bot_differences
   - bot_dislike
   - bot_eyes
@@ -1348,9 +1350,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
+            ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
           - type: text 
-            text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.
+            text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} {total_infected_critical} Menschen in kritischem Zustand befinden.
 
   utter_want_to_add_country:
     - custom:
@@ -2820,6 +2822,18 @@ responses:
           - type: text
             text: Ich bin jeden Cent wert :)
 
+  utter_bot_developers:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: <speak>Mich haben meine Kollegen von Robo.ai entwickelt! Ich rate Ihnen, mal einen Blick auf ihre Website zu werfen!</speak>       
+          - type: text
+            text: Mich haben meine Kollegen von Robo.ai entwickelt! Ich rate Ihnen, mal einen Blick auf ihre Website zu werfen :)
+          - type: links
+            links:
+              - title: ROBO.AI Website
+                url: https://robo-ai.com/
+
   utter_bot_differences:
     - custom:
         answers:
@@ -4175,12 +4189,12 @@ responses:
             ssml: <speak>Ich bin noch am Lernen, könnten Sie das vielleicht etwas anders formulieren?</speak>
           - type: text
             text: Ich bin noch am Lernen, könnten Sie das vielleicht etwas anders formulieren?
-    # - custom:
-    #     answers:
-    #       - type: ssml
-    #         ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit Robo äi ai beantworten.</speak>
-    #       - type: text
-    #         text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit ROBO.AI beantworten.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit dem Coronavirus beantworten.</speak>
+          - type: text
+            text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit dem Coronavirus beantworten.
   
   utter_fallback_request_hasdata:
     - custom:
