@@ -58,7 +58,7 @@
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics
 
 ## covid_current_statistics_unhappy_not_ok_path_state_no
 * covid_situation_infected{"country_state": "Bremen"}
@@ -68,7 +68,7 @@
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics
 
 ## covid_current_statistics_unhappy_empty_path_state_yes
 * covid_situation_infected{"country_state": "Bremen"}
@@ -83,6 +83,7 @@
   - slot{"active_cases": "16300"}
   - slot{"country": "Deutschland"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_state_yes
@@ -98,6 +99,7 @@
   - slot{"active_cases": "16300"}
   - slot{"country": "Deutschland"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_current_statistics_happy_path_district
@@ -136,6 +138,7 @@
   - slot{"active_cases": "16300"}
   - slot{"country": "Deutschland"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_path_empty_district_no
@@ -146,7 +149,7 @@
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics 
 
 ## covid_current_statistics_unhappy_path_not_ok_district_no
 * covid_situation_infected{"country_district": "Frankfurt"}
@@ -156,7 +159,7 @@
   - slot{"country_code": "DE"}
   - utter_region_nodata
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics 
 
 ## corona_app_developers
 * corona_app_developers
@@ -1031,6 +1034,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Frankreich"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_without_country2
@@ -1048,6 +1052,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Italy"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 
@@ -1058,13 +1063,14 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_infected_unhappy
 * covid_situation_infected{"country_code": "AG"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_unhappy_with_country
 * covid_situation_infected{"country_code" : "EG"}
@@ -1079,6 +1085,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_unhappy_inexistent_country
@@ -1099,7 +1106,7 @@ Generic requests -->
   - slot{"search_successful": "False"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_happy
 * covid_situation_infected_critical{"country_code":"ES"}
@@ -1108,13 +1115,14 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Spain"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy
 * covid_situation_infected_critical{"country_code": "India"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_unhappy_with_country
 * covid_situation_infected_critical{"country_code":"Spanien"}
@@ -1129,6 +1137,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Espanha"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy_inexistent_country
@@ -1149,4 +1158,4 @@ Generic requests -->
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_situation_infected
+  - utter_covid_no_country_current_statistics

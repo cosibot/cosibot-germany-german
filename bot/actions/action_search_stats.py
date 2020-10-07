@@ -115,7 +115,7 @@ class ActionSearchStats(Action):
                         SlotSet('country', input_country),
                         # SlotSet('total_cases', int(stats.get('total_cases', None))),
                         # SlotSet('total_recovered', int(stats.get('total_recovered', None))),
-                        # SlotSet('total_deaths', int(stats.get('total_deaths', None))),
+                        SlotSet('total_deaths', int(stats.get('total_deaths', None))),
                         # SlotSet('total_tests', int(stats.get('total_tests', None))),
                         # SlotSet('new_deaths', int(stats.get('new_deaths', None))),
                         SlotSet('total_infected_critical', int(stats.get('critical', None))), ]

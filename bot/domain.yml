@@ -23,6 +23,8 @@ slots:
     type: unfeaturized
   total_infected_critical:
     type: unfeaturized
+  total_deaths:
+    type: unfeaturized
   search_successful:
     type: categorical
     values:
@@ -1338,9 +1340,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.</speak>
+            ssml: <speak>Aktuelle Daten zeigen, dass es in {country} derzeit insgesamt {active_cases} aktive Fälle und {total_deaths} Tote seit Beginn der Pandemie gibt.</speak>
           - type: text 
-            text: Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.
+            text: Aktuelle Daten zeigen, dass es in {country} derzeit insgesamt {active_cases} aktive Fälle und {total_deaths} Tote seit Beginn der Pandemie gibt.
 
   utter_covid_situation_infected_critical:
     - custom:
@@ -4173,12 +4175,12 @@ responses:
             ssml: <speak>Ich bin noch am Lernen, könnten Sie das vielleicht etwas anders formulieren?</speak>
           - type: text
             text: Ich bin noch am Lernen, könnten Sie das vielleicht etwas anders formulieren?
-    - custom:
-        answers:
-          - type: ssml
-            ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit Robo äi ai beantworten.</speak>
-          - type: text
-            text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit ROBO.AI beantworten.
+    # - custom:
+    #     answers:
+    #       - type: ssml
+    #         ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit Robo äi ai beantworten.</speak>
+    #       - type: text
+    #         text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit ROBO.AI beantworten.
   
   utter_fallback_request_hasdata:
     - custom:
