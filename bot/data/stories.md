@@ -249,14 +249,6 @@
 * covid_season
   - utter_covid_season
 
-## covid_situation_infected
-* covid_situation_infected
-  - utter_covid_situation_infected
-
-## covid_situation_infected_critical
-* covid_situation_infected_critical
-  - utter_covid_situation_infected_critical
-
 ## covid_symptoms
 * covid_symptoms
   - utter_covid_symptoms

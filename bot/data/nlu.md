@@ -2064,17 +2064,18 @@
 - Aktuelle Zahlen
 - cupid 19 aktuelle Zahlen
 - qubeat 19 aktuelle Statistiken
-- wie schauen die zahlen in deutschland aus
+- wie schauen die zahlen in [deutschland]{"entity": "country_code", "value": "DE"} aus
+- wie schauen die zahlen in [Australien]{"entity": "country_code", "value": "AU"} aus
 - wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
 - Anzahl Tote
 - Fälle im Landkreis
 - Kurve von Corona in [Portugal]{"entity": "country_code", "value": "PT"} aus
 - Wie viele Menschen sind am Virus gestorben
 - Wie viele Tote
-- Wie hoch ist die Zahl der Toten in Deutschland
+- Wie hoch ist die Zahl der Toten in [Deutschland]{"entity": "country_code", "value": "DE"} aus
 - Wie hoch ist die Zahl der Infizierten
-- Wie hoch ist die Zahl der infizierten in Deutschland?
-- Wann Sind in Deutschland 100000 Menschen erkrankt
+- Wie hoch ist die Zahl der infizierten in [Deutschland]{"entity": "country_code", "value": "DE"} aus?
+- Wann Sind in [Deutschland]{"entity": "country_code", "value": "DE"} aus 100000 Menschen erkrankt
 - Gibt es Zahlen?
 - Nenne mir Zahlen
 - Wie viel Menschen sind tot
@@ -2084,11 +2085,37 @@
 - Wie viele Menschen weltweit sind mit dem Virus infiziert
 - Wie viele Menschen sind infiziert
 - Welches Land hat die niedrigste Todesrate?
-- Wie viele Infizierte gibt es derzeit in Deutschland?
+- Wie viele Infizierte gibt es derzeit in [Deutschland]{"entity": "country_code", "value": "DE"} aus ?
 - Wie viele Opfer gibt es
 - Tote in [Spanien]{"entity": "country_code", "value": "ES"}
 - Todesfälle in [Argentinien]{"entity": "country_code", "value": "AR"}
 - Anzahl der Toten in [Brasilien]{"entity": "country_code", "value": "BR"}
+- Infizierte Personen in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} infiziert?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben
+- Infizierte Personen in [Jordanien]{"entity": "country_code", "value": "JO"}.
+- Wie viele Tote in [Tschechien]{"entity": "country_code", "value": "CZ"}?
+- Wie viele Kranke in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele gestorben in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele sind in [Peru]{"entity": "country_code", "value": "PE"} gestorben?
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} gestorben?
+- Kranke in [England]{"entity": "country_code", "value": "GB"}.
+- Todeszahlen in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Großbritannien]{"entity": "country_code", "value": "GB"}.
+- Infizierte in [Griechenland]{"entity": "country_code", "value": "GR"}.
+- Personen infiziert in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Covid Fälle in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben?
+- Opfer in [Südafrika]{"entity": "country_code", "value": "ZA"}.
+- Wie viele Opfer in [Türkei]{"entity": "country_code", "value": "TR"}?
+- Wie viele Personen in [Brasilien]{"entity": "country_code", "value": "BR"} tot?
+- Tote in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele Covid-Fälle gibt es in [Australien]{"entity": "country_code", "value": "AU"}?
+- Fälle in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Fallzahlen in [Russland]{"entity": "country_code", "value": "RU"}.
+- Wie viele Fälle gibt es in [China]{"entity": "country_code", "value": "CN"}
+- Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"}
+- Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}. 
 
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
