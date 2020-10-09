@@ -1980,14 +1980,14 @@
 - fallzahlen [Deutschland]{"entity": "country_code", "value": "DE"}
 - Wie viele Leute sind bereits gestorgen?
 - Wie viele Leute sind bereits gestorben?
-- Wieviel Infizierte gibt es in [Schweden]{"entity": "country_code", "value": "DE"}
+- Wieviel Infizierte gibt es in [Schweden]{"entity": "country_code", "value": "SE"}
 - Wie viele Menschen infizieren sich täglich neu in [Deutschland]{"entity": "country_code", "value": "DE"}?
 - wie viele leute sie betroffen
 - Wie hoch ist die Zahl der Neuinfektionen in [Deutschland]{"entity": "country_code", "value": "DE"} zurzeit?
 - Wie viele Menschen infizieren sich täglich in [Deutschland]{"entity": "country_code", "value": "DE"}?
 - Wie viele Fälle gibt es in [Frankfreich]{"entity": "country_code", "value": "FR"}
-- Fälle in [Berlin]{"entity": "country_code", "value": "Berlin"}
-- Infektionen in [Berlin]{"entity": "country_code", "value": "Berlin"}
+- Fälle in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Infektionen in [Berlin]{"entity": "country_state", "value": "Berlin"}
 - Infektionen in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Wie viele sind erkrankt
 - gibt es irgendwelche pauschalen zahlen
@@ -2552,10 +2552,10 @@
 - kuhweg 19 Deutschland
 - Wie ist die aktuelle Lage in [Hessen]{"entity": "country_district", "value": "Hessen"}
 - Coronavirus in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
-- Corona in [Sachsen]{"entity": "country_district", "value": "Hamburg"}
-- Covid 19 in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Wie sieht es zur Zeit in [Mecklenburg]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"} aus
-- Wie ist die Lage in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Corona in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
+- Covid 19 in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Wie sieht es zur Zeit in [Mecklenburg]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"} aus
+- Wie ist die Lage in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Q19 Deutschland
 - movit 19 Deutschland
 - Corona in Sachsen-Anhalt
@@ -2566,7 +2566,7 @@
 - cookit 19 Deutschland
 - Corona in Brandenburg
 - Corona in Bremen
-- Corona in [Bremen]{"entity": "country_district", "value": "Bremen"}
+- Corona in [Bremen]{"entity": "country_state", "value": "Bremen"}
 - Derzeitige Situation Deutschlands
 - Corona in Mecklenburg-Vorpommern
 - Corona in Mecklenburg Vorpommern
@@ -2627,7 +2627,7 @@
 - Coronavirus in Nordrhein-Westfalen
 - Coronavirus in Rheinland-Pfalz
 - Coronavirus in Mecklenburg-Vorpommern
-- Coronavirus in [Bayern]{"entity": "country_district", "value": "Bayern"}
+- Coronavirus in [Bayern]{"entity": "country_state", "value": "Bayern"}
 - Coronavirus in Bremen
 - Coronavirus in Brandenburg
 - Coronavirus in Berlin
