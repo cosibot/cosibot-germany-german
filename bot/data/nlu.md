@@ -1969,36 +1969,36 @@
 - Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
 - Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
 - Wieviele Menschen sind am Coronavirus erkrankt?
-- wie viele Menschen sind in Deutschland krank
-- wie viele Menschen sind in Deutschland betroffen
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} krank
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} betroffen
 - wie viele leute sind betroffen
-- Wieviel Kranke gibt es in Deutschland
-- wie sind die fallzahlen in deutschland?
+- Wieviel Kranke gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- wie sind die fallzahlen in [Deutschland]{"entity": "country_code", "value": "DE"}?
 - fallzahlen
 - Statistik zu todesfällen
-- Gibt es eine Statistik zu Todesfällen in Deutschland
-- fallzahlen deutschland
+- Gibt es eine Statistik zu Todesfällen in [Deutschland]{"entity": "country_code", "value": "DE"}
+- fallzahlen [Deutschland]{"entity": "country_code", "value": "DE"}
 - Wie viele Leute sind bereits gestorgen?
 - Wie viele Leute sind bereits gestorben?
-- Wieviel Infizierte gibt es in Deutschland
-- Wie viele Menschen infizieren sich täglich neu in Deutschland?
+- Wieviel Infizierte gibt es in [Schweden]{"entity": "country_code", "value": "DE"}
+- Wie viele Menschen infizieren sich täglich neu in [Deutschland]{"entity": "country_code", "value": "DE"}?
 - wie viele leute sie betroffen
-- Wie hoch ist die Zahl der Neuinfektionen in Deutschland zurzeit?
-- Wie viele Menschen infizieren sich täglich in Deutschland?
-- Wie viele Fälle gibt es in Deutschland
-- Fälle in Berlin
-- Infektionen in Berlin
+- Wie hoch ist die Zahl der Neuinfektionen in [Deutschland]{"entity": "country_code", "value": "DE"} zurzeit?
+- Wie viele Menschen infizieren sich täglich in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Wie viele Fälle gibt es in [Frankfreich]{"entity": "country_code", "value": "FR"}
+- Fälle in [Berlin]{"entity": "country_code", "value": "Berlin"}
+- Infektionen in [Berlin]{"entity": "country_code", "value": "Berlin"}
 - Infektionen in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Wie viele sind erkrankt
 - gibt es irgendwelche pauschalen zahlen
 - Wieviele Fälle gibt es momentan
-- wieviele menschen sind in Deutschland bereits erkrkankt
+- wieviele menschen sind in [Portugal]{"entity": "country_code", "value": "PT"} bereits erkrkankt
 - wie viele meschen haben coronavirus
 - wie viele meschen haben corona
 - Zahlen infizierte Menschen weltweit
 - Statistiken
 - Nenne mir ein paar Zahlen
-- Wie viele Menschen in Deutschland stecken sich täglich an?
+- Wie viele Menschen in [Brasilien]{"entity": "country_code", "value": "BR"} stecken sich täglich an?
 - Wie viele alte Menschen stecken sich täglich an?
 - Wie viele junge Menschen stecken sich an?
 - In welchem Bundesland gibt es am meisten Infizierte?
@@ -11858,8 +11858,8 @@
 - [saint vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
-- [sweden]{"entity": "country_code", "value": "SE"}
-- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
 - [Sverige]{"entity": "country_code", "value": "SE"}
 - [guatemala]{"entity": "country_code", "value": "GT"}
 - [Guatemala]{"entity": "country_code", "value": "GT"}
