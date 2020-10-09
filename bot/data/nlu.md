@@ -2115,7 +2115,9 @@
 - Fallzahlen in [Russland]{"entity": "country_code", "value": "RU"}.
 - Wie viele Fälle gibt es in [China]{"entity": "country_code", "value": "CN"}
 - Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"}
-- Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}. 
+- Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}.
+- wie viele Falle gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- infizierte in [Deutschland]{"entity": "country_code", "value": "DE"}
 
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
