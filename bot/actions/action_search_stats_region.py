@@ -9,7 +9,7 @@ import requests
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, FollowupAction
 
 
 class DecsisAPI:
@@ -82,7 +82,7 @@ class ActionSearchStatsRegion(Action):
 
         entity = next((e for e in tracker.latest_message["entities"] if
                        e['entity'] == 'country_district' or e['entity'] == 'country_state'), None)
-        if entity == "country_state":
+        if entity['entity'] == "country_state":
             description = "state"
         else:
             description = "district"
@@ -96,14 +96,17 @@ class ActionSearchStatsRegion(Action):
         if stats is None:
             print("3 None")
             return [SlotSet('region_search_successful', 'not-ok'),
-                    SlotSet('country_code', 'DE'), ]
+                    SlotSet('country_code', 'DE'),
+                    FollowupAction('utter_region_nodata'), ]
         elif stats['code'] == 200 and not stats['has_data']:
             print("1", stats['has_data'])
             return [SlotSet('region_search_successful', 'empty'),
                     SlotSet('region', region),
-                    SlotSet('country_code', 'DE'), ]
+                    SlotSet('country_code', 'DE'),
+                    FollowupAction('utter_region_nodata'), ]
         elif stats['code'] == 200 and stats['has_data']:
             print("2", stats['has_data'])
             return [SlotSet('region_search_successful', 'ok'),
                     SlotSet('region', region),
-                    SlotSet('region_confirmed_accum', int(stats.get('confirmed_accum', None))), ]
+                    SlotSet('region_confirmed_accum', int(stats.get('confirmed_accum', None))),
+                    FollowupAction('utter_covid_current_statistics_region'), ]
