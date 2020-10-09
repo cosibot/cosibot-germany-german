@@ -1038,7 +1038,7 @@ Generic requests -->
 * covid_situation_infected_critical OR covid_situation_infected
   - utter_want_to_add_country
 * vocative_no
-  - utter_further_questions
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_without_country3
 * covid_situation_infected_critical OR covid_situation_infected
