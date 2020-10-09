@@ -2548,12 +2548,12 @@
 - qubeat 19 Deutschland
 - cupid 19 Deutschland
 - kuhweg 19 Deutschland
-- Wie ist die aktuelle Lage in @cities
-- Coronavirus in @cities
-- Corona in @cities
-- Covid 19 in @cities
-- Wie sieht es zur Zeit in @cities aus
-- Wie ist die Lage in @cities
+- Wie ist die aktuelle Lage in [Hessen]{"entity": "country_district", "value": "Hessen"}
+- Coronavirus in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
+- Corona in [Sachsen]{"entity": "country_district", "value": "Hamburg"}
+- Covid 19 in [Berlin]{"entity": "country_district", "value": "Berlin"}
+- Wie sieht es zur Zeit in [Mecklenburg]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"} aus
+- Wie ist die Lage in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Q19 Deutschland
 - movit 19 Deutschland
 - Corona in Sachsen-Anhalt
@@ -2564,7 +2564,7 @@
 - cookit 19 Deutschland
 - Corona in Brandenburg
 - Corona in Bremen
-- Corona in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Corona in [Bremen]{"entity": "country_district", "value": "Bremen"}
 - Derzeitige Situation Deutschlands
 - Corona in Mecklenburg-Vorpommern
 - Corona in Mecklenburg Vorpommern
@@ -2625,7 +2625,7 @@
 - Coronavirus in Nordrhein-Westfalen
 - Coronavirus in Rheinland-Pfalz
 - Coronavirus in Mecklenburg-Vorpommern
-- Coronavirus in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Coronavirus in [Bayern]{"entity": "country_district", "value": "Bayern"}
 - Coronavirus in Bremen
 - Coronavirus in Brandenburg
 - Coronavirus in Berlin
