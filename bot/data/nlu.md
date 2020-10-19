@@ -180,176 +180,6 @@
 - Zahlen
 - Wie viele Menschen sind infiziert
 
-## intent:covid_current_statistics
-- Wo finde ich aktualisierte Statistiken
-- Gibt es Statistiken
-- Wie viele sind am Virus erkrankt?
-- Gibt es offizielle Zahlen zu den Erkrankungen weltweit?
-- cookit 19 aktuelle Zahlen
-- Q19 aktuelle Statistiken
-- movit 19 aktuelle Zahlen
-- Kubik 19 aktuelle Statistiken
-- COBIT 19 aktuelle Zahlen
-- Hobbit 19 aktuelle Statistiken
-- huvit 19 aktuelle Zahlen
-- kovit 19 aktuelle Statistiken
-- Covid 19 aktuelle Zahlen
-- kuhweg 19 aktuelle Statistiken
-- Wie viele Erkrankungen gibt es weltweit?
-- Hast du Zahlen?
-- Wo gibt es aktualisierte Zahlen
-- Aktuelle Zahl aller Infizierten
-- Anzahl aller infizierten
-- Aktuelle Nummern
-- Wo finde ich aktuelle Statistiken?
-- Wo finde ich aktuelle Zahlen?
-- Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
-- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "Baden-Württemberg"}
-- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}
-- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}
-- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "Sachsen"}
-- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "Saarland"}
-- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}
-- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
-- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "Niedersachsen"}
-- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}
-- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"}
-- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "Bayern"}
-- Infizierte in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
-- Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
-- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
-- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
-- Infizierte in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
-- Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
-- Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
-- Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
-- Wieviele Menschen sind am Coronavirus erkrankt?
-- wie viele Menschen sind in Deutschland krank
-- wie viele Menschen sind in Deutschland betroffen
-- wie viele leute sind betroffen
-- Wieviel Kranke gibt es in Deutschland
-- wie sind die fallzahlen in deutschland?
-- fallzahlen
-- Statistik zu todesfällen
-- Gibt es eine Statistik zu Todesfällen in Deutschland
-- fallzahlen deutschland
-- Wie viele Leute sind bereits gestorgen?
-- Wie viele Leute sind bereits gestorben?
-- Wieviel Infizierte gibt es in Deutschland
-- Wie viele Menschen infizieren sich täglich neu in Deutschland?
-- wie viele leute sie betroffen
-- Wie hoch ist die Zahl der Neuinfektionen in Deutschland zurzeit?
-- Wie viele Menschen infizieren sich täglich in Deutschland?
-- Wie viele Fälle gibt es in Deutschland
-- Fälle in Berlin
-- Infektionen in Berlin
-- Infektionen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele sind erkrankt
-- gibt es irgendwelche pauschalen zahlen
-- Wieviele Fälle gibt es momentan
-- wieviele menschen sind in Deutschland bereits erkrkankt
-- wie viele meschen haben coronavirus
-- wie viele meschen haben corona
-- Zahlen infizierte Menschen weltweit
-- Statistiken
-- Nenne mir ein paar Zahlen
-- Wie viele Menschen in Deutschland stecken sich täglich an?
-- Wie viele alte Menschen stecken sich täglich an?
-- Wie viele junge Menschen stecken sich an?
-- In welchem Bundesland gibt es am meisten Infizierte?
-- In welchem Bundesland gibt die meisten Infizierten?
-- Stecken sich mehr Frauen oder mehr Männer an?
-- In welchem Bundesland gibt die meisten Fälle?
-- Stecken sich Frauen und Männer gleich oft an?
-- Trifft es mehr Frauen oder Männer?
-- Gibt es mehr weibliche oder männliche Infizierte?
-- Wie viele Fälle gibt es in jedem Bundesland pro Tag?
-- Fälle nach Altersgruppe und Geschlecht
-- COVID-19 Fälle nach Altersgruppe und Geschlecht
-- Covid Todesfälle
-- Gesamtzahl der Infizierten pro Bundesland
-- Statistiken pro Landkreis
-- Statistiken pro Bundesland
-- Zahl der Infizierten im Landkreis
-- Wie viele Opfer
-- Wie viele Menschen sind in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"} infiziert
-- Fälle in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Todesfälle in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
-- Fälle in [England]{"entity": "country_code", "value": "GB"}
-- Krankheitsfälle in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}?
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}?
-- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_district", "value": "Saarland"}?
-- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_district", "value": "Sachsen"}?
-- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}?
-- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}?
-- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_district", "value": "Thüringen"}?
-- Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
-- Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
-- Wie viel infiziert
-- Wie viele Infizierte gibt es
-- Wie viele Infizierte
-- Wieviele Fälle gibt es momentan?
-- Infizierte Personen weltweit
-- Zahlen infizierter Personen weltweit
-- Sag mir, wie viele Menschen sich weltweit mit dem Virus infiziert haben
-- Sind viele Personen infiziert?
-- Wieviele Menschen haben sich weltweit bisher angesteckt?
-- Weißt du wie viele Erkrankte es weltweit gibt?
-- Gibt es offizielle Zahlen der Erkrankungen weltweit?
-- Weißt du wie viele Erkrankte es ingesamt gibt?
-- Ich wüsste gern die Zahl der Erkrankten weltweit
-- Sag mir wie viele Erkrankte es weltweit gibt
-- Wie viele Personen sind am Coronavirus weltweit erkrankt?
-- Erzähle mir, wie viele Menschen insgesamt bisher am Virus erkrankt sind.
-- Wie viele haben sich insgesamt auf der Welt angesteckt?
-- Wieviele haben sich bisher weltweit angesteckt?
-- Wieviele haben den Coronavirus
-- Wie viele leiden unter dem Virus?
-- Wie viele haben sich weltweit angesteckt
-- Wie viele infizierte gibt es weltweit
-- Wie viele Personen sind mit dem Coronavirus weltweit infiziert
-- Gibt es Zahlen zu den Infizierten?
-- Corona Zahlen
-- Coronavirus Zahlen
-- Corona Statistk
-- Aktuelle Zahlen
-- cupid 19 aktuelle Zahlen
-- qubeat 19 aktuelle Statistiken
-- wie schauen die zahlen in deutschland aus
-- wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
-- Anzahl Tote
-- Fälle im Landkreis
-- Kurve von Corona in
-- Wie viele Menschen sind am Virus gestorben
-- Wie viele Tote
-- Wie hoch ist die Zahl der Toten in Deutschland
-- Wie hoch ist die Zahl der Infizierten
-- Wie hoch ist die Zahl der infizierten in Deutschland?
-- Wann Sind in Deutschland 100000 Menschen erkrankt
-- Gibt es Zahlen?
-- Nenne mir Zahlen
-- Wie viel Menschen sind tot
-- Wie fuel Menschen sind tot
-- nimm mir ein paar zahlen
-- Wie hoch ist die Anzahl der aktuell Infizierten?
-- Wie viele Menschen weltweit sind mit dem Virus infiziert
-- Wie viele Menschen sind infiziert
-- Welches Land hat die niedrigste Todesrate?
-- Wie viele Infizierte gibt es derzeit in Deutschland?
-- Wie viele Opfer gibt es
-
 ## intent:covid_dangerous
 - Ist das Virus gefährlich?
 - Ist der Virus gefährlich?
@@ -1891,6 +1721,186 @@
 - Steigen die Zahlen im Sommer?
 - Wird die Aktivität von SARS-CoV-2 saisonal beeinflusst?
 
+## intent:covid_procedure_after_infection
+- Was passiert bei einem Verdachtsfall auf den Virus?
+- Was passiert bei einem positiven Resultat?
+- Was passiert wenn ich positiv auf die Infektion getestet wurde?
+- Was passiert, wenn ich infiziert bin?
+- was passiert wenn ich positiv auf coronavirus getestet bin
+- Meine Freundin hat Hobbit 19, was passiert jetzt?
+- Meine Freundin hat Kubik 19, was passiert jetzt?
+- Wie wird bei einem Verdachtsfall vorgegangen?
+- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
+- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
+- Meine Freundin hat Q19, was passiert jetzt?
+- Meine Freundin hat cookit 19, was passiert jetzt?
+- Meine Freundin hat qubeat 19, was passiert jetzt?
+- Meine Freundin hat cupid 19, was passiert jetzt?
+- Meine Freundin hat kuhweg 19, was passiert jetzt?
+- Was passiert bei einem positiven Test auf den Coronavirus?
+- Was passiert, wenn ich positiv auf den Virus getestet wurde?
+- Meine Freundin hat Covid 19, was passiert jetzt?
+- Was passiert wenn die Resultate positiv sind?
+- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
+- Was passiert bei einem Verdachtsfall auf den Coronavirus?
+- Meine Freundin hat kovit 19, was passiert jetzt?
+- Meine Freundin hat movit 19, was passiert jetzt?
+- Meine Freundin hat COBIT 19, was passiert jetzt?
+- Meine Freundin hat huvit 19, was passiert jetzt?
+- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
+- Vorgehensweise Infektion
+- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
+- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
+- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
+- Was geschieht wenn der Test positiv ist?
+- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
+- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
+- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
+- Ich bin infiziert, was passiert jetzt?
+
+## intent:covid_unknown_cases
+- Die Rolle der Dunkelziffer bei Covid-19
+- Dunkelziffern
+- Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Erkrankten-Dunkelziffer
+- Was kannst du mir zur Dunkelziffer sagen
+- Was sagt die Dunkelziffer
+- Dunkelziffer Coronavirus
+- Schätzung der Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Wie hoch ist die Dunkelziffer
+
+## intent:mask_protection
+- Warum sollen wir jetzt Mundschutz tragen?
+- Warum Masken tragen?
+- Warum soll ich eine Maske tragen?
+- Was nützt es, Masken zu tragen?
+- Helfen Atemschutzmasken gegen qubeat 19?
+- Helfen Atemschutzmasken gegen cupid 19?
+- Helfen Atemschutzmasken gegen kuhweg 19?
+- Helfen Atemschutzmasken gegen Hobbit 19?
+- Helfen Atemschutzmasken gegen huvit 19?
+- Helfen Atemschutzmasken gegen COBIT 19?
+- Mundschutz Maske
+- Mundschutzmasken
+- Mundschutz
+- Macht eine Atemschutz Maske Sinn?
+- Helfen Atemschutzmasken gegen movit 19?
+- Helfen Atemschutzmasken gegen kovit 19?
+- Helfen Atemschutzmasken gegen Kubik 19?
+- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
+- Ist es sinnvoll, einen Mundschutz zu tragen?
+- Mundschutzmaske
+- Mundschutz Masken
+- Verhindert ein Mundschutz eine Ansteckung?
+- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
+- Macht es Sinn, den Mund Nasen Schutz zu tragen?
+- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
+- Verhindert der Mundschutz, dass ich mich anstecke?
+- Helfen Atemschutzmasken gegen Sars-CoV-2?
+- Helfen Atemschutz Masken gegen eine Ansteckung?
+- Helfen Atemschutzmasken gegen Covid 19?
+- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
+- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
+- Mundschutzmaske gegen Coronavirus-Epidemie?
+- Schützen Atemschutzmasken vor Sars-CoV-2?
+- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
+- Was bringt ein Mundschutz?
+- Mundschutz Maske gegen Coronavirus
+- Mundschutz-Masken: Was hilft gegen Viren?
+- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
+- Sollte ich eine Maske tragen, um mich selbst zu schützen?
+- Hilft der Maskenschutz gegen eine Ansteckung?
+- Schützt mich die Maske vor einer Ansteckung?
+- Verhindern die Masken eine Ansteckung?
+- Helfen Atemschutzmasken gegen Q19?
+- Helfen Atemschutzmasken gegen cookit 19?
+- Schützt mich eine Stoffmaske?
+- Kann ich mit Schutzmasken andere schützen?
+- Kann ich mich mit einer Maske vor Ansteckung schützen?
+- Kann ich mich mit Masken schützen?
+- Was bringt die Maske?
+- Was ist der Nutzen der Mund Bedeckung
+- Warum Mund Bedeckung tragen
+- Warum sollen wir Mund Nasen Schutz tragen?
+- Warum Mund Nasen Schutz tragen?
+- Was hilft es, einen Mundschutz zu tragen?
+
+## intent:quarantine_how_it_works
+- Wie soll ich mich unter Quarantäne verhalten?
+- Was ist Heimquarantäne und wie funktioniert sie?
+- Wie läuft eine Heimquarantäne ab?
+- Was muss ich beachten, wenn ich in Quarantäne bin?
+- Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?
+- Regeln der Ausgangssperre
+- Was muss ich beachten, wenn ich zuhause bleibe?
+- Tipps bei häuslicher Quarantäne
+- Wie läuft das in der Quarantäne ab?
+- Was ist mit Körperkontakt in Quarantäne?
+- Geht noch Sex in der Quarantäne?
+- Geht noch küssen in Quarantäne?
+- Welche Regeln muss man bei der Quarantäne beachten
+- Wie funktioniert die Quarantäne
+- Was darf man in Quarantäne und was nicht
+- Was ist bei einer Ausgangssperre zu beachten
+- Wie funktioniert die Ausgangssperre
+- Was ist bei einer Ausgangssperre zu tun?
+- Was ist bei häuslicher Quarantäne zu beachten?
+- Was gibt es bei der Quarantäne alles zu beachten?
+- Was tun, wenn man zuhause bleiben muss?
+- Wie läuft die Quarantäne ab?
+- Wie funktioniert die Heimquarantäne?
+- Quarantäne - Verhaltensregeln
+- Verhaltensregeln in Heimquarantäne
+- Ablauf häusliche Quarantäne
+- Wie soll ich mich bei einer Quarantäne verhalten?
+- Was soll ich bei einer Quarantäne beachten?
+- Wie sieht die Quarantäne aus?
+- Wie funkioniert eine Quarantäne?
+- Corona wie funktioniert die Quarantäne?
+- Worauf muss ich bei der Ausgangs Sperre achten?
+- Was ist bei Ausgangssperre zu beachten?
+- Und wie soll man denn zuhause behandelt werden?
+- Was passiert bei häuslicher Quarantäne?
+- Erkläre mir, wie so eine Quarantäne abläuft.
+- Wie funktioniert das mit der Quarantäne?
+- Was muss ich beachten wenn ich in Quarantäne geschickt wurde?
+- Was muss ich beachten wenn ich zuhause bleiben muss?
+- Was muss ich machen wenn ich in Quarantäne bin?
+- Wie verhält man sich unter Quarantäne?
+- Wie funktioniert die häusliche Quarantäne beim Coronavirus?
+- Wie funktioniert die häusliche Quarantäne?
+- Wie geht das mit der Quarantäne?
+- Wie verhalte ich mich in häuslicher Quarantäne?
+- Ablauf und Dauer der häuslichen Quarantäne
+ 
+## intent:test_how
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Corona Test
+- Wann bekommt man Ergebnisse bei dem Test
+- Wann sind die Ergebnisse des Tests da
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert ein Corona-Test?
+- Wie wird der Test durchgeführt?
+- Wie läuft der Test ab
+- Wie lange dauert die Testzeit
+- Testzeit
+- Wie lange dauert der Test
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie funktioniert der Coronavirus Test
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert der Test auf Sars-CoV-2
+- Corona Test Wie funktioniert der Test
+
 ## intent:covid_situation_infected
 - Wie viele Infizierte gibt es in [Neuseeland]{"entity": "country_code", "value": "NZ"}?
 - Aktive Fälle in [Kolumbien]{"entity": "country_code", "value": "CO"}.
@@ -1908,6 +1918,206 @@
 - Wie viele Menschen sind in [Vereinigte Staaten]{"entity": "country_code", "value": "US"} infiziert?
 - Wie viele aktive Fälle von Covid sind in [Brasilien]{"entity": "country_code", "value": "BR"}?
 - Wie viele aktive Fälle sind in [Südafrike]{"entity": "country_code", "value": "ZA"}?
+- Wo finde ich aktualisierte Statistiken
+- Gibt es Statistiken
+- Wie viele sind am Virus erkrankt?
+- Gibt es offizielle Zahlen zu den Erkrankungen weltweit?
+- cookit 19 aktuelle Zahlen
+- Q19 aktuelle Statistiken
+- movit 19 aktuelle Zahlen
+- Kubik 19 aktuelle Statistiken
+- COBIT 19 aktuelle Zahlen
+- Hobbit 19 aktuelle Statistiken
+- huvit 19 aktuelle Zahlen
+- kovit 19 aktuelle Statistiken
+- Covid 19 aktuelle Zahlen
+- kuhweg 19 aktuelle Statistiken
+- Wie viele Erkrankungen gibt es weltweit?
+- Hast du Zahlen?
+- Wo gibt es aktualisierte Zahlen
+- Aktuelle Zahl aller Infizierten
+- Anzahl aller infizierten
+- Aktuelle Nummern
+- Wo finde ich aktuelle Statistiken?
+- Wo finde ich aktuelle Zahlen?
+- Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
+- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_state", "value": "Baden-Württemberg"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_state", "value": "Saarland"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_state", "value": "Niedersachsen"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Wie viele Fälle hat [Bayern]{"entity": "country_state", "value": "Bayern"}
+- Infizierte in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
+- Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
+- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
+- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
+- Infizierte in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
+- Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
+- Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
+- Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
+- Wieviele Menschen sind am Coronavirus erkrankt?
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} krank
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} betroffen
+- wie viele leute sind betroffen
+- Wieviel Kranke gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- wie sind die fallzahlen in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- fallzahlen
+- Statistik zu todesfällen
+- Gibt es eine Statistik zu Todesfällen in [Deutschland]{"entity": "country_code", "value": "DE"}
+- fallzahlen [Deutschland]{"entity": "country_code", "value": "DE"}
+- Wie viele Leute sind bereits gestorgen?
+- Wie viele Leute sind bereits gestorben?
+- Wieviel Infizierte gibt es in [Schweden]{"entity": "country_code", "value": "SE"}
+- Wie viele Menschen infizieren sich täglich neu in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- wie viele leute sie betroffen
+- Wie hoch ist die Zahl der Neuinfektionen in [Deutschland]{"entity": "country_code", "value": "DE"} zurzeit?
+- Wie viele Menschen infizieren sich täglich in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Wie viele Fälle gibt es in [Frankfreich]{"entity": "country_code", "value": "FR"}
+- Fälle in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Infektionen in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Infektionen in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele sind erkrankt
+- gibt es irgendwelche pauschalen zahlen
+- Wieviele Fälle gibt es momentan
+- wieviele menschen sind in [Portugal]{"entity": "country_code", "value": "PT"} bereits erkrkankt
+- wie viele meschen haben coronavirus
+- wie viele meschen haben corona
+- Zahlen infizierte Menschen weltweit
+- Statistiken
+- Nenne mir ein paar Zahlen
+- Wie viele Menschen in [Brasilien]{"entity": "country_code", "value": "BR"} stecken sich täglich an?
+- Wie viele alte Menschen stecken sich täglich an?
+- Wie viele junge Menschen stecken sich an?
+- In welchem Bundesland gibt es am meisten Infizierte?
+- In welchem Bundesland gibt die meisten Infizierten?
+- Stecken sich mehr Frauen oder mehr Männer an?
+- In welchem Bundesland gibt die meisten Fälle?
+- Stecken sich Frauen und Männer gleich oft an?
+- Trifft es mehr Frauen oder Männer?
+- Gibt es mehr weibliche oder männliche Infizierte?
+- Wie viele Fälle gibt es in jedem Bundesland pro Tag?
+- Fälle nach Altersgruppe und Geschlecht
+- COVID-19 Fälle nach Altersgruppe und Geschlecht
+- Covid Todesfälle
+- Gesamtzahl der Infizierten pro Bundesland
+- Statistiken pro Landkreis
+- Statistiken pro Bundesland
+- Zahl der Infizierten im Landkreis
+- Wie viele Opfer
+- Wie viele Menschen sind in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"} infiziert
+- Fälle in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Todesfälle in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
+- Fälle in [England]{"entity": "country_code", "value": "GB"}
+- Krankheitsfälle in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}?
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}?
+- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_state", "value": "Saarland"}?
+- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_state", "value": "Sachsen"}?
+- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}?
+- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}?
+- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_state", "value": "Thüringen"}?
+- Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
+- Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
+- Wie viel infiziert
+- Wie viele Infizierte gibt es
+- Wie viele Infizierte
+- Wieviele Fälle gibt es momentan?
+- Infizierte Personen weltweit
+- Zahlen infizierter Personen weltweit
+- Sag mir, wie viele Menschen sich weltweit mit dem Virus infiziert haben
+- Sind viele Personen infiziert?
+- Wieviele Menschen haben sich weltweit bisher angesteckt?
+- Weißt du wie viele Erkrankte es weltweit gibt?
+- Gibt es offizielle Zahlen der Erkrankungen weltweit?
+- Weißt du wie viele Erkrankte es ingesamt gibt?
+- Ich wüsste gern die Zahl der Erkrankten weltweit
+- Sag mir wie viele Erkrankte es weltweit gibt
+- Wie viele Personen sind am Coronavirus weltweit erkrankt?
+- Erzähle mir, wie viele Menschen insgesamt bisher am Virus erkrankt sind.
+- Wie viele haben sich insgesamt auf der Welt angesteckt?
+- Wieviele haben sich bisher weltweit angesteckt?
+- Wieviele haben den Coronavirus
+- Wie viele leiden unter dem Virus?
+- Wie viele haben sich weltweit angesteckt
+- Wie viele infizierte gibt es weltweit
+- Wie viele Personen sind mit dem Coronavirus weltweit infiziert
+- Gibt es Zahlen zu den Infizierten?
+- Corona Zahlen
+- Coronavirus Zahlen
+- Corona Statistk
+- Aktuelle Zahlen
+- cupid 19 aktuelle Zahlen
+- qubeat 19 aktuelle Statistiken
+- wie schauen die zahlen in [deutschland]{"entity": "country_code", "value": "DE"} aus
+- wie schauen die zahlen in [Australien]{"entity": "country_code", "value": "AU"} aus
+- wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
+- Anzahl Tote
+- Fälle im Landkreis
+- Kurve von Corona in [Portugal]{"entity": "country_code", "value": "PT"} aus
+- Wie viele Menschen sind am Virus gestorben
+- Wie viele Tote
+- Wie hoch ist die Zahl der Toten in [Deutschland]{"entity": "country_code", "value": "DE"} aus
+- Wie hoch ist die Zahl der Infizierten
+- Wie hoch ist die Zahl der infizierten in [Deutschland]{"entity": "country_code", "value": "DE"} aus?
+- Wann Sind in [Deutschland]{"entity": "country_code", "value": "DE"} aus 100000 Menschen erkrankt
+- Gibt es Zahlen?
+- Nenne mir Zahlen
+- Wie viel Menschen sind tot
+- Wie fuel Menschen sind tot
+- nimm mir ein paar zahlen
+- Wie hoch ist die Anzahl der aktuell Infizierten?
+- Wie viele Menschen weltweit sind mit dem Virus infiziert
+- Wie viele Menschen sind infiziert
+- Welches Land hat die niedrigste Todesrate?
+- Wie viele Infizierte gibt es derzeit in [Deutschland]{"entity": "country_code", "value": "DE"} aus ?
+- Wie viele Opfer gibt es
+- Tote in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Argentinien]{"entity": "country_code", "value": "AR"}
+- Anzahl der Toten in [Brasilien]{"entity": "country_code", "value": "BR"}
+- Infizierte Personen in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} infiziert?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben
+- Infizierte Personen in [Jordanien]{"entity": "country_code", "value": "JO"}.
+- Wie viele Tote in [Tschechien]{"entity": "country_code", "value": "CZ"}?
+- Wie viele Kranke in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele gestorben in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele sind in [Peru]{"entity": "country_code", "value": "PE"} gestorben?
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} gestorben?
+- Kranke in [England]{"entity": "country_code", "value": "GB"}.
+- Todeszahlen in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Großbritannien]{"entity": "country_code", "value": "GB"}.
+- Infizierte in [Griechenland]{"entity": "country_code", "value": "GR"}.
+- Personen infiziert in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Covid Fälle in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben?
+- Opfer in [Südafrika]{"entity": "country_code", "value": "ZA"}.
+- Wie viele Opfer in [Türkei]{"entity": "country_code", "value": "TR"}?
+- Wie viele Personen in [Brasilien]{"entity": "country_code", "value": "BR"} tot?
+- Tote in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele Covid-Fälle gibt es in [Australien]{"entity": "country_code", "value": "AU"}?
+- Fälle in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Fallzahlen in [Russland]{"entity": "country_code", "value": "RU"}.
+- Wie viele Fälle gibt es in [China]{"entity": "country_code", "value": "CN"}
+- Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"}
+- Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}.
+- wie viele Falle gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- infizierte in [Deutschland]{"entity": "country_code", "value": "DE"}
 
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
@@ -2245,6 +2455,11 @@
 - Wie ist die Situation weltweit
 - Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
 - Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
+- Wie ist die Lage in [England]{"entity": "country_code", "value": "GB"}
+- Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Situation in [Spanien]{"entity": "country_code", "value": "ES"}
+- Derzeitige Lage in [Italien]{"entity": "country_code", "value": "IT"}
 
 ## intent:economy_consequences
 - Welche wirtschaftlichen Konsequenzen wird das haben
@@ -2335,12 +2550,12 @@
 - qubeat 19 Deutschland
 - cupid 19 Deutschland
 - kuhweg 19 Deutschland
-- Wie ist die aktuelle Lage in @cities
-- Coronavirus in @cities
-- Corona in @cities
-- Covid 19 in @cities
-- Wie sieht es zur Zeit in @cities aus
-- Wie ist die Lage in @cities
+- Wie ist die aktuelle Lage in [Hessen]{"entity": "country_district", "value": "Hessen"}
+- Coronavirus in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
+- Corona in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
+- Covid 19 in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Wie sieht es zur Zeit in [Mecklenburg]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"} aus
+- Wie ist die Lage in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
 - Q19 Deutschland
 - movit 19 Deutschland
 - Corona in Sachsen-Anhalt
@@ -2351,7 +2566,7 @@
 - cookit 19 Deutschland
 - Corona in Brandenburg
 - Corona in Bremen
-- Corona in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Corona in [Bremen]{"entity": "country_state", "value": "Bremen"}
 - Derzeitige Situation Deutschlands
 - Corona in Mecklenburg-Vorpommern
 - Corona in Mecklenburg Vorpommern
@@ -2412,7 +2627,7 @@
 - Coronavirus in Nordrhein-Westfalen
 - Coronavirus in Rheinland-Pfalz
 - Coronavirus in Mecklenburg-Vorpommern
-- Coronavirus in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Coronavirus in [Bayern]{"entity": "country_state", "value": "Bayern"}
 - Coronavirus in Bremen
 - Coronavirus in Brandenburg
 - Coronavirus in Berlin
@@ -2858,7 +3073,7 @@
 - Gibt es Sperre in Baden-Württemberg
 - Gibt es Ausgangs Sperre in Baden-Württemberg
 - Gibt es jetzt Ausgangssperre in Berlin?
-- In [Berlin]{"entity": "country_district", "value": "Berlin"} ist eine Ausgeheinschränkung
+- In [Berlin]{"entity": "country_state", "value": "Berlin"} ist eine Ausgeheinschränkung
 - Ausgngssperre in Berlin
 - Ausgangssperre in Berlin
 - Was sind die Maßnahmen in Berlin
@@ -11643,8 +11858,8 @@
 - [saint vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
-- [sweden]{"entity": "country_code", "value": "SE"}
-- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
 - [Sverige]{"entity": "country_code", "value": "SE"}
 - [guatemala]{"entity": "country_code", "value": "GT"}
 - [Guatemala]{"entity": "country_code", "value": "GT"}
@@ -11810,7 +12025,7 @@
 - [European continet]{"entity": "world_region", "value": "Europe"}
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asien]{"entity": "world_region", "value": "Asia"}
-- [Afrika]{"entity": "world_region", "value": "Africa"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
 - [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
@@ -14226,3 +14441,1388 @@
 - Galadriel
 - Sauron
 - Gollum
+
+## synonym: Rostock
+- rostock
+
+## synonym: Rotenburg (Wümme)
+- rotenburg (wümme)
+- Rotenburg
+- Rotenburg (Wumme)
+
+## synonym: Roth
+- roth
+
+## synonym: Rottal-Inn
+- rottal-inn
+- Rottal Inn
+
+## synonym: Rottweil
+- rottweil
+
+## synonym: Saale-Holzland-Kreis
+- saale-holzland-kreis
+- Saale Holzland Kreis
+
+## synonym: Saale-Orla-Kreis
+- saale-orla-kreis
+- Saale Orla Kreis
+
+## synonym: Saalekreis
+- saalekreis
+
+## synonym: Saalfeld-Rudolstadt
+- saalfeld-rudolstadt
+- Saalfeld Rudolstadt
+
+## synonym: Saarlouis
+- saarlouis
+
+## synonym: Saarpfalz-Kreis
+- saarpfalz-kreis
+- Saarpfalz Kreis
+
+## synonym: Sächsische Schweiz-Osterzgebirge
+- sächsische schweiz-osterzgebirge
+- Sächsische Schweiz Osterzgebirge
+- Sachsische Schweiz-Osterzgebirge
+
+## synonym: Salzgitter
+- salzgitter
+
+## synonym: Salzlandkreis
+- salzlandkreis
+
+## synonym: Schaumburg
+- schaumburg
+
+## synonym: Schleswig-Flensburg
+- schleswig-flensburg
+- Schleswig Flensburg
+
+## synonym: Schwabach
+- schwabach
+
+## synonym: Schwäbisch Hall
+- schwäbisch hall
+- Schwabisch Hall
+
+## synonym: Schwalm-Eder-Kreis
+- schwalm-eder-kreis
+- Schwalm Eder Kreis
+
+## synonym: Schwandorf
+- schwandorf
+
+## synonym: Schwarzwald-Baar-Kreis
+- schwarzwald-baar-kreis
+- Schwarzwald Baar Kreis
+
+## synonym: Schweinfurt
+- schweinfurt
+
+## synonym: Schwerin
+- schwerin
+
+## synonym: Segeberg
+- segeberg
+
+## synonym: Siegen-Wittgenstein
+- siegen-wittgenstein
+- Siegen Wittgenstein
+
+## synonym: Sigmaringen
+- sigmaringen
+
+## synonym: Soest
+- soest
+
+## synonym: Solingen
+- solingen
+
+## synonym: Sömmerda
+- sömmerda
+- Sommerda
+
+## synonym: Sonneberg
+- sonneberg
+
+## synonym: Speyer
+- speyer
+
+## synonym: Spree-Neiße
+- spree-neiße
+- Spree Neiße
+
+## synonym: St. Wendel
+- st. wendel
+
+## synonym: Stade
+- stade
+
+## synonym: Städteregion Aachen
+- städteregion aachen
+- Stadteregion Aachen
+
+## synonym: Starnberg
+- starnberg
+
+## synonym: Steinburg
+- steinburg
+
+## synonym: Steinfurt
+- steinfurt
+
+## synonym: Stendal
+- stendal
+
+## synonym: Stormarn
+- stormarn
+
+## synonym: Straubing
+- straubing
+
+## synonym: Straubing-Bogen
+- straubing-bogen
+- Straubing Bogen
+
+## synonym: Stuttgart
+- stuttgart
+
+## synonym: Südliche Weinstraße
+- südliche weinstraße
+- Sudliche Weinstraße
+
+## synonym: Südwestpfalz
+- südwestpfalz
+- Sudwestpfalz
+
+## synonym: Suhl
+- suhl
+
+## synonym: Teltow-Fläming
+- teltow-fläming
+- Teltow Fläming
+- Teltow-Flaming
+
+## synonym: Tirschenreuth
+- tirschenreuth
+
+## synonym: Traunstein
+- traunstein
+
+## synonym: Trier
+- trier
+
+## synonym: Trier-Saarburg
+- trier-saarburg
+- Trier Saarburg
+
+## synonym: Tübingen
+- tübingen
+- Tubingen
+
+## synonym: Tuttlingen
+- tuttlingen
+
+## synonym: Uckermark
+- uckermark
+
+## synonym: Uelzen
+- uelzen
+
+## synonym: Ulm
+- ulm
+
+## synonym: Unna
+- unna
+
+## synonym: Unstrut-Hainich-Kreis
+- unstrut-hainich-kreis
+- Unstrut Hainich Kreis
+
+## synonym: Unterallgäu
+- unterallgäu
+- Unterallgau
+
+## synonym: Vechta
+- vechta
+
+## synonym: Verden
+- verden
+
+## synonym: Viersen
+- viersen
+
+## synonym: Vogelsbergkreis
+- vogelsbergkreis
+
+## synonym: Vogtlandkreis
+- vogtlandkreis
+
+## synonym: Vorpommern-Greifswald
+- vorpommern-greifswald
+- Vorpommern Greifswald
+
+## synonym: Vorpommern-Rügen
+- vorpommern-rügen
+- Vorpommern Rügen
+- Vorpommern-Rugen
+
+## synonym: Vulkaneifel
+- vulkaneifel
+
+## synonym: Waldeck-Frankenberg
+- waldeck-frankenberg
+- Waldeck Frankenberg
+
+## synonym: Waldshut
+- waldshut
+
+## synonym: Warendorf
+- warendorf
+
+## synonym: Wartburgkreis
+- wartburgkreis
+
+## synonym: Weiden i.d. OPf.
+- weiden i.d. opf.
+
+## synonym: Weilheim-Schongau
+- weilheim-schongau
+- Weilheim Schongau
+
+## synonym: Weimar
+- weimar
+
+## synonym: Weimarer Land
+- weimarer land
+
+## synonym: Weißenburg-Gunzenhausen
+- weißenburg-gunzenhausen
+- Weißenburg Gunzenhausen
+
+## synonym: Werra-Meißner-Kreis
+- werra-meißner-kreis
+- Werra Meißner Kreis
+
+## synonym: Wesel
+- wesel
+
+## synonym: Wesermarsch
+- wesermarsch
+
+## synonym: Westerwaldkreis
+- westerwaldkreis
+
+## synonym: Wetteraukreis
+- wetteraukreis
+
+## synonym: Wiesbaden
+- wiesbaden
+
+## synonym: Wilhelmshaven
+- wilhelmshaven
+
+## synonym: Wittenberg
+- wittenberg
+
+## synonym: Wittmund
+- wittmund
+
+## synonym: Wolfenbüttel
+- wolfenbüttel
+- Wolfenbuttel
+
+## synonym: Wolfsburg
+- wolfsburg
+
+## synonym: Worms
+- worms
+
+## synonym: Wunsiedel i. Fichtelgebirge
+- wunsiedel i. fichtelgebirge
+
+## synonym: Wuppertal
+- wuppertal
+
+## synonym: Würzburg
+- würzburg
+- Wurzburg
+
+## synonym: Zollernalbkreis
+- zollernalbkreis
+
+## synonym: Zweibrücken
+- zweibrücken
+- Zweibrucken
+
+## synonym: Zwickau
+- zwickau
+
+## synonym: Frankfurt (Oder)
+- frankfurt (oder)
+- Oder Frankfurt
+- Frankfurt Oder
+- Frankfurt an der Oder
+
+## synonym: Schmalkalden-Meiningen
+- schmalkalden-meiningen
+- Schmalkalden Meiningen
+
+## synonym: Ahrweiler
+- ahrweiler
+
+## synonym: Aichach-Friedberg
+- aichach-friedberg
+- Aichach Friedberg
+
+## synonym: Alb-Donau-Kreis
+- alb-donau-kreis
+- Alb Donau Kreis
+
+## synonym: Altenburger Land
+- altenburger land
+
+## synonym: Altenkirchen (Westerwald)
+- altenkirchen (westerwald)
+
+## synonym: Altmarkkreis Salzwedel
+- altmarkkreis salzwedel
+
+## synonym: Altötting
+- altötting
+- Altotting
+
+## synonym: Alzey-Worms
+- alzey-worms
+- Alzey Worms
+
+## synonym: Amberg
+- amberg
+
+## synonym: Amberg-Sulzbach
+- amberg-sulzbach
+- Amberg Sulzbach
+
+## synonym: Ammerland
+- ammerland
+
+## synonym: Anhalt-Bitterfeld
+- anhalt-bitterfeld
+- Anhalt Bitterfeld
+
+## synonym: Ansbach
+- ansbach
+
+## synonym: Aschaffenburg
+- aschaffenburg
+
+## synonym: Augsburg
+- augsburg
+
+## synonym: Aurich
+- aurich
+
+## synonym: Bad Dürkheim
+- bad dürkheim
+- Bad Durkheim
+
+## synonym: Bad Kissingen
+- bad kissingen
+
+## synonym: Bad Kreuznach
+- bad kreuznach
+
+## synonym: Bad Tölz-Wolfratshausen
+- bad tölz-wolfratshausen
+- Bad Tölz Wolfratshausen
+- Bad Tolz-Wolfratshausen
+
+## synonym: Baden-Baden
+- baden-baden
+- Baden Baden
+
+## synonym: Bamberg
+- bamberg
+
+## synonym: Barnim
+- barnim
+
+## synonym: Bautzen
+- bautzen
+
+## synonym: Bayreuth
+- bayreuth
+
+## synonym: Berchtesgadener Land
+- berchtesgadener land
+
+## synonym: Bergstraße
+- bergstraße
+
+## synonym: Berlin Charlottenburg-Wilmersdorf
+- berlin charlottenburg-wilmersdorf
+- Berlin Charlottenburg Wilmersdorf
+
+## synonym: Berlin Friedrichshain-Kreuzberg
+- berlin friedrichshain-kreuzberg
+- Berlin Friedrichshain Kreuzberg
+
+## synonym: Berlin Lichtenberg
+- berlin lichtenberg
+
+## synonym: Berlin Marzahn-Hellersdorf
+- berlin marzahn-hellersdorf
+- Berlin Marzahn Hellersdorf
+
+## synonym: Berlin Mitte
+- berlin mitte
+
+## synonym: Berlin Neukölln
+- berlin neukölln
+- Berlin Neukolln
+
+## synonym: Berlin Pankow
+- berlin pankow
+
+## synonym: Berlin Reinickendorf
+- berlin reinickendorf
+
+## synonym: Berlin Spandau
+- berlin spandau
+
+## synonym: Berlin Steglitz-Zehlendorf
+- berlin steglitz-zehlendorf
+- Berlin Steglitz Zehlendorf
+
+## synonym: Berlin Tempelhof-Schöneberg
+- berlin tempelhof-schöneberg
+- Berlin Tempelhof Schöneberg
+- Berlin Tempelhof-Schoneberg
+
+## synonym: Berlin Treptow-Köpenick
+- berlin treptow-köpenick
+- Berlin Treptow Köpenick
+- Berlin Treptow-Kopenick
+
+## synonym: Bernkastel-Wittlich
+- bernkastel-wittlich
+- Bernkastel Wittlich
+
+## synonym: Biberach
+- biberach
+
+## synonym: Bielefeld
+- bielefeld
+
+## synonym: Birkenfeld
+- birkenfeld
+
+## synonym: Böblingen
+- böblingen
+- Boblingen
+
+## synonym: Bochum
+- bochum
+
+## synonym: Bodenseekreis
+- bodenseekreis
+
+## synonym: Bonn
+- bonn
+
+## synonym: Börde
+- börde
+- Borde
+
+## synonym: Borken
+- borken
+
+## synonym: Bottrop
+- bottrop
+
+## synonym: Brandenburg an der Havel
+- brandenburg an der havel
+
+## synonym: Braunschweig
+- braunschweig
+
+## synonym: Breisgau-Hochschwarzwald
+- breisgau-hochschwarzwald
+- Breisgau Hochschwarzwald
+
+## synonym: Bremen
+- bremen
+
+## synonym: Bremerhaven
+- bremerhaven
+
+## synonym: Burgenlandkreis
+- burgenlandkreis
+
+## synonym: Calw
+- calw
+
+## synonym: Celle
+- celle
+
+## synonym: Cham
+- cham
+
+## synonym: Chemnitz
+- chemnitz
+
+## synonym: Cloppenburg
+- cloppenburg
+
+## synonym: Coburg
+- coburg
+
+## synonym: Cochem-Zell
+- cochem-zell
+- Cochem Zell
+
+## synonym: Coesfeld
+- coesfeld
+
+## synonym: Cottbus
+- cottbus
+
+## synonym: Cuxhaven
+- cuxhaven
+
+## synonym: Dachau
+- dachau
+
+## synonym: Dahme-Spreewald
+- dahme-spreewald
+- Dahme Spreewald
+
+## synonym: Darmstadt
+- darmstadt
+
+## synonym: Darmstadt-Dieburg
+- darmstadt-dieburg
+- Darmstadt Dieburg
+
+## synonym: Deggendorf
+- deggendorf
+
+## synonym: Delmenhorst
+- delmenhorst
+
+## synonym: Dessau-Roßlau
+- dessau-roßlau
+- Dessau Roßlau
+
+## synonym: Diepholz
+- diepholz
+
+## synonym: Dillingen a.d. Donau
+- dillingen a.d. donau
+
+## synonym: Dingolfing-Landau
+- dingolfing-landau
+- Dingolfing Landau
+
+## synonym: Dithmarschen
+- dithmarschen
+
+## synonym: Donau-Ries
+- donau-ries
+- Donau Ries
+
+## synonym: Donnersbergkreis
+- donnersbergkreis
+
+## synonym: Dortmund
+- dortmund
+
+## synonym: Dresden
+- dresden
+
+## synonym: Duisburg
+- duisburg
+
+## synonym: Düren
+- düren
+- Duren
+
+## synonym: Düsseldorf
+- düsseldorf
+- Dusseldorf
+
+## synonym: Ebersberg
+- ebersberg
+
+## synonym: Eichsfeld
+- eichsfeld
+
+## synonym: Eichstätt
+- eichstätt
+- Eichstatt
+
+## synonym: Eifelkreis Bitburg-Prüm
+- eifelkreis bitburg-prüm
+- Eifelkreis Bitburg Prüm
+- Eifelkreis Bitburg-Prum
+
+## synonym: Eisenach
+- eisenach
+
+## synonym: Elbe-Elster
+- elbe-elster
+- Elbe Elster
+
+## synonym: Emden
+- emden
+
+## synonym: Emmendingen
+- emmendingen
+
+## synonym: Emsland
+- emsland
+
+## synonym: Ennepe-Ruhr-Kreis
+- ennepe-ruhr-kreis
+- Ennepe Ruhr Kreis
+
+## synonym: Enzkreis
+- enzkreis
+
+## synonym: Erding
+- erding
+
+## synonym: Erfurt
+- erfurt
+
+## synonym: Erlangen
+- erlangen
+
+## synonym: Erlangen-Höchstadt
+- erlangen-höchstadt
+- Erlangen Höchstadt
+- Erlangen-Hochstadt
+
+## synonym: Erzgebirgskreis
+- erzgebirgskreis
+
+## synonym: Essen
+- essen
+
+## synonym: Esslingen
+- esslingen
+
+## synonym: Euskirchen
+- euskirchen
+
+## synonym: Flensburg
+- flensburg
+
+## synonym: Forchheim
+- forchheim
+
+## synonym: Frankenthal (Pfalz)
+- frankenthal (pfalz)
+- Frankenthal
+
+## synonym: Freiburg im Breisgau
+- freiburg im breisgau
+
+## synonym: Freising
+- freising
+
+## synonym: Freudenstadt
+- freudenstadt
+
+## synonym: Freyung-Grafenau
+- freyung-grafenau
+- Freyung Grafenau
+
+## synonym: Friesland
+- friesland
+
+## synonym: Fulda
+- fulda
+
+## synonym: Fürstenfeldbruck
+- fürstenfeldbruck
+- Furstenfeldbruck
+
+## synonym: Fürth
+- fürth
+- Furth
+
+## synonym: Garmisch-Partenkirchen
+- garmisch-partenkirchen
+- Garmisch Partenkirchen
+
+## synonym: Gelsenkirchen
+- gelsenkirchen
+
+## synonym: Gera
+- gera
+
+## synonym: Germersheim
+- germersheim
+
+## synonym: Gießen
+- gießen
+
+## synonym: Gifhorn
+- gifhorn
+
+## synonym: Göppingen
+- göppingen
+- Goppingen
+
+## synonym: Görlitz
+- görlitz
+- Gorlitz
+
+## synonym: Goslar
+- goslar
+
+## synonym: Gotha
+- gotha
+
+## synonym: Göttingen
+- göttingen
+- Gottingen
+
+## synonym: Grafschaft Bentheim
+- grafschaft bentheim
+
+## synonym: Greiz
+- greiz
+
+## synonym: Groß-Gerau
+- groß-gerau
+- Groß Gerau
+
+## synonym: Frankfurt am Main
+- frankfurt am main
+- Frankfurt
+
+## synonym: Günzburg
+- günzburg
+- Gunzburg
+
+## synonym: Gütersloh
+- gütersloh
+- Gutersloh
+
+## synonym: Hagen
+- hagen
+
+## synonym: Halle (Saale)
+- halle (saale)
+
+## synonym: Hamburg
+- hamburg
+
+## synonym: Hameln-Pyrmont
+- hameln-pyrmont
+- Hameln Pyrmont
+
+## synonym: Hamm
+- hamm
+
+## synonym: Harburg
+- harburg
+
+## synonym: Harz
+- harz
+
+## synonym: Haßberge
+- haßberge
+
+## synonym: Havelland
+- havelland
+
+## synonym: Heidekreis
+- heidekreis
+
+## synonym: Heidelberg
+- heidelberg
+
+## synonym: Heidenheim
+- heidenheim
+
+## synonym: Heilbronn
+- heilbronn
+
+## synonym: Heinsberg
+- heinsberg
+
+## synonym: Helmstedt
+- helmstedt
+
+## synonym: Herford
+- herford
+
+## synonym: Herne
+- herne
+
+## synonym: Hersfeld-Rotenburg
+- hersfeld-rotenburg
+- Hersfeld Rotenburg
+
+## synonym: Herzogtum Lauenburg
+- herzogtum lauenburg
+
+## synonym: Hildburghausen
+- hildburghausen
+
+## synonym: Hildesheim
+- hildesheim
+
+## synonym: Hochsauerlandkreis
+- hochsauerlandkreis
+
+## synonym: Hochtaunuskreis
+- hochtaunuskreis
+
+## synonym: Hof
+- hof
+
+## synonym: Hohenlohekreis
+- hohenlohekreis
+
+## synonym: Holzminden
+- holzminden
+
+## synonym: Höxter
+- höxter
+- Hoxter
+
+## synonym: Ilm-Kreis
+- ilm-kreis
+- Ilm Kreis
+
+## synonym: Ingolstadt
+- ingolstadt
+
+## synonym: Jena
+- jena
+
+## synonym: Jerichower Land
+- jerichower land
+
+## synonym: Kaiserslautern
+- kaiserslautern
+
+## synonym: Karlsruhe
+- karlsruhe
+
+## synonym: Kassel
+- kassel
+
+## synonym: Kaufbeuren
+- kaufbeuren
+
+## synonym: Kelheim
+- kelheim
+
+## synonym: Kempten (Allgäu)
+- kempten (allgäu)
+- Kempten (Allgau)
+
+## synonym: Kiel
+- kiel
+
+## synonym: Kitzingen
+- kitzingen
+
+## synonym: Kleve
+- kleve
+
+## synonym: Koblenz
+- koblenz
+
+## synonym: Köln
+- köln
+- Koln
+
+## synonym: Konstanz
+- konstanz
+
+## synonym: Krefeld
+- krefeld
+
+## synonym: Kronach
+- kronach
+
+## synonym: Kulmbach
+- kulmbach
+
+## synonym: Kusel
+- kusel
+
+## synonym: Kyffhäuserkreis
+- kyffhäuserkreis
+- Kyffhauserkreis
+
+## synonym: Lahn-Dill-Kreis
+- lahn-dill-kreis
+- Lahn Dill Kreis
+
+## synonym: Landau in der Pfalz
+- landau in der pfalz
+
+## synonym: Landsberg am Lech
+- landsberg am lech
+
+## synonym: Landshut
+- landshut
+
+## synonym: Leer
+- leer
+
+## synonym: Leipzig
+- leipzig
+
+## synonym: Leverkusen
+- leverkusen
+
+## synonym: Lichtenfels
+- lichtenfels
+
+## synonym: Limburg-Weilburg
+- limburg-weilburg
+- Limburg Weilburg
+
+## synonym: Lindau (Bodensee)
+- lindau (bodensee)
+- Lindau
+
+## synonym: Lippe
+- lippe
+
+## synonym: Lörrach
+- lörrach
+- Lorrach
+
+## synonym: Lübeck
+- lübeck
+- Lubeck
+
+## synonym: Lüchow-Dannenberg
+- lüchow-dannenberg
+- Lüchow Dannenberg
+- Luchow-Dannenberg
+
+## synonym: Ludwigsburg
+- ludwigsburg
+
+## synonym: Ludwigshafen am Rhein
+- ludwigshafen am rhein
+
+## synonym: Ludwigslust-Parchim
+- ludwigslust-parchim
+- Ludwigslust Parchim
+
+## synonym: Lüneburg
+- lüneburg
+- Luneburg
+
+## synonym: Magdeburg
+- magdeburg
+
+## synonym: Main-Kinzig-Kreis
+- main-kinzig-kreis
+- Main Kinzig Kreis
+
+## synonym: Main-Spessart
+- main-spessart
+- Main Spessart
+
+## synonym: Main-Tauber-Kreis
+- main-tauber-kreis
+- Main Tauber Kreis
+
+## synonym: Main-Taunus-Kreis
+- main-taunus-kreis
+- Main Taunus Kreis
+
+## synonym: Mainz
+- mainz
+
+## synonym: Mainz-Bingen
+- mainz-bingen
+- Mainz Bingen
+
+## synonym: Mannheim
+- mannheim
+
+## synonym: Mansfeld-Südharz
+- mansfeld-südharz
+- Mansfeld Südharz
+- Mansfeld-Sudharz
+
+## synonym: Märkisch-Oderland
+- märkisch-oderland
+- Märkisch Oderland
+- Markisch-Oderland
+
+## synonym: Marburg-Biedenkopf
+- marburg-biedenkopf
+- Marburg
+- Marburg Biedenkopf
+
+## synonym: Märkischer Kreis
+- märkischer kreis
+- Markischer Kreis
+
+## synonym: Mayen-Koblenz
+- mayen-koblenz
+- Mayen Koblenz
+
+## synonym: Mecklenburgische Seenplatte
+- mecklenburgische seenplatte
+
+## synonym: Meißen
+- meißen
+
+## synonym: Memmingen
+- memmingen
+
+## synonym: Merzig-Wadern
+- merzig-wadern
+- Merzig Wadern
+
+## synonym: Mettmann
+- mettmann
+
+## synonym: Miesbach
+- miesbach
+
+## synonym: Miltenberg
+- miltenberg
+
+## synonym: Minden-Lübbecke
+- minden-lübbecke
+- Minden Lübbecke
+- Minden-Lubbecke
+
+## synonym: Mittelsachsen
+- mittelsachsen
+
+## synonym: Mönchengladbach
+- mönchengladbach
+- Monchengladbach
+
+## synonym: Mühldorf a. Inn
+- mühldorf a. inn
+- Muhldorf a. Inn
+
+## synonym: Mülheim an der Ruhr
+- mülheim an der ruhr
+- Mulheim an der Ruhr
+
+## synonym: München
+- münchen
+- Munchen
+
+## synonym: Münster
+- münster
+- Munster
+
+## synonym: Neckar-Odenwald-Kreis
+- neckar-odenwald-kreis
+- Neckar Odenwald Kreis
+
+## synonym: Neu-Ulm
+- neu-ulm
+- Neu Ulm
+
+## synonym: Neuburg-Schrobenhausen
+- neuburg-schrobenhausen
+- Neuburg Schrobenhausen
+
+## synonym: Neumarkt i.d. OPf.
+- neumarkt i.d. opf.
+
+## synonym: Neumünster
+- neumünster
+- Neumunster
+
+## synonym: Neunkirchen
+- neunkirchen
+
+## synonym: Neustadt a.d. Aisch-Bad Windsheim
+- neustadt a.d. aisch-bad windsheim
+- Neustadt a.d. Aisch Bad Windsheim
+
+## synonym: Neustadt a.d. Waldnaab
+- neustadt a.d. waldnaab
+
+## synonym: Neustadt an der Weinstraße
+- neustadt an der weinstraße
+
+## synonym: Neuwied
+- neuwied
+
+## synonym: Nienburg (Weser)
+- nienburg (weser)
+- Nienburg
+
+## synonym: Nordfriesland
+- nordfriesland
+
+## synonym: Nordhausen
+- nordhausen
+
+## synonym: Nordsachsen
+- nordsachsen
+
+## synonym: Nordwestmecklenburg
+- nordwestmecklenburg
+
+## synonym: Northeim
+- northeim
+
+## synonym: Nürnberg
+- nürnberg
+- Nurnberg
+
+## synonym: Nürnberger Land
+- nürnberger land
+- Nurnberger Land
+
+## synonym: Oberallgäu
+- oberallgäu
+- Oberallgau
+
+## synonym: Oberbergischer Kreis
+- oberbergischer kreis
+
+## synonym: Oberhausen
+- oberhausen
+
+## synonym: Oberhavel
+- oberhavel
+
+## synonym: Oberspreewald-Lausitz
+- oberspreewald-lausitz
+- Oberspreewald Lausitz
+
+## synonym: Odenwaldkreis
+- odenwaldkreis
+
+## synonym: Oder-Spree
+- oder-spree
+- Oder Spree
+
+## synonym: Offenbach
+- offenbach
+
+## synonym: Offenbach am Main
+- offenbach am main
+
+## synonym: Oldenburg
+- oldenburg
+
+## synonym: Oldenburg (Oldb)
+- oldenburg (oldb)
+
+## synonym: Olpe
+- olpe
+
+## synonym: Ortenaukreis
+- ortenaukreis
+
+## synonym: Osnabrück
+- osnabrück
+- Osnabruck
+
+## synonym: Ostalbkreis
+- ostalbkreis
+
+## synonym: Ostallgäu
+- ostallgäu
+- Ostallgau
+
+## synonym: Osterholz
+- osterholz
+
+## synonym: Ostholstein
+- ostholstein
+
+## synonym: Ostprignitz-Ruppin
+- ostprignitz-ruppin
+- Ostprignitz Ruppin
+
+## synonym: Paderborn
+- paderborn
+
+## synonym: Passau
+- passau
+
+## synonym: Peine
+- peine
+
+## synonym: Pfaffenhofen a.d. Ilm
+- pfaffenhofen a.d. ilm
+
+## synonym: Pforzheim
+- pforzheim
+
+## synonym: Pinneberg
+- pinneberg
+
+## synonym: Pirmasens
+- pirmasens
+
+## synonym: Plön
+- plön
+- Plon
+
+## synonym: Potsdam
+- potsdam
+
+## synonym: Potsdam-Mittelmark
+- potsdam-mittelmark
+- Potsdam Mittelmark
+
+## synonym: Prignitz
+- prignitz
+
+## synonym: Rastatt
+- rastatt
+
+## synonym: Ravensburg
+- ravensburg
+
+## synonym: Recklinghausen
+- recklinghausen
+
+## synonym: Regen
+- regen
+
+## synonym: Regensburg
+- regensburg
+
+## synonym: Region Hannover
+- region hannover
+
+## synonym: Regionalverband Saarbrücken
+- regionalverband saarbrücken
+- Regionalverband Saarbrucken
+
+## synonym: Rems-Murr-Kreis
+- rems-murr-kreis
+- Rems Murr Kreis
+
+## synonym: Remscheid
+- remscheid
+
+## synonym: Rendsburg-Eckernförde
+- rendsburg-eckernförde
+- Rendsburg Eckernförde
+- Rendsburg-Eckernforde
+
+## synonym: Reutlingen
+- reutlingen
+
+## synonym: Rhein-Erft-Kreis
+- rhein-erft-kreis
+- Rhein Erft Kreis
+
+## synonym: Rhein-Hunsrück-Kreis
+- rhein-hunsrück-kreis
+- Rhein Hunsrück Kreis
+- Rhein-Hunsruck-Kreis
+
+## synonym: Rhein-Kreis Neuss
+- rhein-kreis neuss
+- Rhein Kreis Neuss
+
+## synonym: Rhein-Lahn-Kreis
+- rhein-lahn-kreis
+- Rhein Lahn Kreis
+
+## synonym: Rhein-Neckar-Kreis
+- rhein-neckar-kreis
+- Rhein Neckar Kreis
+
+## synonym: Rhein-Pfalz-Kreis
+- rhein-pfalz-kreis
+- Rhein Pfalz Kreis
+
+## synonym: Rhein-Sieg-Kreis
+- rhein-sieg-kreis
+- Rhein Sieg Kreis
+
+## synonym: Rheingau-Taunus-Kreis
+- rheingau-taunus-kreis
+- Rheingau Taunus Kreis
+
+## synonym: Rheinisch-Bergischer Kreis
+- rheinisch-bergischer kreis
+- Rheinisch Bergischer Kreis
+
+## synonym: Rhön-Grabfeld
+- rhön-grabfeld
+- Rhön Grabfeld
+- Rhon-Grabfeld
+
+## synonym: Rosenheim
+- rosenheim
+
+## synonym: Mecklenburg-Vorpommern
+- mecklenburg-vorpommern
+- Mecklenburg Vorpommern
+
+## synonym: Hessen
+- hessen
+
+## synonym: Hamburg
+- hamburg
+
+## synonym: Bremen
+- bremen
+
+## synonym: Brandenburg
+- brandenburg
+
+## synonym: Berlin
+- berlin
+
+## synonym: Bayern
+- bayern
+
+## synonym: Baden-Württemberg
+- baden-württemberg
+- Baden Württemberg
+- Baden-Wurttemberg
+
+## synonym: Thüringen
+- thüringen
+- Thuringen
+
+## synonym: Schleswig-Holstein
+- schleswig-holstein
+- Schleswig Holstein
+
+## synonym: Sachsen-Anhalt
+- sachsen-anhalt
+- Sachsen Anhalt
+
+## synonym: Sachsen
+- sachsen
+
+## synonym: Saarland
+- saarland
+
+## synonym: Rheinland-Pfalz
+- rheinland-pfalz
+- Rheinland Pfalz
+
+## synonym: Nordrhein-Westfalen
+- nordrhein-westfalen
+- Nordrhein Westfalen
+
+## synonym: Niedersachsen
+- niedersachsen

@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: de
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
@@ -10,6 +10,7 @@ pipeline:
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
+  # - name: CRFEntityExtractor
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
@@ -24,3 +25,7 @@ policies:
     max_history: 5
     epochs: 100
   - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.55
+    core_threshold: 0.3
+    fallback_action_name: action_default_fallback
