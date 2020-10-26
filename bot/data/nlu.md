@@ -178,18 +178,24 @@
 - Sind Kinder weniger gefährdet sind als Erwachsene?
 - Können sich Kinder auch anstecken?
 - Zahlen
+- gibt es irgendwelche Zahlen 
 - Wie viele Menschen sind infiziert
 
 ## intent:covid_current_statistics
 - Wo finde ich aktualisierte Statistiken
 - Gibt es Statistiken
+- Wie sind die Zahlen heute
+- Wo gibt es die meisten erkrenkten
+Wo gibt es die meisten erkrankten
 - Wie viele sind am Virus erkrankt?
+- wie viele Coroner Fälle gibt es gerade 
 - Gibt es offizielle Zahlen zu den Erkrankungen weltweit?
 - cookit 19 aktuelle Zahlen
 - Q19 aktuelle Statistiken
 - movit 19 aktuelle Zahlen
 - Kubik 19 aktuelle Statistiken
 - COBIT 19 aktuelle Zahlen
+- wo gibt die meisten fälle
 - Hobbit 19 aktuelle Statistiken
 - huvit 19 aktuelle Zahlen
 - kovit 19 aktuelle Statistiken
@@ -203,6 +209,7 @@
 - Aktuelle Nummern
 - Wo finde ich aktuelle Statistiken?
 - Wo finde ich aktuelle Zahlen?
+- wieviele infektionen gibt es in der [Schweiz]{"entity": "country_code", "value": "CH"} ?
 - Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
 - Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "Baden-Württemberg"}
 - Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}
@@ -211,12 +218,17 @@
 - Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "Saarland"}
 - Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}
 - Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
+- Wie viele Kranke gibt es im Sauerland
+- Wie viele Kranke gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
 - Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "Niedersachsen"}
 - Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}
+- wie viele Coroner Fälle gibt es in [München]{"entity": "country_district", "value": "München"}
 - Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "Hessen"}
 - Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
 - Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
 - Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"}
+- Wie viele Fälle gibt es in [Köln]{"entity": "country_district", "value": "Köln"}?
+- Wie viele Fälle gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}?
 - Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
 - Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "Bayern"}
 - Infizierte in [Berlin]{"entity": "country_district", "value": "Berlin"}
@@ -238,6 +250,7 @@
 - Wieviel Kranke gibt es in Deutschland
 - wie sind die fallzahlen in deutschland?
 - fallzahlen
+- wie sind die Zahlen in [America]{"entity": "country_code", "value": "US"} 
 - Statistik zu todesfällen
 - Gibt es eine Statistik zu Todesfällen in Deutschland
 - fallzahlen deutschland
@@ -351,9 +364,12 @@
 - Wie viele Opfer gibt es
 
 ## intent:covid_dangerous
+- Ist dies Virus gefaerlich
+- ist der virus böse?
 - Ist das Virus gefährlich?
 - Ist der Virus gefährlich?
 - Wie gefährlich ist die Infektion?
+- Wie gefährlich ist corona
 - Wie gefährlich ist eine Infektion mit SARS-CoV-2?
 - Ist die Infektion mit demKowit 19 harmlos?
 - Ist die Infektion mit demqubeat 19 ungefährlich?
@@ -567,6 +583,7 @@
 - Wie verläuft eine Erkrankung mit Covid-19
 - Verlauf der Krankheit
 - Krankheitsverlauf
+- Wie sieht der Krankheitsverlauf aus?
 - Wie läuft die Krankheit ab
 
 ## intent:covid_duration
@@ -575,6 +592,8 @@
 - Wie lange dauert die Krankheit an
 - Wie lange bin ich krank
 - Dauer der Krankheit
+- Wann hört Corona auf?
+- Wann ist Corona zu Ende?
 - Dauer Krankheit
 - Krankheit Dauer
 - Krankheitsdauer
@@ -647,6 +666,7 @@
 - Ansteckungszeit
 - Wie viele Tage nach der Ansteckung bekommt man die Symptome?
 - Wie lange dauert die Inkubationszeit?
+- Wie lange dauert es, bis die ersten Symptome auftreten?
 - Wie lange dauert es, bis ich eine Ansteckung bemerke?
 - Inkubations Zeit
 - Wie lange dauert die Inkubationszeit nun wirklich?
@@ -1439,6 +1459,7 @@
 
 ## intent:covid_mortality_rate
 - sterblichkeit
+- Werden wir alle sterben?
 - Wie wahrscheinlich ist es, dass ich an cupid 19 sterbe?
 - Stirbt man auch an corona wen man keine vorerkrankungen hat?
 - Wie wahrscheinlich ist es, dass ich an Hobbit 19 sterbe?
@@ -1491,10 +1512,13 @@
 
 ## intent:covid_origins
 - Woher stammt Sars-CoV-2
+- warum gibt es den coronavirus?
 - Woher kommt der Coronavirus
 - Seit wann gibt es corona
+- Woher kommt Corina
 - Was ist der Ursprung des Virus?
 - Wie kam es zum Ausbruch?
+- woher kommt Corona 
 - Wie ist es zum Ausbruch der Epidemie gekommen?
 - Wo kommt das Coronavirus her?
 - Wo kommt es her?
@@ -1901,6 +1925,8 @@
 - Wie viele aktive Fälle von Covid sind in [Marokko]{"entity": "country_code", "value": "MA"}?
 - Wie viele aktive Fälle sind in [Portugal]{"entity": "country_code", "value": "PT"}?
 - Wie viele Infizierte gibt es in [Spanien]{"entity": "country_code", "value": "ES"}?
+- Welche schutzmaßnahmen gelten in [Spanien]{"entity": "country_code", "value": "ES"}
+- Welche schutzmaßnahmen gelten in [Italien]{"entity": "country_code", "value": "IT"}
 - Aktive Fälle in [Türkei]{"entity": "country_code", "value": "TR"}.
 - Wie viele Menschen sind in [Argentinien]{"entity": "country_code", "value": "AR"} bis zu diesem Datum infiziert?
 - Wie viele aktive Fälle sind in [Japan]{"entity": "country_code", "value": "JP"} enthalten?
@@ -1912,6 +1938,7 @@
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
 - Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "GB"}?
+- Personen in einem kritischen Fall in [Jordanien]{"entity": "country_code", "value": "JO"}
 - Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
 - Kritische Fälle in [Jordanien]{"entity": "country_code", "value": "JO"}.
 - Wie viele kritische Fälle in [Tschechien]{"entity": "country_code", "value": "CZ"}?
@@ -1967,6 +1994,10 @@
 - Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
 - Bin ich inviziert durch verschleimungserscheinungen in den Nasennebenhöhlen und der Lunge?
 - kopfweh
+- wie weiß ich ob ich krank bin?
+- Wie merke ich das ich Corona habe
+- Wie merke dass ich Corona habe
+- Wie merke ich, dass ich Corona habe?
 - wie ändert sich der geschmacksinn bei corona?
 - Ich kann nichts mehr schmecken
 - Ich kann nichts mehr riechen und schmecken
@@ -1981,6 +2012,7 @@
 - Was mache ich, wenn ich ein Kratzen im Hals habe?
 - Ich habe Kratzen im Hals
 - Welche Symptome gibt es?
+- Welche Symptome
 - Was sind die Symptome von cupid 19?
 - Welche Krankheitsmerkmale weist der cupid 19 auf?
 - Ich will wissen ob Fieber ein Symptom ist
@@ -2028,6 +2060,7 @@
 - Wie ist der Krankheitsverlauf wenn man infiziert ist?
 - Wie sieht es mit der Symptomatik des Covid-19 aus?
 - Was sind die Krankheitsmerkmale des Coronavirus
+- Symptomatik
 - Welche Krankheitsmerkmale weist der Covid 19 auf?
 - Welche Symptome gibt es bei dem Coronavirus?
 - Wie äußert sich die Krankheit?
@@ -2144,6 +2177,7 @@
 - Die Rolle der Dunkelziffer bei Covid-19
 
 ## intent:covid_vaccine
+- haben Sie eine Vaccine ?
 - Wann gibt es endlich eine Impfung?
 - Wann kommt endlich der Imptsftoff auf den Markt?
 - Wie lange muss man noch auf eine Impfung warten.
@@ -2238,6 +2272,7 @@
 - Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
 - Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
 - Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
+- Wie ist die Situation in [Island]{"entity": "country_code", "value": "IS"}? Kann ich wieder fliegen?
 - Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
 - Lage in anderen Ländern
 - Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
@@ -2291,6 +2326,8 @@
 ## intent:germany_consequences
 - Wie viele Tote wird es in Deutschland geben
 - welche auswirkungen hat das auf deutschland
+- Wie viele Deutsch werden Ende 2020 Corona gehabt haben
+- Welcher Prozentsatz der Deutschen wird sich voraussichtlich mit Corona infizieren
 - Auswirkungen für Deutschland
 - Wie viele Kranke wird es in Deutschland geben
 - Wie viele Infizierte wird es in Deutschland geben
@@ -2356,6 +2393,7 @@
 - Corona in Mecklenburg-Vorpommern
 - Corona in Mecklenburg Vorpommern
 - Corona in Mecklenburg
+- Gibt es Kontaktbeschränkungen in Niedersachsen?
 - Corona in Rheinland-Pfalz
 - Corona in Nordrhein-Westfalen
 - Corona in Niedersachsen
@@ -2539,6 +2577,7 @@
 
 ## intent:germany_lockdown_crisis_howlong
 - Bis wann gelten diese Maßnahmen
+- wann ist es vorbei?
 - Ausgangssperre in Deutschland wie lange noch
 - Lockdown in Deutschland wie lange
 - Ist die Pandemie bis Sommer vorbei?
@@ -2636,7 +2675,7 @@
 - Kann ich jetzt noch nach Holland reisen?
 - Kann ich jetzt noch nach Frankreich reisen?
 - Schließen die Nachbarländer jetzt Grenzen?
-- Kann man jetzt noch in die Schweiz reisen?
+- Kann man jetzt noch in die [Schweiz]{"entity": "country_code", "value": "CH"} reisen?
 - Wie sieht es mit Reisen in die Nachbarstaaten aus?
 - Was ist mit reisen in die Nachbar Staaten?
 - Kann ich noch in Nachbarländer verreisen?
@@ -2678,6 +2717,10 @@
 
 ## intent:germany_preparation
 - Gibt es jetzt Ausgangssperre in Rheinland-Pfalz?
+- welche ausgangsbeschränkungen gelten derzeit in bayern
+- welche regeln sind in bayern zu beachten
+- nenne mir die aktuellen beschränkungen in bayern
+- Wie ist aktuell das Kontaktverbot definiert?
 - wie ist deutschland vorbereite
 - welche ausgangsbeschränkungen gelten derzeit in
 - welche regeln sind in zu beachten
@@ -3248,7 +3291,12 @@
 ## intent:gradual_opening_barbecue
 - Grill Parties
 - Grillpartys
+- Dar ich eine Grillparty feiern?
+- Darf ich eine Grillparty feiern?
 - Grill Partys
+- Darf ich mit meinem Freunde grillen?
+- Darf ich in Bayern grillen?
+- Darf ich grillen?
 - Ich will grillen
 - Kann ich grillen?
 - Was ist mit Grillplätzen¡
@@ -3405,6 +3453,7 @@
 - Wann kann ich wieder in eine Bar gehen?
 - Kann ich noch was trinken gehen?
 - Kann man noch in Kneipen gehen?
+- Darf ich ins Restaurant?
 - Sind die Restaurants noch offen?
 - dürfen restaurants in öffnen
 - Kann man noch ins Restaurant gehen?
@@ -3414,7 +3463,9 @@
 - Gaststätte
 - Was ist mit den Gaststätten?
 - haben restaurants in geöffnet
+- haben restaurants in bayern geöffnet
 - Was ist mit der Gastronomie?
+- dürfen restaurants in bayern öffnen
 - Welche Regeln gelten für die Gastronomie?
 - Was ist mit Bars?
 - Und was ist mit Restaurants?
@@ -3522,7 +3573,13 @@
 - Wie ist die Öffnung der Universitäten geregelt?
 
 ## intent:gradual_opening_visit_family_friends
+- Anzahl Personen die sich derzeit treffen dürfen?
+- Ich will mit meinem Freunde treffen 
+- Mit wie vielen Leuten darf ich mich treffen?
+- Mit wie vielen Personen darf ich mich derzeit treffen?
 - Ich will meine Freunde treffen
+- darf ich mich mit Freunden treffen 
+- Freundin treffen 
 - Mit wie vielen Leuten darf ich mich treffen?
 - Kann ich mich mit Freunden treffen?
 - Darf ich meinen Nachbarn treffen?
@@ -3586,6 +3643,7 @@
 
 ## intent:mask_differences
 - welche Maske
+- Welche Masken werden angeboten?
 - Was sind die verschiedenen Masken
 - Welche Arten von Schutzmasken gibt es
 - Welche unterschiedlichen Schutzmasken gibt es
@@ -3613,6 +3671,7 @@
 - FFP3 Maske
 - FFP2 Maske
 - FFP3 Masken
+- Wie lange kann ich eine FFP2-Maske tragen
 - FFP2 Masken
 - Wo bekomme ich FFP 3 MAsken
 - Was sind FFP Masken
@@ -3625,8 +3684,12 @@
 
 ## intent:mask_obligatory
 - Wer sollte einen Mund-Nasen-Schutz tragen?
+- muss ich eine maske aufsetzen?
+- muss ich eine maske aufsezen?
 - Wo gilt Maskenpflicht?
+- muss ich eine Maske benutzen 
 - Gilt Maskenpflicht?
+- Muss ich eine Maske benutzen?
 - Ist ein Mundschutz beim Einkaufen nötig?
 - Ist es sinnvoll, beim Einkaufen eine Schutzmaske zu tragen?
 - Ist es notwendig, im Supermarkt eine Schutzmaske zu verwenden?
@@ -3667,7 +3730,6 @@
 - Wo muss ich eine Maske tragen?
 - Ist es jetzt verpflichtend, eine Maske zu tragen?
 - Wird das Maskentragen nur empfohlen oder ist es ein Muss?
-
 - Warum kaufen eigentliche alle Masken?
 - Was bringt ein Mundschutz?
 - Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
@@ -3696,6 +3758,7 @@
 - Warum Masken tragen?
 - Warum soll ich eine Maske tragen?
 - Was nützt es, Masken zu tragen?
+- helfen masken?
 - Helfen Atemschutzmasken gegen qubeat 19?
 - Helfen Atemschutzmasken gegen cupid 19?
 - Helfen Atemschutzmasken gegen kuhweg 19?
@@ -3725,10 +3788,14 @@
 ## intent:mask_put
 - Was sollte ich bei der Maske beachten?
 - Wie setze ich die Maske richtig auf?
+- Wie setze ich die Maske korrekt auf?
+- Wie benutzt man eine Maske korrekt?
 - Wie benutzt man den Mund Nasen Schutz richtig?
 - Wie trage ich einen Mundschutz richtig?
+- Wie legt man eine Maske an?
 - Wie soll ich die Maske benutzen?
 - Wie soll ich eine Maske aufsetzen?
+- wie soll ich eine Maske verwenden 
 - Welche Verhaltensregeln soll ich beim Tragen eines Mundschutzes beachten
 - Was gilt es zu beachten wenn man eine Maske trägt
 - Was muss ich beim Tragen einer Maske beachten
@@ -3754,6 +3821,7 @@
 - Maske nochmal benutzen
 - Masken nochmal aufsetzen
 - Kann man Masken wiederverwenden?
+- Kann ich die Maske wiederverwenden?
 
 ## intent:mask_selfmade
 - Welches Material eignet sich am besten zum Masken machen?
@@ -3806,6 +3874,8 @@
 - Kann ich die Maske zur Reinigung in den Backofen geben?
 - Wie wäscht man den Mundnasenschutz?
 - Wie oft sollten Stoffmasken gereinigt werden?
+- wie oft muss ich eine maske waschen
+- Kann ich die Maske waschen?
 
 ## intent:mask_which
 - Welche Maske wählen
@@ -3996,6 +4066,7 @@
 - wie erkenne ich falsche Meldungen
 - Fake News erkennen
 - Fakten Checker
+- Fake-News
 - Faktenchecker
 - Fake-News erkennen
 - Gates Verschwörung
@@ -4188,6 +4259,7 @@
 - Wie können sich Bürgerinnen und Bürger vor dem Coronavirus schützen?
 - Wie kann das Infektionsrisiko verringert werden?
 - Vorsichtsmaßnahmen.
+- Schützt mich eine Maske?
 - Schutzmaßnahmen.
 - wie schützt man sich am besten vor corona
 - Wie kann man sich bzw. seine Mitmenschen vor einer Ansteckung schützen?
@@ -4233,6 +4305,7 @@
 
 ## intent:prevention_home
 - Ich habe leichte Krankheitssymptome. Soll ich zuhause bleiben?
+- Muss ich zu Hause bleiben?
 - Ich habe leichte Krankheitssymptome. Soll ich zu Hause bleiben?
 - Ich fühle mich ein bisschen krank, soll ich daheim bleiben?
 - Ich fühle mich ein bisschen krank, soll ich zu Hause bleiben?
@@ -4241,6 +4314,7 @@
 - Muss ich mich jetzt zuhause einschließen?
 - Daheim bleiben
 - Soll ich auch ohne Symptome daheim bleiben?
+- Soll ich immer zu Hause bleiben?
 - Wann sollte ich lieber zuhause bleiben
 - Muss ich echt zuhause bleiben
 - Muss man jetzt wirklich zu hause bleiben?
@@ -4322,6 +4396,10 @@
 - Warum sollte ich über die neuesten Informationen zum COVID-19-Ausbruch auf dem Laufenden bleiben?
 
 ## intent:prevention_medical_attention
+- Wi kan mann sich pehandeln lassen!
+- Wie kan mann sich behandeln lassen!
+- und wenn ich husten habe
+- Was mache ich, wenn ich mich schlapp fühle
 - Ich fühle mich total müde.
 - Verdacht auf Corona
 - Was tun bei Symptomen?
@@ -5561,6 +5639,7 @@
 - Gibt es einen Test für Hobbit 19?
 - Wo kann ich mich testen lassen?
 - Gibt es einen Corona Test ?
+- Wo kann ich mich auf Corona testen lassen?
 - Wo kann ich mich in testen lassen?
 - Wo kann ich getestet werden?
 - Wie wird auf den Virus getestet?
@@ -5656,6 +5735,16 @@
 - Kann ich mich testen lassen?
 
 ## intent:travel_before
+- in welche Länder kann man aktuell reisen?
+- Welche Einreisebeschränkungen gibt es in die [Ukraine]{"entity": "country_code", "value": "UA"}?
+- Urlaub machen
+- Wie lange dauern Reisebeschränkungen nach [Afrika]{"entity": "country_code", "value": "ZA"}
+- Sind Flüge nach [Afrika]{"entity": "country_code", "value": "ZA"} erlaubt ?
+- Wann kann ich nach [Afrika]{"entity": "country_code", "value": "ZA"} fliegen
+- [Ukraine]{"entity": "country_code", "value": "UA"} Einreise
+- einreise aus [Dubai]{"entity": "country_code", "value": "AE"}
+- kann ich nach bangkok reisen?
+- kann ich nach ittalien reisen?
 - Worauf muss ich vor meiner Reise achten?
 - Sollten Reisende vor Reiseantritt prüfen, ob es Reisebeschränkungen wegen des Coronavirus gibt?
 - Ich plane eine Reise Was muss ich beachten?
@@ -5667,6 +5756,9 @@
 - Dinge zu beachten, bevor Sie reisen.
 - Dinge, die auf Reisen zu beachten sind.
 - Was ist vor der Reise zu tun?
+- darf ich nach mallorca fliegen
+- [Italien]{"entity": "country_code", "value": "IT"} reise
+- [Australien]{"entity": "country_code", "value": "AU"} einreise
 - Ich habe einen Reiseplan.
 - darf ich reisen?
 - Darf man noch ins Ausland reisen?
@@ -5800,11 +5892,14 @@
 ## intent:travel_return
 - Vorgehensweise bei der Rückkehr von der Reise.
 - Wie geht es nach der Reise weiter?
+- rückreise aus [Dubai]{"entity": "country_code", "value": "AE"}
+- Muss ich in Quarant√§ne, wenn ich in [Kroatien]{"entity": "country_code", "value": "HR"} war? 
 - Test nach [Marokko]{"entity": "country_code", "value": "MA"} aufenthalt
 - Ich war gerade in [Türkei]{"entity": "country_code", "value": "TR"} und habe jetzt Husten
 - Wie geht man nach der Reise vor?
 - Ich war in [Spanien]{"entity": "country_code", "value": "ES"}, muss ich mich testen lassen?
 - Einreise nach Deutschland
+- Risikogebiete
 - Was gilt für Einreisende nach Deutschland?
 - Bin in einem Risikogebiete darf ich nach Deutschland einreisen
 - Testen nach Aufenthalt in [Frankreich]{"entity": "country_code", "value": "FR"}
@@ -5821,7 +5916,7 @@
 - Ist ein Test nötig wenn ich gerade in [Jordanien]{"entity": "country_code", "value": "JO"} war?
 - Ich habe gerade eine Reise durch [Italien]{"entity": "country_code", "value": "IT"} gemacht, ist ein Test nötig?
 - Sollen Personen, die gerade in [Israel]{"entity": "country_code", "value": "IL"} waren, einen Test machen?
-- Ich habe Symptome und war gerade in [Island]{"entity": "country_code", "value": "country"}
+- Ich habe Symptome und war gerade in [Island]{"entity": "country_code", "value": "IS"}
 - Ich war in [Hong Kong]{"entity": "country_code", "value": "HK"}. Muss ich mich testen lassen?
 - Muss ich mich testen lassen, wenn ich gerade in [Irland]{"entity": "country_code", "value": "IE"} war?
 - Ich bin gerade aus [Indien]{"entity": "country_code", "value": "IN"} zurückgekommen
@@ -5910,6 +6005,7 @@
 - Urlaub in Deutschland trotz Corona möglich?
 - Urlaub in Deutschland
 - Sind Reisen innerhalb Deutschlands möglich?
+- Reisen in Deutschland
 - Darf man innerhalb von Deutschland reisen?
 - Sind Reisen innerhalb Deutschlands erlaubt?
 - Darf man innerhalb Deutschlands verreisen?
@@ -6227,6 +6323,7 @@
 - Bist du noch da?
 - Bist du nicht mehr da?
 - Wo bist du hin?
+- Helena? 
 - Hallo, warum antwortest du nicht?
 - Huhu, bist du noch da?
 - Hallo, noch jemad zuhause?
@@ -6370,6 +6467,7 @@
 - Bist du clever?
 - Hältst du dich für klug?
 - Glaubst du, dass du schlau bist?
+- das ist sehr gut. Du bist sehe intelligent
 
 ## intent:comment_negative
 - Du kannst mir nicht helfen.
@@ -6399,6 +6497,7 @@
 - 
 ## intent:bot_capabilities
 - Kannst du alle Fragen beantworten?
+- Bei was kannst du helfen?
 - Welche sind deine Aufgaben?
 - Welche Aufgabe hast du?
 - Was weißt du alles?
@@ -6410,6 +6509,7 @@
 - Was ist deine Aufgabe?
 - Was kannst du für mich tun?
 - Was kannst du machen?
+- Dann wollen wir dich mal testen.
 - Was kannst du so machen?
 - was kannst du denn
 - Was kannst du?
@@ -6442,6 +6542,7 @@
 - ich habe eine frage
 - Womit sind Sie vertraut?
 - Womit bist du vertraut?
+- darf ich eine frage stellen
 - Wofür sind Sie da?
 - Wofür bist du da?
 - Wobei kannst du mir helfen?
@@ -6851,6 +6952,7 @@
 - Von woher kommst du?
 - Wer hat dich erstellt?
 - Wer hat dich gebaut?
+- wer hat dich gebaut 
 - Wer hat dich geschaffen?
 - Wer hat dich ins Leben gerufen?
 - Von wem bist du programmiert worden?
@@ -7135,6 +7237,7 @@
 ## intent:bot_origin
 - Ich möchte wissen, wo du geboren wurdest.
 - Wer sind Sie Macher?
+- Wo entstand der Covid?
 - Was ist deine Heimatstadt?
 - Sag mir, woher du kommst.
 - Wo ist dein Geburtsort?
@@ -7876,6 +7979,7 @@
 	
 ## intent:cc_philosophical
 - Wie viel Mühe sollte ein Mensch investieren, um andere nicht zu beleidigen?
+- Schmeckt eine Salamipizza besser mit oder ohne Pilze?
 - Ist der Terrorist einer Person nicht der Freiheitskämpfer einer anderen Person?
 - Haben Tiere Seelen?
 - Was passiert nach unserem Tod?
@@ -8077,6 +8181,7 @@
 - Was macht ein Botschafter?
 - Denken Sie, dass zu viel Geld für politische Kampagnen ausgegeben wird?
 - Merkel
+- Wer ist Trump
 - Was halten Sie von Donald Trump?
 - Wer ist Donald Trump?
 - Wie geben wir jedem Kind eine hervorragende Ausbildung?
@@ -8474,6 +8579,7 @@
 - Was isst du gern?
 - Wer ist deiner Meinung nach das beste Essen?
 - Was isst du?
+- Ich hab Hunger und will Pizza!
 - Sag mir dein Lieblingsessen.
 - Welches Essen gefällt dir am meisten?
 - Wer ist deiner Meinung nach das leckereste Essen?
@@ -9371,14 +9477,23 @@
 - Sprechen Sie andere Sprachen als Englisch?
 	
 ## intent:comment_offense
+- könntest du deine Fresse halten das wäre sehr nett danke Verena 
 - Du bist hässlich
 - Du bist eine Hure
 - Du bist ein schlechter Bot
 - Du bist ein Volltrottel
 - Du bist ein Nerd
 - Du bist ein Motherfucker
+- Bist halt nicht so schlau
+- Klappe
+- Fresse halten
 - Alter, bist du dumm ey
 - Arsch
+- nur noch dumm was du da labberst..
+- wohl kaum, du pfeife
+- Ok du schdinkst
+- Chom vergiss es.., unseriös und unkompetent..
+- Mit  inhumanen  Drecksrobotern  spreche  ich  nicht  !  
 - Bastard
 - Scheiß Chatbot
 - Du bist blöd
@@ -9902,6 +10017,7 @@
 	
 ## intent:cc_weather
 - Robo, wie ist das wetter?
+- wie ist das wetter heute ?
 - Wie ist das Wetter in China?
 - Wie ist das Wetter in Lissabon?
 - Wie ist das Wetter?
@@ -10397,6 +10513,7 @@
 - Ist alles ok?
 - Ist alles in Ordnung?
 - Ich hoffe, es geht dir gut.
+- wie geht's ihnen ?
 - Ich hoffe, es geht Ihnen gut.
 - Ich hoffe es geht dir gut.
 - Geht es dir gut?
@@ -10444,6 +10561,8 @@
 	
 ## intent:greeting_goodbye
 - Mach es gut!
+- Schönen Abend
+- Sehr gut.   aufwiedersehn
 - Mach‘s gut!
 - Gehe jetzt.
 - Wir sehen uns!
@@ -10522,6 +10641,8 @@
 
 ## intent:user_love
 - Ich bin in Dich verknallt
+- willst du mit mir ausgehen
+- Bist Du noch single
 - Sag mir wie sehr Du mich liebst
 - Liebst du mich?
 - Ich glühe für dich.
@@ -11338,9 +11459,9 @@
 - [equatorial guinea]{"entity": "country_code", "value": "GQ"}
 - [Equatorial Guinea]{"entity": "country_code", "value": "GQ"}
 - [Guinea Ecuatorial]{"entity": "country_code", "value": "GQ"}
-- [united states]{"entity": "country_code", "value": "US"}
-- [United States]{"entity": "country_code", "value": "US"}
-- [United States of America]{"entity": "country_code", "value": "US"}
+- [Vereinigten Staaten]{"entity": "country_code", "value": "US"}
+- [Amerika]{"entity": "country_code", "value": "US"}
+- [USA]{"entity": "country_code", "value": "US"}
 - [islamic republic of iran]{"entity": "country_code", "value": "IR"}
 - [Islamic Republic of Iran]{"entity": "country_code", "value": "IR"}
 - [Persia]{"entity": "country_code", "value": "IR"}
@@ -11383,8 +11504,8 @@
 - [tanzania]{"entity": "country_code", "value": "TZ"}
 - [Tansania]{"entity": "country_code", "value": "TZ"}
 - [United Republic of Tanzania]{"entity": "country_code", "value": "TZ"}
-- [united arab emirates]{"entity": "country_code", "value": "AE"}
-- [United Arab Emirates]{"entity": "country_code", "value": "AE"}
+- [Dubai]{"entity": "country_code", "value": "AE"}
+- [Vereinigte Arabische Emirate]{"entity": "country_code", "value": "AE"}
 - [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "country_code", "value": "AE"}
 - [antarctica]{"entity": "country_code", "value": "AQ"}
 - [Antarctica]{"entity": "country_code", "value": "AQ"}
@@ -11678,9 +11799,10 @@
 - [chile]{"entity": "country_code", "value": "CL"}
 - [Chile]{"entity": "country_code", "value": "CL"}
 - [Republic of Chile]{"entity": "country_code", "value": "CL"}
-- [iceland]{"entity": "country_code", "value": "IS"}
-- [Iceland]{"entity": "country_code", "value": "IS"}
+- [Island]{"entity": "country_code", "value": "IS"}
+- [island]{"entity": "country_code", "value": "IS"}
 - [Ísland]{"entity": "country_code", "value": "IS"}
+- [Kroatien]{"entity": "country_code", "value": "HR"}
 - [gambia]{"entity": "country_code", "value": "GM"}
 - [Gambia]{"entity": "country_code", "value": "GM"}
 - [Kambiya]{"entity": "country_code", "value": "GM"}
