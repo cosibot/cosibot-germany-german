@@ -1,22 +1,29 @@
 slots:
+# action_check_bot_introduced
   bot_introduced:
     type: bool
     initial_value: false
+# general slots
   bot_name:
     type: unfeaturized
     initial_value: Helena
   bot_version:
     type: unfeaturized
     initial_value: 0-0-3
+# action_get_time
   bot_time:
     type: text
+# action_get_date
   bot_date:
     type: text
+# action_search_stats
   country:
     type: text
   active_cases:
     type: unfeaturized
   total_infected_critical:
+    type: unfeaturized
+  total_deaths:
     type: unfeaturized
   search_successful:
     type: categorical
@@ -25,17 +32,37 @@ slots:
       - inexistent-country
       - wrong-country
       - not-ok
+# action_search_stats_region
+  region_search_successful:
+    type: categorical
+    values: 
+      - ok 
+      - empty 
+      - not-ok 
+  region:
+    type: text 
+  region_confirmed_accum:
+    type: unfeaturized
+  country_code:
+    type: text
+# action_default_fallback
+  total_nr_tries:
+    type: float
+    initial_value: 0.0
 
 entities:
   - country_code
   - country_district
+  - country_state
 
 actions:
-  - action_check_Bot_Introduced
+  - action_check_bot_introduced
   - action_default_fallback
   - action_get_date
   - action_get_time
   - action_search_stats
+  - action_search_stats_region
+  - action_get_news_request
   - corona_app_developers
   - utter_corona_app_general
   - utter_corona_app_obligatory
@@ -43,8 +70,10 @@ actions:
   - utter_coronavirus_info
   - utter_covid_disease_aftereffects_immunity
   - utter_covid_babys_children
-  - utter_covid_current_situation
-  - utter_covid_current_statistics
+  # - utter_covid_current_situation # becomes utter_news_request_hasdata
+  # - utter_covid_current_statistics
+  - utter_covid_current_statistics_region
+  - utter_region_nodata
   - utter_covid_dangerous
   - utter_covid_difference_influenza
   - utter_covid_disease_process
@@ -168,6 +197,7 @@ actions:
   - utter_bot_children
   - utter_bot_color
   - utter_bot_costs
+  - utter_bot_developers
   - utter_bot_differences
   - utter_bot_dislike
   - utter_bot_eyes
@@ -258,13 +288,18 @@ actions:
   - utter_vocative_you_welcome
   - utter_cc_weather
   - utter_further_questions
-  - utter_default
+  - utter_fallback_first
+  - utter_fallback_request_hasdata
+  - utter_fallback_request_emptyanswer
+  - utter_fallback_request_error
   - utter_comment_hot
   - utter_comment_negative
   - utter_comment_offense
   - utter_comment_positive
   - utter_comment_racist
   - utter_comment_smart
+  - utter_news_request_hasdata
+  - utter_news_request_emptyanswer
 
 intents:
   - start
@@ -278,7 +313,7 @@ intents:
   - covid_aftereffects_immunity
   - covid_babys_children
   - covid_current_situation
-  - covid_current_statistics
+  #- covid_current_statistics
   - covid_dangerous
   - covid_difference_influenza
   - covid_disease_process
@@ -400,6 +435,7 @@ intents:
   - bot_children
   - bot_color
   - bot_costs
+  - bot_developers
   - bot_differences
   - bot_dislike
   - bot_eyes
@@ -1308,17 +1344,17 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.</speak>
+            ssml: <speak>Aktuelle Daten zeigen, dass es in {country} derzeit insgesamt {active_cases} aktive Fälle und {total_deaths} Tote seit Beginn der Pandemie gibt.</speak>
           - type: text 
-            text: Die aktuellen Daten zeigen, dass es in {country} derzeit {active_cases} aktive Fälle insgesamt gibt.
+            text: Aktuelle Daten zeigen, dass es in {country} derzeit insgesamt {active_cases} aktive Fälle und {total_deaths} Tote seit Beginn der Pandemie gibt.
 
   utter_covid_situation_infected_critical:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
+            ssml: <speak>Die aktuellen Zahlen weisen darauf hin, dass sich in {country} {total_infected_critical} Menschen in kritischem Zustand befinden.</speak>
           - type: text 
-            text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} exist {total_infected_critical} Menschen in kritischem Zustand befinden.
+            text: Die aktuellen Zahlen weisen darauf hin, dass sich in {country} {total_infected_critical} Menschen in kritischem Zustand befinden.
 
   utter_want_to_add_country:
     - custom:
@@ -1356,29 +1392,51 @@ responses:
               - label: Übertragung
                 value: Übertragung
               - label: Symptomatik 
-                value: Symptomatik 
+                value: Symptomatik
 
-  utter_covid_current_statistics:
+  utter_covid_current_statistics_region:
     - custom:
         answers:
-          - type: ssml   
-            ssml: <speak>Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das Kowitt 19 Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren.</speak>
+          - type: ssml
+            ssml: <speak>Die aktuellen Daten zeigen, dass es in {region} derzeit insgesamt {region_confirmed_accum} Fälle gibt.</speak>
           - type: text
-            text: Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das COVID-19-Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren. Die Links dazu finden Sie eingeblendet. 
-          - type: links
-            links:
-              - title: "Robert Koch-Institut: COVID-19-Dashboard"
-                url: https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4
-              - title: Global Cases by the Center for Systems Science and Engineering
-                url: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-          - type: hints
+            text: Die aktuellen Daten zeigen, dass es in {region} derzeit insgesamt {region_confirmed_accum} Fälle gibt.
+
+  utter_region_nodata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Dazu habe ich leider nichts gefunden. Ich kann Ihnen aber Informationen dazu im Bezug auf Deutschland allgemein liefern. Möchten Sie das?</speak>
+          - type: text
+            text: Dazu habe ich leider nichts gefunden. Ich kann Ihnen aber Informationen dazu im Bezug auf Deutschland allgemein liefern. Möchten Sie das?
+          - type: multichoice
             options:
-              - label: Dauer der Krankheit
-                value: Dauer der Krankheit
-              - label: Vorgehensweise Infektion
-                value: Vorgehensweise Infektion
-              - label: Risikogruppen
-                value: Risikogruppen  
+              - label: Ja
+                value: Ja
+              - label: Nein
+                value: Nein
+
+  # utter_covid_current_statistics:
+  #   - custom:
+  #       answers:
+  #         - type: ssml   
+  #           ssml: <speak>Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das Kowitt 19 Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren.</speak>
+  #         - type: text
+  #           text: Aufgrund der dynamischen Entwicklung des Virus empfehle ich Ihnen, für aktuelle Coronavirus Statistiken in Deutschland einen Blick auf das COVID-19-Dashboard des Robert Koch Instituts zu werfen, und sich für weltweite Statistiken auf dem Dashboard der Johns Hopkins University zu informieren. Die Links dazu finden Sie eingeblendet. 
+  #         - type: links
+  #           links:
+  #             - title: "Robert Koch-Institut: COVID-19-Dashboard"
+  #               url: https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4
+  #             - title: Global Cases by the Center for Systems Science and Engineering
+  #               url: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+  #         - type: hints
+  #           options:
+  #             - label: Dauer der Krankheit
+  #               value: Dauer der Krankheit
+  #             - label: Vorgehensweise Infektion
+  #               value: Vorgehensweise Infektion
+  #             - label: Risikogruppen
+  #               value: Risikogruppen  
 
   utter_covid_mortality_rate:
     - custom:
@@ -2786,6 +2844,18 @@ responses:
           - type: text
             text: Ich bin jeden Cent wert :)
 
+  utter_bot_developers:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: <speak>Mich haben meine Kollegen von Robo.ai entwickelt! Ich rate Ihnen, mal einen Blick auf ihre Website zu werfen!</speak>       
+          - type: text
+            text: Mich haben meine Kollegen von Robo.ai entwickelt! Ich rate Ihnen, mal einen Blick auf ihre Website zu werfen :)
+          - type: links
+            links:
+              - title: ROBO.AI Website
+                url: https://robo-ai.com/
+
   utter_bot_differences:
     - custom:
         answers:
@@ -3756,17 +3826,27 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Willkommen bei Apurina! Ich bin eine virtuelle Assistentin und bin in der Lage, Ihnen Auskunft zu unseren Produkten zu geben. Welche Produktsparte interessiert Sie?</speak>       
+            ssml: <speak>Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?</speak>       
           - type: text
-            text: Willkommen bei Apurina! Ich bin eine virtuelle Assistentin und bin in der Lage, Ihnen Auskunft zu unseren Produkten zu geben. Welche Produktsparte interessiert Sie?
-          - type: multichoice
+            text: Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?
+          - type: hints
             options:
-              - label: Desinfektion
-                value: Desinfektion
-              - label: Geruchsneutralisierung
-                value: Geruchsneutralisierung
-              - label: Reinigung
-                value: Reinigung
+              - label: Kontaktverbot
+                value: Kontaktverbot
+              - label: Schutzmaßnahmen
+                value: Schutzmaßnahmen
+              - label: Zuhause bleiben
+                value: Zuhause bleiben
+              - label: Übertragung
+                value: Übertragung
+              - label: Behandlung
+                value: Behandlung
+              - label: Statistiken
+                value: Statistiken
+              - label: Arbeitsrecht
+                value: Arbeitsrecht
+              - label: Reiserückholprogramm
+                value: Reiserückholprogramm
 
   utter_greeting_hello_introduced_true:
     - custom:
@@ -4102,7 +4182,29 @@ responses:
           - type: text
             text: Haben Sie noch weitere Fragen?
 
-  utter_default:
+  utter_news_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ich habe gerade auf den Seiten der Deutsche Welle und der Tagesschau nachgesehen und ein paar Links gefunden, unter denen Sie mehr darüber erfahren können. Diese finden Sie eingeblendet.</speak>
+          - type: text 
+            text: Ich habe gerade auf den Seiten der Deutsche Welle und der Tagesschau nachgesehen und ein paar Links gefunden, unter denen Sie mehr darüber erfahren können. Diese finden Sie eingeblendet.
+  
+  utter_news_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ich konnte derzeit leider keine Informationen zu diesem Thema ausfindig machen. Ich empfehle Ihnen, die Seiten der Tagesschau und der Deutschen Welle für weitere Informationen zu besuchen.
+          - type: text 
+            text: Ich konnte derzeit leider keine Informationen zu diesem Thema ausfindig machen. Ich empfehle Ihnen, die Seiten der Tagesschau und der Deutschen Welle für weitere Informationen zu besuchen.
+          - type: links
+            links:
+              - title: Tagesschau
+                url: https://www.tagesschau.de/suche2.html?query=covid-19
+              - title: DW
+                url: https://www.dw.com/de/themen/coronavirus/s-42108563
+
+  utter_fallback_first:
     - custom:
         answers:
           - type: ssml
@@ -4112,10 +4214,44 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit Robo äi ai beantworten.</speak>
+            ssml: <speak>Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit dem Coronavirus beantworten.</speak>
           - type: text
-            text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit ROBO.AI beantworten.
-            
+            text: Es tut mir leid, aber das habe ich nicht verstanden. Ich kann hauptsächlich Fragen im Zusammenhang mit dem Coronavirus beantworten.
+  
+  utter_fallback_request_hasdata:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Ich habe gerade auf den Seiten des Bundesgesundheitsministeriums und des Robert Koch Instituts nachgesehen und folgende Informationen für Sie gefunden:</speak>"
+          - type: text
+            text: "Ich habe gerade auf den Seiten des Bundesgesundheitsministeriums und des Robert Koch Instituts nachgesehen und folgende Informationen für Sie gefunden:"
+  
+  utter_fallback_request_emptyanswer:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: "<speak>Nutzen Sie doch eine der folgenden Optionen für weitere Informationen:</speak>"
+          - type: text 
+            text: "Nutzen Sie doch eine der folgenden Optionen für weitere Informationen:"
+          - type: hints
+            options:
+              - label: Über COVID-19
+                value: Über COVID-19
+              - label: Präventive Maßnahmen
+                value: Präventive Maßnahmen
+              - label: Übertragung
+                value: Übertragung
+              - label: Symptome
+                value: Symptome
+
+  utter_fallback_request_error:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Leider habe ich zu diesem Thema keine Informationen ausfindig machen können. Ich empfehle Ihnen, zum Beispiel auf den Seiten des Bundesgesundheitsministeriums oder des Robert Koch Instituts nachzusehen, um verlässliche Informatinoen darüber zu erhalten.</speak> 
+          - type: text 
+            text:  Leider habe ich zu diesem Thema keine Informationen ausfindig machen können. Ich empfehle Ihnen, zum Beispiel auf den Seiten des Bundesgesundheitsministeriums oder des Robert Koch Instituts nachzusehen, um verlässliche Informatinoen darüber zu erhalten.
+  
   utter_cc_weather:
     - custom:
         answers:
@@ -4123,6 +4259,12 @@ responses:
             ssml: <speak>Um Ihnen das genaue Wetter mitzuteilen, müssen Sie mich für einige Minuten nach draußen bringen. Nein! halt! Das war nur ein Scherz.</speak>
           - type: text
             text: Um Ihnen das genaue Wetter mitzuteilen, müssen Sie mich für einige Minuten nach draußen bringen. Nein, halt! Das war nur ein Scherz. :P
+          - type: links
+            links:
+              - title: Bundesministerium für Gesundheit
+                url: https://www.bundesgesundheitsministerium.de/coronavirus.html
+              - title: Robert Koch Institut
+                url: https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV.html
 
   # utter_features_handover:
   #   - custom:
@@ -4131,8 +4273,6 @@ responses:
   #           ssml: <speak>Diese Funktion habe ich derzeit leider nicht zur Verfügung.</speak>
   #         - type: text
   #           text: Diese Funktion habe ich derzeit leider nicht zur Verfügung.
-
-
 
 session_config:
   session_expiration_time: 60

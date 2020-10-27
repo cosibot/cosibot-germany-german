@@ -1,0 +1,1490 @@
+[
+  {
+    "text": "Kinder",
+    "intent": "covid_babys_children",
+    "intent_prediction": {
+      "name": "bot_children",
+      "confidence": 0.5235596299171448
+    }
+  },
+  {
+    "text": "Zahlen",
+    "intent": "covid_babys_children",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.933283269405365
+    }
+  },
+  {
+    "text": "Wie viele Menschen sind infiziert",
+    "intent": "covid_babys_children",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.8908680081367493
+    }
+  },
+  {
+    "text": "Kroner und Ibuprofen",
+    "intent": "covid_incubation",
+    "intent_prediction": {
+      "name": "covid_ibuprofen",
+      "confidence": 0.9016216993331909
+    }
+  },
+  {
+    "text": "Kann Corona für mich gefährlich werden?",
+    "intent": "covid_preexisting_illness",
+    "intent_prediction": {
+      "name": "covid_dangerous",
+      "confidence": 0.8118901252746582
+    }
+  },
+  {
+    "text": "unterschied zwischen influenza und covid",
+    "intent": "covid_sars",
+    "intent_prediction": {
+      "name": "covid_difference_influenza",
+      "confidence": 0.8870660066604614
+    }
+  },
+  {
+    "text": "Ich will wissen ob Fieber ein Symptom ist",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.6483732461929321
+    }
+  },
+  {
+    "text": "Was für Symptome habe ich, wenn ich infiziert bin?",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9240522980690002
+    }
+  },
+  {
+    "text": "wie weiß ich ob ich krank bin?",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9720138907432556
+    }
+  },
+  {
+    "text": "Sag mir ob ich Corona habe",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.8841071724891663
+    }
+  },
+  {
+    "text": "Ich habe Kopfschmerzen",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.5601001977920532
+    }
+  },
+  {
+    "text": "Schutz per Impfung möglich?",
+    "intent": "covid_vaccine",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.5127692818641663
+    }
+  },
+  {
+    "text": "Ich habe Angst",
+    "intent": "covid_worry",
+    "intent_prediction": {
+      "name": "user_scared",
+      "confidence": 0.555618166923523
+    }
+  },
+  {
+    "text": "Ich bin jetzt pleite, wo finde ich Hilfe?",
+    "intent": "economy_consequences",
+    "intent_prediction": {
+      "name": "germany_nomoney",
+      "confidence": 0.815252959728241
+    }
+  },
+  {
+    "text": "Ausbreitungsrisiko von Kowit in Deutschland.",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.5635486841201782
+    }
+  },
+  {
+    "text": "Was braucht man für die Versorgung einer Person für zehn Tage",
+    "intent": "germany_food_buy",
+    "intent_prediction": {
+      "name": "germany_food_shortages",
+      "confidence": 0.6313090324401855
+    }
+  },
+  {
+    "text": "wann machen die schulen wieder auf",
+    "intent": "germany_lockdown_crisis_howlong",
+    "intent_prediction": {
+      "name": "gradual_opening_schools",
+      "confidence": 0.9221591949462891
+    }
+  },
+  {
+    "text": "Kubik 19 Ausbreitung in Deutschland",
+    "intent": "germany_risk",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9691170454025269
+    }
+  },
+  {
+    "text": "Ist jetzt alles vorbei?",
+    "intent": "germany_second_wave",
+    "intent_prediction": {
+      "name": "germany_lockdown_crisis_howlong",
+      "confidence": 0.7970122694969177
+    }
+  },
+  {
+    "text": "Was ist mit der Religion",
+    "intent": "gradual_opening_religious",
+    "intent_prediction": {
+      "name": "cc_religion",
+      "confidence": 0.6350575685501099
+    }
+  },
+  {
+    "text": "Sport machen",
+    "intent": "gradual_opening_sports",
+    "intent_prediction": {
+      "name": "bot_sports",
+      "confidence": 0.5900318622589111
+    }
+  },
+  {
+    "text": "Maskenpflicht in Deutschland",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.5451117157936096
+    }
+  },
+  {
+    "text": "Welcher Mundschutz wird gegen das Coronavirus empfohlen?",
+    "intent": "mask_which",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6314353346824646
+    }
+  },
+  {
+    "text": "Welchen Schutz bietet welche Maske",
+    "intent": "mask_which",
+    "intent_prediction": {
+      "name": "mask_differences",
+      "confidence": 0.561985433101654
+    }
+  },
+  {
+    "text": "Coronavirus als Biowaffe",
+    "intent": "myths_conspiracy_fakenews",
+    "intent_prediction": {
+      "name": "myths_chinese_laboratory",
+      "confidence": 0.4847933053970337
+    }
+  },
+  {
+    "text": "Wo finde ich die aktuellsten Neuigkeiten über den Virus?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9953327775001526
+    }
+  },
+  {
+    "text": "Ich hätte gern die aktuellsten Infos zum Virus",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9805923700332642
+    }
+  },
+  {
+    "text": "Auf welchen Seiten gibt es aktualisierte Informationen über Corona?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9816194176673889
+    }
+  },
+  {
+    "text": "Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9942160248756409
+    }
+  },
+  {
+    "text": "wo finde ich aktuelle Informationen über den Virus",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9874056577682495
+    }
+  },
+  {
+    "text": "Zuverlässige aktuelle Informationen",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9309802055358887
+    }
+  },
+  {
+    "text": "Wo gibt es ausführliche Infos?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.8717747330665588
+    }
+  },
+  {
+    "text": "Wo finde ich ausführliche Informationen?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.8847057223320007
+    }
+  },
+  {
+    "text": "Wie soll man das von einer Erkältung unterscheiden?",
+    "intent": "prevention_medical_attention",
+    "intent_prediction": {
+      "name": "covid_difference_influenza",
+      "confidence": 0.749159574508667
+    }
+  },
+  {
+    "text": "Kann ich noch einkaufen wenn ich in Quarantäne bin?",
+    "intent": "quarantine_dos_and_donts",
+    "intent_prediction": {
+      "name": "germany_food_buy",
+      "confidence": 0.5502004623413086
+    }
+  },
+  {
+    "text": "Quarantäne was geht und was nicht",
+    "intent": "quarantine_dos_and_donts",
+    "intent_prediction": {
+      "name": "quarantine_general",
+      "confidence": 0.6646180748939514
+    }
+  },
+  {
+    "text": "Was darf man in Quarantäne und was nicht",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.9173496961593628
+    }
+  },
+  {
+    "text": "Wann sollte man zuhause bleiben?",
+    "intent": "quarantine_when_who_howlong",
+    "intent_prediction": {
+      "name": "prevention_home",
+      "confidence": 0.7339513897895813
+    }
+  },
+  {
+    "text": "Wann muss ich zu Hause bleiben?",
+    "intent": "quarantine_when_who_howlong",
+    "intent_prediction": {
+      "name": "prevention_home",
+      "confidence": 0.7790795564651489
+    }
+  },
+  {
+    "text": "Welchen Einfluss hat das Wetter",
+    "intent": "spread_heat_cold",
+    "intent_prediction": {
+      "name": "cc_weather",
+      "confidence": 0.8849789500236511
+    }
+  },
+  {
+    "text": "Kann ich mich über Wasser infizieren?",
+    "intent": "spread_surfaces_food_objects",
+    "intent_prediction": {
+      "name": "germany_spread_water",
+      "confidence": 0.8462050557136536
+    }
+  },
+  {
+    "text": "Ist der Virus über Wasser übertragbar?",
+    "intent": "spread_surfaces_food_objects",
+    "intent_prediction": {
+      "name": "germany_spread_water",
+      "confidence": 0.6200142502784729
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test auf Covid 19",
+    "intent": "test_per_day",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.5901610851287842
+    }
+  },
+  {
+    "text": "Ich möchte mich testen lassen.",
+    "intent": "test_virus",
+    "intent_prediction": {
+      "name": "test_who",
+      "confidence": 0.5046281814575195
+    }
+  },
+  {
+    "text": "Ich will einen Test machen.",
+    "intent": "test_virus",
+    "intent_prediction": {
+      "name": "test_who",
+      "confidence": 0.583864688873291
+    }
+  },
+  {
+    "text": "Wie lasse ich mich testen?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.5093012452125549
+    }
+  },
+  {
+    "text": "Kann ich mich auch testen lassen?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.7451215386390686
+    }
+  },
+  {
+    "text": "Kann ich mich testen lassen?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.6394720077514648
+    }
+  },
+  {
+    "text": "Dinge, die auf Reisen zu beachten sind.",
+    "intent": "travel_before",
+    "intent_prediction": {
+      "name": "travel_while",
+      "confidence": 0.9571124911308289
+    }
+  },
+  {
+    "text": "Bist du nicht mehr da?",
+    "intent": "vocative_call",
+    "intent_prediction": {
+      "name": "comment_negative",
+      "confidence": 0.5639153718948364
+    }
+  },
+  {
+    "text": "Kannst du mal antworten?",
+    "intent": "vocative_call",
+    "intent_prediction": {
+      "name": "bot_real",
+      "confidence": 0.43700575828552246
+    }
+  },
+  {
+    "text": "Sind wir Freunde?",
+    "intent": "user_friend",
+    "intent_prediction": {
+      "name": "bot_friends",
+      "confidence": 0.4478549361228943
+    }
+  },
+  {
+    "text": "Wie kannst du mir helfen?",
+    "intent": "bot_capabilities",
+    "intent_prediction": {
+      "name": "vocative_help",
+      "confidence": 0.7926203012466431
+    }
+  },
+  {
+    "text": "Ich weiß es auch nicht was kannst Du denn noch für mich tun?",
+    "intent": "bot_capabilities",
+    "intent_prediction": {
+      "name": "comment_negative",
+      "confidence": 0.435345321893692
+    }
+  },
+  {
+    "text": "Magst du lieber Hunde oder Katzen?",
+    "intent": "bot_animal",
+    "intent_prediction": {
+      "name": "bot_pets",
+      "confidence": 0.6629670858383179
+    }
+  },
+  {
+    "text": "Bist Du eine Sie",
+    "intent": "bot_real",
+    "intent_prediction": {
+      "name": "bot_gender",
+      "confidence": 0.5673226118087769
+    }
+  },
+  {
+    "text": "Wann wurdest du geschaffen?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.4963836967945099
+    }
+  },
+  {
+    "text": "Bots ängste",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_fear",
+      "confidence": 0.5817215442657471
+    }
+  },
+  {
+    "text": "Bist du ein Kind?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_children",
+      "confidence": 0.5182577967643738
+    }
+  },
+  {
+    "text": "Kannst du sagen, wann du erschaffen wurdest?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.6629008650779724
+    }
+  },
+  {
+    "text": "Sind deine Augen blau?",
+    "intent": "bot_costs",
+    "intent_prediction": {
+      "name": "bot_eyes",
+      "confidence": 0.8522610068321228
+    }
+  },
+  {
+    "text": "Wer ist deine Mutter?",
+    "intent": "bot_developers",
+    "intent_prediction": {
+      "name": "bot_parents",
+      "confidence": 0.804423451423645
+    }
+  },
+  {
+    "text": "Wer sind deine Eltern?",
+    "intent": "bot_developers",
+    "intent_prediction": {
+      "name": "bot_parents",
+      "confidence": 0.4922376275062561
+    }
+  },
+  {
+    "text": "Wer ist dein Vater?",
+    "intent": "bot_developers",
+    "intent_prediction": {
+      "name": "bot_parents",
+      "confidence": 0.7193026542663574
+    }
+  },
+  {
+    "text": "Von woher kommst du?",
+    "intent": "bot_developers",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.6213504672050476
+    }
+  },
+  {
+    "text": "Woher kommst du?",
+    "intent": "bot_developers",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.9503255486488342
+    }
+  },
+  {
+    "text": "Bist du besser als Alexa?",
+    "intent": "bot_eyes",
+    "intent_prediction": {
+      "name": "bot_differences",
+      "confidence": 0.9290920495986938
+    }
+  },
+  {
+    "text": "Magst du Computerspiele",
+    "intent": "bot_games",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.5581032037734985
+    }
+  },
+  {
+    "text": "Bist du ein Mädchen",
+    "intent": "bot_gender",
+    "intent_prediction": {
+      "name": "cc_drugs",
+      "confidence": 0.8897372484207153
+    }
+  },
+  {
+    "text": "Was ist deine Haarfarbe?",
+    "intent": "bot_hair",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.5763325691223145
+    }
+  },
+  {
+    "text": "Welche Haarfarbe hast du?",
+    "intent": "bot_hair",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.504876971244812
+    }
+  },
+  {
+    "text": "Deine Haarfarbe.",
+    "intent": "bot_hair",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.5223318934440613
+    }
+  },
+  {
+    "text": "Was für Spiele magst du?",
+    "intent": "bot_origin",
+    "intent_prediction": {
+      "name": "bot_games",
+      "confidence": 0.977607011795044
+    }
+  },
+  {
+    "text": "Wer hat dich entwickelt",
+    "intent": "bot_origin",
+    "intent_prediction": {
+      "name": "bot_developers",
+      "confidence": 0.8007411360740662
+    }
+  },
+  {
+    "text": "Bist du teuer?",
+    "intent": "bot_parents",
+    "intent_prediction": {
+      "name": "bot_costs",
+      "confidence": 0.9763869643211365
+    }
+  },
+  {
+    "text": "Welche Tiere magst du am liebsten?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8399071097373962
+    }
+  },
+  {
+    "text": "Sag mir was dein Lieblingstier ist.",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.9019988775253296
+    }
+  },
+  {
+    "text": "Erzähl mir etwas über dein Lieblingstier.",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8996782302856445
+    }
+  },
+  {
+    "text": "Welches Tier magst du am liebsten?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8194575905799866
+    }
+  },
+  {
+    "text": "Was ist dein Lieblingshaustier?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.6536533832550049
+    }
+  },
+  {
+    "text": "möchten Sie ein Tier haben?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.563266932964325
+    }
+  },
+  {
+    "text": "Dein Lieblingshaustier.",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.5487608909606934
+    }
+  },
+  {
+    "text": "Welche Lieblingstiere haben Sie?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8062806725502014
+    }
+  },
+  {
+    "text": "Welches Lieblingstier hast du?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8042930960655212
+    }
+  },
+  {
+    "text": "Nennen Sie Ihr Lieblingstier",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.5694176554679871
+    }
+  },
+  {
+    "text": "Sagen Sie mir, welches Tier Ihnen am besten gefällt",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.6605501770973206
+    }
+  },
+  {
+    "text": "Nenne ein Tier, das du liebst",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.5537298917770386
+    }
+  },
+  {
+    "text": "Nenne ein Tier, das du hasst",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.5379136800765991
+    }
+  },
+  {
+    "text": "Magst du Tiere?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.7142863869667053
+    }
+  },
+  {
+    "text": "Was ist dein Lieblingstier?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8421100974082947
+    }
+  },
+  {
+    "text": "Was ist Ihr Lieblingstier?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.811737060546875
+    }
+  },
+  {
+    "text": "Dein Lieblingstier",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.7667514681816101
+    }
+  },
+  {
+    "text": "Sag mir dein Lieblingstier",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8616222739219666
+    }
+  },
+  {
+    "text": "Du magst Tiere?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.5647207498550415
+    }
+  },
+  {
+    "text": "Welches Tier ziehst du vor?",
+    "intent": "bot_pets",
+    "intent_prediction": {
+      "name": "bot_animal",
+      "confidence": 0.8280783891677856
+    }
+  },
+  {
+    "text": "Wer sind deine Freunde",
+    "intent": "bot_profession",
+    "intent_prediction": {
+      "name": "bot_friends",
+      "confidence": 0.7790200114250183
+    }
+  },
+  {
+    "text": "Hast du eine Frau",
+    "intent": "bot_relationship",
+    "intent_prediction": {
+      "name": "bot_gender",
+      "confidence": 0.4997468590736389
+    }
+  },
+  {
+    "text": "Du siehst so sexy aus.",
+    "intent": "bot_sexual",
+    "intent_prediction": {
+      "name": "comment_hot",
+      "confidence": 0.7252189517021179
+    }
+  },
+  {
+    "text": "Ich will mit dir Liebe machen.",
+    "intent": "bot_sexual",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.9692761301994324
+    }
+  },
+  {
+    "text": "Hast du Geschwister?",
+    "intent": "bot_sibling",
+    "intent_prediction": {
+      "name": "bot_places",
+      "confidence": 0.5551161170005798
+    }
+  },
+  {
+    "text": "Kennst du deine Geschwister?",
+    "intent": "bot_sibling",
+    "intent_prediction": {
+      "name": "bot_places",
+      "confidence": 0.5013139843940735
+    }
+  },
+  {
+    "text": "Wissen Sie, ob Sie Geschwister haben?",
+    "intent": "bot_sibling",
+    "intent_prediction": {
+      "name": "bot_places",
+      "confidence": 0.5397403240203857
+    }
+  },
+  {
+    "text": "Worüber unterhalten Sie sich am liebsten?",
+    "intent": "bot_words",
+    "intent_prediction": {
+      "name": "cc_lets_talk",
+      "confidence": 0.5022063851356506
+    }
+  },
+  {
+    "text": "Wetter ändern",
+    "intent": "cc_keys",
+    "intent_prediction": {
+      "name": "cc_make_weather",
+      "confidence": 0.6057931184768677
+    }
+  },
+  {
+    "text": "Sprich mit mir.",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.7561707496643066
+    }
+  },
+  {
+    "text": "Wo ist mein Schlüssel?",
+    "intent": "cc_newspaper",
+    "intent_prediction": {
+      "name": "cc_keys",
+      "confidence": 0.9580222964286804
+    }
+  },
+  {
+    "text": "Was kannst du erreichen?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "bot_goal",
+      "confidence": 0.6925998330116272
+    }
+  },
+  {
+    "text": "Ist das Leben ein Traum?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "bot_goal",
+      "confidence": 0.927505612373352
+    }
+  },
+  {
+    "text": "Hast du eine Zeitung?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "cc_newspaper",
+      "confidence": 0.9654260277748108
+    }
+  },
+  {
+    "text": "Was ist Liebe?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.9897717833518982
+    }
+  },
+  {
+    "text": "Was ist der Unterschied zwischen Leben und Leben?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.6965124607086182
+    }
+  },
+  {
+    "text": "Ich will einen Klatsch.",
+    "intent": "cc_story",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.5571737885475159
+    }
+  },
+  {
+    "text": "Erzähl mir eine Geschichte.",
+    "intent": "cc_story",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.966122031211853
+    }
+  },
+  {
+    "text": "Was passiert nach unserem Tod",
+    "intent": "cc_afterlife",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.9878630042076111
+    }
+  },
+  {
+    "text": "Wohin gehe ich, wenn ich sterbe?",
+    "intent": "cc_afterlife",
+    "intent_prediction": {
+      "name": "covid_mortality_rate",
+      "confidence": 0.7483243346214294
+    }
+  },
+  {
+    "text": "Was willst du wissen?",
+    "intent": "cc_make_question",
+    "intent_prediction": {
+      "name": "bot_capabilities",
+      "confidence": 0.6002510190010071
+    }
+  },
+  {
+    "text": "Lieblingsautor",
+    "intent": "bot_books",
+    "intent_prediction": {
+      "name": "bot_author",
+      "confidence": 0.7084178924560547
+    }
+  },
+  {
+    "text": "Wer ist dein Lieblingsschriftsteller?",
+    "intent": "bot_books",
+    "intent_prediction": {
+      "name": "bot_author",
+      "confidence": 0.982927143573761
+    }
+  },
+  {
+    "text": "Hast du eine Frau?",
+    "intent": "bot_relationship",
+    "intent_prediction": {
+      "name": "bot_gender",
+      "confidence": 0.4997473359107971
+    }
+  },
+  {
+    "text": "Welche Serie schaust du?",
+    "intent": "bot_relationship",
+    "intent_prediction": {
+      "name": "bot_series",
+      "confidence": 0.9612585306167603
+    }
+  },
+  {
+    "text": "Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?",
+    "intent": "bot_movies",
+    "intent_prediction": {
+      "name": "bot_actor",
+      "confidence": 0.6804513335227966
+    }
+  },
+  {
+    "text": "Was ist deine Lieblingsserie?",
+    "intent": "bot_series",
+    "intent_prediction": {
+      "name": "bot_movies",
+      "confidence": 0.5459814667701721
+    }
+  },
+  {
+    "text": "Welche ist deine Lieblingsserie?",
+    "intent": "bot_series",
+    "intent_prediction": {
+      "name": "bot_movies",
+      "confidence": 0.5954170823097229
+    }
+  },
+  {
+    "text": "Nenne mir deine Lieblingsserie",
+    "intent": "bot_series",
+    "intent_prediction": {
+      "name": "bot_movies",
+      "confidence": 0.5113642811775208
+    }
+  },
+  {
+    "text": "Welche Farbe haben Deine Augen",
+    "intent": "bot_appearance",
+    "intent_prediction": {
+      "name": "bot_eyes",
+      "confidence": 0.9459689855575562
+    }
+  },
+  {
+    "text": "Sind wir heute lustig?",
+    "intent": "cc_joke",
+    "intent_prediction": {
+      "name": "user_laugh",
+      "confidence": 0.7021294832229614
+    }
+  },
+  {
+    "text": "Liest du gern Romane?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.8160708546638489
+    }
+  },
+  {
+    "text": "Liest du gern Thriller?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.8612110018730164
+    }
+  },
+  {
+    "text": "Lesen Sie gern?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.9860090613365173
+    }
+  },
+  {
+    "text": "Liest du Bücher?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.9600648283958435
+    }
+  },
+  {
+    "text": "Liest du gern Bücher?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.8340458869934082
+    }
+  },
+  {
+    "text": "Mögen Sie Computerspiele?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_games",
+      "confidence": 0.5345490574836731
+    }
+  },
+  {
+    "text": "Liest du gern Krimis?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.8418651223182678
+    }
+  },
+  {
+    "text": "Liest du gern Zeitschriften?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.7807081937789917
+    }
+  },
+  {
+    "text": "Spielst du Computerspiele?",
+    "intent": "bot_hobbies",
+    "intent_prediction": {
+      "name": "bot_games",
+      "confidence": 0.5336320996284485
+    }
+  },
+  {
+    "text": "Bist du heiß?",
+    "intent": "comment_offense",
+    "intent_prediction": {
+      "name": "comment_hot",
+      "confidence": 0.6777815222740173
+    }
+  },
+  {
+    "text": "Lachen",
+    "intent": "user_laugh",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.8807157874107361
+    }
+  },
+  {
+    "text": "Du bringst mich zum Lachen",
+    "intent": "user_laugh",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.9030630588531494
+    }
+  },
+  {
+    "text": "Ich muss so lachen",
+    "intent": "user_laugh",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.9128188490867615
+    }
+  },
+  {
+    "text": "Ich habe Fieber.",
+    "intent": "user_angry",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9537870287895203
+    }
+  },
+  {
+    "text": "Ich fühle mich krank.",
+    "intent": "user_angry",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9848474264144897
+    }
+  },
+  {
+    "text": "Ich bin müde.",
+    "intent": "user_angry",
+    "intent_prediction": {
+      "name": "user_tired",
+      "confidence": 0.6534748077392578
+    }
+  },
+  {
+    "text": "Ich bin krank.",
+    "intent": "user_angry",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.8073587417602539
+    }
+  },
+  {
+    "text": "Mir scheint, ich bin müde.",
+    "intent": "user_tired",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.510969877243042
+    }
+  },
+  {
+    "text": "Ich bin echt müde.",
+    "intent": "user_tired",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.5441102385520935
+    }
+  },
+  {
+    "text": "Ich fühle mich abgeschlagen.",
+    "intent": "user_tired",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.8760936856269836
+    }
+  },
+  {
+    "text": "Du bist so hübsch!",
+    "intent": "comment_hot",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.5605027675628662
+    }
+  },
+  {
+    "text": "Du riechst so gut.",
+    "intent": "comment_hot",
+    "intent_prediction": {
+      "name": "comment_offense",
+      "confidence": 0.4030289351940155
+    }
+  },
+  {
+    "text": "Sie machen das super.",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9856379628181458
+    }
+  },
+  {
+    "text": "Wie intelligent!",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.749522864818573
+    }
+  },
+  {
+    "text": "Du machst das gut.",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9481925964355469
+    }
+  },
+  {
+    "text": "Ich finde dich sehr intelligent",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.802990734577179
+    }
+  },
+  {
+    "text": "Du bist sehr intelligent",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.8189051151275635
+    }
+  },
+  {
+    "text": "Sie sprechen sehr intelligent.",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.5068432688713074
+    }
+  },
+  {
+    "text": "Du bist gut",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9458432197570801
+    }
+  },
+  {
+    "text": "Du machst das gut",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9481925964355469
+    }
+  },
+  {
+    "text": "Du hast Intelligenz.",
+    "intent": "comment_smart",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.9609066247940063
+    }
+  },
+  {
+    "text": "Ich finde dich schön.",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.5048749446868896
+    }
+  },
+  {
+    "text": "Du bist ein schlauer Bot",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "bot_intelligence",
+      "confidence": 0.7987274527549744
+    }
+  },
+  {
+    "text": "Danke, du hast mir geholfen",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.7136199474334717
+    }
+  },
+  {
+    "text": "Du bist sexy.",
+    "intent": "comment_racist",
+    "intent_prediction": {
+      "name": "comment_hot",
+      "confidence": 0.7959057092666626
+    }
+  },
+  {
+    "text": "Bist du da",
+    "intent": "greeting_hello",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.8587070107460022
+    }
+  },
+  {
+    "text": "Noch da?",
+    "intent": "greeting_hello",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.5582943558692932
+    }
+  },
+  {
+    "text": "Grüße dich, Partner!",
+    "intent": "greeting_hello",
+    "intent_prediction": {
+      "name": "bot_relationship",
+      "confidence": 0.830841600894928
+    }
+  },
+  {
+    "text": "Welchen Namen trägst du?",
+    "intent": "bot_name",
+    "intent_prediction": {
+      "name": "bot_appearance",
+      "confidence": 0.9118152856826782
+    }
+  },
+  {
+    "text": "Servus!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.9003006815910339
+    }
+  },
+  {
+    "text": "Grüße!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.9537053108215332
+    }
+  },
+  {
+    "text": "Machen Sie es gut!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.8381848931312561
+    }
+  },
+  {
+    "text": "Liebst Du jemanden?",
+    "intent": "user_love",
+    "intent_prediction": {
+      "name": "bot_relationship",
+      "confidence": 0.6513136029243469
+    }
+  },
+  {
+    "text": "Willst Du mein Freund sein?",
+    "intent": "user_love",
+    "intent_prediction": {
+      "name": "user_friend",
+      "confidence": 0.5013943910598755
+    }
+  },
+  {
+    "text": "Gar nichts.",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.5272968411445618
+    }
+  },
+  {
+    "text": "Na.",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.8421261310577393
+    }
+  },
+  {
+    "text": "nichts mehr danke",
+    "intent": "nothingmore",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.6023992896080017
+    }
+  },
+  {
+    "text": "nichts danke",
+    "intent": "nothingmore",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.5458459854125977
+    }
+  },
+  {
+    "text": "Das war alles",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.5666959285736084
+    }
+  },
+  {
+    "text": "Du hast mir gut geholfen",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.7971535325050354
+    }
+  },
+  {
+    "text": "Du machst mir Angst.",
+    "intent": "user_scared",
+    "intent_prediction": {
+      "name": "bot_fear",
+      "confidence": 0.5743221044540405
+    }
+  },
+  {
+    "text": "Du hast mir Angst gemacht.",
+    "intent": "user_scared",
+    "intent_prediction": {
+      "name": "bot_fear",
+      "confidence": 0.6421812772750854
+    }
+  },
+  {
+    "text": "Mit Vergnügen.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.7485785484313965
+    }
+  },
+  {
+    "text": "Immer doch.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "vocative_you_welcome",
+      "confidence": 0.5684967041015625
+    }
+  },
+  {
+    "text": "OK.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "user_particles",
+      "confidence": 0.7558956742286682
+    }
+  },
+  {
+    "text": "Gut.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.5049214959144592
+    }
+  },
+  {
+    "text": "Perfekt.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.963854968547821
+    }
+  },
+  {
+    "text": "Okay.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "user_particles",
+      "confidence": 0.5417556762695312
+    }
+  },
+  {
+    "text": "Sehr gut.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.8423303961753845
+    }
+  },
+  {
+    "text": "Südafrika",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "cc_geography",
+      "confidence": 0.7502596378326416
+    }
+  }
+]

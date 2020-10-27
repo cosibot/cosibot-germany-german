@@ -1964,31 +1964,18 @@ Wo gibt es die meisten erkrankten
 - Personen in kritischem Zustand in [Österreich]{"entity": "country_code", "value": "AT"}.
 - Infizierte in kritischem Zustand in [Niederlande]{"entity": "country_code", "value": "NL"}.
 
-<!-- ## intent:covid_surfaces
-- Wie lange überlebt der Virus auf Oberflächen?
-- Was steigert die Lebensdauer von Coronaviren?
-- Was ist die Lebensdauer der Coronaviren?
-- Was ist die Lebensdauer von den Viren?
-- Wie lange überleben Coronaviren auf Oberflächen?
-- Wie lange überleben Coronaviren auf Flächen?
-- Steigert Kälte die Lebensdauer von den Coronaviren?
-- Wie lange ist der Virus außerhalb des Körpers lebens- und infektionsfähig?
-- Wie lange sind die Viren auf den Oberflächen überlebensfähig?
-- Wie lange bleiben die Viren auf den Oberflächen?
-- Können die Viren auf Haltestangen überleben?
-- Können die Viren auf Türklinken überleben?
-- Wie lange kann der Virus auf Oberflächen überleben?
-- Wie lange können die Viren in öffentlichen Verkehrsmitteln überleben?
-- Wie lange überleben die Viren auf Oberflächen?
-- Wie lange überleben die Viren?
-- Wie lange ist das SARS-CoV-2 Virus außerhalb des Körpers noch lebens- und infektionsfähig?
-- Wie lange überlebt Corona auf einer Oberfläche?
-- Wie lange ist das SARS-CoV-2 Virus außerhalb des Körpers noch lebens- und infektionsfähig? (z.B. auf Türklinken, Haltestangen in öffentlichen Verkehrsmitteln oder Mikrofonen)
-- Wie viele Tage können die Coronaviren überleben?
-- Wie lange kann der Virusauf Oberflächen infektiös bleiben?
-- Wie viele Tage bleiben die Coronaviren auf Oberflächen infektös?
-- Wie lange überleben die Viren auf Türklinken?
-- Wie ist die Lebensdauer vom Corona Virus? -->
+## intent:covid_unknown_cases
+- Die Rolle der Dunkelziffer bei Covid-19
+- Dunkelziffern
+- Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Erkrankten-Dunkelziffer
+- Was kannst du mir zur Dunkelziffer sagen
+- Was sagt die Dunkelziffer
+- Dunkelziffer Coronavirus
+- Schätzung der Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Wie hoch ist die Dunkelziffer
 
 ## intent:covid_symptoms
 - Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
@@ -2217,48 +2204,79 @@ Wo gibt es die meisten erkrankten
 - Wie lange wird es dauern, bis ein Impfstoff entwickelt wird?
 - Wann kommt Impfstoff?
 
-## intent:covid_worry
-- Muss man jetzt Angst haben vor Kowit 19?
-- Muss ich mir wegen Kowit 19 Sorgen machen?
-- Wie berechtigt ist die Angst vor Covid-19?
-- Sollte man sich jetzt aufgrund von Covid-19 Gedanken machen?
-- Angst vor Covid-19
-- Muss man jetzt Angst haben vor Covid-19?
-- Muss ich jetzt Angst vor dem Coronavirus haben?
-- Angst vor Corona-Virus
-- Ich habe Angst vor dem Virus
-- Ich beginne mir ernsthaft Sorgen zu machen.
-- Ich mache mir sehr sorgen um den Virus!
-- Ich bin panisch
-- Müssen wir uns ernsthafte Sorgen machen?
-- Soll ich panisch sein?
-- Sorge vor dem Corona-Virus
-- Coronavirus alles nur Panik Mache?
-- Alles nur Panikmache?
-- Alles nur Panikmacherei?
-- Muss man jetzt Angst haben wegen dem Virus?
-- Muss ich mir um meine Familie Sorgen machen?
-- Sollte man sich jetzt aufgrund des Coronavirus Gedanken machen?
-- Muss ich jetzt Angst haben?
-- Sollte man sich jetzt aufgrund von Kowit 19 Gedanken machen?
-- Muss ich mir wegen dem Coronavirus jetzt ernsthaft Sorgen machen?
-- Wie berechtigt ist die Angst vor Kowit 19?
-- Muss ich mir wegen COVID-19 Sorgen machen?
-- Sorge
-- Gibt es einen Grund, sich jetzt Sorgen zu machen?
-- Panik
-- Angst
-- In Panik geraten
-- Panik Ausbruch
-- Ich habe Angst
-- warum drehen alle durch?
-- Bricht jetzt Panik aus
-- spinnen die alle?
-- Wie berechtigt ist die Angst vor dem Coronavirus?
-- Angst vor Coronavirus
-- Wie viel Angst muss man wirklich haben?
-- Ich mache mir sehr sorgen
-- Angst vor Kowit 19
+## intent:quarantine_how_it_works
+- Wie soll ich mich unter Quarantäne verhalten?
+- Was ist Heimquarantäne und wie funktioniert sie?
+- Wie läuft eine Heimquarantäne ab?
+- Was muss ich beachten, wenn ich in Quarantäne bin?
+- Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?
+- Regeln der Ausgangssperre
+- Was muss ich beachten, wenn ich zuhause bleibe?
+- Tipps bei häuslicher Quarantäne
+- Wie läuft das in der Quarantäne ab?
+- Was ist mit Körperkontakt in Quarantäne?
+- Geht noch Sex in der Quarantäne?
+- Geht noch küssen in Quarantäne?
+- Welche Regeln muss man bei der Quarantäne beachten
+- Wie funktioniert die Quarantäne
+- Was darf man in Quarantäne und was nicht
+- Was ist bei einer Ausgangssperre zu beachten
+- Wie funktioniert die Ausgangssperre
+- Was ist bei einer Ausgangssperre zu tun?
+- Was ist bei häuslicher Quarantäne zu beachten?
+- Was gibt es bei der Quarantäne alles zu beachten?
+- Was tun, wenn man zuhause bleiben muss?
+- Wie läuft die Quarantäne ab?
+- Wie funktioniert die Heimquarantäne?
+- Quarantäne - Verhaltensregeln
+- Verhaltensregeln in Heimquarantäne
+- Ablauf häusliche Quarantäne
+- Wie soll ich mich bei einer Quarantäne verhalten?
+- Was soll ich bei einer Quarantäne beachten?
+- Wie sieht die Quarantäne aus?
+- Wie funkioniert eine Quarantäne?
+- Corona wie funktioniert die Quarantäne?
+- Worauf muss ich bei der Ausgangs Sperre achten?
+- Was ist bei Ausgangssperre zu beachten?
+- Und wie soll man denn zuhause behandelt werden?
+- Was passiert bei häuslicher Quarantäne?
+- Erkläre mir, wie so eine Quarantäne abläuft.
+- Wie funktioniert das mit der Quarantäne?
+- Was muss ich beachten wenn ich in Quarantäne geschickt wurde?
+- Was muss ich beachten wenn ich zuhause bleiben muss?
+- Was muss ich machen wenn ich in Quarantäne bin?
+- Wie verhält man sich unter Quarantäne?
+- Wie funktioniert die häusliche Quarantäne beim Coronavirus?
+- Wie funktioniert die häusliche Quarantäne?
+- Wie geht das mit der Quarantäne?
+- Wie verhalte ich mich in häuslicher Quarantäne?
+- Ablauf und Dauer der häuslichen Quarantäne
+ 
+## intent:test_how
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Corona Test
+- Wann bekommt man Ergebnisse bei dem Test
+- Wann sind die Ergebnisse des Tests da
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert ein Corona-Test?
+- Wie wird der Test durchgeführt?
+- Wie läuft der Test ab
+- Wie lange dauert die Testzeit
+- Testzeit
+- Wie lange dauert der Test
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie funktioniert der Coronavirus Test
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert der Test auf Sars-CoV-2
+- Corona Test Wie funktioniert der Test
 
 ## intent:covid_current_situation
 - Situation in anderen Ländern
@@ -2468,112 +2486,211 @@ Wo gibt es die meisten erkrankten
 - Aktuelle Informationen in Deutschland
 - Wie ist die Situation Deutschlands einzuschätzen?
 
-## intent:germany_food_buy
-- Was soll ich für 14 Tage Quarantäne einkaufen
-- Was soll ich für 2 Wochen Quarantäne einkaufen
-- Was muss man für 2 Wochen alles einkaufen?
-- Was sollte ich für zwei Wochen Quarantäne kaufen
-- Was muss ich für zwei Wochen an Vorrat zu Hause haben
-- Was muss ich für eine zweiwöchige Quarantäne an Vorrat alles zu Hause haben
-- Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben
-- Wie kann ich mich auf häusliche Quarantäne vorbereiten?
-- Wie kann sich jeder einzelne auf häusliche Quarantäne vorbereiten?
-- Was muss ich einkaufen für häusliche Quarantäne?
-- Wie soll ich mich selbst auf die Quarantäne vorbereiten
-- Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben
-- Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?
-- Was muss ich einkaufen, wenn ich in Quarantäne bin
-- Was braucht man für die Versorgung einer Person für zehn Tage
-- Was soll ich für 10 Tage Quarantäne kaufen
+<!-- ## intent:covid_surfaces
+- Wie lange überlebt der Virus auf Oberflächen?
+- Was steigert die Lebensdauer von Coronaviren?
+- Was ist die Lebensdauer der Coronaviren?
+- Was ist die Lebensdauer von den Viren?
+- Wie lange überleben Coronaviren auf Oberflächen?
+- Wie lange überleben Coronaviren auf Flächen?
+- Steigert Kälte die Lebensdauer von den Coronaviren?
+- Wie lange ist der Virus außerhalb des Körpers lebens- und infektionsfähig?
+- Wie lange sind die Viren auf den Oberflächen überlebensfähig?
+- Wie lange bleiben die Viren auf den Oberflächen?
+- Können die Viren auf Haltestangen überleben?
+- Können die Viren auf Türklinken überleben?
+- Wie lange kann der Virus auf Oberflächen überleben?
+- Wie lange können die Viren in öffentlichen Verkehrsmitteln überleben?
+- Wie lange überleben die Viren auf Oberflächen?
+- Wie lange überleben die Viren?
+- Wie lange ist das SARS-CoV-2 Virus außerhalb des Körpers noch lebens- und infektionsfähig?
+- Wie lange überlebt Corona auf einer Oberfläche?
+- Wie lange ist das SARS-CoV-2 Virus außerhalb des Körpers noch lebens- und infektionsfähig? (z.B. auf Türklinken, Haltestangen in öffentlichen Verkehrsmitteln oder Mikrofonen)
+- Wie viele Tage können die Coronaviren überleben?
+- Wie lange kann der Virusauf Oberflächen infektiös bleiben?
+- Wie viele Tage bleiben die Coronaviren auf Oberflächen infektös?
+- Wie lange überleben die Viren auf Türklinken?
+- Wie ist die Lebensdauer vom Corona Virus? -->
 
-## intent:germany_food_shortages
-- Werden die Supermärkte leer sein?
-- Wird es Engpässe mit Lebensmitteln geben?
-- Sollte man jetzt Lebensmittel auf Vorrat kaufen?
-- Was sagst du zu Hamsterkäufen?
-- Machen Hamster Käufe Sinn?
-- Sind in Deutschland Versorgungsengpässe mit Lebensmitteln zu befürchten?
-- Muss ich mit Lebensmittelknappheit rechnen?
-- Hamster Käufe
-- Hamster Kaufen
-- Hamsterkäufe
-- Welche Lebensmittel sollte man im Notfall zuhause haben?
-- Machen Hamsterkäufe Sinn?
-- Für wieviele Tage soll man genug Lebensmittel haben?
-- Lebensmittel Engpässe
-- Ist die Lebensmittelversorgung im Fall einer weiteren Ausbreitung des Coronavirus noch gesichert?
-- Verursachen Hamsterkäufe Lebensmittelknappheit?
-- Lebensmittelengpässe
-- Gibt es Lebensmittelengpässe
-- Werden wir noch genug zu Essen haben?
-- Soll ich jetzt auf Vorrat kaufen?
-- Wie ist die Versorgungslage in Deutschland
-- Sind jetzt Lieferengpässe bei den Lebensmitteln zu befürchten?
-- Wie ist die Versorgungslage in Deutschland?
-- Sind Lebensmittel Engpässe zu befürchten
-- Wird es noch genug zu Essen geben?
-- Werden die Supermarkt Regale leer sein?
-- Weshalb stehen dann doch viele Regale leer?
-- Es gibt bereits leere Supermarkt-Regal
-- Leere Nudelregale in den Supermärkten
-- Leere Supermarktregale wegen Coronavirus?
-- Lebensmittelknappheit
-- Lebensmittel knappheit
-- Muss man jetzt Essen auf Vorraut kaufen?
-- Wird es noch genug Lebensmittel in Deutschland geben
-- Ist es jetzt ratsam, Hamsterkäufe zu machen?
+## intent:covid_symptoms
+- Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
+- Bin ich inviziert durch verschleimungserscheinungen in den Nasennebenhöhlen und der Lunge?
+- kopfweh
+- wie ändert sich der geschmacksinn bei corona?
+- Ich kann nichts mehr schmecken
+- Ich kann nichts mehr riechen und schmecken
+- Ich habe keinen Geruchssinn mehr
+- ist der verlust des geschmacksinns auch ein sympton für corona?
+- was sind erste anzeichen
+- Sag mir ob ich infiziert bin
+- Wie merke ich, dass ich krank bin?
+- Was ist die Symptomatik?
+- symptome
+- Kratzen im Hals
+- Was mache ich, wenn ich ein Kratzen im Hals habe?
+- Ich habe Kratzen im Hals
+- Welche Symptome gibt es?
+- Was sind die Symptome von cupid 19?
+- Welche Krankheitsmerkmale weist der cupid 19 auf?
+- Ich will wissen ob Fieber ein Symptom ist
+- Körpertemperatur
+- Ist Fieber auch ein Symptom?
+- Was sind die Symptome von qubeat 19?
+- Welche Krankheitsmerkmale weist der qubeat 19 auf?
+- Was sind die Symptome von cookit 19?
+- Was sind die Symptome von kuhweg 19?
+- Welche Krankheitsmerkmale weist der kuhweg 19 auf?
+- Woran erkenne ich, ob ich auch infiziert bin?
+- Woran merkt man, ob man auch erkrankt ist?
+- Wozu führt die Ansteckung mit dem Virus?
+- Worunter leiden die Infizierten?
+- Symptome SARS-Cov-2
+- Zu welchen Symptome führt die Ansteckung mit dem Virus?
+- Wie äußert sich die Infektion?
+- Wie sieht es mit der Symptomatik des Kowit 19 aus?
+- Worunter leiden Infizierte?
+- Welche Krankheitsmerkmale weist der Q19 auf?
+- Was sind die Symptome von Q19?
+- Welche Krankheitsmerkmale weist der cookit 19 auf?
+- Was sind die Krankheitszeichen?
+- Was sind die Krankheits Zeichen?
+- Welche Krankheitszeichen werden durch das neue Coronavirus SARS-CoV-2 ausgelöst?
+- Unter welchen Symptomen leiden Infizierte?
+- Welche Krankheitsmerkmale weist der kovit 19 auf?
+- Welche Krankheitsmerkmale weist der COBIT 19 auf?
+- Was sind die Symptome von COBIT 19?
+- Was sind die Symptome von movit 19?
+- Was sind die Symptome von kovit 19?
+- Welche Krankheitsmerkmale weist der Kubik 19 auf?
+- Was sind die Krankheitszeichen des Virus
+- Was sind die Symptome von Covid 19?
+- Was sind die Krankheitsmerkmale von SARS-Cov 2?
+- Welche Symptome gibt es bei SARS Cov 2?
+- Welche Krankheitsmerkmale gibt es
+- Was sind die Krankheitszeichen des Coronavirus
+- Was sind die Krankheitszeichen des Coronavirus SARS-CoV-2?
+- Was sind die typischen Merkmale der Krankheit?
+- Was sind die typischen Symptome des Virus?
+- Was für Symptome habe ich, wenn ich infiziert bin?
+- Was sind die Symptome?
+- Wie äußert sich der Krankheitsverlauf?
+- Wie ist der Krankheitsverlauf wenn man infiziert ist?
+- Wie sieht es mit der Symptomatik des Covid-19 aus?
+- Was sind die Krankheitsmerkmale des Coronavirus
+- Welche Krankheitsmerkmale weist der Covid 19 auf?
+- Welche Symptome gibt es bei dem Coronavirus?
+- Wie äußert sich die Krankheit?
+- Welche Symptome hat der Virus?
+- Welche Krankheitsmerkmale weist der Hobbit 19 auf?
+- Was sind die Symptome von Hobbit 19?
+- Welche Krankheitsmerkmale weist der huvit 19 auf?
+- Was sind die Symptome von huvit 19?
+- Symptome SARS Cov 2
+- wie weiß ich ob ich krank bin?
+- Wie merk dass ich Corona habe
+- Wie merke ich das ich Corona habe
+- Gibt es zhlen
+- Welche Krankheitsmerkmale weist der movit 19 auf?
+- Was sind die Symptome von Kubik 19?
+- Sag mir ob ich Corona habe
+- Ich habe ein leichtes kratzen im Halsbereich und weiß nun nicht was ich machen soll
+- auf welche symptome muss ich achten?
+- Ich habe ein leichtes kratzen im Halsbereich
+- Ich habe Kopfschmerzen
+- Ich habe Kopfweh
+- Mein Kopf tut mir weh
+- Ich kann nichts mehr riechen
 
-## intent:germany_hotline
-- Wie ist die Nummer des Bundesgesundheitsministeriums?
-- Coronavirus Hotline
-- Telefon Nummer
-- Hotline
-- Hotlines
-- Gibt es eine Rufnummer?
-- Wo kann ich anrufen?
-- Ich brauche eine Nummer
-- Ich will telefonisch Kontakt aufnehmen
-- An wen kann ich mich telefonisch wenden?
-- Ich hätte gerne eine Telefonnummer
-- Ich hätte gern eine Telefon Nummer
-- Bitte gib mir eine Telefonnummer
-- An wen ich mich per Telefon wenden?
-- Ich möchte telefonisch Kontakt aufnehmen.
-- Wen kann ich anrufen?
-- Wie lautet die Nummer?
-- Wie lautet die Hotline?
-- Wo finde ich einen Arzt in meiner Stadt
-- Arzt
-- wo rufe ich an wenn ich Symptome habe
-- Ich suche einen Arzt
-- Gibt es eine Whats App Nummer
-- Gibt es eine Corona Virus Hotline?
-- Rufnummern
-- Ruf Nummer
-- Telefonummer
-- Telefonnummer bitte
-- Sagst du mir eine Rufnummer?
-- Kannst du mir eine Nummer geben?
-- Hotlines zum Coronavirus
-- Rufnummer
-- Wen kann ich telefonisch erreichen?
-- Wie lautet die Nummer der Beratung?
-- Ich brauche telefonische Beratung
-- Gibt es eine Nummer für Patientenberatung?
-- Gibt es eine Nummer für Patienten Beratung?
-- Unabhängige Patientenberatung Deutschland Rufnummer
-- Bürgertelefon
-- Bürgertelefon Nummer
-- Wie lautet die Nummer des Bundesministeriums für Gesundheit?
-- Gibt es einen telefonischen Beratungsservice?
-- Gibt es einen Beratungsservice für Gehörlose und Hörgeschädigte?
-- Kontaktvermittlung
-- Wie kann ich Kontakt zu diesem Thema aufnehmen?
-- Kontakt über Whatsapp aufnehmen
-- Kontakt per Whatsapp
-- An welchen Arzt kann ich mich wenden
-- Gibt es eine Hotline?
-- Gibt es eine Rufnummer für allgemeine Erstinformation?
+## intent:covid_treatment
+- Wie wird man behandelt wenn man positiv ist
+- Wie wird man behandelt
+- Gibt es bereits Medikamente, die gegen das Coronavirus wirken könnten?
+- Gibt es bereits Medikamente?
+- Wie wird man behandelt wenn man Corona hat
+- Wie wird man bei Corona behandelt
+- Behandlung kuhweg 19
+- Gibt es eine Behandlung für kuhweg 19?
+- Welche Behandlungsmöglichkeiten gibt es bei einem positiven Test?
+- Welche Behandlungsmöglichkeiten gibt es?
+- Behandlungsmöglichkeiten Hobbit 19
+- Behandlung Hobbit 19
+- Welche Medikamente helfen dagegen.
+- Gibt es eine Behandlung für Hobbit 19?
+- Behandlungsmöglichkeiten huvit 19
+- Behandlung COBIT 19
+- Gibt es eine Behandlung für COBIT 19?
+- Behandlungsmöglichkeiten movit 19
+- Behandlung movit 19
+- Gibt es eine Behandlung für movit 19?
+- Worin besteht die Therapie?
+- Gibt es eine Behandlung für kovit 19?
+- Behandlung kovit 19
+- Behandlungsmöglichkeiten kovit 19
+- Behandlungsmöglichkeiten COBIT 19
+- Behandlungsmöglichkeiten qubeat 19
+- Behandlung qubeat 19
+- Gibt es eine Behandlung für qubeat 19?
+- Welche Behandlungsmöglichkeiten stehen für das neuartige Coronavirus zur Verfügung
+- Behandlungsmöglichkeiten cupid 19
+- Behandlungsmöglichkeiten Kubik 19
+- Behandlung Kubik 19
+- Gibt es eine Behandlung für Kubik 19?
+- Behandlung cupid 19
+- Gibt es eine wirksame Therapie gegen das Coronavirus?
+- Wie sieht die Behandlungstherapie aus?
+- Gibt es eine Behandlung für Covid 19?
+- Behandlungsmöglichkeiten Q19
+- Behandlung Q19
+- Gibt es Medizin gegen den Virus?
+- Gibt es Medikamente gegen den Virus?
+- Gibt es Medikamente?
+- Gibt es eine Behandlung für cookit 19?
+- Behandlung cookit 19
+- Behandlungsmöglichkeiten cookit 19
+- Gibt es eine Behandlung für huvit 19?
+- Behandlung huvit 19
+- Welche Therapiemöglichkeiten gibt es?
+- Gibt es eine Behandlung für Q19?
+- Therapie Coronavirus
+- Wie wird die Infektion behandelt?
+- Behandlungsmöglichkeiten gegen das Coronavirus
+- Remdesivir gegen Corona
+- Ebola Mittel gegen Covid
+- Ebola-Medikament Remdesivir
+- APN01 gegen Covid
+- Ebola-Medikament gegen Coronavirus
+- Ebola Mittel gegen Coronavirus
+- Chloroquin
+- Wie wird eine Infektion mit dem Coronavirus behandelt?
+- Behandlungsmöglichkeiten kuhweg 19
+- Gibt es eine Behandlung für cupid 19?
+- Wie wird eine Erkrankung mit dem neuen Coronavirus behandelt?
+- Coronavirus Behandlung
+- Behandlung Covid 19
+- Behandlungsmöglichkeiten Covid 19
+- Behandlungsmöglichkeiten
+- Wie sieht die Behandlung aus?
+- Gibt es eine Behandlung?
+- Wie wird die Krankheit behandelt?
+- Welche mittel helfen gegen corona?
+- Remdesivir und Coronavirus
+- APN null eins gegen Coronavirus
+- Malaria-Mittel als Therapie
+- Anti-Grippe-Mittel Avigan gegen Corona
+- Vergiftung durch Chloroquin Trump
+- Trump und Chloroquin
+- Hilft Chloroquin?
+- Was kannst du mir zur Dunkelziffer sagen
+- Erkrankten-Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Schätzung der Dunkelziffer
+- Dunkelziffer Coronavirus
+- Was sagt die Dunkelziffer
+- Wie hoch ist die Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Dunkelziffer
+- Dunkelziffern
+- Die Rolle der Dunkelziffer bei Covid-19
 
 ## intent:germany_lockdown_crisis_howlong
 - Bis wann gelten diese Maßnahmen
@@ -2680,40 +2797,73 @@ Wo gibt es die meisten erkrankten
 - Was ist mit reisen in die Nachbar Staaten?
 - Kann ich noch in Nachbarländer verreisen?
 
-## intent:germany_nomoney
-- Ich kann meine Rechnungen nicht mehr bezahlen wegen Corona
-- Das Geld wird knapp
-- Ich habe kein Geld mehr
-- Ich bin pleite
-- Mir geht das Geld aus
-- Ich hab bald kein Geld mehr
-- Habe kein Geld mehr
-- Ich kann meine Versicherung nicht mehr zahlen
-- Was bietet mir das Hilfspaket, wenn ich meinen Kredit oder meine Versicherung nicht mehr bezahlen kann?
-- Ich kann meine Ausgaben nicht mehr bezahlen wegen Corona
-- Was soll ich tun wenn ich meine Miete nicht mehr zahlen kann
-- Was soll ich tun wenn ich pleite bin
-- Ich kann meine Rechnungen nicht mehr bezahlen
-- Ich kann meine Rechnung nicht mehr bezahlen
-- Was soll ich machen wenn ich kein Geld mehr habe
-- Ich bin jetzt arbeitslos und habe keine Geld mehr
-- Ich kann bald meine Miete nicht mehr zahlen
-- Ich bin bald pleite
+## intent:covid_worry
+- Muss man jetzt Angst haben vor Kowit 19?
+- Muss ich mir wegen Kowit 19 Sorgen machen?
+- Wie berechtigt ist die Angst vor Covid-19?
+- Sollte man sich jetzt aufgrund von Covid-19 Gedanken machen?
+- Angst vor Covid-19
+- Muss man jetzt Angst haben vor Covid-19?
+- Muss ich jetzt Angst vor dem Coronavirus haben?
+- Angst vor Corona-Virus
+- Ich habe Angst vor dem Virus
+- Ich beginne mir ernsthaft Sorgen zu machen.
+- Ich mache mir sehr sorgen um den Virus!
+- Ich bin panisch
+- Müssen wir uns ernsthafte Sorgen machen?
+- Soll ich panisch sein?
+- Sorge vor dem Corona-Virus
+- Coronavirus alles nur Panik Mache?
+- Alles nur Panikmache?
+- Alles nur Panikmacherei?
+- Muss man jetzt Angst haben wegen dem Virus?
+- Muss ich mir um meine Familie Sorgen machen?
+- Sollte man sich jetzt aufgrund des Coronavirus Gedanken machen?
+- Muss ich jetzt Angst haben?
+- Sollte man sich jetzt aufgrund von Kowit 19 Gedanken machen?
+- Muss ich mir wegen dem Coronavirus jetzt ernsthaft Sorgen machen?
+- Wie berechtigt ist die Angst vor Kowit 19?
+- Muss ich mir wegen COVID-19 Sorgen machen?
+- Sorge
+- Gibt es einen Grund, sich jetzt Sorgen zu machen?
+- Panik
+- Angst
+- In Panik geraten
+- Panik Ausbruch
+- Ich habe Angst
+- warum drehen alle durch?
+- Bricht jetzt Panik aus
+- spinnen die alle?
+- Wie berechtigt ist die Angst vor dem Coronavirus?
+- Angst vor Coronavirus
+- Wie viel Angst muss man wirklich haben?
+- Ich mache mir sehr sorgen
+- Angst vor Kowit 19
 
-## intent:germany_pandemic
-- Pandemieausruf
-- Was hat es zu bedeuten, dass die WHO eine Pandemie ausgerufen hat?
-- Notstand in Deutschland durch Pandemie?
-- Pandemie in Deutschland
-- Pandemie Deutschland
-- Wie ist die Lage Deutschlands im Zusammenhang mit der Pandemie
-- Deutschland Pandemie
-- Welche Konsequenzen hat der Pandemie Ausruf für Deutschland?
-- Was bedeutet der Pandemie Ausruf für Deutschland?
-- Pandemie Ausruf Deutschland
-- Was bedeutet es für Deutschland, dass die WHO die Pandemie ausgerufen hat?
-- Pandemie Ausruf
-- WHO hat den weltweiten Pandemie-Fall ausgerufen, was heißt das für Deutschland?
+## intent:covid_current_situation
+- Situation in anderen Ländern
+- Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
+- Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
+- Wie sieht die Situation in [Russland]{"entity": "country_code", "value": "RU"} aus?
+- Welche Maßnahmen werden in [Polen]{"entity": "country_code", "value": "PL"} getroffen?
+- Wie ist die Lage in [Brasilien]{"entity": "country_code", "value": "BR"}?
+- Die derzeitige Situation in [Amerika]{"entity": "country_code", "value": "US"}
+- Wie sieht es mit [Peru]{"entity": "country_code", "value": "PE"} aus?
+- Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
+- Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
+- Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
+- Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
+- Lage in anderen Ländern
+- Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
+- Ich habe Zwischenstopp in [Mexiko]{"entity": "country_code", "value": "MX"}
+- Wie ist die Situation weltweit
+- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
+- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
+- Wie ist die Lage in [England]{"entity": "country_code", "value": "GB"}
+- Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Situation in [Spanien]{"entity": "country_code", "value": "ES"}
+- Derzeitige Lage in [Italien]{"entity": "country_code", "value": "IT"}
 
 ## intent:germany_preparation
 - Gibt es jetzt Ausgangssperre in Rheinland-Pfalz?
@@ -2901,7 +3051,7 @@ Wo gibt es die meisten erkrankten
 - Gibt es Sperre in Baden-Württemberg
 - Gibt es Ausgangs Sperre in Baden-Württemberg
 - Gibt es jetzt Ausgangssperre in Berlin?
-- In [Berlin]{"entity": "country_district", "value": "Berlin"} ist eine Ausgeheinschränkung
+- In [Berlin]{"entity": "country_state", "value": "Berlin"} ist eine Ausgeheinschränkung
 - Ausgngssperre in Berlin
 - Ausgangssperre in Berlin
 - Was sind die Maßnahmen in Berlin
@@ -11782,8 +11932,8 @@ Wo gibt es die meisten erkrankten
 - [saint vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent]{"entity": "country_code", "value": "VC"}
 - [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
-- [sweden]{"entity": "country_code", "value": "SE"}
-- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
+- [Schweden]{"entity": "country_code", "value": "SE"}
 - [Sverige]{"entity": "country_code", "value": "SE"}
 - [guatemala]{"entity": "country_code", "value": "GT"}
 - [Guatemala]{"entity": "country_code", "value": "GT"}
@@ -11950,7 +12100,7 @@ Wo gibt es die meisten erkrankten
 - [European continet]{"entity": "world_region", "value": "Europe"}
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asien]{"entity": "world_region", "value": "Asia"}
-- [Afrika]{"entity": "world_region", "value": "Africa"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
 - [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
@@ -14366,3 +14516,1388 @@ Wo gibt es die meisten erkrankten
 - Galadriel
 - Sauron
 - Gollum
+
+## synonym: Rostock
+- rostock
+
+## synonym: Rotenburg (Wümme)
+- rotenburg (wümme)
+- Rotenburg
+- Rotenburg (Wumme)
+
+## synonym: Roth
+- roth
+
+## synonym: Rottal-Inn
+- rottal-inn
+- Rottal Inn
+
+## synonym: Rottweil
+- rottweil
+
+## synonym: Saale-Holzland-Kreis
+- saale-holzland-kreis
+- Saale Holzland Kreis
+
+## synonym: Saale-Orla-Kreis
+- saale-orla-kreis
+- Saale Orla Kreis
+
+## synonym: Saalekreis
+- saalekreis
+
+## synonym: Saalfeld-Rudolstadt
+- saalfeld-rudolstadt
+- Saalfeld Rudolstadt
+
+## synonym: Saarlouis
+- saarlouis
+
+## synonym: Saarpfalz-Kreis
+- saarpfalz-kreis
+- Saarpfalz Kreis
+
+## synonym: Sächsische Schweiz-Osterzgebirge
+- sächsische schweiz-osterzgebirge
+- Sächsische Schweiz Osterzgebirge
+- Sachsische Schweiz-Osterzgebirge
+
+## synonym: Salzgitter
+- salzgitter
+
+## synonym: Salzlandkreis
+- salzlandkreis
+
+## synonym: Schaumburg
+- schaumburg
+
+## synonym: Schleswig-Flensburg
+- schleswig-flensburg
+- Schleswig Flensburg
+
+## synonym: Schwabach
+- schwabach
+
+## synonym: Schwäbisch Hall
+- schwäbisch hall
+- Schwabisch Hall
+
+## synonym: Schwalm-Eder-Kreis
+- schwalm-eder-kreis
+- Schwalm Eder Kreis
+
+## synonym: Schwandorf
+- schwandorf
+
+## synonym: Schwarzwald-Baar-Kreis
+- schwarzwald-baar-kreis
+- Schwarzwald Baar Kreis
+
+## synonym: Schweinfurt
+- schweinfurt
+
+## synonym: Schwerin
+- schwerin
+
+## synonym: Segeberg
+- segeberg
+
+## synonym: Siegen-Wittgenstein
+- siegen-wittgenstein
+- Siegen Wittgenstein
+
+## synonym: Sigmaringen
+- sigmaringen
+
+## synonym: Soest
+- soest
+
+## synonym: Solingen
+- solingen
+
+## synonym: Sömmerda
+- sömmerda
+- Sommerda
+
+## synonym: Sonneberg
+- sonneberg
+
+## synonym: Speyer
+- speyer
+
+## synonym: Spree-Neiße
+- spree-neiße
+- Spree Neiße
+
+## synonym: St. Wendel
+- st. wendel
+
+## synonym: Stade
+- stade
+
+## synonym: Städteregion Aachen
+- städteregion aachen
+- Stadteregion Aachen
+
+## synonym: Starnberg
+- starnberg
+
+## synonym: Steinburg
+- steinburg
+
+## synonym: Steinfurt
+- steinfurt
+
+## synonym: Stendal
+- stendal
+
+## synonym: Stormarn
+- stormarn
+
+## synonym: Straubing
+- straubing
+
+## synonym: Straubing-Bogen
+- straubing-bogen
+- Straubing Bogen
+
+## synonym: Stuttgart
+- stuttgart
+
+## synonym: Südliche Weinstraße
+- südliche weinstraße
+- Sudliche Weinstraße
+
+## synonym: Südwestpfalz
+- südwestpfalz
+- Sudwestpfalz
+
+## synonym: Suhl
+- suhl
+
+## synonym: Teltow-Fläming
+- teltow-fläming
+- Teltow Fläming
+- Teltow-Flaming
+
+## synonym: Tirschenreuth
+- tirschenreuth
+
+## synonym: Traunstein
+- traunstein
+
+## synonym: Trier
+- trier
+
+## synonym: Trier-Saarburg
+- trier-saarburg
+- Trier Saarburg
+
+## synonym: Tübingen
+- tübingen
+- Tubingen
+
+## synonym: Tuttlingen
+- tuttlingen
+
+## synonym: Uckermark
+- uckermark
+
+## synonym: Uelzen
+- uelzen
+
+## synonym: Ulm
+- ulm
+
+## synonym: Unna
+- unna
+
+## synonym: Unstrut-Hainich-Kreis
+- unstrut-hainich-kreis
+- Unstrut Hainich Kreis
+
+## synonym: Unterallgäu
+- unterallgäu
+- Unterallgau
+
+## synonym: Vechta
+- vechta
+
+## synonym: Verden
+- verden
+
+## synonym: Viersen
+- viersen
+
+## synonym: Vogelsbergkreis
+- vogelsbergkreis
+
+## synonym: Vogtlandkreis
+- vogtlandkreis
+
+## synonym: Vorpommern-Greifswald
+- vorpommern-greifswald
+- Vorpommern Greifswald
+
+## synonym: Vorpommern-Rügen
+- vorpommern-rügen
+- Vorpommern Rügen
+- Vorpommern-Rugen
+
+## synonym: Vulkaneifel
+- vulkaneifel
+
+## synonym: Waldeck-Frankenberg
+- waldeck-frankenberg
+- Waldeck Frankenberg
+
+## synonym: Waldshut
+- waldshut
+
+## synonym: Warendorf
+- warendorf
+
+## synonym: Wartburgkreis
+- wartburgkreis
+
+## synonym: Weiden i.d. OPf.
+- weiden i.d. opf.
+
+## synonym: Weilheim-Schongau
+- weilheim-schongau
+- Weilheim Schongau
+
+## synonym: Weimar
+- weimar
+
+## synonym: Weimarer Land
+- weimarer land
+
+## synonym: Weißenburg-Gunzenhausen
+- weißenburg-gunzenhausen
+- Weißenburg Gunzenhausen
+
+## synonym: Werra-Meißner-Kreis
+- werra-meißner-kreis
+- Werra Meißner Kreis
+
+## synonym: Wesel
+- wesel
+
+## synonym: Wesermarsch
+- wesermarsch
+
+## synonym: Westerwaldkreis
+- westerwaldkreis
+
+## synonym: Wetteraukreis
+- wetteraukreis
+
+## synonym: Wiesbaden
+- wiesbaden
+
+## synonym: Wilhelmshaven
+- wilhelmshaven
+
+## synonym: Wittenberg
+- wittenberg
+
+## synonym: Wittmund
+- wittmund
+
+## synonym: Wolfenbüttel
+- wolfenbüttel
+- Wolfenbuttel
+
+## synonym: Wolfsburg
+- wolfsburg
+
+## synonym: Worms
+- worms
+
+## synonym: Wunsiedel i. Fichtelgebirge
+- wunsiedel i. fichtelgebirge
+
+## synonym: Wuppertal
+- wuppertal
+
+## synonym: Würzburg
+- würzburg
+- Wurzburg
+
+## synonym: Zollernalbkreis
+- zollernalbkreis
+
+## synonym: Zweibrücken
+- zweibrücken
+- Zweibrucken
+
+## synonym: Zwickau
+- zwickau
+
+## synonym: Frankfurt (Oder)
+- frankfurt (oder)
+- Oder Frankfurt
+- Frankfurt Oder
+- Frankfurt an der Oder
+
+## synonym: Schmalkalden-Meiningen
+- schmalkalden-meiningen
+- Schmalkalden Meiningen
+
+## synonym: Ahrweiler
+- ahrweiler
+
+## synonym: Aichach-Friedberg
+- aichach-friedberg
+- Aichach Friedberg
+
+## synonym: Alb-Donau-Kreis
+- alb-donau-kreis
+- Alb Donau Kreis
+
+## synonym: Altenburger Land
+- altenburger land
+
+## synonym: Altenkirchen (Westerwald)
+- altenkirchen (westerwald)
+
+## synonym: Altmarkkreis Salzwedel
+- altmarkkreis salzwedel
+
+## synonym: Altötting
+- altötting
+- Altotting
+
+## synonym: Alzey-Worms
+- alzey-worms
+- Alzey Worms
+
+## synonym: Amberg
+- amberg
+
+## synonym: Amberg-Sulzbach
+- amberg-sulzbach
+- Amberg Sulzbach
+
+## synonym: Ammerland
+- ammerland
+
+## synonym: Anhalt-Bitterfeld
+- anhalt-bitterfeld
+- Anhalt Bitterfeld
+
+## synonym: Ansbach
+- ansbach
+
+## synonym: Aschaffenburg
+- aschaffenburg
+
+## synonym: Augsburg
+- augsburg
+
+## synonym: Aurich
+- aurich
+
+## synonym: Bad Dürkheim
+- bad dürkheim
+- Bad Durkheim
+
+## synonym: Bad Kissingen
+- bad kissingen
+
+## synonym: Bad Kreuznach
+- bad kreuznach
+
+## synonym: Bad Tölz-Wolfratshausen
+- bad tölz-wolfratshausen
+- Bad Tölz Wolfratshausen
+- Bad Tolz-Wolfratshausen
+
+## synonym: Baden-Baden
+- baden-baden
+- Baden Baden
+
+## synonym: Bamberg
+- bamberg
+
+## synonym: Barnim
+- barnim
+
+## synonym: Bautzen
+- bautzen
+
+## synonym: Bayreuth
+- bayreuth
+
+## synonym: Berchtesgadener Land
+- berchtesgadener land
+
+## synonym: Bergstraße
+- bergstraße
+
+## synonym: Berlin Charlottenburg-Wilmersdorf
+- berlin charlottenburg-wilmersdorf
+- Berlin Charlottenburg Wilmersdorf
+
+## synonym: Berlin Friedrichshain-Kreuzberg
+- berlin friedrichshain-kreuzberg
+- Berlin Friedrichshain Kreuzberg
+
+## synonym: Berlin Lichtenberg
+- berlin lichtenberg
+
+## synonym: Berlin Marzahn-Hellersdorf
+- berlin marzahn-hellersdorf
+- Berlin Marzahn Hellersdorf
+
+## synonym: Berlin Mitte
+- berlin mitte
+
+## synonym: Berlin Neukölln
+- berlin neukölln
+- Berlin Neukolln
+
+## synonym: Berlin Pankow
+- berlin pankow
+
+## synonym: Berlin Reinickendorf
+- berlin reinickendorf
+
+## synonym: Berlin Spandau
+- berlin spandau
+
+## synonym: Berlin Steglitz-Zehlendorf
+- berlin steglitz-zehlendorf
+- Berlin Steglitz Zehlendorf
+
+## synonym: Berlin Tempelhof-Schöneberg
+- berlin tempelhof-schöneberg
+- Berlin Tempelhof Schöneberg
+- Berlin Tempelhof-Schoneberg
+
+## synonym: Berlin Treptow-Köpenick
+- berlin treptow-köpenick
+- Berlin Treptow Köpenick
+- Berlin Treptow-Kopenick
+
+## synonym: Bernkastel-Wittlich
+- bernkastel-wittlich
+- Bernkastel Wittlich
+
+## synonym: Biberach
+- biberach
+
+## synonym: Bielefeld
+- bielefeld
+
+## synonym: Birkenfeld
+- birkenfeld
+
+## synonym: Böblingen
+- böblingen
+- Boblingen
+
+## synonym: Bochum
+- bochum
+
+## synonym: Bodenseekreis
+- bodenseekreis
+
+## synonym: Bonn
+- bonn
+
+## synonym: Börde
+- börde
+- Borde
+
+## synonym: Borken
+- borken
+
+## synonym: Bottrop
+- bottrop
+
+## synonym: Brandenburg an der Havel
+- brandenburg an der havel
+
+## synonym: Braunschweig
+- braunschweig
+
+## synonym: Breisgau-Hochschwarzwald
+- breisgau-hochschwarzwald
+- Breisgau Hochschwarzwald
+
+## synonym: Bremen
+- bremen
+
+## synonym: Bremerhaven
+- bremerhaven
+
+## synonym: Burgenlandkreis
+- burgenlandkreis
+
+## synonym: Calw
+- calw
+
+## synonym: Celle
+- celle
+
+## synonym: Cham
+- cham
+
+## synonym: Chemnitz
+- chemnitz
+
+## synonym: Cloppenburg
+- cloppenburg
+
+## synonym: Coburg
+- coburg
+
+## synonym: Cochem-Zell
+- cochem-zell
+- Cochem Zell
+
+## synonym: Coesfeld
+- coesfeld
+
+## synonym: Cottbus
+- cottbus
+
+## synonym: Cuxhaven
+- cuxhaven
+
+## synonym: Dachau
+- dachau
+
+## synonym: Dahme-Spreewald
+- dahme-spreewald
+- Dahme Spreewald
+
+## synonym: Darmstadt
+- darmstadt
+
+## synonym: Darmstadt-Dieburg
+- darmstadt-dieburg
+- Darmstadt Dieburg
+
+## synonym: Deggendorf
+- deggendorf
+
+## synonym: Delmenhorst
+- delmenhorst
+
+## synonym: Dessau-Roßlau
+- dessau-roßlau
+- Dessau Roßlau
+
+## synonym: Diepholz
+- diepholz
+
+## synonym: Dillingen a.d. Donau
+- dillingen a.d. donau
+
+## synonym: Dingolfing-Landau
+- dingolfing-landau
+- Dingolfing Landau
+
+## synonym: Dithmarschen
+- dithmarschen
+
+## synonym: Donau-Ries
+- donau-ries
+- Donau Ries
+
+## synonym: Donnersbergkreis
+- donnersbergkreis
+
+## synonym: Dortmund
+- dortmund
+
+## synonym: Dresden
+- dresden
+
+## synonym: Duisburg
+- duisburg
+
+## synonym: Düren
+- düren
+- Duren
+
+## synonym: Düsseldorf
+- düsseldorf
+- Dusseldorf
+
+## synonym: Ebersberg
+- ebersberg
+
+## synonym: Eichsfeld
+- eichsfeld
+
+## synonym: Eichstätt
+- eichstätt
+- Eichstatt
+
+## synonym: Eifelkreis Bitburg-Prüm
+- eifelkreis bitburg-prüm
+- Eifelkreis Bitburg Prüm
+- Eifelkreis Bitburg-Prum
+
+## synonym: Eisenach
+- eisenach
+
+## synonym: Elbe-Elster
+- elbe-elster
+- Elbe Elster
+
+## synonym: Emden
+- emden
+
+## synonym: Emmendingen
+- emmendingen
+
+## synonym: Emsland
+- emsland
+
+## synonym: Ennepe-Ruhr-Kreis
+- ennepe-ruhr-kreis
+- Ennepe Ruhr Kreis
+
+## synonym: Enzkreis
+- enzkreis
+
+## synonym: Erding
+- erding
+
+## synonym: Erfurt
+- erfurt
+
+## synonym: Erlangen
+- erlangen
+
+## synonym: Erlangen-Höchstadt
+- erlangen-höchstadt
+- Erlangen Höchstadt
+- Erlangen-Hochstadt
+
+## synonym: Erzgebirgskreis
+- erzgebirgskreis
+
+## synonym: Essen
+- essen
+
+## synonym: Esslingen
+- esslingen
+
+## synonym: Euskirchen
+- euskirchen
+
+## synonym: Flensburg
+- flensburg
+
+## synonym: Forchheim
+- forchheim
+
+## synonym: Frankenthal (Pfalz)
+- frankenthal (pfalz)
+- Frankenthal
+
+## synonym: Freiburg im Breisgau
+- freiburg im breisgau
+
+## synonym: Freising
+- freising
+
+## synonym: Freudenstadt
+- freudenstadt
+
+## synonym: Freyung-Grafenau
+- freyung-grafenau
+- Freyung Grafenau
+
+## synonym: Friesland
+- friesland
+
+## synonym: Fulda
+- fulda
+
+## synonym: Fürstenfeldbruck
+- fürstenfeldbruck
+- Furstenfeldbruck
+
+## synonym: Fürth
+- fürth
+- Furth
+
+## synonym: Garmisch-Partenkirchen
+- garmisch-partenkirchen
+- Garmisch Partenkirchen
+
+## synonym: Gelsenkirchen
+- gelsenkirchen
+
+## synonym: Gera
+- gera
+
+## synonym: Germersheim
+- germersheim
+
+## synonym: Gießen
+- gießen
+
+## synonym: Gifhorn
+- gifhorn
+
+## synonym: Göppingen
+- göppingen
+- Goppingen
+
+## synonym: Görlitz
+- görlitz
+- Gorlitz
+
+## synonym: Goslar
+- goslar
+
+## synonym: Gotha
+- gotha
+
+## synonym: Göttingen
+- göttingen
+- Gottingen
+
+## synonym: Grafschaft Bentheim
+- grafschaft bentheim
+
+## synonym: Greiz
+- greiz
+
+## synonym: Groß-Gerau
+- groß-gerau
+- Groß Gerau
+
+## synonym: Frankfurt am Main
+- frankfurt am main
+- Frankfurt
+
+## synonym: Günzburg
+- günzburg
+- Gunzburg
+
+## synonym: Gütersloh
+- gütersloh
+- Gutersloh
+
+## synonym: Hagen
+- hagen
+
+## synonym: Halle (Saale)
+- halle (saale)
+
+## synonym: Hamburg
+- hamburg
+
+## synonym: Hameln-Pyrmont
+- hameln-pyrmont
+- Hameln Pyrmont
+
+## synonym: Hamm
+- hamm
+
+## synonym: Harburg
+- harburg
+
+## synonym: Harz
+- harz
+
+## synonym: Haßberge
+- haßberge
+
+## synonym: Havelland
+- havelland
+
+## synonym: Heidekreis
+- heidekreis
+
+## synonym: Heidelberg
+- heidelberg
+
+## synonym: Heidenheim
+- heidenheim
+
+## synonym: Heilbronn
+- heilbronn
+
+## synonym: Heinsberg
+- heinsberg
+
+## synonym: Helmstedt
+- helmstedt
+
+## synonym: Herford
+- herford
+
+## synonym: Herne
+- herne
+
+## synonym: Hersfeld-Rotenburg
+- hersfeld-rotenburg
+- Hersfeld Rotenburg
+
+## synonym: Herzogtum Lauenburg
+- herzogtum lauenburg
+
+## synonym: Hildburghausen
+- hildburghausen
+
+## synonym: Hildesheim
+- hildesheim
+
+## synonym: Hochsauerlandkreis
+- hochsauerlandkreis
+
+## synonym: Hochtaunuskreis
+- hochtaunuskreis
+
+## synonym: Hof
+- hof
+
+## synonym: Hohenlohekreis
+- hohenlohekreis
+
+## synonym: Holzminden
+- holzminden
+
+## synonym: Höxter
+- höxter
+- Hoxter
+
+## synonym: Ilm-Kreis
+- ilm-kreis
+- Ilm Kreis
+
+## synonym: Ingolstadt
+- ingolstadt
+
+## synonym: Jena
+- jena
+
+## synonym: Jerichower Land
+- jerichower land
+
+## synonym: Kaiserslautern
+- kaiserslautern
+
+## synonym: Karlsruhe
+- karlsruhe
+
+## synonym: Kassel
+- kassel
+
+## synonym: Kaufbeuren
+- kaufbeuren
+
+## synonym: Kelheim
+- kelheim
+
+## synonym: Kempten (Allgäu)
+- kempten (allgäu)
+- Kempten (Allgau)
+
+## synonym: Kiel
+- kiel
+
+## synonym: Kitzingen
+- kitzingen
+
+## synonym: Kleve
+- kleve
+
+## synonym: Koblenz
+- koblenz
+
+## synonym: Köln
+- köln
+- Koln
+
+## synonym: Konstanz
+- konstanz
+
+## synonym: Krefeld
+- krefeld
+
+## synonym: Kronach
+- kronach
+
+## synonym: Kulmbach
+- kulmbach
+
+## synonym: Kusel
+- kusel
+
+## synonym: Kyffhäuserkreis
+- kyffhäuserkreis
+- Kyffhauserkreis
+
+## synonym: Lahn-Dill-Kreis
+- lahn-dill-kreis
+- Lahn Dill Kreis
+
+## synonym: Landau in der Pfalz
+- landau in der pfalz
+
+## synonym: Landsberg am Lech
+- landsberg am lech
+
+## synonym: Landshut
+- landshut
+
+## synonym: Leer
+- leer
+
+## synonym: Leipzig
+- leipzig
+
+## synonym: Leverkusen
+- leverkusen
+
+## synonym: Lichtenfels
+- lichtenfels
+
+## synonym: Limburg-Weilburg
+- limburg-weilburg
+- Limburg Weilburg
+
+## synonym: Lindau (Bodensee)
+- lindau (bodensee)
+- Lindau
+
+## synonym: Lippe
+- lippe
+
+## synonym: Lörrach
+- lörrach
+- Lorrach
+
+## synonym: Lübeck
+- lübeck
+- Lubeck
+
+## synonym: Lüchow-Dannenberg
+- lüchow-dannenberg
+- Lüchow Dannenberg
+- Luchow-Dannenberg
+
+## synonym: Ludwigsburg
+- ludwigsburg
+
+## synonym: Ludwigshafen am Rhein
+- ludwigshafen am rhein
+
+## synonym: Ludwigslust-Parchim
+- ludwigslust-parchim
+- Ludwigslust Parchim
+
+## synonym: Lüneburg
+- lüneburg
+- Luneburg
+
+## synonym: Magdeburg
+- magdeburg
+
+## synonym: Main-Kinzig-Kreis
+- main-kinzig-kreis
+- Main Kinzig Kreis
+
+## synonym: Main-Spessart
+- main-spessart
+- Main Spessart
+
+## synonym: Main-Tauber-Kreis
+- main-tauber-kreis
+- Main Tauber Kreis
+
+## synonym: Main-Taunus-Kreis
+- main-taunus-kreis
+- Main Taunus Kreis
+
+## synonym: Mainz
+- mainz
+
+## synonym: Mainz-Bingen
+- mainz-bingen
+- Mainz Bingen
+
+## synonym: Mannheim
+- mannheim
+
+## synonym: Mansfeld-Südharz
+- mansfeld-südharz
+- Mansfeld Südharz
+- Mansfeld-Sudharz
+
+## synonym: Märkisch-Oderland
+- märkisch-oderland
+- Märkisch Oderland
+- Markisch-Oderland
+
+## synonym: Marburg-Biedenkopf
+- marburg-biedenkopf
+- Marburg
+- Marburg Biedenkopf
+
+## synonym: Märkischer Kreis
+- märkischer kreis
+- Markischer Kreis
+
+## synonym: Mayen-Koblenz
+- mayen-koblenz
+- Mayen Koblenz
+
+## synonym: Mecklenburgische Seenplatte
+- mecklenburgische seenplatte
+
+## synonym: Meißen
+- meißen
+
+## synonym: Memmingen
+- memmingen
+
+## synonym: Merzig-Wadern
+- merzig-wadern
+- Merzig Wadern
+
+## synonym: Mettmann
+- mettmann
+
+## synonym: Miesbach
+- miesbach
+
+## synonym: Miltenberg
+- miltenberg
+
+## synonym: Minden-Lübbecke
+- minden-lübbecke
+- Minden Lübbecke
+- Minden-Lubbecke
+
+## synonym: Mittelsachsen
+- mittelsachsen
+
+## synonym: Mönchengladbach
+- mönchengladbach
+- Monchengladbach
+
+## synonym: Mühldorf a. Inn
+- mühldorf a. inn
+- Muhldorf a. Inn
+
+## synonym: Mülheim an der Ruhr
+- mülheim an der ruhr
+- Mulheim an der Ruhr
+
+## synonym: München
+- münchen
+- Munchen
+
+## synonym: Münster
+- münster
+- Munster
+
+## synonym: Neckar-Odenwald-Kreis
+- neckar-odenwald-kreis
+- Neckar Odenwald Kreis
+
+## synonym: Neu-Ulm
+- neu-ulm
+- Neu Ulm
+
+## synonym: Neuburg-Schrobenhausen
+- neuburg-schrobenhausen
+- Neuburg Schrobenhausen
+
+## synonym: Neumarkt i.d. OPf.
+- neumarkt i.d. opf.
+
+## synonym: Neumünster
+- neumünster
+- Neumunster
+
+## synonym: Neunkirchen
+- neunkirchen
+
+## synonym: Neustadt a.d. Aisch-Bad Windsheim
+- neustadt a.d. aisch-bad windsheim
+- Neustadt a.d. Aisch Bad Windsheim
+
+## synonym: Neustadt a.d. Waldnaab
+- neustadt a.d. waldnaab
+
+## synonym: Neustadt an der Weinstraße
+- neustadt an der weinstraße
+
+## synonym: Neuwied
+- neuwied
+
+## synonym: Nienburg (Weser)
+- nienburg (weser)
+- Nienburg
+
+## synonym: Nordfriesland
+- nordfriesland
+
+## synonym: Nordhausen
+- nordhausen
+
+## synonym: Nordsachsen
+- nordsachsen
+
+## synonym: Nordwestmecklenburg
+- nordwestmecklenburg
+
+## synonym: Northeim
+- northeim
+
+## synonym: Nürnberg
+- nürnberg
+- Nurnberg
+
+## synonym: Nürnberger Land
+- nürnberger land
+- Nurnberger Land
+
+## synonym: Oberallgäu
+- oberallgäu
+- Oberallgau
+
+## synonym: Oberbergischer Kreis
+- oberbergischer kreis
+
+## synonym: Oberhausen
+- oberhausen
+
+## synonym: Oberhavel
+- oberhavel
+
+## synonym: Oberspreewald-Lausitz
+- oberspreewald-lausitz
+- Oberspreewald Lausitz
+
+## synonym: Odenwaldkreis
+- odenwaldkreis
+
+## synonym: Oder-Spree
+- oder-spree
+- Oder Spree
+
+## synonym: Offenbach
+- offenbach
+
+## synonym: Offenbach am Main
+- offenbach am main
+
+## synonym: Oldenburg
+- oldenburg
+
+## synonym: Oldenburg (Oldb)
+- oldenburg (oldb)
+
+## synonym: Olpe
+- olpe
+
+## synonym: Ortenaukreis
+- ortenaukreis
+
+## synonym: Osnabrück
+- osnabrück
+- Osnabruck
+
+## synonym: Ostalbkreis
+- ostalbkreis
+
+## synonym: Ostallgäu
+- ostallgäu
+- Ostallgau
+
+## synonym: Osterholz
+- osterholz
+
+## synonym: Ostholstein
+- ostholstein
+
+## synonym: Ostprignitz-Ruppin
+- ostprignitz-ruppin
+- Ostprignitz Ruppin
+
+## synonym: Paderborn
+- paderborn
+
+## synonym: Passau
+- passau
+
+## synonym: Peine
+- peine
+
+## synonym: Pfaffenhofen a.d. Ilm
+- pfaffenhofen a.d. ilm
+
+## synonym: Pforzheim
+- pforzheim
+
+## synonym: Pinneberg
+- pinneberg
+
+## synonym: Pirmasens
+- pirmasens
+
+## synonym: Plön
+- plön
+- Plon
+
+## synonym: Potsdam
+- potsdam
+
+## synonym: Potsdam-Mittelmark
+- potsdam-mittelmark
+- Potsdam Mittelmark
+
+## synonym: Prignitz
+- prignitz
+
+## synonym: Rastatt
+- rastatt
+
+## synonym: Ravensburg
+- ravensburg
+
+## synonym: Recklinghausen
+- recklinghausen
+
+## synonym: Regen
+- regen
+
+## synonym: Regensburg
+- regensburg
+
+## synonym: Region Hannover
+- region hannover
+
+## synonym: Regionalverband Saarbrücken
+- regionalverband saarbrücken
+- Regionalverband Saarbrucken
+
+## synonym: Rems-Murr-Kreis
+- rems-murr-kreis
+- Rems Murr Kreis
+
+## synonym: Remscheid
+- remscheid
+
+## synonym: Rendsburg-Eckernförde
+- rendsburg-eckernförde
+- Rendsburg Eckernförde
+- Rendsburg-Eckernforde
+
+## synonym: Reutlingen
+- reutlingen
+
+## synonym: Rhein-Erft-Kreis
+- rhein-erft-kreis
+- Rhein Erft Kreis
+
+## synonym: Rhein-Hunsrück-Kreis
+- rhein-hunsrück-kreis
+- Rhein Hunsrück Kreis
+- Rhein-Hunsruck-Kreis
+
+## synonym: Rhein-Kreis Neuss
+- rhein-kreis neuss
+- Rhein Kreis Neuss
+
+## synonym: Rhein-Lahn-Kreis
+- rhein-lahn-kreis
+- Rhein Lahn Kreis
+
+## synonym: Rhein-Neckar-Kreis
+- rhein-neckar-kreis
+- Rhein Neckar Kreis
+
+## synonym: Rhein-Pfalz-Kreis
+- rhein-pfalz-kreis
+- Rhein Pfalz Kreis
+
+## synonym: Rhein-Sieg-Kreis
+- rhein-sieg-kreis
+- Rhein Sieg Kreis
+
+## synonym: Rheingau-Taunus-Kreis
+- rheingau-taunus-kreis
+- Rheingau Taunus Kreis
+
+## synonym: Rheinisch-Bergischer Kreis
+- rheinisch-bergischer kreis
+- Rheinisch Bergischer Kreis
+
+## synonym: Rhön-Grabfeld
+- rhön-grabfeld
+- Rhön Grabfeld
+- Rhon-Grabfeld
+
+## synonym: Rosenheim
+- rosenheim
+
+## synonym: Mecklenburg-Vorpommern
+- mecklenburg-vorpommern
+- Mecklenburg Vorpommern
+
+## synonym: Hessen
+- hessen
+
+## synonym: Hamburg
+- hamburg
+
+## synonym: Bremen
+- bremen
+
+## synonym: Brandenburg
+- brandenburg
+
+## synonym: Berlin
+- berlin
+
+## synonym: Bayern
+- bayern
+
+## synonym: Baden-Württemberg
+- baden-württemberg
+- Baden Württemberg
+- Baden-Wurttemberg
+
+## synonym: Thüringen
+- thüringen
+- Thuringen
+
+## synonym: Schleswig-Holstein
+- schleswig-holstein
+- Schleswig Holstein
+
+## synonym: Sachsen-Anhalt
+- sachsen-anhalt
+- Sachsen Anhalt
+
+## synonym: Sachsen
+- sachsen
+
+## synonym: Saarland
+- saarland
+
+## synonym: Rheinland-Pfalz
+- rheinland-pfalz
+- Rheinland Pfalz
+
+## synonym: Nordrhein-Westfalen
+- nordrhein-westfalen
+- Nordrhein Westfalen
+
+## synonym: Niedersachsen
+- niedersachsen

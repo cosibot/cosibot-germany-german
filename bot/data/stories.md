@@ -1,14 +1,165 @@
-<!-- ## start
-* start
-  - utter_start
+## start_1
+* start-dialogue{"bot_introduced": "False"}
+  - action_check_bot_introduced
+  - slot{"bot_introduced": true}
+  - utter_greeting_hello_introduced_false
 
-## start_dialogue
-* start_dialogue
-  - utter_start_dialogue
+## start1_1
+* start_dialogue{"bot_introduced": "False"}
+  - action_check_bot_introduced
+  - slot{"bot_introduced": "True"}
+  - utter_greeting_hello_introduced_false
 
-## start-dialogue
-* start-dialogue
-  - utter_start-dialogue -->
+## start1_3
+* start-dialogue{"bot_introduced": "False"}
+  - action_check_bot_introduced
+  - slot{"bot_introduced": "True"}
+  - utter_greeting_hello_introduced_false
+
+## start_12
+* start{"bot_introduced": "True"}
+  - action_check_bot_introduced
+
+## start1_12
+* start_dialogue{"bot_introduced": "True"}
+  - action_check_bot_introduced
+
+## start1_32
+* start-dialogue{"bot_introduced": "True"}
+  - action_check_bot_introduced
+
+## start1_12_1
+* greeting_hello
+  - action_check_bot_introduced
+  - slot{"bot_introduced": true}
+  - utter_greeting_hello_introduced_true
+
+## covid_current_situation_get_news
+* covid_current_situation
+  - action_get_news_request
+
+## covid_current_situation_get_news_entity_country
+* covid_current_situation{"country_code": "Schweden"}
+  - action_get_news_request
+
+## covid_current_statistics_happy_path_state
+* covid_situation_infected{"country_state": "Berlin"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "ok"}
+  - slot{"region": "Berlin"}
+  - slot{"region_confirmed_accum": 130}
+  - utter_covid_current_statistics_region
+
+## covid_current_statistics_unhappy_empty_path_state_no
+* covid_situation_infected{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_no_country_current_statistics
+
+## covid_current_statistics_unhappy_not_ok_path_state_no
+* covid_situation_infected{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_no_country_current_statistics
+
+## covid_current_statistics_unhappy_empty_path_state_yes
+* covid_situation_infected{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_unhappy_not_ok_path_state_yes
+* covid_situation_infected{"country_state": "Bremen"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Bremen"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_happy_path_district
+* covid_situation_infected{"country_district": "München"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "ok"}
+  - slot{"region": "München"}
+  - slot{"region_confirmed_accum": "130"}
+  - utter_covid_current_statistics_region
+
+## covid_current_statistics_unhappy_empty_path_district_yes
+* covid_situation_infected{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_unhappy_not_ok_path_district_yes
+* covid_situation_infected{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_yes
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Deutschland"}
+  - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
+  - utter_covid_situation_infected
+
+## covid_current_statistics_unhappy_path_empty_district_no
+* covid_situation_infected{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "empty"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_no_country_current_statistics 
+
+## covid_current_statistics_unhappy_path_not_ok_district_no
+* covid_situation_infected{"country_district": "Frankfurt"}
+  - action_search_stats_region
+  - slot{"region_search_successful": "not-ok"}
+  - slot{"region": "Frankfurt"}
+  - slot{"country_code": "DE"}
+  - utter_region_nodata
+* vocative_no
+  - utter_covid_no_country_current_statistics 
 
 ## corona_app_developers
 * corona_app_developers
@@ -37,14 +188,6 @@
 ## covid_babys_children
 * covid_babys_children
   - utter_covid_babys_children
-
-## covid_current_situation
-* covid_current_situation
-  - utter_covid_current_situation
-
-## covid_current_statistics
-* covid_current_statistics
-  - utter_covid_current_statistics
 
 ## covid_dangerous
 * covid_dangerous
@@ -106,14 +249,6 @@
 * covid_season
   - utter_covid_season
 
-## covid_situation_infected
-* covid_situation_infected
-  - utter_covid_situation_infected
-
-## covid_situation_infected_critical
-* covid_situation_infected_critical
-  - utter_covid_situation_infected_critical
-
 ## covid_symptoms
 * covid_symptoms
   - utter_covid_symptoms
@@ -121,6 +256,7 @@
 ## covid_treatment
 * covid_treatment
   - utter_covid_treatment
+
 
 ## covid_unknown_cases
 * covid_unknown_cases
@@ -514,6 +650,10 @@
 * bot_costs
   - utter_bot_costs
 
+## bot_developers
+* bot_developers
+  - utter_bot_developers
+
 ## bot_differences
 * bot_differences
   - utter_bot_differences
@@ -872,11 +1012,13 @@
 
 ## features_date
 * features_date
-  - utter_features_date
+  - action_get_date
+  - slot{"bot_date": "20/05/2020"}
 
 ## features_time
 * features_time
-  - utter_features_time
+  - action_get_time
+  - slot{"bot_time": "17:17:54"}
 
 
 <!-- Counters
@@ -893,13 +1035,14 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Frankreich"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_without_country2
 * covid_situation_infected_critical OR covid_situation_infected
   - utter_want_to_add_country
 * vocative_no
-  - utter_further_questions
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_without_country3
 * covid_situation_infected_critical OR covid_situation_infected
@@ -910,6 +1053,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Italy"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 
@@ -920,13 +1064,14 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_infected_unhappy
 * covid_situation_infected{"country_code": "AG"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_current_statistics
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_unhappy_with_country
 * covid_situation_infected{"country_code" : "EG"}
@@ -941,6 +1086,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Portugal"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected
 
 ## covid_situation_unhappy_inexistent_country
@@ -961,7 +1107,7 @@ Generic requests -->
   - slot{"search_successful": "False"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_happy
 * covid_situation_infected_critical{"country_code":"ES"}
@@ -970,13 +1116,14 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Spain"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy
 * covid_situation_infected_critical{"country_code": "India"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_covid_current_statistics
+  - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_unhappy_with_country
 * covid_situation_infected_critical{"country_code":"Spanien"}
@@ -991,6 +1138,7 @@ Generic requests -->
   - slot{"active_cases": "16300"}
   - slot{"country": "Espanha"}
   - slot{"total_infected_critical": "176"}
+  - slot{"total_deaths": "32"}
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy_inexistent_country
@@ -1011,4 +1159,4 @@ Generic requests -->
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_no
-  - utter_covid_current_statistics
+  - utter_covid_no_country_current_statistics

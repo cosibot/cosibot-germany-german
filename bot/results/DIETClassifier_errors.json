@@ -1,0 +1,48 @@
+[
+  {
+    "text": "Todesfälle in Darmstadt",
+    "entities": [
+      {
+        "start": 14,
+        "end": 23,
+        "value": "Darmstadt",
+        "entity": "country_district"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country_state",
+        "start": 14,
+        "end": 23,
+        "value": "Darmstadt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Fälle in Berlin",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_state",
+        "start": 9,
+        "end": 15,
+        "value": "Berlin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Infektionen in Berlin",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_state",
+        "start": 15,
+        "end": 21,
+        "value": "Berlin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
