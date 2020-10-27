@@ -118,6 +118,7 @@ actions:
   - utter_myths_chinese_laboratory
   - utter_myths_conspiracy_fakenews
   - utter_myths_vitamins_plants_minerals_homeopathy
+  - utter_prevention_supermarket
   - utter_prevention_clean_hands
   - utter_prevention_desinfection
   - utter_prevention_distance
@@ -350,6 +351,7 @@ intents:
   - myths_conspiracy_fakenews
   - myths_vitamins_plants_minerals_homeopathy
   - prevention_clean_hands
+  - prevention_supermarket
   - prevention_desinfection
   - prevention_distance
   - prevention_general
@@ -572,13 +574,13 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: "<speak>Bundesweit gilt: Die Abstands- und Hygieneregeln gelten weiter. Die Bürgerinnen und Bürger sind angehalten, die Zahl der Menschen, zu denen sie Kontakt haben, gering zu halten und den Personenkreis möglichst konstant zu belassen. Alle Bürgerinnen und Bürger werden gebeten, in jedem Einzelfall kritisch abzuwägen, ob, wie und in welchem Umfang private Feierlichkeiten notwendig und mit Blick auf das Infektionsgeschehen vertretbar sind. Wo die Möglichkeit besteht, sollen Zusammenkünfte vorzugsweise im Freien abgehalten werden. Großveranstaltungen sollen bis mindestens Ende Dezember 2020 nicht stattfinden. Die weitere Ausgestaltung obliegt den Bundesländern.</speak>"
+            ssml: "<speak>Die Zahl der Neuinfektionen ist in den letzten Wochen stark gestiegen. Um das Gesundheitssystem nicht zu überlasten und die Wirtschaft nicht stärker zu gefährden, ist es erforderlich, die Zahl der Kontakte in der Bevölkerung gezielt da zu reduzieren, wo besondere Ansteckungsgefahren bestehen. Die jeweiligen Verordnungen und Allgemeinverfügungen, die in Ihrer Region gelten, finden Sie auf der Seite Ihres Bundeslandes.</speak>"
           - type: html
-            text: "<p>Bundesweit gilt: Die Abstands- und Hygieneregeln gelten weiter. Die Bürgerinnen und Bürger sind angehalten, die Zahl der Menschen, zu denen sie Kontakt haben, gering zu halten und den Personenkreis möglichst konstant zu belassen. Alle Bürgerinnen und Bürger werden gebeten, in jedem Einzelfall kritisch abzuwägen, ob, wie und in welchem Umfang private Feierlichkeiten notwendig und mit Blick auf das Infektionsgeschehen vertretbar sind. Wo die Möglichkeit besteht, sollen Zusammenkünfte vorzugsweise im Freien abgehalten werden. Großveranstaltungen sollen bis mindestens Ende Dezember 2020 nicht stattfinden. Die weitere Ausgestaltung obliegt den Bundesländern. <a href=https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a></p>"
+            text: "<p>Die Zahl der Neuinfektionen ist in den letzten Wochen stark gestiegen. Um das Gesundheitssystem nicht zu überlasten und die Wirtschaft nicht stärker zu gefährden, ist es erforderlich, die Zahl der Kontakte in der Bevölkerung gezielt da zu reduzieren, wo besondere Ansteckungsgefahren bestehen. Die jeweiligen Verordnungen und Allgemeinverfügungen, die in Ihrer Region gelten, finden Sie auf der Seite Ihres Bundeslandes. <a href=https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a></p>"
           - type: links
             links:
               - title: Corona-Regelungen in den Bundesländern
-                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198" 
+                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198 
           - type: image
             title: "Quelle: bundesregierung.de"
             url: https://cosibot.org/wp-content/uploads/2020/09/Selection_275.png
@@ -587,8 +589,8 @@ responses:
             options:
               - label: Hotlines
                 value: Hotlines
-              - label: Pandemieausruf
-                value: Pandemieausruf
+              - label: Abstand halten
+                value: Abstand halten
               - label: Mundschutz
                 value: Mundschutz
 
@@ -1770,13 +1772,13 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Um eine Ausbreitung des SARS Koff Virus zu verhindern und sich individuell vor einer Infektion zu schützen, haben Bürgerinnen und Bürger weiter grundsätzlich einen Mindestabstand von 1,5 Metern einzuhalten. Diese Maßnahme wird ergänzt durch eine Mund-Nasen-Bedeckung in bestimmten öffentlichen Bereichen, verstärkte Hygienemaßnahmen und das Instrument der Kontaktbeschränkungen.</speak>
+            ssml: <speak>Bundesweit gelten die Abstands- und Hygieneregeln weiter. Gerade jetzt im Herbst und in den Wintermonaten ist sehr konsequent auf die Einhaltung eines Mindestabstands von 1,5 Metern zu achten. Die Hygieneregeln sind stets einzuhalten und dort, wo es geboten ist, sind Alltagsmasken zu tragen. Hinzu kommt die dringende Empfehlung, die Corona-Warn-App zu nutzen und beim Aufenthalt mit mehreren Personen in geschlossenen Räumen regelmäßig zu lüften. Die Einhaltung dieser Regeln ist wesentliche Grundlage für die erfolgreiche Eindämmung des Infektionsgeschehens. Die Bürgerinnen und Bürger sind angehalten, die Zahl der Menschen, zu denen sie Kontakt haben, gering zu halten und den Personenkreis möglichst konstant zu belassen.</speak>
           - type: html
-            text: "<p>Um eine Ausbreitung des SARS-CoV2-Virus zu verhindern und sich individuell vor einer Infektion zu schützen, haben Bürgerinnen und Bürger weiter grundsätzlich einen Mindestabstand von 1,5 Metern einzuhalten. Diese Maßnahme wird ergänzt durch eine Mund-Nasen-Bedeckung in bestimmten öffentlichen Bereichen, verstärkte Hygienemaßnahmen und das Instrument der Kontaktbeschränkungen. <a href='https://www.rki.de/SharedDocs/FAQ/NCOV2019/gesamt.html' target='_blank'>(1)</a></p>"         
+            text: "<p>Bundesweit gelten die Abstands- und Hygieneregeln weiter. Gerade jetzt im Herbst und in den Wintermonaten ist sehr konsequent auf die Einhaltung eines Mindestabstands von 1,5 Metern zu achten. Die Hygieneregeln sind stets einzuhalten und dort, wo es geboten ist, sind Alltagsmasken zu tragen. Hinzu kommt die dringende Empfehlung, die Corona-Warn-App zu nutzen und beim Aufenthalt mit mehreren Personen in geschlossenen Räumen regelmäßig zu lüften. Die Einhaltung dieser Regeln ist wesentliche Grundlage für die erfolgreiche Eindämmung des Infektionsgeschehens. Die Bürgerinnen und Bürger sind angehalten, die Zahl der Menschen, zu denen sie Kontakt haben, gering zu halten und den Personenkreis möglichst konstant zu belassen. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a></p>"         
           - type: hints
             options:
-              - label: Auswirkungen auf Deutschland
-                value: Auswirkungen auf Deutschland
+              - label: Freunde und Familie besuchen
+                value: Freunde und Familie besuchen
               - label: Großeltern besuchen
                 value: Großeltern besuchen
               - label: Covid-19 Test
@@ -1866,17 +1868,37 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: "<speak>Es gibt aktuell keine bundesweite Vorschrift, die das Tragen eines Mund-Nasen-Schutzes in der Öffentlichkeit zur Pflicht macht – auch nicht beim Einkaufen. Jedoch haben einige Kommunen eine Vorschrift zum Tragen eines Mund-Nasen-Schutzes erlassen. Bitte informieren Sie sich über Regelungen an Ihrem Ort. In jedem Fall gilt, auch wenn Sie einen Mund-Nasen-Schutz tragen: Halten Sie den Mindestabstand von 1,5 Metern zu anderen ein, achten Sie auf eine gute Handhygiene und das Einhalten der Nies- und Husten-Etikette. Bitte verzichten Sie unbedingt auf den Erwerb von Atemschutzmasken mit dem FFP2- oder FFP3-Standard für private Zwecke. Diese Atemschutzmasken sind ausschließlich für medizinisches Personal und nicht für Privatpersonen vorgesehen.</speak>"
+            ssml: "<speak>In bestimmten öffentlichen Bereichen wie im Öffentlichen Nahverkehr und beim Einkaufen gilt eine Maskenpflicht. Dies wird von den Ordnungsbehörden konsequent kontrolliert und sanktioniert. Einzelheiten hierzu finden Sie bei Ihrem Bundesland.</speak>"
           - type: html
-            text: "<p>Es gibt aktuell keine bundesweite Vorschrift, die das Tragen eines Mund-Nasen-Schutzes in der Öffentlichkeit zur Pflicht macht – auch nicht beim Einkaufen. Jedoch haben einige Kommunen eine Vorschrift zum Tragen eines Mund-Nasen-Schutzes erlassen. Bitte informieren Sie sich über Regelungen an Ihrem Ort. In jedem Fall gilt, auch wenn Sie einen Mund-Nasen-Schutz tragen: Halten Sie den Mindestabstand von 1,5 Metern zu anderen ein, achten Sie auf eine gute Handhygiene und das Einhalten der Nies- und Husten-Etikette. Bitte verzichten Sie unbedingt auf den Erwerb von Atemschutzmasken mit dem FFP2- oder FFP3-Standard für private Zwecke. Diese Atemschutzmasken sind ausschließlich für medizinisches Personal und nicht für Privatpersonen vorgesehen. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/faq-lebensmittel-einkaufen-1740058/' target='_blank'>(1)</a> </p>"
+            text: "<p>In bestimmten öffentlichen Bereichen wie im Öffentlichen Nahverkehr und beim Einkaufen gilt eine Maskenpflicht. Dies wird von den Ordnungsbehörden konsequent kontrolliert und sanktioniert. Einzelheiten hierzu finden Sie bei Ihrem Bundesland. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: "Übersicht: Wo gilt die Corona-Maskenpflicht?"
-                url: https://www.bussgeldkatalog.org/maskenpflicht-corona/#uebersicht      
+                url: https://www.bussgeldkatalog.org/maskenpflicht-corona/#uebersicht
+          - type: links
+            links:
+              - title: "Corona-Regelungen in den Bundesländern"
+                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198
           - type: hints
             options:
-              - label: Masken reinigen 
-                value: Masken reinigen
+              - label: Maskenpflicht im Supermarkt 
+                value: Maskenpflicht im Supermarkt
+              - label: Kontrolle der Maskenpflicht
+                value: Kontrolle der Maskenpflicht
+              - label: Maskenpflicht und Kinder
+                value: Maskenpflicht und Kinder 
+
+  utter_prevention_supermarket:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: "<speak>Beim Einkauf müssen Auflagen zur Hygiene eingehalten, der Zutritt zum Geschäft gesteuert und Warteschlangen vermieden werden. So darf in Geschäften - abhängig von der Größe des Ladens - eine maximale Personenzahl (Kundschaft und Personal) nicht überschritten werden. Um das zu gewährleisten, sind viele Supermärkte dazu übergegangen, den Zutritt nur noch mit einem Einkaufswagen zu gewähren. Darüber hinaus gilt in allen Bundesländern eine Pflicht zum Tragen einer Mund-Nase-Bedeckung beim Einkaufen.</speak>"
+          - type: html
+            text: "<p>Beim Einkauf müssen Auflagen zur Hygiene eingehalten, der Zutritt zum Geschäft gesteuert und Warteschlangen vermieden werden. So darf in Geschäften - abhängig von der Größe des Ladens - eine maximale Personenzahl (Kundschaft und Personal) nicht überschritten werden. Um das zu gewährleisten, sind viele Supermärkte dazu übergegangen, den Zutritt nur noch mit einem Einkaufswagen zu gewähren. Darüber hinaus gilt in allen Bundesländern eine Pflicht zum Tragen einer Mund-Nase-Bedeckung beim Einkaufen. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+          - type: hints
+            options:
+              - label: Welche Maske soll ich wählen?
+                value: Welche Maske soll ich wählen?
               - label: Kontrolle der Maskenpflicht
                 value: Kontrolle der Maskenpflicht
               - label: Maskenpflicht und Kinder

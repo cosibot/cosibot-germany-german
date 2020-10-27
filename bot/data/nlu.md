@@ -3576,6 +3576,7 @@ Wo gibt es die meisten erkrankten
 - Anzahl Personen die sich derzeit treffen dürfen?
 - Ich will mit meinem Freunde treffen 
 - Mit wie vielen Leuten darf ich mich treffen?
+- Freunde und Familie besuchen
 - Mit wie vielen Personen darf ich mich derzeit treffen?
 - Ich will meine Freunde treffen
 - darf ich mich mit Freunden treffen 
@@ -3682,6 +3683,37 @@ Wo gibt es die meisten erkrankten
 - Helfen FFP3 Masken gegen das Coronavirus
 - Wie oft können FFP2 oder FFP3-Masken von ein und derselben Person benutzt werden?
 
+## intent:prevention_supermarket
+- Was muss ich beachten, wenn ich einkaufen gehe?
+- Auflagen zur Hygiene beim Einkaufen
+- Was muss ich im Supermarkt beachten?
+- Ist ein Mundschutz beim Einkaufen nötig?
+- Ist es sinnvoll, beim Einkaufen eine Schutzmaske zu tragen?
+- Ist es notwendig, im Supermarkt eine Schutzmaske zu verwenden?
+- Muss ich eine Schutzmaske tragen, wenn ich ein Geschäft betrete?
+- Mundschutz im Supermarkt
+- Muss ich Mundschutz verwenden, wenn ich Lebensmittel kaufen gehe?
+- Muss ich eine Schutzmaske bei Einkäufen tragen?
+- Schutzmaske beim Einkaufen
+- Maskenpflicht im Supermarkt
+- Schutzmaske im Supermarkt
+- Brauche ich einen Munschutz wenn ich einkaufen gehe?
+- Muss ich einen Mundschutz beim einkaufen tragen?
+- Muss ich einen Mundschutz beim Einkaufen gehen benutzen?
+- Mundschutz im Supermarkt nötig?
+- Muss ich jetzt überall die Mund-Nasen-Maske auch beim Einkaufen tragen?
+- Was muss man im Supermarkt beachten?
+- Supermarkt Vorsichtsmaßnahmen
+- Vorsichtsmaßnahmen in Supermärkten
+- Tragen einer Mund-Nase-Bedeckung beim Einkaufen.
+- Geschäfte Mundschutz
+- Mundschutz in Geschäften
+- Macht eine Atemschutz Maske Sinn beim Einkaufen?
+- Mundschutz Supermarkt
+- Mundschutzmasken Einkaufen
+- Mundschutz Maske Geschäfte
+- Was muss ich in Geschäften beachten?
+
 ## intent:mask_obligatory
 - Wer sollte einen Mund-Nasen-Schutz tragen?
 - muss ich eine maske aufsetzen?
@@ -3690,39 +3722,25 @@ Wo gibt es die meisten erkrankten
 - muss ich eine Maske benutzen 
 - Gilt Maskenpflicht?
 - Muss ich eine Maske benutzen?
-- Ist ein Mundschutz beim Einkaufen nötig?
-- Ist es sinnvoll, beim Einkaufen eine Schutzmaske zu tragen?
-- Ist es notwendig, im Supermarkt eine Schutzmaske zu verwenden?
-- Muss ich eine Schutzmaske tragen, wenn ich ein Geschäft betrete?
-- Mundschutz im Supermarkt
-- Muss ich Mundschutz verwenden, wenn ich Lebensmittel kaufen gehe?
 - Zuhause bleiben Arztbesuche
 - Wer sollte den Mund- und Nasenschutz tragen?
 - Wann sollte man die Maske tragen?
 - Muss ich jetzt auch die Maske benutzen?
 - Wo gilt die Mund-Nasen-Masken Pflicht?
 - Maskenpflicht jetzt überall?
-- Muss ich eine Schutzmaske bei Einkäufen tragen?
 - Muss ich eine Maske tragen?
 - Maskenpflicht
 - Maskenpflicht in Deutschland
 - soll ich eine Maske tragen
-- Schutzmaske beim Einkaufen
-- Schutzmaske im Supermarkt
-- Brauche ich einen Munschutz wenn ich einkaufen gehe?
-- Muss ich einen Mundschutz beim einkaufen tragen?
-- Muss ich einen Mundschutz beim Einkaufen gehen benutzen?
 - Gilt die Maskenpflicht in allen Bundesländern?
 - Maskenpflicht deutschlandweit?
 - In welchen Bundesländern gibt es eine Maskenpflicht?
-- Mundschutz im Supermarkt nötig?
 - Wer sollte einen Mundschutz tragen?
 - Muss ich jetzt auch Mundschutz tragen?
 - Muss ich jetzt auch mit Mundschutz rumlaufen?
 - Alle laufen jetzt mit diesen Masken rum, ist das notwendig?
 - Muss ich jetzt überall die Mund-Nasen-Maske auch im Zug tragen?
 - Muss ich jetzt überall die Mund-Nasen-Maske auch im Bus tragen?
-- Muss ich jetzt überall die Mund-Nasen-Maske auch beim Einkaufen tragen?
 - Muss ich jetzt überall die Mund-Nasen-Maske tragen?
 - Ist die Mund-Nasen-Maske jetzt verpflichtend?
 - Gilt die Maskenpflicht überall?

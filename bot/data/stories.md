@@ -322,6 +322,10 @@
 * prevention_desinfection
   - utter_prevention_desinfection
 
+## prevention_supermarket
+* prevention_supermarket
+  - utter_prevention_supermarket
+
 ## prevention_distance
 * prevention_distance
   - utter_prevention_distance
