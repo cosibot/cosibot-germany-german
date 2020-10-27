@@ -115,6 +115,7 @@ actions:
   - utter_germany_second_wave
   - utter_germany_spread_water
   - utter_gradual_opening_barbecue
+  - utter_gradual_opening_party
   - utter_gradual_opening_cinema_concert_theatre
 #  - utter_gradual_opening_football_league
 #  - utter_gradual_opening_hairdressers
@@ -353,9 +354,8 @@ intents:
   - germany_second_wave
   - germany_spread_water
   - gradual_opening_barbecue
+  - gradual_opening_party
   - gradual_opening_cinema_concert_theatre
-#  - gradual_opening_football_league
-#  - gradual_opening_hairdressers
   - gradual_opening_museum
   - gradual_opening_playgrounds_zoos
   - gradual_opening_religious
@@ -530,7 +530,7 @@ intents:
   - greeting_hello
 
 responses:
-  utter_:
+  utter_covid_aftereffects_immunity:
     - custom:
         answers:
           - type: ssml   
@@ -665,9 +665,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Die pandemiebedingt vorübergehend wiedereingeführten Binnengrenzkontrollen zu Österreich, der Schweiz, zu Frankreich, Italien, Dänemark sind seit dem 15. Juni 2020 aufgehoben. Die Grenzkontrollen im Luftverkehr zu Spanien endeten in beiden Richtungen zum 21. Juni 2020. Mit Wegfall der Binnengrenzkontrollen endeten auch die Einreisebeschränkungen sowie die pandemiebedingten Fahndungs- und Kontrollmaßnahmen. Die Bundesregierung hat am 17. Juli beschlossen, Einreisebeschränkungen für Drittstaaten anzupassen. Einreisen aus Montenegro sind nur noch aus wichtigem Grund gestattet. Bürgerinnen und Bürger aus Australien, Georgien, Kanada, Neuseeland, Thailand, Tunesien sowie Uruguay dürfen wieder einreisen. Unabhängig von den Einreisemöglichkeiten gilt in Deutschland weiter eine Quarantänepflicht auf Grundlage des Infektionsschutzgesetzes in allen Bundesländern für Ein- und Rückreisende aus den vom RKI festgelegten Risikogebieten. Dies gilt mit Ausnahme von Passagieren im Transitverkehr grundsätzlich auch für Reisende mit wichtigem Reisegrund. Eine Ausnahme von der Quarantäne gilt bei aktuellem Negativ-Test. Weitere Informationen zum Thema finden Sie über den eingeblendeten Link.</speak>
+            ssml: <speak>Die pandemiebedingt vorübergehend wiedereingeführten Binnengrenzkontrollen zu Österreich, der Schweiz, zu Frankreich, Italien, Dänemark sind seit dem 15. Juni 2020 aufgehoben. Die Grenzkontrollen im Luftverkehr zu Spanien sind seit dem 21. Juni 2020 beendet. Mit Wegfall der Binnengrenzkontrollen enden auch die Einreisebeschränkungen sowie die pandemiebedingten Fahndungs- und Kontrollmaßnahmen. Auf Empfehlung des Rats der Europäischen Union hat die Bundesregierung beschlossen, Einreisen aus Drittstaaten nach Deutschland schrittweise wieder zu gestatten. Demnach dürfen Bürgerinnen und Bürger aus Australien, Kanada, Neuseeland, Thailand sowie Uruguay wieder einreisen. Für drei weitere Staaten (China, Japan und Südkorea) werden die Einreisebeschränkungen unter der Voraussetzung aufgehoben, dass diese Staaten ihrerseits die Einreisemöglichkeiten für deutsche Bürgerinnen und Bürger erweitern. Darüber hinaus soll die Einreise für Reisende aus Drittstaaten bei Vorliegen eines wichtigen Reisegrundes möglich sein. Solch ein Reisegrund liegt beispielsweise dann vor, wenn der Reisende ein bestehendes Aufenthaltsrecht in Deutschland vorweisen kann, im Bereich Gesundheit, Altenpflege oder Gütertransport tätig ist oder die Einreise im Rahmen des Familiennachzugs erfolgt.</speak>
           - type: html
-            text: "<p>Die pandemiebedingt vorübergehend wiedereingeführten Binnengrenzkontrollen zu Österreich, der Schweiz, zu Frankreich, Italien, Dänemark sind seit dem 15. Juni 2020 aufgehoben. Die Grenzkontrollen im Luftverkehr zu Spanien endeten in beiden Richtungen zum 21. Juni 2020. Mit Wegfall der Binnengrenzkontrollen endeten auch die Einreisebeschränkungen sowie die pandemiebedingten Fahndungs- und Kontrollmaßnahmen.<br><br>Die Bundesregierung hat am 17. Juli beschlossen, Einreisebeschränkungen für Drittstaaten anzupassen. Einreisen aus Montenegro sind nur noch aus wichtigem Grund gestattet. Bürgerinnen und Bürger aus Australien, Georgien, Kanada, Neuseeland, Thailand, Tunesien sowie Uruguay dürfen wieder einreisen.<br><br>Unabhängig von den Einreisemöglichkeiten gilt in Deutschland weiter eine Quarantänepflicht auf Grundlage des Infektionsschutzgesetzes in allen Bundesländern für Ein- und Rückreisende aus den vom RKI festgelegten Risikogebieten. Dies gilt mit Ausnahme von Passagieren im Transitverkehr grundsätzlich auch für Reisende mit wichtigem Reisegrund. Eine Ausnahme von der Quarantäne gilt bei aktuellem Negativ-Test. Weitere Informationen zum Thema finden Sie über den eingeblendeten Link. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Die pandemiebedingt vorübergehend wiedereingeführten Binnengrenzkontrollen zu Österreich, der Schweiz, zu Frankreich, Italien, Dänemark sind seit dem 15. Juni 2020 aufgehoben. Die Grenzkontrollen im Luftverkehr zu Spanien sind seit dem 21. Juni 2020 beendet. Mit Wegfall der Binnengrenzkontrollen enden auch die Einreisebeschränkungen sowie die pandemiebedingten Fahndungs- und Kontrollmaßnahmen.<br><br>Auf Empfehlung des Rats der Europäischen Union hat die Bundesregierung beschlossen, Einreisen aus Drittstaaten nach Deutschland schrittweise wieder zu gestatten. Demnach dürfen Bürgerinnen und Bürger aus Australien, Kanada, Neuseeland, Thailand sowie Uruguay wieder einreisen. Für drei weitere Staaten (China, Japan und Südkorea) werden die Einreisebeschränkungen unter der Voraussetzung aufgehoben, dass diese Staaten ihrerseits die Einreisemöglichkeiten für deutsche Bürgerinnen und Bürger erweitern.<br><br>Darüber hinaus soll die Einreise für Reisende aus Drittstaaten bei Vorliegen eines wichtigen Reisegrundes möglich sein. Solch ein Reisegrund liegt beispielsweise dann vor, wenn der Reisende ein bestehendes Aufenthaltsrecht in Deutschland vorweisen kann, im Bereich Gesundheit, Altenpflege oder Gütertransport tätig ist oder die Einreise im Rahmen des Familiennachzugs erfolgt. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Bundesministerium des Innern, Bau und Heimat
@@ -836,13 +836,13 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Mit dem Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, haben Bund und Länder am 27. August eine Fördersumme von 500 Millionen Euro beschlossen. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes.</speak>
+            ssml: <speak>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den "Digitalpakt Schule " auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes.</speak>
           - type: html
-            text: "<p>Mit dem Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, haben Bund und Länder am 27. August eine Fördersumme von 500 Millionen Euro beschlossen. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den "Digitalpakt Schule " auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Corona-Regelungen in den Bundesländern
-                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198      
+                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198    
           - type: hints
             options:
               - label: Besuch von Familie, Freunden und Kollegen
@@ -931,6 +931,26 @@ responses:
               - label: Öffnung der Spielplätze
                 value: Öffnung der Spielplätze
 
+  utter_gradual_opening_party:
+    - custom:
+        answers:
+          - type: ssml   
+            ssml: <speak>Alle Bürgerinnen und Bürger werden gebeten, in jedem Einzelfall kritisch abzuwägen, ob, wie und in welchem Umfang private Feierlichkeiten notwendig und mit Blick auf das Infektionsgeschehen vertretbar sind. Bei steigenden Infektionszahlen und spätestens ab einer Inzidenz von 35 Neuinfektionen pro 100.000 Einwohnern in einer Woche gilt eine Teilnehmerbegrenzung bei privaten Feierlichkeiten. Diese liegt bei 25 Teilnehmern im öffentlichen und 15 Teilnehmern im privaten Raum. Weiterhin wird eine ergänzende Maskenpflicht dort eingeführt, wo Menschen dichter und/oder länger zusammenkommen. Großveranstaltungen, bei denen eine Kontaktverfolgung und die Einhaltung von Hygieneregelungen nicht möglich sind, sollen mindestens bis Ende Dezember 2020 nicht stattfinden.</speak>
+          - type: html
+            text: "<p>Alle Bürgerinnen und Bürger werden gebeten, in jedem Einzelfall kritisch abzuwägen, ob, wie und in welchem Umfang private Feierlichkeiten notwendig und mit Blick auf das Infektionsgeschehen vertretbar sind.<br><br>Bei steigenden Infektionszahlen und spätestens ab einer Inzidenz von 35 Neuinfektionen pro 100.000 Einwohnern in einer Woche gilt eine Teilnehmerbegrenzung bei privaten Feierlichkeiten. Diese liegt bei 25 Teilnehmern im öffentlichen und 15 Teilnehmern im privaten Raum. Weiterhin wird eine ergänzende Maskenpflicht dort eingeführt, wo Menschen dichter und/oder länger zusammenkommen.<br><br>Großveranstaltungen, bei denen eine Kontaktverfolgung und die Einhaltung von Hygieneregelungen nicht möglich sind, sollen mindestens bis Ende Dezember 2020 nicht stattfinden. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+          - type: links
+            links:
+              - title: Corona-Regelungen in den Bundesländern
+                url: https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-bundeslaender-1745198    
+          - type: hints
+            options:
+              - label: Öffnung von Museen und Ausstellungen
+                value: Öffnung von Museen und Ausstellungen
+              - label: Öffnung der Gastronomiebetriebe
+                value: Öffnung der Gastronomiebetriebe
+              - label: Öffnung der Spielplätze
+                value: Öffnung der Spielplätze
+
   utter_gradual_opening_religious:
     - custom:
         answers:
@@ -974,9 +994,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Im Gastätten- und Gastronomiebereich sind Abstände zwischen den einzelnen Tischen und Hygienekonzepte strikt einzuhalten. Details regeln die Länder in eigener Verantwortung.</speak>
+            ssml: <speak>Im Gaststätten- und Gastronomiebereich sind Abstände zwischen den einzelnen Tischen und Hygienekonzepte strikt einzuhalten. Es liegt in die Verantwortung aller Bürgerinnen und Bürger, bei Bar-, Restaurant- und Veranstaltungsbesuchen durch Angabe richtiger und vollständiger Personendaten und Kontaktinformationen ein schnelles Erkennen und Eindämmen von Corona-Ausbrüchen zu unterstützen. Werden falsche persönliche Angaben gemacht, können Ordnungsbehörden konsequent sanktionieren und ein Mindestbußgeld von 50 Euro von den Gästen erheben. Darüber hinaus empfehlen Bund und Länder, eine Sperrstunde in der Gastronomie einzuführen sowie zusätzliche Auflagen und Kontrollen. Sobald die Neuinfektionen auf 50 pro 100.000 Einwohnern innerhalb der letzten sieben Tage steigen, wird verbindlich eine Sperrstunde um 23 Uhr für Gastronomiebetriebe eingeführt einschließlich eines generellen Außenabgabeverbotes von Alkohol.</speak>
           - type: html
-            text: "<p>Im Gastätten- und Gastronomiebereich sind Abstände zwischen den einzelnen Tischen und Hygienekonzepte strikt einzuhalten. Details regeln die Länder in eigener Verantwortung. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Im Gaststätten- und Gastronomiebereich sind Abstände zwischen den einzelnen Tischen und Hygienekonzepte strikt einzuhalten. Es liegt in die Verantwortung aller Bürgerinnen und Bürger, bei Bar-, Restaurant- und Veranstaltungsbesuchen durch Angabe richtiger und vollständiger Personendaten und Kontaktinformationen ein schnelles Erkennen und Eindämmen von Corona-Ausbrüchen zu unterstützen. Werden falsche persönliche Angaben gemacht, können Ordnungsbehörden konsequent sanktionieren und ein Mindestbußgeld von 50 Euro von den Gästen erheben. Darüber hinaus empfehlen Bund und Länder, eine Sperrstunde in der Gastronomie einzuführen sowie zusätzliche Auflagen und Kontrollen. Sobald die Neuinfektionen auf 50 pro 100.000 Einwohnern innerhalb der letzten sieben Tage steigen, wird verbindlich eine Sperrstunde um 23 Uhr für Gastronomiebetriebe eingeführt einschließlich eines generellen Außenabgabeverbotes von Alkohol. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Corona-Regelungen in den Bundesländern
@@ -2273,13 +2293,21 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Das Bundeskabinett hat am 3. Juni beschlossen, die weltweite Reisewarnung aufzuheben. Seit dem 15. Juni gelten für die Mitgliedstaaten der EU, Großbritannien, die Schweiz, Norwegen, Island und Liechtenstein individuelle Reisehinweise. Dabei entscheiden die Länder selbst über mögliche Einreiseverbote. Für Reisen in Staaten außerhalb Europas bleibt die Reisewarnung überwiegend bis einschließlich 31. August bestehen. Für die vier türkischen Provinzen Antalya, Izmir, Aydin und Mugla wurde die aktuelle Reisewarnung des Auswärtigen Amtes indessen zum 4. August aufgehoben. Es gibt in einigen Ländern nach wie vor Einschränkungen im internationalen Luft- und Reiseverkehr. Weltweit haben Staaten Einreisebeschränkungen erlassen und das öffentliche Leben eingeschränkt. Das Risiko, dass Reisende ihre Rückreise aufgrund der zunehmenden Einschränkungen nicht mehr antreten können, ist in vielen Destinationen derzeit hoch. Manche Staaten verlangen von Reisenden aus sogenannten Corona-Hotspots einen negativen Corona-Test bei Einreise. Bitte prüfen Sie vor Reiseplanungen, ob für Ihr Reiseziel gesonderte Regelungen gelten.</speak>
+            ssml: "<speak>Seit dem 1. Oktober gelten weltweit individuelle Reisehinweise. Eine Reisewarnung gilt dann automatisch für solche Gebiete, die als Corona-Risikogebiete ausgewiesen sind. Aufgrund lokaler Ausbrüche in Deutschland kann es zum Teil für manche Regionen wieder zu Einschränkungen kommen. So kann es für die Einreise aus einer solchen Region in manche Staaten beispielsweise erforderlich sein, ein ärztliches Zeugnis über einen negativen Sars Koff 2 Test vorzuweisen. Bitte prüfen Sie vor Reiseplanungen, ob für Ihr Reiseziel gesonderte Regelungen gelten. Hier geht es zu den aktuellen Reise- und Sicherheitshinweisen des Auswärtigen Amtes. Aktuelle Informationen zum jeweiligen Reiseland finden Sie außerdem in der Reise-App Sicher Reisen. Auch bei der EU-Kommission können Sie prüfen, welche Corona-Regelungen jetzt an Ihrem Reiseziel gelten: auf der Website re-open Europa.</speak>"
           - type: html
-            text: "<p>Das Bundeskabinett hat am 3. Juni beschlossen, die weltweite Reisewarnung aufzuheben. Seit dem 15. Juni gelten für die Mitgliedstaaten der EU, Großbritannien, die Schweiz, Norwegen, Island und Liechtenstein individuelle Reisehinweise. Dabei entscheiden die Länder selbst über mögliche Einreiseverbote. Für Reisen in Staaten außerhalb Europas bleibt die Reisewarnung überwiegend bis einschließlich 31. August bestehen. Für die vier türkischen Provinzen Antalya, Izmir, Aydin und Mugla wurde die aktuelle Reisewarnung des Auswärtigen Amtes indessen zum 4. August aufgehoben. Es gibt in einigen Ländern nach wie vor Einschränkungen im internationalen Luft- und Reiseverkehr. Weltweit haben Staaten Einreisebeschränkungen erlassen und das öffentliche Leben eingeschränkt. Das Risiko, dass Reisende ihre Rückreise aufgrund der zunehmenden Einschränkungen nicht mehr antreten können, ist in vielen Destinationen derzeit hoch. Manche Staaten verlangen von Reisenden aus sogenannten Corona-Hotspots einen negativen Corona-Test bei Einreise. Bitte prüfen Sie vor Reiseplanungen, ob für Ihr Reiseziel gesonderte Regelungen gelten.<a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724'>(1)</a> </p>"
-          - type: image
-            title: "Quelle: bundesregierung.de"
-            url: https://cosibot.org/wp-content/uploads/2020/05/de_travel.png
-            thumbnailURL: de_travel.png
+            text: "<p>Seit dem 1. Oktober gelten weltweit individuelle Reisehinweise. Eine Reisewarnung gilt dann automatisch für solche Gebiete, die als Corona-Risikogebiete ausgewiesen sind. Aufgrund lokaler Ausbrüche in Deutschland kann es zum Teil für manche Regionen wieder zu Einschränkungen kommen. So kann es für die Einreise aus einer solchen Region in manche Staaten beispielsweise erforderlich sein, ein ärztliches Zeugnis über einen negativen SARS-Cov-2-Test vorzuweisen.<br><br>Bitte prüfen Sie vor Reiseplanungen, ob für Ihr Reiseziel gesonderte Regelungen gelten. Hier geht es zu den aktuellen Reise- und Sicherheitshinweisen des Auswärtigen Amtes. Aktuelle Informationen zum jeweiligen Reiseland finden Sie außerdem in der Reise-App Sicher Reisen. Auch bei der EU-Kommission können Sie prüfen, welche Corona-Regelungen jetzt an Ihrem Reiseziel gelten: auf der Website re-open Europa. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724'>(1)</a> </p>"
+          - type: links
+            links:
+              - title: re-open Europa
+                url: https://reopen.europa.eu/de/
+          - type: links
+            links:
+              - title: Reise-App Sicher Reisen
+                url: https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/app-sicher-reisen/350382
+          - type: links
+            links:
+              - title: Reise- und Sicherheitshinweise Auswärtiges Amt
+                url: https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise
           - type: hints
             options:
               - label: Risikogebiete
@@ -2293,9 +2321,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Es gelten die Regeln der Bundesländer. Wenn Sie verreisen wollen, müssen Sie sich darüber informieren. Aufgrund einzelner lokaler Ausbrüche kann es zum Teil für manche Regionen wieder zu Einschränkungen kommen. Bund und Länder haben am 26. Juni beschlossen, dass Reisende aus betroffenen Regionen nur innerhalb Deutschlands reisen dürfen, wenn sie einen negativen Test auf SARS Koff 2 vorweisen können. Bitte prüfen Sie vor Reiseplanungen, welche Regelungen für Ihre Region und für Ihr Reiseziel gelten. Bei allen eventuellen Reisen sind die Kontaktbeschränkungen und Abstandsregeln einzuhalten. </speak>
+            ssml: <speak>Bund und Länder fordern eindringlich alle Bürgerinnen und Bürger auf, nicht erforderliche innerdeutsche Reisen in Gebiete und aus Gebieten heraus, die die Grenze von 50 Neuinfektionen pro 100.000 Einwohner innerhalb von sieben Tagen übersteigen, zu vermeiden. Touristisch Reisende aus einem Risikogebiet sollen nur dann in einem Beherbergungsbetrieb untergebracht werden dürfen, wenn sie einen negativen Corona-Test vorweisen können, der nicht älter als 48 Stunden ist. Fünf Bundesländer gaben am 7. Oktober Zusatzerklärungen ab. Hier finden Sie den Beschluss im Wortlaut. Die Regelungen der Bundesländer bezüglich der Beherbergung für Reisende aus besonders betroffenen Gebieten werden im Lichte der Erfahrungen und des weiteren Verlaufs des Infektionsgeschehens zum Ende der Herbstferien am 8. November neu bewertet. Bitte prüfen Sie vor Reiseplanungen, welche Regelungen für Ihre Region und für Ihr Reiseziel gelten. Bei allen eventuellen Reisen sind die Kontaktbeschränkungen und Abstandsregeln einzuhalten.</speak>
           - type: html
-            text: "<p>Es gelten die Regeln der Bundesländer. Wenn Sie verreisen wollen, müssen Sie sich darüber informieren. Aufgrund einzelner lokaler Ausbrüche kann es zum Teil für manche Regionen wieder zu Einschränkungen kommen. Bund und Länder haben am 26. Juni beschlossen, dass Reisende aus betroffenen Regionen nur innerhalb Deutschlands reisen dürfen, wenn sie einen negativen Test auf SARS-Cov-2 vorweisen können. Bitte prüfen Sie vor Reiseplanungen, welche Regelungen für Ihre Region und für Ihr Reiseziel gelten. Bei allen eventuellen Reisen sind die Kontaktbeschränkungen und Abstandsregeln einzuhalten. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Bund und Länder fordern eindringlich alle Bürgerinnen und Bürger auf, nicht erforderliche innerdeutsche Reisen in Gebiete und aus Gebieten heraus, die die Grenze von 50 Neuinfektionen pro 100.000 Einwohner innerhalb von sieben Tagen übersteigen, zu vermeiden. Touristisch Reisende aus einem Risikogebiet sollen nur dann in einem Beherbergungsbetrieb untergebracht werden dürfen, wenn sie einen negativen Corona-Test vorweisen können, der nicht älter als 48 Stunden ist. Fünf Bundesländer gaben am 7. Oktober Zusatzerklärungen ab. Hier finden Sie den Beschluss im Wortlaut. Die Regelungen der Bundesländer bezüglich der Beherbergung für Reisende aus besonders betroffenen Gebieten werden im Lichte der Erfahrungen und des weiteren Verlaufs des Infektionsgeschehens zum Ende der Herbstferien am 8. November neu bewertet. Bitte prüfen Sie vor Reiseplanungen, welche Regelungen für Ihre Region und für Ihr Reiseziel gelten. Bei allen eventuellen Reisen sind die Kontaktbeschränkungen und Abstandsregeln einzuhalten. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Corona-Regelungen in den Bundesländern
@@ -2344,9 +2372,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Die Möglichkeit für alle Reiserückkehrer, sich nach der Einreise nach Deutschland kostenfrei innerhalb von 72 Stunden auf eine Corona-Infektion testen zu lassen, endet mit dem 15. September 2020. Reiserückkehrer aus Risikogebieten sind in jedem Fall verpflichtet, sich unverzüglich nach der Einreise auf direktem Weg in die eigene Wohnung zu begeben und sich dort für 14 Tage in Quarantäne zu begeben. Zum 1. Oktober soll eine neue Regelung eingeführt werden, wonach eine vorzeitige Beendigung der Quarantäne frühestens durch einen negativen Test ab dem 5. Tag nach Rückkehr möglich ist. Verpflichtende Corona-Tests für Reiserückkehrer aus Risikogebieten bleiben, bis eine effektive Umsetzung dieser Quarantänepflicht gewährleistet ist. Wer negativ ist, kann dann in seinen Alltag zurückkehren. Zudem müssen sie sich sofort bei Ihrem zuständigen Gesundheitsamt melden. Weitere Fragen und Antworten für Reiserückkehrer finden Sie unter den eingeblendeten Links.</speak>
+            ssml: <speak>Wer aus einem Risikogebiet nach Deutschland einreist, muss sich in Quarantäne begeben und sein zuständiges Gesundheitsamt informieren. Seit dem 8. August muss jeder und jede Einreisende aus einem Risikogebiet zudem einen negativen Corona-Test vorlegen, der nicht älter als 48 Stunden ist, oder sich nach Ankunft innerhalb von zehn Tagen auf eine Corona-Infektion testen lassen. Wenn das Testergebnis negativ ist, kann die Quarantäne aufgehoben werden. Bund und Länder haben am 27. August beschlossen, die Quarantäne-Regeln weiterzuentwickeln. Vorgesehen ist, dass künftig die Quarantäne frühestens nach fünf Tagen mit einem Negativtest aufgehoben werden können soll. Ab wann die neue Quarantäne-Regelungen gelten sollen, steht noch nicht fest. Bund und Länder betonen außerdem, wo immer möglich, auf Reisen in ausgewiesene Risikogebiete zu verzichten.</speak>
           - type: html
-            text: "<p>Die Möglichkeit für alle Reiserückkehrer, sich nach der Einreise nach Deutschland kostenfrei innerhalb von 72 Stunden auf eine Corona-Infektion testen zu lassen, endet mit dem 15. September 2020.<br><br>Reiserückkehrer aus Risikogebieten sind in jedem Fall verpflichtet, sich unverzüglich nach der Einreise auf direktem Weg in die eigene Wohnung zu begeben und sich dort für 14 Tage in Quarantäne zu begeben. Zum 1. Oktober soll eine neue Regelung eingeführt werden, wonach eine vorzeitige Beendigung der Quarantäne frühestens durch einen negativen Test ab dem 5. Tag nach Rückkehr möglich ist.<br><br>Verpflichtende Corona-Tests für Reiserückkehrer aus Risikogebieten bleiben, bis eine effektive Umsetzung dieser Quarantänepflicht gewährleistet ist. Wer negativ ist, kann dann in seinen Alltag zurückkehren. Zudem müssen sie sich sofort bei Ihrem zuständigen Gesundheitsamt melden. Weitere Fragen und Antworten für Reiserückkehrer finden Sie unter den eingeblendeten Links. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Wer aus einem Risikogebiet nach Deutschland einreist, muss sich in Quarantäne begeben und sein zuständiges Gesundheitsamt informieren. Seit dem 8. August muss jeder und jede Einreisende aus einem Risikogebiet zudem einen negativen Corona-Test vorlegen, der nicht älter als 48 Stunden ist, oder sich nach Ankunft innerhalb von zehn Tagen auf eine Corona-Infektion testen lassen. Wenn das Testergebnis negativ ist, kann die Quarantäne aufgehoben werden. Bund und Länder haben am 27. August beschlossen, die Quarantäne-Regeln weiterzuentwickeln. Vorgesehen ist, dass künftig die Quarantäne frühestens nach fünf Tagen mit einem Negativtest aufgehoben werden können soll. Ab wann die neue Quarantäne-Regelungen gelten sollen, steht noch nicht fest. Bund und Länder betonen außerdem, wo immer möglich, auf Reisen in ausgewiesene Risikogebiete zu verzichten. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Fragen und Antworten zu Coronatests bei Einreisen nach Deutschland

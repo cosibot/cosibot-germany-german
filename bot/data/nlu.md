@@ -3462,6 +3462,34 @@ Wo gibt es die meisten erkrankten
 - Grillplätze
 - Grillparties
 
+## intent:gradual_opening_party
+- Parties
+- partys
+- party feiern?
+- Darf ich Party feiern?
+- Party
+- Darf ich mit meinem Freunde feiern?
+- Darf ich in Bayern feiern?
+- Darf ich feiern?
+- Ich will Party machen
+- Veranstaltungen
+- Was ist mit Veranstaltungen
+- Was ist mit Großveranstaltungen
+- Großveranstaltungen
+- Kann ich Party machen?
+- Was ist mit Feierlichkeiten?
+- Kann ich Partys feiern?
+- Dar ich eine Party feiern?
+- Fete
+- Sind Partys erlaubt?
+- Sind Parties wieder erlaubt?
+- Sind kleinere öffentliche oder private Veranstaltungen oder Feiern erlaubt?
+- Sind öffentliche oder private Veranstaltungen oder Feiern erlaubt?
+- Sind private Veranstaltungen erlaubt?
+- Sind Feiern erlaubt?
+- Feierlichkeiten
+- Mit wie vielen Personen darf ich feiern?
+
 ## intent:gradual_opening_cinema_concert_theatre
 - Wann machen die Konzerte wieder auf?
 - schrittweise Öffnung von Opern

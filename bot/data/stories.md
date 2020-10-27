@@ -354,6 +354,10 @@
 * gradual_opening_schools
   - utter_gradual_opening_schools
 
+## gradual_opening_party
+* gradual_opening_party
+  - utter_gradual_opening_party
+
 ## gradual_opening_sports
 * gradual_opening_sports
   - utter_gradual_opening_sports
