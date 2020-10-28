@@ -2390,12 +2390,12 @@ Wo gibt es die meisten erkrankten
 - qubeat 19 Deutschland
 - cupid 19 Deutschland
 - kuhweg 19 Deutschland
-- Wie ist die aktuelle Lage in @cities
-- Coronavirus in @cities
-- Corona in @cities
-- Covid 19 in @cities
-- Wie sieht es zur Zeit in @cities aus
-- Wie ist die Lage in @cities
+- Wie ist die aktuelle Lage in Deutschland
+- Coronavirus in Deutschland
+- Corona in Deutschland
+- Covid 19 in Deutschland
+- Wie sieht es zur Zeit in Deutschland aus
+- Wie ist die Lage in Deutschland
 - Q19 Deutschland
 - movit 19 Deutschland
 - Corona in Sachsen-Anhalt
