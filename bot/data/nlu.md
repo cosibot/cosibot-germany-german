@@ -181,188 +181,6 @@
 - gibt es irgendwelche Zahlen 
 - Wie viele Menschen sind infiziert
 
-## intent:covid_current_statistics
-- Wo finde ich aktualisierte Statistiken
-- Gibt es Statistiken
-- Wie sind die Zahlen heute
-- Wo gibt es die meisten erkrenkten
-Wo gibt es die meisten erkrankten
-- Wie viele sind am Virus erkrankt?
-- wie viele Coroner Fälle gibt es gerade 
-- Gibt es offizielle Zahlen zu den Erkrankungen weltweit?
-- cookit 19 aktuelle Zahlen
-- Q19 aktuelle Statistiken
-- movit 19 aktuelle Zahlen
-- Kubik 19 aktuelle Statistiken
-- COBIT 19 aktuelle Zahlen
-- wo gibt die meisten fälle
-- Hobbit 19 aktuelle Statistiken
-- huvit 19 aktuelle Zahlen
-- kovit 19 aktuelle Statistiken
-- Covid 19 aktuelle Zahlen
-- kuhweg 19 aktuelle Statistiken
-- Wie viele Erkrankungen gibt es weltweit?
-- Hast du Zahlen?
-- Wo gibt es aktualisierte Zahlen
-- Aktuelle Zahl aller Infizierten
-- Anzahl aller infizierten
-- Aktuelle Nummern
-- Wo finde ich aktuelle Statistiken?
-- Wo finde ich aktuelle Zahlen?
-- wieviele infektionen gibt es in der [Schweiz]{"entity": "country_code", "value": "CH"} ?
-- Wie viele Menschen sind in [Thüringen]{"entity": "country_district", "value": "Thüringen"} gestorben
-- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": "Baden-Württemberg"}
-- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}
-- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}
-- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_district", "value": "Sachsen"}
-- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_district", "value": "Saarland"}
-- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}
-- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
-- Wie viele Kranke gibt es im Sauerland
-- Wie viele Kranke gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
-- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_district", "value": "Niedersachsen"}
-- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}
-- wie viele Coroner Fälle gibt es in [München]{"entity": "country_district", "value": "München"}
-- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"}
-- Wie viele Fälle gibt es in [Köln]{"entity": "country_district", "value": "Köln"}?
-- Wie viele Fälle gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}?
-- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Wie viele Fälle hat [Bayern]{"entity": "country_district", "value": "Bayern"}
-- Infizierte in [Berlin]{"entity": "country_district", "value": "Berlin"}
-- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
-- Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
-- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
-- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
-- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
-- Infizierte in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
-- Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
-- Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
-- Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
-- Wieviele Menschen sind am Coronavirus erkrankt?
-- wie viele Menschen sind in Deutschland krank
-- wie viele Menschen sind in Deutschland betroffen
-- wie viele leute sind betroffen
-- Wieviel Kranke gibt es in Deutschland
-- wie sind die fallzahlen in deutschland?
-- fallzahlen
-- wie sind die Zahlen in [America]{"entity": "country_code", "value": "US"} 
-- Statistik zu todesfällen
-- Gibt es eine Statistik zu Todesfällen in Deutschland
-- fallzahlen deutschland
-- Wie viele Leute sind bereits gestorgen?
-- Wie viele Leute sind bereits gestorben?
-- Wieviel Infizierte gibt es in Deutschland
-- Wie viele Menschen infizieren sich täglich neu in Deutschland?
-- wie viele leute sie betroffen
-- Wie hoch ist die Zahl der Neuinfektionen in Deutschland zurzeit?
-- Wie viele Menschen infizieren sich täglich in Deutschland?
-- Wie viele Fälle gibt es in Deutschland
-- Fälle in Berlin
-- Infektionen in Berlin
-- Infektionen in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele sind erkrankt
-- gibt es irgendwelche pauschalen zahlen
-- Wieviele Fälle gibt es momentan
-- wieviele menschen sind in Deutschland bereits erkrkankt
-- wie viele meschen haben coronavirus
-- wie viele meschen haben corona
-- Zahlen infizierte Menschen weltweit
-- Statistiken
-- Nenne mir ein paar Zahlen
-- Wie viele Menschen in Deutschland stecken sich täglich an?
-- Wie viele alte Menschen stecken sich täglich an?
-- Wie viele junge Menschen stecken sich an?
-- In welchem Bundesland gibt es am meisten Infizierte?
-- In welchem Bundesland gibt die meisten Infizierten?
-- Stecken sich mehr Frauen oder mehr Männer an?
-- In welchem Bundesland gibt die meisten Fälle?
-- Stecken sich Frauen und Männer gleich oft an?
-- Trifft es mehr Frauen oder Männer?
-- Gibt es mehr weibliche oder männliche Infizierte?
-- Wie viele Fälle gibt es in jedem Bundesland pro Tag?
-- Fälle nach Altersgruppe und Geschlecht
-- COVID-19 Fälle nach Altersgruppe und Geschlecht
-- Covid Todesfälle
-- Gesamtzahl der Infizierten pro Bundesland
-- Statistiken pro Landkreis
-- Statistiken pro Bundesland
-- Zahl der Infizierten im Landkreis
-- Wie viele Opfer
-- Wie viele Menschen sind in [Brandenburg]{"entity": "country_district", "value": "Brandenburg"} infiziert
-- Fälle in [Bremen]{"entity": "country_district", "value": "Bremen"}
-- Todesfälle in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
-- Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
-- Fälle in [England]{"entity": "country_code", "value": "GB"}
-- Krankheitsfälle in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}?
-- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_district", "value": "Mecklenburg-Vorpommern"}?
-- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_district", "value": "Rheinland-Pfalz"}?
-- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_district", "value": "Saarland"}?
-- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_district", "value": "Sachsen"}?
-- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_district", "value": "Sachsen-Anhalt"}?
-- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_district", "value": "Schleswig-Holstein"}?
-- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_district", "value": "Thüringen"}?
-- Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
-- Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
-- Wie viel infiziert
-- Wie viele Infizierte gibt es
-- Wie viele Infizierte
-- Wieviele Fälle gibt es momentan?
-- Infizierte Personen weltweit
-- Zahlen infizierter Personen weltweit
-- Sag mir, wie viele Menschen sich weltweit mit dem Virus infiziert haben
-- Sind viele Personen infiziert?
-- Wieviele Menschen haben sich weltweit bisher angesteckt?
-- Weißt du wie viele Erkrankte es weltweit gibt?
-- Gibt es offizielle Zahlen der Erkrankungen weltweit?
-- Weißt du wie viele Erkrankte es ingesamt gibt?
-- Ich wüsste gern die Zahl der Erkrankten weltweit
-- Sag mir wie viele Erkrankte es weltweit gibt
-- Wie viele Personen sind am Coronavirus weltweit erkrankt?
-- Erzähle mir, wie viele Menschen insgesamt bisher am Virus erkrankt sind.
-- Wie viele haben sich insgesamt auf der Welt angesteckt?
-- Wieviele haben sich bisher weltweit angesteckt?
-- Wieviele haben den Coronavirus
-- Wie viele leiden unter dem Virus?
-- Wie viele haben sich weltweit angesteckt
-- Wie viele infizierte gibt es weltweit
-- Wie viele Personen sind mit dem Coronavirus weltweit infiziert
-- Gibt es Zahlen zu den Infizierten?
-- Corona Zahlen
-- Coronavirus Zahlen
-- Corona Statistk
-- Aktuelle Zahlen
-- cupid 19 aktuelle Zahlen
-- qubeat 19 aktuelle Statistiken
-- wie schauen die zahlen in deutschland aus
-- wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
-- Anzahl Tote
-- Fälle im Landkreis
-- Kurve von Corona in
-- Wie viele Menschen sind am Virus gestorben
-- Wie viele Tote
-- Wie hoch ist die Zahl der Toten in Deutschland
-- Wie hoch ist die Zahl der Infizierten
-- Wie hoch ist die Zahl der infizierten in Deutschland?
-- Wann Sind in Deutschland 100000 Menschen erkrankt
-- Gibt es Zahlen?
-- Nenne mir Zahlen
-- Wie viel Menschen sind tot
-- Wie fuel Menschen sind tot
-- nimm mir ein paar zahlen
-- Wie hoch ist die Anzahl der aktuell Infizierten?
-- Wie viele Menschen weltweit sind mit dem Virus infiziert
-- Wie viele Menschen sind infiziert
-- Welches Land hat die niedrigste Todesrate?
-- Wie viele Infizierte gibt es derzeit in Deutschland?
-- Wie viele Opfer gibt es
-
 ## intent:covid_dangerous
 - Ist dies Virus gefaerlich
 - ist der virus böse?
@@ -1915,6 +1733,186 @@ Wo gibt es die meisten erkrankten
 - Steigen die Zahlen im Sommer?
 - Wird die Aktivität von SARS-CoV-2 saisonal beeinflusst?
 
+## intent:covid_procedure_after_infection
+- Was passiert bei einem Verdachtsfall auf den Virus?
+- Was passiert bei einem positiven Resultat?
+- Was passiert wenn ich positiv auf die Infektion getestet wurde?
+- Was passiert, wenn ich infiziert bin?
+- was passiert wenn ich positiv auf coronavirus getestet bin
+- Meine Freundin hat Hobbit 19, was passiert jetzt?
+- Meine Freundin hat Kubik 19, was passiert jetzt?
+- Wie wird bei einem Verdachtsfall vorgegangen?
+- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
+- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
+- Meine Freundin hat Q19, was passiert jetzt?
+- Meine Freundin hat cookit 19, was passiert jetzt?
+- Meine Freundin hat qubeat 19, was passiert jetzt?
+- Meine Freundin hat cupid 19, was passiert jetzt?
+- Meine Freundin hat kuhweg 19, was passiert jetzt?
+- Was passiert bei einem positiven Test auf den Coronavirus?
+- Was passiert, wenn ich positiv auf den Virus getestet wurde?
+- Meine Freundin hat Covid 19, was passiert jetzt?
+- Was passiert wenn die Resultate positiv sind?
+- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
+- Was passiert bei einem Verdachtsfall auf den Coronavirus?
+- Meine Freundin hat kovit 19, was passiert jetzt?
+- Meine Freundin hat movit 19, was passiert jetzt?
+- Meine Freundin hat COBIT 19, was passiert jetzt?
+- Meine Freundin hat huvit 19, was passiert jetzt?
+- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
+- Vorgehensweise Infektion
+- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
+- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
+- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
+- Was geschieht wenn der Test positiv ist?
+- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
+- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
+- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
+- Ich bin infiziert, was passiert jetzt?
+
+## intent:covid_unknown_cases
+- Die Rolle der Dunkelziffer bei Covid-19
+- Dunkelziffern
+- Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Erkrankten-Dunkelziffer
+- Was kannst du mir zur Dunkelziffer sagen
+- Was sagt die Dunkelziffer
+- Dunkelziffer Coronavirus
+- Schätzung der Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Wie hoch ist die Dunkelziffer
+
+## intent:mask_protection
+- Warum sollen wir jetzt Mundschutz tragen?
+- Warum Masken tragen?
+- Warum soll ich eine Maske tragen?
+- Was nützt es, Masken zu tragen?
+- Helfen Atemschutzmasken gegen qubeat 19?
+- Helfen Atemschutzmasken gegen cupid 19?
+- Helfen Atemschutzmasken gegen kuhweg 19?
+- Helfen Atemschutzmasken gegen Hobbit 19?
+- Helfen Atemschutzmasken gegen huvit 19?
+- Helfen Atemschutzmasken gegen COBIT 19?
+- Mundschutz Maske
+- Mundschutzmasken
+- Mundschutz
+- Macht eine Atemschutz Maske Sinn?
+- Helfen Atemschutzmasken gegen movit 19?
+- Helfen Atemschutzmasken gegen kovit 19?
+- Helfen Atemschutzmasken gegen Kubik 19?
+- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
+- Ist es sinnvoll, einen Mundschutz zu tragen?
+- Mundschutzmaske
+- Mundschutz Masken
+- Verhindert ein Mundschutz eine Ansteckung?
+- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
+- Macht es Sinn, den Mund Nasen Schutz zu tragen?
+- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
+- Verhindert der Mundschutz, dass ich mich anstecke?
+- Helfen Atemschutzmasken gegen Sars-CoV-2?
+- Helfen Atemschutz Masken gegen eine Ansteckung?
+- Helfen Atemschutzmasken gegen Covid 19?
+- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
+- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
+- Mundschutzmaske gegen Coronavirus-Epidemie?
+- Schützen Atemschutzmasken vor Sars-CoV-2?
+- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
+- Was bringt ein Mundschutz?
+- Mundschutz Maske gegen Coronavirus
+- Mundschutz-Masken: Was hilft gegen Viren?
+- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
+- Sollte ich eine Maske tragen, um mich selbst zu schützen?
+- Hilft der Maskenschutz gegen eine Ansteckung?
+- Schützt mich die Maske vor einer Ansteckung?
+- Verhindern die Masken eine Ansteckung?
+- Helfen Atemschutzmasken gegen Q19?
+- Helfen Atemschutzmasken gegen cookit 19?
+- Schützt mich eine Stoffmaske?
+- Kann ich mit Schutzmasken andere schützen?
+- Kann ich mich mit einer Maske vor Ansteckung schützen?
+- Kann ich mich mit Masken schützen?
+- Was bringt die Maske?
+- Was ist der Nutzen der Mund Bedeckung
+- Warum Mund Bedeckung tragen
+- Warum sollen wir Mund Nasen Schutz tragen?
+- Warum Mund Nasen Schutz tragen?
+- Was hilft es, einen Mundschutz zu tragen?
+
+## intent:quarantine_how_it_works
+- Wie soll ich mich unter Quarantäne verhalten?
+- Was ist Heimquarantäne und wie funktioniert sie?
+- Wie läuft eine Heimquarantäne ab?
+- Was muss ich beachten, wenn ich in Quarantäne bin?
+- Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?
+- Regeln der Ausgangssperre
+- Was muss ich beachten, wenn ich zuhause bleibe?
+- Tipps bei häuslicher Quarantäne
+- Wie läuft das in der Quarantäne ab?
+- Was ist mit Körperkontakt in Quarantäne?
+- Geht noch Sex in der Quarantäne?
+- Geht noch küssen in Quarantäne?
+- Welche Regeln muss man bei der Quarantäne beachten
+- Wie funktioniert die Quarantäne
+- Was darf man in Quarantäne und was nicht
+- Was ist bei einer Ausgangssperre zu beachten
+- Wie funktioniert die Ausgangssperre
+- Was ist bei einer Ausgangssperre zu tun?
+- Was ist bei häuslicher Quarantäne zu beachten?
+- Was gibt es bei der Quarantäne alles zu beachten?
+- Was tun, wenn man zuhause bleiben muss?
+- Wie läuft die Quarantäne ab?
+- Wie funktioniert die Heimquarantäne?
+- Quarantäne - Verhaltensregeln
+- Verhaltensregeln in Heimquarantäne
+- Ablauf häusliche Quarantäne
+- Wie soll ich mich bei einer Quarantäne verhalten?
+- Was soll ich bei einer Quarantäne beachten?
+- Wie sieht die Quarantäne aus?
+- Wie funkioniert eine Quarantäne?
+- Corona wie funktioniert die Quarantäne?
+- Worauf muss ich bei der Ausgangs Sperre achten?
+- Was ist bei Ausgangssperre zu beachten?
+- Und wie soll man denn zuhause behandelt werden?
+- Was passiert bei häuslicher Quarantäne?
+- Erkläre mir, wie so eine Quarantäne abläuft.
+- Wie funktioniert das mit der Quarantäne?
+- Was muss ich beachten wenn ich in Quarantäne geschickt wurde?
+- Was muss ich beachten wenn ich zuhause bleiben muss?
+- Was muss ich machen wenn ich in Quarantäne bin?
+- Wie verhält man sich unter Quarantäne?
+- Wie funktioniert die häusliche Quarantäne beim Coronavirus?
+- Wie funktioniert die häusliche Quarantäne?
+- Wie geht das mit der Quarantäne?
+- Wie verhalte ich mich in häuslicher Quarantäne?
+- Ablauf und Dauer der häuslichen Quarantäne
+ 
+## intent:test_how
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Corona Test
+- Wann bekommt man Ergebnisse bei dem Test
+- Wann sind die Ergebnisse des Tests da
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert ein Corona-Test?
+- Wie wird der Test durchgeführt?
+- Wie läuft der Test ab
+- Wie lange dauert die Testzeit
+- Testzeit
+- Wie lange dauert der Test
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie funktioniert der Coronavirus Test
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert der Test auf Sars-CoV-2
+- Corona Test Wie funktioniert der Test
+
 ## intent:covid_situation_infected
 - Wie viele Infizierte gibt es in [Neuseeland]{"entity": "country_code", "value": "NZ"}?
 - Aktive Fälle in [Kolumbien]{"entity": "country_code", "value": "CO"}.
@@ -1934,7 +1932,206 @@ Wo gibt es die meisten erkrankten
 - Wie viele Menschen sind in [Vereinigte Staaten]{"entity": "country_code", "value": "US"} infiziert?
 - Wie viele aktive Fälle von Covid sind in [Brasilien]{"entity": "country_code", "value": "BR"}?
 - Wie viele aktive Fälle sind in [Südafrike]{"entity": "country_code", "value": "ZA"}?
-
+- Wo finde ich aktualisierte Statistiken
+- Gibt es Statistiken
+- Wie viele sind am Virus erkrankt?
+- Gibt es offizielle Zahlen zu den Erkrankungen weltweit?
+- cookit 19 aktuelle Zahlen
+- Q19 aktuelle Statistiken
+- movit 19 aktuelle Zahlen
+- Kubik 19 aktuelle Statistiken
+- COBIT 19 aktuelle Zahlen
+- Hobbit 19 aktuelle Statistiken
+- huvit 19 aktuelle Zahlen
+- kovit 19 aktuelle Statistiken
+- Covid 19 aktuelle Zahlen
+- kuhweg 19 aktuelle Statistiken
+- Wie viele Erkrankungen gibt es weltweit?
+- Hast du Zahlen?
+- Wo gibt es aktualisierte Zahlen
+- Aktuelle Zahl aller Infizierten
+- Anzahl aller infizierten
+- Aktuelle Nummern
+- Wo finde ich aktuelle Statistiken?
+- Wo finde ich aktuelle Zahlen?
+- Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
+- Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_state", "value": "Baden-Württemberg"}
+- Wie viele Infizierte gibt es in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}
+- Wie viele Infizierte gibt es in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}
+- Wie viele Infizierte gibt es in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
+- Wie viele Infizierte gibt es in [Saarland]{"entity": "country_state", "value": "Saarland"}
+- Wie viele Infizierte gibt es in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}
+- Wie viele Infizierte gibt es in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}
+- Wie viele Infizierte gibt es in [Niedersachsen]{"entity": "country_state", "value": "Niedersachsen"}
+- Wie viele Infizierte gibt es in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}
+- Wie viele Infizierte gibt es in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Infizierte gibt es in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Wie viele Infizierte gibt es in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"}
+- Wie viele Infizierte gibt es in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Wie viele Fälle hat [Bayern]{"entity": "country_state", "value": "Bayern"}
+- Infizierte in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
+- Fälle in [Frankfurt]{"entity": "country_district", "value": "Frankfurt"}
+- Wie viele Menschen sind in [München]{"entity": "country_district", "value": "München"} infiziert
+- Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": "Köln"} gestorben
+- Wie viele Infizierte gibt es in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Fälle hat [Düsseldorf]{"entity": "country_district", "value": "Düsseldorf"}
+- Infizierte in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
+- Wie viele Infizierte gibt es in [Frankreich]{"entity": "country_code", "value": "FR"}
+- Wie viele Fälle hat [Ecuador]{"entity": "country_code", "value": "EC"}
+- Infizierte in [Dänemark]{"entity": "country_code", "value": "DK"}
+- Wieviele Menschen sind am Coronavirus erkrankt?
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} krank
+- wie viele Menschen sind in [Deutschland]{"entity": "country_code", "value": "DE"} betroffen
+- wie viele leute sind betroffen
+- Wieviel Kranke gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- wie sind die fallzahlen in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- fallzahlen
+- Statistik zu todesfällen
+- Gibt es eine Statistik zu Todesfällen in [Deutschland]{"entity": "country_code", "value": "DE"}
+- fallzahlen [Deutschland]{"entity": "country_code", "value": "DE"}
+- Wie viele Leute sind bereits gestorgen?
+- Wie viele Leute sind bereits gestorben?
+- Wieviel Infizierte gibt es in [Schweden]{"entity": "country_code", "value": "SE"}
+- Wie viele Menschen infizieren sich täglich neu in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- wie viele leute sie betroffen
+- Wie hoch ist die Zahl der Neuinfektionen in [Deutschland]{"entity": "country_code", "value": "DE"} zurzeit?
+- Wie viele Menschen infizieren sich täglich in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Wie viele Fälle gibt es in [Frankfreich]{"entity": "country_code", "value": "FR"}
+- Fälle in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Infektionen in [Berlin]{"entity": "country_state", "value": "Berlin"}
+- Infektionen in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele sind erkrankt
+- gibt es irgendwelche pauschalen zahlen
+- Wieviele Fälle gibt es momentan
+- wieviele menschen sind in [Portugal]{"entity": "country_code", "value": "PT"} bereits erkrkankt
+- wie viele meschen haben coronavirus
+- wie viele meschen haben corona
+- Zahlen infizierte Menschen weltweit
+- Statistiken
+- Nenne mir ein paar Zahlen
+- Wie viele Menschen in [Brasilien]{"entity": "country_code", "value": "BR"} stecken sich täglich an?
+- Wie viele alte Menschen stecken sich täglich an?
+- Wie viele junge Menschen stecken sich an?
+- In welchem Bundesland gibt es am meisten Infizierte?
+- In welchem Bundesland gibt die meisten Infizierten?
+- Stecken sich mehr Frauen oder mehr Männer an?
+- In welchem Bundesland gibt die meisten Fälle?
+- Stecken sich Frauen und Männer gleich oft an?
+- Trifft es mehr Frauen oder Männer?
+- Gibt es mehr weibliche oder männliche Infizierte?
+- Wie viele Fälle gibt es in jedem Bundesland pro Tag?
+- Fälle nach Altersgruppe und Geschlecht
+- COVID-19 Fälle nach Altersgruppe und Geschlecht
+- Covid Todesfälle
+- Gesamtzahl der Infizierten pro Bundesland
+- Statistiken pro Landkreis
+- Statistiken pro Bundesland
+- Zahl der Infizierten im Landkreis
+- Wie viele Opfer
+- Wie viele Menschen sind in [Brandenburg]{"entity": "country_state", "value": "Brandenburg"} infiziert
+- Fälle in [Bremen]{"entity": "country_state", "value": "Bremen"}
+- Todesfälle in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
+- Wie viele Menschen sind in [Spanien]{"entity": "country_code", "value": "ES"} infiziert
+- Fälle in [England]{"entity": "country_code", "value": "GB"}
+- Krankheitsfälle in [Hessen]{"entity": "country_state", "value": "Hessen"}
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Nordrhein-Westfalen]{"entity": "country_state", "value": "Nordrhein-Westfalen"}?
+- Wieviele Fälle gibt es momentan in [Mecklenburg-Vorpommern]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"}?
+- Wieviele Fälle gibt es momentan in [Rheinland-Pfalz]{"entity": "country_state", "value": "Rheinland-Pfalz"}?
+- Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_state", "value": "Saarland"}?
+- Wieviele Fälle gibt es momentan in [Sachsen]{"entity": "country_state", "value": "Sachsen"}?
+- Wieviele Fälle gibt es momentan in [Sachsen-Anhalt]{"entity": "country_state", "value": "Sachsen-Anhalt"}?
+- Wieviele Fälle gibt es momentan in [Schleswig-Holstein]{"entity": "country_state", "value": "Schleswig-Holstein"}?
+- Wieviele Fälle gibt es momentan in [Thüringen]{"entity": "country_state", "value": "Thüringen"}?
+- Todesfälle in [Schweden]{"entity": "country_code", "value": "SE"}
+- Krankheitsfälle in [Norwegen]{"entity": "country_code", "value": "NO"}
+- Wie viel infiziert
+- Wie viele Infizierte gibt es
+- Wie viele Infizierte
+- Wieviele Fälle gibt es momentan?
+- Infizierte Personen weltweit
+- Zahlen infizierter Personen weltweit
+- Sag mir, wie viele Menschen sich weltweit mit dem Virus infiziert haben
+- Sind viele Personen infiziert?
+- Wieviele Menschen haben sich weltweit bisher angesteckt?
+- Weißt du wie viele Erkrankte es weltweit gibt?
+- Gibt es offizielle Zahlen der Erkrankungen weltweit?
+- Weißt du wie viele Erkrankte es ingesamt gibt?
+- Ich wüsste gern die Zahl der Erkrankten weltweit
+- Sag mir wie viele Erkrankte es weltweit gibt
+- Wie viele Personen sind am Coronavirus weltweit erkrankt?
+- Erzähle mir, wie viele Menschen insgesamt bisher am Virus erkrankt sind.
+- Wie viele haben sich insgesamt auf der Welt angesteckt?
+- Wieviele haben sich bisher weltweit angesteckt?
+- Wieviele haben den Coronavirus
+- Wie viele leiden unter dem Virus?
+- Wie viele haben sich weltweit angesteckt
+- Wie viele infizierte gibt es weltweit
+- Wie viele Personen sind mit dem Coronavirus weltweit infiziert
+- Gibt es Zahlen zu den Infizierten?
+- Corona Zahlen
+- Coronavirus Zahlen
+- Corona Statistk
+- Aktuelle Zahlen
+- cupid 19 aktuelle Zahlen
+- qubeat 19 aktuelle Statistiken
+- wie schauen die zahlen in [deutschland]{"entity": "country_code", "value": "DE"} aus
+- wie schauen die zahlen in [Australien]{"entity": "country_code", "value": "AU"} aus
+- wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus
+- Anzahl Tote
+- Fälle im Landkreis
+- Kurve von Corona in [Portugal]{"entity": "country_code", "value": "PT"} aus
+- Wie viele Menschen sind am Virus gestorben
+- Wie viele Tote
+- Wie hoch ist die Zahl der Toten in [Deutschland]{"entity": "country_code", "value": "DE"} aus
+- Wie hoch ist die Zahl der Infizierten
+- Wie hoch ist die Zahl der infizierten in [Deutschland]{"entity": "country_code", "value": "DE"} aus?
+- Wann Sind in [Deutschland]{"entity": "country_code", "value": "DE"} aus 100000 Menschen erkrankt
+- Gibt es Zahlen?
+- Nenne mir Zahlen
+- Wie viel Menschen sind tot
+- Wie fuel Menschen sind tot
+- nimm mir ein paar zahlen
+- Wie hoch ist die Anzahl der aktuell Infizierten?
+- Wie viele Menschen weltweit sind mit dem Virus infiziert
+- Wie viele Menschen sind infiziert
+- Welches Land hat die niedrigste Todesrate?
+- Wie viele Infizierte gibt es derzeit in [Deutschland]{"entity": "country_code", "value": "DE"} aus ?
+- Wie viele Opfer gibt es
+- Tote in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Argentinien]{"entity": "country_code", "value": "AR"}
+- Anzahl der Toten in [Brasilien]{"entity": "country_code", "value": "BR"}
+- Infizierte Personen in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} infiziert?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben
+- Infizierte Personen in [Jordanien]{"entity": "country_code", "value": "JO"}.
+- Wie viele Tote in [Tschechien]{"entity": "country_code", "value": "CZ"}?
+- Wie viele Kranke in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele gestorben in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele sind in [Peru]{"entity": "country_code", "value": "PE"} gestorben?
+- Wie viele Personen sind in [England]{"entity": "country_code", "value": "GB"} gestorben?
+- Kranke in [England]{"entity": "country_code", "value": "GB"}.
+- Todeszahlen in [Spanien]{"entity": "country_code", "value": "ES"}
+- Todesfälle in [Großbritannien]{"entity": "country_code", "value": "GB"}.
+- Infizierte in [Griechenland]{"entity": "country_code", "value": "GR"}.
+- Personen infiziert in [Türkei]{"entity": "country_code", "value": "TR"}.
+- Covid Fälle in [England]{"entity": "country_code", "value": "GB"}?
+- Wie viele Menschen sind in [Italien]{"entity": "country_code", "value": "IT"} gestorben?
+- Opfer in [Südafrika]{"entity": "country_code", "value": "ZA"}.
+- Wie viele Opfer in [Türkei]{"entity": "country_code", "value": "TR"}?
+- Wie viele Personen in [Brasilien]{"entity": "country_code", "value": "BR"} tot?
+- Tote in [Kanada]{"entity": "country_code", "value": "CA"}
+- Wie viele Covid-Fälle gibt es in [Australien]{"entity": "country_code", "value": "AU"}?
+- Fälle in [Deutschland]{"entity": "country_code", "value": "DE"}?
+- Fallzahlen in [Russland]{"entity": "country_code", "value": "RU"}.
+- Wie viele Fälle gibt es in [China]{"entity": "country_code", "value": "CN"}
+- Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"}
+- Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}.
+- wie viele Falle gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
+- infizierte in [Deutschland]{"entity": "country_code", "value": "DE"}
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
 - Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "GB"}?
@@ -4664,6 +4861,24 @@ Wo gibt es die meisten erkrankten
 - Ich fühle mich schlapp
 - Ich fühle mich abgeschlagen
 - Coronavirus Was tun bei Symptomen?
+- Was tun bei Symptomen
+- Was soll ich tun bei Symptomen
+- Was kann ich bei Symptomen tun?
+- Was soll ich tun, wenn ich Symptome habe?
+- Was mache ich, wenn ich Symptome habe?
+- Was machen bei Symptomen
+- Was tun bei Symptomen
+- Symptome, und jetzt?
+- Ich habe Symptome
+- Hilfe ich habe Symptome
+- Ich habe Symptome und jetzt?
+- Wo soll ich hingehen wenn ich Symptome habe
+- Soll ich zum Arzt wenn ich Sympyome habe?
+- Was mache ich bei Symptomen?
+- Was soll ich bei Symptomen machen?
+- Wie soll ich vorgehen, wenn ich Symptome habe?
+- Vorgehensweise bei Symptomen
+- Was tue ich bei Symptomen?
 - Husten
 - Fieber
 - Ich habe eine Lungenentzündung

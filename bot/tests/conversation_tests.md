@@ -518,7 +518,7 @@
   - utter_quarantine_general
 
 ## quarantine_how_it_works
-* quarantine_how_it_works: 
+* quarantine_how_it_works: Wie soll ich mich in der Quarantäne verhalten?
   - utter_quarantine_how_it_works
 
 ## quarantine_toiletpaper
