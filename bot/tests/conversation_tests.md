@@ -165,6 +165,18 @@
 * corona_app_developers: Wer steht hinter der Corona Warn App?
   - utter_corona_app_developers
 
+## gradual_opening_party
+* gradual_opening_party: Kann ich mit meinen Freunden Party feiern?
+  - utter_gradual_opening_party
+
+## prevention_supermarket
+* prevention_supermarket: Welche Maßnahmen muss ich beim Einkaufen beachten?
+  - utter_prevention_supermarket
+
+## bot_developers
+* bot_developers: Wer hat euch entwickelt?
+  - utter_bot_developers
+
 ## corona_app_general
 * corona_app_general: Corona-Warn-App
   - utter_corona_app_general

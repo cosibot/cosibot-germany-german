@@ -785,8 +785,8 @@ responses:
                 url: https://www.verbraucherzentrale.de/aktuelle-meldungen/vertraege-reklamation/coronahilfspaket-und-andere-moeglichkeiten-wenn-das-geld-knapp-wird-45990
           - type: hints
             options:
-              - label: Dauer der Maßnahmen"
-                value: Dauer der Maßnahmen"
+              - label: Dauer der Maßnahmen
+                value: Dauer der Maßnahmen
               - label: Derzeitige Situation Deutschlands
                 value: Derzeitige Situation Deutschlands
               - label: Pandemie-Ausruf in Deutschland
@@ -801,8 +801,8 @@ responses:
             text: "<p>Durch die raschen und umfangreichen Infektionsschutzmaßnahmen und das gute Mitwirken der Bevölkerung ist es gelungen, die erste COVID-19-Welle in Deutschland abzuflachen. Die bundesweiten Fallzahlen sind aktuell rückläufig. Das bedeutet jedoch keinesfalls, dass die Pandemie in Deutschland überstanden ist.<br><br>Bislang war nur ein kleiner Teil der Menschen hierzulande mit SARS-CoV-2 infiziert und ist – wahrscheinlich und zumindest für eine gewisse Zeit – gegen das Virus immun. Die überwiegende Mehrheit der Bevölkerung hat noch immer keinerlei Immunschutz gegen SARS-CoV-2. Es muss damit gerechnet werden, dass die Fallzahlen wieder ansteigen können und es zu einer zweiten COVID-19-Welle kommen kann.<br><br>Wann eine zweite Welle in Deutschland beginnen könnte und wie stark diese ausfallen würde, lässt sich nicht vorhersagen. Das hängt von vielen Faktoren ab, zum Beispiel von möglichen saisonalen Effekten, der Aufrechterhaltung und Einhaltung von Infektionsschutzmaßnahmen oder der Mobilität der Bevölkerung und der schnellen Erkennung von Fällen. Eine wichtige Rolle spielt das individuelle Verhalten.<br><br>Ohne diese Maßnahmen kann sich das Virus unkontrolliert weiterverbreiten und es würde sehr rasch wieder zu einer exponentiellen Zunahme der Neuinfektionen und zu einer unter Umständen sehr starken zweiten Welle kommen. Auch mehrere nachfolgende Wellen unterschiedlichen Ausmaßes sind theoretisch denkbar. <a href='https://www.rki.de/SharedDocs/FAQ/NCOV2019/gesamt.html?nn=13490888' target='_blank'>(1)</a></p>"
           - type: hints
             options:
-              - label: Dauer der Maßnahmen"
-                value: Dauer der Maßnahmen"
+              - label: Dauer der Maßnahmen
+                value: Dauer der Maßnahmen
               - label: Derzeitige Situation Deutschlands
                 value: Derzeitige Situation Deutschlands
               - label: Pandemie-Ausruf in Deutschland
@@ -836,9 +836,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den "Digitalpakt Schule " auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes.</speak>
+            ssml: <speak>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und   Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den Digitalpakt Schule auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes.</speak>
           - type: html
-            text: "<p>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den "Digitalpakt Schule " auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres Bundeslandes. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Seit Ende der Sommerferien gibt es wieder Präsenzunterricht in den Schulen - soweit möglich unter Einhaltung der Abstands- und Hygieneregeln. Die jeweiligen Regelungen - zum Beispiel zum Tragen von Mund-Nasen-Bedeckungen - treffen die Bundesländer. Um die Digitalisierung des Lehrens und Lernens weiter voranzutreiben, hat der Bund seine Investitionen in den \"Digitalpakt Schule\" auf 6,5 Milliarden Euro aufgestockt. Informationen zur Wiederaufnahme des Schulbetriebs in Ihrer Region finden Sie auf der Internetseite Ihres  Bundeslandes. <a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Corona-Regelungen in den Bundesländern
@@ -878,7 +878,7 @@ responses:
           - type: ssml   
             ssml: <speak>Der Sportbetrieb, insbesondere von Sportvereinen, wurde in den vergangenen Monaten schrittweise wieder aufgenommen. Die konkreten Schritte und aktuellen Verordnungen zum Sport regeln die Länder. Grundlage dabei sind unter anderem die Leitplanken des Deutschen Olympischen Sportbunds (DOSB) sowie die sportartspezifischen Übergangsregeln der Spitzenverbände. Die Chefinnen und Chefs der Staats- und Senatskanzleien haben Mitte September beschlossen, Sportveranstaltungen mit begrenzter Zuschauerzahl möglichst bis zum Start der jeweiligen deutschen Profiligen bzw. Pokalwettbewerbe zuzulassen. Grundlage für die Zulassung von Zuschauern zu bundesweiten Sportveranstaltungen sind die Hygienekonzepte der Deutschen Fußballliga und der Mitgliederverbände der Interessengemeinschaft Teamsport Deutschland sowie der zugehörigen Ligen.</speak>
           - type: html
-            text: "<p>Der Sportbetrieb, insbesondere von Sportvereinen, wurde in den vergangenen Monaten schrittweise wieder aufgenommen. Die konkreten Schritte und aktuellen Verordnungen zum Sport regeln die Länder. Grundlage dabei sind unter anderem die Leitplanken des Deutschen Olympischen Sportbunds (DOSB) sowie die sportartspezifischen Übergangsregeln der Spitzenverbände.<br><br>Die Chefinnen und Chefs der Staats- und Senatskanzleien haben Mitte September beschlossen, Sportveranstaltungen mit begrenzter Zuschauerzahl möglichst bis zum Start der jeweiligen deutschen Profiligen bzw. Pokalwettbewerbe zuzulassen. Grundlage für die Zulassung von Zuschauern zu bundesweiten Sportveranstaltungen sind die Hygienekonzepte der Deutschen Fußballliga und der Mitgliederverbände der Interessengemeinschaft Teamsport Deutschland sowie der zugehörigen Ligen.<a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
+            text: "<p>Der Sportbetrieb, insbesondere von Sportvereinen, wurde in den vergangenen Monaten schrittweise wieder aufgenommen. Die konkreten   Schritte und aktuellen Verordnungen zum Sport regeln die Länder. Grundlage dabei sind unter anderem die Leitplanken des Deutschen Olympischen Sportbunds (DOSB) sowie die sportartspezifischen Übergangsregeln der Spitzenverbände.<br><br>Die Chefinnen und Chefs der Staats- und Senatskanzleien haben Mitte September beschlossen, Sportveranstaltungen mit begrenzter Zuschauerzahl möglichst bis zum Start der jeweiligen deutschen Profiligen bzw. Pokalwettbewerbe zuzulassen. Grundlage für die Zulassung von Zuschauern zu bundesweiten Sportveranstaltungen sind die Hygienekonzepte der Deutschen Fußballliga und der Mitgliederverbände der Interessengemeinschaft Teamsport Deutschland sowie der zugehörigen Ligen.<a href='https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724' target='_blank'>(1)</a> </p>"
           - type: links
             links:
               - title: Die zehn Leitplanken des DOSB
@@ -891,6 +891,7 @@ responses:
                 value: Hotlines
               - label: Fortsetzung der Fußball-Bundesliga
                 value: Fortsetzung der Fußball-Bundesliga
+
   utter_gradual_opening_museum:
     - custom:
         answers:
