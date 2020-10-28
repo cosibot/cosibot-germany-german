@@ -1,21 +1,5 @@
 [
   {
-    "text": "Fälle in Berlin",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_district",
-        "start": 9,
-        "end": 15,
-        "value": " Berlin",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
     "text": "In Berlin ist eine Ausgeheinschränkung",
     "entities": [
       {
@@ -25,42 +9,261 @@
         "entity": "country_state"
       }
     ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Welche Einreisebeschränkungen gibt es in die Ukraine?",
-    "entities": [
+    "predicted_entities": [
       {
-        "start": 45,
-        "end": 52,
-        "value": "UA",
-        "entity": "country_code"
+        "entity": "country_code",
+        "start": 3,
+        "end": 18,
+        "value": "Berlin ist eine",
+        "extractor": "DIETClassifier"
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
     "text": "Ukraine Einreise",
-    "entities": [
+    "entities": [],
+    "predicted_entities": [
       {
+        "entity": "country_code",
         "start": 0,
         "end": 7,
         "value": "UA",
-        "entity": "country_code"
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
-    "text": "Australien einreise",
-    "entities": [
+    "text": "Welche Einreisebeschränkungen gibt es in die Ukraine?",
+    "entities": [],
+    "predicted_entities": [
       {
-        "start": 0,
-        "end": 10,
-        "value": "AU",
-        "entity": "country_code"
+        "entity": "country_code",
+        "start": 45,
+        "end": 52,
+        "value": "UA",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
+  },
+  {
+    "text": "Sag ich ja Maschine",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 8,
+        "end": 10,
+        "value": "ja",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bist du ein Mann?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 4,
+        "value": "Bist",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country_code",
+        "start": 12,
+        "end": 16,
+        "value": "IM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sind Sie ein Mann",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 4,
+        "value": "Sind",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country_code",
+        "start": 13,
+        "end": 17,
+        "value": "IM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Rede mit mir",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 9,
+        "end": 12,
+        "value": "mir",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hast du einen Mann?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 4,
+        "value": "Hast",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country_code",
+        "start": 14,
+        "end": 18,
+        "value": "IM",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Mein Name ist",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 13,
+        "value": "Mein Name ist",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wie lautet Ihr Name?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 15,
+        "end": 19,
+        "value": "firstname",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Wie ist Ihr Name?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 12,
+        "end": 16,
+        "value": "firstname",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Den Namen, bitte.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 9,
+        "value": "Den Namen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bestätigen Sie Ihren Namen!",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 26,
+        "value": "Bestätigen Sie Ihren Namen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sagen Sie mir Ihren Namen!",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 5,
+        "value": "Sagen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country_code",
+        "start": 10,
+        "end": 25,
+        "value": "mir Ihren Namen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Name, bitte.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 4,
+        "value": "firstname",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Von mir aus.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 11,
+        "value": "Von mir aus",
+        "extractor": "DIETClassifier"
+      }
+    ]
   }
 ]

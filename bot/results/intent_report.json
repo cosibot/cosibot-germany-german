@@ -1,554 +1,20 @@
 {
-  "corona_app_obligatory": {
+  "cc_make_question": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "vocative_call": {
-    "precision": 0.9545454545454546,
-    "recall": 0.9545454545454546,
-    "f1-score": 0.9545454545454546,
-    "support": 22,
-    "confused_with": {
-      "greeting_hello": 1
-    }
-  },
-  "prevention_home": {
-    "precision": 0.9803921568627451,
-    "recall": 1.0,
-    "f1-score": 0.99009900990099,
-    "support": 50,
-    "confused_with": {}
-  },
-  "user_tired": {
-    "precision": 0.9534883720930233,
-    "recall": 1.0,
-    "f1-score": 0.9761904761904763,
-    "support": 41,
-    "confused_with": {}
-  },
-  "cc_chicken_egg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "covid_sars": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 239,
-    "confused_with": {}
-  },
-  "comment_negative": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "covid_duration": {
-    "precision": 1.0,
-    "recall": 0.95,
-    "f1-score": 0.9743589743589743,
-    "support": 20,
-    "confused_with": {
-      "covid_aftereffects_immunity": 1
-    }
-  },
-  "covid_meaning": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 111,
-    "confused_with": {}
-  },
-  "cc_geography": {
-    "precision": 0.9166666666666666,
-    "recall": 1.0,
-    "f1-score": 0.9565217391304348,
-    "support": 22,
-    "confused_with": {}
-  },
-  "user_random_input": {
-    "precision": 1.0,
-    "recall": 0.9859154929577465,
-    "f1-score": 0.9929078014184397,
-    "support": 71,
-    "confused_with": {
-      "travel_general": 1
-    }
-  },
-  "cc_lets_talk": {
-    "precision": 0.984375,
-    "recall": 1.0,
-    "f1-score": 0.9921259842519685,
-    "support": 63,
-    "confused_with": {}
-  },
-  "bot_series": {
-    "precision": 0.9259259259259259,
-    "recall": 1.0,
-    "f1-score": 0.9615384615384615,
-    "support": 25,
-    "confused_with": {}
-  },
-  "cc_weather": {
-    "precision": 0.9838709677419355,
-    "recall": 1.0,
-    "f1-score": 0.991869918699187,
-    "support": 61,
-    "confused_with": {}
-  },
-  "bot_eyes": {
-    "precision": 0.8333333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9090909090909091,
-    "support": 30,
-    "confused_with": {}
-  },
-  "cc_story": {
-    "precision": 0.8571428571428571,
-    "recall": 1.0,
-    "f1-score": 0.923076923076923,
-    "support": 12,
-    "confused_with": {}
-  },
-  "user_particles": {
-    "precision": 0.9,
-    "recall": 1.0,
-    "f1-score": 0.9473684210526316,
-    "support": 18,
-    "confused_with": {}
-  },
-  "comment_racist": {
-    "precision": 0.9565217391304348,
-    "recall": 1.0,
-    "f1-score": 0.9777777777777777,
-    "support": 22,
-    "confused_with": {}
-  },
-  "greeting_goodbye": {
-    "precision": 0.9512195121951219,
-    "recall": 1.0,
-    "f1-score": 0.975,
-    "support": 78,
-    "confused_with": {}
-  },
-  "test_results_reliability": {
-    "precision": 0.9411764705882353,
-    "recall": 1.0,
-    "f1-score": 0.9696969696969697,
-    "support": 16,
-    "confused_with": {}
-  },
-  "corona_app_developers": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "user_fat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "coronavirus_info": {
-    "precision": 0.975609756097561,
-    "recall": 1.0,
-    "f1-score": 0.9876543209876543,
-    "support": 40,
-    "confused_with": {}
-  },
-  "travel_returnprogram": {
-    "precision": 0.9722222222222222,
-    "recall": 1.0,
-    "f1-score": 0.9859154929577464,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.955223880597015,
     "support": 35,
-    "confused_with": {}
-  },
-  "bot_appearance": {
-    "precision": 1.0,
-    "recall": 0.9310344827586207,
-    "f1-score": 0.9642857142857143,
-    "support": 58,
     "confused_with": {
-      "comment_hot": 3,
-      "bot_eyes": 1
+      "vocative_help": 1,
+      "cc_senselife": 1
     }
   },
-  "bot_sing": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 44,
-    "confused_with": {}
-  },
-  "cc_joke": {
-    "precision": 0.987012987012987,
-    "recall": 0.9620253164556962,
-    "f1-score": 0.9743589743589742,
-    "support": 79,
-    "confused_with": {
-      "cc_story": 2,
-      "vocative_help": 1
-    }
-  },
-  "corona_app_general": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "bot_games": {
-    "precision": 0.9333333333333333,
-    "recall": 0.9333333333333333,
-    "f1-score": 0.9333333333333333,
-    "support": 15,
-    "confused_with": {
-      "bot_hobbies": 1
-    }
-  },
-  "contacts_address": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28,
-    "confused_with": {}
-  },
-  "mask_ffp3": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "bot_dislike": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "bot_music": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 31,
-    "confused_with": {}
-  },
-  "cc_make_weather": {
+  "bot_favorites": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 24,
     "confused_with": {}
-  },
-  "covid_ibuprofen": {
-    "precision": 0.9696969696969697,
-    "recall": 1.0,
-    "f1-score": 0.9846153846153847,
-    "support": 32,
-    "confused_with": {}
-  },
-  "user_love": {
-    "precision": 0.9871794871794872,
-    "recall": 0.9625,
-    "f1-score": 0.9746835443037976,
-    "support": 80,
-    "confused_with": {
-      "bot_relationship": 2,
-      "user_friend": 1
-    }
-  },
-  "gradual_opening_restaurants": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "mask_control": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "myths_chinese_laboratory": {
-    "precision": 1.0,
-    "recall": 0.9565217391304348,
-    "f1-score": 0.9777777777777777,
-    "support": 23,
-    "confused_with": {
-      "myths_conspiracy_fakenews": 1
-    }
-  },
-  "bot_sexual": {
-    "precision": 0.9916666666666667,
-    "recall": 0.9834710743801653,
-    "f1-score": 0.9875518672199171,
-    "support": 121,
-    "confused_with": {
-      "comment_hot": 1,
-      "spread_general": 1
-    }
-  },
-  "prevention_informed": {
-    "precision": 0.9166666666666666,
-    "recall": 0.868421052631579,
-    "f1-score": 0.8918918918918918,
-    "support": 38,
-    "confused_with": {
-      "germany_current_situation": 5
-    }
-  },
-  "cc_hitchhiker": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "travel_return": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 52,
-    "confused_with": {}
-  },
-  "prevention_distance": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35,
-    "confused_with": {}
-  },
-  "covid_pregnancy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 59,
-    "confused_with": {}
-  },
-  "user_dont_know": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "mask_obligatory": {
-    "precision": 0.9775280898876404,
-    "recall": 1.0,
-    "f1-score": 0.9886363636363636,
-    "support": 87,
-    "confused_with": {}
-  },
-  "bot_author": {
-    "precision": 1.0,
-    "recall": 0.7272727272727273,
-    "f1-score": 0.8421052631578948,
-    "support": 22,
-    "confused_with": {
-      "bot_books": 6
-    }
-  },
-  "bot_fear": {
-    "precision": 0.9666666666666667,
-    "recall": 1.0,
-    "f1-score": 0.983050847457627,
-    "support": 29,
-    "confused_with": {}
-  },
-  "bot_age": {
-    "precision": 0.9803921568627451,
-    "recall": 0.9803921568627451,
-    "f1-score": 0.9803921568627451,
-    "support": 51,
-    "confused_with": {
-      "bot_fear": 1
-    }
-  },
-  "bot_animal": {
-    "precision": 0.6,
-    "recall": 0.16666666666666666,
-    "f1-score": 0.2608695652173913,
-    "support": 18,
-    "confused_with": {
-      "bot_pets": 15
-    }
-  },
-  "cc_highest_building": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "cc_afterlife": {
-    "precision": 0.9705882352941176,
-    "recall": 1.0,
-    "f1-score": 0.9850746268656716,
-    "support": 33,
-    "confused_with": {}
-  },
-  "test_per_day": {
-    "precision": 1.0,
-    "recall": 0.5384615384615384,
-    "f1-score": 0.7000000000000001,
-    "support": 52,
-    "confused_with": {
-      "test_how": 24
-    }
-  },
-  "bot_achievement": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "covid_season": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "mask_children": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "spread_general": {
-    "precision": 0.9791666666666666,
-    "recall": 1.0,
-    "f1-score": 0.9894736842105264,
-    "support": 94,
-    "confused_with": {}
-  },
-  "user_scared": {
-    "precision": 1.0,
-    "recall": 0.9230769230769231,
-    "f1-score": 0.9600000000000001,
-    "support": 13,
-    "confused_with": {
-      "covid_worry": 1
-    }
-  },
-  "test_who": {
-    "precision": 0.7777777777777778,
-    "recall": 0.9333333333333333,
-    "f1-score": 0.8484848484848485,
-    "support": 15,
-    "confused_with": {
-      "test_virus": 1
-    }
-  },
-  "spread_heat_cold": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 23,
-    "confused_with": {}
-  },
-  "user_hate": {
-    "precision": 0.96875,
-    "recall": 1.0,
-    "f1-score": 0.9841269841269841,
-    "support": 31,
-    "confused_with": {}
-  },
-  "gradual_opening_playgrounds_zoos": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "cc_politics": {
-    "precision": 0.9846153846153847,
-    "recall": 1.0,
-    "f1-score": 0.9922480620155039,
-    "support": 64,
-    "confused_with": {}
-  },
-  "bot_real": {
-    "precision": 0.9591836734693877,
-    "recall": 1.0,
-    "f1-score": 0.9791666666666666,
-    "support": 47,
-    "confused_with": {}
-  },
-  "cc_make_food": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 23,
-    "confused_with": {}
-  },
-  "covid_incubation": {
-    "precision": 1.0,
-    "recall": 0.96875,
-    "f1-score": 0.9841269841269841,
-    "support": 32,
-    "confused_with": {
-      "covid_ibuprofen": 1
-    }
-  },
-  "economy_consequences": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40,
-    "confused_with": {}
-  },
-  "mask_put": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "gradual_opening_schools": {
-    "precision": 0.9411764705882353,
-    "recall": 1.0,
-    "f1-score": 0.9696969696969697,
-    "support": 16,
-    "confused_with": {}
-  },
-  "mask_reuse": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "travel_general": {
-    "precision": 0.9714285714285714,
-    "recall": 1.0,
-    "f1-score": 0.9855072463768115,
-    "support": 34,
-    "confused_with": {}
-  },
-  "cc_drugs": {
-    "precision": 1.0,
-    "recall": 0.9722222222222222,
-    "f1-score": 0.9859154929577464,
-    "support": 36,
-    "confused_with": {
-      "bot_gender": 1
-    }
   },
   "bot_color": {
     "precision": 1.0,
@@ -557,709 +23,14 @@
     "support": 24,
     "confused_with": {}
   },
-  "comment_positive": {
-    "precision": 0.9727272727272728,
-    "recall": 0.9553571428571429,
-    "f1-score": 0.963963963963964,
-    "support": 112,
-    "confused_with": {
-      "vocative_yes": 2,
-      "vocative_thank_you": 2
-    }
-  },
-  "prevention_general": {
+  "covid_treatment": {
     "precision": 1.0,
-    "recall": 0.9782608695652174,
-    "f1-score": 0.989010989010989,
-    "support": 46,
-    "confused_with": {
-      "mask_obligatory": 1
-    }
-  },
-  "bot_children": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 15,
-    "confused_with": {}
-  },
-  "gradual_opening_museum": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "covid_preexisting_illness": {
-    "precision": 1.0,
-    "recall": 0.9818181818181818,
-    "f1-score": 0.9908256880733944,
-    "support": 55,
-    "confused_with": {
-      "covid_dangerous": 1
-    }
-  },
-  "covid_dangerous": {
-    "precision": 0.9629629629629629,
-    "recall": 1.0,
-    "f1-score": 0.9811320754716981,
-    "support": 52,
-    "confused_with": {}
-  },
-  "spread_no_symptoms": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 54,
-    "confused_with": {}
-  },
-  "covid_origins": {
-    "precision": 1.0,
-    "recall": 0.9629629629629629,
-    "f1-score": 0.9811320754716981,
-    "support": 27,
-    "confused_with": {
-      "cc_weather": 1
-    }
-  },
-  "covid_situation_infected_critical": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 23,
-    "confused_with": {}
-  },
-  "quarantine_control": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "cc_rhyme": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "travel_within_germany": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "myth_mosquito": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 41,
-    "confused_with": {}
-  },
-  "bot_costs": {
-    "precision": 0.9666666666666667,
-    "recall": 1.0,
-    "f1-score": 0.983050847457627,
-    "support": 29,
-    "confused_with": {}
-  },
-  "covid_situation_infected": {
-    "precision": 1.0,
-    "recall": 0.8888888888888888,
-    "f1-score": 0.9411764705882353,
-    "support": 18,
-    "confused_with": {
-      "covid_current_statistics": 2
-    }
-  },
-  "greeting_hello": {
-    "precision": 0.9791666666666666,
-    "recall": 0.9215686274509803,
-    "f1-score": 0.9494949494949494,
-    "support": 102,
-    "confused_with": {
-      "greeting_goodbye": 4,
-      "bot_name": 1
-    }
-  },
-  "bot_sibling": {
-    "precision": 0.96875,
-    "recall": 1.0,
-    "f1-score": 0.9841269841269841,
-    "support": 31,
-    "confused_with": {}
-  },
-  "quarantine_dogwalking": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 26,
-    "confused_with": {}
-  },
-  "covid_current_statistics": {
-    "precision": 0.9777777777777777,
-    "recall": 0.9943502824858758,
-    "f1-score": 0.9859943977591036,
-    "support": 177,
-    "confused_with": {
-      "germany_consequences": 1
-    }
-  },
-  "user_laugh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
-  },
-  "sources": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "bot_personality": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "bot_hobbies": {
-    "precision": 0.9148936170212766,
-    "recall": 0.8958333333333334,
-    "f1-score": 0.9052631578947369,
-    "support": 48,
-    "confused_with": {
-      "bot_books": 5
-    }
-  },
-  "user_angry": {
-    "precision": 1.0,
-    "recall": 0.9180327868852459,
-    "f1-score": 0.9572649572649572,
-    "support": 61,
-    "confused_with": {
-      "covid_symptoms": 2,
-      "prevention_medical_attention": 2
-    }
-  },
-  "quarantine_how_it_works": {
-    "precision": 0.5,
-    "recall": 0.1956521739130435,
-    "f1-score": 0.28125,
-    "support": 46,
-    "confused_with": {
-      "quarantine_general": 37
-    }
-  },
-  "user_dont_understand": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "bot_worst_experience": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "features_date": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35,
-    "confused_with": {}
-  },
-  "mask_selfmade": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 30,
-    "confused_with": {}
-  },
-  "bot_sites": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "travel_risk_countries": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "covid_babys_children": {
-    "precision": 1.0,
-    "recall": 0.9310344827586207,
-    "f1-score": 0.9642857142857143,
-    "support": 29,
-    "confused_with": {
-      "covid_current_statistics": 2
-    }
-  },
-  "spread_feces": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 52,
-    "confused_with": {}
-  },
-  "bot_hair": {
-    "precision": 1.0,
-    "recall": 0.9629629629629629,
-    "f1-score": 0.9811320754716981,
-    "support": 27,
-    "confused_with": {
-      "bot_gender": 1
-    }
-  },
-  "user_happy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 43,
-    "confused_with": {}
-  },
-  "bot_name": {
-    "precision": 0.9857142857142858,
-    "recall": 1.0,
-    "f1-score": 0.9928057553956835,
-    "support": 69,
-    "confused_with": {}
-  },
-  "prevention_medical_attention": {
-    "precision": 0.9733333333333334,
-    "recall": 0.8488372093023255,
-    "f1-score": 0.906832298136646,
-    "support": 86,
-    "confused_with": {
-      "covid_symptoms": 11,
-      "user_tired": 1
-    }
-  },
-  "cc_keys": {
-    "precision": 0.9736842105263158,
-    "recall": 1.0,
-    "f1-score": 0.9866666666666666,
-    "support": 37,
-    "confused_with": {}
-  },
-  "comment_smart": {
-    "precision": 0.9166666666666666,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.9166666666666666,
-    "support": 36,
-    "confused_with": {
-      "comment_positive": 2,
-      "comment_hot": 1
-    }
-  },
-  "corona_app_why": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "quarantine_toiletpaper": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "user_friend": {
-    "precision": 0.9696969696969697,
-    "recall": 1.0,
-    "f1-score": 0.9846153846153847,
-    "support": 32,
-    "confused_with": {}
-  },
-  "bot_relationship": {
-    "precision": 0.9354838709677419,
-    "recall": 0.8055555555555556,
-    "f1-score": 0.8656716417910448,
-    "support": 36,
-    "confused_with": {
-      "bot_friends": 4,
-      "bot_gender": 2
-    }
-  },
-  "covid_unknown_cases": {
-    "precision": 0.5,
-    "recall": 0.36363636363636365,
-    "f1-score": 0.4210526315789474,
-    "support": 11,
-    "confused_with": {
-      "covid_treatment": 7
-    }
-  },
-  "test_quick_test": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 63,
-    "confused_with": {}
-  },
-  "cc_prophesy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 52,
-    "confused_with": {}
-  },
-  "bot_origin": {
-    "precision": 0.9433962264150944,
-    "recall": 0.9615384615384616,
-    "f1-score": 0.9523809523809524,
-    "support": 52,
-    "confused_with": {
-      "bot_games": 1,
-      "bot_developers": 1
-    }
-  },
-  "vocative_thank_you": {
-    "precision": 0.946236559139785,
-    "recall": 0.9887640449438202,
-    "f1-score": 0.967032967032967,
+    "recall": 0.8764044943820225,
+    "f1-score": 0.9341317365269461,
     "support": 89,
     "confused_with": {
-      "comment_positive": 1
+      "covid_unknown_cases": 11
     }
-  },
-  "prevention_touch": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "bot_differences": {
-    "precision": 1.0,
-    "recall": 0.9382716049382716,
-    "f1-score": 0.9681528662420382,
-    "support": 81,
-    "confused_with": {
-      "bot_eyes": 5
-    }
-  },
-  "bot_sports": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "vocative_yes": {
-    "precision": 0.9805194805194806,
-    "recall": 0.9805194805194806,
-    "f1-score": 0.9805194805194806,
-    "support": 154,
-    "confused_with": {
-      "user_particles": 2,
-      "cc_joke": 1
-    }
-  },
-  "gradual_opening_universities": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 43,
-    "confused_with": {}
-  },
-  "bot_availability": {
-    "precision": 1.0,
-    "recall": 0.975,
-    "f1-score": 0.9873417721518987,
-    "support": 40,
-    "confused_with": {
-      "cc_geography": 1
-    }
-  },
-  "bot_parents": {
-    "precision": 0.9565217391304348,
-    "recall": 0.88,
-    "f1-score": 0.9166666666666666,
-    "support": 25,
-    "confused_with": {
-      "bot_developers": 2,
-      "bot_costs": 1
-    }
-  },
-  "cc_deepest_point": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "cc_moon": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "gradual_opening_religious": {
-    "precision": 0.9285714285714286,
-    "recall": 1.0,
-    "f1-score": 0.962962962962963,
-    "support": 39,
-    "confused_with": {}
-  },
-  "covid_difference_influenza": {
-    "precision": 0.9932432432432432,
-    "recall": 1.0,
-    "f1-score": 0.9966101694915254,
-    "support": 147,
-    "confused_with": {}
-  },
-  "greeting_how_are_you": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 53,
-    "confused_with": {}
-  },
-  "start": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "germany_second_wave": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "bot_actor": {
-    "precision": 0.975,
-    "recall": 1.0,
-    "f1-score": 0.9873417721518987,
-    "support": 39,
-    "confused_with": {}
-  },
-  "cc_fun_fact": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "germany_consequences": {
-    "precision": 0.9523809523809523,
-    "recall": 1.0,
-    "f1-score": 0.975609756097561,
-    "support": 20,
-    "confused_with": {}
-  },
-  "bot_food": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 37,
-    "confused_with": {}
-  },
-  "gradual_opening_sports": {
-    "precision": 1.0,
-    "recall": 0.9642857142857143,
-    "f1-score": 0.9818181818181818,
-    "support": 28,
-    "confused_with": {
-      "bot_hobbies": 1
-    }
-  },
-  "bot_residence": {
-    "precision": 1.0,
-    "recall": 0.9444444444444444,
-    "f1-score": 0.9714285714285714,
-    "support": 18,
-    "confused_with": {
-      "bot_origin": 1
-    }
-  },
-  "test_how": {
-    "precision": 0.5,
-    "recall": 1.0,
-    "f1-score": 0.6666666666666666,
-    "support": 24,
-    "confused_with": {}
-  },
-  "test_virus": {
-    "precision": 0.9868421052631579,
-    "recall": 0.9375,
-    "f1-score": 0.9615384615384615,
-    "support": 80,
-    "confused_with": {
-      "test_who": 4,
-      "test_results_reliability": 1
-    }
-  },
-  "bot_lookup_version": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "cc_make_question": {
-    "precision": 1.0,
-    "recall": 0.9714285714285714,
-    "f1-score": 0.9855072463768115,
-    "support": 35,
-    "confused_with": {
-      "bot_capabilities": 1
-    }
-  },
-  "travel_while": {
-    "precision": 0.9772727272727273,
-    "recall": 1.0,
-    "f1-score": 0.9885057471264368,
-    "support": 43,
-    "confused_with": {}
-  },
-  "germany_preparation": {
-    "precision": 1.0,
-    "recall": 0.9952153110047847,
-    "f1-score": 0.9976019184652278,
-    "support": 418,
-    "confused_with": {
-      "quarantine_general": 1,
-      "covid_current_situation": 1
-    }
-  },
-  "bot_senses": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21,
-    "confused_with": {}
-  },
-  "cc_skyblue": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "country": {
-    "precision": 1.0,
-    "recall": 0.9986737400530504,
-    "f1-score": 0.9993364299933643,
-    "support": 754,
-    "confused_with": {
-      "cc_geography": 1
-    }
-  },
-  "germany_current_situation": {
-    "precision": 0.9291338582677166,
-    "recall": 0.9752066115702479,
-    "f1-score": 0.9516129032258065,
-    "support": 121,
-    "confused_with": {
-      "prevention_informed": 3
-    }
-  },
-  "vocative_sorry": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "quarantine_dos_and_donts": {
-    "precision": 1.0,
-    "recall": 0.8620689655172413,
-    "f1-score": 0.9259259259259259,
-    "support": 29,
-    "confused_with": {
-      "quarantine_general": 3,
-      "quarantine_when_who_howlong": 1
-    }
-  },
-  "quarantine_general": {
-    "precision": 0.6495726495726496,
-    "recall": 0.8941176470588236,
-    "f1-score": 0.7524752475247525,
-    "support": 85,
-    "confused_with": {
-      "quarantine_how_it_works": 9
-    }
-  },
-  "myth_hold_breath": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28,
-    "confused_with": {}
-  },
-  "travel_before": {
-    "precision": 0.9876543209876543,
-    "recall": 0.975609756097561,
-    "f1-score": 0.9815950920245398,
-    "support": 82,
-    "confused_with": {
-      "germany_neighbors_close_borders": 1,
-      "travel_while": 1
-    }
-  },
-  "bot_capabilities": {
-    "precision": 0.9873417721518988,
-    "recall": 0.9873417721518988,
-    "f1-score": 0.9873417721518988,
-    "support": 79,
-    "confused_with": {
-      "vocative_help": 1
-    }
-  },
-  "gradual_opening_cinema_concert_theatre": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 19,
-    "confused_with": {}
-  },
-  "prevention_supermarket": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 29,
-    "confused_with": {}
-  },
-  "spread_animals": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 87,
-    "confused_with": {}
-  },
-  "spread_surfaces_food_objects": {
-    "precision": 1.0,
-    "recall": 0.991304347826087,
-    "f1-score": 0.9956331877729258,
-    "support": 115,
-    "confused_with": {
-      "coronavirus_info": 1
-    }
-  },
-  "prevention_desinfection": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21,
-    "confused_with": {}
   },
   "vocative_no": {
     "precision": 0.9666666666666667,
@@ -1271,63 +42,614 @@
       "greeting_hello": 1
     }
   },
-  "gradual_opening_visit_family_friends": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 34,
-    "confused_with": {}
-  },
-  "bot_intelligence": {
-    "precision": 1.0,
-    "recall": 0.9354838709677419,
-    "f1-score": 0.9666666666666666,
-    "support": 31,
-    "confused_with": {
-      "comment_smart": 2
-    }
-  },
-  "bot_favorites": {
+  "cc_newspaper": {
     "precision": 1.0,
     "recall": 0.9583333333333334,
     "f1-score": 0.9787234042553191,
-    "support": 24,
+    "support": 48,
     "confused_with": {
-      "user_love": 1
+      "cc_philosophical": 1,
+      "cc_keys": 1
     }
   },
-  "bot_places": {
+  "travel_within_germany": {
     "precision": 1.0,
-    "recall": 0.9642857142857143,
-    "f1-score": 0.9818181818181818,
-    "support": 28,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "covid_dangerous": {
+    "precision": 0.9811320754716981,
+    "recall": 1.0,
+    "f1-score": 0.9904761904761905,
+    "support": 52,
+    "confused_with": {}
+  },
+  "cc_fun_fact": {
+    "precision": 1.0,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9767441860465117,
+    "support": 22,
     "confused_with": {
-      "bot_sibling": 1
+      "germany_current_situation": 1
     }
   },
-  "bot_version": {
+  "mask_protection": {
+    "precision": 0.48484848484848486,
+    "recall": 0.2962962962962963,
+    "f1-score": 0.36781609195402293,
+    "support": 54,
+    "confused_with": {
+      "mask_obligatory": 38
+    }
+  },
+  "myth_hold_breath": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "myths_chinese_laboratory": {
+    "precision": 1.0,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9777777777777777,
+    "support": 23,
+    "confused_with": {
+      "myths_conspiracy_fakenews": 1
+    }
+  },
+  "user_angry": {
+    "precision": 0.95,
+    "recall": 0.9344262295081968,
+    "f1-score": 0.9421487603305784,
+    "support": 61,
+    "confused_with": {
+      "prevention_medical_attention": 2,
+      "user_tired": 1
+    }
+  },
+  "quarantine_dos_and_donts": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9491525423728815,
+    "support": 29,
+    "confused_with": {
+      "quarantine_how_it_works": 1
+    }
+  },
+  "user_random_input": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 71,
+    "confused_with": {}
+  },
+  "germany_spread_water": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "prevention_home": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 50,
+    "confused_with": {}
+  },
+  "covid_worry": {
+    "precision": 1.0,
+    "recall": 0.975609756097561,
+    "f1-score": 0.9876543209876543,
+    "support": 41,
+    "confused_with": {
+      "user_scared": 1
+    }
+  },
+  "gradual_opening_universities": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "features_time": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "cc_highest_building": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "bot_author": {
+    "precision": 0.9545454545454546,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9545454545454546,
+    "support": 22,
+    "confused_with": {
+      "bot_books": 1
+    }
+  },
+  "test_who": {
+    "precision": 0.8888888888888888,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.6666666666666667,
+    "support": 15,
+    "confused_with": {
+      "test_virus": 6,
+      "test_per_day": 1
+    }
+  },
+  "mask_obligatory": {
+    "precision": 0.6513761467889908,
+    "recall": 0.8160919540229885,
+    "f1-score": 0.7244897959183673,
+    "support": 87,
+    "confused_with": {
+      "mask_protection": 16
+    }
+  },
+  "bot_sexual": {
+    "precision": 1.0,
+    "recall": 0.9917355371900827,
+    "f1-score": 0.995850622406639,
+    "support": 121,
+    "confused_with": {
+      "user_angry": 1
+    }
+  },
+  "quarantine_when_who_howlong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 46,
+    "confused_with": {}
+  },
+  "gradual_opening_museum": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 12,
     "confused_with": {}
   },
-  "myths_conspiracy_fakenews": {
+  "spread_general": {
+    "precision": 1.0,
+    "recall": 0.9893617021276596,
+    "f1-score": 0.9946524064171123,
+    "support": 94,
+    "confused_with": {
+      "coronavirus_info": 1
+    }
+  },
+  "bot_profession": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.983050847457627,
+    "support": 29,
+    "confused_with": {}
+  },
+  "user_scared": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 13,
+    "confused_with": {}
+  },
+  "test_quick_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 63,
+    "confused_with": {}
+  },
+  "myth_mosquito": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 41,
+    "confused_with": {}
+  },
+  "cc_rhyme": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "prevention_informed": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.8888888888888888,
+    "support": 38,
+    "confused_with": {
+      "germany_current_situation": 6
+    }
+  },
+  "gradual_opening_schools": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16,
+    "confused_with": {}
+  },
+  "cc_deepest_point": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "bot_residence": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "corona_app_obligatory": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "bot_sibling": {
+    "precision": 1.0,
+    "recall": 0.9354838709677419,
+    "f1-score": 0.9666666666666666,
+    "support": 31,
+    "confused_with": {
+      "covid_situation_infected": 2
+    }
+  },
+  "cc_religion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "covid_season": {
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.962962962962963,
+    "support": 14,
+    "confused_with": {
+      "germany_second_wave": 1
+    }
+  },
+  "germany_lockdown_crisis_howlong": {
+    "precision": 1.0,
+    "recall": 0.9710144927536232,
+    "f1-score": 0.9852941176470589,
+    "support": 69,
+    "confused_with": {
+      "germany_preparation": 1,
+      "gradual_opening_schools": 1
+    }
+  },
+  "bot_developers": {
+    "precision": 0.9411764705882353,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9411764705882353,
+    "support": 34,
+    "confused_with": {
+      "bot_parents": 2
+    }
+  },
+  "bot_sites": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "bot_children": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "covid_aftereffects_immunity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "coronavirus_info": {
+    "precision": 0.975609756097561,
+    "recall": 1.0,
+    "f1-score": 0.9876543209876543,
+    "support": 40,
+    "confused_with": {}
+  },
+  "bot_sing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 44,
+    "confused_with": {}
+  },
+  "bot_achievement": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "prevention_supermarket": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.983050847457627,
+    "support": 29,
+    "confused_with": {}
+  },
+  "bot_name": {
+    "precision": 1.0,
+    "recall": 0.9710144927536232,
+    "f1-score": 0.9852941176470589,
+    "support": 69,
+    "confused_with": {
+      "bot_appearance": 1,
+      "country": 1
+    }
+  },
+  "cc_hitchhiker": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "bot_gender": {
+    "precision": 0.975609756097561,
+    "recall": 0.975609756097561,
+    "f1-score": 0.975609756097561,
+    "support": 41,
+    "confused_with": {
+      "cc_drugs": 1
+    }
+  },
+  "covid_preexisting_illness": {
+    "precision": 1.0,
+    "recall": 0.9818181818181818,
+    "f1-score": 0.9908256880733944,
+    "support": 55,
+    "confused_with": {
+      "covid_dangerous": 1
+    }
+  },
+  "myth_alcohol": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "comment_smart": {
+    "precision": 0.8717948717948718,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9066666666666667,
+    "support": 36,
+    "confused_with": {
+      "comment_positive": 2
+    }
+  },
+  "bot_series": {
+    "precision": 0.9259259259259259,
+    "recall": 1.0,
+    "f1-score": 0.9615384615384615,
+    "support": 25,
+    "confused_with": {}
+  },
+  "nothingmore": {
+    "precision": 0.9375,
+    "recall": 0.75,
+    "f1-score": 0.8333333333333334,
+    "support": 20,
+    "confused_with": {
+      "vocative_thank_you": 3,
+      "vocative_no": 1
+    }
+  },
+  "corona_app_why": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "user_tired": {
+    "precision": 0.975609756097561,
+    "recall": 0.975609756097561,
+    "f1-score": 0.975609756097561,
+    "support": 41,
+    "confused_with": {
+      "prevention_medical_attention": 1
+    }
+  },
+  "covid_babys_children": {
+    "precision": 1.0,
+    "recall": 0.896551724137931,
+    "f1-score": 0.9454545454545454,
+    "support": 29,
+    "confused_with": {
+      "covid_situation_infected": 3
+    }
+  },
+  "cc_make_weather": {
+    "precision": 1.0,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9787234042553191,
+    "support": 24,
+    "confused_with": {
+      "cc_keys": 1
+    }
+  },
+  "mask_control": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "mask_selfmade": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30,
+    "confused_with": {}
+  },
+  "cc_drugs": {
+    "precision": 0.972972972972973,
+    "recall": 1.0,
+    "f1-score": 0.9863013698630138,
+    "support": 36,
+    "confused_with": {}
+  },
+  "myths_vitamins_plants_minerals_homeopathy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47,
+    "confused_with": {}
+  },
+  "travel_general": {
+    "precision": 1.0,
+    "recall": 0.9705882352941176,
+    "f1-score": 0.9850746268656716,
+    "support": 34,
+    "confused_with": {
+      "travel_before": 1
+    }
+  },
+  "bot_eyes": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311476,
+    "support": 30,
+    "confused_with": {
+      "bot_differences": 1
+    }
+  },
+  "germany_risk": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 18,
+    "confused_with": {
+      "germany_current_situation": 3
+    }
+  },
+  "comment_racist": {
+    "precision": 0.9130434782608695,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9333333333333332,
+    "support": 22,
+    "confused_with": {
+      "comment_hot": 1
+    }
+  },
+  "covid_info": {
+    "precision": 0.9985007496251874,
+    "recall": 1.0,
+    "f1-score": 0.9992498124531133,
+    "support": 666,
+    "confused_with": {}
+  },
+  "covid_mortality_rate": {
     "precision": 0.9807692307692307,
     "recall": 1.0,
     "f1-score": 0.9902912621359222,
     "support": 51,
     "confused_with": {}
   },
-  "comment_offense": {
-    "precision": 0.9931972789115646,
-    "recall": 0.9798657718120806,
-    "f1-score": 0.9864864864864865,
-    "support": 149,
+  "mask_reuse": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "bot_lookup_version": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "gradual_opening_playgrounds_zoos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "test_results_reliability": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "bot_costs": {
+    "precision": 0.9655172413793104,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9655172413793104,
+    "support": 29,
     "confused_with": {
-      "comment_hot": 1,
-      "vocative_no": 1
+      "bot_eyes": 1
     }
+  },
+  "spread_surfaces_food_objects": {
+    "precision": 1.0,
+    "recall": 0.991304347826087,
+    "f1-score": 0.9956331877729258,
+    "support": 115,
+    "confused_with": {
+      "gradual_opening_party": 1
+    }
+  },
+  "bot_sports": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "covid_vaccine": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "bot_goal": {
+    "precision": 1.0,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
+    "support": 34,
+    "confused_with": {
+      "cc_prophesy": 4
+    }
+  },
+  "prevention_desinfection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
   },
   "bot_words": {
     "precision": 1.0,
@@ -1336,13 +658,677 @@
     "support": 23,
     "confused_with": {}
   },
-  "vocative_you_welcome": {
+  "spread_heat_cold": {
     "precision": 1.0,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9777777777777777,
+    "support": 23,
+    "confused_with": {
+      "myth_hot_bath": 1
+    }
+  },
+  "test_virus": {
+    "precision": 0.9302325581395349,
+    "recall": 1.0,
+    "f1-score": 0.963855421686747,
+    "support": 80,
+    "confused_with": {}
+  },
+  "mask_differences": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 21,
+    "confused_with": {
+      "mask_which": 3
+    }
+  },
+  "cc_keys": {
+    "precision": 0.9487179487179487,
+    "recall": 1.0,
+    "f1-score": 0.9736842105263158,
+    "support": 37,
+    "confused_with": {}
+  },
+  "greeting_goodbye": {
+    "precision": 0.9382716049382716,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.9559748427672956,
+    "support": 78,
+    "confused_with": {
+      "greeting_hello": 1,
+      "greeting_how_are_you": 1
+    }
+  },
+  "bot_animal": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.5333333333333333,
+    "support": 18,
+    "confused_with": {
+      "bot_pets": 10
+    }
+  },
+  "covid_incubation": {
+    "precision": 0.96875,
+    "recall": 0.96875,
+    "f1-score": 0.96875,
+    "support": 32,
+    "confused_with": {
+      "covid_ibuprofen": 1
+    }
+  },
+  "test_per_day": {
+    "precision": 0.6753246753246753,
+    "recall": 1.0,
+    "f1-score": 0.8062015503875969,
+    "support": 52,
+    "confused_with": {}
+  },
+  "user_hate": {
+    "precision": 1.0,
+    "recall": 0.9354838709677419,
+    "f1-score": 0.9666666666666666,
+    "support": 31,
+    "confused_with": {
+      "comment_offense": 2
+    }
+  },
+  "gradual_opening_party": {
+    "precision": 0.9629629629629629,
+    "recall": 1.0,
+    "f1-score": 0.9811320754716981,
+    "support": 26,
+    "confused_with": {}
+  },
+  "bot_food": {
+    "precision": 0.972972972972973,
     "recall": 0.972972972972973,
-    "f1-score": 0.9863013698630138,
+    "f1-score": 0.972972972972973,
     "support": 37,
     "confused_with": {
-      "vocative_yes": 1
+      "cc_make_food": 1
+    }
+  },
+  "bot_availability": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
+    "confused_with": {}
+  },
+  "comment_positive": {
+    "precision": 0.956140350877193,
+    "recall": 0.9732142857142857,
+    "f1-score": 0.9646017699115044,
+    "support": 112,
+    "confused_with": {
+      "comment_smart": 2,
+      "vocative_thank_you": 1
+    }
+  },
+  "cc_skyblue": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "gradual_opening_restaurants": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "bot_intelligence": {
+    "precision": 1.0,
+    "recall": 0.9032258064516129,
+    "f1-score": 0.9491525423728813,
+    "support": 31,
+    "confused_with": {
+      "comment_smart": 3
+    }
+  },
+  "germany_preparation": {
+    "precision": 0.9952267303102625,
+    "recall": 0.9976076555023924,
+    "f1-score": 0.9964157706093191,
+    "support": 418,
+    "confused_with": {
+      "prevention_supermarket": 1
+    }
+  },
+  "quarantine_control": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "quarantine_toiletpaper": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "bot_version": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "bot_appearance": {
+    "precision": 0.9655172413793104,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9655172413793104,
+    "support": 58,
+    "confused_with": {
+      "bot_hair": 1,
+      "bot_eyes": 1
+    }
+  },
+  "cc_joke": {
+    "precision": 0.9404761904761905,
+    "recall": 1.0,
+    "f1-score": 0.9693251533742331,
+    "support": 79,
+    "confused_with": {}
+  },
+  "bot_senses": {
+    "precision": 0.9545454545454546,
+    "recall": 1.0,
+    "f1-score": 0.9767441860465117,
+    "support": 21,
+    "confused_with": {}
+  },
+  "features_date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "prevention_distance": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "user_happy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "spread_no_symptoms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54,
+    "confused_with": {}
+  },
+  "mask_wash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "user_friend": {
+    "precision": 0.9696969696969697,
+    "recall": 1.0,
+    "f1-score": 0.9846153846153847,
+    "support": 32,
+    "confused_with": {}
+  },
+  "cc_weather": {
+    "precision": 1.0,
+    "recall": 0.9836065573770492,
+    "f1-score": 0.9917355371900827,
+    "support": 61,
+    "confused_with": {
+      "greeting_how_are_you": 1
+    }
+  },
+  "covid_origins": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27,
+    "confused_with": {}
+  },
+  "vocative_help": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9830508474576272,
+    "f1-score": 0.9747899159663865,
+    "support": 59,
+    "confused_with": {
+      "bot_capabilities": 1
+    }
+  },
+  "covid_sars": {
+    "precision": 1.0,
+    "recall": 0.99581589958159,
+    "f1-score": 0.9979035639412999,
+    "support": 239,
+    "confused_with": {
+      "covid_difference_influenza": 1
+    }
+  },
+  "covid_procedure_after_infection": {
+    "precision": 0.5,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.6464646464646465,
+    "support": 35,
+    "confused_with": {
+      "covid_pregnancy": 3
+    }
+  },
+  "cc_politics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64,
+    "confused_with": {}
+  },
+  "country": {
+    "precision": 0.9973509933774835,
+    "recall": 0.9986737400530504,
+    "f1-score": 0.9980119284294234,
+    "support": 754,
+    "confused_with": {
+      "cc_geography": 1
+    }
+  },
+  "bot_differences": {
+    "precision": 0.9878048780487805,
+    "recall": 1.0,
+    "f1-score": 0.9938650306748467,
+    "support": 81,
+    "confused_with": {}
+  },
+  "covid_situation_infected_critical": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "travel_while": {
+    "precision": 1.0,
+    "recall": 0.9767441860465116,
+    "f1-score": 0.988235294117647,
+    "support": 43,
+    "confused_with": {
+      "travel_before": 1
+    }
+  },
+  "bot_origin": {
+    "precision": 0.9259259259259259,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9433962264150944,
+    "support": 52,
+    "confused_with": {
+      "bot_games": 1,
+      "bot_developers": 1
+    }
+  },
+  "bot_games": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7692307692307692,
+    "support": 15,
+    "confused_with": {
+      "bot_hobbies": 5
+    }
+  },
+  "bot_fear": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.983050847457627,
+    "support": 29,
+    "confused_with": {}
+  },
+  "corona_app_developers": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "greeting_hello": {
+    "precision": 0.9504950495049505,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9458128078817734,
+    "support": 102,
+    "confused_with": {
+      "greeting_goodbye": 3,
+      "vocative_call": 1
+    }
+  },
+  "travel_return": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "bot_real": {
+    "precision": 1.0,
+    "recall": 0.9148936170212766,
+    "f1-score": 0.9555555555555556,
+    "support": 47,
+    "confused_with": {
+      "bot_gender": 1,
+      "bot_capabilities": 1
+    }
+  },
+  "myths_conspiracy_fakenews": {
+    "precision": 0.9807692307692307,
+    "recall": 1.0,
+    "f1-score": 0.9902912621359222,
+    "support": 51,
+    "confused_with": {}
+  },
+  "prevention_general": {
+    "precision": 1.0,
+    "recall": 0.9782608695652174,
+    "f1-score": 0.989010989010989,
+    "support": 46,
+    "confused_with": {
+      "mask_protection": 1
+    }
+  },
+  "cc_philosophical": {
+    "precision": 0.9781420765027322,
+    "recall": 0.9623655913978495,
+    "f1-score": 0.9701897018970189,
+    "support": 186,
+    "confused_with": {
+      "cc_senselife": 5,
+      "cc_afterlife": 1
+    }
+  },
+  "bot_dislike": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "economy_consequences": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
+    "confused_with": {}
+  },
+  "covid_disease_process": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "prevention_clean_hands": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "prevention_medical_attention": {
+    "precision": 0.9523809523809523,
+    "recall": 0.9900990099009901,
+    "f1-score": 0.970873786407767,
+    "support": 101,
+    "confused_with": {
+      "covid_symptoms": 1
+    }
+  },
+  "cc_story": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 12,
+    "confused_with": {
+      "greeting_goodbye": 1,
+      "cc_joke": 1
+    }
+  },
+  "mask_ffp3": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "quarantine_general": {
+    "precision": 0.8095238095238095,
+    "recall": 0.6,
+    "f1-score": 0.6891891891891893,
+    "support": 85,
+    "confused_with": {
+      "quarantine_how_it_works": 33,
+      "quarantine_dos_and_donts": 1
+    }
+  },
+  "bot_actor": {
+    "precision": 0.975,
+    "recall": 1.0,
+    "f1-score": 0.9873417721518987,
+    "support": 39,
+    "confused_with": {}
+  },
+  "mask_put": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "cc_afterlife": {
+    "precision": 0.9696969696969697,
+    "recall": 0.9696969696969697,
+    "f1-score": 0.9696969696969697,
+    "support": 33,
+    "confused_with": {
+      "covid_mortality_rate": 1
+    }
+  },
+  "bot_friends": {
+    "precision": 1.0,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9696969696969697,
+    "support": 17,
+    "confused_with": {
+      "bot_profession": 1
+    }
+  },
+  "gradual_opening_religious": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "bot_pets": {
+    "precision": 0.8113207547169812,
+    "recall": 0.9148936170212766,
+    "f1-score": 0.8600000000000001,
+    "support": 47,
+    "confused_with": {
+      "bot_animal": 4
+    }
+  },
+  "bot_relationship": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9577464788732395,
+    "support": 36,
+    "confused_with": {
+      "bot_series": 1,
+      "user_love": 1
+    }
+  },
+  "test_payment": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "germany_neighbors_close_borders": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "bot_languages": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 59,
+    "confused_with": {}
+  },
+  "bot_places": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "germany_current_situation": {
+    "precision": 0.9212598425196851,
+    "recall": 0.9831932773109243,
+    "f1-score": 0.9512195121951219,
+    "support": 119,
+    "confused_with": {
+      "prevention_informed": 2
+    }
+  },
+  "cc_lets_talk": {
+    "precision": 0.984375,
+    "recall": 1.0,
+    "f1-score": 0.9921259842519685,
+    "support": 63,
+    "confused_with": {}
+  },
+  "germany_consequences": {
+    "precision": 1.0,
+    "recall": 0.95,
+    "f1-score": 0.9743589743589743,
+    "support": 20,
+    "confused_with": {
+      "covid_situation_infected": 1
+    }
+  },
+  "covid_difference_influenza": {
+    "precision": 0.9932432432432432,
+    "recall": 1.0,
+    "f1-score": 0.9966101694915254,
+    "support": 147,
+    "confused_with": {}
+  },
+  "mask_children": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "covid_meaning": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 111,
+    "confused_with": {}
+  },
+  "prevention_touch": {
+    "precision": 1.0,
+    "recall": 0.96,
+    "f1-score": 0.9795918367346939,
+    "support": 25,
+    "confused_with": {
+      "germany_preparation": 1
+    }
+  },
+  "bot_age": {
+    "precision": 1.0,
+    "recall": 0.9019607843137255,
+    "f1-score": 0.9484536082474228,
+    "support": 51,
+    "confused_with": {
+      "bot_origin": 4,
+      "bot_fear": 1
+    }
+  },
+  "covid_duration": {
+    "precision": 1.0,
+    "recall": 0.95,
+    "f1-score": 0.9743589743589743,
+    "support": 20,
+    "confused_with": {
+      "covid_incubation": 1
+    }
+  },
+  "spread_feces": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "bot_books": {
+    "precision": 0.9,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.9230769230769231,
+    "support": 76,
+    "confused_with": {
+      "bot_hobbies": 3,
+      "bot_author": 1
+    }
+  },
+  "test_how": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24,
+    "confused_with": {
+      "test_per_day": 24
+    }
+  },
+  "germany_second_wave": {
+    "precision": 0.9523809523809523,
+    "recall": 1.0,
+    "f1-score": 0.975609756097561,
+    "support": 20,
+    "confused_with": {}
+  },
+  "covid_symptoms": {
+    "precision": 0.9886363636363636,
+    "recall": 0.9560439560439561,
+    "f1-score": 0.9720670391061453,
+    "support": 91,
+    "confused_with": {
+      "prevention_medical_attention": 2,
+      "user_angry": 2
+    }
+  },
+  "quarantine_how_it_works": {
+    "precision": 0.4852941176470588,
+    "recall": 0.717391304347826,
+    "f1-score": 0.5789473684210527,
+    "support": 46,
+    "confused_with": {
+      "quarantine_general": 12,
+      "quarantine_dos_and_donts": 1
     }
   },
   "cc_lotr": {
@@ -1352,13 +1338,151 @@
     "support": 21,
     "confused_with": {}
   },
-  "covid_treatment": {
-    "precision": 0.9239130434782609,
-    "recall": 0.9550561797752809,
-    "f1-score": 0.9392265193370166,
-    "support": 89,
+  "cc_geography": {
+    "precision": 0.9523809523809523,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9302325581395349,
+    "support": 22,
     "confused_with": {
-      "covid_unknown_cases": 4
+      "covid_situation_infected": 1,
+      "covid_current_situation": 1
+    }
+  },
+  "cc_senselife": {
+    "precision": 0.7391304347826086,
+    "recall": 1.0,
+    "f1-score": 0.85,
+    "support": 17,
+    "confused_with": {}
+  },
+  "user_laugh": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 32,
+    "confused_with": {
+      "cc_joke": 2
+    }
+  },
+  "travel_before": {
+    "precision": 0.9534883720930233,
+    "recall": 1.0,
+    "f1-score": 0.9761904761904763,
+    "support": 82,
+    "confused_with": {}
+  },
+  "travel_returnprogram": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "spread_animals": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 87,
+    "confused_with": {}
+  },
+  "contacts_address": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "greeting_how_are_you": {
+    "precision": 0.9285714285714286,
+    "recall": 0.9811320754716981,
+    "f1-score": 0.9541284403669724,
+    "support": 53,
+    "confused_with": {
+      "cc_philosophical": 1
+    }
+  },
+  "covid_current_situation": {
+    "precision": 0.92,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9387755102040817,
+    "support": 24,
+    "confused_with": {
+      "covid_situation_infected": 1
+    }
+  },
+  "user_dont_know": {
+    "precision": 1.0,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9696969696969697,
+    "support": 17,
+    "confused_with": {
+      "covid_info": 1
+    }
+  },
+  "corona_app_general": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "gradual_opening_cinema_concert_theatre": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "travel_cancel": {
+    "precision": 1.0,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.96875,
+    "support": 33,
+    "confused_with": {
+      "travel_before": 2
+    }
+  },
+  "comment_offense": {
+    "precision": 0.9798657718120806,
+    "recall": 0.9798657718120806,
+    "f1-score": 0.9798657718120806,
+    "support": 149,
+    "confused_with": {
+      "bot_senses": 1,
+      "comment_hot": 1
+    }
+  },
+  "cc_make_food": {
+    "precision": 0.9565217391304348,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9565217391304348,
+    "support": 23,
+    "confused_with": {
+      "bot_food": 1
+    }
+  },
+  "cc_alien": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "bot_hair": {
+    "precision": 0.9642857142857143,
+    "recall": 1.0,
+    "f1-score": 0.9818181818181818,
+    "support": 27,
+    "confused_with": {}
+  },
+  "bot_capabilities": {
+    "precision": 0.9620253164556962,
+    "recall": 0.9620253164556962,
+    "f1-score": 0.9620253164556962,
+    "support": 79,
+    "confused_with": {
+      "test_who": 1,
+      "vocative_help": 1
     }
   },
   "bot_movies": {
@@ -1371,171 +1495,15 @@
       "bot_actor": 1
     }
   },
-  "quarantine_when_who_howlong": {
-    "precision": 0.9,
-    "recall": 0.9782608695652174,
-    "f1-score": 0.9375,
-    "support": 46,
+  "user_love": {
+    "precision": 0.9746835443037974,
+    "recall": 0.9625,
+    "f1-score": 0.9685534591194969,
+    "support": 80,
     "confused_with": {
-      "prevention_home": 1
+      "cc_joke": 1,
+      "bot_relationship": 1
     }
-  },
-  "bot_friends": {
-    "precision": 0.7727272727272727,
-    "recall": 1.0,
-    "f1-score": 0.8717948717948718,
-    "support": 17,
-    "confused_with": {}
-  },
-  "myth_hot_bath": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 15,
-    "confused_with": {}
-  },
-  "bot_developers": {
-    "precision": 0.9117647058823529,
-    "recall": 0.9117647058823529,
-    "f1-score": 0.9117647058823528,
-    "support": 34,
-    "confused_with": {
-      "bot_origin": 2,
-      "bot_parents": 1
-    }
-  },
-  "covid_info": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 666,
-    "confused_with": {}
-  },
-  "covid_current_situation": {
-    "precision": 0.9583333333333334,
-    "recall": 0.9583333333333334,
-    "f1-score": 0.9583333333333334,
-    "support": 24,
-    "confused_with": {
-      "prevention_clean_hands": 1
-    }
-  },
-  "vocative_help": {
-    "precision": 0.9672131147540983,
-    "recall": 1.0,
-    "f1-score": 0.9833333333333333,
-    "support": 59,
-    "confused_with": {}
-  },
-  "travel_cancel": {
-    "precision": 1.0,
-    "recall": 0.9696969696969697,
-    "f1-score": 0.9846153846153847,
-    "support": 33,
-    "confused_with": {
-      "travel_before": 1
-    }
-  },
-  "covid_vaccine": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "cc_senselife": {
-    "precision": 0.9444444444444444,
-    "recall": 1.0,
-    "f1-score": 0.9714285714285714,
-    "support": 17,
-    "confused_with": {}
-  },
-  "mask_wash": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "features_time": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 48,
-    "confused_with": {}
-  },
-  "cc_philosophical": {
-    "precision": 1.0,
-    "recall": 0.978494623655914,
-    "f1-score": 0.9891304347826088,
-    "support": 186,
-    "confused_with": {
-      "cc_afterlife": 1,
-      "bot_goal": 1
-    }
-  },
-  "covid_disease_process": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "gradual_opening_party": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 26,
-    "confused_with": {}
-  },
-  "test_payment": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 38,
-    "confused_with": {}
-  },
-  "germany_risk": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 18,
-    "confused_with": {
-      "germany_current_situation": 4,
-      "spread_general": 1
-    }
-  },
-  "bot_profession": {
-    "precision": 1.0,
-    "recall": 0.9655172413793104,
-    "f1-score": 0.9824561403508771,
-    "support": 29,
-    "confused_with": {
-      "bot_friends": 1
-    }
-  },
-  "myth_alcohol": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "mask_differences": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 21,
-    "confused_with": {
-      "mask_which": 3
-    }
-  },
-  "cc_alien": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
   },
   "gradual_opening_barbecue": {
     "precision": 1.0,
@@ -1544,80 +1512,209 @@
     "support": 21,
     "confused_with": {}
   },
-  "cc_newspaper": {
-    "precision": 0.9791666666666666,
-    "recall": 0.9791666666666666,
-    "f1-score": 0.9791666666666666,
-    "support": 48,
-    "confused_with": {
-      "cc_keys": 1
-    }
-  },
-  "covid_symptoms": {
-    "precision": 0.875,
-    "recall": 1.0,
-    "f1-score": 0.9333333333333333,
-    "support": 91,
-    "confused_with": {}
-  },
-  "myths_vitamins_plants_minerals_homeopathy": {
+  "vocative_you_welcome": {
     "precision": 1.0,
-    "recall": 0.9574468085106383,
-    "f1-score": 0.9782608695652174,
-    "support": 47,
+    "recall": 0.7567567567567568,
+    "f1-score": 0.8615384615384616,
+    "support": 37,
     "confused_with": {
-      "mask_which": 2
+      "vocative_yes": 6,
+      "vocative_thank_you": 3
     }
   },
-  "covid_aftereffects_immunity": {
-    "precision": 0.9642857142857143,
-    "recall": 1.0,
-    "f1-score": 0.9818181818181818,
-    "support": 27,
-    "confused_with": {}
-  },
-  "bot_gender": {
-    "precision": 0.9047619047619048,
-    "recall": 0.926829268292683,
-    "f1-score": 0.9156626506024096,
-    "support": 41,
+  "vocative_thank_you": {
+    "precision": 0.925531914893617,
+    "recall": 0.9775280898876404,
+    "f1-score": 0.9508196721311475,
+    "support": 89,
     "confused_with": {
-      "bot_real": 2,
-      "bot_age": 1
+      "comment_positive": 2
     }
   },
-  "bot_books": {
-    "precision": 0.8705882352941177,
-    "recall": 0.9736842105263158,
-    "f1-score": 0.9192546583850931,
-    "support": 76,
+  "travel_risk_countries": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9714285714285714,
+    "support": 18,
     "confused_with": {
-      "bot_hobbies": 2
+      "covid_current_situation": 1
     }
   },
-  "covid_mortality_rate": {
+  "gradual_opening_visit_family_friends": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 51,
+    "support": 34,
     "confused_with": {}
   },
-  "germany_spread_water": {
+  "vocative_sorry": {
+    "precision": 1.0,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9767441860465117,
+    "support": 22,
+    "confused_with": {
+      "greeting_hello": 1
+    }
+  },
+  "covid_ibuprofen": {
+    "precision": 0.9696969696969697,
+    "recall": 1.0,
+    "f1-score": 0.9846153846153847,
+    "support": 32,
+    "confused_with": {}
+  },
+  "comment_hot": {
+    "precision": 0.9444444444444444,
+    "recall": 0.918918918918919,
+    "f1-score": 0.9315068493150684,
+    "support": 37,
+    "confused_with": {
+      "comment_racist": 2,
+      "bot_appearance": 1
+    }
+  },
+  "cc_chicken_egg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "user_particles": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 18,
+    "confused_with": {}
+  },
+  "quarantine_dogwalking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "covid_pregnancy": {
+    "precision": 0.9,
+    "recall": 0.4576271186440678,
+    "f1-score": 0.6067415730337079,
+    "support": 59,
+    "confused_with": {
+      "covid_procedure_after_infection": 32
+    }
+  },
+  "vocative_call": {
+    "precision": 0.95,
+    "recall": 0.8636363636363636,
+    "f1-score": 0.9047619047619048,
+    "support": 22,
+    "confused_with": {
+      "greeting_hello": 2,
+      "quarantine_how_it_works": 1
+    }
+  },
+  "user_fat": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 24,
     "confused_with": {}
   },
-  "comment_hot": {
-    "precision": 0.8461538461538461,
-    "recall": 0.8918918918918919,
-    "f1-score": 0.868421052631579,
-    "support": 37,
+  "bot_parents": {
+    "precision": 0.92,
+    "recall": 0.92,
+    "f1-score": 0.92,
+    "support": 25,
     "confused_with": {
-      "comment_racist": 1,
-      "bot_sexual": 1
+      "bot_costs": 1,
+      "bot_developers": 1
     }
+  },
+  "bot_personality": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "cc_moon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "gradual_opening_sports": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "sources": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "comment_negative": {
+    "precision": 1.0,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9787234042553191,
+    "support": 24,
+    "confused_with": {
+      "comment_offense": 1
+    }
+  },
+  "covid_unknown_cases": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "user_dont_understand": {
+    "precision": 0.9615384615384616,
+    "recall": 1.0,
+    "f1-score": 0.9803921568627451,
+    "support": 25,
+    "confused_with": {}
+  },
+  "mask_which": {
+    "precision": 0.8928571428571429,
+    "recall": 1.0,
+    "f1-score": 0.9433962264150945,
+    "support": 25,
+    "confused_with": {}
+  },
+  "cc_prophesy": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 52,
+    "confused_with": {}
+  },
+  "bot_music": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "myth_hot_bath": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 15,
+    "confused_with": {}
+  },
+  "start": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
   },
   "myth_pneumonia_vaccine": {
     "precision": 1.0,
@@ -1626,99 +1723,50 @@
     "support": 16,
     "confused_with": {}
   },
-  "prevention_clean_hands": {
-    "precision": 0.9772727272727273,
+  "covid_situation_infected": {
+    "precision": 0.9642857142857143,
     "recall": 1.0,
-    "f1-score": 0.9885057471264368,
-    "support": 43,
+    "f1-score": 0.9818181818181818,
+    "support": 216,
     "confused_with": {}
   },
-  "germany_lockdown_crisis_howlong": {
-    "precision": 1.0,
-    "recall": 0.927536231884058,
-    "f1-score": 0.9624060150375939,
-    "support": 69,
-    "confused_with": {
-      "quarantine_when_who_howlong": 4,
-      "gradual_opening_schools": 1
-    }
-  },
-  "bot_languages": {
+  "bot_worst_experience": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 59,
-    "confused_with": {}
-  },
-  "germany_neighbors_close_borders": {
-    "precision": 0.9696969696969697,
-    "recall": 1.0,
-    "f1-score": 0.9846153846153847,
-    "support": 32,
-    "confused_with": {}
-  },
-  "mask_which": {
-    "precision": 0.8275862068965517,
-    "recall": 0.96,
-    "f1-score": 0.888888888888889,
     "support": 25,
-    "confused_with": {
-      "mask_obligatory": 1
-    }
-  },
-  "bot_pets": {
-    "precision": 0.75,
-    "recall": 0.9574468085106383,
-    "f1-score": 0.8411214953271028,
-    "support": 47,
-    "confused_with": {
-      "bot_animal": 2
-    }
-  },
-  "cc_religion": {
-    "precision": 1.0,
-    "recall": 0.8235294117647058,
-    "f1-score": 0.9032258064516129,
-    "support": 17,
-    "confused_with": {
-      "gradual_opening_religious": 3
-    }
-  },
-  "nothingmore": {
-    "precision": 0.9411764705882353,
-    "recall": 0.8,
-    "f1-score": 0.8648648648648648,
-    "support": 20,
-    "confused_with": {
-      "vocative_thank_you": 3,
-      "vocative_no": 1
-    }
-  },
-  "bot_goal": {
-    "precision": 0.9714285714285714,
-    "recall": 1.0,
-    "f1-score": 0.9855072463768115,
-    "support": 34,
     "confused_with": {}
   },
-  "covid_worry": {
-    "precision": 0.9761904761904762,
-    "recall": 1.0,
-    "f1-score": 0.9879518072289156,
-    "support": 41,
-    "confused_with": {}
+  "vocative_yes": {
+    "precision": 0.9612903225806452,
+    "recall": 0.9675324675324676,
+    "f1-score": 0.964401294498382,
+    "support": 154,
+    "confused_with": {
+      "user_particles": 2,
+      "greeting_goodbye": 1
+    }
   },
-  "accuracy": 0.9737925870460502,
+  "bot_hobbies": {
+    "precision": 0.8367346938775511,
+    "recall": 0.8541666666666666,
+    "f1-score": 0.845360824742268,
+    "support": 48,
+    "confused_with": {
+      "bot_books": 7
+    }
+  },
+  "accuracy": 0.9648376052558527,
   "macro avg": {
-    "precision": 0.9693250847807615,
-    "recall": 0.9658982406549813,
-    "f1-score": 0.9650143801393368,
-    "support": 10684
+    "precision": 0.961054440646118,
+    "recall": 0.95669295195534,
+    "f1-score": 0.9563975379574073,
+    "support": 10807
   },
   "weighted avg": {
-    "precision": 0.9751861523236758,
-    "recall": 0.9737925870460502,
-    "f1-score": 0.9727559046647924,
-    "support": 10684
+    "precision": 0.9657679107511646,
+    "recall": 0.9648376052558527,
+    "f1-score": 0.9635376426781322,
+    "support": 10807
   }
 }

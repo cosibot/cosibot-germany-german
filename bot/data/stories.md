@@ -302,21 +302,9 @@
 * germany_neighbors_close_borders
   - utter_germany_neighbors_close_borders
 
-## germany_nomoney
-* germany_nomoney
-  - utter_germany_nomoney
-
-## germany_pandemic
-* germany_pandemic
-  - utter_germany_pandemic
-
 ## germany_preparation
 * germany_preparation
   - utter_germany_preparation
-
-## germany_risk
-* germany_risk
-  - utter_germany_risk
 
 ## germany_second_wave
 * germany_second_wave
@@ -553,10 +541,6 @@
 ## test_payment
 * test_payment
   - utter_test_payment
-
-## test_per_day
-* test_per_day
-  - utter_test_per_day
 
 ## test_quick_test
 * test_quick_test

@@ -1,141 +1,65 @@
-## prevention_medical_attention (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* prevention_medical_attention: Was tun bei Symptomen?   <!-- predicted: covid_symptoms: Was tun bei Symptomen? -->
-    - utter_prevention_medical_attention   <!-- predicted: action_default_fallback -->
+## quarantine_general (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* quarantine_general: Was darf man in Quarantäne und was nicht   <!-- predicted: quarantine_dos_and_donts: Was darf man in Quarantäne und was nicht -->
+    - utter_quarantine_general   <!-- predicted: utter_quarantine_dos_and_donts -->
 
 
-## quarantine_how_it_works (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* quarantine_how_it_works:    <!-- predicted: None:  -->
-    - utter_quarantine_how_it_works   <!-- predicted: action_default_fallback -->
-
-
-## covid_current_statistics_happy_path_state (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen weltweit sind mit dem Virus infiziert   <!-- predicted: covid_current_statistics: Wie viele Menschen weltweit sind mit dem Virus infiziert -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## covid_current_statistics_happy_path_state (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie viele Infizierte gibt es in [Berlin]{"entity": "country_district", "value": "Berlin"}
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "ok"}
     - slot{"region": "Berlin"}
     - slot{"region_confirmed_accum": 130}
     - utter_covid_current_statistics_region
 
 
-## spread_surfaces_food_objects (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* spread_surfaces_food_objects: Kann ich mit dem Auto noch in den Nachbarort?   <!-- predicted: germany_neighbors_close_borders: Kann ich mit dem Auto noch in den Nachbarort? -->
-    - utter_spread_surfaces_food_objects   <!-- predicted: utter_germany_neighbors_close_borders -->
+## test_how (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* test_how: Wie funktioniert der Test   <!-- predicted: test_per_day: Wie funktioniert der Test -->
+    - utter_test_how   <!-- predicted: utter_test_per_day -->
 
 
-## test_how (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* test_how:    <!-- predicted: None:  -->
-    - utter_test_how   <!-- predicted: action_default_fallback -->
-
-
-## covid_current_statistics_unhappy_empty_path_state_no (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: COVID-19 Fälle nach Altersgruppe und Geschlecht   <!-- predicted: covid_current_statistics: COVID-19 Fälle nach Altersgruppe und Geschlecht -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## covid_current_statistics_unhappy_empty_path_state_no (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Aktuelle Nummern
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "empty"}
     - slot{"region": "Bremen"}
     - slot{"country_code": "DE"}
     - utter_region_nodata
-* vocative_no: Eigentlich nicht
+* vocative_no: Leider nein.
     - utter_covid_no_country_current_statistics
 
 
-## travel_return (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
+## travel_return (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
 * travel_return: Was muss ich beachten, wenn ich gerade in Portugal war?   <!-- predicted: travel_return: Was muss ich beachten, wenn ich gerade in [Portugal]{"entity": "country_code", "value": "PT"} war? -->
     - slot{"country_code": "PT"}
     - utter_travel_return
 
 
-## covid_current_statistics_unhappy_not_ok_path_state_no (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: wie viele Menschen sind in Deutschland betroffen   <!-- predicted: covid_current_statistics: wie viele Menschen sind in Deutschland betroffen -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## covid_current_statistics_unhappy_not_ok_path_state_no (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wieviele Fälle gibt es momentan in Saarland?   <!-- predicted: covid_situation_infected: Wieviele Fälle gibt es momentan in [Saarland]{"entity": "country_state", "value": " Saarland"}? -->
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "not-ok"}
     - slot{"region": "Bremen"}
     - slot{"country_code": "DE"}
     - utter_region_nodata
-* vocative_no: Keinesfalls.
+* vocative_no: Unter keiner Bedingung.
     - utter_covid_no_country_current_statistics
 
 
-## bot_animal (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* bot_animal: Welches Tier ziehst du vor?   <!-- predicted: bot_pets: Welches Tier ziehst du vor? -->
-    - utter_bot_animal   <!-- predicted: utter_bot_pets -->
+## bot_animal (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_animal: Welches Tier magst du am liebsten?
+    - utter_bot_animal   <!-- predicted: action_default_fallback -->
 
 
-## bot_author (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* bot_author: Wer ist dein Lieblingsschriftsteller?   <!-- predicted: bot_books: Wer ist dein Lieblingsschriftsteller? -->
-    - utter_bot_author   <!-- predicted: utter_bot_books -->
+## bot_author (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_author: Was ist dein Lieblingsautor?   <!-- predicted: bot_books: Was ist dein Lieblingsautor? -->
+    - utter_bot_author   <!-- predicted: action_default_fallback -->
 
 
-## covid_current_statistics_unhappy_empty_path_state_yes (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Infizierte gibt es in Baden-Württemberg   <!-- predicted: covid_current_statistics: Wie viele Infizierte gibt es in [Baden-Württemberg]{"entity": "country_district", "value": " Baden-W\u00fcrttemberg"} -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## covid_current_statistics_unhappy_empty_path_state_yes (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Ich wüsste gern die Zahl der Erkrankten weltweit
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "empty"}
     - slot{"region": "Bremen"}
-    - slot{"country_code": "DE"}
-    - utter_region_nodata
-* vocative_yes: Machen Sie das.
-    - action_search_stats
-    - slot{"search_successful": "ok"}
-    - slot{"active_cases": "16300"}
-    - slot{"country": "Deutschland"}
-    - slot{"total_infected_critical": "176"}
-    - slot{"total_deaths": "32"}
-    - utter_covid_situation_infected
-
-
-## covid_current_statistics_unhappy_not_ok_path_state_yes (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wo finde ich aktuelle Zahlen?   <!-- predicted: covid_current_statistics: Wo finde ich aktuelle Zahlen? -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
-    - slot{"region_search_successful": "not-ok"}
-    - slot{"region": "Bremen"}
-    - slot{"country_code": "DE"}
-    - utter_region_nodata
-* vocative_yes: Wie Sie wollen.
-    - action_search_stats
-    - slot{"search_successful": "ok"}
-    - slot{"active_cases": "16300"}
-    - slot{"country": "Deutschland"}
-    - slot{"total_infected_critical": "176"}
-    - slot{"total_deaths": "32"}
-    - utter_covid_situation_infected
-
-
-## bot_games (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* bot_games: Magst du Computerspiele   <!-- predicted: bot_hobbies: Magst du Computerspiele -->
-    - utter_bot_games   <!-- predicted: utter_bot_hobbies -->
-
-
-## covid_current_statistics_happy_path_district (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen sind am Virus gestorben   <!-- predicted: covid_current_statistics: Wie viele Menschen sind am Virus gestorben -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
-    - slot{"region_search_successful": "ok"}
-    - slot{"region": "München"}
-    - slot{"region_confirmed_accum": "130"}
-    - utter_covid_current_statistics_region
-
-
-## covid_current_statistics_unhappy_empty_path_district_yes (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Anzahl der Toten in Brasilien   <!-- predicted: covid_current_statistics: Anzahl der Toten in [Brasilien]{"entity": "country_code", "value": "BR"} -->
-    - slot{"country_code": "BR"}
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
-    - slot{"region_search_successful": "empty"}
-    - slot{"region": "Frankfurt"}
-    - slot{"country_code": "DE"}
-    - utter_region_nodata
-* vocative_yes: Alle Mal.
-    - action_search_stats
-    - slot{"search_successful": "ok"}
-    - slot{"active_cases": "16300"}
-    - slot{"country": "Deutschland"}
-    - slot{"total_infected_critical": "176"}
-    - utter_covid_situation_infected
-
-
-## covid_current_statistics_unhappy_not_ok_path_district_yes (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: wie schauen die zahlen in Frankreich aus   <!-- predicted: covid_current_statistics: wie schauen die zahlen in [Frankreich]{"entity": "country_code", "value": "FR"} aus -->
-    - slot{"country_code": "FR"}
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
-    - slot{"region_search_successful": "not-ok"}
-    - slot{"region": "Frankfurt"}
     - slot{"country_code": "DE"}
     - utter_region_nodata
 * vocative_yes: Haargenau.
@@ -148,52 +72,139 @@
     - utter_covid_situation_infected
 
 
-## bot_worst_experience (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* bot_worst_experience: Was machst du morgens?   <!-- predicted: vocative_call: Was machst du morgens? -->
-    - utter_bot_worst_experience   <!-- predicted: utter_vocative_call -->
+## bot_developers (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_developers: wer hat dich gebaut
+    - utter_bot_developers   <!-- predicted: action_default_fallback -->
 
 
-## covid_current_statistics_unhappy_path_empty_district_no (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Weißt du wie viele Erkrankte es weltweit gibt?   <!-- predicted: covid_current_statistics: Weißt du wie viele Erkrankte es weltweit gibt? -->
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## covid_current_statistics_unhappy_not_ok_path_state_yes (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Zahlen infizierte Menschen weltweit
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
+    - slot{"region_search_successful": "not-ok"}
+    - slot{"region": "Bremen"}
+    - slot{"country_code": "DE"}
+    - utter_region_nodata
+* vocative_yes: Unbestritten.
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"country": "Deutschland"}
+    - slot{"total_infected_critical": "176"}
+    - slot{"total_deaths": "32"}
+    - utter_covid_situation_infected
+
+
+## bot_gender (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_gender: Bist du ein Mädchen   <!-- predicted: cc_drugs: Bist du ein Mädchen -->
+    - utter_bot_gender   <!-- predicted: action_default_fallback -->
+
+
+## bot_movies (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_movies: Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?   <!-- predicted: bot_actor: Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin? -->
+    - utter_bot_movies   <!-- predicted: utter_bot_actor -->
+
+
+## covid_current_statistics_happy_path_district (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: wie viele leute sind betroffen
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
+    - slot{"region_search_successful": "ok"}
+    - slot{"region": "München"}
+    - slot{"region_confirmed_accum": "130"}
+    - utter_covid_current_statistics_region
+
+
+## covid_current_statistics_unhappy_empty_path_district_yes (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie viele Menschen sind in München infiziert   <!-- predicted: covid_situation_infected: Wie viele Menschen sind in [München]{"entity": "country_district", "value": " M\u00fcnchen"} infiziert -->
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "empty"}
     - slot{"region": "Frankfurt"}
     - slot{"country_code": "DE"}
     - utter_region_nodata
-* vocative_no: Nicht wirklich
-    - utter_covid_no_country_current_statistics
+* vocative_yes: Gebilligt.
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"country": "Deutschland"}
+    - slot{"total_infected_critical": "176"}
+    - utter_covid_situation_infected
 
 
-## covid_current_statistics_unhappy_path_not_ok_district_no (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen sind in Indien gestorben   <!-- predicted: covid_current_statistics: Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben -->
-    - slot{"country_code": "IN"}
-    - action_search_stats_region   <!-- predicted: action_default_fallback -->
+## bot_worst_experience (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* bot_worst_experience: Sind Sie ledig?   <!-- predicted: cc_philosophical: Sind Sie ledig? -->
+    - utter_bot_worst_experience   <!-- predicted: action_default_fallback -->
+
+
+## covid_current_statistics_unhappy_not_ok_path_district_yes (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: In welchem Bundesland gibt die meisten Fälle?
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
     - slot{"region_search_successful": "not-ok"}
     - slot{"region": "Frankfurt"}
     - slot{"country_code": "DE"}
     - utter_region_nodata
-* vocative_no: Nee.
+* vocative_yes: Ja, abgemacht.
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"country": "Deutschland"}
+    - slot{"total_infected_critical": "176"}
+    - slot{"total_deaths": "32"}
+    - utter_covid_situation_infected
+
+
+## cc_geography (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* cc_geography: Wo ist China?   <!-- predicted: cc_geography: Wo ist [China]{"entity": "country_code", "value": "CN"}? -->
+    - slot{"country_code": "CN"}
+    - utter_cc_geography
+
+
+## covid_current_statistics_unhappy_path_empty_district_no (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Zahlen infizierte Menschen weltweit
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
+    - slot{"region_search_successful": "empty"}
+    - slot{"region": "Frankfurt"}
+    - slot{"country_code": "DE"}
+    - utter_region_nodata
+* vocative_no: Kommt nicht in die Tüte.
     - utter_covid_no_country_current_statistics
 
 
-## cc_religion (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* cc_religion: Religion   <!-- predicted: gradual_opening_religious: Religion -->
-    - utter_cc_religion   <!-- predicted: utter_gradual_opening_religious -->
+## cc_make_weather (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* cc_make_weather: Könnten Sie das Wetter ändern?   <!-- predicted: cc_keys: Könnten Sie das Wetter ändern? -->
+    - utter_cc_make_weather   <!-- predicted: action_default_fallback -->
 
 
-## user_scared (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* user_scared: Ich habe Angst.   <!-- predicted: covid_worry: Ich habe Angst. -->
-    - utter_user_scared   <!-- predicted: utter_covid_worry -->
+## covid_current_statistics_unhappy_path_not_ok_district_no (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie viele Menschen sind infiziert
+    - action_search_stats_region   <!-- predicted: utter_want_to_add_country -->
+    - slot{"region_search_successful": "not-ok"}
+    - slot{"region": "Frankfurt"}
+    - slot{"country_code": "DE"}
+    - utter_region_nodata
+* vocative_no: Naa.
+    - utter_covid_no_country_current_statistics
 
 
-## covid_situation_without_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Wie lange bleiben die Viren auf den Oberflächen?   <!-- predicted: spread_surfaces_food_objects: Wie lange bleiben die Viren auf den Oberflächen? -->
-    - utter_want_to_add_country   <!-- predicted: utter_spread_surfaces_food_objects -->
-* vocative_yes: Ich stimme zu.
+## start_1 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* start-dialogue:    <!-- predicted: None:  -->
+    - action_check_bot_introduced   <!-- predicted: action_default_fallback -->
+    - slot{"bot_introduced": true}
+    - utter_greeting_hello_introduced_false
+
+
+## vocative_no (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* vocative_no: Nichts.   <!-- predicted: nothingmore: Nichts. -->
+    - utter_vocative_no   <!-- predicted: action_default_fallback -->
+
+
+## covid_situation_without_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand sind in Deutschland?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen in kritischem Zustand sind in [Deutschland]{"entity": "country_code", "value": "DE"}? -->
+    - slot{"country_code": "DE"}
+    - utter_want_to_add_country
+* vocative_yes: Ich habe keine Einwände.
     - utter_ask_which_country
-* country: zimbabwe   <!-- predicted: country: [zimbabwe]{"entity": "country_code", "value": "ZW"} -->
-    - slot{"country_code": "ZW"}
-    - action_search_stats   <!-- predicted: action_default_fallback -->
+* country: Nippon   <!-- predicted: country: [Nippon]{"entity": "country_code", "value": "JP"} -->
+    - slot{"country_code": "JP"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "ok"}
     - slot{"active_cases": "16300"}
     - slot{"country": "Frankreich"}
@@ -202,21 +213,21 @@
     - utter_covid_situation_infected
 
 
-## covid_situation_without_country2 (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Wie viele kritische Fälle in Tschechien?   <!-- predicted: covid_situation_infected_critical: Wie viele kritische Fälle in [Tschechien]{"entity": "country_code", "value": "CZ"}? -->
-    - slot{"country_code": "CZ"}
+## covid_situation_without_country2 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Personen in kritischem Zustand in Österreich.   <!-- predicted: covid_situation_infected_critical: Personen in kritischem Zustand in [Österreich]{"entity": "country_code", "value": "AT"}. -->
+    - slot{"country_code": "AT"}
     - utter_want_to_add_country
-* vocative_no: Nicht im Entferntesten.
-    - utter_further_questions   <!-- predicted: utter_covid_no_country_current_statistics -->
+* vocative_no: lieber nicht
+    - utter_covid_no_country_current_statistics
 
 
-## covid_situation_without_country3 (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Kritischer Zustand in Russland.   <!-- predicted: covid_situation_infected_critical: Kritischer Zustand in [Russland]{"entity": "country_code", "value": "RU"}. -->
-    - slot{"country_code": "RU"}
+## covid_situation_without_country3 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wieviele Personen in China sind im kritischen Zustand?   <!-- predicted: covid_situation_infected_critical: Wieviele Personen in [China]{"entity": "country_code", "value": "CN"} sind im kritischen Zustand? -->
+    - slot{"country_code": "CN"}
     - utter_want_to_add_country
-* country: Benin   <!-- predicted: country: [Benin]{"entity": "country_code", "value": "BJ"} -->
-    - slot{"country_code": "BJ"}
-    - action_search_stats
+* country: moldova   <!-- predicted: country: [moldova]{"entity": "country_code", "value": "MD"} -->
+    - slot{"country_code": "MD"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "ok"}
     - slot{"active_cases": "16300"}
     - slot{"country": "Italy"}
@@ -225,34 +236,10 @@
     - utter_covid_situation_infected
 
 
-## covid_situation_infected_happy (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: fallzahlen   <!-- predicted: covid_current_statistics: fallzahlen -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
-    - slot{"search_successful": "ok"}
-    - slot{"active_cases": "16300"}
-    - slot{"country": "Portugal"}
-    - slot{"total_infected_critical": "176"}
-    - slot{"total_deaths": "32"}
-    - utter_covid_situation_infected   <!-- predicted: utter_covid_situation_infected_critical -->
-
-
-## covid_situation_infected_unhappy (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen infizieren sich täglich neu in Deutschland?   <!-- predicted: covid_current_statistics: Wie viele Menschen infizieren sich täglich neu in Deutschland? -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
-    - slot{"search_successful": "not-ok"}
-    - utter_covid_no_country_current_statistics
-
-
-## covid_situation_infected_unhappy_with_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Gibt es offizielle Zahlen zu den Erkrankungen weltweit?   <!-- predicted: covid_current_statistics: Gibt es offizielle Zahlen zu den Erkrankungen weltweit? -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
-    - slot{"search_successful": "wrong-country"}
-    - utter_want_to_add_country
-* vocative_yes: Na klar!
-    - utter_ask_which_country
-* country: senegal   <!-- predicted: country: [senegal]{"entity": "country_code", "value": "SN"} -->
-    - slot{"country_code": "SN"}
-    - action_search_stats   <!-- predicted: utter_ask_which_country -->
+## covid_situation_infected_happy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie viele Menschen sind in Indien gestorben   <!-- predicted: covid_situation_infected: Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben -->
+    - slot{"country_code": "IN"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "ok"}
     - slot{"active_cases": "16300"}
     - slot{"country": "Portugal"}
@@ -261,32 +248,59 @@
     - utter_covid_situation_infected
 
 
-## covid_situation_unhappy_inexistent_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele haben sich weltweit angesteckt   <!-- predicted: covid_current_statistics: Wie viele haben sich weltweit angesteckt -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
+## covid_situation_infected_unhappy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Krankheitsfälle in Hessen   <!-- predicted: covid_situation_infected: Krankheitsfälle in [Hessen]{"entity": "country_state", "value": " Hessen"} -->
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
+    - slot{"search_successful": "not-ok"}
+    - utter_covid_no_country_current_statistics
+
+
+## covid_situation_infected_unhappy_with_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Stecken sich mehr Frauen oder mehr Männer an?
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "wrong-country"}
     - utter_want_to_add_country
-* vocative_yes: In Butter.
+* vocative_yes: Akzeptiere.
     - utter_ask_which_country
-* country: La Réunion   <!-- predicted: country: [La Réunion]{"entity": "country_code", "value": "RE"} -->
-    - slot{"country_code": "RE"}
-    - action_search_stats   <!-- predicted: utter_ask_which_country -->
+* country: Kiribati   <!-- predicted: country: [Kiribati]{"entity": "country_code", "value": "KI"} -->
+    - slot{"country_code": "KI"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
+    - slot{"search_successful": "ok"}
+    - slot{"active_cases": "16300"}
+    - slot{"country": "Portugal"}
+    - slot{"total_infected_critical": "176"}
+    - slot{"total_deaths": "32"}
+    - utter_covid_situation_infected
+
+
+## covid_situation_unhappy_inexistent_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie sind die Fallzahlen in Österreich   <!-- predicted: covid_situation_infected: Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"} -->
+    - slot{"country_code": "AT"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
+    - slot{"search_successful": "wrong-country"}
+    - utter_want_to_add_country
+* vocative_yes: Ja, gern.
+    - utter_ask_which_country
+* country: Gambia   <!-- predicted: country: [Gambia]{"entity": "country_code", "value": "GM"} -->
+    - slot{"country_code": "GM"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "inexistent-country"}
     - utter_covid_no_country_current_statistics
 
 
-## covid_situation_unhappy_with_dashboard (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen sind in Köln gestorben   <!-- predicted: covid_current_statistics: Wie viele Menschen sind in [Köln]{"entity": "country_district", "value": " K\u00f6ln"} gestorben -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
+## covid_situation_unhappy_with_dashboard (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected: Wie viele aktive Fälle sind in England enthalten?   <!-- predicted: covid_situation_infected: Wie viele aktive Fälle sind in [England]{"entity": "country_code", "value": "GB"} enthalten? -->
+    - slot{"country_code": "GB"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "False"}
     - utter_want_to_add_country
-* vocative_no: Nie.
+* vocative_no: niente
     - utter_covid_no_country_current_statistics
 
 
-## covid_situation_infected_critical_happy (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in England?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "GB"}? -->
-    - slot{"country_code": "GB"}
+## covid_situation_infected_critical_happy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wie viele Personen befinden sich in Kanada in einem kritischen Zustand?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen befinden sich in [Kanada]{"entity": "country_code", "value": "CA"} in einem kritischen Zustand? -->
+    - slot{"country_code": "CA"}
     - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "ok"}
     - slot{"active_cases": "16300"}
@@ -296,24 +310,25 @@
     - utter_covid_situation_infected_critical
 
 
-## covid_situation_infected_critical_unhappy (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Personen in einem kritischen Fall in Türkei.   <!-- predicted: covid_situation_infected_critical: Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}. -->
-    - slot{"country_code": "TR"}
+## covid_situation_infected_critical_unhappy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wie viele Menschen befinden sich in Italien in kritischem Zustand   <!-- predicted: covid_situation_infected_critical: Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand -->
+    - slot{"country_code": "IT"}
     - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "not-ok"}
     - utter_covid_no_country_current_statistics
 
 
-## covid_situation_infected_critical_unhappy_with_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Können die Viren auf Haltestangen überleben?   <!-- predicted: cc_senselife: Können die Viren auf Haltestangen überleben? -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
+## covid_situation_infected_critical_unhappy_with_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wie viele Menschen befinden sich in Italien in kritischem Zustand   <!-- predicted: covid_situation_infected_critical: Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand -->
+    - slot{"country_code": "IT"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "wrong-country"}
     - utter_want_to_add_country
-* vocative_yes: Ohne Frage.
+* vocative_yes: Ich habe nichts dagegen.
     - utter_ask_which_country
-* country: Christmas Island   <!-- predicted: country: [Christmas Island]{"entity": "country_code", "value": "CX"} -->
-    - slot{"country_code": "CX"}
-    - action_search_stats   <!-- predicted: utter_ask_which_country -->
+* country: Cuba   <!-- predicted: country: [Cuba]{"entity": "country_code", "value": "CU"} -->
+    - slot{"country_code": "CU"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "ok"}
     - slot{"active_cases": "16300"}
     - slot{"country": "Espanha"}
@@ -322,113 +337,108 @@
     - utter_covid_situation_infected_critical   <!-- predicted: utter_covid_situation_infected -->
 
 
-## covid_situation_infected_critical_unhappy_inexistent_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Wie viele Personen befinden sich in Kanada in einem kritischen Zustand?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen befinden sich in [Kanada]{"entity": "country_code", "value": "CA"} in einem kritischen Zustand? -->
-    - slot{"country_code": "CA"}
+## covid_situation_infected_critical_unhappy_inexistent_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in England?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "GB"}? -->
+    - slot{"country_code": "GB"}
     - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "wrong-country"}
     - utter_want_to_add_country
-* vocative_yes: Ja, genau.
+* vocative_yes: Jap.
     - utter_ask_which_country
-* country: Hungary   <!-- predicted: country: [Hungary]{"entity": "country_code", "value": "HU"} -->
-    - slot{"country_code": "HU"}
-    - action_search_stats   <!-- predicted: utter_ask_which_country -->
+* country: Paraguay   <!-- predicted: country: [Paraguay]{"entity": "country_code", "value": "PY"} -->
+    - slot{"country_code": "PY"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "inexistent-country"}
     - utter_covid_no_country_current_statistics
 
 
-## covid_situation_infected_critical_unhappy_with_dashboard (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Was ist die Lebensdauer der Coronaviren?   <!-- predicted: germany_lockdown_crisis_howlong: Was ist die Lebensdauer der Coronaviren? -->
-    - action_search_stats   <!-- predicted: action_default_fallback -->
+## covid_situation_infected_critical_unhappy_with_dashboard (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_situation_infected_critical: Kritischer Zustand in Russland.   <!-- predicted: covid_situation_infected_critical: Kritischer Zustand in [Russland]{"entity": "country_code", "value": "RU"}. -->
+    - slot{"country_code": "RU"}
+    - action_search_stats   <!-- predicted: utter_want_to_add_country -->
     - slot{"search_successful": "wrong-country"}
     - utter_want_to_add_country
-* vocative_no: nein
+* vocative_no: Nicht im Entferntesten.
     - utter_covid_no_country_current_statistics
 
 
-## start1_1 (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* start_dialogue: /start-dialogue   <!-- predicted: start-dialogue: /start-dialogue -->
-    - action_check_bot_introduced
+## start1_1 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* start_dialogue:    <!-- predicted: None:  -->
+    - action_check_bot_introduced   <!-- predicted: action_default_fallback -->
     - slot{"bot_introduced": "True"}
-    - utter_greeting_hello_introduced_false
+    - utter_greeting_hello_introduced_false   <!-- predicted: action_listen -->
 
 
-## covid_procedure_after_infection (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_procedure_after_infection:    <!-- predicted: None:  -->
-    - utter_covid_procedure_after_infection   <!-- predicted: action_default_fallback -->
+## covid_pregnancy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_pregnancy: Meine Freundin hat movit 19, was passiert jetzt?   <!-- predicted: covid_procedure_after_infection: Meine Freundin hat movit 19, was passiert jetzt? -->
+    - utter_covid_pregnancy   <!-- predicted: utter_covid_procedure_after_infection -->
 
 
-## covid_situation_infected (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected: Wie viele Menschen infizieren sich täglich in Deutschland?   <!-- predicted: covid_current_statistics: Wie viele Menschen infizieren sich täglich in Deutschland? -->
-    - utter_covid_situation_infected   <!-- predicted: action_default_fallback -->
+## germany_food_buy (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_food_buy:    <!-- predicted: None:  -->
+    - utter_germany_food_buy   <!-- predicted: action_default_fallback -->
 
 
-## covid_situation_infected_critical (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_situation_infected_critical: Wie viele Personen befinden sich in einem kritischen Zustand in England?   <!-- predicted: covid_situation_infected_critical: Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "GB"}? -->
-    - slot{"country_code": "GB"}
-    - utter_covid_situation_infected_critical   <!-- predicted: utter_want_to_add_country -->
-
-
-## covid_unknown_cases (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_unknown_cases:    <!-- predicted: None:  -->
-    - utter_covid_unknown_cases   <!-- predicted: action_default_fallback -->
-
-
-## start_12 (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
+## start_12 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
 * start: /start-dialogue   <!-- predicted: start-dialogue: /start-dialogue -->
     - action_check_bot_introduced
     - action_listen   <!-- predicted: utter_greeting_hello_introduced_false -->
 
 
-## germany_food_buy (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_food_buy: Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben   <!-- predicted: quarantine_general: Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben -->
-    - utter_germany_food_buy   <!-- predicted: action_default_fallback -->
+## germany_food_shortages (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_food_shortages:    <!-- predicted: None:  -->
+    - utter_germany_food_shortages   <!-- predicted: action_default_fallback -->
 
 
-## germany_food_shortages (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_food_shortages: Sind Lebensmittel Engpässe zu befürchten   <!-- predicted: spread_surfaces_food_objects: Sind Lebensmittel Engpässe zu befürchten -->
-    - utter_germany_food_shortages   <!-- predicted: utter_spread_surfaces_food_objects -->
-
-
-## germany_hotline (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_hotline: Telefonnummer bitte   <!-- predicted: myths_vitamins_plants_minerals_homeopathy: Telefonnummer bitte -->
+## germany_hotline (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_hotline:    <!-- predicted: None:  -->
     - utter_germany_hotline   <!-- predicted: action_default_fallback -->
 
 
-## germany_nomoney (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_nomoney: Was bietet mir das Hilfspaket, wenn ich meinen Kredit oder meine Versicherung nicht mehr bezahlen kann?   <!-- predicted: cc_philosophical: Was bietet mir das Hilfspaket, wenn ich meinen Kredit oder meine Versicherung nicht mehr bezahlen kann? -->
-    - utter_germany_nomoney   <!-- predicted: utter_cc_philosophical -->
+## germany_nomoney (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_nomoney:    <!-- predicted: None:  -->
+    - utter_germany_nomoney   <!-- predicted: action_default_fallback -->
 
 
-## germany_pandemic (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_pandemic: Pandemie in Deutschland   <!-- predicted: germany_consequences: Pandemie in Deutschland -->
+## germany_pandemic (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_pandemic:    <!-- predicted: None:  -->
     - utter_germany_pandemic   <!-- predicted: action_default_fallback -->
 
 
-## germany_spread_water (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* germany_spread_water: Coronavirus und Reisen per Bahn   <!-- predicted: travel_general: Coronavirus und Reisen per Bahn -->
-    - utter_germany_spread_water   <!-- predicted: utter_travel_general -->
+## germany_risk (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_risk: Ausbreitungsrisiko von Covid in Deutschland.   <!-- predicted: germany_current_situation: Ausbreitungsrisiko von Covid in Deutschland. -->
+    - utter_germany_risk   <!-- predicted: utter_germany_current_situation -->
 
 
-## gradual_opening_cinema_concert_theatre (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* gradual_opening_cinema_concert_theatre: Was ist mit Friseuren   <!-- predicted: prevention_informed: Was ist mit Friseuren -->
-    - utter_gradual_opening_cinema_concert_theatre   <!-- predicted: action_default_fallback -->
+## germany_spread_water (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* germany_spread_water: Erstattungsregelungen   <!-- predicted: germany_current_situation: Erstattungsregelungen -->
+    - utter_germany_spread_water   <!-- predicted: action_default_fallback -->
 
 
-## mask_protection (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* mask_protection:    <!-- predicted: None:  -->
+## start1_12 (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* start_dialogue:    <!-- predicted: None:  -->
+    - action_check_bot_introduced   <!-- predicted: action_default_fallback -->
+    - action_listen   <!-- predicted: utter_greeting_hello_introduced_false -->
+
+
+## greeting_goodbye (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* greeting_goodbye: Servus!   <!-- predicted: greeting_hello: Servus! -->
+    - utter_greeting_goodbye   <!-- predicted: action_check_bot_introduced -->
+
+
+## mask_protection (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* mask_protection: Mundschutz Masken   <!-- predicted: mask_obligatory: Mundschutz Masken -->
     - utter_mask_protection   <!-- predicted: action_default_fallback -->
 
 
-## covid_current_situation_get_news (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_current_situation: Lage in - Wie ist die Situation in Kolumbien   <!-- predicted: covid_current_situation: Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"} -->
+## myths_chinese_laboratory (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* myths_chinese_laboratory: Das Coronavirus ist eine Biowaffe   <!-- predicted: myths_conspiracy_fakenews: Das Coronavirus ist eine Biowaffe -->
+    - utter_myths_chinese_laboratory   <!-- predicted: utter_myths_conspiracy_fakenews -->
+
+
+## covid_current_situation_get_news_entity_country (/tmp/tmp3m62b1km/3ab45f1fb8774375915984f8a536d729_conversation_tests.md)
+* covid_current_situation: Wie ist die Situation in Kolumbien   <!-- predicted: covid_current_situation: Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"} -->
     - slot{"country_code": "CO"}
-    - action_get_news_request
-
-
-## covid_current_situation_get_news_entity_country (/tmp/tmpe1t8rd5t/47ef77c16f704eec8ababf5f6a152bdf_conversation_tests.md)
-* covid_current_situation: Was ist mit Bolivien?   <!-- predicted: covid_current_situation: Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}? -->
-    - slot{"country_code": "BO"}
     - action_get_news_request
 
 

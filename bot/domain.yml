@@ -99,7 +99,6 @@ actions:
   - utter_covid_unknown_cases
   - utter_covid_vaccine
   - utter_covid_worry
-  # - utter_current_situation
   - utter_economy_consequences
   - utter_germany_consequences
   - utter_germany_current_situation
@@ -108,17 +107,12 @@ actions:
   - utter_germany_hotline
   - utter_germany_lockdown_crisis_howlong
   - utter_germany_neighbors_close_borders
-  - utter_germany_nomoney
-  - utter_germany_pandemic
   - utter_germany_preparation
-  - utter_germany_risk
   - utter_germany_second_wave
   - utter_germany_spread_water
   - utter_gradual_opening_barbecue
   - utter_gradual_opening_party
   - utter_gradual_opening_cinema_concert_theatre
-#  - utter_gradual_opening_football_league
-#  - utter_gradual_opening_hairdressers
   - utter_gradual_opening_museum
   - utter_gradual_opening_playgrounds_zoos
   - utter_gradual_opening_religious
@@ -127,7 +121,6 @@ actions:
   - utter_gradual_opening_sports
   - utter_gradual_opening_universities
   - utter_gradual_opening_visit_family_friends
-#  - utter_greeting_hello
   - utter_mask_children
   - utter_mask_control
   - utter_mask_differences
@@ -173,7 +166,6 @@ actions:
   - utter_spread_surfaces_food_objects
   - utter_test_how
   - utter_test_payment
-  - utter_test_per_day
   - utter_test_quick_test
   - utter_test_results_reliability
   - utter_test_virus
@@ -338,7 +330,6 @@ intents:
   - covid_unknown_cases
   - covid_vaccine
   - covid_worry
-# - current_situation
   - economy_consequences
   - germany_consequences
   - germany_current_situation
@@ -347,10 +338,7 @@ intents:
   - germany_hotline
   - germany_lockdown_crisis_howlong
   - germany_neighbors_close_borders
-  - germany_nomoney
-  - germany_pandemic
   - germany_preparation
-  - germany_risk
   - germany_second_wave
   - germany_spread_water
   - gradual_opening_barbecue
@@ -410,7 +398,6 @@ intents:
   - spread_surfaces_food_objects
   - test_how
   - test_payment
-  - test_per_day
   - test_quick_test
   - test_results_reliability
   - test_virus
@@ -562,30 +549,6 @@ responses:
               - label: Kontaktverbot
                 value: Kontaktverbot
 
-  utter_germany_risk:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Es handelt sich weltweit und in Deutschland um eine sehr dynamische und ernst zu nehmende Situation. Weltweit nimmt die Anzahl der Fälle weiterhin zu. Die Anzahl der neu übermittelten Fälle war in Deutschland seit etwa Mitte März bis Anfang Juli rückläufig, seitdem nimmt die Fallzahl stetig zu. Einige Kreise übermitteln derzeit nur sehr wenige bzw. keine Fälle an das RKI. Es kommt aber zunehmend wieder zu einzelnen Ausbruchsgeschehen, die erhebliche Ausmaße erreichen können. Nach wie vor sind Impfstoffe und antiviral wirksame Therapeutika nicht verfügbar. Das Robert Koch-Institut schätzt die Gefährdung für die Gesundheit der Bevölkerung in Deutschland daher derzeit weiterhin insgesamt als hoch ein, für Risikogruppen als sehr hoch. Diese Einschätzung kann sich kurzfristig durch neue Erkenntnisse ändern.</speak>
-          - type: text
-            text: "<p>Es handelt sich weltweit und in Deutschland um eine sehr dynamische und ernst zu nehmende Situation. Weltweit nimmt die Anzahl der Fälle weiterhin zu. Die Anzahl der neu übermittelten Fälle war in Deutschland seit etwa Mitte März bis Anfang Juli rückläufig, seitdem nimmt die Fallzahl stetig zu. Einige Kreise übermitteln derzeit nur sehr wenige bzw. keine Fälle an das RKI. Es kommt aber zunehmend wieder zu einzelnen Ausbruchsgeschehen, die erhebliche Ausmaße erreichen können. Nach wie vor sind Impfstoffe und antiviral wirksame Therapeutika nicht verfügbar. Das Robert Koch-Institut schätzt die Gefährdung für die Gesundheit der Bevölkerung in Deutschland daher derzeit weiterhin insgesamt als hoch ein, für Risikogruppen als sehr hoch. Diese Einschätzung kann sich kurzfristig durch neue Erkenntnisse ändern. <a href='https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikobewertung.html' target='_blank'>(1)</a></p>"
-          - type: links
-            links:
-              - title: Dynamische Karte zur Ausbreitung des Virus weltweit
-                url: https://nextstrain.org/ncov/2020-03-27?lang=de
-          - type: links
-            links:
-              - title: Tagesschau Karte zur Coronavirus-Ausbreitung in Deutschland
-                url: https://www.tagesschau.de/inland/coronavirus-karte-deutschland-101.html
-          - type: hints
-            options:
-              - label: Schnelltest
-                value: Schnelltest
-              - label: Aktuelle Lage in Deutschland
-                value: Aktuelle Lage in Deutschland
-              - label: Maßnahmen in Deutschland
-                value: Maßnahmen in Deutschland
-
   utter_germany_hotline:
     - custom:
         answers:
@@ -681,26 +644,6 @@ responses:
               - label: Quarantäne
                 value: Quarantäne
 
-  utter_germany_pandemic:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Der W H O Generaldirektor hat am 11.03.2020 die Situation zu Erkrankungen mit den neuartigen Coronaviren zu einer Pandemie erklärt. Die Erklärung der Pandemie hat keine direkten Auswirkungen auf die Vorbereitungen und Maßnahmen in Deutschland. Deutschland hat die die Situation von Anfang an sehr ernst genommen und hat auch die Maßnahmen, die von der WHO nun nochmals betont werden, früh selbst umgesetzt. Diese sind. Die Bevölkerung über die Risiken der Erkrankung informieren. Die Bevölkerung darüber informieren, wie sich jeder einzelne schützen kann und alle auffordern, dies auch zu tun. Möglichst jeden Fall finden, zu isolieren, testen und behandeln sowie möglichst alle Kontaktpersonen finden, um eine Weiterverbreitung zu verhindern. die Krankenhäuser auf die zu erwartende besondere Situation vorbereiten. medizinisches Personal vorbereiten und vor Infektionen schützen. sich gegenseitig helfen und umeinander kümmern.</speak>
-          - type: html
-            text: "<p>Der WHO-Generaldirektor hat am 11.03.2020 die Situation zu Erkrankungen mit den neuartigen Coronaviren zu einer Pandemie erklärt.<br>Die Erklärung der Pandemie hat keine direkten Auswirkungen auf die Vorbereitungen und Maßnahmen in Deutschland. Deutschland hat die die Situation von Anfang an sehr ernst genommen und hat auch die Maßnahmen, die von der WHO nun nochmals betont werden, früh selbst umgesetzt. Diese sind:<br>- Die Bevölkerung über die Risiken der Erkrankung informieren<br>- Die Bevölkerung darüber informieren, wie sich jeder einzelne schützen kann und alle auffordern, dies auch zu tun<br>-Möglichst jeden Fall finden, zu isolieren, testen und behandeln sowie möglichst alle Kontaktpersonen finden, um eine Weiterverbreitung zu verhindern<br>- Die Krankenhäuser auf die zu erwartende besondere Situation vorbereiten<br>- Medizinisches Personal vorbereiten und vor Infektionen schützen<br>- Sich gegenseitig helfen und umeinander kümmern. (rki.de, 15.05.2020)"
-          - type: links
-            links:
-              - title: 
-                url:          
-          - type: hints
-            options:
-              - label: Maßnahmen Deutschland
-                value: Maßnahmen Deutschland
-              - label: Hotlines
-                value: Hotlines
-              - label: Quarantäne
-                value: Quarantäne
-
   utter_germany_current_situation:
     - custom:
         answers:
@@ -771,26 +714,6 @@ responses:
                 value: Derzeitige Situation Deutschlands
               - label: Pandemie-Ausruf in Deutschland
                 value: Pandemie-Ausruf in Deutschland
-
-  utter_germany_nomoney:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Miete, Kredite, Versicherungen und Energieversorgung – die Bundesregierung gibt Verbrauchern mit einem großen Hilfspaket die Möglichkeit, Ausgaben auf später zu verschieben. Eine Inanspruchnahme kann aber schnell dazu beitragen, dass sich nach der Corona-Zeit ein größerer Berg von Zahlungspflichten aufgetürmt hat, der sich auch in besseren Zeiten kaum wieder abbezahlen lässt. Wenn sich Ihre berufliche Situation ändert und oder Ihnen das Geld ausgeht, erkundigen Sie sich als erstes möglichst schnell nach staatlichen Hilfen, z.B. Kurzarbeitergeld, Arbeitslosengeld, Wohngeld, Hartz 4. Im Moment müssen Sie bei den Ämtern mit Wartezeiten und eingeschränkten Bearbeitungen rechnen. Es kann also länger als sonst dauern, bis ein Bescheid kommt und Geld gezahlt wird. Überlegen Sie sich als nächstes, welche Zahlungen Vorrang haben, z.B. Miete, Energiekosten, Telefon und Internet, Lebensmittel, Medikamente. Kündigen Sie nicht unüberlegt und voreilig wichtige Verträge für die Altersvorsorge. Umfassendere Informationen zum Thema Hilfspaket und welche Möglichkeiten Ihnen zur Verfügung stehen, wenn Ihnen das Geld ausgeht, finden Sie auf der Seite der Verbraucherzentrale.</speak>
-          - type: html
-            text: "<p>Miete, Kredite, Versicherungen und Energieversorgung – die Bundesregierung gibt Verbrauchern mit einem großen Hilfspaket die Möglichkeit, Ausgaben auf später zu verschieben. Eine Inanspruchnahme kann aber schnell dazu beitragen, dass sich nach der Corona-Zeit ein größerer Berg von Zahlungspflichten aufgetürmt hat, der sich auch in besseren Zeiten kaum wieder abbezahlen lässt.<br>Wenn sich Ihre berufliche Situation ändert und/oder Ihnen das Geld ausgeht, erkundigen Sie sich als erstes möglichst schnell nach staatlichen Hilfen, z.B. Kurzarbeitergeld, Arbeitslosengeld, Wohngeld, Hartz IV. Im Moment müssen Sie bei den Ämtern mit Wartezeiten und eingeschränkten Bearbeitungen rechnen. Es kann also länger als sonst dauern, bis ein Bescheid kommt und Geld gezahlt wird. Überlegen Sie sich als nächstes, welche Zahlungen Vorrang haben, z.B. Miete, Energiekosten, Telefon und Internet, Lebensmittel, Medikamente.<br>Kündigen Sie nicht unüberlegt und voreilig wichtige Verträge für die Altersvorsorge.<br>Umfassendere Informationen zum Thema Hilfspaket und welche Möglichkeiten Ihnen zur Verfügung stehen, wenn Ihnen das Geld ausgeht, finden Sie auf der Seite der Verbraucherzentrale. <a href='https://www.verbraucherzentrale.de/aktuelle-meldungen/vertraege-reklamation/coronahilfspaket-und-andere-moeglichkeiten-wenn-das-geld-knapp-wird-45990' target='_blank'>(1)</a></p>"
-          - type: links
-            links:
-              - title: Verbraucherzentrale
-                url: https://www.verbraucherzentrale.de/aktuelle-meldungen/vertraege-reklamation/coronahilfspaket-und-andere-moeglichkeiten-wenn-das-geld-knapp-wird-45990
-          - type: hints
-            options:
-              - label: Dauer der Maßnahmen
-                value: Dauer der Maßnahmen
-              - label: Derzeitige Situation Deutschlands
-                value: Derzeitige Situation Deutschlands
-              - label: Pandemie-Ausruf in Deutschland
-                value: Pandemie-Ausruf in Deutschland 
 
   utter_germany_second_wave:
     - custom:
@@ -1093,22 +1016,6 @@ responses:
                 value: Corona-Warn-App - was ist das?
               - label: Corona-Warn-App - freiwillig
                 value: Corona-Warn-App - freiwillig
-
-  utter_test_per_day:
-    - custom:
-        answers:
-          - type: ssml   
-            ssml: <speak>Deutschland verfügte dank seiner leistungsstarken Laborinfrastruktur von Beginn anüber vergleichsweise große Testkapazitäten zum qualitätsgesicherten Nachweis von SARS Koff 2 . Rund 50% der Tests werden in den 20 größten Laboren durchgeführt (75%in den 50 größten). Rund 150 Labore in Deutschland haben in den letzten Wochen mehrals 1,7 Millionen Tests durchgeführt.</speak>
-          - type: html
-            text: "<p>Deutschland verfügte dank seiner leistungsstarken Laborinfrastruktur von Beginn anüber vergleichsweise große Testkapazitäten zum qualitätsgesicherten Nachweis von SARS-CoV-2. Rund 50% der Tests werden in den 20 größten Laboren durchgeführt (75%in den 50 größten). Rund 150 Labore in Deutschland haben in den letzten Wochen mehrals 1,7 Millionen Tests durchgeführt. <a href='https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/C/Coronavirus/Faktenpapier_Testen.PDF' target='_blank'>(1)</a> </p>"   
-          - type: hints
-            options:
-              - label: Kostenübernahme Test
-                value: Kostenübernahme Test
-              - label: Mythen und Falschmeldungen
-                value: Mythen und Falschmeldungen
-              - label: Schnelltest
-                value: Schnelltest
 
   utter_test_payment:
     - custom:

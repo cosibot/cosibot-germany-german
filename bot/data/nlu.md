@@ -1440,41 +1440,6 @@
 - Was bedeutet Corona für Schwangere
 - Wie gefährlich ist eine Coronavirus-Infektion in der Schwangerschaft?
 - Was muss ich als Schwangere beachten?
-- Was passiert bei einem positiven Test auf den Coronavirus?
-- Wie wird bei einem Verdachtsfall vorgegangen?
-- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
-- Was passiert bei einem positiven Resultat?
-- Was passiert wenn ich positiv auf die Infektion getestet wurde?
-- Was passiert, wenn ich infiziert bin?
-- was passiert wenn ich positiv auf coronavirus getestet bin
-- Meine Freundin hat Hobbit 19, was passiert jetzt?
-- Was passiert, wenn ich positiv auf den Virus getestet wurde?
-- Meine Freundin hat Covid 19, was passiert jetzt?
-- Was passiert wenn die Resultate positiv sind?
-- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
-- Was passiert bei einem Verdachtsfall auf den Coronavirus?
-- Was passiert bei einem Verdachtsfall auf den Virus?
-- Ich bin infiziert, was passiert jetzt?
-- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
-- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
-- Meine Freundin hat Kubik 19, was passiert jetzt?
-- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
-- Was geschieht wenn der Test positiv ist?
-- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
-- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
-- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
-- Vorgehensweise Infektion
-- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
-- Meine Freundin hat huvit 19, was passiert jetzt?
-- Meine Freundin hat COBIT 19, was passiert jetzt?
-- Meine Freundin hat movit 19, was passiert jetzt?
-- Meine Freundin hat kovit 19, was passiert jetzt?
-- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
-- Meine Freundin hat Q19, was passiert jetzt?
-- Meine Freundin hat cookit 19, was passiert jetzt?
-- Meine Freundin hat qubeat 19, was passiert jetzt?
-- Meine Freundin hat cupid 19, was passiert jetzt?
-- Meine Freundin hat kuhweg 19, was passiert jetzt?
 
 ## intent:covid_sars
 - unterschied zwischen influenza und covid
@@ -1770,6 +1735,42 @@
 - Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
 - Ich bin infiziert, was passiert jetzt?
 
+- Was passiert bei einem positiven Test auf den Coronavirus?
+- Wie wird bei einem Verdachtsfall vorgegangen?
+- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
+- Was passiert bei einem positiven Resultat?
+- Was passiert wenn ich positiv auf die Infektion getestet wurde?
+- Was passiert, wenn ich infiziert bin?
+- was passiert wenn ich positiv auf coronavirus getestet bin
+- Meine Freundin hat Hobbit 19, was passiert jetzt?
+- Was passiert, wenn ich positiv auf den Virus getestet wurde?
+- Meine Freundin hat Covid 19, was passiert jetzt?
+- Was passiert wenn die Resultate positiv sind?
+- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
+- Was passiert bei einem Verdachtsfall auf den Coronavirus?
+- Was passiert bei einem Verdachtsfall auf den Virus?
+- Ich bin infiziert, was passiert jetzt?
+- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
+- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
+- Meine Freundin hat Kubik 19, was passiert jetzt?
+- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
+- Was geschieht wenn der Test positiv ist?
+- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
+- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
+- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
+- Vorgehensweise Infektion
+- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
+- Meine Freundin hat huvit 19, was passiert jetzt?
+- Meine Freundin hat COBIT 19, was passiert jetzt?
+- Meine Freundin hat movit 19, was passiert jetzt?
+- Meine Freundin hat kovit 19, was passiert jetzt?
+- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
+- Meine Freundin hat Q19, was passiert jetzt?
+- Meine Freundin hat cookit 19, was passiert jetzt?
+- Meine Freundin hat qubeat 19, was passiert jetzt?
+- Meine Freundin hat cupid 19, was passiert jetzt?
+- Meine Freundin hat kuhweg 19, was passiert jetzt?
+
 ## intent:covid_unknown_cases
 - Die Rolle der Dunkelziffer bei Covid-19
 - Dunkelziffern
@@ -1805,6 +1806,8 @@
 - Ist es sinnvoll, einen Mundschutz zu tragen?
 - Mundschutzmaske
 - Mundschutz Masken
+- Mund Schutz Maske
+- Mund Schutz Masken
 - Verhindert ein Mundschutz eine Ansteckung?
 - Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
 - Macht es Sinn, den Mund Nasen Schutz zu tragen?
@@ -1838,6 +1841,60 @@
 - Warum sollen wir Mund Nasen Schutz tragen?
 - Warum Mund Nasen Schutz tragen?
 - Was hilft es, einen Mundschutz zu tragen?
+- Warum kaufen eigentliche alle Masken?
+- Was bringt ein Mundschutz?
+- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
+- Schützen Atemschutzmasken vor Sars-CoV-2?
+- Mundschutzmaske gegen Coronavirus-Epidemie?
+- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
+- Mundschutz-Masken: Was hilft gegen Viren?
+- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
+- Sollte ich eine Maske tragen, um mich selbst zu schützen?
+- Hilft der Maskenschutz gegen eine Ansteckung?
+- Schützt mich die Maske vor einer Ansteckung?
+- Verhindern die Masken eine Ansteckung?
+- Helfen Atemschutzmasken gegen Q19?
+- Helfen Atemschutzmasken gegen cookit 19?
+- Schützt mich eine Stoffmaske?
+- Kann ich mit Schutzmasken andere schützen?
+- Kann ich mich mit einer Maske vor Ansteckung schützen?
+- Kann ich mich mit Masken schützen?
+- Was bringt die Maske?
+- Was ist der Nutzen der Mund Bedeckung
+- Warum Mund Bedeckung tragen
+- Warum sollen wir Mund Nasen Schutz tragen?
+- Warum Mund Nasen Schutz tragen?
+- Warum sollen wir jetzt Mundschutz tragen?
+- Was hilft es, einen Mundschutz zu tragen?
+- Warum Masken tragen?
+- Warum soll ich eine Maske tragen?
+- Was nützt es, Masken zu tragen?
+- helfen masken?
+- Helfen Atemschutzmasken gegen qubeat 19?
+- Helfen Atemschutzmasken gegen cupid 19?
+- Helfen Atemschutzmasken gegen kuhweg 19?
+- Helfen Atemschutzmasken gegen Hobbit 19?
+- Helfen Atemschutzmasken gegen huvit 19?
+- Helfen Atemschutzmasken gegen COBIT 19?
+- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
+- Helfen Atemschutzmasken gegen Covid 19?
+- Helfen Atemschutz Masken gegen eine Ansteckung?
+- Helfen Atemschutzmasken gegen Sars-CoV-2?
+- Verhindert der Mundschutz, dass ich mich anstecke?
+- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
+- Macht es Sinn, den Mund Nasen Schutz zu tragen?
+- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
+- Verhindert ein Mundschutz eine Ansteckung?
+- Mundschutz Masken
+- Mundschutzmaske
+- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
+- Helfen Atemschutzmasken gegen Kubik 19?
+- Helfen Atemschutzmasken gegen kovit 19?
+- Helfen Atemschutzmasken gegen movit 19?
+- Macht eine Atemschutz Maske Sinn?
+- Mundschutz
+- Mundschutzmasken
+- Mundschutz Maske
 
 ## intent:quarantine_how_it_works
 - Wie soll ich mich unter Quarantäne verhalten?
@@ -1854,7 +1911,6 @@
 - Geht noch küssen in Quarantäne?
 - Welche Regeln muss man bei der Quarantäne beachten
 - Wie funktioniert die Quarantäne
-- Was darf man in Quarantäne und was nicht
 - Was ist bei einer Ausgangssperre zu beachten
 - Wie funktioniert die Ausgangssperre
 - Was ist bei einer Ausgangssperre zu tun?
@@ -1890,6 +1946,30 @@
 ## intent:test_how
 - Wie funktioniert der Test auf Covid 19
 - Wie funktioniert der Corona Test
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Corona Test Wie funktioniert der Test
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert ein Corona-Test?
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert der Test auf Sars-CoV-2
+- Wie funktioniert der Corona Test
+- Wie läuft der Test ab
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Wie lange dauert der Test
+- Testzeit
+- Wie lange dauert die Testzeit
+- Wann sind die Ergebnisse des Tests da
+- Wann bekommt man Ergebnisse bei dem Test
+- Wie funktioniert der Coronavirus Test
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie wird der Test durchgeführt?
 - Wann bekommt man Ergebnisse bei dem Test
 - Wann sind die Ergebnisse des Tests da
 - Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
@@ -2416,7 +2496,6 @@
 - Geht noch küssen in Quarantäne?
 - Welche Regeln muss man bei der Quarantäne beachten
 - Wie funktioniert die Quarantäne
-- Was darf man in Quarantäne und was nicht
 - Was ist bei einer Ausgangssperre zu beachten
 - Wie funktioniert die Ausgangssperre
 - Was ist bei einer Ausgangssperre zu tun?
@@ -2571,6 +2650,32 @@
 - Ich hätte gern die aktuellsten Infos zum Virus
 - Auf welchen Seiten gibt es aktualisierte Informationen über Corona?
 - Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?
+- Risikobewertung Deutschland
+- Risiko
+- Risiko bewertung Deutschland
+- Belastung des Gesundheitswesens
+- Risiko Ressourcenbelastung des Gesundheitssystems
+- Ressourcenbelastung des Gesundheitssystems
+- Risikobewertung Ressourcenbelastung des Gesundheitssystems
+- Risikobewertung Allgemein
+- Risiko bewertung
+- Risikobewertung
+- Kubik 19 Ausbreitung in Deutschland
+- Covid 19 Ausbreitung in Deutschland
+- Covid Verbreitung in Deutschland
+- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Kowit 19 jetzt auch in Deutschland ausbreitet?
+- Ausbreitungsrisiko von Kowit in Deutschland.
+- Verbreitung in Deutschland
+- qubeat 19 Ausbreitung in Deutschland
+- wie verteilt sich das Virus in Deutschland
+- Q19 Ausbreitung in Deutschland
+- Risikobewertung der aktuellen Situation
+- Risikobewertung der Ausbreitung
+- Wie hat sich das Virus verbreitet
+- Wie kam das Virus nach Deutschland?
+- Risiko der aktuellen Lage
+- Risiko für Deutschland
+- Ausbreitungsrisiko von Covid in Deutschland.
 - wo finde ich aktuelle Informationen über den Virus
 - huvit 19 in Deutschland
 - huvit 19 Ausbreitung in Deutschland
@@ -2642,26 +2747,13 @@
 - Corona in Berlin
 - Kubik 19 in Deutschland
 - Coronavirus in Deutschland
-- Covid 19 Ausbreitung in Deutschland
-- Covid Verbreitung in Deutschland
 - Deutschland Covid
-- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Kowit 19 jetzt auch in Deutschland ausbreitet?
-- Ausbreitungsrisiko von Kowit in Deutschland.
-- Deutschland Kowit
-- wie verteilt sich das Virus in Deutschland
-- Q19 in Deutschland
-- Q19 Ausbreitung in Deutschland
 - cookit 19 in Deutschland
-- cookit 19 Ausbreitung in Deutschland
-- Verbreitung in Deutschland
+- Deutschland Kowit
 - qubeat 19 in Deutschland
-- qubeat 19 Ausbreitung in Deutschland
 - cupid 19 in Deutschland
-- cupid 19 Ausbreitung in Deutschland
 - kuhweg 19 in Deutschland
-- kuhweg 19 Ausbreitung in Deutschland
 - Hobbit 19 in Deutschland
-- Hobbit 19 Ausbreitung in Deutschland
 - Coronavirus in Nordrhein-Westfalen
 - Coronavirus in Rheinland-Pfalz
 - Coronavirus in Mecklenburg-Vorpommern
@@ -3482,26 +3574,6 @@
 - Gibt es Ausgangs Sperre in Saarland
 - Gibt es jetzt Ausgangssperre in Sachsen-Anhalt?
 
-## intent:germany_risk
-- Risikobewertung Deutschland
-- Risiko
-- Risiko bewertung Deutschland
-- Belastung des Gesundheitswesens
-- Risiko Ressourcenbelastung des Gesundheitssystems
-- Ressourcenbelastung des Gesundheitssystems
-- Risikobewertung Ressourcenbelastung des Gesundheitssystems
-- Risikobewertung Allgemein
-- Risiko bewertung
-- Risikobewertung
-- Kubik 19 Ausbreitung in Deutschland
-- Risikobewertung der aktuellen Situation
-- Risikobewertung der Ausbreitung
-- Wie hat sich das Virus verbreitet
-- Wie kam das Virus nach Deutschland?
-- Risiko der aktuellen Lage
-- Risiko für Deutschland
-- Ausbreitungsrisiko von Covid in Deutschland.
-
 ## intent:germany_second_wave
 - Wird es wieder Neuinfektionen geben?
 - Wird es nochmal zu einem Anstieg von Infizierten in Deutschland kommen?
@@ -4097,7 +4169,6 @@
 - muss ich eine Maske benutzen 
 - Gilt Maskenpflicht?
 - Muss ich eine Maske benutzen?
-- Zuhause bleiben Arztbesuche
 - Wer sollte den Mund- und Nasenschutz tragen?
 - Wann sollte man die Maske tragen?
 - Muss ich jetzt auch die Maske benutzen?
@@ -4123,60 +4194,6 @@
 - Wo muss ich eine Maske tragen?
 - Ist es jetzt verpflichtend, eine Maske zu tragen?
 - Wird das Maskentragen nur empfohlen oder ist es ein Muss?
-- Warum kaufen eigentliche alle Masken?
-- Was bringt ein Mundschutz?
-- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
-- Schützen Atemschutzmasken vor Sars-CoV-2?
-- Mundschutzmaske gegen Coronavirus-Epidemie?
-- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
-- Mundschutz-Masken: Was hilft gegen Viren?
-- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
-- Sollte ich eine Maske tragen, um mich selbst zu schützen?
-- Hilft der Maskenschutz gegen eine Ansteckung?
-- Schützt mich die Maske vor einer Ansteckung?
-- Verhindern die Masken eine Ansteckung?
-- Helfen Atemschutzmasken gegen Q19?
-- Helfen Atemschutzmasken gegen cookit 19?
-- Schützt mich eine Stoffmaske?
-- Kann ich mit Schutzmasken andere schützen?
-- Kann ich mich mit einer Maske vor Ansteckung schützen?
-- Kann ich mich mit Masken schützen?
-- Was bringt die Maske?
-- Was ist der Nutzen der Mund Bedeckung
-- Warum Mund Bedeckung tragen
-- Warum sollen wir Mund Nasen Schutz tragen?
-- Warum Mund Nasen Schutz tragen?
-- Warum sollen wir jetzt Mundschutz tragen?
-- Was hilft es, einen Mundschutz zu tragen?
-- Warum Masken tragen?
-- Warum soll ich eine Maske tragen?
-- Was nützt es, Masken zu tragen?
-- helfen masken?
-- Helfen Atemschutzmasken gegen qubeat 19?
-- Helfen Atemschutzmasken gegen cupid 19?
-- Helfen Atemschutzmasken gegen kuhweg 19?
-- Helfen Atemschutzmasken gegen Hobbit 19?
-- Helfen Atemschutzmasken gegen huvit 19?
-- Helfen Atemschutzmasken gegen COBIT 19?
-- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
-- Helfen Atemschutzmasken gegen Covid 19?
-- Helfen Atemschutz Masken gegen eine Ansteckung?
-- Helfen Atemschutzmasken gegen Sars-CoV-2?
-- Verhindert der Mundschutz, dass ich mich anstecke?
-- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
-- Macht es Sinn, den Mund Nasen Schutz zu tragen?
-- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
-- Verhindert ein Mundschutz eine Ansteckung?
-- Mundschutz Masken
-- Mundschutzmaske
-- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
-- Helfen Atemschutzmasken gegen Kubik 19?
-- Helfen Atemschutzmasken gegen kovit 19?
-- Helfen Atemschutzmasken gegen movit 19?
-- Macht eine Atemschutz Maske Sinn?
-- Mundschutz
-- Mundschutzmasken
-- Mundschutz Maske
 
 ## intent:mask_put
 - Was sollte ich bei der Maske beachten?
@@ -4418,6 +4435,7 @@
 
 ## intent:myths_chinese_laboratory
 - Kommt das Virus aus dem Labor?
+- Coronavirus als Biowaffe
 - Kommt der Virus aus dem Labor?
 - Wurde der Coronavirus in einem chinesischen Labor hergestellt?
 - Coronavirus in einem geheimen unterirdischen Labor gezüchtet
@@ -4489,7 +4507,6 @@
 - Falschmeldung
 - Falschnachricht
 - Falsche Nachrichten
-- Coronavirus als Biowaffe
 - Coronavirus, um Überbevölkerung zu reduzieren
 - Die USA stecken dahinter
 - Das wurde alles geplant
@@ -4986,6 +5003,7 @@
 
 ## intent:quarantine_dos_and_donts
 - Was sind die Quarantäne Regeln?
+- Was darf man in Quarantäne und was nicht
 - Was darf ich noch wenn ich in Quarantäne bin?
 - Kann ich noch raus wenn ich in Quarantäne bin?
 - Kann ich noch shoppen gehen wenn ich in Quarantäne bin?
@@ -5073,7 +5091,6 @@
 - Geht noch Sex in der Quarantäne?
 - Geht noch küssen in Quarantäne?
 - Wie funktioniert die Quarantäne
-- Was darf man in Quarantäne und was nicht
 - Was soll ich bei einer Quarantäne beachten?
 - Wie soll ich mich bei einer Quarantäne verhalten?
 - Ablauf häusliche Quarantäne
@@ -5867,31 +5884,6 @@
 - Osterbesuch bei Eltern möglich?
 - Meine Eltern wohnen im Nachbarort – wir dürfen uns doch wenigstens noch besuchen?
 -->
-## intent:test_per_day
-- Was wird genau bei dem Test gemacht
-- Wie läuft der Test ab?
-- Corona Test Wie funktioniert der Test
-- Wie funktioniert der Test auf Covid 19
-- Wie funktioniert der Test auf Sars CoV 2?
-- Wie funktioniert ein Corona-Test?
-- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
-- Wie funktioniert der Test auf Sars-CoV-2
-- Wie funktioniert der Corona Test
-- Wie läuft der Test ab
-- Wie läuft ein Test auf das Coronavirus ab?
-- Wie lange dauert es, bis man Test Ergebnisse bekommt
-- Wie lange dauert es, bis man Testergebnisse bekommt
-- Wann erhält man Ergebnisse beim Test?
-- Wie funktioniert der Test
-- Wie wird der Test durchgeführt
-- Wie lange dauert der Test
-- Testzeit
-- Wie lange dauert die Testzeit
-- Wann sind die Ergebnisse des Tests da
-- Wann bekommt man Ergebnisse bei dem Test
-- Wie funktioniert der Coronavirus Test
-- Wie läuft ein Test auf das Coronavirus eigentlich ab?
-- Wie wird der Test durchgeführt?
 
 ## intent:test_payment
 - Kann meine Krankenkasse für die Kosten des Tests aufkommen?
@@ -9444,7 +9436,114 @@
 - Hast du auch Ängste wie wir Menschen? Wenn ja, wovor?
 - In welchen Situationen empfindest du Angst?
 - Kannst du auch Angst empfinden?
-	
+
+## intent:food_buy
+- Was muss ich einkaufen, wenn ich in Quarantäne bin
+- Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?
+- Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben
+- Wie soll ich mich selbst auf die Quarantäne vorbereiten
+- Was muss ich einkaufen für häusliche Quarantäne?
+- Wie kann sich jeder einzelne auf häusliche Quarantäne vorbereiten?
+- Wie kann ich mich auf häusliche Quarantäne vorbereiten?
+- Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben
+- Was muss ich für eine zweiwöchige Quarantäne an Vorrat alles zu Hause haben
+- Was muss ich für zwei Wochen an Vorrat zu Hause haben
+- Was sollte ich für zwei Wochen Quarantäne kaufen
+- Was muss man für 2 Wochen alles einkaufen?
+- Was soll ich für 2 Wochen Quarantäne einkaufen
+- Was soll ich für 14 Tage Quarantäne einkaufen
+- Was soll ich für 10 Tage Quarantäne kaufen
+- Was braucht man für die Versorgung einer Person für zehn Tage
+
+## intent:food_shortages
+- Hamster Kaufen
+- Hamster Käufe
+- Muss ich mit Lebensmittelknappheit rechnen?
+- Sind in Deutschland Versorgungsengpässe mit Lebensmitteln zu befürchten?
+- Machen Hamster Käufe Sinn?
+- Was sagst du zu Hamsterkäufen?
+- Lebensmittel knappheit
+- Lebensmittelknappheit
+- Leere Nudelregale in den Supermärkten
+- Leere Supermarktregale wegen Coronavirus?
+- Es gibt bereits leere Supermarkt-Regal
+- Weshalb stehen dann doch viele Regale leer?
+- Werden die Supermarkt Regale leer sein?
+- Wird es noch genug zu Essen geben?
+- Sind Lebensmittel Engpässe zu befürchten
+- Wie ist die Versorgungslage in Deutschland
+- Sind jetzt Lieferengpässe bei den Lebensmitteln zu befürchten?
+- Wie ist die Versorgungslage in Deutschland?
+- Lebensmittel Engpässe
+- Lebensmittelengpässe
+- Gibt es Lebensmittelengpässe
+- Werden wir noch genug zu Essen haben?
+- Soll ich jetzt auf Vorrat kaufen?
+- Verursachen Hamsterkäufe Lebensmittelknappheit?
+- Sollte man jetzt Lebensmittel auf Vorrat kaufen?
+- Wird es Engpässe mit Lebensmitteln geben?
+- Werden die Supermärkte leer sein?
+- Ist es jetzt ratsam, Hamsterkäufe zu machen?
+- Wird es noch genug Lebensmittel in Deutschland geben
+- Muss man jetzt Essen auf Vorraut kaufen?
+- Ist die Lebensmittelversorgung im Fall einer weiteren Ausbreitung des Coronavirus noch gesichert?
+- Für wieviele Tage soll man genug Lebensmittel haben?
+- Machen Hamsterkäufe Sinn?
+- Welche Lebensmittel sollte man im Notfall zuhause haben?
+- Hamsterkäufe
+
+## intent:germany_hotline 
+- Wen kann ich anrufen?
+- An wen ich mich per Telefon wenden?
+- Bitte gib mir eine Telefonnummer
+- Ich hätte gern eine Telefon Nummer
+- Ich hätte gerne eine Telefonnummer
+- An wen kann ich mich telefonisch wenden?
+- Ich will telefonisch Kontakt aufnehmen
+- Ich brauche eine Nummer
+- Wo kann ich anrufen?
+- Gibt es eine Rufnummer?
+- Hotlines
+- Hotline
+- Telefon Nummer
+- Coronavirus Hotline
+- Gibt es eine Corona Virus Hotline?
+- Rufnummern
+- Ruf Nummer
+- Telefonummer
+- Telefonnummer bitte
+- Wo finde ich einen Arzt in meiner Stadt
+- Arzt
+- wo rufe ich an wenn ich Symptome habe
+- Ich suche einen Arzt
+- Gibt es eine Whats App Nummer
+- Kontakt über Whatsapp aufnehmen
+- Kontakt per Whatsapp
+- An welchen Arzt kann ich mich wenden
+- Gibt es eine Hotline?
+- Gibt es eine Rufnummer für allgemeine Erstinformation?
+- Wie kann ich Kontakt zu diesem Thema aufnehmen?
+- Kontaktvermittlung
+- Gibt es einen Beratungsservice für Gehörlose und Hörgeschädigte?
+- Gibt es einen telefonischen Beratungsservice?
+- Wie ist die Nummer des Bundesgesundheitsministeriums?
+- Wie lautet die Nummer des Bundesministeriums für Gesundheit?
+- Bürgertelefon Nummer
+- Bürgertelefon
+- Unabhängige Patientenberatung Deutschland Rufnummer
+- Gibt es eine Nummer für Patienten Beratung?
+- Gibt es eine Nummer für Patientenberatung?
+- Ich brauche telefonische Beratung
+- Wie lautet die Nummer der Beratung?
+- Wen kann ich telefonisch erreichen?
+- Rufnummer
+- Hotlines zum Coronavirus
+- Kannst du mir eine Nummer geben?
+- Sagst du mir eine Rufnummer?
+- Wie lautet die Hotline?
+- Wie lautet die Nummer?
+- Ich möchte telefonisch Kontakt aufnehmen.
+
 ## intent:bot_worst_experience
 - Mehr über deine schlechten Erfahrungen!
 - Machst du auch schlimme Erfahrungen?
@@ -10985,7 +11084,6 @@
 - Abschied.
 - Hochachtungsvoll.
 - Bis bald!
-- Servus!
 - Nur das Beste!
 - Sehen uns!
 - Bis nächste Woche!

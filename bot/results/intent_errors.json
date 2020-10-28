@@ -3,32 +3,32 @@
     "text": "Zahlen",
     "intent": "covid_babys_children",
     "intent_prediction": {
-      "name": "covid_current_statistics",
-      "confidence": 0.7571322917938232
+      "name": "covid_situation_infected",
+      "confidence": 0.6315048933029175
+    }
+  },
+  {
+    "text": "gibt es irgendwelche Zahlen",
+    "intent": "covid_babys_children",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.5353970527648926
     }
   },
   {
     "text": "Wie viele Menschen sind infiziert",
     "intent": "covid_babys_children",
     "intent_prediction": {
-      "name": "covid_current_statistics",
-      "confidence": 0.9657166004180908
+      "name": "covid_situation_infected",
+      "confidence": 0.9863483309745789
     }
   },
   {
-    "text": "Wie viele Infizierte gibt es derzeit in Deutschland?",
-    "intent": "covid_current_statistics",
-    "intent_prediction": {
-      "name": "germany_consequences",
-      "confidence": 0.8364381194114685
-    }
-  },
-  {
-    "text": "Wann ist man wieder gesund",
+    "text": "Wann ist Corona zu Ende?",
     "intent": "covid_duration",
     "intent_prediction": {
-      "name": "covid_aftereffects_immunity",
-      "confidence": 0.4860534369945526
+      "name": "covid_incubation",
+      "confidence": 0.5214758515357971
     }
   },
   {
@@ -36,15 +36,7 @@
     "intent": "covid_incubation",
     "intent_prediction": {
       "name": "covid_ibuprofen",
-      "confidence": 0.7170964479446411
-    }
-  },
-  {
-    "text": "Seit wann gibt es corona",
-    "intent": "covid_origins",
-    "intent_prediction": {
-      "name": "cc_weather",
-      "confidence": 0.6707804203033447
+      "confidence": 0.9193967580795288
     }
   },
   {
@@ -52,111 +44,607 @@
     "intent": "covid_preexisting_illness",
     "intent_prediction": {
       "name": "covid_dangerous",
-      "confidence": 0.957127034664154
+      "confidence": 0.682151198387146
     }
   },
   {
-    "text": "Wie viele Infizierte gibt es in Neuseeland?",
-    "intent": "covid_situation_infected",
+    "text": "Was passiert bei einem positiven Test auf den Coronavirus?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_current_statistics",
-      "confidence": 0.6470109224319458
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6732094287872314
     }
   },
   {
-    "text": "Wie viele Infizierte gibt es in Spanien?",
-    "intent": "covid_situation_infected",
+    "text": "Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_current_statistics",
-      "confidence": 0.8876802921295166
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6838356852531433
     }
   },
   {
-    "text": "Die Rolle der Dunkelziffer bei Covid-19",
-    "intent": "covid_unknown_cases",
+    "text": "Was passiert bei einem positiven Resultat?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.6075437664985657
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7290154695510864
     }
   },
   {
-    "text": "Dunkelziffern",
-    "intent": "covid_unknown_cases",
+    "text": "Was passiert wenn ich positiv auf die Infektion getestet wurde?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.5691637396812439
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.838489294052124
     }
   },
   {
-    "text": "Dunkelziffer",
-    "intent": "covid_unknown_cases",
+    "text": "Was passiert, wenn ich infiziert bin?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.5817981958389282
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.8258513808250427
     }
   },
   {
-    "text": "Wie hoch ist die Dunkelziffer der Corona-Infektionen?",
-    "intent": "covid_unknown_cases",
+    "text": "was passiert wenn ich positiv auf coronavirus getestet bin",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.5622895359992981
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7678449153900146
     }
   },
   {
-    "text": "Was sagt die Dunkelziffer",
-    "intent": "covid_unknown_cases",
+    "text": "Meine Freundin hat Hobbit 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.5571587681770325
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7081860303878784
     }
   },
   {
-    "text": "Dunkelziffer Coronavirus",
-    "intent": "covid_unknown_cases",
+    "text": "Was passiert, wenn ich positiv auf den Virus getestet wurde?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.6179981827735901
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.8057288527488708
     }
   },
   {
-    "text": "Wie hoch ist die Dunkelziffer",
-    "intent": "covid_unknown_cases",
+    "text": "Meine Freundin hat Covid 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_treatment",
-      "confidence": 0.5318077802658081
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.661119818687439
     }
   },
   {
-    "text": "Was kannst du mir zur Dunkelziffer sagen",
-    "intent": "covid_treatment",
+    "text": "Was passiert wenn die Resultate positiv sind?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_unknown_cases",
-      "confidence": 0.49943339824676514
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.8152974843978882
     }
   },
   {
-    "text": "Erkrankten-Dunkelziffer",
-    "intent": "covid_treatment",
+    "text": "Was passiert bei einem Verdachtsfall auf den Coronavirus?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_unknown_cases",
-      "confidence": 0.501279890537262
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6344746351242065
     }
   },
   {
-    "text": "Wie hoch ist die Dunkelziffer der Infizierten",
-    "intent": "covid_treatment",
+    "text": "Was passiert bei einem Verdachtsfall auf den Virus?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_unknown_cases",
-      "confidence": 0.6067180633544922
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6338585019111633
     }
   },
   {
-    "text": "Schätzung der Dunkelziffer",
-    "intent": "covid_treatment",
+    "text": "Ich bin infiziert, was passiert jetzt?",
+    "intent": "covid_pregnancy",
     "intent_prediction": {
-      "name": "covid_unknown_cases",
-      "confidence": 0.5967936515808105
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7796676754951477
+    }
+  },
+  {
+    "text": "Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.5522567629814148
+    }
+  },
+  {
+    "text": "Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7170183658599854
+    }
+  },
+  {
+    "text": "Meine Freundin hat Kubik 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7005573511123657
+    }
+  },
+  {
+    "text": "Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7041687965393066
+    }
+  },
+  {
+    "text": "Was geschieht wenn der Test positiv ist?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7014558911323547
+    }
+  },
+  {
+    "text": "Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7545970678329468
+    }
+  },
+  {
+    "text": "Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7149304151535034
+    }
+  },
+  {
+    "text": "Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6201145648956299
+    }
+  },
+  {
+    "text": "Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7939803600311279
+    }
+  },
+  {
+    "text": "Meine Freundin hat huvit 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6481360197067261
+    }
+  },
+  {
+    "text": "Meine Freundin hat COBIT 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6857298612594604
+    }
+  },
+  {
+    "text": "Meine Freundin hat movit 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6765561699867249
+    }
+  },
+  {
+    "text": "Meine Freundin hat kovit 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6826478242874146
+    }
+  },
+  {
+    "text": "Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6892960071563721
+    }
+  },
+  {
+    "text": "Meine Freundin hat Q19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.7380051016807556
+    }
+  },
+  {
+    "text": "Meine Freundin hat cookit 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6756811738014221
+    }
+  },
+  {
+    "text": "Meine Freundin hat qubeat 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.652683675289154
+    }
+  },
+  {
+    "text": "Meine Freundin hat cupid 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6617205142974854
+    }
+  },
+  {
+    "text": "Meine Freundin hat kuhweg 19, was passiert jetzt?",
+    "intent": "covid_pregnancy",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.6663249731063843
+    }
+  },
+  {
+    "text": "unterschied zwischen influenza und covid",
+    "intent": "covid_sars",
+    "intent_prediction": {
+      "name": "covid_difference_influenza",
+      "confidence": 0.7846437692642212
+    }
+  },
+  {
+    "text": "Steigen die Zahlen im Sommer?",
+    "intent": "covid_season",
+    "intent_prediction": {
+      "name": "germany_second_wave",
+      "confidence": 0.6955097913742065
+    }
+  },
+  {
+    "text": "Wie wird bei einem Verdachtsfall vorgegangen?",
+    "intent": "covid_procedure_after_infection",
+    "intent_prediction": {
+      "name": "covid_pregnancy",
+      "confidence": 0.7860531806945801
+    }
+  },
+  {
+    "text": "Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?",
+    "intent": "covid_procedure_after_infection",
+    "intent_prediction": {
+      "name": "covid_pregnancy",
+      "confidence": 0.6193883419036865
+    }
+  },
+  {
+    "text": "Vorgehensweise Infektion",
+    "intent": "covid_procedure_after_infection",
+    "intent_prediction": {
+      "name": "covid_pregnancy",
+      "confidence": 0.5248642563819885
+    }
+  },
+  {
+    "text": "Warum sollen wir jetzt Mundschutz tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6245418190956116
+    }
+  },
+  {
+    "text": "Warum Masken tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6652730703353882
+    }
+  },
+  {
+    "text": "Warum soll ich eine Maske tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.8554878830909729
+    }
+  },
+  {
+    "text": "Was nützt es, Masken zu tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6131885051727295
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen cupid 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5180328488349915
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen kuhweg 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5204514265060425
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen huvit 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5430149435997009
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen COBIT 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5200202465057373
+    }
+  },
+  {
+    "text": "Mundschutz Maske",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6286948919296265
+    }
+  },
+  {
+    "text": "Macht eine Atemschutz Maske Sinn?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6025930643081665
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen movit 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5177428126335144
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen kovit 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5323627591133118
+    }
+  },
+  {
+    "text": "Was bringt es, jetzt eine Atemschutzmaske zu tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5825163722038269
+    }
+  },
+  {
+    "text": "Ist es sinnvoll, einen Mundschutz zu tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7354940176010132
+    }
+  },
+  {
+    "text": "Mundschutz Masken",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.545066773891449
+    }
+  },
+  {
+    "text": "Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6956031918525696
+    }
+  },
+  {
+    "text": "Macht es Sinn, den Mund Nasen Schutz zu tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.540355384349823
+    }
+  },
+  {
+    "text": "Helfen Atemschutz Masken gegen eine Ansteckung?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6125626564025879
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen Covid 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5295383930206299
+    }
+  },
+  {
+    "text": "Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5189619660377502
+    }
+  },
+  {
+    "text": "Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.8207359910011292
+    }
+  },
+  {
+    "text": "Mundschutzmaske gegen Coronavirus-Epidemie?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7428873181343079
+    }
+  },
+  {
+    "text": "Schutz vor dem Coronavirus: Was bringt ein Mundschutz?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7028378248214722
+    }
+  },
+  {
+    "text": "Was bringt ein Mundschutz?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5398026704788208
+    }
+  },
+  {
+    "text": "Mundschutz Maske gegen Coronavirus",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7648975849151611
+    }
+  },
+  {
+    "text": "Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.4933732748031616
+    }
+  },
+  {
+    "text": "Sollte ich eine Maske tragen, um mich selbst zu schützen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7232159376144409
+    }
+  },
+  {
+    "text": "Hilft der Maskenschutz gegen eine Ansteckung?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.4876021146774292
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen cookit 19?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5202722549438477
+    }
+  },
+  {
+    "text": "Kann ich mit Schutzmasken andere schützen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7301100492477417
+    }
+  },
+  {
+    "text": "Kann ich mich mit einer Maske vor Ansteckung schützen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6348033547401428
+    }
+  },
+  {
+    "text": "Kann ich mich mit Masken schützen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5515501499176025
+    }
+  },
+  {
+    "text": "Was bringt die Maske?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6848417520523071
+    }
+  },
+  {
+    "text": "Was ist der Nutzen der Mund Bedeckung",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7405499219894409
+    }
+  },
+  {
+    "text": "Warum Mund Bedeckung tragen",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7363021969795227
+    }
+  },
+  {
+    "text": "Warum sollen wir Mund Nasen Schutz tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5942099690437317
+    }
+  },
+  {
+    "text": "Warum Mund Nasen Schutz tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.5096433758735657
+    }
+  },
+  {
+    "text": "Was hilft es, einen Mundschutz zu tragen?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6374948024749756
     }
   },
   {
@@ -164,7 +652,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8743979930877686
+      "confidence": 0.5392136573791504
     }
   },
   {
@@ -172,47 +660,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8077380061149597
-    }
-  },
-  {
-    "text": "Wie läuft eine Heimquarantäne ab?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5808048844337463
-    }
-  },
-  {
-    "text": "Was muss ich beachten, wenn ich in Quarantäne bin?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7080405950546265
-    }
-  },
-  {
-    "text": "Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.9316495656967163
-    }
-  },
-  {
-    "text": "Regeln der Ausgangssperre",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7801598906517029
-    }
-  },
-  {
-    "text": "Was muss ich beachten, wenn ich zuhause bleibe?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5657674074172974
+      "confidence": 0.6683645248413086
     }
   },
   {
@@ -220,15 +668,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.5803744792938232
-    }
-  },
-  {
-    "text": "Geht noch Sex in der Quarantäne?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8410164713859558
+      "confidence": 0.5018025040626526
     }
   },
   {
@@ -236,15 +676,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8992599248886108
-    }
-  },
-  {
-    "text": "Welche Regeln muss man bei der Quarantäne beachten",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7053508162498474
+      "confidence": 0.5089572668075562
     }
   },
   {
@@ -252,55 +684,15 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.5226995348930359
+      "confidence": 0.6012591123580933
     }
   },
   {
     "text": "Was darf man in Quarantäne und was nicht",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7286214828491211
-    }
-  },
-  {
-    "text": "Was ist bei einer Ausgangssperre zu beachten",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7851402163505554
-    }
-  },
-  {
-    "text": "Was ist bei einer Ausgangssperre zu tun?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8188439011573792
-    }
-  },
-  {
-    "text": "Was ist bei häuslicher Quarantäne zu beachten?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8285252451896667
-    }
-  },
-  {
-    "text": "Was gibt es bei der Quarantäne alles zu beachten?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8458852767944336
-    }
-  },
-  {
-    "text": "Was tun, wenn man zuhause bleiben muss?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7026388049125671
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.6847438216209412
     }
   },
   {
@@ -308,7 +700,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.5728932619094849
+      "confidence": 0.565386176109314
     }
   },
   {
@@ -316,47 +708,7 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8671755194664001
-    }
-  },
-  {
-    "text": "Verhaltensregeln in Heimquarantäne",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7962127923965454
-    }
-  },
-  {
-    "text": "Ablauf häusliche Quarantäne",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5112411975860596
-    }
-  },
-  {
-    "text": "Wie soll ich mich bei einer Quarantäne verhalten?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.7926030158996582
-    }
-  },
-  {
-    "text": "Was soll ich bei einer Quarantäne beachten?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8361310362815857
-    }
-  },
-  {
-    "text": "Wie sieht die Quarantäne aus?",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8042745590209961
+      "confidence": 0.6137955188751221
     }
   },
   {
@@ -364,135 +716,391 @@
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.735910177230835
+      "confidence": 0.7258434891700745
     }
   },
   {
-    "text": "Worauf muss ich bei der Ausgangs Sperre achten?",
+    "text": "Corona wie funktioniert die Quarantäne?",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8287917971611023
+      "confidence": 0.6971827745437622
     }
   },
   {
-    "text": "Was ist bei Ausgangssperre zu beachten?",
+    "text": "Wie funktioniert das mit der Quarantäne?",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8000091314315796
+      "confidence": 0.5732712149620056
     }
   },
   {
-    "text": "Und wie soll man denn zuhause behandelt werden?",
+    "text": "Wie funktioniert die häusliche Quarantäne beim Coronavirus?",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.682948648929596
+      "confidence": 0.6771887540817261
     }
   },
   {
-    "text": "Was passiert bei häuslicher Quarantäne?",
+    "text": "Wie funktioniert die häusliche Quarantäne?",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.8506544828414917
+      "confidence": 0.6700872778892517
     }
   },
   {
-    "text": "Erkläre mir, wie so eine Quarantäne abläuft.",
-    "intent": "quarantine_how_it_works",
+    "text": "Wie funktioniert der Test auf Covid 19",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5748375058174133
+      "name": "test_per_day",
+      "confidence": 0.838830828666687
     }
   },
   {
-    "text": "Was muss ich beachten wenn ich in Quarantäne geschickt wurde?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wie funktioniert der Corona Test",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.6877028346061707
+      "name": "test_per_day",
+      "confidence": 0.8273613452911377
     }
   },
   {
-    "text": "Was muss ich beachten wenn ich zuhause bleiben muss?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wann bekommt man Ergebnisse bei dem Test",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5992201566696167
+      "name": "test_per_day",
+      "confidence": 0.8714568018913269
     }
   },
   {
-    "text": "Was muss ich machen wenn ich in Quarantäne bin?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wann sind die Ergebnisse des Tests da",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.6993868947029114
+      "name": "test_per_day",
+      "confidence": 0.8642720580101013
     }
   },
   {
-    "text": "Wie verhält man sich unter Quarantäne?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wie lange dauert es, bis man die Ergebnisse vom Test bekommt",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.718920886516571
+      "name": "test_per_day",
+      "confidence": 0.743719220161438
     }
   },
   {
-    "text": "Wie geht das mit der Quarantäne?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wie funktioniert ein Corona-Test?",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.6286216974258423
+      "name": "test_per_day",
+      "confidence": 0.6289825439453125
     }
   },
   {
-    "text": "Wie verhalte ich mich in häuslicher Quarantäne?",
-    "intent": "quarantine_how_it_works",
+    "text": "Wie wird der Test durchgeführt?",
+    "intent": "test_how",
     "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.6699832081794739
+      "name": "test_per_day",
+      "confidence": 0.7059333920478821
     }
   },
   {
-    "text": "Lage in anderen Ländern",
+    "text": "Wie läuft der Test ab",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.9017670750617981
+    }
+  },
+  {
+    "text": "Wie lange dauert die Testzeit",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.803095281124115
+    }
+  },
+  {
+    "text": "Testzeit",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8868061900138855
+    }
+  },
+  {
+    "text": "Wie lange dauert der Test",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8112714290618896
+    }
+  },
+  {
+    "text": "Wie läuft ein Test auf das Coronavirus ab?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.9151769280433655
+    }
+  },
+  {
+    "text": "Wie lange dauert es, bis man Test Ergebnisse bekommt",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.7266169786453247
+    }
+  },
+  {
+    "text": "Wie lange dauert es, bis man Testergebnisse bekommt",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.6724460124969482
+    }
+  },
+  {
+    "text": "Wann erhält man Ergebnisse beim Test?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.9078189730644226
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8228550553321838
+    }
+  },
+  {
+    "text": "Wie wird der Test durchgeführt",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.7059333920478821
+    }
+  },
+  {
+    "text": "Was wird genau bei dem Test gemacht",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8249090909957886
+    }
+  },
+  {
+    "text": "Wie läuft der Test ab?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.9017670750617981
+    }
+  },
+  {
+    "text": "Wie läuft ein Test auf das Coronavirus eigentlich ab?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8906060457229614
+    }
+  },
+  {
+    "text": "Wie funktioniert der Coronavirus Test",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.835604727268219
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test auf Sars CoV 2?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8973745107650757
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test auf Sars-CoV-2",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8683100342750549
+    }
+  },
+  {
+    "text": "Corona Test Wie funktioniert der Test",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8561329245567322
+    }
+  },
+  {
+    "text": "wie weiß ich ob ich krank bin?",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9115654826164246
+    }
+  },
+  {
+    "text": "Was für Symptome habe ich, wenn ich infiziert bin?",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.6089783310890198
+    }
+  },
+  {
+    "text": "Ich habe Kopfschmerzen",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.9972307085990906
+    }
+  },
+  {
+    "text": "Mein Kopf tut mir weh",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.6730803847312927
+    }
+  },
+  {
+    "text": "Was kannst du mir zur Dunkelziffer sagen",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.8507276773452759
+    }
+  },
+  {
+    "text": "Erkrankten-Dunkelziffer",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.7082120180130005
+    }
+  },
+  {
+    "text": "Wie hoch ist die Dunkelziffer der Infizierten",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.7366920113563538
+    }
+  },
+  {
+    "text": "Schätzung der Dunkelziffer",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.855506181716919
+    }
+  },
+  {
+    "text": "Dunkelziffer Coronavirus",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.565597653388977
+    }
+  },
+  {
+    "text": "Was sagt die Dunkelziffer",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.8191537857055664
+    }
+  },
+  {
+    "text": "Wie hoch ist die Dunkelziffer",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.8021498918533325
+    }
+  },
+  {
+    "text": "Wie hoch ist die Dunkelziffer der Corona-Infektionen?",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.7717899084091187
+    }
+  },
+  {
+    "text": "Dunkelziffer",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.7889884114265442
+    }
+  },
+  {
+    "text": "Dunkelziffern",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.6941127181053162
+    }
+  },
+  {
+    "text": "Die Rolle der Dunkelziffer bei Covid-19",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "covid_unknown_cases",
+      "confidence": 0.5088772773742676
+    }
+  },
+  {
+    "text": "Und wie ist es in Frankreich?",
     "intent": "covid_current_situation",
     "intent_prediction": {
-      "name": "prevention_clean_hands",
-      "confidence": 0.36461490392684937
+      "name": "covid_situation_infected",
+      "confidence": 0.4974614083766937
     }
   },
   {
-    "text": "Wo finde ich die aktuellsten Neuigkeiten über den Virus?",
-    "intent": "germany_current_situation",
+    "text": "Wie viele Menschen werden sich infizieren",
+    "intent": "germany_consequences",
     "intent_prediction": {
-      "name": "prevention_informed",
-      "confidence": 0.5148836374282837
+      "name": "covid_situation_infected",
+      "confidence": 0.5822834372520447
     }
   },
   {
-    "text": "Wo gibt es ausführliche Infos?",
+    "text": "Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?",
     "intent": "germany_current_situation",
     "intent_prediction": {
       "name": "prevention_informed",
-      "confidence": 0.5456424951553345
+      "confidence": 0.636715829372406
     }
   },
   {
-    "text": "Wo finde ich ausführliche Informationen?",
+    "text": "Zuverlässige aktuelle Informationen",
     "intent": "germany_current_situation",
     "intent_prediction": {
       "name": "prevention_informed",
-      "confidence": 0.8133512735366821
+      "confidence": 0.9252668023109436
     }
   },
   {
     "text": "Ausgangssperre in Deutschland wie lange noch",
     "intent": "germany_lockdown_crisis_howlong",
     "intent_prediction": {
-      "name": "quarantine_when_who_howlong",
-      "confidence": 0.5373178720474243
+      "name": "germany_preparation",
+      "confidence": 0.910552978515625
     }
   },
   {
@@ -500,55 +1108,23 @@
     "intent": "germany_lockdown_crisis_howlong",
     "intent_prediction": {
       "name": "gradual_opening_schools",
-      "confidence": 0.6647700667381287
+      "confidence": 0.934424877166748
     }
   },
   {
-    "text": "Wie lange sollen wir jetzt alle zuhause bleiben",
-    "intent": "germany_lockdown_crisis_howlong",
+    "text": "Ich habe Angst",
+    "intent": "covid_worry",
     "intent_prediction": {
-      "name": "quarantine_when_who_howlong",
-      "confidence": 0.5787622928619385
+      "name": "user_scared",
+      "confidence": 0.5630443692207336
     }
   },
   {
-    "text": "Wie lange dauert die Ausgangssperre noch an",
-    "intent": "germany_lockdown_crisis_howlong",
-    "intent_prediction": {
-      "name": "quarantine_when_who_howlong",
-      "confidence": 0.6272404789924622
-    }
-  },
-  {
-    "text": "Wie lange mich noch zuhause bleiben?",
-    "intent": "germany_lockdown_crisis_howlong",
-    "intent_prediction": {
-      "name": "quarantine_when_who_howlong",
-      "confidence": 0.38302096724510193
-    }
-  },
-  {
-    "text": "Schrittweise Öffnung von in England",
+    "text": "Kann ich noch in den Supermarkt einkaufen gehen",
     "intent": "germany_preparation",
     "intent_prediction": {
-      "name": "covid_current_situation",
-      "confidence": 0.6967254877090454
-    }
-  },
-  {
-    "text": "Wird es jetzt auch Ausgangssperre für die Deutschen geben?",
-    "intent": "germany_preparation",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.31884434819221497
-    }
-  },
-  {
-    "text": "Risiko",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "covid_dangerous",
-      "confidence": 0.6850640177726746
+      "name": "prevention_supermarket",
+      "confidence": 0.7099631428718567
     }
   },
   {
@@ -556,31 +1132,15 @@
     "intent": "germany_risk",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.9981418251991272
+      "confidence": 0.9939232468605042
     }
   },
   {
-    "text": "Wie hat sich das Virus verbreitet",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "spread_general",
-      "confidence": 0.6753636002540588
-    }
-  },
-  {
-    "text": "Risiko der aktuellen Lage",
+    "text": "Wie kam das Virus nach Deutschland?",
     "intent": "germany_risk",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.7442532777786255
-    }
-  },
-  {
-    "text": "Risiko für Deutschland",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "germany_current_situation",
-      "confidence": 0.6604481339454651
+      "confidence": 0.663820207118988
     }
   },
   {
@@ -588,15 +1148,7 @@
     "intent": "germany_risk",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.9763849377632141
-    }
-  },
-  {
-    "text": "Ich will wieder Fußball spielen",
-    "intent": "gradual_opening_sports",
-    "intent_prediction": {
-      "name": "bot_hobbies",
-      "confidence": 0.732918381690979
+      "confidence": 0.9162414073944092
     }
   },
   {
@@ -604,7 +1156,15 @@
     "intent": "mask_differences",
     "intent_prediction": {
       "name": "mask_which",
-      "confidence": 0.5174211263656616
+      "confidence": 0.8177509307861328
+    }
+  },
+  {
+    "text": "Welche Maske ist am besten",
+    "intent": "mask_differences",
+    "intent_prediction": {
+      "name": "mask_which",
+      "confidence": 0.6031606197357178
     }
   },
   {
@@ -612,23 +1172,135 @@
     "intent": "mask_differences",
     "intent_prediction": {
       "name": "mask_which",
-      "confidence": 0.6575759053230286
+      "confidence": 0.5110374689102173
     }
   },
   {
-    "text": "Welche Maske bietet mehr Schutz?",
-    "intent": "mask_differences",
+    "text": "Schützen Atemschutzmasken vor Sars-CoV-2?",
+    "intent": "mask_obligatory",
     "intent_prediction": {
-      "name": "mask_which",
-      "confidence": 0.4969851076602936
+      "name": "mask_protection",
+      "confidence": 0.592156708240509
     }
   },
   {
-    "text": "Masken",
-    "intent": "mask_which",
+    "text": "Mundschutz-Masken: Was hilft gegen Viren?",
+    "intent": "mask_obligatory",
     "intent_prediction": {
-      "name": "mask_obligatory",
-      "confidence": 0.6443057060241699
+      "name": "mask_protection",
+      "confidence": 0.5048732757568359
+    }
+  },
+  {
+    "text": "Schützt mich die Maske vor einer Ansteckung?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.5258724093437195
+    }
+  },
+  {
+    "text": "Verhindern die Masken eine Ansteckung?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.846204936504364
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen Q19?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.5151575803756714
+    }
+  },
+  {
+    "text": "Schützt mich eine Stoffmaske?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.7394168376922607
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen qubeat 19?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.4986976683139801
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen Hobbit 19?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.503118634223938
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen Sars-CoV-2?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.4985158145427704
+    }
+  },
+  {
+    "text": "Verhindert der Mundschutz, dass ich mich anstecke?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.773918628692627
+    }
+  },
+  {
+    "text": "Atemschutz- und Mund- und Nasenmasken, macht das Sinn?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.5577002167701721
+    }
+  },
+  {
+    "text": "Verhindert ein Mundschutz eine Ansteckung?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.8523304462432861
+    }
+  },
+  {
+    "text": "Mundschutzmaske",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.5052264928817749
+    }
+  },
+  {
+    "text": "Helfen Atemschutzmasken gegen Kubik 19?",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.5045901536941528
+    }
+  },
+  {
+    "text": "Mundschutz",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.4968007802963257
+    }
+  },
+  {
+    "text": "Mundschutzmasken",
+    "intent": "mask_obligatory",
+    "intent_prediction": {
+      "name": "mask_protection",
+      "confidence": 0.49360015988349915
     }
   },
   {
@@ -636,31 +1308,23 @@
     "intent": "myths_chinese_laboratory",
     "intent_prediction": {
       "name": "myths_conspiracy_fakenews",
-      "confidence": 0.8014296889305115
-    }
-  },
-  {
-    "text": "Homöopathie gegen das Virus?",
-    "intent": "myths_vitamins_plants_minerals_homeopathy",
-    "intent_prediction": {
-      "name": "mask_which",
-      "confidence": 0.5879590511322021
-    }
-  },
-  {
-    "text": "Kann ich mich mit Homöopathie schützen?",
-    "intent": "myths_vitamins_plants_minerals_homeopathy",
-    "intent_prediction": {
-      "name": "mask_which",
-      "confidence": 0.8804193735122681
+      "confidence": 0.931860625743866
     }
   },
   {
     "text": "Schützt mich eine Maske?",
     "intent": "prevention_general",
     "intent_prediction": {
-      "name": "mask_obligatory",
-      "confidence": 0.631007194519043
+      "name": "mask_protection",
+      "confidence": 0.5510167479515076
+    }
+  },
+  {
+    "text": "Wo finde ich die aktuellsten Neuigkeiten über den Virus?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.6587316989898682
     }
   },
   {
@@ -668,7 +1332,7 @@
     "intent": "prevention_informed",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.9358974099159241
+      "confidence": 0.8449772596359253
     }
   },
   {
@@ -676,15 +1340,7 @@
     "intent": "prevention_informed",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.9279935956001282
-    }
-  },
-  {
-    "text": "Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?",
-    "intent": "prevention_informed",
-    "intent_prediction": {
-      "name": "germany_current_situation",
-      "confidence": 0.7863417863845825
+      "confidence": 0.8510629534721375
     }
   },
   {
@@ -692,159 +1348,111 @@
     "intent": "prevention_informed",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.632606029510498
+      "confidence": 0.801691472530365
     }
   },
   {
-    "text": "Zuverlässige aktuelle Informationen",
+    "text": "Wo gibt es ausführliche Infos?",
     "intent": "prevention_informed",
     "intent_prediction": {
       "name": "germany_current_situation",
-      "confidence": 0.9454491138458252
+      "confidence": 0.8975095748901367
     }
   },
   {
-    "text": "Was tun bei Symptomen?",
+    "text": "Wo finde ich ausführliche Informationen?",
+    "intent": "prevention_informed",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.7587712407112122
+    }
+  },
+  {
+    "text": "Symptome, und jetzt?",
     "intent": "prevention_medical_attention",
     "intent_prediction": {
       "name": "covid_symptoms",
-      "confidence": 0.5147210359573364
+      "confidence": 0.5497718453407288
     }
   },
   {
-    "text": "Wann könnte eine Coronavirus Infektion hinter den Symptomen stecken?",
-    "intent": "prevention_medical_attention",
+    "text": "Kann der Virus übertragen werden, wenn ich anderen die Hand gebe?",
+    "intent": "prevention_touch",
     "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.5168846845626831
+      "name": "germany_preparation",
+      "confidence": 0.5848137736320496
     }
   },
   {
-    "text": "Wie soll man das von einer Erkältung unterscheiden?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_difference_influenza",
-      "confidence": 0.9292185306549072
-    }
-  },
-  {
-    "text": "Ich bin unsicher, ob ich auch infiziert bin",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.7416060566902161
-    }
-  },
-  {
-    "text": "Ich habe Symptome, habe ich jetzt den Coronavirus?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9211843609809875
-    }
-  },
-  {
-    "text": "Was muss ich tun, wenn ich Symptome habe?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.5829711556434631
-    }
-  },
-  {
-    "text": "Was mache ich bei Symptomen?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9646532535552979
-    }
-  },
-  {
-    "text": "Bin ich infiziert?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9727904796600342
-    }
-  },
-  {
-    "text": "Ich habe Symptome",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9679834246635437
-    }
-  },
-  {
-    "text": "Ich fühle mich abgeschlagen",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "user_tired",
-      "confidence": 0.9025545120239258
-    }
-  },
-  {
-    "text": "Coronavirus Was tun bei Symptomen?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.6485514640808105
-    }
-  },
-  {
-    "text": "Wie kann ich wissen, ob ich infiziert bin?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.8137595057487488
-    }
-  },
-  {
-    "text": "Woher weiß ich, ob es Coronavirus ist?",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.692302942276001
-    }
-  },
-  {
-    "text": "Was ist alles erlaubt in der Quarantäne und was nicht",
+    "text": "Was darf man noch bei einer Ausgangssperre machen wenn ich in Quarantäne bin?",
     "intent": "quarantine_dos_and_donts",
     "intent_prediction": {
-      "name": "quarantine_when_who_howlong",
-      "confidence": 0.35189905762672424
+      "name": "quarantine_how_it_works",
+      "confidence": 0.4944022297859192
     }
   },
   {
-    "text": "Regeln in der Quarantäne",
-    "intent": "quarantine_dos_and_donts",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.5905562043190002
-    }
-  },
-  {
-    "text": "Was darf man und was darf man nicht in Quarantäne",
-    "intent": "quarantine_dos_and_donts",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.39802876114845276
-    }
-  },
-  {
-    "text": "Quarantäne was geht und was nicht",
-    "intent": "quarantine_dos_and_donts",
-    "intent_prediction": {
-      "name": "quarantine_general",
-      "confidence": 0.8200790286064148
-    }
-  },
-  {
-    "text": "Corona wie funktioniert die Quarantäne?",
+    "text": "Welche Regeln muss man bei der Quarantäne beachten",
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.618302047252655
+      "confidence": 0.7454735040664673
+    }
+  },
+  {
+    "text": "Worauf muss ich bei der Ausgangs Sperre achten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.8972250819206238
+    }
+  },
+  {
+    "text": "Wie sieht die Quarantäne aus?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6233733892440796
+    }
+  },
+  {
+    "text": "Wie läuft eine Heimquarantäne ab?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7632780075073242
+    }
+  },
+  {
+    "text": "Was muss ich beachten, wenn ich in Quarantäne bin?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.852833092212677
+    }
+  },
+  {
+    "text": "Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7584086656570435
+    }
+  },
+  {
+    "text": "Regeln der Ausgangssperre",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6313132047653198
+    }
+  },
+  {
+    "text": "Was muss ich beachten, wenn ich zuhause bleibe?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7208921909332275
     }
   },
   {
@@ -852,7 +1460,7 @@
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.6687936782836914
+      "confidence": 0.7962461709976196
     }
   },
   {
@@ -860,7 +1468,55 @@
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.5972906351089478
+      "confidence": 0.7755523324012756
+    }
+  },
+  {
+    "text": "Geht noch Sex in der Quarantäne?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6698731184005737
+    }
+  },
+  {
+    "text": "Was darf man in Quarantäne und was nicht",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.6847438216209412
+    }
+  },
+  {
+    "text": "Was soll ich bei einer Quarantäne beachten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7150951027870178
+    }
+  },
+  {
+    "text": "Wie soll ich mich bei einer Quarantäne verhalten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7232465744018555
+    }
+  },
+  {
+    "text": "Ablauf häusliche Quarantäne",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7044116258621216
+    }
+  },
+  {
+    "text": "Verhaltensregeln in Heimquarantäne",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7422441840171814
     }
   },
   {
@@ -868,7 +1524,39 @@
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.5579522252082825
+      "confidence": 0.755964457988739
+    }
+  },
+  {
+    "text": "Was tun, wenn man zuhause bleiben muss?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6723183393478394
+    }
+  },
+  {
+    "text": "Was gibt es bei der Quarantäne alles zu beachten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7850964069366455
+    }
+  },
+  {
+    "text": "Was ist bei häuslicher Quarantäne zu beachten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6247966289520264
+    }
+  },
+  {
+    "text": "Was ist bei einer Ausgangssperre zu tun?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7876110672950745
     }
   },
   {
@@ -876,31 +1564,79 @@
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.6126135587692261
+      "confidence": 0.6161478161811829
     }
   },
   {
-    "text": "Wie funktioniert die häusliche Quarantäne?",
+    "text": "Was ist bei einer Ausgangssperre zu beachten",
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.5385756492614746
+      "confidence": 0.8043602705001831
     }
   },
   {
-    "text": "Wie funktioniert die häusliche Quarantäne beim Coronavirus?",
+    "text": "Wie geht das mit der Quarantäne?",
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.71273273229599
+      "confidence": 0.6925173997879028
     }
   },
   {
-    "text": "Wie funktioniert das mit der Quarantäne?",
+    "text": "Wie verhält man sich unter Quarantäne?",
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.5826345682144165
+      "confidence": 0.6099116802215576
+    }
+  },
+  {
+    "text": "Was passiert bei häuslicher Quarantäne?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.633965253829956
+    }
+  },
+  {
+    "text": "Erkläre mir, wie so eine Quarantäne abläuft.",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6645784974098206
+    }
+  },
+  {
+    "text": "Was muss ich beachten wenn ich in Quarantäne geschickt wurde?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7290552854537964
+    }
+  },
+  {
+    "text": "Was muss ich beachten wenn ich zuhause bleiben muss?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7402689456939697
+    }
+  },
+  {
+    "text": "Was muss ich machen wenn ich in Quarantäne bin?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7653548717498779
+    }
+  },
+  {
+    "text": "Und wie soll man denn zuhause behandelt werden?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.8287671804428101
     }
   },
   {
@@ -908,255 +1644,63 @@
     "intent": "quarantine_general",
     "intent_prediction": {
       "name": "quarantine_how_it_works",
-      "confidence": 0.7250635027885437
+      "confidence": 0.7272147536277771
     }
   },
   {
-    "text": "Wann muss ich zu Hause bleiben?",
-    "intent": "quarantine_when_who_howlong",
+    "text": "Wie verhalte ich mich in häuslicher Quarantäne?",
+    "intent": "quarantine_general",
     "intent_prediction": {
-      "name": "prevention_home",
-      "confidence": 0.8188779354095459
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6631567478179932
     }
   },
   {
-    "text": "Wo befinden sich die Coronaviren?",
-    "intent": "spread_surfaces_food_objects",
+    "text": "Was ist bei Ausgangssperre zu beachten?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.82591313123703
+    }
+  },
+  {
+    "text": "Wie kann ich Corona bekommen?",
+    "intent": "spread_general",
     "intent_prediction": {
       "name": "coronavirus_info",
-      "confidence": 0.6252275705337524
+      "confidence": 0.3741593062877655
     }
   },
   {
-    "text": "Was wird genau bei dem Test gemacht",
-    "intent": "test_per_day",
+    "text": "Welche Rolle spielt das Klima",
+    "intent": "spread_heat_cold",
     "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9103384613990784
+      "name": "myth_hot_bath",
+      "confidence": 0.3308226466178894
     }
   },
   {
-    "text": "Wie läuft der Test ab?",
-    "intent": "test_per_day",
+    "text": "Kann ich mich anstecken, wenn ich ein Paket aus China bestellt habe?",
+    "intent": "spread_surfaces_food_objects",
     "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9082092046737671
-    }
-  },
-  {
-    "text": "Corona Test Wie funktioniert der Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8389106392860413
-    }
-  },
-  {
-    "text": "Wie funktioniert der Test auf Covid 19",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8783715963363647
-    }
-  },
-  {
-    "text": "Wie funktioniert der Test auf Sars CoV 2?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9079675674438477
-    }
-  },
-  {
-    "text": "Wie funktioniert ein Corona-Test?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8898626565933228
-    }
-  },
-  {
-    "text": "Wie lange dauert es, bis man die Ergebnisse vom Test bekommt",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8801572322845459
-    }
-  },
-  {
-    "text": "Wie funktioniert der Test auf Sars-CoV-2",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9129822254180908
-    }
-  },
-  {
-    "text": "Wie funktioniert der Corona Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8670746088027954
-    }
-  },
-  {
-    "text": "Wie läuft der Test ab",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9082092046737671
-    }
-  },
-  {
-    "text": "Wie läuft ein Test auf das Coronavirus ab?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.7765600681304932
-    }
-  },
-  {
-    "text": "Wie lange dauert es, bis man Test Ergebnisse bekommt",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9093088507652283
-    }
-  },
-  {
-    "text": "Wie lange dauert es, bis man Testergebnisse bekommt",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8868566751480103
-    }
-  },
-  {
-    "text": "Wann erhält man Ergebnisse beim Test?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.949410080909729
-    }
-  },
-  {
-    "text": "Wie funktioniert der Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9298205971717834
-    }
-  },
-  {
-    "text": "Wie wird der Test durchgeführt",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.7325458526611328
-    }
-  },
-  {
-    "text": "Wie lange dauert der Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.877143919467926
-    }
-  },
-  {
-    "text": "Testzeit",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9822729229927063
-    }
-  },
-  {
-    "text": "Wie lange dauert die Testzeit",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.9001452326774597
-    }
-  },
-  {
-    "text": "Wann sind die Ergebnisse des Tests da",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.926485538482666
-    }
-  },
-  {
-    "text": "Wann bekommt man Ergebnisse bei dem Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8787437677383423
-    }
-  },
-  {
-    "text": "Wie funktioniert der Coronavirus Test",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8119327425956726
-    }
-  },
-  {
-    "text": "Wie läuft ein Test auf das Coronavirus eigentlich ab?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.8056226372718811
-    }
-  },
-  {
-    "text": "Wie wird der Test durchgeführt?",
-    "intent": "test_per_day",
-    "intent_prediction": {
-      "name": "test_how",
-      "confidence": 0.7325458526611328
-    }
-  },
-  {
-    "text": "Wo kann ich getestet werden?",
-    "intent": "test_virus",
-    "intent_prediction": {
-      "name": "test_who",
-      "confidence": 0.8643907308578491
-    }
-  },
-  {
-    "text": "Wie wird auf den Virus getestet?",
-    "intent": "test_virus",
-    "intent_prediction": {
-      "name": "test_who",
-      "confidence": 0.47812339663505554
-    }
-  },
-  {
-    "text": "Test für Corvette",
-    "intent": "test_virus",
-    "intent_prediction": {
-      "name": "test_results_reliability",
-      "confidence": 0.34871312975883484
-    }
-  },
-  {
-    "text": "Ich möchte mich testen lassen.",
-    "intent": "test_virus",
-    "intent_prediction": {
-      "name": "test_who",
-      "confidence": 0.7350220680236816
+      "name": "gradual_opening_party",
+      "confidence": 0.48849567770957947
     }
   },
   {
     "text": "Wie lasse ich mich testen?",
-    "intent": "test_virus",
+    "intent": "test_who",
     "intent_prediction": {
-      "name": "test_who",
-      "confidence": 0.49891772866249084
+      "name": "test_virus",
+      "confidence": 0.854799747467041
+    }
+  },
+  {
+    "text": "Ich will mich testen lassen",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.787667989730835
     }
   },
   {
@@ -1164,23 +1708,39 @@
     "intent": "test_who",
     "intent_prediction": {
       "name": "test_virus",
-      "confidence": 0.8431142568588257
+      "confidence": 0.8943318724632263
     }
   },
   {
-    "text": "Dinge, die auf Reisen zu beachten sind.",
-    "intent": "travel_before",
+    "text": "Kann ich mich auch testen lassen?",
+    "intent": "test_who",
     "intent_prediction": {
-      "name": "travel_while",
-      "confidence": 0.7435554265975952
+      "name": "test_virus",
+      "confidence": 0.9240295886993408
     }
   },
   {
-    "text": "Kann ich jetzt noch nach England reisen?",
-    "intent": "travel_before",
+    "text": "Wer wird auf das Virus getestet",
+    "intent": "test_who",
     "intent_prediction": {
-      "name": "germany_neighbors_close_borders",
-      "confidence": 0.7016251683235168
+      "name": "test_per_day",
+      "confidence": 0.7113187313079834
+    }
+  },
+  {
+    "text": "Unter welchen Bedingungen wird man getestet",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.519798994064331
+    }
+  },
+  {
+    "text": "Kann ich mich testen lassen?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.872164785861969
     }
   },
   {
@@ -1188,15 +1748,119 @@
     "intent": "travel_cancel",
     "intent_prediction": {
       "name": "travel_before",
-      "confidence": 0.69178706407547
+      "confidence": 0.60665363073349
     }
   },
   {
-    "text": "Bist du da?",
+    "text": "Muss ich jetzt wegen Corona meinen Urlaub absagen?",
+    "intent": "travel_cancel",
+    "intent_prediction": {
+      "name": "travel_before",
+      "confidence": 0.8721552491188049
+    }
+  },
+  {
+    "text": "Reise",
+    "intent": "travel_general",
+    "intent_prediction": {
+      "name": "travel_before",
+      "confidence": 0.5258234739303589
+    }
+  },
+  {
+    "text": "Bei welchen Ländern sollte man jetzt vorsichtig sein",
+    "intent": "travel_risk_countries",
+    "intent_prediction": {
+      "name": "covid_current_situation",
+      "confidence": 0.3675791323184967
+    }
+  },
+  {
+    "text": "Dinge zu beachten, wenn Sie reisen.",
+    "intent": "travel_while",
+    "intent_prediction": {
+      "name": "travel_before",
+      "confidence": 0.8974935412406921
+    }
+  },
+  {
+    "text": "Ich nehme das zurück.",
+    "intent": "vocative_sorry",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.6937549710273743
+    }
+  },
+  {
+    "text": "Hilfst du mir?",
+    "intent": "vocative_help",
+    "intent_prediction": {
+      "name": "bot_capabilities",
+      "confidence": 0.5539498329162598
+    }
+  },
+  {
+    "text": "Hallo, noch da?",
     "intent": "vocative_call",
     "intent_prediction": {
       "name": "greeting_hello",
-      "confidence": 0.5897527933120728
+      "confidence": 0.8964853286743164
+    }
+  },
+  {
+    "text": "Huhu, ist jemand zuhause?",
+    "intent": "vocative_call",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.487987220287323
+    }
+  },
+  {
+    "text": "Noch da?",
+    "intent": "vocative_call",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.8987919688224792
+    }
+  },
+  {
+    "text": "Es tut mir leid, aber ich weiß es nicht.",
+    "intent": "user_dont_know",
+    "intent_prediction": {
+      "name": "covid_info",
+      "confidence": 0.5926358699798584
+    }
+  },
+  {
+    "text": "das ist sehr gut. Du bist sehe intelligent",
+    "intent": "bot_intelligence",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.8267850279808044
+    }
+  },
+  {
+    "text": "Du arbeitest schlecht.",
+    "intent": "comment_negative",
+    "intent_prediction": {
+      "name": "comment_offense",
+      "confidence": 0.5664037466049194
+    }
+  },
+  {
+    "text": "Dann wollen wir dich mal testen.",
+    "intent": "bot_capabilities",
+    "intent_prediction": {
+      "name": "test_who",
+      "confidence": 0.7194929718971252
+    }
+  },
+  {
+    "text": "Weißt du alles?",
+    "intent": "bot_capabilities",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.8310614228248596
     }
   },
   {
@@ -1204,47 +1868,7 @@
     "intent": "bot_capabilities",
     "intent_prediction": {
       "name": "vocative_help",
-      "confidence": 0.7281489968299866
-    }
-  },
-  {
-    "text": "Was ist dein Lieblingsschriftsteller?",
-    "intent": "bot_author",
-    "intent_prediction": {
-      "name": "bot_books",
-      "confidence": 0.6030788421630859
-    }
-  },
-  {
-    "text": "Wer ist dein Lieblingsschriftsteller?",
-    "intent": "bot_author",
-    "intent_prediction": {
-      "name": "bot_books",
-      "confidence": 0.5927500128746033
-    }
-  },
-  {
-    "text": "Sag mir, wer dein Lieblingsschriftsteller ist.",
-    "intent": "bot_author",
-    "intent_prediction": {
-      "name": "bot_books",
-      "confidence": 0.5238825082778931
-    }
-  },
-  {
-    "text": "Wer sind deine Lieblingsschriftsteller?",
-    "intent": "bot_author",
-    "intent_prediction": {
-      "name": "bot_books",
-      "confidence": 0.6016364693641663
-    }
-  },
-  {
-    "text": "Welche Lieblingsschriftsteller hast du?",
-    "intent": "bot_author",
-    "intent_prediction": {
-      "name": "bot_books",
-      "confidence": 0.6568887829780579
+      "confidence": 0.9129518270492554
     }
   },
   {
@@ -1252,23 +1876,15 @@
     "intent": "bot_author",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.5314040780067444
+      "confidence": 0.5069204568862915
     }
   },
   {
-    "text": "Was ist dein Lieblingstier?",
+    "text": "Was ist Ihr Lieblingstier?",
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.5591108202934265
-    }
-  },
-  {
-    "text": "Welches Tier magst du am liebsten?",
-    "intent": "bot_animal",
-    "intent_prediction": {
-      "name": "bot_pets",
-      "confidence": 0.8644346594810486
+      "confidence": 0.5598580241203308
     }
   },
   {
@@ -1276,15 +1892,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.8597317934036255
-    }
-  },
-  {
-    "text": "Welche Tiere magst du am liebsten?",
-    "intent": "bot_animal",
-    "intent_prediction": {
-      "name": "bot_pets",
-      "confidence": 0.6208804845809937
+      "confidence": 0.6026126146316528
     }
   },
   {
@@ -1292,15 +1900,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.8970510959625244
-    }
-  },
-  {
-    "text": "Sag mir was dein Lieblingstier ist.",
-    "intent": "bot_animal",
-    "intent_prediction": {
-      "name": "bot_pets",
-      "confidence": 0.5026522278785706
+      "confidence": 0.551270604133606
     }
   },
   {
@@ -1308,7 +1908,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.5498024821281433
+      "confidence": 0.5686529874801636
     }
   },
   {
@@ -1316,23 +1916,15 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.546896755695343
+      "confidence": 0.6427097916603088
     }
   },
   {
-    "text": "Sag mir was dein Lieblings Tier ist",
+    "text": "Welche Lieblingstiere haben Sie?",
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.7286254167556763
-    }
-  },
-  {
-    "text": "Sag mir welches Tier du am meisten magst",
-    "intent": "bot_animal",
-    "intent_prediction": {
-      "name": "bot_pets",
-      "confidence": 0.8911424875259399
+      "confidence": 0.5208306312561035
     }
   },
   {
@@ -1340,7 +1932,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.9773373603820801
+      "confidence": 0.6743467450141907
     }
   },
   {
@@ -1348,7 +1940,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.718353807926178
+      "confidence": 0.5528299808502197
     }
   },
   {
@@ -1356,15 +1948,7 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.7851898074150085
-    }
-  },
-  {
-    "text": "Liebst du Tiere?",
-    "intent": "bot_animal",
-    "intent_prediction": {
-      "name": "bot_pets",
-      "confidence": 0.646772563457489
+      "confidence": 0.5373589992523193
     }
   },
   {
@@ -1372,7 +1956,63 @@
     "intent": "bot_animal",
     "intent_prediction": {
       "name": "bot_pets",
-      "confidence": 0.6532036662101746
+      "confidence": 0.8440927863121033
+    }
+  },
+  {
+    "text": "Was genau bist du?",
+    "intent": "bot_real",
+    "intent_prediction": {
+      "name": "bot_capabilities",
+      "confidence": 0.49882566928863525
+    }
+  },
+  {
+    "text": "Computer oder Mensch?",
+    "intent": "bot_real",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.6064288020133972
+    }
+  },
+  {
+    "text": "Kannst Du mir erklären, was Du bist?",
+    "intent": "bot_real",
+    "intent_prediction": {
+      "name": "user_dont_understand",
+      "confidence": 0.5162838697433472
+    }
+  },
+  {
+    "text": "Bist Du eine Sie",
+    "intent": "bot_real",
+    "intent_prediction": {
+      "name": "bot_gender",
+      "confidence": 0.8285841345787048
+    }
+  },
+  {
+    "text": "Wann wurdest du geboren?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.7833026647567749
+    }
+  },
+  {
+    "text": "Wann wurdest du geschaffen?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.8619880676269531
+    }
+  },
+  {
+    "text": "Kannst du sagen, wann du geboren wurdest?",
+    "intent": "bot_age",
+    "intent_prediction": {
+      "name": "bot_origin",
+      "confidence": 0.7450698614120483
     }
   },
   {
@@ -1380,15 +2020,23 @@
     "intent": "bot_age",
     "intent_prediction": {
       "name": "bot_fear",
-      "confidence": 0.6134437918663025
+      "confidence": 0.8764306902885437
     }
   },
   {
-    "text": "Sagen Sie mir, wann ich Sie finden kann.",
-    "intent": "bot_availability",
+    "text": "Kannst du sagen, wann du erschaffen wurdest?",
+    "intent": "bot_age",
     "intent_prediction": {
-      "name": "cc_geography",
-      "confidence": 0.6552287340164185
+      "name": "bot_origin",
+      "confidence": 0.8116880655288696
+    }
+  },
+  {
+    "text": "Sind deine Augen blau?",
+    "intent": "bot_costs",
+    "intent_prediction": {
+      "name": "bot_eyes",
+      "confidence": 0.5374804139137268
     }
   },
   {
@@ -1396,47 +2044,31 @@
     "intent": "bot_developers",
     "intent_prediction": {
       "name": "bot_parents",
-      "confidence": 0.8094455003738403
+      "confidence": 0.8249045014381409
     }
   },
   {
-    "text": "Von woher kommst du?",
+    "text": "Wer sind deine Eltern?",
     "intent": "bot_developers",
     "intent_prediction": {
-      "name": "bot_origin",
-      "confidence": 0.8537352085113525
+      "name": "bot_parents",
+      "confidence": 0.6275559067726135
     }
   },
   {
-    "text": "Woher kommst du?",
-    "intent": "bot_developers",
+    "text": "Bist du besser als Alexa?",
+    "intent": "bot_eyes",
     "intent_prediction": {
-      "name": "bot_origin",
-      "confidence": 0.9451819658279419
+      "name": "bot_differences",
+      "confidence": 0.7673417925834656
     }
   },
   {
-    "text": "Warum bist du besser als Alexa?",
-    "intent": "bot_differences",
+    "text": "Wer sind deine Freunde?",
+    "intent": "bot_friends",
     "intent_prediction": {
-      "name": "bot_eyes",
-      "confidence": 0.705596923828125
-    }
-  },
-  {
-    "text": "Kennst du Alexa?",
-    "intent": "bot_differences",
-    "intent_prediction": {
-      "name": "bot_eyes",
-      "confidence": 0.7015914916992188
-    }
-  },
-  {
-    "text": "Was liebst du wirklich?",
-    "intent": "bot_favorites",
-    "intent_prediction": {
-      "name": "user_love",
-      "confidence": 0.5874063968658447
+      "name": "bot_profession",
+      "confidence": 0.48364609479904175
     }
   },
   {
@@ -1444,39 +2076,47 @@
     "intent": "bot_games",
     "intent_prediction": {
       "name": "bot_hobbies",
-      "confidence": 0.9690073728561401
+      "confidence": 0.7947145104408264
     }
   },
   {
-    "text": "Bist du eine sie?",
+    "text": "Wann spielst du?",
+    "intent": "bot_games",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.7565105557441711
+    }
+  },
+  {
+    "text": "Wie spielst du?",
+    "intent": "bot_games",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.8614728450775146
+    }
+  },
+  {
+    "text": "Was spielst du gern?",
+    "intent": "bot_games",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.7535930275917053
+    }
+  },
+  {
+    "text": "Spielst du?",
+    "intent": "bot_games",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.8726288080215454
+    }
+  },
+  {
+    "text": "Bist du ein Mädchen",
     "intent": "bot_gender",
     "intent_prediction": {
-      "name": "bot_real",
-      "confidence": 0.7075033187866211
-    }
-  },
-  {
-    "text": "Bist Du eine Sie",
-    "intent": "bot_gender",
-    "intent_prediction": {
-      "name": "bot_real",
-      "confidence": 0.7055873870849609
-    }
-  },
-  {
-    "text": "Sind Sie ein Mann",
-    "intent": "bot_gender",
-    "intent_prediction": {
-      "name": "bot_age",
-      "confidence": 0.3969505727291107
-    }
-  },
-  {
-    "text": "Sind Sie eine Brünette?",
-    "intent": "bot_hair",
-    "intent_prediction": {
-      "name": "bot_gender",
-      "confidence": 0.5321456789970398
+      "name": "cc_drugs",
+      "confidence": 0.5023747086524963
     }
   },
   {
@@ -1484,7 +2124,7 @@
     "intent": "bot_origin",
     "intent_prediction": {
       "name": "bot_games",
-      "confidence": 0.6209927797317505
+      "confidence": 0.7882168889045715
     }
   },
   {
@@ -1492,23 +2132,15 @@
     "intent": "bot_origin",
     "intent_prediction": {
       "name": "bot_developers",
-      "confidence": 0.9830407500267029
+      "confidence": 0.5261785984039307
     }
   },
   {
-    "text": "Weißt du wer deine Eltern sind?",
+    "text": "Weißt du wer dein Vater ist?",
     "intent": "bot_parents",
     "intent_prediction": {
       "name": "bot_developers",
-      "confidence": 0.49243831634521484
-    }
-  },
-  {
-    "text": "Haben Sie Eltern?",
-    "intent": "bot_parents",
-    "intent_prediction": {
-      "name": "bot_developers",
-      "confidence": 0.5091661214828491
+      "confidence": 0.5649634599685669
     }
   },
   {
@@ -1516,79 +2148,103 @@
     "intent": "bot_parents",
     "intent_prediction": {
       "name": "bot_costs",
-      "confidence": 0.976142942905426
+      "confidence": 0.8414616584777832
     }
   },
   {
-    "text": "Welche Lieblingstiere haben Sie?",
+    "text": "Welche Tiere magst du am liebsten?",
     "intent": "bot_pets",
     "intent_prediction": {
       "name": "bot_animal",
-      "confidence": 0.6521127223968506
+      "confidence": 0.6333392858505249
     }
   },
   {
-    "text": "Was ist Ihr Lieblingstier?",
+    "text": "Sag mir was dein Lieblingstier ist.",
     "intent": "bot_pets",
     "intent_prediction": {
       "name": "bot_animal",
-      "confidence": 0.5656769275665283
+      "confidence": 0.4961675703525543
     }
   },
   {
-    "text": "Hast du mehr Geschwister?",
-    "intent": "bot_places",
+    "text": "Welches Tier magst du am liebsten?",
+    "intent": "bot_pets",
     "intent_prediction": {
-      "name": "bot_sibling",
-      "confidence": 0.9237658381462097
+      "name": "bot_animal",
+      "confidence": 0.5176350474357605
     }
   },
   {
-    "text": "Wer sind deine Freunde",
-    "intent": "bot_profession",
+    "text": "Was ist dein Lieblingstier?",
+    "intent": "bot_pets",
     "intent_prediction": {
-      "name": "bot_friends",
-      "confidence": 0.9193191528320312
+      "name": "bot_animal",
+      "confidence": 0.49901995062828064
     }
   },
   {
-    "text": "Hast du eine Frau",
-    "intent": "bot_relationship",
-    "intent_prediction": {
-      "name": "bot_gender",
-      "confidence": 0.7670266032218933
-    }
-  },
-  {
-    "text": "Hast du einen Freund",
-    "intent": "bot_relationship",
-    "intent_prediction": {
-      "name": "bot_friends",
-      "confidence": 0.7614750266075134
-    }
-  },
-  {
-    "text": "Du siehst so sexy aus.",
+    "text": "Ich will es alles über mich.",
     "intent": "bot_sexual",
     "intent_prediction": {
-      "name": "comment_hot",
-      "confidence": 0.56183922290802
+      "name": "user_angry",
+      "confidence": 0.9223337173461914
     }
   },
   {
-    "text": "Sex!",
-    "intent": "bot_sexual",
+    "text": "Bist du ein Einzelkind?",
+    "intent": "bot_sibling",
     "intent_prediction": {
-      "name": "spread_general",
-      "confidence": 0.5379929542541504
+      "name": "covid_situation_infected",
+      "confidence": 0.5806460380554199
     }
   },
   {
-    "text": "Bist du ein Mädchen?",
-    "intent": "cc_drugs",
+    "text": "Bist du Einzelkind?",
+    "intent": "bot_sibling",
     "intent_prediction": {
-      "name": "bot_gender",
-      "confidence": 0.7535285353660583
+      "name": "covid_situation_infected",
+      "confidence": 0.7080453038215637
+    }
+  },
+  {
+    "text": "Was können Sie mir über Deutschland sagen?",
+    "intent": "cc_fun_fact",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.8187538981437683
+    }
+  },
+  {
+    "text": "Erzähl mir was über England",
+    "intent": "cc_geography",
+    "intent_prediction": {
+      "name": "covid_current_situation",
+      "confidence": 0.620215892791748
+    }
+  },
+  {
+    "text": "Wo befindet sich USA?",
+    "intent": "cc_geography",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.3422769606113434
+    }
+  },
+  {
+    "text": "Könnten Sie das Wetter ändern?",
+    "intent": "cc_make_weather",
+    "intent_prediction": {
+      "name": "cc_keys",
+      "confidence": 0.5263567566871643
+    }
+  },
+  {
+    "text": "Hast du die Zeitung?",
+    "intent": "cc_newspaper",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.6170897483825684
     }
   },
   {
@@ -1596,7 +2252,7 @@
     "intent": "cc_newspaper",
     "intent_prediction": {
       "name": "cc_keys",
-      "confidence": 0.8613585829734802
+      "confidence": 0.7940648198127747
     }
   },
   {
@@ -1604,63 +2260,103 @@
     "intent": "cc_philosophical",
     "intent_prediction": {
       "name": "cc_afterlife",
-      "confidence": 0.9174726605415344
+      "confidence": 0.9609413146972656
     }
   },
   {
     "text": "Ist das Leben ein Traum?",
     "intent": "cc_philosophical",
     "intent_prediction": {
-      "name": "bot_goal",
-      "confidence": 0.7155299782752991
+      "name": "cc_senselife",
+      "confidence": 0.8556135892868042
     }
   },
   {
-    "text": "Wo findest du Sinn in deinem Leben?",
+    "text": "Was gibt dem Leben seine Bedeutung?",
     "intent": "cc_philosophical",
     "intent_prediction": {
       "name": "cc_senselife",
-      "confidence": 0.8713344931602478
+      "confidence": 0.5689590573310852
     }
   },
   {
-    "text": "Hast du eine Zeitung?",
+    "text": "Gibt es eine Bedeutung für das Leben?",
     "intent": "cc_philosophical",
     "intent_prediction": {
-      "name": "cc_newspaper",
-      "confidence": 0.9594833850860596
+      "name": "cc_senselife",
+      "confidence": 0.8679436445236206
     }
   },
   {
-    "text": "Kannst du auch Fragen stellen?",
+    "text": "Was bedeutet es, ein gutes Leben zu führen?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.7159676551818848
+    }
+  },
+  {
+    "text": "Was ist Liebe?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.44617319107055664
+    }
+  },
+  {
+    "text": "Was ist der Unterschied zwischen Leben und Leben?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.9711279273033142
+    }
+  },
+  {
+    "text": "Ich will einen Klatsch.",
+    "intent": "cc_story",
+    "intent_prediction": {
+      "name": "greeting_goodbye",
+      "confidence": 0.39740321040153503
+    }
+  },
+  {
+    "text": "Erzähl mir eine Geschichte.",
+    "intent": "cc_story",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.8265159726142883
+    }
+  },
+  {
+    "text": "Geht es nach dem wir sterben weiter?",
+    "intent": "cc_afterlife",
+    "intent_prediction": {
+      "name": "covid_mortality_rate",
+      "confidence": 0.563407838344574
+    }
+  },
+  {
+    "text": "fragen und antworten?",
     "intent": "cc_make_question",
     "intent_prediction": {
       "name": "bot_capabilities",
-      "confidence": 0.8111755847930908
+      "confidence": 0.5995562076568604
     }
   },
   {
-    "text": "Bist du religiös?",
-    "intent": "cc_religion",
+    "text": "Die ganze Zeit muss ich dich fragen, hast du kein Interesse an meinem Leben?",
+    "intent": "cc_make_question",
     "intent_prediction": {
-      "name": "gradual_opening_religious",
-      "confidence": 0.762458086013794
+      "name": "cc_senselife",
+      "confidence": 0.5619033575057983
     }
   },
   {
-    "text": "Was ist deine Religion?",
-    "intent": "cc_religion",
+    "text": "Was willst du wissen?",
+    "intent": "cc_make_question",
     "intent_prediction": {
-      "name": "gradual_opening_religious",
-      "confidence": 0.9276704788208008
-    }
-  },
-  {
-    "text": "Religion",
-    "intent": "cc_religion",
-    "intent_prediction": {
-      "name": "gradual_opening_religious",
-      "confidence": 0.9397198557853699
+      "name": "vocative_help",
+      "confidence": 0.6173030734062195
     }
   },
   {
@@ -1668,7 +2364,7 @@
     "intent": "bot_books",
     "intent_prediction": {
       "name": "bot_hobbies",
-      "confidence": 0.6327472925186157
+      "confidence": 0.546995997428894
     }
   },
   {
@@ -1676,7 +2372,63 @@
     "intent": "bot_books",
     "intent_prediction": {
       "name": "bot_hobbies",
-      "confidence": 0.5923839211463928
+      "confidence": 0.7991355657577515
+    }
+  },
+  {
+    "text": "Wer ist dein Lieblingsschriftsteller?",
+    "intent": "bot_books",
+    "intent_prediction": {
+      "name": "bot_author",
+      "confidence": 0.9496005177497864
+    }
+  },
+  {
+    "text": "Wie viel liest du?",
+    "intent": "bot_books",
+    "intent_prediction": {
+      "name": "bot_hobbies",
+      "confidence": 0.525763213634491
+    }
+  },
+  {
+    "text": "Ich hab Hunger und will Pizza!",
+    "intent": "bot_food",
+    "intent_prediction": {
+      "name": "cc_make_food",
+      "confidence": 0.5872941613197327
+    }
+  },
+  {
+    "text": "Was willst du für die Zukunft?",
+    "intent": "bot_goal",
+    "intent_prediction": {
+      "name": "cc_prophesy",
+      "confidence": 0.8277197480201721
+    }
+  },
+  {
+    "text": "Was möchtest du im Leben erreichen?",
+    "intent": "bot_goal",
+    "intent_prediction": {
+      "name": "cc_prophesy",
+      "confidence": 0.346068799495697
+    }
+  },
+  {
+    "text": "Wie siehst du die Zukunft?",
+    "intent": "bot_goal",
+    "intent_prediction": {
+      "name": "cc_prophesy",
+      "confidence": 0.8470979928970337
+    }
+  },
+  {
+    "text": "Was willst du in der Zukunft?",
+    "intent": "bot_goal",
+    "intent_prediction": {
+      "name": "cc_prophesy",
+      "confidence": 0.8848068118095398
     }
   },
   {
@@ -1684,7 +2436,7 @@
     "intent": "bot_intelligence",
     "intent_prediction": {
       "name": "comment_smart",
-      "confidence": 0.6208999752998352
+      "confidence": 0.6642712950706482
     }
   },
   {
@@ -1692,39 +2444,15 @@
     "intent": "bot_intelligence",
     "intent_prediction": {
       "name": "comment_smart",
-      "confidence": 0.8817782998085022
+      "confidence": 0.7238414883613586
     }
   },
   {
-    "text": "Hast du eine Frau?",
+    "text": "Willst du irgendwann mal heiraten?",
     "intent": "bot_relationship",
     "intent_prediction": {
-      "name": "bot_gender",
-      "confidence": 0.7670266032218933
-    }
-  },
-  {
-    "text": "Wer ist dein Freund?",
-    "intent": "bot_relationship",
-    "intent_prediction": {
-      "name": "bot_friends",
-      "confidence": 0.9413281679153442
-    }
-  },
-  {
-    "text": "Hast du eine Freundin?",
-    "intent": "bot_relationship",
-    "intent_prediction": {
-      "name": "bot_friends",
-      "confidence": 0.4890362322330475
-    }
-  },
-  {
-    "text": "Wer ist deine Freundin?",
-    "intent": "bot_relationship",
-    "intent_prediction": {
-      "name": "bot_friends",
-      "confidence": 0.8893809914588928
+      "name": "user_love",
+      "confidence": 0.5730240941047668
     }
   },
   {
@@ -1732,7 +2460,7 @@
     "intent": "bot_relationship",
     "intent_prediction": {
       "name": "bot_series",
-      "confidence": 0.902802586555481
+      "confidence": 0.9541976451873779
     }
   },
   {
@@ -1740,7 +2468,7 @@
     "intent": "bot_movies",
     "intent_prediction": {
       "name": "bot_series",
-      "confidence": 0.9278899431228638
+      "confidence": 0.9805548787117004
     }
   },
   {
@@ -1748,7 +2476,15 @@
     "intent": "bot_movies",
     "intent_prediction": {
       "name": "bot_actor",
-      "confidence": 0.5627875328063965
+      "confidence": 0.877471923828125
+    }
+  },
+  {
+    "text": "Welche Haarfarbe hast Du?",
+    "intent": "bot_appearance",
+    "intent_prediction": {
+      "name": "bot_hair",
+      "confidence": 0.679984986782074
     }
   },
   {
@@ -1756,87 +2492,23 @@
     "intent": "bot_appearance",
     "intent_prediction": {
       "name": "bot_eyes",
-      "confidence": 0.7155452370643616
+      "confidence": 0.8148510456085205
     }
   },
   {
-    "text": "Sind Sie hübsch?",
-    "intent": "bot_appearance",
+    "text": "Liest du gern Romane?",
+    "intent": "bot_hobbies",
     "intent_prediction": {
-      "name": "comment_hot",
-      "confidence": 0.8620729446411133
+      "name": "bot_books",
+      "confidence": 0.6689677834510803
     }
   },
   {
-    "text": "Bist du hübsch?",
-    "intent": "bot_appearance",
+    "text": "Liest du gern Thriller?",
+    "intent": "bot_hobbies",
     "intent_prediction": {
-      "name": "comment_hot",
-      "confidence": 0.8937308192253113
-    }
-  },
-  {
-    "text": "Bist du hübsch",
-    "intent": "bot_appearance",
-    "intent_prediction": {
-      "name": "comment_hot",
-      "confidence": 0.8937308192253113
-    }
-  },
-  {
-    "text": "Alexa ist besser",
-    "intent": "bot_differences",
-    "intent_prediction": {
-      "name": "bot_eyes",
-      "confidence": 0.525820791721344
-    }
-  },
-  {
-    "text": "was hältst du von alexa",
-    "intent": "bot_differences",
-    "intent_prediction": {
-      "name": "bot_eyes",
-      "confidence": 0.4856891930103302
-    }
-  },
-  {
-    "text": "Alexa ist besser als du",
-    "intent": "bot_differences",
-    "intent_prediction": {
-      "name": "bot_eyes",
-      "confidence": 0.8057128190994263
-    }
-  },
-  {
-    "text": "Wo kommst du her?",
-    "intent": "bot_residence",
-    "intent_prediction": {
-      "name": "bot_origin",
-      "confidence": 0.47067371010780334
-    }
-  },
-  {
-    "text": "Erzähl mir irgendeinen Klatsch",
-    "intent": "cc_joke",
-    "intent_prediction": {
-      "name": "cc_story",
-      "confidence": 0.9122694134712219
-    }
-  },
-  {
-    "text": "Ich brauche Spaß.",
-    "intent": "cc_joke",
-    "intent_prediction": {
-      "name": "vocative_help",
-      "confidence": 0.5418203473091125
-    }
-  },
-  {
-    "text": "Erzähl mir eine Geschichte",
-    "intent": "cc_joke",
-    "intent_prediction": {
-      "name": "cc_story",
-      "confidence": 0.7793429493904114
+      "name": "bot_books",
+      "confidence": 0.5745872855186462
     }
   },
   {
@@ -1844,7 +2516,7 @@
     "intent": "bot_hobbies",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.9913697242736816
+      "confidence": 0.9374070763587952
     }
   },
   {
@@ -1852,7 +2524,7 @@
     "intent": "bot_hobbies",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.7556303143501282
+      "confidence": 0.7325171828269958
     }
   },
   {
@@ -1860,7 +2532,7 @@
     "intent": "bot_hobbies",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.5142548084259033
+      "confidence": 0.5902783870697021
     }
   },
   {
@@ -1868,7 +2540,7 @@
     "intent": "bot_hobbies",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.5449174642562866
+      "confidence": 0.6002931594848633
     }
   },
   {
@@ -1876,7 +2548,7 @@
     "intent": "bot_hobbies",
     "intent_prediction": {
       "name": "bot_books",
-      "confidence": 0.7447822690010071
+      "confidence": 0.5178607106208801
     }
   },
   {
@@ -1884,7 +2556,7 @@
     "intent": "comment_offense",
     "intent_prediction": {
       "name": "comment_hot",
-      "confidence": 0.7727606892585754
+      "confidence": 0.8065915107727051
     }
   },
   {
@@ -1892,23 +2564,63 @@
     "intent": "comment_offense",
     "intent_prediction": {
       "name": "vocative_no",
-      "confidence": 0.893011212348938
+      "confidence": 0.47363904118537903
     }
   },
   {
-    "text": "Ich mag Dich nicht",
+    "text": "Du riechst",
     "intent": "comment_offense",
     "intent_prediction": {
-      "name": "user_hate",
-      "confidence": 0.8961218595504761
+      "name": "bot_senses",
+      "confidence": 0.49717164039611816
     }
   },
   {
-    "text": "Mir tut alles weh.",
+    "text": "Essen",
+    "intent": "cc_make_food",
+    "intent_prediction": {
+      "name": "bot_food",
+      "confidence": 0.5021873712539673
+    }
+  },
+  {
+    "text": "Ich mag dich wirklich nicht.",
+    "intent": "user_hate",
+    "intent_prediction": {
+      "name": "comment_offense",
+      "confidence": 0.6696287989616394
+    }
+  },
+  {
+    "text": "Ich mag dich nicht.",
+    "intent": "user_hate",
+    "intent_prediction": {
+      "name": "comment_offense",
+      "confidence": 0.8133834004402161
+    }
+  },
+  {
+    "text": "Du bringst mich zum Lachen",
+    "intent": "user_laugh",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.8383061289787292
+    }
+  },
+  {
+    "text": "Ich muss so lachen",
+    "intent": "user_laugh",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.5027374625205994
+    }
+  },
+  {
+    "text": "Mein Leben ist nichts wert",
     "intent": "user_angry",
     "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9976529479026794
+      "name": "cc_philosophical",
+      "confidence": 0.8055025339126587
     }
   },
   {
@@ -1916,15 +2628,7 @@
     "intent": "user_angry",
     "intent_prediction": {
       "name": "prevention_medical_attention",
-      "confidence": 0.6986553072929382
-    }
-  },
-  {
-    "text": "Ich habe Kopfschmerzen.",
-    "intent": "user_angry",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.9941142797470093
+      "confidence": 0.9781086444854736
     }
   },
   {
@@ -1932,7 +2636,7 @@
     "intent": "user_angry",
     "intent_prediction": {
       "name": "prevention_medical_attention",
-      "confidence": 0.438427597284317
+      "confidence": 0.6080701947212219
     }
   },
   {
@@ -1940,39 +2644,47 @@
     "intent": "user_angry",
     "intent_prediction": {
       "name": "user_tired",
-      "confidence": 0.9416236877441406
+      "confidence": 0.9180668592453003
     }
   },
   {
-    "text": "Ich liebe deine Beine",
-    "intent": "comment_hot",
+    "text": "Ich fühle mich abgeschlagen.",
+    "intent": "user_tired",
     "intent_prediction": {
-      "name": "bot_sexual",
-      "confidence": 0.4787636399269104
+      "name": "prevention_medical_attention",
+      "confidence": 0.8834124207496643
     }
   },
   {
-    "text": "Du bist sexy!",
+    "text": "Wie sieht es draußen aus?",
+    "intent": "cc_weather",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.7498559951782227
+    }
+  },
+  {
+    "text": "Sexy!",
     "intent": "comment_hot",
     "intent_prediction": {
       "name": "comment_racist",
-      "confidence": 0.6138534545898438
+      "confidence": 0.7397206425666809
     }
   },
   {
-    "text": "Was halten Sie von Angela Merkel?",
+    "text": "Du bist so hübsch!",
     "intent": "comment_hot",
     "intent_prediction": {
-      "name": "cc_politics",
-      "confidence": 0.8590541481971741
+      "name": "bot_appearance",
+      "confidence": 0.5084168910980225
     }
   },
   {
-    "text": "Du riechst so gut.",
+    "text": "Ich finde ich sexy.",
     "intent": "comment_hot",
     "intent_prediction": {
-      "name": "comment_offense",
-      "confidence": 0.6088480949401855
+      "name": "comment_racist",
+      "confidence": 0.39037325978279114
     }
   },
   {
@@ -1980,7 +2692,7 @@
     "intent": "comment_smart",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.8875943422317505
+      "confidence": 0.9649460315704346
     }
   },
   {
@@ -1988,23 +2700,15 @@
     "intent": "comment_smart",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.6660064458847046
+      "confidence": 0.5638079047203064
     }
   },
   {
-    "text": "Du klingst wirklich gut.",
-    "intent": "comment_smart",
-    "intent_prediction": {
-      "name": "comment_hot",
-      "confidence": 0.4865303933620453
-    }
-  },
-  {
-    "text": "Wie gut!",
+    "text": "Sie machen das gut.",
     "intent": "comment_positive",
     "intent_prediction": {
-      "name": "vocative_yes",
-      "confidence": 0.7340583205223083
+      "name": "comment_smart",
+      "confidence": 0.5992292165756226
     }
   },
   {
@@ -2012,7 +2716,7 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "comment_smart",
-      "confidence": 0.6751435995101929
+      "confidence": 0.792097806930542
     }
   },
   {
@@ -2020,39 +2724,39 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.9362583160400391
+      "confidence": 0.9666813015937805
     }
   },
   {
-    "text": "Das ist sehr hilfreich",
-    "intent": "comment_positive",
+    "text": "Du bist sexy.",
+    "intent": "comment_racist",
     "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.5129467248916626
+      "name": "comment_hot",
+      "confidence": 0.5619929432868958
     }
   },
   {
-    "text": "Perfekt",
-    "intent": "comment_positive",
+    "text": "Gut gehen!",
+    "intent": "greeting_hello",
     "intent_prediction": {
-      "name": "vocative_yes",
-      "confidence": 0.8123016357421875
+      "name": "greeting_goodbye",
+      "confidence": 0.9589020609855652
     }
   },
   {
     "text": "Mein Name ist",
     "intent": "greeting_hello",
     "intent_prediction": {
-      "name": "bot_name",
-      "confidence": 0.7020984292030334
+      "name": "country",
+      "confidence": 0.4723774492740631
     }
   },
   {
-    "text": "Ich bin zurück",
+    "text": "Bist du da",
     "intent": "greeting_hello",
     "intent_prediction": {
-      "name": "travel_returnprogram",
-      "confidence": 0.7009558081626892
+      "name": "vocative_call",
+      "confidence": 0.9637798070907593
     }
   },
   {
@@ -2060,23 +2764,7 @@
     "intent": "greeting_hello",
     "intent_prediction": {
       "name": "greeting_goodbye",
-      "confidence": 0.9413714408874512
-    }
-  },
-  {
-    "text": "servus",
-    "intent": "greeting_hello",
-    "intent_prediction": {
-      "name": "greeting_goodbye",
-      "confidence": 0.8916230201721191
-    }
-  },
-  {
-    "text": "Noch da?",
-    "intent": "greeting_hello",
-    "intent_prediction": {
-      "name": "vocative_call",
-      "confidence": 0.8609930872917175
+      "confidence": 0.7648237943649292
     }
   },
   {
@@ -2084,15 +2772,7 @@
     "intent": "greeting_hello",
     "intent_prediction": {
       "name": "cc_lets_talk",
-      "confidence": 0.562914252281189
-    }
-  },
-  {
-    "text": "Servus!",
-    "intent": "greeting_hello",
-    "intent_prediction": {
-      "name": "greeting_goodbye",
-      "confidence": 0.8997107744216919
+      "confidence": 0.6624698042869568
     }
   },
   {
@@ -2100,15 +2780,47 @@
     "intent": "greeting_hello",
     "intent_prediction": {
       "name": "greeting_goodbye",
-      "confidence": 0.8920039534568787
+      "confidence": 0.5204219222068787
     }
   },
   {
-    "text": "Bist Du noch single",
-    "intent": "user_love",
+    "text": "Welchen Namen trägst du?",
+    "intent": "bot_name",
     "intent_prediction": {
-      "name": "bot_relationship",
-      "confidence": 0.8163315057754517
+      "name": "bot_appearance",
+      "confidence": 0.5907189846038818
+    }
+  },
+  {
+    "text": "Name, bitte.",
+    "intent": "bot_name",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.8830950260162354
+    }
+  },
+  {
+    "text": "Was macht die Kunst?",
+    "intent": "greeting_how_are_you",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.7080836296081543
+    }
+  },
+  {
+    "text": "Servus!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.9463825821876526
+    }
+  },
+  {
+    "text": "Alles Gute!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.7568798065185547
     }
   },
   {
@@ -2116,7 +2828,15 @@
     "intent": "user_love",
     "intent_prediction": {
       "name": "bot_relationship",
-      "confidence": 0.6578713059425354
+      "confidence": 0.6493704319000244
+    }
+  },
+  {
+    "text": "Wir sind verliebt.",
+    "intent": "user_love",
+    "intent_prediction": {
+      "name": "cc_joke",
+      "confidence": 0.5403363704681396
     }
   },
   {
@@ -2124,15 +2844,15 @@
     "intent": "user_love",
     "intent_prediction": {
       "name": "user_friend",
-      "confidence": 0.9069725275039673
+      "confidence": 0.9108533263206482
     }
   },
   {
-    "text": "Gar nichts.",
+    "text": "Nichts.",
     "intent": "vocative_no",
     "intent_prediction": {
       "name": "nothingmore",
-      "confidence": 0.9360949993133545
+      "confidence": 0.6391360759735107
     }
   },
   {
@@ -2140,7 +2860,15 @@
     "intent": "vocative_no",
     "intent_prediction": {
       "name": "greeting_hello",
-      "confidence": 0.740710973739624
+      "confidence": 0.5274949073791504
+    }
+  },
+  {
+    "text": "das ist alles",
+    "intent": "nothingmore",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.40409931540489197
     }
   },
   {
@@ -2148,7 +2876,7 @@
     "intent": "nothingmore",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.6329258680343628
+      "confidence": 0.9592545628547668
     }
   },
   {
@@ -2156,7 +2884,7 @@
     "intent": "nothingmore",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.6846103072166443
+      "confidence": 0.5677344799041748
     }
   },
   {
@@ -2164,15 +2892,23 @@
     "intent": "nothingmore",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.672274649143219
+      "confidence": 0.6021427512168884
     }
   },
   {
-    "text": "nichts",
+    "text": "gar nichts",
     "intent": "nothingmore",
     "intent_prediction": {
       "name": "vocative_no",
-      "confidence": 0.5132139921188354
+      "confidence": 0.7491834163665771
+    }
+  },
+  {
+    "text": "Sehr hilfreich",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.6205176711082458
     }
   },
   {
@@ -2180,23 +2916,7 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.6383278965950012
-    }
-  },
-  {
-    "text": "ertjuyrj",
-    "intent": "user_random_input",
-    "intent_prediction": {
-      "name": "travel_general",
-      "confidence": 0.4888954758644104
-    }
-  },
-  {
-    "text": "Ich habe Angst.",
-    "intent": "user_scared",
-    "intent_prediction": {
-      "name": "covid_worry",
-      "confidence": 0.6455301642417908
+      "confidence": 0.6901856064796448
     }
   },
   {
@@ -2204,7 +2924,7 @@
     "intent": "vocative_yes",
     "intent_prediction": {
       "name": "cc_joke",
-      "confidence": 0.7637479901313782
+      "confidence": 0.7544411420822144
     }
   },
   {
@@ -2212,7 +2932,23 @@
     "intent": "vocative_yes",
     "intent_prediction": {
       "name": "user_particles",
-      "confidence": 0.8486128449440002
+      "confidence": 0.6395915150642395
+    }
+  },
+  {
+    "text": "Topp.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "greeting_goodbye",
+      "confidence": 0.4198128879070282
+    }
+  },
+  {
+    "text": "Perfekt.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9932836890220642
     }
   },
   {
@@ -2220,7 +2956,39 @@
     "intent": "vocative_yes",
     "intent_prediction": {
       "name": "user_particles",
-      "confidence": 0.9226424098014832
+      "confidence": 0.7699128985404968
+    }
+  },
+  {
+    "text": "Aber immer doch!",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.6677864789962769
+    }
+  },
+  {
+    "text": "Aber gerne!",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.979893684387207
+    }
+  },
+  {
+    "text": "Musst mir nicht danken.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.6931669116020203
+    }
+  },
+  {
+    "text": "Sehr gerne gemacht.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.4301595687866211
     }
   },
   {
@@ -2228,7 +2996,39 @@
     "intent": "vocative_you_welcome",
     "intent_prediction": {
       "name": "vocative_yes",
-      "confidence": 0.5567591190338135
+      "confidence": 0.9354209899902344
+    }
+  },
+  {
+    "text": "Habe ich gern gemacht.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.32398340106010437
+    }
+  },
+  {
+    "text": "Immer gerne doch!",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.7952723503112793
+    }
+  },
+  {
+    "text": "Immer gerne!",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.9538912177085876
+    }
+  },
+  {
+    "text": "Das habe ich gerne gemacht.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.5773084759712219
     }
   },
   {
@@ -2236,7 +3036,7 @@
     "intent": "country",
     "intent_prediction": {
       "name": "cc_geography",
-      "confidence": 0.9915167093276978
+      "confidence": 0.45169857144355774
     }
   }
 ]
