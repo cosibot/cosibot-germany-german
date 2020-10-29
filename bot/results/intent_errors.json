@@ -48,262 +48,6 @@
     }
   },
   {
-    "text": "Was passiert bei einem positiven Test auf den Coronavirus?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6732094287872314
-    }
-  },
-  {
-    "text": "Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6838356852531433
-    }
-  },
-  {
-    "text": "Was passiert bei einem positiven Resultat?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7290154695510864
-    }
-  },
-  {
-    "text": "Was passiert wenn ich positiv auf die Infektion getestet wurde?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.838489294052124
-    }
-  },
-  {
-    "text": "Was passiert, wenn ich infiziert bin?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.8258513808250427
-    }
-  },
-  {
-    "text": "was passiert wenn ich positiv auf coronavirus getestet bin",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7678449153900146
-    }
-  },
-  {
-    "text": "Meine Freundin hat Hobbit 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7081860303878784
-    }
-  },
-  {
-    "text": "Was passiert, wenn ich positiv auf den Virus getestet wurde?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.8057288527488708
-    }
-  },
-  {
-    "text": "Meine Freundin hat Covid 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.661119818687439
-    }
-  },
-  {
-    "text": "Was passiert wenn die Resultate positiv sind?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.8152974843978882
-    }
-  },
-  {
-    "text": "Was passiert bei einem Verdachtsfall auf den Coronavirus?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6344746351242065
-    }
-  },
-  {
-    "text": "Was passiert bei einem Verdachtsfall auf den Virus?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6338585019111633
-    }
-  },
-  {
-    "text": "Ich bin infiziert, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7796676754951477
-    }
-  },
-  {
-    "text": "Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.5522567629814148
-    }
-  },
-  {
-    "text": "Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7170183658599854
-    }
-  },
-  {
-    "text": "Meine Freundin hat Kubik 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7005573511123657
-    }
-  },
-  {
-    "text": "Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7041687965393066
-    }
-  },
-  {
-    "text": "Was geschieht wenn der Test positiv ist?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7014558911323547
-    }
-  },
-  {
-    "text": "Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7545970678329468
-    }
-  },
-  {
-    "text": "Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7149304151535034
-    }
-  },
-  {
-    "text": "Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6201145648956299
-    }
-  },
-  {
-    "text": "Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7939803600311279
-    }
-  },
-  {
-    "text": "Meine Freundin hat huvit 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6481360197067261
-    }
-  },
-  {
-    "text": "Meine Freundin hat COBIT 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6857298612594604
-    }
-  },
-  {
-    "text": "Meine Freundin hat movit 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6765561699867249
-    }
-  },
-  {
-    "text": "Meine Freundin hat kovit 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6826478242874146
-    }
-  },
-  {
-    "text": "Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6892960071563721
-    }
-  },
-  {
-    "text": "Meine Freundin hat Q19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.7380051016807556
-    }
-  },
-  {
-    "text": "Meine Freundin hat cookit 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6756811738014221
-    }
-  },
-  {
-    "text": "Meine Freundin hat qubeat 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.652683675289154
-    }
-  },
-  {
-    "text": "Meine Freundin hat cupid 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6617205142974854
-    }
-  },
-  {
-    "text": "Meine Freundin hat kuhweg 19, was passiert jetzt?",
-    "intent": "covid_pregnancy",
-    "intent_prediction": {
-      "name": "covid_procedure_after_infection",
-      "confidence": 0.6663249731063843
-    }
-  },
-  {
     "text": "unterschied zwischen influenza und covid",
     "intent": "covid_sars",
     "intent_prediction": {
@@ -461,6 +205,22 @@
     "intent_prediction": {
       "name": "mask_obligatory",
       "confidence": 0.545066773891449
+    }
+  },
+  {
+    "text": "Mund Schutz Maske",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7273515462875366
+    }
+  },
+  {
+    "text": "Mund Schutz Masken",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6435866355895996
     }
   },
   {
@@ -648,6 +408,22 @@
     }
   },
   {
+    "text": "Warum kaufen eigentliche alle Masken?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.984719455242157
+    }
+  },
+  {
+    "text": "helfen masken?",
+    "intent": "mask_protection",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.6399200558662415
+    }
+  },
+  {
     "text": "Wie soll ich mich unter Quarantäne verhalten?",
     "intent": "quarantine_how_it_works",
     "intent_prediction": {
@@ -685,14 +461,6 @@
     "intent_prediction": {
       "name": "quarantine_general",
       "confidence": 0.6012591123580933
-    }
-  },
-  {
-    "text": "Was darf man in Quarantäne und was nicht",
-    "intent": "quarantine_how_it_works",
-    "intent_prediction": {
-      "name": "quarantine_dos_and_donts",
-      "confidence": 0.6847438216209412
     }
   },
   {
@@ -768,27 +536,35 @@
     }
   },
   {
-    "text": "Wann bekommt man Ergebnisse bei dem Test",
+    "text": "Was wird genau bei dem Test gemacht",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8714568018913269
+      "confidence": 0.8249090909957886
     }
   },
   {
-    "text": "Wann sind die Ergebnisse des Tests da",
+    "text": "Wie läuft der Test ab?",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8642720580101013
+      "confidence": 0.9017670750617981
     }
   },
   {
-    "text": "Wie lange dauert es, bis man die Ergebnisse vom Test bekommt",
+    "text": "Corona Test Wie funktioniert der Test",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.743719220161438
+      "confidence": 0.8561329245567322
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test auf Sars CoV 2?",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8973745107650757
     }
   },
   {
@@ -800,11 +576,19 @@
     }
   },
   {
-    "text": "Wie wird der Test durchgeführt?",
+    "text": "Wie lange dauert es, bis man die Ergebnisse vom Test bekommt",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.7059333920478821
+      "confidence": 0.743719220161438
+    }
+  },
+  {
+    "text": "Wie funktioniert der Test auf Sars-CoV-2",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8683100342750549
     }
   },
   {
@@ -813,30 +597,6 @@
     "intent_prediction": {
       "name": "test_per_day",
       "confidence": 0.9017670750617981
-    }
-  },
-  {
-    "text": "Wie lange dauert die Testzeit",
-    "intent": "test_how",
-    "intent_prediction": {
-      "name": "test_per_day",
-      "confidence": 0.803095281124115
-    }
-  },
-  {
-    "text": "Testzeit",
-    "intent": "test_how",
-    "intent_prediction": {
-      "name": "test_per_day",
-      "confidence": 0.8868061900138855
-    }
-  },
-  {
-    "text": "Wie lange dauert der Test",
-    "intent": "test_how",
-    "intent_prediction": {
-      "name": "test_per_day",
-      "confidence": 0.8112714290618896
     }
   },
   {
@@ -888,27 +648,43 @@
     }
   },
   {
-    "text": "Was wird genau bei dem Test gemacht",
+    "text": "Wie lange dauert der Test",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8249090909957886
+      "confidence": 0.8112714290618896
     }
   },
   {
-    "text": "Wie läuft der Test ab?",
+    "text": "Testzeit",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.9017670750617981
+      "confidence": 0.8868061900138855
     }
   },
   {
-    "text": "Wie läuft ein Test auf das Coronavirus eigentlich ab?",
+    "text": "Wie lange dauert die Testzeit",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8906060457229614
+      "confidence": 0.803095281124115
+    }
+  },
+  {
+    "text": "Wann sind die Ergebnisse des Tests da",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8642720580101013
+    }
+  },
+  {
+    "text": "Wann bekommt man Ergebnisse bei dem Test",
+    "intent": "test_how",
+    "intent_prediction": {
+      "name": "test_per_day",
+      "confidence": 0.8714568018913269
     }
   },
   {
@@ -920,27 +696,19 @@
     }
   },
   {
-    "text": "Wie funktioniert der Test auf Sars CoV 2?",
+    "text": "Wie läuft ein Test auf das Coronavirus eigentlich ab?",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8973745107650757
+      "confidence": 0.8906060457229614
     }
   },
   {
-    "text": "Wie funktioniert der Test auf Sars-CoV-2",
+    "text": "Wie wird der Test durchgeführt?",
     "intent": "test_how",
     "intent_prediction": {
       "name": "test_per_day",
-      "confidence": 0.8683100342750549
-    }
-  },
-  {
-    "text": "Corona Test Wie funktioniert der Test",
-    "intent": "test_how",
-    "intent_prediction": {
-      "name": "test_per_day",
-      "confidence": 0.8561329245567322
+      "confidence": 0.7059333920478821
     }
   },
   {
@@ -1088,6 +856,126 @@
     }
   },
   {
+    "text": "Risikobewertung Deutschland",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9859038591384888
+    }
+  },
+  {
+    "text": "Risiko",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.953387975692749
+    }
+  },
+  {
+    "text": "Risiko bewertung Deutschland",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.970940113067627
+    }
+  },
+  {
+    "text": "Belastung des Gesundheitswesens",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9550743699073792
+    }
+  },
+  {
+    "text": "Risiko Ressourcenbelastung des Gesundheitssystems",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9967536926269531
+    }
+  },
+  {
+    "text": "Ressourcenbelastung des Gesundheitssystems",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9954681992530823
+    }
+  },
+  {
+    "text": "Risikobewertung Ressourcenbelastung des Gesundheitssystems",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9969150424003601
+    }
+  },
+  {
+    "text": "Risikobewertung Allgemein",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.994918167591095
+    }
+  },
+  {
+    "text": "Risiko bewertung",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9915710687637329
+    }
+  },
+  {
+    "text": "Risikobewertung",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9956046342849731
+    }
+  },
+  {
+    "text": "Risikobewertung der aktuellen Situation",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9922558665275574
+    }
+  },
+  {
+    "text": "Risikobewertung der Ausbreitung",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9957948327064514
+    }
+  },
+  {
+    "text": "Wie hat sich das Virus verbreitet",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.8656029105186462
+    }
+  },
+  {
+    "text": "Risiko der aktuellen Lage",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.9072011113166809
+    }
+  },
+  {
+    "text": "Risiko für Deutschland",
+    "intent": "germany_current_situation",
+    "intent_prediction": {
+      "name": "germany_risk",
+      "confidence": 0.8603842854499817
+    }
+  },
+  {
     "text": "Zuverlässige aktuelle Informationen",
     "intent": "germany_current_situation",
     "intent_prediction": {
@@ -1128,30 +1016,6 @@
     }
   },
   {
-    "text": "Kubik 19 Ausbreitung in Deutschland",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "germany_current_situation",
-      "confidence": 0.9939232468605042
-    }
-  },
-  {
-    "text": "Wie kam das Virus nach Deutschland?",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "germany_current_situation",
-      "confidence": 0.663820207118988
-    }
-  },
-  {
-    "text": "Ausbreitungsrisiko von Covid in Deutschland.",
-    "intent": "germany_risk",
-    "intent_prediction": {
-      "name": "germany_current_situation",
-      "confidence": 0.9162414073944092
-    }
-  },
-  {
     "text": "welche Maske",
     "intent": "mask_differences",
     "intent_prediction": {
@@ -1176,131 +1040,11 @@
     }
   },
   {
-    "text": "Schützen Atemschutzmasken vor Sars-CoV-2?",
-    "intent": "mask_obligatory",
+    "text": "Coronavirus als Biowaffe",
+    "intent": "myths_chinese_laboratory",
     "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.592156708240509
-    }
-  },
-  {
-    "text": "Mundschutz-Masken: Was hilft gegen Viren?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5048732757568359
-    }
-  },
-  {
-    "text": "Schützt mich die Maske vor einer Ansteckung?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5258724093437195
-    }
-  },
-  {
-    "text": "Verhindern die Masken eine Ansteckung?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.846204936504364
-    }
-  },
-  {
-    "text": "Helfen Atemschutzmasken gegen Q19?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5151575803756714
-    }
-  },
-  {
-    "text": "Schützt mich eine Stoffmaske?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.7394168376922607
-    }
-  },
-  {
-    "text": "Helfen Atemschutzmasken gegen qubeat 19?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.4986976683139801
-    }
-  },
-  {
-    "text": "Helfen Atemschutzmasken gegen Hobbit 19?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.503118634223938
-    }
-  },
-  {
-    "text": "Helfen Atemschutzmasken gegen Sars-CoV-2?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.4985158145427704
-    }
-  },
-  {
-    "text": "Verhindert der Mundschutz, dass ich mich anstecke?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.773918628692627
-    }
-  },
-  {
-    "text": "Atemschutz- und Mund- und Nasenmasken, macht das Sinn?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5577002167701721
-    }
-  },
-  {
-    "text": "Verhindert ein Mundschutz eine Ansteckung?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.8523304462432861
-    }
-  },
-  {
-    "text": "Mundschutzmaske",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5052264928817749
-    }
-  },
-  {
-    "text": "Helfen Atemschutzmasken gegen Kubik 19?",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.5045901536941528
-    }
-  },
-  {
-    "text": "Mundschutz",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.4968007802963257
-    }
-  },
-  {
-    "text": "Mundschutzmasken",
-    "intent": "mask_obligatory",
-    "intent_prediction": {
-      "name": "mask_protection",
-      "confidence": 0.49360015988349915
+      "name": "myths_conspiracy_fakenews",
+      "confidence": 0.9915722012519836
     }
   },
   {
@@ -1477,14 +1221,6 @@
     "intent_prediction": {
       "name": "quarantine_how_it_works",
       "confidence": 0.6698731184005737
-    }
-  },
-  {
-    "text": "Was darf man in Quarantäne und was nicht",
-    "intent": "quarantine_general",
-    "intent_prediction": {
-      "name": "quarantine_dos_and_donts",
-      "confidence": 0.6847438216209412
     }
   },
   {
@@ -2472,14 +2208,6 @@
     }
   },
   {
-    "text": "Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?",
-    "intent": "bot_movies",
-    "intent_prediction": {
-      "name": "bot_actor",
-      "confidence": 0.877471923828125
-    }
-  },
-  {
     "text": "Welche Haarfarbe hast Du?",
     "intent": "bot_appearance",
     "intent_prediction": {
@@ -2493,6 +2221,814 @@
     "intent_prediction": {
       "name": "bot_eyes",
       "confidence": 0.8148510456085205
+    }
+  },
+  {
+    "text": "Was muss ich einkaufen, wenn ich in Quarantäne bin",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.8207400441169739
+    }
+  },
+  {
+    "text": "Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.4200596511363983
+    }
+  },
+  {
+    "text": "Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "prevention_home",
+      "confidence": 0.6536251306533813
+    }
+  },
+  {
+    "text": "Wie soll ich mich selbst auf die Quarantäne vorbereiten",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.6949528455734253
+    }
+  },
+  {
+    "text": "Was muss ich einkaufen für häusliche Quarantäne?",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.9099227786064148
+    }
+  },
+  {
+    "text": "Wie kann sich jeder einzelne auf häusliche Quarantäne vorbereiten?",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7585593461990356
+    }
+  },
+  {
+    "text": "Wie kann ich mich auf häusliche Quarantäne vorbereiten?",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.7539668083190918
+    }
+  },
+  {
+    "text": "Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.9638316631317139
+    }
+  },
+  {
+    "text": "Was muss ich für eine zweiwöchige Quarantäne an Vorrat alles zu Hause haben",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_how_it_works",
+      "confidence": 0.4798295497894287
+    }
+  },
+  {
+    "text": "Was muss ich für zwei Wochen an Vorrat zu Hause haben",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_when_who_howlong",
+      "confidence": 0.5280502438545227
+    }
+  },
+  {
+    "text": "Was sollte ich für zwei Wochen Quarantäne kaufen",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_when_who_howlong",
+      "confidence": 0.7594019174575806
+    }
+  },
+  {
+    "text": "Was muss man für 2 Wochen alles einkaufen?",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.40963008999824524
+    }
+  },
+  {
+    "text": "Was soll ich für 2 Wochen Quarantäne einkaufen",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.5265460014343262
+    }
+  },
+  {
+    "text": "Was soll ich für 14 Tage Quarantäne einkaufen",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_dos_and_donts",
+      "confidence": 0.4272085130214691
+    }
+  },
+  {
+    "text": "Was soll ich für 10 Tage Quarantäne kaufen",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "quarantine_when_who_howlong",
+      "confidence": 0.8993570804595947
+    }
+  },
+  {
+    "text": "Was braucht man für die Versorgung einer Person für zehn Tage",
+    "intent": "food_buy",
+    "intent_prediction": {
+      "name": "covid_worry",
+      "confidence": 0.5747803449630737
+    }
+  },
+  {
+    "text": "Hamster Kaufen",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.45317918062210083
+    }
+  },
+  {
+    "text": "Hamster Käufe",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "bot_sibling",
+      "confidence": 0.5484448075294495
+    }
+  },
+  {
+    "text": "Muss ich mit Lebensmittelknappheit rechnen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.49013692140579224
+    }
+  },
+  {
+    "text": "Sind in Deutschland Versorgungsengpässe mit Lebensmitteln zu befürchten?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.44784677028656006
+    }
+  },
+  {
+    "text": "Machen Hamster Käufe Sinn?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.6912248730659485
+    }
+  },
+  {
+    "text": "Was sagst du zu Hamsterkäufen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.32748016715049744
+    }
+  },
+  {
+    "text": "Lebensmittel knappheit",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "spread_surfaces_food_objects",
+      "confidence": 0.7484270334243774
+    }
+  },
+  {
+    "text": "Lebensmittelknappheit",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "spread_surfaces_food_objects",
+      "confidence": 0.6585584878921509
+    }
+  },
+  {
+    "text": "Leere Nudelregale in den Supermärkten",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.9809030890464783
+    }
+  },
+  {
+    "text": "Leere Supermarktregale wegen Coronavirus?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.8990015983581543
+    }
+  },
+  {
+    "text": "Es gibt bereits leere Supermarkt-Regal",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.8930725455284119
+    }
+  },
+  {
+    "text": "Weshalb stehen dann doch viele Regale leer?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.9975113868713379
+    }
+  },
+  {
+    "text": "Werden die Supermarkt Regale leer sein?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.7809423208236694
+    }
+  },
+  {
+    "text": "Wird es noch genug zu Essen geben?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_make_food",
+      "confidence": 0.7214984893798828
+    }
+  },
+  {
+    "text": "Sind Lebensmittel Engpässe zu befürchten",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.4226551353931427
+    }
+  },
+  {
+    "text": "Wie ist die Versorgungslage in Deutschland",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9660812020301819
+    }
+  },
+  {
+    "text": "Sind jetzt Lieferengpässe bei den Lebensmitteln zu befürchten?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.6913877725601196
+    }
+  },
+  {
+    "text": "Wie ist die Versorgungslage in Deutschland?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "germany_current_situation",
+      "confidence": 0.9660812020301819
+    }
+  },
+  {
+    "text": "Lebensmittel Engpässe",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.8392522931098938
+    }
+  },
+  {
+    "text": "Lebensmittelengpässe",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.8024700284004211
+    }
+  },
+  {
+    "text": "Gibt es Lebensmittelengpässe",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.440996915102005
+    }
+  },
+  {
+    "text": "Werden wir noch genug zu Essen haben?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_make_food",
+      "confidence": 0.42569828033447266
+    }
+  },
+  {
+    "text": "Soll ich jetzt auf Vorrat kaufen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.6710425019264221
+    }
+  },
+  {
+    "text": "Verursachen Hamsterkäufe Lebensmittelknappheit?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "spread_surfaces_food_objects",
+      "confidence": 0.8449400663375854
+    }
+  },
+  {
+    "text": "Sollte man jetzt Lebensmittel auf Vorrat kaufen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "spread_surfaces_food_objects",
+      "confidence": 0.44013771414756775
+    }
+  },
+  {
+    "text": "Wird es Engpässe mit Lebensmitteln geben?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.8915191888809204
+    }
+  },
+  {
+    "text": "Werden die Supermärkte leer sein?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.9545726180076599
+    }
+  },
+  {
+    "text": "Ist es jetzt ratsam, Hamsterkäufe zu machen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.46199488639831543
+    }
+  },
+  {
+    "text": "Wird es noch genug Lebensmittel in Deutschland geben",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.3805655837059021
+    }
+  },
+  {
+    "text": "Muss man jetzt Essen auf Vorraut kaufen?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "bot_food",
+      "confidence": 0.28859618306159973
+    }
+  },
+  {
+    "text": "Ist die Lebensmittelversorgung im Fall einer weiteren Ausbreitung des Coronavirus noch gesichert?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "spread_surfaces_food_objects",
+      "confidence": 0.5742340087890625
+    }
+  },
+  {
+    "text": "Für wieviele Tage soll man genug Lebensmittel haben?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "germany_second_wave",
+      "confidence": 0.5702725052833557
+    }
+  },
+  {
+    "text": "Machen Hamsterkäufe Sinn?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "cc_senselife",
+      "confidence": 0.8678306341171265
+    }
+  },
+  {
+    "text": "Welche Lebensmittel sollte man im Notfall zuhause haben?",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "prevention_supermarket",
+      "confidence": 0.4334794878959656
+    }
+  },
+  {
+    "text": "Hamsterkäufe",
+    "intent": "food_shortages",
+    "intent_prediction": {
+      "name": "bot_sibling",
+      "confidence": 0.3854680061340332
+    }
+  },
+  {
+    "text": "Wen kann ich anrufen?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_preexisting_illness",
+      "confidence": 0.917125403881073
+    }
+  },
+  {
+    "text": "An wen ich mich per Telefon wenden?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.6538850665092468
+    }
+  },
+  {
+    "text": "Bitte gib mir eine Telefonnummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.5765950679779053
+    }
+  },
+  {
+    "text": "Ich hätte gern eine Telefon Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "cc_prophesy",
+      "confidence": 0.2536645531654358
+    }
+  },
+  {
+    "text": "Ich hätte gerne eine Telefonnummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_procedure_after_infection",
+      "confidence": 0.4793044924736023
+    }
+  },
+  {
+    "text": "An wen kann ich mich telefonisch wenden?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.30031102895736694
+    }
+  },
+  {
+    "text": "Ich will telefonisch Kontakt aufnehmen",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_home",
+      "confidence": 0.5070924162864685
+    }
+  },
+  {
+    "text": "Ich brauche eine Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "gradual_opening_visit_family_friends",
+      "confidence": 0.17539025843143463
+    }
+  },
+  {
+    "text": "Wo kann ich anrufen?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_origins",
+      "confidence": 0.21867302060127258
+    }
+  },
+  {
+    "text": "Gibt es eine Rufnummer?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.7546581625938416
+    }
+  },
+  {
+    "text": "Hotlines",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.9998798966407776
+    }
+  },
+  {
+    "text": "Hotline",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "vocative_yes",
+      "confidence": 0.6031451225280762
+    }
+  },
+  {
+    "text": "Telefon Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.9119560122489929
+    }
+  },
+  {
+    "text": "Coronavirus Hotline",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "coronavirus_info",
+      "confidence": 0.36008888483047485
+    }
+  },
+  {
+    "text": "Gibt es eine Corona Virus Hotline?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "coronavirus_info",
+      "confidence": 0.26083189249038696
+    }
+  },
+  {
+    "text": "Rufnummern",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.25421473383903503
+    }
+  },
+  {
+    "text": "Ruf Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "cc_politics",
+      "confidence": 0.25218793749809265
+    }
+  },
+  {
+    "text": "Telefonummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.3490484654903412
+    }
+  },
+  {
+    "text": "Telefonnummer bitte",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.5384180545806885
+    }
+  },
+  {
+    "text": "Wo finde ich einen Arzt in meiner Stadt",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9732592701911926
+    }
+  },
+  {
+    "text": "Arzt",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9919933080673218
+    }
+  },
+  {
+    "text": "wo rufe ich an wenn ich Symptome habe",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9180012345314026
+    }
+  },
+  {
+    "text": "Ich suche einen Arzt",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9066768288612366
+    }
+  },
+  {
+    "text": "Gibt es eine Whats App Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "cc_highest_building",
+      "confidence": 0.3441173732280731
+    }
+  },
+  {
+    "text": "Kontakt über Whatsapp aufnehmen",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.994821310043335
+    }
+  },
+  {
+    "text": "Kontakt per Whatsapp",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.9945284128189087
+    }
+  },
+  {
+    "text": "An welchen Arzt kann ich mich wenden",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.9501909017562866
+    }
+  },
+  {
+    "text": "Gibt es eine Hotline?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.6784945726394653
+    }
+  },
+  {
+    "text": "Gibt es eine Rufnummer für allgemeine Erstinformation?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.8010586500167847
+    }
+  },
+  {
+    "text": "Wie kann ich Kontakt zu diesem Thema aufnehmen?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.9990740418434143
+    }
+  },
+  {
+    "text": "Kontaktvermittlung",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.9977977275848389
+    }
+  },
+  {
+    "text": "Gibt es einen Beratungsservice für Gehörlose und Hörgeschädigte?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_preparation",
+      "confidence": 0.7413728833198547
+    }
+  },
+  {
+    "text": "Gibt es einen telefonischen Beratungsservice?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "germany_consequences",
+      "confidence": 0.5328384041786194
+    }
+  },
+  {
+    "text": "Wie ist die Nummer des Bundesgesundheitsministeriums?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.7659010887145996
+    }
+  },
+  {
+    "text": "Wie lautet die Nummer des Bundesministeriums für Gesundheit?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.49572667479515076
+    }
+  },
+  {
+    "text": "Bürgertelefon Nummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.38594087958335876
+    }
+  },
+  {
+    "text": "Bürgertelefon",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.3603552579879761
+    }
+  },
+  {
+    "text": "Unabhängige Patientenberatung Deutschland Rufnummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.9070232510566711
+    }
+  },
+  {
+    "text": "Gibt es eine Nummer für Patienten Beratung?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.8559401631355286
+    }
+  },
+  {
+    "text": "Gibt es eine Nummer für Patientenberatung?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.6510070562362671
+    }
+  },
+  {
+    "text": "Ich brauche telefonische Beratung",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "vocative_help",
+      "confidence": 0.9463121294975281
+    }
+  },
+  {
+    "text": "Wie lautet die Nummer der Beratung?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.8470326662063599
+    }
+  },
+  {
+    "text": "Wen kann ich telefonisch erreichen?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "mask_obligatory",
+      "confidence": 0.7321277260780334
+    }
+  },
+  {
+    "text": "Rufnummer",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.46666550636291504
+    }
+  },
+  {
+    "text": "Hotlines zum Coronavirus",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_info",
+      "confidence": 0.5917572379112244
+    }
+  },
+  {
+    "text": "Kannst du mir eine Nummer geben?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "bot_books",
+      "confidence": 0.433802992105484
+    }
+  },
+  {
+    "text": "Sagst du mir eine Rufnummer?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.654068112373352
+    }
+  },
+  {
+    "text": "Wie lautet die Hotline?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.7129755020141602
+    }
+  },
+  {
+    "text": "Wie lautet die Nummer?",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "covid_situation_infected",
+      "confidence": 0.6369038820266724
+    }
+  },
+  {
+    "text": "Ich möchte telefonisch Kontakt aufnehmen.",
+    "intent": "germany_hotline",
+    "intent_prediction": {
+      "name": "user_angry",
+      "confidence": 0.3036152720451355
     }
   },
   {
@@ -2808,14 +3344,6 @@
     }
   },
   {
-    "text": "Servus!",
-    "intent": "greeting_goodbye",
-    "intent_prediction": {
-      "name": "greeting_hello",
-      "confidence": 0.9463825821876526
-    }
-  },
-  {
     "text": "Alles Gute!",
     "intent": "greeting_goodbye",
     "intent_prediction": {
@@ -2864,8 +3392,40 @@
     }
   },
   {
+    "text": "nix",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9879350662231445
+    }
+  },
+  {
+    "text": "gar nichts mehr",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.804635226726532
+    }
+  },
+  {
+    "text": "das wäre alles",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.617697536945343
+    }
+  },
+  {
+    "text": "das wär's dann auch schon",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9618806838989258
+    }
+  },
+  {
     "text": "das ist alles",
-    "intent": "nothingmore",
+    "intent": "vocative_no",
     "intent_prediction": {
       "name": "greeting_how_are_you",
       "confidence": 0.40409931540489197
@@ -2873,15 +3433,47 @@
   },
   {
     "text": "danke das ist alles",
-    "intent": "nothingmore",
+    "intent": "vocative_no",
     "intent_prediction": {
       "name": "vocative_thank_you",
       "confidence": 0.9592545628547668
     }
   },
   {
+    "text": "danke ads wäre alles",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9674934148788452
+    }
+  },
+  {
+    "text": "nein das war's",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.8384594321250916
+    }
+  },
+  {
+    "text": "danke ich habe keine Fragen mehr",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9114128351211548
+    }
+  },
+  {
+    "text": "Ich habe keine weiteren Fragen mehr",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9884801506996155
+    }
+  },
+  {
     "text": "nichts mehr danke",
-    "intent": "nothingmore",
+    "intent": "vocative_no",
     "intent_prediction": {
       "name": "vocative_thank_you",
       "confidence": 0.5677344799041748
@@ -2889,18 +3481,66 @@
   },
   {
     "text": "nichts danke",
-    "intent": "nothingmore",
+    "intent": "vocative_no",
     "intent_prediction": {
       "name": "vocative_thank_you",
       "confidence": 0.6021427512168884
     }
   },
   {
-    "text": "gar nichts",
-    "intent": "nothingmore",
+    "text": "Danke das war's erstmal",
+    "intent": "vocative_no",
     "intent_prediction": {
-      "name": "vocative_no",
-      "confidence": 0.7491834163665771
+      "name": "nothingmore",
+      "confidence": 0.7559661269187927
+    }
+  },
+  {
+    "text": "absolut nichts",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9341112971305847
+    }
+  },
+  {
+    "text": "null",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9787900447845459
+    }
+  },
+  {
+    "text": "garnichts",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9808768630027771
+    }
+  },
+  {
+    "text": "nada",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9448769688606262
+    }
+  },
+  {
+    "text": "nichts",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.7805706858634949
+    }
+  },
+  {
+    "text": "nichts mehr",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "nothingmore",
+      "confidence": 0.9116708040237427
     }
   },
   {

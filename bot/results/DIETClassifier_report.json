@@ -12,9 +12,9 @@
     "support": 34
   },
   "country_code": {
-    "precision": 0.979328165374677,
+    "precision": 0.9717948717948718,
     "recall": 1.0,
-    "f1-score": 0.989556135770235,
+    "f1-score": 0.9856957087126137,
     "support": 1516
   },
   "country_district": {
@@ -24,21 +24,21 @@
     "support": 19
   },
   "micro avg": {
-    "precision": 0.9801118707271598,
+    "precision": 0.9728562615669339,
     "recall": 0.9993662864385298,
-    "f1-score": 0.989645434577973,
+    "f1-score": 0.9859331040950298,
     "support": 1578
   },
   "macro avg": {
-    "precision": 0.9948320413436693,
+    "precision": 0.992948717948718,
     "recall": 0.9926470588235294,
-    "f1-score": 0.9936576906589767,
+    "f1-score": 0.9926925838945713,
     "support": 1578
   },
   "weighted avg": {
-    "precision": 0.9801403667351143,
+    "precision": 0.9729030580741607,
     "recall": 0.9993662864385298,
-    "f1-score": 0.9896448917244038,
+    "f1-score": 0.9859361417755103,
     "support": 1578
   }
 }

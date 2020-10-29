@@ -7100,6 +7100,7 @@
 ## intent:bot_animal
 - Was ist dein Lieblingstier?
 - Welches Tier magst du am liebsten?
+- Welches Tier magst du am liebsten
 - Was ist Ihr Lieblingstier?
 - Welches Tier ziehst du vor?
 - Welche Tiere magst du am liebsten?
@@ -7183,6 +7184,7 @@
 ## intent:bot_actor
 - Wer ist dein Lieblingsschauspieler?
 - Wer sind deine Lieblingsschauspieler?
+- Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?
 - Schauspieler, den du magst.
 - Schauspieler, die du magst.
 - Hast du einen Schauspieler, den du magst?
@@ -8106,7 +8108,6 @@
 - Magst du LSD?
 - Trinkst du gerne alkohol?
 - Nimmst du Drogen?
-- Bist du ein Mädchen?
 - Willst du mit mir Drogen nehmen?
 - Willst du 'ne Zigarette?
 - Rauchst du eine mit mir?
@@ -8862,11 +8863,9 @@
 - Liest du gern?
 - Welche Bücher hast du gelesen?
 - Lesen Sie gern Bücher?
-- Was ist dein Lieblinsgautor?
 - Bots Lieblingsbuch
 - Liest du in deiner Freizeit?
 - Lieblingsbuch
-- Lieblingsautor
 - Welche Art von Zeitschriften liest du?
 - Welches ist dein Lieblingbuch?
 - Lesen Sie gerne Zeitschriften?
@@ -9146,7 +9145,6 @@
 - Was ist deine Lieblingsserie?
 - Harry Potter
 - Herr der Ringe
-- Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?
 - Was ist dein Lieblingsfilm?
 - Welche Filme magst du am liebsten?
 - Welche Filme sehen Sie gern?
@@ -9573,6 +9571,9 @@
 	
 <!---
 ## intent:chitchat_botpersonal
+- Magst du jemanden, der dich interessiert, dich zu verfolgen, oder ziehst du es vor zu jagen?
+- Sind Sie ledig?
+- Wann haben Sie Ferien?
 - Würdest du dich für die Liebe umziehen?
 - Wann sind Sie im Urlaub?
 - Was machst du wenn du wütend bist?
@@ -9600,9 +9601,6 @@
 - Hattest Du schon sex?
 - Kannst du dich beschreiben?
 - Können Sie sich beschreiben?
-- Magst du jemanden, der dich interessiert, dich zu verfolgen, oder ziehst du es vor zu jagen?
-- Sind Sie ledig?
-- Wann haben Sie Ferien?
 - Wo würdest du gerne in 5 Jahren sein?
 - Was ist deine Liebessprache?
 - Was ist dein größtes Bedauern im Leben bisher?
@@ -11291,8 +11289,6 @@
 - Nirgends.
 - Nirgendwo.
 - niente
-	
-## intent:nothingmore
 - nix
 - gar nichts mehr
 - das wäre alles

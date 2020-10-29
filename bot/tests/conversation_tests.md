@@ -39,7 +39,7 @@
   - action_get_news_request
 
 ## covid_current_situation_get_news_entity_country
-* covid_current_situation: Wie ist die Situation in Kolumbien
+* covid_current_situation: Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
   - action_get_news_request
 
 ## covid_current_statistics_happy_path_state
@@ -51,7 +51,7 @@
   - utter_covid_current_statistics_region
 
 ## covid_current_statistics_unhappy_empty_path_state_no
-* covid_situation_infected: Wie viele Fälle gibt es in [Bremen]{"entity": "country_district", "value": "Bremen"}
+* covid_situation_infected: Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Bremen"}
@@ -61,7 +61,7 @@
   - utter_covid_no_country_current_statistics
 
 ## covid_current_statistics_unhappy_not_ok_path_state_no
-* covid_situation_infected: Wieviele Fälle gibt es momentan in Saarland?
+* covid_situation_infected: Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Bremen"}
@@ -71,7 +71,7 @@
   - utter_covid_no_country_current_statistics
 
 ## covid_current_statistics_unhappy_empty_path_state_yes
-* covid_situation_infected: Ich wüsste gern die Zahl der Erkrankten weltweit
+* covid_situation_infected: Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Bremen"}
@@ -87,7 +87,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_state_yes
-* covid_situation_infected: Zahlen infizierte Menschen weltweit
+* covid_situation_infected: Wie viele Menschen sind in [Thüringen]{"entity": "country_state", "value": "Thüringen"} gestorben
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Bremen"}
@@ -103,7 +103,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_happy_path_district
-* covid_situation_infected: wie viele leute sind betroffen
+* covid_situation_infected: Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
   - action_search_stats_region
   - slot{"region_search_successful": "ok"}
   - slot{"region": "München"}
@@ -111,7 +111,7 @@
   - utter_covid_current_statistics_region
 
 ## covid_current_statistics_unhappy_empty_path_district_yes
-* covid_situation_infected: Wie viele Menschen sind in München infiziert
+* covid_situation_infected: Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
@@ -126,7 +126,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_not_ok_path_district_yes
-* covid_situation_infected: In welchem Bundesland gibt die meisten Fälle?
+* covid_situation_infected: Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Frankfurt"}
@@ -142,7 +142,7 @@
   - utter_covid_situation_infected
 
 ## covid_current_statistics_unhappy_path_empty_district_no
-* covid_situation_infected: Zahlen infizierte Menschen weltweit
+* covid_situation_infected: Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
   - action_search_stats_region
   - slot{"region_search_successful": "empty"}
   - slot{"region": "Frankfurt"}
@@ -152,7 +152,7 @@
   - utter_covid_no_country_current_statistics 
 
 ## covid_current_statistics_unhappy_path_not_ok_district_no
-* covid_situation_infected: Wie viele Menschen sind infiziert
+* covid_situation_infected: Todesfälle in [Darmstadt]{"entity": "country_district", "value": "Darmstadt"}
   - action_search_stats_region
   - slot{"region_search_successful": "not-ok"}
   - slot{"region": "Frankfurt"}
@@ -699,7 +699,7 @@
   - utter_bot_languages
 
 ## bot_movies
-* bot_movies: Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?
+* bot_movies: Lieblingsfilm
   - utter_bot_movies
 
 ## bot_music
@@ -783,7 +783,7 @@
   - utter_bot_words
 
 ## bot_worst_experience
-* bot_worst_experience: Sind Sie ledig?
+* bot_worst_experience: Mehr über deine schlechten Erfahrungen!
   - utter_bot_worst_experience
 
 ## cc_afterlife
@@ -811,7 +811,7 @@
   - utter_cc_fun_fact
 
 ## cc_geography
-* cc_geography: Wo ist China?
+* cc_geography: Wo ist [China]{"entity": "country_code", "value": "CN"}?
   - utter_cc_geography
 
 ## cc_highest_building
@@ -1013,11 +1013,11 @@
 Generic requests -->
 
 ## covid_situation_without_country
-* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand sind in Deutschland?
+* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand sind in [Deutschland]{"entity": "country_code", "value": "DE"}?
   - utter_want_to_add_country
 * vocative_yes: Ich habe keine Einwände.
   - utter_ask_which_country
-* country: Nippon
+* country: [Nippon]{"entity": "country_code", "value": "JP"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1027,15 +1027,15 @@ Generic requests -->
   - utter_covid_situation_infected
 
 ## covid_situation_without_country2
-* covid_situation_infected_critical: Personen in kritischem Zustand in Österreich.
+* covid_situation_infected_critical: Personen in kritischem Zustand in [Österreich]{"entity": "country_code", "value": "AT"}.
   - utter_want_to_add_country
 * vocative_no: lieber nicht
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_without_country3
-* covid_situation_infected_critical: Wieviele Personen in China sind im kritischen Zustand?
+* covid_situation_infected_critical: Wieviele Personen in [China]{"entity": "country_code", "value": "CN"} sind im kritischen Zustand?
   - utter_want_to_add_country
-* country: moldova
+* country: [moldova]{"entity": "country_code", "value": "MD"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1046,7 +1046,7 @@ Generic requests -->
 
 
 ## covid_situation_infected_happy 
-* covid_situation_infected: Wie viele Menschen sind in Indien gestorben
+* covid_situation_infected: Wie viele Menschen sind in [Indien]{"entity": "country_code", "value": "IN"} gestorben
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1056,19 +1056,19 @@ Generic requests -->
   - utter_covid_situation_infected
 
 ## covid_situation_infected_unhappy
-* covid_situation_infected: Krankheitsfälle in Hessen
+* covid_situation_infected: Krankheitsfälle in [Hessen]{"entity": "country_state", "value": " Hessen"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_unhappy_with_country
-* covid_situation_infected: Stecken sich mehr Frauen oder mehr Männer an?
+* covid_situation_infected: Wie viele Infizierte gibt es in [Neuseeland]{"entity": "country_code", "value": "NZ"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_yes: Akzeptiere.
   - utter_ask_which_country
-* country: Kiribati
+* country: [Kiribati]{"entity": "country_code", "value": "KI"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1078,19 +1078,19 @@ Generic requests -->
   - utter_covid_situation_infected
 
 ## covid_situation_unhappy_inexistent_country
-* covid_situation_infected: Wie sind die Fallzahlen in Österreich
+* covid_situation_infected: Wie sind die Fallzahlen in [Österreich]{"entity": "country_code", "value": "AT"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_yes: Ja, gern.
   - utter_ask_which_country
-* country: Gambia
+* country: [Gambia]{"entity": "country_code", "value": "GM"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_unhappy_with_dashboard
-* covid_situation_infected: Wie viele aktive Fälle sind in England enthalten?
+* covid_situation_infected: Wie viele aktive Fälle sind in [England]{"entity": "country_code", "value": "GB"} enthalten?
   - action_search_stats
   - slot{"search_successful": "False"}
   - utter_want_to_add_country
@@ -1098,7 +1098,7 @@ Generic requests -->
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_happy
-* covid_situation_infected_critical: Wie viele Personen befinden sich in Kanada in einem kritischen Zustand?
+* covid_situation_infected_critical: Wie viele Personen befinden sich in [Kanada]{"entity": "country_code", "value": "CA"} in einem kritischen Zustand?
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1108,19 +1108,19 @@ Generic requests -->
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy
-* covid_situation_infected_critical: Wie viele Menschen befinden sich in Italien in kritischem Zustand
+* covid_situation_infected_critical: Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
   - action_search_stats
   - slot{"search_successful": "not-ok"}
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_unhappy_with_country
-* covid_situation_infected_critical: Wie viele Menschen befinden sich in Italien in kritischem Zustand
+* covid_situation_infected_critical: Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_yes: Ich habe nichts dagegen.
   - utter_ask_which_country
-* country: Cuba
+* country: [Cuba]{"entity": "country_code", "value": "CU"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1130,19 +1130,19 @@ Generic requests -->
   - utter_covid_situation_infected_critical
 
 ## covid_situation_infected_critical_unhappy_inexistent_country
-* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in England?
+* covid_situation_infected_critical: Wie viele Personen in kritischem Zustand in [England]{"entity": "country_code", "value": "GB"}?
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country
 * vocative_yes: Jap.
   - utter_ask_which_country
-* country: Paraguay
+* country: [Paraguay]{"entity": "country_code", "value": "PY"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
   - utter_covid_no_country_current_statistics
 
 ## covid_situation_infected_critical_unhappy_with_dashboard
-* covid_situation_infected_critical: Kritischer Zustand in Russland.
+* covid_situation_infected_critical: Kritischer Zustand in [Russland]{"entity": "country_code", "value": "RU"}.
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
   - utter_want_to_add_country

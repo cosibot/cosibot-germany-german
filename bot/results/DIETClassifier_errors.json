@@ -147,6 +147,97 @@
     ]
   },
   {
+    "text": "Hamster Käufe",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 13,
+        "value": "Hamster Käufe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Weshalb stehen dann doch viele Regale leer?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 7,
+        "value": "Weshalb",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hotlines",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 8,
+        "value": "Hotlines",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Telefon Nummer",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 14,
+        "value": "Telefon Nummer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ruf Nummer",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 10,
+        "value": "Ruf Nummer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Telefonnummer bitte",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 19,
+        "value": "Telefonnummer bitte",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bürgertelefon Nummer",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 20,
+        "value": "Bürgertelefon Nummer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "Mein Name ist",
     "entities": [],
     "predicted_entities": [
