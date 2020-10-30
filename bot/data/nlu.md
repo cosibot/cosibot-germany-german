@@ -9435,7 +9435,7 @@
 - In welchen Situationen empfindest du Angst?
 - Kannst du auch Angst empfinden?
 
-## intent:food_buy
+## intent:germany_food_buy
 - Was muss ich einkaufen, wenn ich in Quarantäne bin
 - Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?
 - Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben
@@ -9453,7 +9453,7 @@
 - Was soll ich für 10 Tage Quarantäne kaufen
 - Was braucht man für die Versorgung einer Person für zehn Tage
 
-## intent:food_shortages
+## intent:germany_food_shortages
 - Hamster Kaufen
 - Hamster Käufe
 - Muss ich mit Lebensmittelknappheit rechnen?
