@@ -9,31 +9,19 @@
         "entity": "country_state"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 3,
-        "end": 18,
-        "value": "Berlin ist eine",
-        "extractor": "DIETClassifier"
-      }
-    ]
+    "predicted_entities": []
   },
   {
     "text": "Ukraine Einreise",
-    "entities": [],
-    "predicted_entities": [
+    "entities": [
       {
-        "entity": "country_code",
         "start": 0,
         "end": 7,
         "value": "UA",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "entity": "country_code"
       }
-    ]
+    ],
+    "predicted_entities": []
   },
   {
     "text": "Welche Einreisebeschränkungen gibt es in die Ukraine?",
@@ -52,308 +40,18 @@
     ]
   },
   {
-    "text": "Sag ich ja Maschine",
+    "text": "Ich bin gerade in Italien, was soll ich machen?",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "country_code",
-        "start": 8,
-        "end": 10,
-        "value": "ja",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Bist du ein Mann?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 4,
-        "value": "Bist",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "country_code",
-        "start": 12,
-        "end": 16,
-        "value": "IM",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Sind Sie ein Mann",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 4,
-        "value": "Sind",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "country_code",
-        "start": 13,
-        "end": 17,
-        "value": "IM",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Rede mit mir",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 9,
-        "end": 12,
-        "value": "mir",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Hast du einen Mann?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 4,
-        "value": "Hast",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "country_code",
-        "start": 14,
-        "end": 18,
-        "value": "IM",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Hamster Käufe",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 13,
-        "value": "Hamster Käufe",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Weshalb stehen dann doch viele Regale leer?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 7,
-        "value": "Weshalb",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Hotlines",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 8,
-        "value": "Hotlines",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Telefon Nummer",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 14,
-        "value": "Telefon Nummer",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Ruf Nummer",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 10,
-        "value": "Ruf Nummer",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Telefonnummer bitte",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 19,
-        "value": "Telefonnummer bitte",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Bürgertelefon Nummer",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 20,
-        "value": "Bürgertelefon Nummer",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Mein Name ist",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 13,
-        "value": "Mein Name ist",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Wie lautet Ihr Name?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 15,
-        "end": 19,
-        "value": "firstname",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Wie ist Ihr Name?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 12,
-        "end": 16,
-        "value": "firstname",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Den Namen, bitte.",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 9,
-        "value": "Den Namen",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Bestätigen Sie Ihren Namen!",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 26,
-        "value": "Bestätigen Sie Ihren Namen",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Sagen Sie mir Ihren Namen!",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 5,
-        "value": "Sagen",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "country_code",
-        "start": 10,
+        "start": 18,
         "end": 25,
-        "value": "mir Ihren Namen",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Name, bitte.",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 4,
-        "value": "firstname",
+        "value": "IT",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
         ]
-      }
-    ]
-  },
-  {
-    "text": "Von mir aus.",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_code",
-        "start": 0,
-        "end": 11,
-        "value": "Von mir aus",
-        "extractor": "DIETClassifier"
       }
     ]
   }
