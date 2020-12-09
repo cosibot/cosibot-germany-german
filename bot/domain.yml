@@ -3804,27 +3804,9 @@ responses:
     - custom:
         answers:
           - type: ssml   
-            ssml: <speak>Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?</speak>       
+            ssml: <speak>Hallo, ich bin Helena. Ich stand Ihnen 8 Monate lang zur Verfügung und habe Ihre Fragen zum Thema Kowitt 19 beantwortet. Seit November 2020 bin ich deaktiviert und habe keine Updates mehr. Meine Kollegin Helen, die Englisch spricht, ist immer noch aktiv. Sie können mit ihr im Internet, auf Facebook, per WhatsApp oder per SMS sprechen.</speak>
           - type: text
-            text: Hallo! Ich bin Helena, Ihre virtuelle Assistentin. Ich helfe Ihnen bei Ihren Fragen rund um das Thema Coronavirus – von generellen Informationen über das Virus und seine Übertragung bis hin zu Schutzmaßnahmen, Reiseinformationen und mehr. Wie kann ich Ihnen behilflich sein?
-          - type: hints
-            options:
-              - label: Kontaktverbot
-                value: Kontaktverbot
-              - label: Schutzmaßnahmen
-                value: Schutzmaßnahmen
-              - label: Zuhause bleiben
-                value: Zuhause bleiben
-              - label: Übertragung
-                value: Übertragung
-              - label: Behandlung
-                value: Behandlung
-              - label: Statistiken
-                value: Statistiken
-              - label: Arbeitsrecht
-                value: Arbeitsrecht
-              - label: Reiserückholprogramm
-                value: Reiserückholprogramm
+            text: Hallo, ich bin Helena. Ich stand Ihnen 8 Monate lang zur Verfügung und habe Ihre Fragen zum Thema COVID-19 beantwortet. Seit November 2020 bin ich deaktiviert und habe keine Updates mehr. Meine Kollegin Helen, die Englisch spricht, ist immer noch aktiv. Sie können mit ihr im <a href='https://cosibot.org/' target='_blank'>Internet</a>, auf <a href='https://www.facebook.com/cosibot' target='_blank'>Facebook</a>, per <a href='https://wa.me/4915735989133' target='_blank'>WhatsApp</a> oder per SMS sprechen.
 
   utter_greeting_hello_introduced_true:
     - custom:
