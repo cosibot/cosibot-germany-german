@@ -1,47 +1,57 @@
 [
   {
-    "text": "Todesfälle in Darmstadt",
+    "text": "In Berlin ist eine Ausgeheinschränkung",
     "entities": [
       {
-        "start": 14,
-        "end": 23,
-        "value": "Darmstadt",
-        "entity": "country_district"
+        "start": 3,
+        "end": 9,
+        "value": "Berlin",
+        "entity": "country_state"
       }
     ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ukraine Einreise",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "UA",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Welche Einreisebeschränkungen gibt es in die Ukraine?",
+    "entities": [],
     "predicted_entities": [
       {
-        "entity": "country_state",
-        "start": 14,
-        "end": 23,
-        "value": "Darmstadt",
-        "extractor": "DIETClassifier"
+        "entity": "country_code",
+        "start": 45,
+        "end": 52,
+        "value": "UA",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
   {
-    "text": "Fälle in Berlin",
+    "text": "Ich bin gerade in Italien, was soll ich machen?",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "country_state",
-        "start": 9,
-        "end": 15,
-        "value": "Berlin",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Infektionen in Berlin",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "country_state",
-        "start": 15,
-        "end": 21,
-        "value": "Berlin",
-        "extractor": "DIETClassifier"
+        "entity": "country_code",
+        "start": 18,
+        "end": 25,
+        "value": "IT",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   }

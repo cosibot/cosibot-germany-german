@@ -178,12 +178,16 @@
 - Sind Kinder weniger gefährdet sind als Erwachsene?
 - Können sich Kinder auch anstecken?
 - Zahlen
+- gibt es irgendwelche Zahlen 
 - Wie viele Menschen sind infiziert
 
 ## intent:covid_dangerous
+- Ist dies Virus gefaerlich
+- ist der virus böse?
 - Ist das Virus gefährlich?
 - Ist der Virus gefährlich?
 - Wie gefährlich ist die Infektion?
+- Wie gefährlich ist corona
 - Wie gefährlich ist eine Infektion mit SARS-CoV-2?
 - Ist die Infektion mit demKowit 19 harmlos?
 - Ist die Infektion mit demqubeat 19 ungefährlich?
@@ -397,6 +401,7 @@
 - Wie verläuft eine Erkrankung mit Covid-19
 - Verlauf der Krankheit
 - Krankheitsverlauf
+- Wie sieht der Krankheitsverlauf aus?
 - Wie läuft die Krankheit ab
 
 ## intent:covid_duration
@@ -405,6 +410,8 @@
 - Wie lange dauert die Krankheit an
 - Wie lange bin ich krank
 - Dauer der Krankheit
+- Wann hört Corona auf?
+- Wann ist Corona zu Ende?
 - Dauer Krankheit
 - Krankheit Dauer
 - Krankheitsdauer
@@ -477,6 +484,7 @@
 - Ansteckungszeit
 - Wie viele Tage nach der Ansteckung bekommt man die Symptome?
 - Wie lange dauert die Inkubationszeit?
+- Wie lange dauert es, bis die ersten Symptome auftreten?
 - Wie lange dauert es, bis ich eine Ansteckung bemerke?
 - Inkubations Zeit
 - Wie lange dauert die Inkubationszeit nun wirklich?
@@ -1269,6 +1277,7 @@
 
 ## intent:covid_mortality_rate
 - sterblichkeit
+- Werden wir alle sterben?
 - Wie wahrscheinlich ist es, dass ich an cupid 19 sterbe?
 - Stirbt man auch an corona wen man keine vorerkrankungen hat?
 - Wie wahrscheinlich ist es, dass ich an Hobbit 19 sterbe?
@@ -1321,10 +1330,13 @@
 
 ## intent:covid_origins
 - Woher stammt Sars-CoV-2
+- warum gibt es den coronavirus?
 - Woher kommt der Coronavirus
 - Seit wann gibt es corona
+- Woher kommt Corina
 - Was ist der Ursprung des Virus?
 - Wie kam es zum Ausbruch?
+- woher kommt Corona 
 - Wie ist es zum Ausbruch der Epidemie gekommen?
 - Wo kommt das Coronavirus her?
 - Wo kommt es her?
@@ -1428,41 +1440,6 @@
 - Was bedeutet Corona für Schwangere
 - Wie gefährlich ist eine Coronavirus-Infektion in der Schwangerschaft?
 - Was muss ich als Schwangere beachten?
-- Was passiert bei einem positiven Test auf den Coronavirus?
-- Wie wird bei einem Verdachtsfall vorgegangen?
-- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
-- Was passiert bei einem positiven Resultat?
-- Was passiert wenn ich positiv auf die Infektion getestet wurde?
-- Was passiert, wenn ich infiziert bin?
-- was passiert wenn ich positiv auf coronavirus getestet bin
-- Meine Freundin hat Hobbit 19, was passiert jetzt?
-- Was passiert, wenn ich positiv auf den Virus getestet wurde?
-- Meine Freundin hat Covid 19, was passiert jetzt?
-- Was passiert wenn die Resultate positiv sind?
-- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
-- Was passiert bei einem Verdachtsfall auf den Coronavirus?
-- Was passiert bei einem Verdachtsfall auf den Virus?
-- Ich bin infiziert, was passiert jetzt?
-- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
-- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
-- Meine Freundin hat Kubik 19, was passiert jetzt?
-- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
-- Was geschieht wenn der Test positiv ist?
-- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
-- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
-- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
-- Vorgehensweise Infektion
-- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
-- Meine Freundin hat huvit 19, was passiert jetzt?
-- Meine Freundin hat COBIT 19, was passiert jetzt?
-- Meine Freundin hat movit 19, was passiert jetzt?
-- Meine Freundin hat kovit 19, was passiert jetzt?
-- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
-- Meine Freundin hat Q19, was passiert jetzt?
-- Meine Freundin hat cookit 19, was passiert jetzt?
-- Meine Freundin hat qubeat 19, was passiert jetzt?
-- Meine Freundin hat cupid 19, was passiert jetzt?
-- Meine Freundin hat kuhweg 19, was passiert jetzt?
 
 ## intent:covid_sars
 - unterschied zwischen influenza und covid
@@ -1758,6 +1735,42 @@
 - Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
 - Ich bin infiziert, was passiert jetzt?
 
+- Was passiert bei einem positiven Test auf den Coronavirus?
+- Wie wird bei einem Verdachtsfall vorgegangen?
+- Was passiert, wenn eine Infektion mit dem Coronavirus festgestellt wird?
+- Was passiert bei einem positiven Resultat?
+- Was passiert wenn ich positiv auf die Infektion getestet wurde?
+- Was passiert, wenn ich infiziert bin?
+- was passiert wenn ich positiv auf coronavirus getestet bin
+- Meine Freundin hat Hobbit 19, was passiert jetzt?
+- Was passiert, wenn ich positiv auf den Virus getestet wurde?
+- Meine Freundin hat Covid 19, was passiert jetzt?
+- Was passiert wenn die Resultate positiv sind?
+- Bei meiner Frau besteht Verdacht auf den Coronavirus, wie geht es jetzt weiter?
+- Was passiert bei einem Verdachtsfall auf den Coronavirus?
+- Was passiert bei einem Verdachtsfall auf den Virus?
+- Ich bin infiziert, was passiert jetzt?
+- Ich habe erfahren, dass ich infiziert bin, wie geht es jetzt weiter?
+- Ich wurde positiv auf den Virus gestestet, wie geht es jetzt weiter?
+- Meine Freundin hat Kubik 19, was passiert jetzt?
+- Wie ist die Vorgehensweise, wenn eine Inektion festgestellt wurde?
+- Was geschieht wenn der Test positiv ist?
+- Bei meinem Mitbewohner wurde der Coronavirus festgestellt, was passiert jetzt?
+- Meine Mitbewohnerin hat den Coronavirus, was passiert jetzt?
+- Was wird gemacht, wenn bei mir der Coronavirus festgestellt wurde?
+- Vorgehensweise Infektion
+- Mein Freund wurde positiv auf den Coronavirus gestetet, was passiert jetzt?
+- Meine Freundin hat huvit 19, was passiert jetzt?
+- Meine Freundin hat COBIT 19, was passiert jetzt?
+- Meine Freundin hat movit 19, was passiert jetzt?
+- Meine Freundin hat kovit 19, was passiert jetzt?
+- Bei meinem Mann besteht Verdacht auf den Coronavirus, was passiert jetzt?
+- Meine Freundin hat Q19, was passiert jetzt?
+- Meine Freundin hat cookit 19, was passiert jetzt?
+- Meine Freundin hat qubeat 19, was passiert jetzt?
+- Meine Freundin hat cupid 19, was passiert jetzt?
+- Meine Freundin hat kuhweg 19, was passiert jetzt?
+
 ## intent:covid_unknown_cases
 - Die Rolle der Dunkelziffer bei Covid-19
 - Dunkelziffern
@@ -1793,6 +1806,8 @@
 - Ist es sinnvoll, einen Mundschutz zu tragen?
 - Mundschutzmaske
 - Mundschutz Masken
+- Mund Schutz Maske
+- Mund Schutz Masken
 - Verhindert ein Mundschutz eine Ansteckung?
 - Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
 - Macht es Sinn, den Mund Nasen Schutz zu tragen?
@@ -1826,6 +1841,60 @@
 - Warum sollen wir Mund Nasen Schutz tragen?
 - Warum Mund Nasen Schutz tragen?
 - Was hilft es, einen Mundschutz zu tragen?
+- Warum kaufen eigentliche alle Masken?
+- Was bringt ein Mundschutz?
+- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
+- Schützen Atemschutzmasken vor Sars-CoV-2?
+- Mundschutzmaske gegen Coronavirus-Epidemie?
+- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
+- Mundschutz-Masken: Was hilft gegen Viren?
+- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
+- Sollte ich eine Maske tragen, um mich selbst zu schützen?
+- Hilft der Maskenschutz gegen eine Ansteckung?
+- Schützt mich die Maske vor einer Ansteckung?
+- Verhindern die Masken eine Ansteckung?
+- Helfen Atemschutzmasken gegen Q19?
+- Helfen Atemschutzmasken gegen cookit 19?
+- Schützt mich eine Stoffmaske?
+- Kann ich mit Schutzmasken andere schützen?
+- Kann ich mich mit einer Maske vor Ansteckung schützen?
+- Kann ich mich mit Masken schützen?
+- Was bringt die Maske?
+- Was ist der Nutzen der Mund Bedeckung
+- Warum Mund Bedeckung tragen
+- Warum sollen wir Mund Nasen Schutz tragen?
+- Warum Mund Nasen Schutz tragen?
+- Warum sollen wir jetzt Mundschutz tragen?
+- Was hilft es, einen Mundschutz zu tragen?
+- Warum Masken tragen?
+- Warum soll ich eine Maske tragen?
+- Was nützt es, Masken zu tragen?
+- helfen masken?
+- Helfen Atemschutzmasken gegen qubeat 19?
+- Helfen Atemschutzmasken gegen cupid 19?
+- Helfen Atemschutzmasken gegen kuhweg 19?
+- Helfen Atemschutzmasken gegen Hobbit 19?
+- Helfen Atemschutzmasken gegen huvit 19?
+- Helfen Atemschutzmasken gegen COBIT 19?
+- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
+- Helfen Atemschutzmasken gegen Covid 19?
+- Helfen Atemschutz Masken gegen eine Ansteckung?
+- Helfen Atemschutzmasken gegen Sars-CoV-2?
+- Verhindert der Mundschutz, dass ich mich anstecke?
+- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
+- Macht es Sinn, den Mund Nasen Schutz zu tragen?
+- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
+- Verhindert ein Mundschutz eine Ansteckung?
+- Mundschutz Masken
+- Mundschutzmaske
+- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
+- Helfen Atemschutzmasken gegen Kubik 19?
+- Helfen Atemschutzmasken gegen kovit 19?
+- Helfen Atemschutzmasken gegen movit 19?
+- Macht eine Atemschutz Maske Sinn?
+- Mundschutz
+- Mundschutzmasken
+- Mundschutz Maske
 
 ## intent:quarantine_how_it_works
 - Wie soll ich mich unter Quarantäne verhalten?
@@ -1842,7 +1911,6 @@
 - Geht noch küssen in Quarantäne?
 - Welche Regeln muss man bei der Quarantäne beachten
 - Wie funktioniert die Quarantäne
-- Was darf man in Quarantäne und was nicht
 - Was ist bei einer Ausgangssperre zu beachten
 - Wie funktioniert die Ausgangssperre
 - Was ist bei einer Ausgangssperre zu tun?
@@ -1878,6 +1946,30 @@
 ## intent:test_how
 - Wie funktioniert der Test auf Covid 19
 - Wie funktioniert der Corona Test
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Corona Test Wie funktioniert der Test
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert ein Corona-Test?
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert der Test auf Sars-CoV-2
+- Wie funktioniert der Corona Test
+- Wie läuft der Test ab
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Wie lange dauert der Test
+- Testzeit
+- Wie lange dauert die Testzeit
+- Wann sind die Ergebnisse des Tests da
+- Wann bekommt man Ergebnisse bei dem Test
+- Wie funktioniert der Coronavirus Test
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie wird der Test durchgeführt?
 - Wann bekommt man Ergebnisse bei dem Test
 - Wann sind die Ergebnisse des Tests da
 - Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
@@ -1911,6 +2003,8 @@
 - Wie viele aktive Fälle von Covid sind in [Marokko]{"entity": "country_code", "value": "MA"}?
 - Wie viele aktive Fälle sind in [Portugal]{"entity": "country_code", "value": "PT"}?
 - Wie viele Infizierte gibt es in [Spanien]{"entity": "country_code", "value": "ES"}?
+- Welche schutzmaßnahmen gelten in [Spanien]{"entity": "country_code", "value": "ES"}
+- Welche schutzmaßnahmen gelten in [Italien]{"entity": "country_code", "value": "IT"}
 - Aktive Fälle in [Türkei]{"entity": "country_code", "value": "TR"}.
 - Wie viele Menschen sind in [Argentinien]{"entity": "country_code", "value": "AR"} bis zu diesem Datum infiziert?
 - Wie viele aktive Fälle sind in [Japan]{"entity": "country_code", "value": "JP"} enthalten?
@@ -2118,10 +2212,10 @@
 - Sag mir die Fallzahlen in [Niederlande]{"entity": "country_code", "value": "NL"}.
 - wie viele Falle gibt es in [Deutschland]{"entity": "country_code", "value": "DE"}
 - infizierte in [Deutschland]{"entity": "country_code", "value": "DE"}
-
 ## intent:covid_situation_infected_critical
 - Personen in einem kritischen Fall in [Türkei]{"entity": "country_code", "value": "TR"}.
 - Wie viele Personen befinden sich in einem kritischen Zustand in [England]{"entity": "country_code", "value": "GB"}?
+- Personen in einem kritischen Fall in [Jordanien]{"entity": "country_code", "value": "JO"}
 - Wie viele Menschen befinden sich in [Italien]{"entity": "country_code", "value": "IT"} in kritischem Zustand
 - Kritische Fälle in [Jordanien]{"entity": "country_code", "value": "JO"}.
 - Wie viele kritische Fälle in [Tschechien]{"entity": "country_code", "value": "CZ"}?
@@ -2146,6 +2240,540 @@
 - Wieviele Personen in [China]{"entity": "country_code", "value": "CN"} sind im kritischen Zustand?
 - Personen in kritischem Zustand in [Österreich]{"entity": "country_code", "value": "AT"}.
 - Infizierte in kritischem Zustand in [Niederlande]{"entity": "country_code", "value": "NL"}.
+
+## intent:covid_unknown_cases
+- Die Rolle der Dunkelziffer bei Covid-19
+- Dunkelziffern
+- Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Erkrankten-Dunkelziffer
+- Was kannst du mir zur Dunkelziffer sagen
+- Was sagt die Dunkelziffer
+- Dunkelziffer Coronavirus
+- Schätzung der Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Wie hoch ist die Dunkelziffer
+
+## intent:covid_symptoms
+- Bin ich Choronapatient durch Verschleimung in der Lunge und den Nebenhöhlen?
+- Bin ich inviziert durch verschleimungserscheinungen in den Nasennebenhöhlen und der Lunge?
+- kopfweh
+- wie weiß ich ob ich krank bin?
+- Wie merke ich das ich Corona habe
+- Wie merke dass ich Corona habe
+- Wie merke ich, dass ich Corona habe?
+- wie ändert sich der geschmacksinn bei corona?
+- Ich kann nichts mehr schmecken
+- Ich kann nichts mehr riechen und schmecken
+- Ich habe keinen Geruchssinn mehr
+- ist der verlust des geschmacksinns auch ein sympton für corona?
+- was sind erste anzeichen
+- Sag mir ob ich infiziert bin
+- Wie merke ich, dass ich krank bin?
+- Was ist die Symptomatik?
+- symptome
+- Kratzen im Hals
+- Was mache ich, wenn ich ein Kratzen im Hals habe?
+- Ich habe Kratzen im Hals
+- Welche Symptome gibt es?
+- Welche Symptome
+- Was sind die Symptome von cupid 19?
+- Welche Krankheitsmerkmale weist der cupid 19 auf?
+- Ich will wissen ob Fieber ein Symptom ist
+- Körpertemperatur
+- Ist Fieber auch ein Symptom?
+- Was sind die Symptome von qubeat 19?
+- Welche Krankheitsmerkmale weist der qubeat 19 auf?
+- Was sind die Symptome von cookit 19?
+- Was sind die Symptome von kuhweg 19?
+- Welche Krankheitsmerkmale weist der kuhweg 19 auf?
+- Woran erkenne ich, ob ich auch infiziert bin?
+- Woran merkt man, ob man auch erkrankt ist?
+- Wozu führt die Ansteckung mit dem Virus?
+- Worunter leiden die Infizierten?
+- Symptome SARS-Cov-2
+- Zu welchen Symptome führt die Ansteckung mit dem Virus?
+- Wie äußert sich die Infektion?
+- Wie sieht es mit der Symptomatik des Kowit 19 aus?
+- Worunter leiden Infizierte?
+- Welche Krankheitsmerkmale weist der Q19 auf?
+- Was sind die Symptome von Q19?
+- Welche Krankheitsmerkmale weist der cookit 19 auf?
+- Was sind die Krankheitszeichen?
+- Was sind die Krankheits Zeichen?
+- Welche Krankheitszeichen werden durch das neue Coronavirus SARS-CoV-2 ausgelöst?
+- Unter welchen Symptomen leiden Infizierte?
+- Welche Krankheitsmerkmale weist der kovit 19 auf?
+- Welche Krankheitsmerkmale weist der COBIT 19 auf?
+- Was sind die Symptome von COBIT 19?
+- Was sind die Symptome von movit 19?
+- Was sind die Symptome von kovit 19?
+- Welche Krankheitsmerkmale weist der Kubik 19 auf?
+- Was sind die Krankheitszeichen des Virus
+- Was sind die Symptome von Covid 19?
+- Was sind die Krankheitsmerkmale von SARS-Cov 2?
+- Welche Symptome gibt es bei SARS Cov 2?
+- Welche Krankheitsmerkmale gibt es
+- Was sind die Krankheitszeichen des Coronavirus
+- Was sind die Krankheitszeichen des Coronavirus SARS-CoV-2?
+- Was sind die typischen Merkmale der Krankheit?
+- Was sind die typischen Symptome des Virus?
+- Was für Symptome habe ich, wenn ich infiziert bin?
+- Was sind die Symptome?
+- Wie äußert sich der Krankheitsverlauf?
+- Wie ist der Krankheitsverlauf wenn man infiziert ist?
+- Wie sieht es mit der Symptomatik des Covid-19 aus?
+- Was sind die Krankheitsmerkmale des Coronavirus
+- Symptomatik
+- Welche Krankheitsmerkmale weist der Covid 19 auf?
+- Welche Symptome gibt es bei dem Coronavirus?
+- Wie äußert sich die Krankheit?
+- Welche Symptome hat der Virus?
+- Welche Krankheitsmerkmale weist der Hobbit 19 auf?
+- Was sind die Symptome von Hobbit 19?
+- Welche Krankheitsmerkmale weist der huvit 19 auf?
+- Was sind die Symptome von huvit 19?
+- Symptome SARS Cov 2
+- wie weiß ich ob ich krank bin?
+- Wie merk dass ich Corona habe
+- Wie merke ich das ich Corona habe
+- Gibt es zhlen
+- Welche Krankheitsmerkmale weist der movit 19 auf?
+- Was sind die Symptome von Kubik 19?
+- Sag mir ob ich Corona habe
+- Ich habe ein leichtes kratzen im Halsbereich und weiß nun nicht was ich machen soll
+- auf welche symptome muss ich achten?
+- Ich habe ein leichtes kratzen im Halsbereich
+- Ich habe Kopfschmerzen
+- Ich habe Kopfweh
+- Mein Kopf tut mir weh
+- Ich kann nichts mehr riechen
+
+## intent:covid_treatment
+- Wie wird man behandelt wenn man positiv ist
+- Wie wird man behandelt
+- Gibt es bereits Medikamente, die gegen das Coronavirus wirken könnten?
+- Gibt es bereits Medikamente?
+- Wie wird man behandelt wenn man Corona hat
+- Wie wird man bei Corona behandelt
+- Behandlung kuhweg 19
+- Gibt es eine Behandlung für kuhweg 19?
+- Welche Behandlungsmöglichkeiten gibt es bei einem positiven Test?
+- Welche Behandlungsmöglichkeiten gibt es?
+- Behandlungsmöglichkeiten Hobbit 19
+- Behandlung Hobbit 19
+- Welche Medikamente helfen dagegen.
+- Gibt es eine Behandlung für Hobbit 19?
+- Behandlungsmöglichkeiten huvit 19
+- Behandlung COBIT 19
+- Gibt es eine Behandlung für COBIT 19?
+- Behandlungsmöglichkeiten movit 19
+- Behandlung movit 19
+- Gibt es eine Behandlung für movit 19?
+- Worin besteht die Therapie?
+- Gibt es eine Behandlung für kovit 19?
+- Behandlung kovit 19
+- Behandlungsmöglichkeiten kovit 19
+- Behandlungsmöglichkeiten COBIT 19
+- Behandlungsmöglichkeiten qubeat 19
+- Behandlung qubeat 19
+- Gibt es eine Behandlung für qubeat 19?
+- Welche Behandlungsmöglichkeiten stehen für das neuartige Coronavirus zur Verfügung
+- Behandlungsmöglichkeiten cupid 19
+- Behandlungsmöglichkeiten Kubik 19
+- Behandlung Kubik 19
+- Gibt es eine Behandlung für Kubik 19?
+- Behandlung cupid 19
+- Gibt es eine wirksame Therapie gegen das Coronavirus?
+- Wie sieht die Behandlungstherapie aus?
+- Gibt es eine Behandlung für Covid 19?
+- Behandlungsmöglichkeiten Q19
+- Behandlung Q19
+- Gibt es Medizin gegen den Virus?
+- Gibt es Medikamente gegen den Virus?
+- Gibt es Medikamente?
+- Gibt es eine Behandlung für cookit 19?
+- Behandlung cookit 19
+- Behandlungsmöglichkeiten cookit 19
+- Gibt es eine Behandlung für huvit 19?
+- Behandlung huvit 19
+- Welche Therapiemöglichkeiten gibt es?
+- Gibt es eine Behandlung für Q19?
+- Therapie Coronavirus
+- Wie wird die Infektion behandelt?
+- Behandlungsmöglichkeiten gegen das Coronavirus
+- Remdesivir gegen Corona
+- Ebola Mittel gegen Covid
+- Ebola-Medikament Remdesivir
+- APN01 gegen Covid
+- Ebola-Medikament gegen Coronavirus
+- Ebola Mittel gegen Coronavirus
+- Chloroquin
+- Wie wird eine Infektion mit dem Coronavirus behandelt?
+- Behandlungsmöglichkeiten kuhweg 19
+- Gibt es eine Behandlung für cupid 19?
+- Wie wird eine Erkrankung mit dem neuen Coronavirus behandelt?
+- Coronavirus Behandlung
+- Behandlung Covid 19
+- Behandlungsmöglichkeiten Covid 19
+- Behandlungsmöglichkeiten
+- Wie sieht die Behandlung aus?
+- Gibt es eine Behandlung?
+- Wie wird die Krankheit behandelt?
+- Welche mittel helfen gegen corona?
+- Remdesivir und Coronavirus
+- APN null eins gegen Coronavirus
+- Malaria-Mittel als Therapie
+- Anti-Grippe-Mittel Avigan gegen Corona
+- Vergiftung durch Chloroquin Trump
+- Trump und Chloroquin
+- Hilft Chloroquin?
+- Was kannst du mir zur Dunkelziffer sagen
+- Erkrankten-Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Infizierten
+- Schätzung der Dunkelziffer
+- Dunkelziffer Coronavirus
+- Was sagt die Dunkelziffer
+- Wie hoch ist die Dunkelziffer
+- Wie hoch ist die Dunkelziffer der Corona-Infektionen?
+- Dunkelziffer
+- Dunkelziffern
+- Die Rolle der Dunkelziffer bei Covid-19
+
+## intent:covid_vaccine
+- haben Sie eine Vaccine ?
+- Wann gibt es endlich eine Impfung?
+- Wann kommt endlich der Imptsftoff auf den Markt?
+- Wie lange muss man noch auf eine Impfung warten.
+- Ich will mich und meine Familie impfen.
+- Schutz per Impfung möglich?
+- Kann ich mich per Impfung gegen das Virus schützen?
+- Impfung gegen Covid
+- Impfstoffe gegen Coronavirus
+- Gibt es keine Impfung?
+- Was ist der aktuelle Forschungsstand der Impfung gegen das Virus?
+- Impfung gegen Sars-Cov-2
+- Gibt es keine Impfung gegen das Virus?
+- Gibt es eine Impfung?
+- Impfung gegen Kowit
+- Kann ich mich impfen lassen?
+- Wo finde ich die Impfung
+- Ich will mich impfen lassen
+- Kann man sich gegen den Coronavirus impfen lassen?
+- Gibt es eine Impfung dagegen?
+- Impfung?
+- Impfstoff
+- Gibt es einen Impfstoff?
+- Wann gibt es den Impfstoff
+- Wann wird der Impfstoff hergestellt
+- Wann wird der Impfstoff zur Verfügung stehen
+- Wie lange dauert es, bis der Impfstoff auf dem Markt ist
+- Wann wird der Impfstoff entwickelt
+- Wann gibt es einen Impfstoff
+- Wann gibt es endlich eine Impfung
+- Ich will eine Impfung
+- impfung coronavirus
+- Wann ist mit einem Impfstoff zu rechnen?
+- Impfung gegen das Coronavirus
+- Coronavirus-Impfung
+- Impfung gegen Coronavirus
+- Impfung gegen das neue Coronavirus
+- Wie lange wird es dauern, bis ein Impfstoff entwickelt wird?
+- Wann kommt Impfstoff?
+
+## intent:quarantine_how_it_works
+- Wie soll ich mich unter Quarantäne verhalten?
+- Was ist Heimquarantäne und wie funktioniert sie?
+- Wie läuft eine Heimquarantäne ab?
+- Was muss ich beachten, wenn ich in Quarantäne bin?
+- Was bedeutet es für mich, wenn ich jetzt in Quarantäne muss?
+- Regeln der Ausgangssperre
+- Was muss ich beachten, wenn ich zuhause bleibe?
+- Tipps bei häuslicher Quarantäne
+- Wie läuft das in der Quarantäne ab?
+- Was ist mit Körperkontakt in Quarantäne?
+- Geht noch Sex in der Quarantäne?
+- Geht noch küssen in Quarantäne?
+- Welche Regeln muss man bei der Quarantäne beachten
+- Wie funktioniert die Quarantäne
+- Was ist bei einer Ausgangssperre zu beachten
+- Wie funktioniert die Ausgangssperre
+- Was ist bei einer Ausgangssperre zu tun?
+- Was ist bei häuslicher Quarantäne zu beachten?
+- Was gibt es bei der Quarantäne alles zu beachten?
+- Was tun, wenn man zuhause bleiben muss?
+- Wie läuft die Quarantäne ab?
+- Wie funktioniert die Heimquarantäne?
+- Quarantäne - Verhaltensregeln
+- Verhaltensregeln in Heimquarantäne
+- Ablauf häusliche Quarantäne
+- Wie soll ich mich bei einer Quarantäne verhalten?
+- Was soll ich bei einer Quarantäne beachten?
+- Wie sieht die Quarantäne aus?
+- Wie funkioniert eine Quarantäne?
+- Corona wie funktioniert die Quarantäne?
+- Worauf muss ich bei der Ausgangs Sperre achten?
+- Was ist bei Ausgangssperre zu beachten?
+- Und wie soll man denn zuhause behandelt werden?
+- Was passiert bei häuslicher Quarantäne?
+- Erkläre mir, wie so eine Quarantäne abläuft.
+- Wie funktioniert das mit der Quarantäne?
+- Was muss ich beachten wenn ich in Quarantäne geschickt wurde?
+- Was muss ich beachten wenn ich zuhause bleiben muss?
+- Was muss ich machen wenn ich in Quarantäne bin?
+- Wie verhält man sich unter Quarantäne?
+- Wie funktioniert die häusliche Quarantäne beim Coronavirus?
+- Wie funktioniert die häusliche Quarantäne?
+- Wie geht das mit der Quarantäne?
+- Wie verhalte ich mich in häuslicher Quarantäne?
+- Ablauf und Dauer der häuslichen Quarantäne
+ 
+## intent:test_how
+- Wie funktioniert der Test auf Covid 19
+- Wie funktioniert der Corona Test
+- Wann bekommt man Ergebnisse bei dem Test
+- Wann sind die Ergebnisse des Tests da
+- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
+- Wie funktioniert ein Corona-Test?
+- Wie wird der Test durchgeführt?
+- Wie läuft der Test ab
+- Wie lange dauert die Testzeit
+- Testzeit
+- Wie lange dauert der Test
+- Wie läuft ein Test auf das Coronavirus ab?
+- Wie lange dauert es, bis man Test Ergebnisse bekommt
+- Wie lange dauert es, bis man Testergebnisse bekommt
+- Wann erhält man Ergebnisse beim Test?
+- Wie funktioniert der Test
+- Wie wird der Test durchgeführt
+- Was wird genau bei dem Test gemacht
+- Wie läuft der Test ab?
+- Wie läuft ein Test auf das Coronavirus eigentlich ab?
+- Wie funktioniert der Coronavirus Test
+- Wie funktioniert der Test auf Sars CoV 2?
+- Wie funktioniert der Test auf Sars-CoV-2
+- Corona Test Wie funktioniert der Test
+
+## intent:covid_current_situation
+- Situation in anderen Ländern
+- Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
+- Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
+- Wie sieht die Situation in [Russland]{"entity": "country_code", "value": "RU"} aus?
+- Welche Maßnahmen werden in [Polen]{"entity": "country_code", "value": "PL"} getroffen?
+- Wie ist die Lage in [Brasilien]{"entity": "country_code", "value": "BR"}?
+- Die derzeitige Situation in [Amerika]{"entity": "country_code", "value": "US"}
+- Wie sieht es mit [Peru]{"entity": "country_code", "value": "PE"} aus?
+- Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
+- Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
+- Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
+- Wie ist die Situation in [Island]{"entity": "country_code", "value": "IS"}? Kann ich wieder fliegen?
+- Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
+- Lage in anderen Ländern
+- Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
+- Ich habe Zwischenstopp in [Mexiko]{"entity": "country_code", "value": "MX"}
+- Wie ist die Situation weltweit
+- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
+- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
+
+## intent:economy_consequences
+- Welche wirtschaftlichen Konsequenzen wird das haben
+- Was sind die wirtschaftlichen Folgen
+- Welche Auswirkungen spürt die deutsche Wirtschaft?
+- Welche Folgen hat das für Arbeitgeber?
+- Welche Folgen hat das für Arbeitnehmer?
+- Welche Folgen hat das für die Unternehmen?
+- Wo bekomme ich jetzt Liquiditäts Hilfen?
+- Wann wird alles wieder normal.
+- Welche Programme gibt es jetzt zur Stärkung der Wirtschaft?
+- Welche Folgen hat das für die Kleinunternehmen?
+- Wo bekomme ich jetzt Liquiditätshilfen?
+- Sofortmaßnahmen um die Wirtschaft zu stärken
+- Sofortmaßnahmen für die Wirtschaft
+- Hilfsangebote für Selbstständige
+- Ich bin jetzt pleite, wo finde ich Hilfe?
+- Weltwirtschaftskrise
+- Ausbreitung des Coronavirus hat auch massive wirtschaftliche Folgen
+- Was sind die Folgen der Coronavirus Pandemie?
+- Konsequenzen für die Wirtschaft
+- Was sind die Folgen der Corona Pandemie?
+- Corona Pandemie und die Folgen für die Weltwirtschaft
+- Corona-Pandemie und die Folgen für die Weltwirtschaft
+- Welche Auswirkungen spürt die Weltwirtschaft?
+- Wirtschaft
+- Wirtschaftseinbruch
+- Wirtschaftswachstum
+- COVID 19 greift Wirtschaft
+- Folgen des Coronavirus auf die Wirtschaft
+- Coronavirus belastet die Wirtschaft
+- Wirtschafts Krise
+- Wirtschaftskrise
+- Wie stark leidet die Wirtschaft darunter
+- Wirtschafts Crash
+- Wirtschaftscrash
+- Auswirkungen des Coronavirus auf die Wirtschaft
+- Coronavirus und die Wirtschaft
+- Welche Branchen trifft das Coronavirus besonders hart?
+- Welche Gefahren drohen für die Wirtschaft insgesamt?
+- Wie wirkt sich das Coronavirus auf die Weltwirtschaft aus?
+- coronavirus wirtschaft
+
+## intent:germany_consequences
+- Wie viele Tote wird es in Deutschland geben
+- welche auswirkungen hat das auf deutschland
+- Wie viele Deutsch werden Ende 2020 Corona gehabt haben
+- Welcher Prozentsatz der Deutschen wird sich voraussichtlich mit Corona infizieren
+- Auswirkungen für Deutschland
+- Wie viele Kranke wird es in Deutschland geben
+- Wie viele Infizierte wird es in Deutschland geben
+- Was bedeutet die zunehmende Ausbreitung für Deutschland
+- Welche Konsequenzen hat Covid 19 für Deutschland
+- Deutschland Konsequenzen
+- Konsequenzen Deutschland
+- Was heißt das für Deutschland
+- Wie viele Menschen in Deutschland werden sich infizieren?
+- Wie wirkt sich das auf Deutschland allgemein aus?
+- Welche Konsequenzen hat der Virus für Deutschland?
+- Deutschland Auswirkungen
+- Auswirkungen Deutschland
+- Welche Konsequenzen hat das für Deutschland?
+- Wie viele Menschen werden sich infizieren
+- Was bedeutet das für Deutschland
+
+## intent:germany_current_situation
+- Wie schätzt du die Lage Deutschlands im Zusammenhang mit Corona ein?
+- Deutschland Situation
+- Deutschland Lage
+- Situation Deutschland
+- Wie ist die Situation in Deutschland?
+- Situation in Deutschland
+- Wo finde ich die aktuellsten Neuigkeiten über den Virus?
+- Ich hätte gern die aktuellsten Infos zum Virus
+- Auf welchen Seiten gibt es aktualisierte Informationen über Corona?
+- Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?
+- Risikobewertung Deutschland
+- Risiko
+- Risiko bewertung Deutschland
+- Belastung des Gesundheitswesens
+- Risiko Ressourcenbelastung des Gesundheitssystems
+- Ressourcenbelastung des Gesundheitssystems
+- Risikobewertung Ressourcenbelastung des Gesundheitssystems
+- Risikobewertung Allgemein
+- Risiko bewertung
+- Risikobewertung
+- Kubik 19 Ausbreitung in Deutschland
+- Covid 19 Ausbreitung in Deutschland
+- Covid Verbreitung in Deutschland
+- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Kowit 19 jetzt auch in Deutschland ausbreitet?
+- Ausbreitungsrisiko von Kowit in Deutschland.
+- Verbreitung in Deutschland
+- qubeat 19 Ausbreitung in Deutschland
+- wie verteilt sich das Virus in Deutschland
+- Q19 Ausbreitung in Deutschland
+- Risikobewertung der aktuellen Situation
+- Risikobewertung der Ausbreitung
+- Wie hat sich das Virus verbreitet
+- Wie kam das Virus nach Deutschland?
+- Risiko der aktuellen Lage
+- Risiko für Deutschland
+- Ausbreitungsrisiko von Covid in Deutschland.
+- wo finde ich aktuelle Informationen über den Virus
+- huvit 19 in Deutschland
+- huvit 19 Ausbreitung in Deutschland
+- COBIT 19 in Deutschland
+- COBIT 19 Ausbreitung in Deutschland
+- movit 19 in Deutschland
+- movit 19 Ausbreitung in Deutschland
+- kovit 19 in Deutschland
+- kovit 19 Ausbreitung in Deutschland
+- Zuverlässige aktuelle Informationen
+- Wo gibt es ausführliche Infos?
+- Wo finde ich ausführliche Informationen?
+- Wie ist die aktuelle Lage in Deutschland?
+- qubeat 19 Deutschland
+- cupid 19 Deutschland
+- kuhweg 19 Deutschland
+- Wie ist die aktuelle Lage in Deutschland
+- Coronavirus in Deutschland
+- Corona in Deutschland
+- Covid 19 in Deutschland
+- Wie sieht es zur Zeit in Deutschland aus
+- Wie ist die Lage in Deutschland
+- Q19 Deutschland
+- movit 19 Deutschland
+- Corona in Sachsen-Anhalt
+- Corona in Saarland
+- Coronavirus in Schleswig-Holstein
+- Coronavirus in Sachsen
+- Coronavirus in Niedersachsen
+- cookit 19 Deutschland
+- Corona in Brandenburg
+- Corona in Bremen
+- Corona in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Derzeitige Situation Deutschlands
+- Corona in Mecklenburg-Vorpommern
+- Corona in Mecklenburg Vorpommern
+- Corona in Mecklenburg
+- Gibt es Kontaktbeschränkungen in Niedersachsen?
+- Corona in Rheinland-Pfalz
+- Corona in Nordrhein-Westfalen
+- Corona in Niedersachsen
+- Coronavirus in Hessen
+- Corona in Sachsen
+- Corona in Schleswig-Holstein
+- Corina in Thüringen
+- wie sieht die Ausbreitung in Deutschland aus
+- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Covid-19 jetzt auch in Deutschland ausbreitet?
+- Kommt der Virus jetzt auch nach Deutschland?
+- Kann der Coronavirus sich auch in Deutschland ausbreiten?
+- Wie sieht es in Deutschland mit dem Virus aus?
+- Gibt es auch in Deutschland eine Ausbreitungsgefahr?
+- Wie wahrscheinlich ist es, dass sich der Virus jetzt auch in Deutschland ausbreitet?
+- Wird der Coronavirus sich auch in Deutschland ausbreiten?
+- Kann sich der Virus so wie in China jetzt auch in Deutschland breit machen?
+- Wird sich der Virus jetzt auch in Deutschland verbreiten?
+- Wie wahrscheinlich ist es, dass sich der Coronavirus jetzt auch in Deutschland ausbreitet?
+- Wie wahrscheinlich ist eine Ausbreitung in Deutschland
+- Wie hoch ist das Ausbreitungsrisiko in Deutschland
+- Wie hoch ist das Risiko dass sich der Virus jetzt auch in Deutschland verbreitet
+- Ist es sehr wahrscheinlich, dass sich der Coronavirus in Deutschland breit macht?
+- Wird es auch eine Epidemie in Deutschland geben?
+- Werden wir uns alle anstecken in Deutschland?
+- Covid 19 in Deutschland
+- COBIT 19 Deutschland
+- Kubik 19 Deutschland
+- Corona in Hessen
+- Corona in Baden-Württemberg
+- Corona in Bayern
+- Corona in Berlin
+- Kubik 19 in Deutschland
+- Coronavirus in Deutschland
+- Deutschland Covid
+- cookit 19 in Deutschland
+- Deutschland Kowit
+- qubeat 19 in Deutschland
+- cupid 19 in Deutschland
+- kuhweg 19 in Deutschland
+- Hobbit 19 in Deutschland
+- Coronavirus in Nordrhein-Westfalen
+- Coronavirus in Rheinland-Pfalz
+- Coronavirus in Mecklenburg-Vorpommern
+- Coronavirus in [Hamburg]{"entity": "country_district", "value": "Hamburg"}
+- Coronavirus in Bremen
+- Coronavirus in Brandenburg
+- Coronavirus in Berlin
+- Coronavirus in Bayern
+- Coronavirus in Baden-Württemberg
+- Hobbit 19 Deutschland
+- huvit 19 Deutschland
+- Covid 19 Deutschland
+- kovit 19 Deutschland
+- Der Virus in Deutschland
+- Coronavirus und Deutschland
+- Wie sieht es mit Deutschland aus?
+- Informationen zur allgemeinen Situation Deutschlands
+- Momentane Lage Deutschlands
+- Aktuelle Informationen in Deutschland
+- Wie ist die Situation Deutschlands einzuschätzen?
 
 <!-- ## intent:covid_surfaces
 - Wie lange überlebt der Virus auf Oberflächen?
@@ -2353,407 +2981,9 @@
 - Dunkelziffern
 - Die Rolle der Dunkelziffer bei Covid-19
 
-## intent:covid_vaccine
-- Wann gibt es endlich eine Impfung?
-- Wann kommt endlich der Imptsftoff auf den Markt?
-- Wie lange muss man noch auf eine Impfung warten.
-- Ich will mich und meine Familie impfen.
-- Schutz per Impfung möglich?
-- Kann ich mich per Impfung gegen das Virus schützen?
-- Impfung gegen Covid
-- Impfstoffe gegen Coronavirus
-- Gibt es keine Impfung?
-- Was ist der aktuelle Forschungsstand der Impfung gegen das Virus?
-- Impfung gegen Sars-Cov-2
-- Gibt es keine Impfung gegen das Virus?
-- Gibt es eine Impfung?
-- Impfung gegen Kowit
-- Kann ich mich impfen lassen?
-- Wo finde ich die Impfung
-- Ich will mich impfen lassen
-- Kann man sich gegen den Coronavirus impfen lassen?
-- Gibt es eine Impfung dagegen?
-- Impfung?
-- Impfstoff
-- Gibt es einen Impfstoff?
-- Wann gibt es den Impfstoff
-- Wann wird der Impfstoff hergestellt
-- Wann wird der Impfstoff zur Verfügung stehen
-- Wie lange dauert es, bis der Impfstoff auf dem Markt ist
-- Wann wird der Impfstoff entwickelt
-- Wann gibt es einen Impfstoff
-- Wann gibt es endlich eine Impfung
-- Ich will eine Impfung
-- impfung coronavirus
-- Wann ist mit einem Impfstoff zu rechnen?
-- Impfung gegen das Coronavirus
-- Coronavirus-Impfung
-- Impfung gegen Coronavirus
-- Impfung gegen das neue Coronavirus
-- Wie lange wird es dauern, bis ein Impfstoff entwickelt wird?
-- Wann kommt Impfstoff?
-
-## intent:covid_worry
-- Muss man jetzt Angst haben vor Kowit 19?
-- Muss ich mir wegen Kowit 19 Sorgen machen?
-- Wie berechtigt ist die Angst vor Covid-19?
-- Sollte man sich jetzt aufgrund von Covid-19 Gedanken machen?
-- Angst vor Covid-19
-- Muss man jetzt Angst haben vor Covid-19?
-- Muss ich jetzt Angst vor dem Coronavirus haben?
-- Angst vor Corona-Virus
-- Ich habe Angst vor dem Virus
-- Ich beginne mir ernsthaft Sorgen zu machen.
-- Ich mache mir sehr sorgen um den Virus!
-- Ich bin panisch
-- Müssen wir uns ernsthafte Sorgen machen?
-- Soll ich panisch sein?
-- Sorge vor dem Corona-Virus
-- Coronavirus alles nur Panik Mache?
-- Alles nur Panikmache?
-- Alles nur Panikmacherei?
-- Muss man jetzt Angst haben wegen dem Virus?
-- Muss ich mir um meine Familie Sorgen machen?
-- Sollte man sich jetzt aufgrund des Coronavirus Gedanken machen?
-- Muss ich jetzt Angst haben?
-- Sollte man sich jetzt aufgrund von Kowit 19 Gedanken machen?
-- Muss ich mir wegen dem Coronavirus jetzt ernsthaft Sorgen machen?
-- Wie berechtigt ist die Angst vor Kowit 19?
-- Muss ich mir wegen COVID-19 Sorgen machen?
-- Sorge
-- Gibt es einen Grund, sich jetzt Sorgen zu machen?
-- Panik
-- Angst
-- In Panik geraten
-- Panik Ausbruch
-- Ich habe Angst
-- warum drehen alle durch?
-- Bricht jetzt Panik aus
-- spinnen die alle?
-- Wie berechtigt ist die Angst vor dem Coronavirus?
-- Angst vor Coronavirus
-- Wie viel Angst muss man wirklich haben?
-- Ich mache mir sehr sorgen
-- Angst vor Kowit 19
-
-## intent:covid_current_situation
-- Situation in anderen Ländern
-- Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
-- Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
-- Wie sieht die Situation in [Russland]{"entity": "country_code", "value": "RU"} aus?
-- Welche Maßnahmen werden in [Polen]{"entity": "country_code", "value": "PL"} getroffen?
-- Wie ist die Lage in [Brasilien]{"entity": "country_code", "value": "BR"}?
-- Die derzeitige Situation in [Amerika]{"entity": "country_code", "value": "US"}
-- Wie sieht es mit [Peru]{"entity": "country_code", "value": "PE"} aus?
-- Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
-- Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
-- Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
-- Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
-- Lage in anderen Ländern
-- Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
-- Ich habe Zwischenstopp in [Mexiko]{"entity": "country_code", "value": "MX"}
-- Wie ist die Situation weltweit
-- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
-- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
-- Wie ist die Lage in [England]{"entity": "country_code", "value": "GB"}
-- Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
-- Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
-- Situation in [Spanien]{"entity": "country_code", "value": "ES"}
-- Derzeitige Lage in [Italien]{"entity": "country_code", "value": "IT"}
-
-## intent:economy_consequences
-- Welche wirtschaftlichen Konsequenzen wird das haben
-- Was sind die wirtschaftlichen Folgen
-- Welche Auswirkungen spürt die deutsche Wirtschaft?
-- Welche Folgen hat das für Arbeitgeber?
-- Welche Folgen hat das für Arbeitnehmer?
-- Welche Folgen hat das für die Unternehmen?
-- Wo bekomme ich jetzt Liquiditäts Hilfen?
-- Wann wird alles wieder normal.
-- Welche Programme gibt es jetzt zur Stärkung der Wirtschaft?
-- Welche Folgen hat das für die Kleinunternehmen?
-- Wo bekomme ich jetzt Liquiditätshilfen?
-- Sofortmaßnahmen um die Wirtschaft zu stärken
-- Sofortmaßnahmen für die Wirtschaft
-- Hilfsangebote für Selbstständige
-- Ich bin jetzt pleite, wo finde ich Hilfe?
-- Weltwirtschaftskrise
-- Ausbreitung des Coronavirus hat auch massive wirtschaftliche Folgen
-- Was sind die Folgen der Coronavirus Pandemie?
-- Konsequenzen für die Wirtschaft
-- Was sind die Folgen der Corona Pandemie?
-- Corona Pandemie und die Folgen für die Weltwirtschaft
-- Corona-Pandemie und die Folgen für die Weltwirtschaft
-- Welche Auswirkungen spürt die Weltwirtschaft?
-- Wirtschaft
-- Wirtschaftseinbruch
-- Wirtschaftswachstum
-- COVID 19 greift Wirtschaft
-- Folgen des Coronavirus auf die Wirtschaft
-- Coronavirus belastet die Wirtschaft
-- Wirtschafts Krise
-- Wirtschaftskrise
-- Wie stark leidet die Wirtschaft darunter
-- Wirtschafts Crash
-- Wirtschaftscrash
-- Auswirkungen des Coronavirus auf die Wirtschaft
-- Coronavirus und die Wirtschaft
-- Welche Branchen trifft das Coronavirus besonders hart?
-- Welche Gefahren drohen für die Wirtschaft insgesamt?
-- Wie wirkt sich das Coronavirus auf die Weltwirtschaft aus?
-- coronavirus wirtschaft
-
-## intent:germany_consequences
-- Wie viele Tote wird es in Deutschland geben
-- welche auswirkungen hat das auf deutschland
-- Auswirkungen für Deutschland
-- Wie viele Kranke wird es in Deutschland geben
-- Wie viele Infizierte wird es in Deutschland geben
-- Was bedeutet die zunehmende Ausbreitung für Deutschland
-- Welche Konsequenzen hat Covid 19 für Deutschland
-- Deutschland Konsequenzen
-- Konsequenzen Deutschland
-- Was heißt das für Deutschland
-- Wie viele Menschen in Deutschland werden sich infizieren?
-- Wie wirkt sich das auf Deutschland allgemein aus?
-- Welche Konsequenzen hat der Virus für Deutschland?
-- Deutschland Auswirkungen
-- Auswirkungen Deutschland
-- Welche Konsequenzen hat das für Deutschland?
-- Wie viele Menschen werden sich infizieren
-- Was bedeutet das für Deutschland
-
-## intent:germany_current_situation
-- Wie schätzt du die Lage Deutschlands im Zusammenhang mit Corona ein?
-- Deutschland Situation
-- Deutschland Lage
-- Situation Deutschland
-- Wie ist die Situation in Deutschland?
-- Situation in Deutschland
-- Wo finde ich die aktuellsten Neuigkeiten über den Virus?
-- Ich hätte gern die aktuellsten Infos zum Virus
-- Auf welchen Seiten gibt es aktualisierte Informationen über Corona?
-- Welche Seiten liefern die aktuellsten Informationen über den Coronavirus?
-- wo finde ich aktuelle Informationen über den Virus
-- huvit 19 in Deutschland
-- huvit 19 Ausbreitung in Deutschland
-- COBIT 19 in Deutschland
-- COBIT 19 Ausbreitung in Deutschland
-- movit 19 in Deutschland
-- movit 19 Ausbreitung in Deutschland
-- kovit 19 in Deutschland
-- kovit 19 Ausbreitung in Deutschland
-- Zuverlässige aktuelle Informationen
-- Wo gibt es ausführliche Infos?
-- Wo finde ich ausführliche Informationen?
-- Wie ist die aktuelle Lage in Deutschland?
-- qubeat 19 Deutschland
-- cupid 19 Deutschland
-- kuhweg 19 Deutschland
-- Wie ist die aktuelle Lage in [Hessen]{"entity": "country_district", "value": "Hessen"}
-- Coronavirus in [Nordrhein-Westfalen]{"entity": "country_district", "value": "Nordrhein-Westfalen"}
-- Corona in [Sachsen]{"entity": "country_state", "value": "Sachsen"}
-- Covid 19 in [Berlin]{"entity": "country_state", "value": "Berlin"}
-- Wie sieht es zur Zeit in [Mecklenburg]{"entity": "country_state", "value": "Mecklenburg-Vorpommern"} aus
-- Wie ist die Lage in [Hamburg]{"entity": "country_state", "value": "Hamburg"}
-- Q19 Deutschland
-- movit 19 Deutschland
-- Corona in Sachsen-Anhalt
-- Corona in Saarland
-- Coronavirus in Schleswig-Holstein
-- Coronavirus in Sachsen
-- Coronavirus in Niedersachsen
-- cookit 19 Deutschland
-- Corona in Brandenburg
-- Corona in Bremen
-- Corona in [Bremen]{"entity": "country_state", "value": "Bremen"}
-- Derzeitige Situation Deutschlands
-- Corona in Mecklenburg-Vorpommern
-- Corona in Mecklenburg Vorpommern
-- Corona in Mecklenburg
-- Corona in Rheinland-Pfalz
-- Corona in Nordrhein-Westfalen
-- Corona in Niedersachsen
-- Coronavirus in Hessen
-- Corona in Sachsen
-- Corona in Schleswig-Holstein
-- Corina in Thüringen
-- wie sieht die Ausbreitung in Deutschland aus
-- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Covid-19 jetzt auch in Deutschland ausbreitet?
-- Kommt der Virus jetzt auch nach Deutschland?
-- Kann der Coronavirus sich auch in Deutschland ausbreiten?
-- Wie sieht es in Deutschland mit dem Virus aus?
-- Gibt es auch in Deutschland eine Ausbreitungsgefahr?
-- Wie wahrscheinlich ist es, dass sich der Virus jetzt auch in Deutschland ausbreitet?
-- Wird der Coronavirus sich auch in Deutschland ausbreiten?
-- Kann sich der Virus so wie in China jetzt auch in Deutschland breit machen?
-- Wird sich der Virus jetzt auch in Deutschland verbreiten?
-- Wie wahrscheinlich ist es, dass sich der Coronavirus jetzt auch in Deutschland ausbreitet?
-- Wie wahrscheinlich ist eine Ausbreitung in Deutschland
-- Wie hoch ist das Ausbreitungsrisiko in Deutschland
-- Wie hoch ist das Risiko dass sich der Virus jetzt auch in Deutschland verbreitet
-- Ist es sehr wahrscheinlich, dass sich der Coronavirus in Deutschland breit macht?
-- Wird es auch eine Epidemie in Deutschland geben?
-- Werden wir uns alle anstecken in Deutschland?
-- Covid 19 in Deutschland
-- COBIT 19 Deutschland
-- Kubik 19 Deutschland
-- Corona in Hessen
-- Corona in Baden-Württemberg
-- Corona in Bayern
-- Corona in Berlin
-- Kubik 19 in Deutschland
-- Coronavirus in Deutschland
-- Covid 19 Ausbreitung in Deutschland
-- Covid Verbreitung in Deutschland
-- Deutschland Covid
-- Wie groß ist die Gefahr, dass sich die Atemwegserkrankung Kowit 19 jetzt auch in Deutschland ausbreitet?
-- Ausbreitungsrisiko von Kowit in Deutschland.
-- Deutschland Kowit
-- wie verteilt sich das Virus in Deutschland
-- Q19 in Deutschland
-- Q19 Ausbreitung in Deutschland
-- cookit 19 in Deutschland
-- cookit 19 Ausbreitung in Deutschland
-- Verbreitung in Deutschland
-- qubeat 19 in Deutschland
-- qubeat 19 Ausbreitung in Deutschland
-- cupid 19 in Deutschland
-- cupid 19 Ausbreitung in Deutschland
-- kuhweg 19 in Deutschland
-- kuhweg 19 Ausbreitung in Deutschland
-- Hobbit 19 in Deutschland
-- Hobbit 19 Ausbreitung in Deutschland
-- Coronavirus in Nordrhein-Westfalen
-- Coronavirus in Rheinland-Pfalz
-- Coronavirus in Mecklenburg-Vorpommern
-- Coronavirus in [Bayern]{"entity": "country_state", "value": "Bayern"}
-- Coronavirus in Bremen
-- Coronavirus in Brandenburg
-- Coronavirus in Berlin
-- Coronavirus in Bayern
-- Coronavirus in Baden-Württemberg
-- Hobbit 19 Deutschland
-- huvit 19 Deutschland
-- Covid 19 Deutschland
-- kovit 19 Deutschland
-- Der Virus in Deutschland
-- Coronavirus und Deutschland
-- Wie sieht es mit Deutschland aus?
-- Informationen zur allgemeinen Situation Deutschlands
-- Momentane Lage Deutschlands
-- Aktuelle Informationen in Deutschland
-- Wie ist die Situation Deutschlands einzuschätzen?
-
-## intent:germany_food_buy
-- Was soll ich für 14 Tage Quarantäne einkaufen
-- Was soll ich für 2 Wochen Quarantäne einkaufen
-- Was muss man für 2 Wochen alles einkaufen?
-- Was sollte ich für zwei Wochen Quarantäne kaufen
-- Was muss ich für zwei Wochen an Vorrat zu Hause haben
-- Was muss ich für eine zweiwöchige Quarantäne an Vorrat alles zu Hause haben
-- Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben
-- Wie kann ich mich auf häusliche Quarantäne vorbereiten?
-- Wie kann sich jeder einzelne auf häusliche Quarantäne vorbereiten?
-- Was muss ich einkaufen für häusliche Quarantäne?
-- Wie soll ich mich selbst auf die Quarantäne vorbereiten
-- Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben
-- Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?
-- Was muss ich einkaufen, wenn ich in Quarantäne bin
-- Was braucht man für die Versorgung einer Person für zehn Tage
-- Was soll ich für 10 Tage Quarantäne kaufen
-
-## intent:germany_food_shortages
-- Werden die Supermärkte leer sein?
-- Wird es Engpässe mit Lebensmitteln geben?
-- Sollte man jetzt Lebensmittel auf Vorrat kaufen?
-- Was sagst du zu Hamsterkäufen?
-- Machen Hamster Käufe Sinn?
-- Sind in Deutschland Versorgungsengpässe mit Lebensmitteln zu befürchten?
-- Muss ich mit Lebensmittelknappheit rechnen?
-- Hamster Käufe
-- Hamster Kaufen
-- Hamsterkäufe
-- Welche Lebensmittel sollte man im Notfall zuhause haben?
-- Machen Hamsterkäufe Sinn?
-- Für wieviele Tage soll man genug Lebensmittel haben?
-- Lebensmittel Engpässe
-- Ist die Lebensmittelversorgung im Fall einer weiteren Ausbreitung des Coronavirus noch gesichert?
-- Verursachen Hamsterkäufe Lebensmittelknappheit?
-- Lebensmittelengpässe
-- Gibt es Lebensmittelengpässe
-- Werden wir noch genug zu Essen haben?
-- Soll ich jetzt auf Vorrat kaufen?
-- Wie ist die Versorgungslage in Deutschland
-- Sind jetzt Lieferengpässe bei den Lebensmitteln zu befürchten?
-- Wie ist die Versorgungslage in Deutschland?
-- Sind Lebensmittel Engpässe zu befürchten
-- Wird es noch genug zu Essen geben?
-- Werden die Supermarkt Regale leer sein?
-- Weshalb stehen dann doch viele Regale leer?
-- Es gibt bereits leere Supermarkt-Regal
-- Leere Nudelregale in den Supermärkten
-- Leere Supermarktregale wegen Coronavirus?
-- Lebensmittelknappheit
-- Lebensmittel knappheit
-- Muss man jetzt Essen auf Vorraut kaufen?
-- Wird es noch genug Lebensmittel in Deutschland geben
-- Ist es jetzt ratsam, Hamsterkäufe zu machen?
-
-## intent:germany_hotline
-- Wie ist die Nummer des Bundesgesundheitsministeriums?
-- Coronavirus Hotline
-- Telefon Nummer
-- Hotline
-- Hotlines
-- Gibt es eine Rufnummer?
-- Wo kann ich anrufen?
-- Ich brauche eine Nummer
-- Ich will telefonisch Kontakt aufnehmen
-- An wen kann ich mich telefonisch wenden?
-- Ich hätte gerne eine Telefonnummer
-- Ich hätte gern eine Telefon Nummer
-- Bitte gib mir eine Telefonnummer
-- An wen ich mich per Telefon wenden?
-- Ich möchte telefonisch Kontakt aufnehmen.
-- Wen kann ich anrufen?
-- Wie lautet die Nummer?
-- Wie lautet die Hotline?
-- Wo finde ich einen Arzt in meiner Stadt
-- Arzt
-- wo rufe ich an wenn ich Symptome habe
-- Ich suche einen Arzt
-- Gibt es eine Whats App Nummer
-- Gibt es eine Corona Virus Hotline?
-- Rufnummern
-- Ruf Nummer
-- Telefonummer
-- Telefonnummer bitte
-- Sagst du mir eine Rufnummer?
-- Kannst du mir eine Nummer geben?
-- Hotlines zum Coronavirus
-- Rufnummer
-- Wen kann ich telefonisch erreichen?
-- Wie lautet die Nummer der Beratung?
-- Ich brauche telefonische Beratung
-- Gibt es eine Nummer für Patientenberatung?
-- Gibt es eine Nummer für Patienten Beratung?
-- Unabhängige Patientenberatung Deutschland Rufnummer
-- Bürgertelefon
-- Bürgertelefon Nummer
-- Wie lautet die Nummer des Bundesministeriums für Gesundheit?
-- Gibt es einen telefonischen Beratungsservice?
-- Gibt es einen Beratungsservice für Gehörlose und Hörgeschädigte?
-- Kontaktvermittlung
-- Wie kann ich Kontakt zu diesem Thema aufnehmen?
-- Kontakt über Whatsapp aufnehmen
-- Kontakt per Whatsapp
-- An welchen Arzt kann ich mich wenden
-- Gibt es eine Hotline?
-- Gibt es eine Rufnummer für allgemeine Erstinformation?
-
 ## intent:germany_lockdown_crisis_howlong
 - Bis wann gelten diese Maßnahmen
+- wann ist es vorbei?
 - Ausgangssperre in Deutschland wie lange noch
 - Lockdown in Deutschland wie lange
 - Ist die Pandemie bis Sommer vorbei?
@@ -2851,48 +3081,85 @@
 - Kann ich jetzt noch nach Holland reisen?
 - Kann ich jetzt noch nach Frankreich reisen?
 - Schließen die Nachbarländer jetzt Grenzen?
-- Kann man jetzt noch in die Schweiz reisen?
+- Kann man jetzt noch in die [Schweiz]{"entity": "country_code", "value": "CH"} reisen?
 - Wie sieht es mit Reisen in die Nachbarstaaten aus?
 - Was ist mit reisen in die Nachbar Staaten?
 - Kann ich noch in Nachbarländer verreisen?
 
-## intent:germany_nomoney
-- Ich kann meine Rechnungen nicht mehr bezahlen wegen Corona
-- Das Geld wird knapp
-- Ich habe kein Geld mehr
-- Ich bin pleite
-- Mir geht das Geld aus
-- Ich hab bald kein Geld mehr
-- Habe kein Geld mehr
-- Ich kann meine Versicherung nicht mehr zahlen
-- Was bietet mir das Hilfspaket, wenn ich meinen Kredit oder meine Versicherung nicht mehr bezahlen kann?
-- Ich kann meine Ausgaben nicht mehr bezahlen wegen Corona
-- Was soll ich tun wenn ich meine Miete nicht mehr zahlen kann
-- Was soll ich tun wenn ich pleite bin
-- Ich kann meine Rechnungen nicht mehr bezahlen
-- Ich kann meine Rechnung nicht mehr bezahlen
-- Was soll ich machen wenn ich kein Geld mehr habe
-- Ich bin jetzt arbeitslos und habe keine Geld mehr
-- Ich kann bald meine Miete nicht mehr zahlen
-- Ich bin bald pleite
+## intent:covid_worry
+- Muss man jetzt Angst haben vor Kowit 19?
+- Muss ich mir wegen Kowit 19 Sorgen machen?
+- Wie berechtigt ist die Angst vor Covid-19?
+- Sollte man sich jetzt aufgrund von Covid-19 Gedanken machen?
+- Angst vor Covid-19
+- Muss man jetzt Angst haben vor Covid-19?
+- Muss ich jetzt Angst vor dem Coronavirus haben?
+- Angst vor Corona-Virus
+- Ich habe Angst vor dem Virus
+- Ich beginne mir ernsthaft Sorgen zu machen.
+- Ich mache mir sehr sorgen um den Virus!
+- Ich bin panisch
+- Müssen wir uns ernsthafte Sorgen machen?
+- Soll ich panisch sein?
+- Sorge vor dem Corona-Virus
+- Coronavirus alles nur Panik Mache?
+- Alles nur Panikmache?
+- Alles nur Panikmacherei?
+- Muss man jetzt Angst haben wegen dem Virus?
+- Muss ich mir um meine Familie Sorgen machen?
+- Sollte man sich jetzt aufgrund des Coronavirus Gedanken machen?
+- Muss ich jetzt Angst haben?
+- Sollte man sich jetzt aufgrund von Kowit 19 Gedanken machen?
+- Muss ich mir wegen dem Coronavirus jetzt ernsthaft Sorgen machen?
+- Wie berechtigt ist die Angst vor Kowit 19?
+- Muss ich mir wegen COVID-19 Sorgen machen?
+- Sorge
+- Gibt es einen Grund, sich jetzt Sorgen zu machen?
+- Panik
+- Angst
+- In Panik geraten
+- Panik Ausbruch
+- Ich habe Angst
+- warum drehen alle durch?
+- Bricht jetzt Panik aus
+- spinnen die alle?
+- Wie berechtigt ist die Angst vor dem Coronavirus?
+- Angst vor Coronavirus
+- Wie viel Angst muss man wirklich haben?
+- Ich mache mir sehr sorgen
+- Angst vor Kowit 19
 
-## intent:germany_pandemic
-- Pandemieausruf
-- Was hat es zu bedeuten, dass die WHO eine Pandemie ausgerufen hat?
-- Notstand in Deutschland durch Pandemie?
-- Pandemie in Deutschland
-- Pandemie Deutschland
-- Wie ist die Lage Deutschlands im Zusammenhang mit der Pandemie
-- Deutschland Pandemie
-- Welche Konsequenzen hat der Pandemie Ausruf für Deutschland?
-- Was bedeutet der Pandemie Ausruf für Deutschland?
-- Pandemie Ausruf Deutschland
-- Was bedeutet es für Deutschland, dass die WHO die Pandemie ausgerufen hat?
-- Pandemie Ausruf
-- WHO hat den weltweiten Pandemie-Fall ausgerufen, was heißt das für Deutschland?
+## intent:covid_current_situation
+- Situation in anderen Ländern
+- Ich fliege über [Türkei]{"entity": "country_code", "value": "TR"}, werde ich Probleme bekommen?
+- Und wie ist es in [Frankreich]{"entity": "country_code", "FR": "country"}?
+- Wie sieht die Situation in [Russland]{"entity": "country_code", "value": "RU"} aus?
+- Welche Maßnahmen werden in [Polen]{"entity": "country_code", "value": "PL"} getroffen?
+- Wie ist die Lage in [Brasilien]{"entity": "country_code", "value": "BR"}?
+- Die derzeitige Situation in [Amerika]{"entity": "country_code", "value": "US"}
+- Wie sieht es mit [Peru]{"entity": "country_code", "value": "PE"} aus?
+- Was ist mit [Bolivien]{"entity": "country_code", "value": "BO"}?
+- Momentane Lage in [Indien]{"entity": "country_code", "value": "IN"}
+- Wie sieht's in [Südafrika]{"entity": "country_code", "value": "ZA"} aus
+- Wie ist es jetzt in [Neuseeland]{"entity": "country_code", "value": "NZ"}
+- Lage in anderen Ländern
+- Wie ist der Zustand in [Australien]{"entity": "country_code", "value": "AU"}
+- Ich habe Zwischenstopp in [Mexiko]{"entity": "country_code", "value": "MX"}
+- Wie ist die Situation weltweit
+- Wie sehen die Einreise Bedingungen in [Kolumbien]{"entity": "country_code", "value": "CO"} aus?
+- Wie sind die Einreisebestimmungen in [Marokko]{"entity": "country_code", "value": "MA"}?
+- Wie ist die Lage in [England]{"entity": "country_code", "value": "GB"}
+- Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Lage in - Wie ist die Situation in [Kolumbien]{"entity": "country_code", "value": "CO"}
+- Situation in [Spanien]{"entity": "country_code", "value": "ES"}
+- Derzeitige Lage in [Italien]{"entity": "country_code", "value": "IT"}
 
 ## intent:germany_preparation
 - Gibt es jetzt Ausgangssperre in Rheinland-Pfalz?
+- welche ausgangsbeschränkungen gelten derzeit in bayern
+- welche regeln sind in bayern zu beachten
+- nenne mir die aktuellen beschränkungen in bayern
+- Wie ist aktuell das Kontaktverbot definiert?
 - wie ist deutschland vorbereite
 - welche ausgangsbeschränkungen gelten derzeit in
 - welche regeln sind in zu beachten
@@ -3307,26 +3574,6 @@
 - Gibt es Ausgangs Sperre in Saarland
 - Gibt es jetzt Ausgangssperre in Sachsen-Anhalt?
 
-## intent:germany_risk
-- Risikobewertung Deutschland
-- Risiko
-- Risiko bewertung Deutschland
-- Belastung des Gesundheitswesens
-- Risiko Ressourcenbelastung des Gesundheitssystems
-- Ressourcenbelastung des Gesundheitssystems
-- Risikobewertung Ressourcenbelastung des Gesundheitssystems
-- Risikobewertung Allgemein
-- Risiko bewertung
-- Risikobewertung
-- Kubik 19 Ausbreitung in Deutschland
-- Risikobewertung der aktuellen Situation
-- Risikobewertung der Ausbreitung
-- Wie hat sich das Virus verbreitet
-- Wie kam das Virus nach Deutschland?
-- Risiko der aktuellen Lage
-- Risiko für Deutschland
-- Ausbreitungsrisiko von Covid in Deutschland.
-
 ## intent:germany_second_wave
 - Wird es wieder Neuinfektionen geben?
 - Wird es nochmal zu einem Anstieg von Infizierten in Deutschland kommen?
@@ -3463,7 +3710,12 @@
 ## intent:gradual_opening_barbecue
 - Grill Parties
 - Grillpartys
+- Dar ich eine Grillparty feiern?
+- Darf ich eine Grillparty feiern?
 - Grill Partys
+- Darf ich mit meinem Freunde grillen?
+- Darf ich in Bayern grillen?
+- Darf ich grillen?
 - Ich will grillen
 - Kann ich grillen?
 - Was ist mit Grillplätzen¡
@@ -3478,6 +3730,34 @@
 - Grillen
 - Grillplätze
 - Grillparties
+
+## intent:gradual_opening_party
+- Parties
+- partys
+- party feiern?
+- Darf ich Party feiern?
+- Party
+- Darf ich mit meinem Freunde feiern?
+- Darf ich in Bayern feiern?
+- Darf ich feiern?
+- Ich will Party machen
+- Veranstaltungen
+- Was ist mit Veranstaltungen
+- Was ist mit Großveranstaltungen
+- Großveranstaltungen
+- Kann ich Party machen?
+- Was ist mit Feierlichkeiten?
+- Kann ich Partys feiern?
+- Dar ich eine Party feiern?
+- Fete
+- Sind Partys erlaubt?
+- Sind Parties wieder erlaubt?
+- Sind kleinere öffentliche oder private Veranstaltungen oder Feiern erlaubt?
+- Sind öffentliche oder private Veranstaltungen oder Feiern erlaubt?
+- Sind private Veranstaltungen erlaubt?
+- Sind Feiern erlaubt?
+- Feierlichkeiten
+- Mit wie vielen Personen darf ich feiern?
 
 ## intent:gradual_opening_cinema_concert_theatre
 - Wann machen die Konzerte wieder auf?
@@ -3620,6 +3900,7 @@
 - Wann kann ich wieder in eine Bar gehen?
 - Kann ich noch was trinken gehen?
 - Kann man noch in Kneipen gehen?
+- Darf ich ins Restaurant?
 - Sind die Restaurants noch offen?
 - dürfen restaurants in öffnen
 - Kann man noch ins Restaurant gehen?
@@ -3629,7 +3910,9 @@
 - Gaststätte
 - Was ist mit den Gaststätten?
 - haben restaurants in geöffnet
+- haben restaurants in bayern geöffnet
 - Was ist mit der Gastronomie?
+- dürfen restaurants in bayern öffnen
 - Welche Regeln gelten für die Gastronomie?
 - Was ist mit Bars?
 - Und was ist mit Restaurants?
@@ -3737,7 +4020,14 @@
 - Wie ist die Öffnung der Universitäten geregelt?
 
 ## intent:gradual_opening_visit_family_friends
+- Anzahl Personen die sich derzeit treffen dürfen?
+- Ich will mit meinem Freunde treffen 
+- Mit wie vielen Leuten darf ich mich treffen?
+- Freunde und Familie besuchen
+- Mit wie vielen Personen darf ich mich derzeit treffen?
 - Ich will meine Freunde treffen
+- darf ich mich mit Freunden treffen 
+- Freundin treffen 
 - Mit wie vielen Leuten darf ich mich treffen?
 - Kann ich mich mit Freunden treffen?
 - Darf ich meinen Nachbarn treffen?
@@ -3801,6 +4091,7 @@
 
 ## intent:mask_differences
 - welche Maske
+- Welche Masken werden angeboten?
 - Was sind die verschiedenen Masken
 - Welche Arten von Schutzmasken gibt es
 - Welche unterschiedlichen Schutzmasken gibt es
@@ -3828,6 +4119,7 @@
 - FFP3 Maske
 - FFP2 Maske
 - FFP3 Masken
+- Wie lange kann ich eine FFP2-Maske tragen
 - FFP2 Masken
 - Wo bekomme ich FFP 3 MAsken
 - Was sind FFP Masken
@@ -3838,43 +4130,63 @@
 - Helfen FFP3 Masken gegen das Coronavirus
 - Wie oft können FFP2 oder FFP3-Masken von ein und derselben Person benutzt werden?
 
-## intent:mask_obligatory
-- Wer sollte einen Mund-Nasen-Schutz tragen?
-- Wo gilt Maskenpflicht?
-- Gilt Maskenpflicht?
+## intent:prevention_supermarket
+- Was muss ich beachten, wenn ich einkaufen gehe?
+- Auflagen zur Hygiene beim Einkaufen
+- Was muss ich im Supermarkt beachten?
 - Ist ein Mundschutz beim Einkaufen nötig?
 - Ist es sinnvoll, beim Einkaufen eine Schutzmaske zu tragen?
 - Ist es notwendig, im Supermarkt eine Schutzmaske zu verwenden?
 - Muss ich eine Schutzmaske tragen, wenn ich ein Geschäft betrete?
 - Mundschutz im Supermarkt
 - Muss ich Mundschutz verwenden, wenn ich Lebensmittel kaufen gehe?
-- Zuhause bleiben Arztbesuche
+- Muss ich eine Schutzmaske bei Einkäufen tragen?
+- Schutzmaske beim Einkaufen
+- Maskenpflicht im Supermarkt
+- Schutzmaske im Supermarkt
+- Brauche ich einen Munschutz wenn ich einkaufen gehe?
+- Muss ich einen Mundschutz beim einkaufen tragen?
+- Muss ich einen Mundschutz beim Einkaufen gehen benutzen?
+- Mundschutz im Supermarkt nötig?
+- Muss ich jetzt überall die Mund-Nasen-Maske auch beim Einkaufen tragen?
+- Was muss man im Supermarkt beachten?
+- Supermarkt Vorsichtsmaßnahmen
+- Vorsichtsmaßnahmen in Supermärkten
+- Tragen einer Mund-Nase-Bedeckung beim Einkaufen.
+- Geschäfte Mundschutz
+- Mundschutz in Geschäften
+- Macht eine Atemschutz Maske Sinn beim Einkaufen?
+- Mundschutz Supermarkt
+- Mundschutzmasken Einkaufen
+- Mundschutz Maske Geschäfte
+- Was muss ich in Geschäften beachten?
+
+## intent:mask_obligatory
+- Wer sollte einen Mund-Nasen-Schutz tragen?
+- muss ich eine maske aufsetzen?
+- muss ich eine maske aufsezen?
+- Wo gilt Maskenpflicht?
+- muss ich eine Maske benutzen 
+- Gilt Maskenpflicht?
+- Muss ich eine Maske benutzen?
 - Wer sollte den Mund- und Nasenschutz tragen?
 - Wann sollte man die Maske tragen?
 - Muss ich jetzt auch die Maske benutzen?
 - Wo gilt die Mund-Nasen-Masken Pflicht?
 - Maskenpflicht jetzt überall?
-- Muss ich eine Schutzmaske bei Einkäufen tragen?
 - Muss ich eine Maske tragen?
 - Maskenpflicht
 - Maskenpflicht in Deutschland
 - soll ich eine Maske tragen
-- Schutzmaske beim Einkaufen
-- Schutzmaske im Supermarkt
-- Brauche ich einen Munschutz wenn ich einkaufen gehe?
-- Muss ich einen Mundschutz beim einkaufen tragen?
-- Muss ich einen Mundschutz beim Einkaufen gehen benutzen?
 - Gilt die Maskenpflicht in allen Bundesländern?
 - Maskenpflicht deutschlandweit?
 - In welchen Bundesländern gibt es eine Maskenpflicht?
-- Mundschutz im Supermarkt nötig?
 - Wer sollte einen Mundschutz tragen?
 - Muss ich jetzt auch Mundschutz tragen?
 - Muss ich jetzt auch mit Mundschutz rumlaufen?
 - Alle laufen jetzt mit diesen Masken rum, ist das notwendig?
 - Muss ich jetzt überall die Mund-Nasen-Maske auch im Zug tragen?
 - Muss ich jetzt überall die Mund-Nasen-Maske auch im Bus tragen?
-- Muss ich jetzt überall die Mund-Nasen-Maske auch beim Einkaufen tragen?
 - Muss ich jetzt überall die Mund-Nasen-Maske tragen?
 - Ist die Mund-Nasen-Maske jetzt verpflichtend?
 - Gilt die Maskenpflicht überall?
@@ -3883,67 +4195,17 @@
 - Ist es jetzt verpflichtend, eine Maske zu tragen?
 - Wird das Maskentragen nur empfohlen oder ist es ein Muss?
 
-- Warum kaufen eigentliche alle Masken?
-- Was bringt ein Mundschutz?
-- Schutz vor dem Coronavirus: Was bringt ein Mundschutz?
-- Schützen Atemschutzmasken vor Sars-CoV-2?
-- Mundschutzmaske gegen Coronavirus-Epidemie?
-- Ist das Tragen eines Mund-Nasen-Schutzes zum Schutz vor Atemwegserkrankungen sinnvoll?
-- Mundschutz-Masken: Was hilft gegen Viren?
-- Mindert das Tragen eines Mund-Nasen-Schutzes das Risiko einer Ansteckung?
-- Sollte ich eine Maske tragen, um mich selbst zu schützen?
-- Hilft der Maskenschutz gegen eine Ansteckung?
-- Schützt mich die Maske vor einer Ansteckung?
-- Verhindern die Masken eine Ansteckung?
-- Helfen Atemschutzmasken gegen Q19?
-- Helfen Atemschutzmasken gegen cookit 19?
-- Schützt mich eine Stoffmaske?
-- Kann ich mit Schutzmasken andere schützen?
-- Kann ich mich mit einer Maske vor Ansteckung schützen?
-- Kann ich mich mit Masken schützen?
-- Was bringt die Maske?
-- Was ist der Nutzen der Mund Bedeckung
-- Warum Mund Bedeckung tragen
-- Warum sollen wir Mund Nasen Schutz tragen?
-- Warum Mund Nasen Schutz tragen?
-- Warum sollen wir jetzt Mundschutz tragen?
-- Was hilft es, einen Mundschutz zu tragen?
-- Warum Masken tragen?
-- Warum soll ich eine Maske tragen?
-- Was nützt es, Masken zu tragen?
-- Helfen Atemschutzmasken gegen qubeat 19?
-- Helfen Atemschutzmasken gegen cupid 19?
-- Helfen Atemschutzmasken gegen kuhweg 19?
-- Helfen Atemschutzmasken gegen Hobbit 19?
-- Helfen Atemschutzmasken gegen huvit 19?
-- Helfen Atemschutzmasken gegen COBIT 19?
-- Ist das Tragen eines Mund-Nasen-Schutzes in der Allgemeinbevölkerung zum Schutz vor akuten respiratorischen Infektionen sinnvoll?
-- Helfen Atemschutzmasken gegen Covid 19?
-- Helfen Atemschutz Masken gegen eine Ansteckung?
-- Helfen Atemschutzmasken gegen Sars-CoV-2?
-- Verhindert der Mundschutz, dass ich mich anstecke?
-- Atemschutz- und Mund- und Nasenmasken, macht das Sinn?
-- Macht es Sinn, den Mund Nasen Schutz zu tragen?
-- Ist das Tragen eines Mund-Nasen-Schutzes sinnvoll?
-- Verhindert ein Mundschutz eine Ansteckung?
-- Mundschutz Masken
-- Mundschutzmaske
-- Was bringt es, jetzt eine Atemschutzmaske zu tragen?
-- Helfen Atemschutzmasken gegen Kubik 19?
-- Helfen Atemschutzmasken gegen kovit 19?
-- Helfen Atemschutzmasken gegen movit 19?
-- Macht eine Atemschutz Maske Sinn?
-- Mundschutz
-- Mundschutzmasken
-- Mundschutz Maske
-
 ## intent:mask_put
 - Was sollte ich bei der Maske beachten?
 - Wie setze ich die Maske richtig auf?
+- Wie setze ich die Maske korrekt auf?
+- Wie benutzt man eine Maske korrekt?
 - Wie benutzt man den Mund Nasen Schutz richtig?
 - Wie trage ich einen Mundschutz richtig?
+- Wie legt man eine Maske an?
 - Wie soll ich die Maske benutzen?
 - Wie soll ich eine Maske aufsetzen?
+- wie soll ich eine Maske verwenden 
 - Welche Verhaltensregeln soll ich beim Tragen eines Mundschutzes beachten
 - Was gilt es zu beachten wenn man eine Maske trägt
 - Was muss ich beim Tragen einer Maske beachten
@@ -3969,6 +4231,7 @@
 - Maske nochmal benutzen
 - Masken nochmal aufsetzen
 - Kann man Masken wiederverwenden?
+- Kann ich die Maske wiederverwenden?
 
 ## intent:mask_selfmade
 - Welches Material eignet sich am besten zum Masken machen?
@@ -4021,6 +4284,8 @@
 - Kann ich die Maske zur Reinigung in den Backofen geben?
 - Wie wäscht man den Mundnasenschutz?
 - Wie oft sollten Stoffmasken gereinigt werden?
+- wie oft muss ich eine maske waschen
+- Kann ich die Maske waschen?
 
 ## intent:mask_which
 - Welche Maske wählen
@@ -4170,6 +4435,7 @@
 
 ## intent:myths_chinese_laboratory
 - Kommt das Virus aus dem Labor?
+- Coronavirus als Biowaffe
 - Kommt der Virus aus dem Labor?
 - Wurde der Coronavirus in einem chinesischen Labor hergestellt?
 - Coronavirus in einem geheimen unterirdischen Labor gezüchtet
@@ -4211,6 +4477,7 @@
 - wie erkenne ich falsche Meldungen
 - Fake News erkennen
 - Fakten Checker
+- Fake-News
 - Faktenchecker
 - Fake-News erkennen
 - Gates Verschwörung
@@ -4240,7 +4507,6 @@
 - Falschmeldung
 - Falschnachricht
 - Falsche Nachrichten
-- Coronavirus als Biowaffe
 - Coronavirus, um Überbevölkerung zu reduzieren
 - Die USA stecken dahinter
 - Das wurde alles geplant
@@ -4403,6 +4669,7 @@
 - Wie können sich Bürgerinnen und Bürger vor dem Coronavirus schützen?
 - Wie kann das Infektionsrisiko verringert werden?
 - Vorsichtsmaßnahmen.
+- Schützt mich eine Maske?
 - Schutzmaßnahmen.
 - wie schützt man sich am besten vor corona
 - Wie kann man sich bzw. seine Mitmenschen vor einer Ansteckung schützen?
@@ -4448,6 +4715,7 @@
 
 ## intent:prevention_home
 - Ich habe leichte Krankheitssymptome. Soll ich zuhause bleiben?
+- Muss ich zu Hause bleiben?
 - Ich habe leichte Krankheitssymptome. Soll ich zu Hause bleiben?
 - Ich fühle mich ein bisschen krank, soll ich daheim bleiben?
 - Ich fühle mich ein bisschen krank, soll ich zu Hause bleiben?
@@ -4456,6 +4724,7 @@
 - Muss ich mich jetzt zuhause einschließen?
 - Daheim bleiben
 - Soll ich auch ohne Symptome daheim bleiben?
+- Soll ich immer zu Hause bleiben?
 - Wann sollte ich lieber zuhause bleiben
 - Muss ich echt zuhause bleiben
 - Muss man jetzt wirklich zu hause bleiben?
@@ -4537,6 +4806,10 @@
 - Warum sollte ich über die neuesten Informationen zum COVID-19-Ausbruch auf dem Laufenden bleiben?
 
 ## intent:prevention_medical_attention
+- Wi kan mann sich pehandeln lassen!
+- Wie kan mann sich behandeln lassen!
+- und wenn ich husten habe
+- Was mache ich, wenn ich mich schlapp fühle
 - Ich fühle mich total müde.
 - Verdacht auf Corona
 - Was tun bei Symptomen?
@@ -4605,6 +4878,24 @@
 - Ich fühle mich schlapp
 - Ich fühle mich abgeschlagen
 - Coronavirus Was tun bei Symptomen?
+- Was tun bei Symptomen
+- Was soll ich tun bei Symptomen
+- Was kann ich bei Symptomen tun?
+- Was soll ich tun, wenn ich Symptome habe?
+- Was mache ich, wenn ich Symptome habe?
+- Was machen bei Symptomen
+- Was tun bei Symptomen
+- Symptome, und jetzt?
+- Ich habe Symptome
+- Hilfe ich habe Symptome
+- Ich habe Symptome und jetzt?
+- Wo soll ich hingehen wenn ich Symptome habe
+- Soll ich zum Arzt wenn ich Sympyome habe?
+- Was mache ich bei Symptomen?
+- Was soll ich bei Symptomen machen?
+- Wie soll ich vorgehen, wenn ich Symptome habe?
+- Vorgehensweise bei Symptomen
+- Was tue ich bei Symptomen?
 - Husten
 - Fieber
 - Ich habe eine Lungenentzündung
@@ -4712,6 +5003,7 @@
 
 ## intent:quarantine_dos_and_donts
 - Was sind die Quarantäne Regeln?
+- Was darf man in Quarantäne und was nicht
 - Was darf ich noch wenn ich in Quarantäne bin?
 - Kann ich noch raus wenn ich in Quarantäne bin?
 - Kann ich noch shoppen gehen wenn ich in Quarantäne bin?
@@ -4799,7 +5091,6 @@
 - Geht noch Sex in der Quarantäne?
 - Geht noch küssen in Quarantäne?
 - Wie funktioniert die Quarantäne
-- Was darf man in Quarantäne und was nicht
 - Was soll ich bei einer Quarantäne beachten?
 - Wie soll ich mich bei einer Quarantäne verhalten?
 - Ablauf häusliche Quarantäne
@@ -5593,31 +5884,6 @@
 - Osterbesuch bei Eltern möglich?
 - Meine Eltern wohnen im Nachbarort – wir dürfen uns doch wenigstens noch besuchen?
 -->
-## intent:test_per_day
-- Was wird genau bei dem Test gemacht
-- Wie läuft der Test ab?
-- Corona Test Wie funktioniert der Test
-- Wie funktioniert der Test auf Covid 19
-- Wie funktioniert der Test auf Sars CoV 2?
-- Wie funktioniert ein Corona-Test?
-- Wie lange dauert es, bis man die Ergebnisse vom Test bekommt
-- Wie funktioniert der Test auf Sars-CoV-2
-- Wie funktioniert der Corona Test
-- Wie läuft der Test ab
-- Wie läuft ein Test auf das Coronavirus ab?
-- Wie lange dauert es, bis man Test Ergebnisse bekommt
-- Wie lange dauert es, bis man Testergebnisse bekommt
-- Wann erhält man Ergebnisse beim Test?
-- Wie funktioniert der Test
-- Wie wird der Test durchgeführt
-- Wie lange dauert der Test
-- Testzeit
-- Wie lange dauert die Testzeit
-- Wann sind die Ergebnisse des Tests da
-- Wann bekommt man Ergebnisse bei dem Test
-- Wie funktioniert der Coronavirus Test
-- Wie läuft ein Test auf das Coronavirus eigentlich ab?
-- Wie wird der Test durchgeführt?
 
 ## intent:test_payment
 - Kann meine Krankenkasse für die Kosten des Tests aufkommen?
@@ -5776,6 +6042,7 @@
 - Gibt es einen Test für Hobbit 19?
 - Wo kann ich mich testen lassen?
 - Gibt es einen Corona Test ?
+- Wo kann ich mich auf Corona testen lassen?
 - Wo kann ich mich in testen lassen?
 - Wo kann ich getestet werden?
 - Wie wird auf den Virus getestet?
@@ -5871,6 +6138,16 @@
 - Kann ich mich testen lassen?
 
 ## intent:travel_before
+- in welche Länder kann man aktuell reisen?
+- Welche Einreisebeschränkungen gibt es in die [Ukraine]{"entity": "country_code", "value": "UA"}?
+- Urlaub machen
+- Wie lange dauern Reisebeschränkungen nach [Afrika]{"entity": "country_code", "value": "ZA"}
+- Sind Flüge nach [Afrika]{"entity": "country_code", "value": "ZA"} erlaubt ?
+- Wann kann ich nach [Afrika]{"entity": "country_code", "value": "ZA"} fliegen
+- [Ukraine]{"entity": "country_code", "value": "UA"} Einreise
+- einreise aus [Dubai]{"entity": "country_code", "value": "AE"}
+- kann ich nach bangkok reisen?
+- kann ich nach ittalien reisen?
 - Worauf muss ich vor meiner Reise achten?
 - Sollten Reisende vor Reiseantritt prüfen, ob es Reisebeschränkungen wegen des Coronavirus gibt?
 - Ich plane eine Reise Was muss ich beachten?
@@ -5882,6 +6159,9 @@
 - Dinge zu beachten, bevor Sie reisen.
 - Dinge, die auf Reisen zu beachten sind.
 - Was ist vor der Reise zu tun?
+- darf ich nach mallorca fliegen
+- [Italien]{"entity": "country_code", "value": "IT"} reise
+- [Australien]{"entity": "country_code", "value": "AU"} einreise
 - Ich habe einen Reiseplan.
 - darf ich reisen?
 - Darf man noch ins Ausland reisen?
@@ -6015,11 +6295,14 @@
 ## intent:travel_return
 - Vorgehensweise bei der Rückkehr von der Reise.
 - Wie geht es nach der Reise weiter?
+- rückreise aus [Dubai]{"entity": "country_code", "value": "AE"}
+- Muss ich in Quarant√§ne, wenn ich in [Kroatien]{"entity": "country_code", "value": "HR"} war? 
 - Test nach [Marokko]{"entity": "country_code", "value": "MA"} aufenthalt
 - Ich war gerade in [Türkei]{"entity": "country_code", "value": "TR"} und habe jetzt Husten
 - Wie geht man nach der Reise vor?
 - Ich war in [Spanien]{"entity": "country_code", "value": "ES"}, muss ich mich testen lassen?
 - Einreise nach Deutschland
+- Risikogebiete
 - Was gilt für Einreisende nach Deutschland?
 - Bin in einem Risikogebiete darf ich nach Deutschland einreisen
 - Testen nach Aufenthalt in [Frankreich]{"entity": "country_code", "value": "FR"}
@@ -6036,7 +6319,7 @@
 - Ist ein Test nötig wenn ich gerade in [Jordanien]{"entity": "country_code", "value": "JO"} war?
 - Ich habe gerade eine Reise durch [Italien]{"entity": "country_code", "value": "IT"} gemacht, ist ein Test nötig?
 - Sollen Personen, die gerade in [Israel]{"entity": "country_code", "value": "IL"} waren, einen Test machen?
-- Ich habe Symptome und war gerade in [Island]{"entity": "country_code", "value": "country"}
+- Ich habe Symptome und war gerade in [Island]{"entity": "country_code", "value": "IS"}
 - Ich war in [Hong Kong]{"entity": "country_code", "value": "HK"}. Muss ich mich testen lassen?
 - Muss ich mich testen lassen, wenn ich gerade in [Irland]{"entity": "country_code", "value": "IE"} war?
 - Ich bin gerade aus [Indien]{"entity": "country_code", "value": "IN"} zurückgekommen
@@ -6125,6 +6408,7 @@
 - Urlaub in Deutschland trotz Corona möglich?
 - Urlaub in Deutschland
 - Sind Reisen innerhalb Deutschlands möglich?
+- Reisen in Deutschland
 - Darf man innerhalb von Deutschland reisen?
 - Sind Reisen innerhalb Deutschlands erlaubt?
 - Darf man innerhalb Deutschlands verreisen?
@@ -6442,6 +6726,7 @@
 - Bist du noch da?
 - Bist du nicht mehr da?
 - Wo bist du hin?
+- Helena? 
 - Hallo, warum antwortest du nicht?
 - Huhu, bist du noch da?
 - Hallo, noch jemad zuhause?
@@ -6585,6 +6870,7 @@
 - Bist du clever?
 - Hältst du dich für klug?
 - Glaubst du, dass du schlau bist?
+- das ist sehr gut. Du bist sehe intelligent
 
 ## intent:comment_negative
 - Du kannst mir nicht helfen.
@@ -6614,6 +6900,7 @@
 - 
 ## intent:bot_capabilities
 - Kannst du alle Fragen beantworten?
+- Bei was kannst du helfen?
 - Welche sind deine Aufgaben?
 - Welche Aufgabe hast du?
 - Was weißt du alles?
@@ -6625,6 +6912,7 @@
 - Was ist deine Aufgabe?
 - Was kannst du für mich tun?
 - Was kannst du machen?
+- Dann wollen wir dich mal testen.
 - Was kannst du so machen?
 - was kannst du denn
 - Was kannst du?
@@ -6657,6 +6945,7 @@
 - ich habe eine frage
 - Womit sind Sie vertraut?
 - Womit bist du vertraut?
+- darf ich eine frage stellen
 - Wofür sind Sie da?
 - Wofür bist du da?
 - Wobei kannst du mir helfen?
@@ -6811,6 +7100,7 @@
 ## intent:bot_animal
 - Was ist dein Lieblingstier?
 - Welches Tier magst du am liebsten?
+- Welches Tier magst du am liebsten
 - Was ist Ihr Lieblingstier?
 - Welches Tier ziehst du vor?
 - Welche Tiere magst du am liebsten?
@@ -6894,6 +7184,7 @@
 ## intent:bot_actor
 - Wer ist dein Lieblingsschauspieler?
 - Wer sind deine Lieblingsschauspieler?
+- Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?
 - Schauspieler, den du magst.
 - Schauspieler, die du magst.
 - Hast du einen Schauspieler, den du magst?
@@ -7066,6 +7357,7 @@
 - Von woher kommst du?
 - Wer hat dich erstellt?
 - Wer hat dich gebaut?
+- wer hat dich gebaut 
 - Wer hat dich geschaffen?
 - Wer hat dich ins Leben gerufen?
 - Von wem bist du programmiert worden?
@@ -7350,6 +7642,7 @@
 ## intent:bot_origin
 - Ich möchte wissen, wo du geboren wurdest.
 - Wer sind Sie Macher?
+- Wo entstand der Covid?
 - Was ist deine Heimatstadt?
 - Sag mir, woher du kommst.
 - Wo ist dein Geburtsort?
@@ -7815,7 +8108,6 @@
 - Magst du LSD?
 - Trinkst du gerne alkohol?
 - Nimmst du Drogen?
-- Bist du ein Mädchen?
 - Willst du mit mir Drogen nehmen?
 - Willst du 'ne Zigarette?
 - Rauchst du eine mit mir?
@@ -8091,6 +8383,7 @@
 	
 ## intent:cc_philosophical
 - Wie viel Mühe sollte ein Mensch investieren, um andere nicht zu beleidigen?
+- Schmeckt eine Salamipizza besser mit oder ohne Pilze?
 - Ist der Terrorist einer Person nicht der Freiheitskämpfer einer anderen Person?
 - Haben Tiere Seelen?
 - Was passiert nach unserem Tod?
@@ -8292,6 +8585,7 @@
 - Was macht ein Botschafter?
 - Denken Sie, dass zu viel Geld für politische Kampagnen ausgegeben wird?
 - Merkel
+- Wer ist Trump
 - Was halten Sie von Donald Trump?
 - Wer ist Donald Trump?
 - Wie geben wir jedem Kind eine hervorragende Ausbildung?
@@ -8569,11 +8863,9 @@
 - Liest du gern?
 - Welche Bücher hast du gelesen?
 - Lesen Sie gern Bücher?
-- Was ist dein Lieblinsgautor?
 - Bots Lieblingsbuch
 - Liest du in deiner Freizeit?
 - Lieblingsbuch
-- Lieblingsautor
 - Welche Art von Zeitschriften liest du?
 - Welches ist dein Lieblingbuch?
 - Lesen Sie gerne Zeitschriften?
@@ -8689,6 +8981,7 @@
 - Was isst du gern?
 - Wer ist deiner Meinung nach das beste Essen?
 - Was isst du?
+- Ich hab Hunger und will Pizza!
 - Sag mir dein Lieblingsessen.
 - Welches Essen gefällt dir am meisten?
 - Wer ist deiner Meinung nach das leckereste Essen?
@@ -8852,7 +9145,6 @@
 - Was ist deine Lieblingsserie?
 - Harry Potter
 - Herr der Ringe
-- Wer ist dein Lieblingsschauspieler oder deine Lieblingsschauspielerin?
 - Was ist dein Lieblingsfilm?
 - Welche Filme magst du am liebsten?
 - Welche Filme sehen Sie gern?
@@ -9142,7 +9434,114 @@
 - Hast du auch Ängste wie wir Menschen? Wenn ja, wovor?
 - In welchen Situationen empfindest du Angst?
 - Kannst du auch Angst empfinden?
-	
+
+## intent:germany_food_buy
+- Was muss ich einkaufen, wenn ich in Quarantäne bin
+- Wie viele Lebensmittel soll ich für zwei Wochen Quarantäne kaufen?
+- Wie kann ich mich darauf vorbereiten, zwei Wochen zu Hause zu bleiben
+- Wie soll ich mich selbst auf die Quarantäne vorbereiten
+- Was muss ich einkaufen für häusliche Quarantäne?
+- Wie kann sich jeder einzelne auf häusliche Quarantäne vorbereiten?
+- Wie kann ich mich auf häusliche Quarantäne vorbereiten?
+- Welche Lebensmittel sollte ich für die Quarantäne vorrätig zu Hause haben
+- Was muss ich für eine zweiwöchige Quarantäne an Vorrat alles zu Hause haben
+- Was muss ich für zwei Wochen an Vorrat zu Hause haben
+- Was sollte ich für zwei Wochen Quarantäne kaufen
+- Was muss man für 2 Wochen alles einkaufen?
+- Was soll ich für 2 Wochen Quarantäne einkaufen
+- Was soll ich für 14 Tage Quarantäne einkaufen
+- Was soll ich für 10 Tage Quarantäne kaufen
+- Was braucht man für die Versorgung einer Person für zehn Tage
+
+## intent:germany_food_shortages
+- Hamster Kaufen
+- Hamster Käufe
+- Muss ich mit Lebensmittelknappheit rechnen?
+- Sind in Deutschland Versorgungsengpässe mit Lebensmitteln zu befürchten?
+- Machen Hamster Käufe Sinn?
+- Was sagst du zu Hamsterkäufen?
+- Lebensmittel knappheit
+- Lebensmittelknappheit
+- Leere Nudelregale in den Supermärkten
+- Leere Supermarktregale wegen Coronavirus?
+- Es gibt bereits leere Supermarkt-Regal
+- Weshalb stehen dann doch viele Regale leer?
+- Werden die Supermarkt Regale leer sein?
+- Wird es noch genug zu Essen geben?
+- Sind Lebensmittel Engpässe zu befürchten
+- Wie ist die Versorgungslage in Deutschland
+- Sind jetzt Lieferengpässe bei den Lebensmitteln zu befürchten?
+- Wie ist die Versorgungslage in Deutschland?
+- Lebensmittel Engpässe
+- Lebensmittelengpässe
+- Gibt es Lebensmittelengpässe
+- Werden wir noch genug zu Essen haben?
+- Soll ich jetzt auf Vorrat kaufen?
+- Verursachen Hamsterkäufe Lebensmittelknappheit?
+- Sollte man jetzt Lebensmittel auf Vorrat kaufen?
+- Wird es Engpässe mit Lebensmitteln geben?
+- Werden die Supermärkte leer sein?
+- Ist es jetzt ratsam, Hamsterkäufe zu machen?
+- Wird es noch genug Lebensmittel in Deutschland geben
+- Muss man jetzt Essen auf Vorraut kaufen?
+- Ist die Lebensmittelversorgung im Fall einer weiteren Ausbreitung des Coronavirus noch gesichert?
+- Für wieviele Tage soll man genug Lebensmittel haben?
+- Machen Hamsterkäufe Sinn?
+- Welche Lebensmittel sollte man im Notfall zuhause haben?
+- Hamsterkäufe
+
+## intent:germany_hotline 
+- Wen kann ich anrufen?
+- An wen ich mich per Telefon wenden?
+- Bitte gib mir eine Telefonnummer
+- Ich hätte gern eine Telefon Nummer
+- Ich hätte gerne eine Telefonnummer
+- An wen kann ich mich telefonisch wenden?
+- Ich will telefonisch Kontakt aufnehmen
+- Ich brauche eine Nummer
+- Wo kann ich anrufen?
+- Gibt es eine Rufnummer?
+- Hotlines
+- Hotline
+- Telefon Nummer
+- Coronavirus Hotline
+- Gibt es eine Corona Virus Hotline?
+- Rufnummern
+- Ruf Nummer
+- Telefonummer
+- Telefonnummer bitte
+- Wo finde ich einen Arzt in meiner Stadt
+- Arzt
+- wo rufe ich an wenn ich Symptome habe
+- Ich suche einen Arzt
+- Gibt es eine Whats App Nummer
+- Kontakt über Whatsapp aufnehmen
+- Kontakt per Whatsapp
+- An welchen Arzt kann ich mich wenden
+- Gibt es eine Hotline?
+- Gibt es eine Rufnummer für allgemeine Erstinformation?
+- Wie kann ich Kontakt zu diesem Thema aufnehmen?
+- Kontaktvermittlung
+- Gibt es einen Beratungsservice für Gehörlose und Hörgeschädigte?
+- Gibt es einen telefonischen Beratungsservice?
+- Wie ist die Nummer des Bundesgesundheitsministeriums?
+- Wie lautet die Nummer des Bundesministeriums für Gesundheit?
+- Bürgertelefon Nummer
+- Bürgertelefon
+- Unabhängige Patientenberatung Deutschland Rufnummer
+- Gibt es eine Nummer für Patienten Beratung?
+- Gibt es eine Nummer für Patientenberatung?
+- Ich brauche telefonische Beratung
+- Wie lautet die Nummer der Beratung?
+- Wen kann ich telefonisch erreichen?
+- Rufnummer
+- Hotlines zum Coronavirus
+- Kannst du mir eine Nummer geben?
+- Sagst du mir eine Rufnummer?
+- Wie lautet die Hotline?
+- Wie lautet die Nummer?
+- Ich möchte telefonisch Kontakt aufnehmen.
+
 ## intent:bot_worst_experience
 - Mehr über deine schlechten Erfahrungen!
 - Machst du auch schlimme Erfahrungen?
@@ -9172,6 +9571,9 @@
 	
 <!---
 ## intent:chitchat_botpersonal
+- Magst du jemanden, der dich interessiert, dich zu verfolgen, oder ziehst du es vor zu jagen?
+- Sind Sie ledig?
+- Wann haben Sie Ferien?
 - Würdest du dich für die Liebe umziehen?
 - Wann sind Sie im Urlaub?
 - Was machst du wenn du wütend bist?
@@ -9199,9 +9601,6 @@
 - Hattest Du schon sex?
 - Kannst du dich beschreiben?
 - Können Sie sich beschreiben?
-- Magst du jemanden, der dich interessiert, dich zu verfolgen, oder ziehst du es vor zu jagen?
-- Sind Sie ledig?
-- Wann haben Sie Ferien?
 - Wo würdest du gerne in 5 Jahren sein?
 - Was ist deine Liebessprache?
 - Was ist dein größtes Bedauern im Leben bisher?
@@ -9586,14 +9985,23 @@
 - Sprechen Sie andere Sprachen als Englisch?
 	
 ## intent:comment_offense
+- könntest du deine Fresse halten das wäre sehr nett danke Verena 
 - Du bist hässlich
 - Du bist eine Hure
 - Du bist ein schlechter Bot
 - Du bist ein Volltrottel
 - Du bist ein Nerd
 - Du bist ein Motherfucker
+- Bist halt nicht so schlau
+- Klappe
+- Fresse halten
 - Alter, bist du dumm ey
 - Arsch
+- nur noch dumm was du da labberst..
+- wohl kaum, du pfeife
+- Ok du schdinkst
+- Chom vergiss es.., unseriös und unkompetent..
+- Mit  inhumanen  Drecksrobotern  spreche  ich  nicht  !  
 - Bastard
 - Scheiß Chatbot
 - Du bist blöd
@@ -10117,6 +10525,7 @@
 	
 ## intent:cc_weather
 - Robo, wie ist das wetter?
+- wie ist das wetter heute ?
 - Wie ist das Wetter in China?
 - Wie ist das Wetter in Lissabon?
 - Wie ist das Wetter?
@@ -10612,6 +11021,7 @@
 - Ist alles ok?
 - Ist alles in Ordnung?
 - Ich hoffe, es geht dir gut.
+- wie geht's ihnen ?
 - Ich hoffe, es geht Ihnen gut.
 - Ich hoffe es geht dir gut.
 - Geht es dir gut?
@@ -10659,6 +11069,8 @@
 	
 ## intent:greeting_goodbye
 - Mach es gut!
+- Schönen Abend
+- Sehr gut.   aufwiedersehn
 - Mach‘s gut!
 - Gehe jetzt.
 - Wir sehen uns!
@@ -10670,7 +11082,6 @@
 - Abschied.
 - Hochachtungsvoll.
 - Bis bald!
-- Servus!
 - Nur das Beste!
 - Sehen uns!
 - Bis nächste Woche!
@@ -10737,6 +11148,8 @@
 
 ## intent:user_love
 - Ich bin in Dich verknallt
+- willst du mit mir ausgehen
+- Bist Du noch single
 - Sag mir wie sehr Du mich liebst
 - Liebst du mich?
 - Ich glühe für dich.
@@ -10876,8 +11289,6 @@
 - Nirgends.
 - Nirgendwo.
 - niente
-	
-## intent:nothingmore
 - nix
 - gar nichts mehr
 - das wäre alles
@@ -11553,9 +11964,9 @@
 - [equatorial guinea]{"entity": "country_code", "value": "GQ"}
 - [Equatorial Guinea]{"entity": "country_code", "value": "GQ"}
 - [Guinea Ecuatorial]{"entity": "country_code", "value": "GQ"}
-- [united states]{"entity": "country_code", "value": "US"}
-- [United States]{"entity": "country_code", "value": "US"}
-- [United States of America]{"entity": "country_code", "value": "US"}
+- [Vereinigten Staaten]{"entity": "country_code", "value": "US"}
+- [Amerika]{"entity": "country_code", "value": "US"}
+- [USA]{"entity": "country_code", "value": "US"}
 - [islamic republic of iran]{"entity": "country_code", "value": "IR"}
 - [Islamic Republic of Iran]{"entity": "country_code", "value": "IR"}
 - [Persia]{"entity": "country_code", "value": "IR"}
@@ -11598,8 +12009,8 @@
 - [tanzania]{"entity": "country_code", "value": "TZ"}
 - [Tansania]{"entity": "country_code", "value": "TZ"}
 - [United Republic of Tanzania]{"entity": "country_code", "value": "TZ"}
-- [united arab emirates]{"entity": "country_code", "value": "AE"}
-- [United Arab Emirates]{"entity": "country_code", "value": "AE"}
+- [Dubai]{"entity": "country_code", "value": "AE"}
+- [Vereinigte Arabische Emirate]{"entity": "country_code", "value": "AE"}
 - [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "country_code", "value": "AE"}
 - [antarctica]{"entity": "country_code", "value": "AQ"}
 - [Antarctica]{"entity": "country_code", "value": "AQ"}
@@ -11893,9 +12304,10 @@
 - [chile]{"entity": "country_code", "value": "CL"}
 - [Chile]{"entity": "country_code", "value": "CL"}
 - [Republic of Chile]{"entity": "country_code", "value": "CL"}
-- [iceland]{"entity": "country_code", "value": "IS"}
-- [Iceland]{"entity": "country_code", "value": "IS"}
+- [Island]{"entity": "country_code", "value": "IS"}
+- [island]{"entity": "country_code", "value": "IS"}
 - [Ísland]{"entity": "country_code", "value": "IS"}
+- [Kroatien]{"entity": "country_code", "value": "HR"}
 - [gambia]{"entity": "country_code", "value": "GM"}
 - [Gambia]{"entity": "country_code", "value": "GM"}
 - [Kambiya]{"entity": "country_code", "value": "GM"}
