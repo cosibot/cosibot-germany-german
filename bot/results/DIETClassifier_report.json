@@ -1,0 +1,44 @@
+{
+  "country_district": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
+  },
+  "world_region": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "country_state": {
+    "precision": 1.0,
+    "recall": 0.9705882352941176,
+    "f1-score": 0.9850746268656716,
+    "support": 34
+  },
+  "country_code": {
+    "precision": 0.998681608437706,
+    "recall": 0.9993403693931399,
+    "f1-score": 0.9990108803165183,
+    "support": 1516
+  },
+  "micro avg": {
+    "precision": 0.9987325728770595,
+    "recall": 0.9987325728770595,
+    "f1-score": 0.9987325728770595,
+    "support": 1578
+  },
+  "macro avg": {
+    "precision": 0.9996704021094265,
+    "recall": 0.9924821511718144,
+    "f1-score": 0.9960213767955475,
+    "support": 1578
+  },
+  "weighted avg": {
+    "precision": 0.998733408359672,
+    "recall": 0.9987325728770595,
+    "f1-score": 0.9987281570806558,
+    "support": 1578
+  }
+}

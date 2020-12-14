@@ -1,0 +1,58 @@
+[
+  {
+    "text": "In Berlin ist eine Ausgeheinschränkung",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "Berlin",
+        "entity": "country_state"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ukraine Einreise",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "UA",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Welche Einreisebeschränkungen gibt es in die Ukraine?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 45,
+        "end": 52,
+        "value": "UA",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ich bin gerade in Italien, was soll ich machen?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 18,
+        "end": 25,
+        "value": "IT",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
